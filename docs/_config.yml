@@ -1,0 +1,10 @@
+title: TI-Basic Developer on GitHub
+description: Static backup of TI-Basic Developer
+theme: minima
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      render_with_liquid: false
