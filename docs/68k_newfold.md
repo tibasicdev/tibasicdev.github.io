@@ -6,6 +6,7 @@
 
 ### Menu Location
 Catalog
+       
 # The NewFold Command
 The NewFold command allows the user to create a new folder. It can be run like this:
 ```

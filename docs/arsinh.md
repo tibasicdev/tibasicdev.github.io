@@ -5,7 +5,11 @@
 |Calculates the inverse hyperbolic sine of a value.|sinhֿ¹(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-The sinhֿ¹( command is only found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># S to skip to commands starting with S.<br># Scroll down and select sinhֿ¹(
+The sinhֿ¹( command is only found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. S to skip to commands starting with S.
+1. Scroll down and select sinhֿ¹(
+       
 # The sinhֿ¹( Command
 
 The sinhֿ¹( command calculates the inverse hyperbolic sine of a value. sinhֿ¹(x) is the number y such that x = sinh(y). Unlike for the standard trig functions, this uniquely determines the inverse hyperbolic sine of any real number.

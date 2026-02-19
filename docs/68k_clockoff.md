@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ClockOff Command
 
 The `ClockOff` Command turns off the calculator's clock as far as the [68k:time and date](68k:time-and-date.html) commands are concerned: that is, the timer used by [`68k:startTmr()`](68k:starttmr().html), [`68k:getTime()`](68k:gettime().html), and other commands will not keep updating every second, but will stay the same until the clock is turned on again.

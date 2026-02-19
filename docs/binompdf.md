@@ -5,7 +5,11 @@
 |Calculates the binomial probability, either at a single value or for all values|for a single value:<br>binompdf(*trials*, *probability*, *value*<br><br>for a list of all values (0 to *trials*)<br>binompdf(*trials*, *probability*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 0 to select binompdf(, or use arrows.<br>Press ALPHA A instead of 0 on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 0 to select binompdf(, or use arrows.
+Press ALPHA A instead of 0 on a TI-84+/SE with OS 2.30 or higher.
+       
 # The binompdf( Command
 
 This command is used to calculate the binomial probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

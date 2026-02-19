@@ -5,7 +5,11 @@
 |Multiplies a row by a scalar.|*row(*factor*,*matrix*,*row*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATRX (on a TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.<br># RIGHT to access the MATH submenu.<br># ALPHA E to select *row(, or use arrows and ENTER.
+Press:
+1. MATRX (on a TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
+1. RIGHT to access the MATH submenu.
+1. ALPHA E to select *row(, or use arrows and ENTER.
+       
 # The *row( Command
 
 The *row( command multiplies a row of a matrix by a scalar factor and returns the result. It is an elementary row operation used in Gaussian Elimination. 

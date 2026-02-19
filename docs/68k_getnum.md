@@ -6,6 +6,7 @@
        
 ### Menu Location
 [MATH][9][B][1]
+       
 # The getNum() Command
 
 The `getNum()` command return the value of a given expression (an expression being a number or an algebraic expression). 

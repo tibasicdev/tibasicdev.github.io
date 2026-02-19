@@ -6,6 +6,7 @@
 
 ### Menu Location
 In the program editor, press [F3][4]
+       
 # The InputStr Command
 The InputStr command allows you to input a string to a variable. Since [68k:Input](68k:input.html) doesn't support the storing of strings into variables, you have to use this command to do that. Keep in mind that the inputted variable cannot be the name of a preexisting variable or flash application that is locked, protected, or archived. For example, if you had a program named "a" or "hello", the command wouldn't work because it is already in use.
 ```

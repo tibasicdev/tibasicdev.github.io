@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The StoPic command
 
 This command is used to store a picture that is on your calculator's graphscreen. This is useful for sprites in programs, where you can draw a sprite and save it to a picture that you can later redraw on a background. It is also useful for saving a copy of whatever you are drawing, so that it is not accidentally deleted if you graph something... The row and column arguments specify where on the graphscreen should be stored. Also the width and height arguments specify how tall or wide the stored area should be. The default for the row and column is (0,0), which is the top left corner of the graphscreen. The default width and height is the whole screen.

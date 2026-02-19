@@ -5,7 +5,9 @@
 |Suspends execution for a specified amount of time|Wait [seconds]|TI-84+ CE OS 5.2 or higher|2 bytes|
 
 ### Menu Location
-2ND CATALOG to enter the Catalog.<br>W to go to commands starting with W.
+2ND CATALOG to enter the Catalog.
+W to go to commands starting with W.
+       
 # The Wait Command
 
 The Wait command was introduced in TI-OS 5.2 for the TI-84+CE. The Wait command tells the calculator to wait for a specified number of seconds before continuing. The specified amount of seconds can be a decimal, as it is not limited to whole numbers. This command can be useful for displaying information momentarily before proceeding in a program. The Wait command functions similarly to the [Pause](pause.html) command, but without the extra arguments.

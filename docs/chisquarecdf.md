@@ -5,7 +5,11 @@
 |Finds the probability for an interval of the χ² distribution.|χ²(*lower*, *upper*, *df*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 7 to select χ²cdf(, or use arrows.<br>Press 8 instead of 7 on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 7 to select χ²cdf(, or use arrows.
+Press 8 instead of 7 on a TI-84+/SE with OS 2.30 or higher.
+       
 # The χ²cdf( Command
 
 `χ²cdf(` is the χ² cumulative density function. If some random variable follows a χ² distribution, you can use this command to find the probability that this variable will fall in the interval you supply.

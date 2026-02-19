@@ -5,7 +5,10 @@
 |Sets the size of all defined lists to 0 (equivalent to applying the [ClrList](clrlist.html) command to all defined lists).|ClrAllLists|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd MEM to access the Memory menu<br># 4 to select ClrAllLists, or use arrows
+Press:
+1. 2nd MEM to access the Memory menu
+1. 4 to select ClrAllLists, or use arrows
+       
 # The ClrAllLists Command
 
 The `ClrAllLists` command sets the dimension (length) of all lists to zero. This is virtually equivalent to deleting the lists, except for two differences:

@@ -5,7 +5,12 @@
 |Performs a χ² goodness-of-fit test.|χ²GOF-Test(*observed*,*expected*,*df*)|TI-84+/SE, OS 2.30 or higher|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu.<br># LEFT to access the tests submenu.<br># ALPHA D to select χ²GOF-Test(.<br>(outside the program editor, this will select the χ²GOF-Test… interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu.
+1. LEFT to access the tests submenu.
+1. ALPHA D to select χ²GOF-Test(.
+(outside the program editor, this will select the χ²GOF-Test… interactive solver)
+       
 # The χ²GOF-Test( Command
 
 The `χ²GOF-Test(` command performs a `χ²` goodness-of-fit test. Given an expected ideal distribution of a variable across several categories, and a sample from this variable, it tests the hypothesis that the variable actually fits the ideal distribution. As a special case, you could take the ideal distribution to be evenly divided across all categories. Then, the goodness-of-fit test will test the hypothesis that the variable is independent of the category.

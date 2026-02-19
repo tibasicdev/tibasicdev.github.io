@@ -5,7 +5,11 @@
 |Calculates the hyperbolic tangent of a value.|tanh(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-The tanh( command is only found in the Catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># T to skip to commands starting with T.<br># Scroll down and select tanh(.
+The tanh( command is only found in the Catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. T to skip to commands starting with T.
+1. Scroll down and select tanh(.
+       
 # The tanh( Command
 
 Calculates the hyperbolic tangent of a value. The hyperbolic trig functions [sinh(](sinh.html), [cosh(](cosh.html), and tanh( are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](e-value.html), and don't depend on the [Degree](degree-mode.html) or [Radian](radian-mode.html) mode setting.

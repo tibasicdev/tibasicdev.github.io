@@ -5,7 +5,15 @@
 |Calculates the number of days between two days.|dbd(*date1*, *date2*)<br><br>Date format — one of:<br>* DDMM.YY<br>* MM.DDYY|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># ALPHA D to select dbd(, or use arrows and ENTER.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># ENTER to select Finance...<br># ALPHA D to select dbd(, or use arrows and ENTER.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. ALPHA D to select dbd(, or use arrows and ENTER.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. ENTER to select Finance...
+1. ALPHA D to select dbd(, or use arrows and ENTER.
+       
 # The dbd( Command
 
 The `dbd(` command calculates the number of days between two dates. Each date is encoded as a single number in one of two formats (two formats can be mixed in the same command):

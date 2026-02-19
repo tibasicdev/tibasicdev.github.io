@@ -5,7 +5,10 @@
 |Puts the calculator in scientific notation mode.|Sci|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Sci.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Sci.
+       
 # The Sci Command
 
 The Sci command puts the calculator in scientific notation mode, so that all results are displayed in scientific notation: as a (possibly fractional) number between 1 and 10 (not including 10) multiplied by a power of 10.

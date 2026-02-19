@@ -5,7 +5,10 @@
 |Draws a horizontal line on the graph screen.|Horizontal *Y*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-In the program editor:<br># 2nd DRAW to enter the draw menu<br># 3 to insert the Horizontal command, or use arrows and ENTER.
+In the program editor:
+1. 2nd DRAW to enter the draw menu
+1. 3 to insert the Horizontal command, or use arrows and ENTER.
+       
 # The Horizontal Command
 
 `Horizontal Y` draws a vertical line from the left of the graph screen to the right at *Y*. `Horizontal` is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [`Vertical`](vertical.html).

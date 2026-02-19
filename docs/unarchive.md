@@ -5,7 +5,10 @@
 |Moves a variable from the archive to RAM.|UnArchive *variable*|TI-83+/84+/SE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd MEM to access the memory menu<br># 6 to select UnArchive, or use arrows.
+Press:
+1. 2nd MEM to access the memory menu
+1. 6 to select UnArchive, or use arrows.
+       
 # The UnArchive Command
 
 The UnArchive command moves a variable from the archive (also known as [ROM](glossary.html#R)) to [RAM](glossary.html#R). A quick synopsis of the difference between the two:

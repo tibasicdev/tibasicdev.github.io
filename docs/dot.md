@@ -5,7 +5,10 @@
 |Sets all equations to use the dotted-line graphing style, and makes it the default setting.|Dot|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MODE to access the mode menu.<br># Use arrows to select Dot.
+Press:
+1. MODE to access the mode menu.
+1. Use arrows to select Dot.
+       
 # The Dot Command
 
 The `Dot` command sets all equations to use the disconnected "dotted-line" graph style: it calculates and draws points on the graph, but doesn't connect them. In addition, this graph style is made the default, so that when a variable is deleted it will revert to this graph style. The other possible setting for this option is [`Connected`](connected.html).

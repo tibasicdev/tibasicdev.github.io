@@ -5,7 +5,11 @@
 |Turns on a pixel on the graph screen.|Pxl-On(*row*,*column*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># 2nd PRGM to enter the DRAW menu<br># RIGHT to enter the POINTS menu<br># 4 to choose Pxl-On(, or use arrows
+While editing a program press:
+1. 2nd PRGM to enter the DRAW menu
+1. RIGHT to enter the POINTS menu
+1. 4 to choose Pxl-On(, or use arrows
+       
 # The Pxl-On( Command
 
 The Pxl-On( command is used to turn on the pixel at the given (Y,X) coordinates. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) unlike the (X,Y) of the [Pt-On(](pt-on.html) command. Also note that the (0,0) point is the upper left corner of the Graph screen.

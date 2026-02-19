@@ -5,7 +5,12 @@
 |Multiples two values, using element-by-element multiplication for two matrices.|*value1* .* *value2*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press 4 to enter the Matrix submenu.<br>* Press K to enter the Element ops submenu.<br>* Press 3 to select .*.<br>...frankly, just typing it is way easier.
+- Press 2nd MATH to enter the MATH menu.
+- Press 4 to enter the Matrix submenu.
+- Press K to enter the Element ops submenu.
+- Press 3 to select .*.
+...frankly, just typing it is way easier.
+       
 # The .* Command
 
 In most cases, .* does the same thing as [*](68k:multiply.html). The difference only applies to multiplying two matrices. Whereas * uses the linear-algebra definition (see its article for details), .* does the simple thing and multiplies the matrices element by element (obviously, they must match in size for this to work). 

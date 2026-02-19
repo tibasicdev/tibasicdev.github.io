@@ -6,6 +6,7 @@
 
 ### Menu Location
 This command can only be accessed through a hex editor (its hex code is 0xBB 0xDA)
+       
 # The % Command
 
 The % symbol is an undocumented command on the TI-83 series calculators starting with OS version 1.15. It's useful as a shortcut for percents - it divides by 100, so it will convert numbers to percentages. For example, 50% will become 50/100 or 1/2, which is just what 50% should be.

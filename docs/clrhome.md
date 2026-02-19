@@ -5,7 +5,11 @@
 |Clears the home screen of any text or numbers.|ClrHome|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 8 to choose ClrHome, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 8 to choose ClrHome, or use arrows
+       
 # The ClrHome Command
 
 There are numerous times in a program that you need a clear screen, so that you can display whatever text you want without it being interrupted. One place, in particular, is at the [beginning](setup.html) of a program, since the previous program call(s) and any other text is typically still displayed on the screen. The simple `ClrHome` command is the command you use to clear the home screen.

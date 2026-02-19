@@ -5,7 +5,10 @@
 |Sets the calculator to display point coordinates using rectangular (Cartesian) coordinates.|RectGC|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format screen<br># Use arrows and ENTER to select RectGC.
+Press:
+1. 2nd FORMAT to access the graph format screen
+1. Use arrows and ENTER to select RectGC.
+       
 # The RectGC Command
 
 The RectGC ("Rectangular Grid Coordinates") command (like its opposite, the [PolarGC](polargc.html)) command, affects how the coordinates of a point on the graph screen are displayed. When RectGC is enabled, the coordinates of a point are displayed as (X,Y).

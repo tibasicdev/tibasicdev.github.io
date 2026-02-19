@@ -5,7 +5,11 @@
 |Sets the time of the clock on the TI-84+/SE.|setTime(*hour*,*minute*,*second*)|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># s to skip to commands starting with S<br># Scroll down to setTime( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. s to skip to commands starting with S
+1. Scroll down to setTime( and select it
+       
 # The setTime( Command
 
 The setTime( command sets the time of the clock on the TI-84+/SE calculators. It takes three arguments: the hour, the minute, and the second. The hour must be in 24 hour format — where 13 is equal to 1 P.M. — and the minute and second need to be a valid number within the appropriate range (1-60). For example, this would set the time to 12:30:30:

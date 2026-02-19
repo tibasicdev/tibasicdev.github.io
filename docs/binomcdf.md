@@ -5,7 +5,11 @@
 |Calculates the binomial cumulative probability, either at a single value or for all values|for a single value:<br>binomcdf(*trials*, *probability*, *value*<br><br>for a list of all values (0 to *trials*)<br>binomcdf(*trials*, *probability*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA A to select binomcdf(, or use arrows.<br>Press ALPHA B instead of ALPHA A on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ALPHA A to select binomcdf(, or use arrows.
+Press ALPHA B instead of ALPHA A on a TI-84+/SE with OS 2.30 or higher.
+       
 # The binomcdf( Command
 
 This command is used to calculate the binomial cumulative probability function. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

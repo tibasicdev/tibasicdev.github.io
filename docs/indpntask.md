@@ -5,7 +5,10 @@
 |Doesn't automatically fill in table values for the independent variable.|IndpntAsk|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TBLSET to access the table settings menu.<br># Use arrows and ENTER to select Ask in the Indpnt: line.
+Press:
+1. 2nd TBLSET to access the table settings menu.
+1. Use arrows and ENTER to select Ask in the Indpnt: line.
+       
 # The IndpntAsk Command
 
 With the `IndpntAsk` setting, the independent variable (X, T, θ, or *n* depending on [graphing mode](graphing-mode.html)) will not be calculated automatically in the table. Instead, when looking at the table, you must select an entry in the independent variable column, press ENTER, and enter a value. The values entered will also be stored to the [`TblInput`](system-variables.html#window) list.

@@ -5,7 +5,10 @@
 |Draws a circle on the graphscreen|*Circle X,Y,radius,drawing mode*|TI-89(T)/92|1 byte or 2 bytes|
 
 ### Menu Location
-- Press [Diamond][F3] to enter the graphscreen<br>* [F5][LEFT][LEFT] to get to the F7 menu<br>* [4], then follow the prompts to draw the circle
+- Press [Diamond][F3] to enter the graphscreen
+- [F5][LEFT][LEFT] to get to the F7 menu
+- [4], then follow the prompts to draw the circle
+       
 # The Circle Command
 
 The `Circle` command allows a person to draw a circle on the graphscreen. It can be drawn using the given keystrokes, or it can be called at the homecreen by typing it out.

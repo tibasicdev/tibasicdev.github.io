@@ -5,7 +5,10 @@
 |Takes the hyperbolic tangent of a number.|tanh(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press C to enter the Hyperbolic submenu.<br>* Press 3 to select tanh(.
+- Press 2nd MATH to enter the MATH menu.
+- Press C to enter the Hyperbolic submenu.
+- Press 3 to select tanh(.
+       
 # The tanh() Command
 
 

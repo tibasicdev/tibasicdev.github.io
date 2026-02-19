@@ -8,6 +8,7 @@
        
 ### Menu Location
 This command can be found under F1 (Tools) and then selecting 8:Clear Table
+       
 # Clrtable
 
 Clears all table values, applies only to ASK setting on the Table Setup dialog box.  

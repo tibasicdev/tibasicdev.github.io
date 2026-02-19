@@ -5,7 +5,11 @@
 |Calculates the best fit line through a set of points.|LinReg(a+bx) [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># RIGHT to access the CALC submenu<br># 8 to select LinReg(a+bx), or use arrows
+Press:
+1. STAT to access the statistics menu
+1. RIGHT to access the CALC submenu
+1. 8 to select LinReg(a+bx), or use arrows
+       
 # The LinReg(a+bx) Command
 
 The LinReg(a+bx) command is one of several that can calculate the line of best fit through a set of points (it differs from [LinReg(ax+b)](linreg(ax-b).html) only in the format of its output). To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.

@@ -5,7 +5,11 @@
 |Indicates the beginning of a custom list.|∟*LISTNAME*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># 2nd LIST to access the List menu<br># RIGHT to access the OPS submenu<br># 2nd B to select ∟, or use arrows
+While editing a program, press:
+1. 2nd LIST to access the List menu
+1. RIGHT to access the OPS submenu
+1. 2nd B to select ∟, or use arrows
+       
 # The ∟ Command
 
 The ∟ character is used at the start of the name of any custom list you create, for example:

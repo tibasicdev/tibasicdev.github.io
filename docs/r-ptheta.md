@@ -5,7 +5,10 @@
 |R►Pθ( calculates the angle coordinate (in polar coordinates) given the Cartesian coordinates.|R►Pθ(*x*,*y*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 6 to select R►Pθ(, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 6 to select R►Pθ(, or use arrows and ENTER.
+       
 # The R►Pθ( Command
 
 R►Pθ( (Rectangular to polar θ) takes the (*x*,*y*) (Cartesian) coordinate, and returns the angle that the ray  from (0,0) to (*x*,*y*) makes with the positive x-axis. This is the θ-coordinate of the same point in (*r*,*θ*) (polar) mode. The identity used for this conversion is tan(*θ*)=*y**/x*, with the correct inverse being chosen depending on the quadrant that the point is in. The range of the angle returned is -π<*θ*≤π. R►Pθ( can also be used on lists.

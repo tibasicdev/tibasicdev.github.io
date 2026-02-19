@@ -5,7 +5,11 @@
 |Gets a variable from another calculator.|GetCalc(*variable*)<br><br>(84+ and 84+SE only)<br>GetCalc(*variable*,*portflag*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 9 to choose GetCalc(, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 9 to choose GetCalc(, or use arrows
+       
 # The GetCalc( Command
 
 The `GetCalc(` command allows you to make [multiplayer](multiplayer.html) games, where two calculators communicate with each other across a link cable that is connected between them. The `GetCalc(` command can only receive one variable from another calculator, and the variable can be any variable (a real, list, matrix, string, etc.). The calculator doesn't exchange variable values when the variable is received, but instead replace the variable of the same name on the receiving calculator.

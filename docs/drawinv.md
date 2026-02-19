@@ -5,7 +5,10 @@
 |Draws the inverse of a curve in terms of X.|DrawInv *curve*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to access the draw menu.<br># 8 to select DrawInv, or use arrows and ENTER.
+Press:
+1. 2nd DRAW to access the draw menu.
+1. 8 to select DrawInv, or use arrows and ENTER.
+       
 # The DrawInv Command
 
 The `DrawInv` command draws the inverse of a curve in terms of X. Its single argument is an expression in terms of X.

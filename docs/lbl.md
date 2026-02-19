@@ -5,7 +5,10 @@
 |Defines a label for a particular [Goto](goto.html) or [Menu(](menu.html) to jump to.|Lbl *name*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># 9 to choose Lbl, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. 9 to choose Lbl, or use arrows
+       
 # The Lbl Command
 
 The Lbl command is used together with the [Goto](goto.html) command to jump (or branch) to another place in a program. When the calculator executes a Goto command, it stores the label name in memory, and then searches from the beginning of the program for the Lbl command with the supplied name. If it finds it, it continues running the program from that point; otherwise, if the label does not exist, it throws a [ERR: LABEL](errors.html#label) error.

@@ -5,7 +5,10 @@
 |Returns a subsection from the left of a list or string, or the left hand side of an equation.|left(*equation*)<br>left(*list-or-string*,*length*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 3 to enter the List submenu.<br>* Press 9 to select left(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 3 to enter the List submenu.
+- Press 9 to select left(.
+       
 # The left() Command
 
 When applied to a list or a string, left(*x*,*length*) gets the first *length* elements/characters of *x*. This is an alternative to [68k:mid()](68k:mid().html), which will do the same thing from any point in the list or string, not just the beginning.

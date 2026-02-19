@@ -5,7 +5,10 @@
 |Clears the graph screen, redrawing functions, plots, and axes/grid/labels, if applicable.|ClrDraw|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd PRGM to enter the DRAW menu<br># 1 or ENTER to select ClrDraw
+Press:
+1. 2nd PRGM to enter the DRAW menu
+1. 1 or ENTER to select ClrDraw
+       
 # The ClrDraw Command
 
 The `ClrDraw` command is useful clearing away something drawn on the graph screen; in particular, you want to do this at the beginning of a program that uses the graph screen, to get rid of anything that might be on it initially. If there are functions, plots, axes, labels, or grid enabled, these will be redrawn even after you `ClrDraw`. If you don't want these, you should turn them off before the `ClrDraw` command.

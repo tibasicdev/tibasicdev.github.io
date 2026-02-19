@@ -5,7 +5,11 @@
 |Calculates the best fit logarithmic curve through a set of points.|LnReg [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 9 to select LnReg, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 9 to select LnReg, or use arrows
+       
 # The LnReg Command
 
 LnReg tries to fit a logarithmic curve (y=a+b*lnx) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.

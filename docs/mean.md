@@ -5,7 +5,11 @@
 |Finds the mean (the average) of a list.|mean(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2ND LIST to enter the LIST menu.<br># LEFT to enter the MATH submenu.<br># 3 to select mean(, or use arrows.
+Press:
+1. 2ND LIST to enter the LIST menu.
+1. LEFT to enter the MATH submenu.
+1. 3 to select mean(, or use arrows.
+       
 # The mean( Command
 
 The mean( command finds the [mean](http://en.wikipedia.org/wiki/mean), or the average, of a list. It's pretty elementary. It takes a list of real numbers as a parameter. For example:

@@ -5,7 +5,11 @@
 |Tests a pixel on the graph screen to see if it is on or off.|pxl-Test(Y,X)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># 2nd PRGM to enter the DRAW menu<br># RIGHT to enter the POINTS menu<br># 7 to choose pxl-Test(, or use arrows
+While editing a program press:
+1. 2nd PRGM to enter the DRAW menu
+1. RIGHT to enter the POINTS menu
+1. 7 to choose pxl-Test(, or use arrows
+       
 # The pxl-Test( Command
 
 The pxl-Test( command is used to test a pixel at the given (Y,X) coordinates of the graph screen, to see whether it is on or off. One is returned if the pixel is on and zero is returned if the pixel is off. Please note that the coordinates are switched around so that the row comes first and then the column — it's (Y,X) instead of (X,Y). This command's coordinates are independent of the window settings.

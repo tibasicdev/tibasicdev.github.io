@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ! Command
 
 The ! operator takes the factorial of a number: for a positive, whole number, n! is defined as n*(n-1)*(n-2)*...*3*2*1. As a special case, 0! is defined to be 1.

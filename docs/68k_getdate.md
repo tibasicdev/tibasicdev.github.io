@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getDate() command
 
 The getDate() command checks the date that the calculator is set to, and then returns it in a list format. The list will always be in the format {year, month, day}. To change this list to another format, you can use the closely related [68k:getDtStr()](68k:getdtstr().html) option, which just returns the date in a string format, not as a list. The [68k:setDtFmt()](68k:setdtfmt().html) command does not work on this command, but it will change the format that the calculator returns the [68k:getDtStr()](68k:getdtstr().html) command as.

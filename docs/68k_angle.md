@@ -5,7 +5,10 @@
 |Returns the angle of *expression*, interpreting *expression* as a complex number.|angle(*expression*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 5 to enter the Complex submenu.<br>* Press 4 to select angle(
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 5 to enter the Complex submenu.
+- Press 4 to select angle(
+       
 # The angle() Command
 
 

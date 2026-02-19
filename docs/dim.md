@@ -5,7 +5,16 @@
 |Returns the size of a list or matrix. Can also be used to change the size.|dim(*list*<br><br>dim(*matrix*<br><br>*length*→dim(*list*<br><br>{*rows*,*columns*→dim(*matrix*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu<br># RIGHT to access the OPS submenu<br># 3 to choose dim(, or use arrows<br><br>Alternatively, press:<br># MATRIX (83) or 2nd MATRIX (83+ or higher) to access the matrix menu<br># RIGHT to access the MATH submenu<br># 3 to choose dim(, or use arrows
+Press:
+1. 2nd LIST to access the list menu
+1. RIGHT to access the OPS submenu
+1. 3 to choose dim(, or use arrows
+
+Alternatively, press:
+1. MATRIX (83) or 2nd MATRIX (83+ or higher) to access the matrix menu
+1. RIGHT to access the MATH submenu
+1. 3 to choose dim(, or use arrows
+       
 # The dim( Command
 
 The `dim(` command is used to find the size of an existing list or matrix. It takes only one argument - the list or matrix you want the size of. For a list, it returns the number of elements; for a matrix, it returns a two-element list of the number of rows and the number of columns.

@@ -5,7 +5,11 @@
 |Sets the date format of the clock on the TI-84+/SE.|setDtFmt(*value*)|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># s to skip to commands starting with S<br># Scroll down to setDtFmt( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. s to skip to commands starting with S
+1. Scroll down to setDtFmt( and select it
+       
 # The setDtFmt( Command
 
 The setDtFmt( command sets the date format of the clock on the TI-84+/SE calculators when displaying the date on the [mode screen](settings.html). There are three different formats available, and you simply use the respective value (can be either a literal number or a variable) to display the desired one: 1 (M/D/Y), 2 (D/M/Y), or 3 (Y/M/D). For example, this would set the date format to Month/Day/Year:

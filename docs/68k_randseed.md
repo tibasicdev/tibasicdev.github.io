@@ -5,7 +5,10 @@
 |Seeds the random number generator.|RandSeed *value*|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 7 to enter the Probability submenu.<br>* Press 6 to select RandSeed.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 7 to enter the Probability submenu.
+- Press 6 to select RandSeed.
+       
 # The RandSeed Command
 
 The RandSeed command seeds the random number generator. The value you use should be a positive integer: the sign and any decimals will be simply ignored.

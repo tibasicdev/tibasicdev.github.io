@@ -5,7 +5,10 @@
 |Completely stops the current program and any parent programs.|Stop|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press<br># PRGM to enter the program menu<br># ALPHA F to choose Stop, or use arrows
+While editing a program, press
+1. PRGM to enter the program menu
+1. ALPHA F to choose Stop, or use arrows
+       
 # The Stop Command
 
 When the Stop command is used in a program it exits the program (terminating the program execution) and returns you to the home screen. If it is encountered within [loops](controlflow.html), the loops will be stopped.

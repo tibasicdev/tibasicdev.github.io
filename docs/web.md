@@ -5,7 +5,10 @@
 |Sets sequence equations to be graphed as web diagrams.|Web|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While in [Seq](http://tibasicdev.github.io/seq-mode) mode, press:<br># 2nd FORMAT to access the format menu.<br># Use arrows and ENTER to select Web.
+While in [Seq](http://tibasicdev.github.io/seq-mode) mode, press:
+1. 2nd FORMAT to access the format menu.
+1. Use arrows and ENTER to select Web.
+       
 # The Web Command
 
 In Web mode, sequence equations are graphed as [web diagrams](http://mathworld.wolfram.com/webdiagram.html). This is a way of visualizing iterations of a function (that is, the sequence n, f(n), f(f(n)), f(f(f(n))), ... for some function f and starting value n). For this mode to properly work, each sequence equation should be in terms of its previous value only: u(*n*) should be a function of u(*n*-1). Referencing other sequence equations, or u(*n*-2), will yield [ERR:INVALID](errors.html#invalid); referencing the value *n* is allowed by the calculator, but makes the result meaningless so you should avoid it.

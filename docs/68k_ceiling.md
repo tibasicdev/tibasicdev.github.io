@@ -5,7 +5,10 @@
 |Returns the ceiling of a number.|ceiling(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press 7 to select ceiling(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 1 to enter the Number submenu.
+- Press 7 to select ceiling(.
+       
 # The ceiling() Command
 
 The `ceiling()` command rounds a number up to the nearest integer at least as large as the number. For instance, `ceiling(π)` returns 4, while `ceiling(-π)` returns -3.

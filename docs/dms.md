@@ -5,7 +5,10 @@
 |Formats a displayed number as a degree-minute-second angle.|*value*►DMS|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 4 to select ►DMS, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 4 to select ►DMS, or use arrows and ENTER.
+       
 # The ►DMS Command
 
 The `►DMS` command can be used when displaying a real number on the home screen, or with the [`Disp`](disp.html) and [`Pause`](pause.html) commands. It will then format the number as an angle with degree, minute, and second parts.

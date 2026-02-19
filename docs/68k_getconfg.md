@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getConfg() Command
 
 The getConfg() command returns a list of useful and not-so-useful information about the calculator. Every other entry in the list is a description of the next entry, so it's not too hard to figure out which entry you need if necessary.

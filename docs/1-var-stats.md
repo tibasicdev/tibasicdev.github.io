@@ -5,7 +5,11 @@
 |Calculates some statistics for a single list of data, and stores them to statistical variables. They're also displayed in a scrollable list, if done outside a program.|1-Var Stats [*list*, [*freqlist*]]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 1 or ENTER to select 1-Var Stats
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 1 or ENTER to select 1-Var Stats
+       
 # The 1-Var Stats Command
 
 This command calculates a bunch of common (and a few uncommon) statistics for a [list](lists.html) (it uses L1 by default, but you can use any list by supplying it as an argument). You have to store the list to a variable first, though, before calculating statistics for it. For example:

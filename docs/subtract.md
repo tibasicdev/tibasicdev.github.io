@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [-]
+       
 # The - Command
 
 The - (subtract) operator takes two numbers, variables, or expressions and subtracts one from the other, thus returning the difference between them. The - operator appears lower in the order of operations than both [*](multiply.html) and [/](divide.html), so if those appear in an expression, they will be executed first. In addition,  the [+](add.html) operator has the same order of operations as -, so the calculator simply executes them left to right in the order that they appear.

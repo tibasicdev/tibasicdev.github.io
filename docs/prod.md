@@ -5,7 +5,11 @@
 |Calculates the product of all or part of a list.|prod(*list*[,*start*,[*end*]])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># LEFT to access the MATH submenu.<br># 6 to select prod(, or use arrows and ENTER.
+Press:
+1. 2nd LIST to access the list menu.
+1. LEFT to access the MATH submenu.
+1. 6 to select prod(, or use arrows and ENTER.
+       
 # The prod( Command
 
 The prod( command calculates the product of all or part of a list. 

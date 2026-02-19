@@ -5,7 +5,10 @@
 |Sets the graphing style of a graphing equation in the current mode.|GraphStyle(*equation #*, *style #*)|TI-83/84/+/SE/CE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to access the programming menu.<br># ALPHA H to select GraphStyle(, or use arrows.
+While editing a program, press:
+1. PRGM to access the programming menu.
+1. ALPHA H to select GraphStyle(, or use arrows.
+       
 # The GraphStyle( Command
 
 The `GraphStyle(` command allows you to set the graphing style of an equation (line, thick line, dotted line, etc.) from within a program.

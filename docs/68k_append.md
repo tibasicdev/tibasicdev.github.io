@@ -5,7 +5,10 @@
 |Joins two strings together.|*string*&*string*|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the String submenu.<br>* Press 4 to select &.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the String submenu.
+- Press 4 to select &.
+       
 # The & Command
 
 The & operator joins two strings together, one after the other, returning one large string.

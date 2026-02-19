@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [/]
+       
 # The / Command
 
 The / (divide) operator takes two numbers, variables, or expressions and divides them, thus returning a single new value. The / operator appears higher in the order of operations than both [+](add.html) and [-](subtract.html), so if those appear in an expression, / will be executed first. In addition, the [*](multiply.html) operator has the same order of operations as /, so the calculator simply executes them left to right in the order that they appear.

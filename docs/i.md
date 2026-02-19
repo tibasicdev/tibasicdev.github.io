@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press 2nd *i* to paste *i*.
+       
 # The i Command
 
 The *i* symbol is short for √(-1), and is used for complex numbers in algebra and complex analysis. On the calculator, entering *i* will not cause an error, even in [Real](real-mode.html) mode, but operations that result in a complex number (such as taking the square root of a negative number) will. If you're dealing with complex numbers, then, it's best to switch to [a+bi](a-bi.html) or [re^θi](re-thetai.html) mode.

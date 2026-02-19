@@ -5,7 +5,12 @@
 |Using either already-calculated statistics, or two data sets, computes a T confidence interval for the difference between two sample means.|2-SampTInt *list1*, *list2*, [*frequency1*], [*frequency2*], [*confidence level*, *pooled*]<br>(data list input)<br><br>2-SampTInt *x<sub>1</sub>*, *s<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*confidence level*, *pooled*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-When editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 0 to select 2-SampTInt, or use arrows<br>(this key sequence will give you the 2-SampTInt... screen outside a program)
+When editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 0 to select 2-SampTInt, or use arrows
+(this key sequence will give you the 2-SampTInt... screen outside a program)
+       
 # The 2-SampTInt Command
 
 The 2-SampTInt command uses the techniques of T Intervals to compute an interval for the **difference** between the means of two independent populations, at a specified confidence level. Use 2-SampTInt( when you have two independent variables to compare, and you don't know their standard deviations. The 2-SampTInt command assumes that both your variables are normally distributed, but it will work for other distributions if the sample size is large enough.

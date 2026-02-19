@@ -6,6 +6,7 @@
        
 ### Menu Location
 [Math][Probability][3]
+       
 # The nCr() Command
 
 This performs the operation "n choose r" where *expr1* is n and *expr2* is r.

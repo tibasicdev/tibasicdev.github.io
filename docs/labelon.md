@@ -5,7 +5,10 @@
 |Puts labels on the X and Y coordinate axes.|LabelOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the format menu.<br># Use arrows and ENTER to select LabelOn.
+Press:
+1. 2nd FORMAT to access the format menu.
+1. Use arrows and ENTER to select LabelOn.
+       
 # The LabelOn Command
 
 The `LabelOn` setting enables labels on the X and Y coordinate axes. If both `LabelOn`and [`AxesOn`](axeson.html) are set, the axes will be displayed with an X next to the X (horizontal) axis, and a Y next to the Y (vertical) axis. To disable these labels, use the [`LabelOff`](labeloff.html) setting.

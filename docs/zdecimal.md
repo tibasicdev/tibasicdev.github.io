@@ -5,7 +5,10 @@
 |Zooms to a [friendly window](friendly-window.html) where all pixels have simple coordinates.|ZDecimal|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 4 to select ZDecimal, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 4 to select ZDecimal, or use arrows and ENTER.
+       
 # The ZDecimal Command
 
 The `ZDecimal` command makes the following changes to the [window variables](system-variables.html#window):

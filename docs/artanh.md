@@ -5,7 +5,11 @@
 |Calculates the inverse hyperbolic tangent of a value.|tanhֿ¹(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-The tanhֿ¹( command is only found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># T to skip to commands starting with T.<br># Scroll down and select tanhֿ¹(
+The tanhֿ¹( command is only found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. T to skip to commands starting with T.
+1. Scroll down and select tanhֿ¹(
+       
 # The tanhֿ¹( Command
 
 The tanhֿ¹( command calculates the inverse hyperbolic tangent of a value. tanhֿ¹(x) is the number y such that x = tanh(y).

@@ -5,7 +5,16 @@
 |Fills a list or matrix with one number.|Fill(*value*,*matrix*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># RIGHT to access the OPS submenu.<br># 4 to select Fill(, or use arrows.<br><br>Alternatively, press:<br># MATRX (83) or 2nd MATRX (83+ or higher) to access the matrix menu.<br># RIGHT to access the MATH submenu.<br># 4 to select Fill(, or use arrows.
+Press:
+1. 2nd LIST to access the list menu.
+1. RIGHT to access the OPS submenu.
+1. 4 to select Fill(, or use arrows.
+
+Alternatively, press:
+1. MATRX (83) or 2nd MATRX (83+ or higher) to access the matrix menu.
+1. RIGHT to access the MATH submenu.
+1. 4 to select Fill(, or use arrows.
+       
 # The Fill( Command
 
 The `Fill(` command takes an existing list or matrix variable and sets all its elements to a single number. It doesn't return anything and only works on already defined variables.

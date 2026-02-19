@@ -5,7 +5,11 @@
 |Recalls window settings previously saved with [ZoomSto](http://tibasicdev.github.io/zoomsto).|ZoomRcl|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># RIGHT to access the MEMORY submenu.<br># 3 to select ZoomRcl, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. RIGHT to access the MEMORY submenu.
+1. 3 to select ZoomRcl, or use arrows and ENTER.
+       
 # The ZoomRcl Command
 
 The ZoomRcl command restores a backup of the window settings previously saved by [ZoomSto](zoomsto.html) — this backup is stored in special variables found in the VARS>Zoom... menu, which are distinguished by a Z in front of their name. For example, Xmin is restored from ZXmin, PlotStart is restored from ZPlotStart, etc. 

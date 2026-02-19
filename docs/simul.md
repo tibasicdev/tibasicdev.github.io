@@ -5,7 +5,10 @@
 |Puts the calculator into simultaneous graphing mode.|Simul|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Simul.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Simul.
+       
 # The Simul Command
 
 Simul puts the calculator into simultaneous graphing mode. When multiple equations are enabled at the same time, simultaneous graphing mode graphs them at the same time (as opposed to [Sequential](sequential.html) mode, in which they will be graphed one after the other)

@@ -5,7 +5,11 @@
 |Prompts the user to enter values for variables and then stores those values to the variables.|Prompt *variableA*[,*variableB*,...]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 2 to choose Prompt, or use arrows
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 2 to choose Prompt, or use arrows
+       
 # The Prompt Command
 
 The `Prompt` command is the simplest way of getting [user input](userinput.html) on the [home screen](homescreen.html) (getting user input on the [graph screen](graphscreen.html) is only possible with the [`getKey`](getkey.html) command). Prompt displays [variables](variables.html) one per line, with an equal sign and question mark (=?) displayed to the right of each variable. After the user enters a value or expression for the variables and presses ENTER, the values will be stored to the variables and program execution will resume.

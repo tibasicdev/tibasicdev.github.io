@@ -5,7 +5,10 @@
 |Zooms in to a smaller graphing window defined by a box drawn by the user.|ZBox|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># ENTER to select ZBox.
+Press:
+1. ZOOM to access the zoom menu.
+1. ENTER to select ZBox.
+       
 # The ZBox Command
 
 The ZBox command allows the user to select a smaller window within the current graphing window to zoom in to. To select the window, use the arrow keys and ENTER to select one corner of the window; then as you use the arrow keys and ENTER to select the other corner, a rectangle of the window's dimensions will be shown.

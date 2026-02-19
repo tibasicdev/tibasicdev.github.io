@@ -5,7 +5,11 @@
 |Clears up 'garbage' that comes from unarchiving or deleting archived files.|GarbageCollect|TI-83+/84+/SE<br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to access the command catalog<br># G to skip to commands starting with G<br># ENTER to select GarbageCollect
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog
+1. G to skip to commands starting with G
+1. ENTER to select GarbageCollect
+       
 # The GarbageCollect Command
 
 A bit of a preamble: unlike RAM, which is the easy-to-access memory, Flash ROM (the archive), used for long-term storage on the 83+ and higher, can't be written to easily. Skipping over technicalities, what's written in the archive once is semi-permanent, and can't be written to again unless an entire 64KB sector of memory is erased.

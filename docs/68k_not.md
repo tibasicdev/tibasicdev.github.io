@@ -5,7 +5,10 @@
 |Reverses a condition.<br>Can also be used as a bitwise "not" on integers.|not *condition*<br>not *integer*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 8 to enter the Test submenu.<br>* Press 7 to select not.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 8 to enter the Test submenu.
+- Press 7 to select not.
+       
 # The not (~) Command
 
 The "not" operator reverses a condition, making it true if it had been false, and false if it had been true. You can create these conditions with the relational operators [=](68k:equal.html), [≠](68k:not-equal.html), [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html), with functions such as [68k:isPrime()](68k:isprime().html), [68k:pxlTest()](68k:pxltest().html), and [68k:ptTest()](68k:pttest().html), or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [68k:and](68k:and.html), [68k:or](68k:or.html), and [68k:xor](68k:xor.html).

@@ -5,7 +5,10 @@
 |Enables a grid of colored lines on the graph screen.|GridLine [*color#*]|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format menu.<br># Use arrows and ENTER to select GridLine.
+Press:
+1. 2nd FORMAT to access the graph format menu.
+1. Use arrows and ENTER to select GridLine.
+       
 # The GridLine Command
 
 The `GridLine` command enables a grid of colored lines on the graph screen (you can disable it with the [`GridOff`](gridoff.html) command). How fine or coarse the grid is depends on the [`Xscl`](system-variables.html#window) and [`Yscl`](system-variables.html#window) variables. Drawing the grid just involves plotting points all the horizontal and vertical lines that intersect points of the form (A×`Xscl`, B×`Yscl`) that are in the graphing window. The grid can be colored based on any color variable or value.

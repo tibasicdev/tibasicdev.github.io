@@ -5,7 +5,11 @@
 |Generates a random integer between *min* and *max*, inclusive, or a list of such numbers.|randInt(*min*,*max*[,*# of numbers*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 5 to select randInt(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 5 to select randInt(, or use arrows.
+       
 # The randInt( Command
 
 randInt(*min*,*max*) generates a uniformly-distributed pseudorandom integer between *min* and *max* inclusive. randInt(*min*,*max*,*n*) generates a list of *n* uniformly-distributed pseudorandom integers between *min* and *max*.

@@ -6,6 +6,7 @@
 
 ### Menu Location
 While editing a program, press the TRACE key.
+       
 # The Trace Command
 
 The Trace command displays the graph screen, and allows the user to trace any graphed equations or plots. It works in almost exactly the same way as pressing TRACE does outside a program. When the user presses ENTER, control returns to the program.

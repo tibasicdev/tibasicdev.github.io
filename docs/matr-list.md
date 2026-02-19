@@ -5,7 +5,11 @@
 |Stores one or more columns of a given matrix to list variables|Matr►list(*matrix*, *list-var1*, [*list-var2*, ...])<br>Matr►list(*matrix*, *column#*, *list-var*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATRX (on the 83) or 2nd MATRX (83+ or higher) to access the matrix menu<br># LEFT to access the MATH submenu<br># 8 to select Matr►list(, or use arrows.
+Press:
+1. MATRX (on the 83) or 2nd MATRX (83+ or higher) to access the matrix menu
+1. LEFT to access the MATH submenu
+1. 8 to select Matr►list(, or use arrows.
+       
 # The Matr►list( Command
 
 The Matr►list( command stores one or more columns of a matrix (or expression resulting in a matrix) to list variables. The syntax is simple: first enter the matrix, then enter the list or lists you want to store columns to. The first (leftmost) column will be stored to the first list entered, the second column will be stored to the second list, and so on. For example:

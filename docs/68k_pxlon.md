@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The PxlOn Command
 
 The PxlOn command turns on a pixel on the graph screen. It uses pixel coordinates, which means that the result isn't affected by [window variables](68k:system-variables.html#window) like xmin and xmax: PxlOn P, Q will always turn on the pixel P rows down and Q columns across from the top left corner of the graph screen.

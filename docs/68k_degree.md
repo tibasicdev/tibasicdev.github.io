@@ -5,7 +5,10 @@
 |Converts an angle to degrees, if necessary.|*angle*°|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 2 to enter the Angle submenu.<br>* Press 1 to select °.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 2 to enter the Angle submenu.
+- Press 1 to select °.
+       
 # The ° Command
 
 The ° symbol used after an angle makes sure the angle is interpreted as being in degrees. If the calculator is already in degree mode, x° is equal to x; in radian mode, x° is equal to π*x/180; and in gradian mode, x° is equal to 10*x/9.

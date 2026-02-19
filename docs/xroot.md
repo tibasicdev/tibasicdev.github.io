@@ -5,7 +5,10 @@
 |Takes the *x*th root of an input.|*A* <sup>x</sup>√ *B*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MATH to open the [math](math.html) menu<br># 5 or use the arrow keys to select
+While editing a program, press:
+1. MATH to open the [math](math.html) menu
+1. 5 or use the arrow keys to select
+       
 # The ×√ Command
 
 This command takes the *x*th root of a number.  If used on a list, it will return a list with the *x*th root of each element.  Also valid are the forms *list*<sup>×</sup>√*x* and *list1*<sup>×</sup>√*list2*.

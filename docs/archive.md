@@ -5,7 +5,10 @@
 |Moves a variable from RAM to the archive.|Archive *variable*|TI-83+/84+/SE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd MEM to access the memory menu<br># 5 to select Archive, or use arrows
+Press:
+1. 2nd MEM to access the memory menu
+1. 5 to select Archive, or use arrows
+       
 # The Archive Command
 
 The `Archive` command moves a variable from [RAM](glossary.html#ram) to the archive (also known as [ROM](glossary.html#tom)). A quick synopsis of the difference between the two:

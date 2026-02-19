@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [^]
+       
 # The ^ Command
 
 The ^ operator is used to raise a number to a power. It can be used with numbers, expressions, and lists. It can be used for taking nonnegative integer powers of square matrices (up to the 255th power only, however), but not for negative powers (use [ֿ¹](inverse.html) instead) or matrix exponentials (which the TI-83+ cannot do).

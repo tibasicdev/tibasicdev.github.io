@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The √() Command
 
 The √() command takes the square root of a value: √(x) is a number that, when multiplied by itself, gives x. It's a special case of the [^](68k:power.html) and [68k:root()](68k:root().html) commands: √(x) = x^(1/2) = root(x,2).

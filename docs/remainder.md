@@ -5,7 +5,11 @@
 |Same as modulus - divides a number, but returns the remainder.|remainder(*dividend*,*divisor*)|TI-84+/SE with TI-OS 2.53 MP|2 byte|
 
 ### Menu Location
-Press:<br># MATH to enter the Math menu<br># Use arrows to go to the NUM menu<br># 0 to choose remainder(, or use arrows
+Press:
+1. MATH to enter the Math menu
+1. Use arrows to go to the NUM menu
+1. 0 to choose remainder(, or use arrows
+       
 # The remainder( Command
 
 The `remainder(` function divides the first number given by the second number, and returns the remainder similar to the modulus.  This command is only available if you have the TI-84+/SE and the new 2.53 MP operating system on your calculator.  This command can be used both on the Home screen and when programming.

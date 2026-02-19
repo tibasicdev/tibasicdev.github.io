@@ -5,7 +5,10 @@
 |Turns stat plots (all of them, or only those specified) on.|PlotsOn [*plot numbers*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd PLOT to access the stat plot menu.<br># 5 to select PlotsOn, or use arrows and ENTER.
+Press:
+1. 2nd PLOT to access the stat plot menu.
+1. 5 to select PlotsOn, or use arrows and ENTER.
+       
 # The PlotsOn Command
 
 By itself, the command will turn on all three stat plots. 

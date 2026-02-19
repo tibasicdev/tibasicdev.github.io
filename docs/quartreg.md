@@ -5,7 +5,11 @@
 |Calculates the best fit quartic equation through a set of points.|QuartReg [*x-list*, *y-list*, [*frequency list*], [*equation variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 7 to select QuartReg, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 7 to select QuartReg, or use arrows
+       
 # The QuartReg Command
 
 The QuartReg command can calculate the best fit quartic equation through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the Nth element of one list matches up with the Nth element of the other list. L1 and L2 are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points. You must have at least 5 points, because there's infinitely many quadratics that can go through 4 points or less

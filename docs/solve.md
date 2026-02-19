@@ -5,7 +5,12 @@
 |Attempts to return a real solution to the equation *expression*=0 for a specified single variable (other variables will be treated as constants), given a guess, and optionally bounds on the values of the variable.|solve(*expression*, *variable*, *guess*, [{*lower*, *upper*}])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MATH to go to the MATH menu.<br># 0 to choose solve(, or use arrows.<br><br>(outside the program editor, the interactive Solver will appear instead; use the Catalog to access the function directly)
+While editing a program, press:
+1. MATH to go to the MATH menu.
+1. 0 to choose solve(, or use arrows.
+
+(outside the program editor, the interactive Solver will appear instead; use the Catalog to access the function directly)
+       
 # The solve( Command
 
 The solve( command attempts to iteratively find a real root of a given equation, given the variable to solve for, and an initial guess; i.e., given *f*(*x*), solve( will attempt to find a value of *x* such that *f*(*x*)=0. solve( can take a list {*lower*,*upper*} as an optional fourth argument, in which case it attempts to find a root between *lower* and *upper* inclusive (by default, *lower* and *upper* are taken to be -E99 and E99 respectively). [Brent's method](http://mathworld.wolfram.com/brentsmethod.html) is used for finding the root.

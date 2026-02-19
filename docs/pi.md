@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press 2nd π to paste the π symbol.
+       
 # The π Command
 
 The π constant on the calculator approximates the mathematical constant [π](http://mathworld.wolfram.com/pi.html) (pi), defined as the ratio of a circle's circumference to its diameter. It's fairly important in many areas of mathematics, but especially trigonometry. Probably the most common use of π on the TI-83 series calculators is for dealing with angles in [radian](radian-mode.html) form.

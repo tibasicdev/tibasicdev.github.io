@@ -5,7 +5,11 @@
 |Calculates the Poisson probability for a single value|poissonpdf(*mean*, *value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA B to select poissonpdf(, or use arrows.<br>Press ALPHA C instead of ALPHA B on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ALPHA B to select poissonpdf(, or use arrows.
+Press ALPHA C instead of ALPHA B on a TI-84+/SE with OS 2.30 or higher.
+       
 # The poissonpdf( Command
 
 This command is used to calculate Poisson distribution probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

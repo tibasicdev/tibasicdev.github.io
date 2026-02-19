@@ -5,7 +5,16 @@
 |Calculates cumulative sums of a list or of the columns of a matrix.|cumSum(*list or matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># RIGHT to access the OPS submenu.<br># 6 to select cumSum(, or use arrows.<br><br>Alternatively, press:<br># MATRIX (TI-83) or 2nd MATRIX (TI-83+ or higher) to access the matrix menu.<br># RIGHT to access the MATH submenu.<br># 0 to select cumSum(, or use arrows.
+Press:
+1. 2nd LIST to access the list menu.
+1. RIGHT to access the OPS submenu.
+1. 6 to select cumSum(, or use arrows.
+
+Alternatively, press:
+1. MATRIX (TI-83) or 2nd MATRIX (TI-83+ or higher) to access the matrix menu.
+1. RIGHT to access the MATH submenu.
+1. 0 to select cumSum(, or use arrows.
+       
 # The cumSum( Command
 
 `cumSum(` calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.

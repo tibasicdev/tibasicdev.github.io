@@ -4,7 +4,9 @@
 |Returns the sum of the elements of a matrix.|*[A]* - the matrix whose elements you want to sum|*Ans* - the sum of the matrix elements|[A], L₁, Ans|zada|[file sumofmatrix.zip]|
 
 ```
-:dim([A]<br>:Matr►list(cumSum([A])<sup>T</sup>,Ans(1),L₁<br>:sum(L₁
+:dim([A]
+:Matr►list(cumSum([A])<sup>T</sup>,Ans(1),L₁
+:sum(L₁
 ```
 
 The [cumSum(](cumsum.html) command gets the cumulative sum of each column in the [matrix](matrices.html), adding the value of the previous element to the next element, and repeating this for each consecutive element in the column. When the cumSum( command is finished, the last element in each column will contain the sum of that column. Taking the <sup>[T](transpose.html)</sup> (transpose) of the resulting matrix switches columns and rows.

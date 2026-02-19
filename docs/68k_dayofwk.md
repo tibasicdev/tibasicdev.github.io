@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The dayOfWk command
 
 The `dayOfWk` command returns an integer from 1 through 7 which shows what day of the week it was on a certain date. The Ti-89 Titanium manual says that this function may not give accurate results for years prior to 1583 (pre-Gregorian calendar).

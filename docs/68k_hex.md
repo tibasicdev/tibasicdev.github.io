@@ -6,6 +6,7 @@
        
 ### Menu Location
 MATH/base
+       
 # The ▶Hex Command
 The `▶Hex` command takes an integer and converts it to hexadecimal, including the prefix "0h". Here is an example program.
 

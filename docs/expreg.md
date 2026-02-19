@@ -5,7 +5,11 @@
 |Calculates the best fit exponential curve through a set of points.|ExpReg [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 0 to select ExpReg, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 0 to select ExpReg, or use arrows
+       
 # The ExpReg Command
 
 `ExpReg` tries to fit an exponential curve (y=a*b<sup>x</sup>) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates ordered so that the Nth element of one list matches up with the Nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.

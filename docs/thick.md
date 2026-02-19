@@ -6,6 +6,7 @@
 
 ### Menu Location
 Go to the Catalog, press [ALPHA][4], and scroll down.
+       
 # The Thick Command
 
 The Thick command converts all lines in the current function type to be drawn using a 2-3 pixel wide line (hence "Thick"). This mode is the default line drawing mode. It can be called on the homescreen or in a program. 

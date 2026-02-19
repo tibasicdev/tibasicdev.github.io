@@ -5,7 +5,11 @@
 |Calculates the sum of all or part of a list.|sum(*list*[,*start*,[*end*]])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># LEFT to access the MATH submenu.<br># 5 to select sum(, or use arrows and ENTER.
+Press:
+1. 2nd LIST to access the list menu.
+1. LEFT to access the MATH submenu.
+1. 5 to select sum(, or use arrows and ENTER.
+       
 # The sum( Command
 
 The sum( command calculates the sum of all or part of a list. 

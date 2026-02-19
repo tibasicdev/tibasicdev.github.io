@@ -5,7 +5,11 @@
 |Runs an assembly program.|Asm(prgm*NAME*)|TI-83+/84+/SE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-This command is only found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># DOWN six times.<br># ENTER to select Asm(.
+This command is only found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. DOWN six times.
+1. ENTER to select Asm(.
+       
 # The Asm( Command
 
 The `Asm(` command is used for running an assembly program. Unlike TI-Basic programs, assembly programs are written in the calculator's machine code directly, which makes them more powerful in both speed and functionality. However, it also means that if they crash, they crash hard — there is no built-in error menu to protect you.

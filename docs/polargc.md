@@ -5,7 +5,10 @@
 |Sets the calculator to display point coordinates using polar coordinates.|PolarGC|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format screen<br># Use arrows and ENTER to select PolarGC.
+Press:
+1. 2nd FORMAT to access the graph format screen
+1. Use arrows and ENTER to select PolarGC.
+       
 # The PolarGC Command
 
 The PolarGC ("Polar Grid Coordinates") command (like its opposite, the [RectGC](rectgc.html)) command, affects how the coordinates of a point on the graph screen are displayed. When PolarGC is enabled, the coordinates of a point are displayed as (R,θ).

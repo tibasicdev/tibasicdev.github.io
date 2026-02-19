@@ -5,7 +5,11 @@
 |Puts a matrix into reduced row-echelon form.|rref(*matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.<br># RIGHT to access the math menu.<br># ALPHA B to select rref(, or use arrows and ENTER.
+Press:
+1. MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
+1. RIGHT to access the math menu.
+1. ALPHA B to select rref(, or use arrows and ENTER.
+       
 # The rref( Command
 
 Given a matrix with at least as many columns as rows, the `rref(` command puts a matrix into reduced row-echelon form using Gaussian elimination.

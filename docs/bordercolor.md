@@ -5,7 +5,12 @@
 |Changes the color of the graph border.|BorderColor <color#>|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND Zoom to access format menu.<br># Scroll down to BorderColor and use arrows.<br><br>It can also be found under the catalog.
+Press:
+1. 2ND Zoom to access format menu.
+1. Scroll down to BorderColor and use arrows.
+
+It can also be found under the catalog.
+       
 # The BorderColor Command
 
 There are only 4 borders to choose from, so using the default colors will not work. Instead, you may only use a value between 1-4.

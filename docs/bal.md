@@ -5,7 +5,15 @@
 |Calculates the remaining balance after *n* payments in an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule).|bal(*n*,[*roundvalue*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># 9 to select bal(, or use arrows and ENTER.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># 1 or ENTER to select Finance...<br># 9 to select bal(, or use arrows and ENTER.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. 9 to select bal(, or use arrows and ENTER.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. 1 or ENTER to select Finance...
+1. 9 to select bal(, or use arrows and ENTER.
+       
 # The bal( Command
 
 The `bal(` command calculates the remaining balance after *n* payments in an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule). It has only one required argument: *n*, the payment number. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.

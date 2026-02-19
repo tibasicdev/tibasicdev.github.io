@@ -5,7 +5,13 @@
 |Changes settings so that the correlation variables, r and r<sup>2</sup>, are not displayed when calculating a regression|DiagnosticOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND CATALOG to access the command catalog<br># D to skip to commands starting with D<br># Scroll down and select DiagnosticOff<br><br>(The DiagnosticOff command can't be found outside the catalog)
+Press:
+1. 2ND CATALOG to access the command catalog
+1. D to skip to commands starting with D
+1. Scroll down and select DiagnosticOff
+
+(The DiagnosticOff command can't be found outside the catalog)
+       
 # The DiagnosticOff Command
 
 After the `DiagnosticOff` command is executed, all regression commands found in the STAT>CALC menu, as well as [`LinRegTTest`](linregttest.html), will not display the correlation statistics r and r<sup>2</sup> (or just R<sup>2</sup> in some cases). This is already turned off by default, although there is no disadvantage whatsoever to turning it on. To reverse this command, execute the [`DiagnosticOn`](diagnosticon.html) command.

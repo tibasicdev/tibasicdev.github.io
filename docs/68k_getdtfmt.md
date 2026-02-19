@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getDtFmt() Command
 
 The getDtFmt() returns the number of the current default date format for [68k:getDtStr()](68k:getdtstr().html) (that is, the format that getDtStr() with no parameters will use). This same format is also used to display the time in the corner of the Apps Desktop.

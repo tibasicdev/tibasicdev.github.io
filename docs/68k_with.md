@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the
+       
 # The | Command
 
 The | operator (which nobody seems to know how to pronounce, although TI suggests "with") temporarily sets a variable to some value, just for a single evaluation. For example:

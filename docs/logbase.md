@@ -5,7 +5,13 @@
 |Allows you to find the log of a number using any base you want|logBASE(*value*,*base*)|TI-84+SE with TI-OS 2.53 MP|2 byte|
 
 ### Menu Location
-Press:<br># ALPHA, then F2 (which is located over the WINDOW button)<br># 5 or arrow keys to move down to logBASE(<br>or<br># MATH<br># A or arrow keys to move down to logBASE(
+Press:
+1. ALPHA, then F2 (which is located over the WINDOW button)
+1. 5 or arrow keys to move down to logBASE(
+or
+1. MATH
+1. A or arrow keys to move down to logBASE(
+       
 # The logBASE( Command
 
 The `logBASE(` command is a visual upgrade to the [`log(`](log.html) command to compute logarithms in any base *b*. That is, the command finds the exponent that base *b* must be raised to obtain the given value.

@@ -5,7 +5,11 @@
 |Returns a specific part of a given string, or divides by 100.|sub(*string*, *start*, *length*)<br><br>sub(*value*)|TI-83/84/+/SE<br><br>On TI83, the command is named soushc|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># T to skip to command starting with T<br># Scroll up to sub( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. T to skip to command starting with T
+1. Scroll up to sub( and select it
+       
 # The sub( Command
 
 The sub( command is used to get a substring, or a specific part of a string. It takes three arguments: *string* is the source string to get the substring from, *start* is the index of the token to start from, and *length* is the length of the substring you want. For example:

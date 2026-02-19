@@ -5,7 +5,11 @@
 |Calculates the Poisson cumulative probability for a single value|poissoncdf(*mean*, *value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA C to select poissoncdf(, or use arrows.<br>Press ALPHA D instead of ALPHA C on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ALPHA C to select poissoncdf(, or use arrows.
+Press ALPHA D instead of ALPHA C on a TI-84+/SE with OS 2.30 or higher.
+       
 # The poissoncdf( Command
 
 This command is used to calculate Poisson distribution cumulative probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

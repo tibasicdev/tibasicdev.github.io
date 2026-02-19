@@ -5,7 +5,10 @@
 |Zooms to a larger graphing window with the same center.|Zoom Out|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 3 to select Zoom Out, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 3 to select Zoom Out, or use arrows and ENTER.
+       
 # The Zoom Out Command
 
 Outside a program, the Zoom Out tool allows you to pick a point on the graph screen and change the graphing window to a larger one centered at that point. The Zoom Out command, used in a program, also changes the graphing window to a larger one, but doesn't let you pick a point — it uses the center of the screen.

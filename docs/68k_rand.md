@@ -5,7 +5,10 @@
 |Generates a random number.|rand() or rand(*n*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 7 to enter the Probability submenu.<br>* Press 4 to paste rand(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 7 to enter the Probability submenu.
+- Press 4 to paste rand(.
+       
 # The rand() Command
 
 The rand() command generates a random number. It can be used in one of two ways:

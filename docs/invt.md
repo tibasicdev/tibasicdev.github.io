@@ -5,7 +5,10 @@
 |Calculates the inverse of the cumulative [Student's t-distribution](https://en.wikipedia.org/wiki/student-27s_t-distribution) function with degrees of freedom ν.|invT(*probability*, *ν*)|TI-84+/SE (OS 2.30 or greater)|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 4 to select invT(, or use arrows.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 4 to select invT(, or use arrows.
+       
 # The invT( Command
 
 `invT(` is the inverse of the cumulative Student t distribution function: given a probability *p* and a specified degrees of freedom *v*, it will return the number *x* such that `tcdf(E-99,*x*,*v*)` is equal to *p*

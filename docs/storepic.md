@@ -5,7 +5,11 @@
 |Stores the graph screen to a picture (one of Pic1, Pic2, ..., Pic0)|StorePic *number*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to access the draw menu.<br># LEFT to access the STO submenu.<br># ENTER to select StorePic
+Press:
+1. 2nd DRAW to access the draw menu.
+1. LEFT to access the STO submenu.
+1. ENTER to select StorePic
+       
 # The StorePic Command
 
 `StorePic` saves the graph screen to a picture (to recall it later, use `RecallPic`). Every detail of the graph screen will be stored as it appears, with the sole exception of X and Y labels on the axes (if they are shown).

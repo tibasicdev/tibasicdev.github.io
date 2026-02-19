@@ -5,7 +5,16 @@
 |Builds a matrix from one or more lists.|List►matr(*list1*, [*list2*, ...], *matrix*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATRX (on the 83) or 2nd MATRX (83+ or higher) to access the matrix menu<br># LEFT to access the MATH submenu<br># 9 to select List►matr(, or use arrows.<br><br>Alternatively, press:<br># 2nd LIST to access the list menu<br># LEFT to access the OPS submenu<br># 0 to select List►matr(, or use arrows
+Press:
+1. MATRX (on the 83) or 2nd MATRX (83+ or higher) to access the matrix menu
+1. LEFT to access the MATH submenu
+1. 9 to select List►matr(, or use arrows.
+
+Alternatively, press:
+1. 2nd LIST to access the list menu
+1. LEFT to access the OPS submenu
+1. 0 to select List►matr(, or use arrows
+       
 # The List►matr( Command
 
 The List►matr( builds a matrix by combining several list expressions, and stores it to the specified variable ([A] through [J]). Each list specifies a column of the matrix: the first list will be stored down the first (leftmost) column, the second list down the second column, and so on. For example:

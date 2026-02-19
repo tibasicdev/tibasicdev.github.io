@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The CyclePic command
 
 This command displays several picture variables in a cycle, with each picture getting an optional wait time, number of cycles, and the direction to display the pictures in. For instance, if you have saved 5 pictures: pic1, pic2, pic3, pic4, pic5, then you could do this to display them all: `CyclePic` "pic", 5, 3, 2, -1. This would display all 5 pictures for 3 seconds each, for 2 cycles, and backward, meaning it would display picture 5 first. Unfortunately, there is no way to use the command on pictures that are stored in a folder. For instance, if you had the previous case, but every picture is stored in a folder called PICTURES, there is no way to cycle them without moving them out of the folder.

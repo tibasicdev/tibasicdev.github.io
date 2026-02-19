@@ -5,7 +5,12 @@
 |Using either already-calculated statistics, or a data set, computes a Z confidence interval.|ZInterval *std. deviation*, [*list*, [*frequency*]] [,*confidence level*]<br>(data list input)<br><br>ZInterval *std. deviation*, *mean*, *sample size*, [*confidence level*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-When editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 7 to select ZInterval, or use arrows<br>(this key sequence will give you the ZInterval... screen outside a program)
+When editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 7 to select ZInterval, or use arrows
+(this key sequence will give you the ZInterval... screen outside a program)
+       
 # The ZInterval Command
 
 The ZInterval command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use ZInterval when you have a single variable to analyze, and you already know the standard deviation. The ZInterval assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.

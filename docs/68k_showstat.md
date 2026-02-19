@@ -5,7 +5,10 @@
 |Displays the results of an earlier statistics command.|ShowStat|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 6 to enter the Statistics submenu.<br>* Press 9 to select ShowStat.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 6 to enter the Statistics submenu.
+- Press 9 to select ShowStat.
+       
 # The ShowStat Command
 
 The ShowStat command displays the results of the last regression or summary statistics command in a dialog box. The full list of such commands is: [68k:CubicReg](68k:cubicreg.html), [68k:ExpReg](68k:expreg.html), [68k:LinReg](68k:linreg.html), [68k:LnReg](68k:lnreg.html), [68k:Logistic](68k:logistic.html), [68k:MedMed](68k:medmed.html), [68k:OneVar](68k:onevar.html), [68k:PowerReg](68k:powerreg.html), [68k:QuadReg](68k:quadreg.html), [68k:QuartReg](68k:quartreg.html), [68k:SinReg](68k:sinreg.html), and [68k:TwoVar](68k:twovar.html). 

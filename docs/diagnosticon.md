@@ -5,7 +5,13 @@
 |Changes settings so that the correlation variables, r and r² (or R²), are displayed when calculating a regression|DiagnosticOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND CATALOG to access the command catalog<br># D to skip to commands starting with D<br># Scroll down and select DiagnosticOn<br><br>(The DiagnosticOn command can't be found outside the catalog)
+Press:
+1. 2ND CATALOG to access the command catalog
+1. D to skip to commands starting with D
+1. Scroll down and select DiagnosticOn
+
+(The DiagnosticOn command can't be found outside the catalog)
+       
 # The DiagnosticOn Command
 
 After the `DiagnosticOn` command is executed, all regression commands found in the STAT>CALC menu, as well as [`LinRegTTest`](linregttest.html), will display the correlation statistics r and r² (or R<sup>2</sup> for regressions that are not linear). This is turned off by default, but there is no disadvantage whatsoever to turning it on. To reverse this command, execute the [`DiagnosticOff`](diagnosticoff.html) command.

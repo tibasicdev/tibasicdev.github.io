@@ -5,7 +5,10 @@
 |Returns the inverse cosine (also called arccosine)|cosֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># [2nd]<br># [cosֿ¹]
+Press:
+1. [2nd]
+1. [cosֿ¹]
+       
 # The cosֿ¹( Command
 
 `cosֿ¹(` returns the [arccosine](http://mathworld.wolfram.com/inversecosine.html) of its argument. It is the inverse of [`cos(`](cos.html), which means that `cosֿ¹(n)` produces an angle θ such that `cos(θ)`=n.

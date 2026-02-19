@@ -5,7 +5,11 @@
 |Turns on a point on the graph screen.|Pt-On(X,Y[,*mark*])|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># 2nd PRGM to enter the DRAW menu<br># RIGHT to enter the POINTS menu<br># 1 to choose Pt-On(
+While editing a program press:
+1. 2nd PRGM to enter the DRAW menu
+1. RIGHT to enter the POINTS menu
+1. 1 to choose Pt-On(
+       
 # The Pt-On( Command
 
 The Pt-On( command is used to draw a point on the graph screen at the given (X,Y) coordinates. Pt-On( is affected by the [window settings](system-variables.html#window) Xmin, Xmax, Ymin, and Ymax. Make sure to change these accordingly when using it in a program, otherwise, you don't know where the point will show up.

@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press [2nd][7] to enter ∫(.
+       
 # The ∫() Command
 
 ∫(*expression*,*variable*) takes the integral of *expression* (symbolically) with respect to *variable*. All other variables are treated as constant.

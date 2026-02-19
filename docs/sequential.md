@@ -5,7 +5,10 @@
 |Puts the calculator into sequential graphing mode.|Sequential|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Sequential.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Sequential.
+       
 # The Sequential Command
 
 Puts the calculator into sequential graphing mode (the default). When multiple equations are enabled at the same time, sequential graphing mode means that they will be graphed one after the other (as opposed to [Simul](simul.html) mode, in which they will be graphed simultaneously)

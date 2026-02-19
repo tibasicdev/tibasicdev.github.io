@@ -5,7 +5,11 @@
 |Stores the contents of an equation variable to a string.|Equ►String(*equation*,*string*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-This command is found only in the catalog. Press:<br># 2nd CATALOG to access the catalog<br># F to skip to commands starting with F<br># Scroll up to Equ►String( and select it.
+This command is found only in the catalog. Press:
+1. 2nd CATALOG to access the catalog
+1. F to skip to commands starting with F
+1. Scroll up to Equ►String( and select it.
+       
 # The Equ►String( Command
 
 This command stores the contents of an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>) to a string (one of Str0, Str1, ... Str9). This can be used when you want to display the equation as text (either using the [`Text(`](text.html) command on the graph screen, or the [`Output(`](output.html) or [`Disp`](disp.html) commands on the home screen). For example:

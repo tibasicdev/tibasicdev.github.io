@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ClockOn Command
 
 The `ClockOn` command turns on the calculator's clock, used by most [68k:time and date](68k:time-and-date.html) commands. Only when the clock is on, will the value returned by [`68k:startTmr()`](68k:starttmr().html), [`68k:getTime()`](68k:gettime().html), and other commands actually change with the passage of time. If you write a program that uses any of these commands, be sure to include this command at the beginning of the program.

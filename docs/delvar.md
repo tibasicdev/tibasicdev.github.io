@@ -5,7 +5,10 @@
 |Deletes a variable from memory.|DelVar *variable*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># ALPHA TAN to choose DelVar, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. ALPHA TAN to choose DelVar, or use arrows
+       
 # The DelVar Command
 
 The `DelVar` command deletes the contents of a [variable](variables.html) (and thus the variable itself) from memory. You can use the `DelVar` command with any variable: reals, lists, matrices, strings, pictures, etc. However, you cannot use `DelVar` on specific elements of a matrix or string; it will actually throw a [ERR:SYNTAX](errors.html#syntax) error. (It also does not work on programs, unfortunately.)

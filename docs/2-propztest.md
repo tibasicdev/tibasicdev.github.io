@@ -5,7 +5,12 @@
 |Performs a *z*-test to compare two proportions.|2-PropZTest(*x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *draw?*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 6 to select 2-PropZTest, or use arrows<br>(outside the program editor, this will select the 2-PropZTest... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 6 to select 2-PropZTest, or use arrows
+(outside the program editor, this will select the 2-PropZTest... interactive solver)
+       
 # The 2-PropZTest( Command
 
 `2-PropZTest(` performs a*z*-test to compare two population proportions. This test is valid for sufficiently large samples: only when the number of successes (*x* in the command syntax) and the number of failures (*n*-*x*) are both >5, for both populations.

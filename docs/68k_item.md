@@ -5,7 +5,11 @@
 |Adds an item to a [68k:Custom](68k:custom.html) or [68k:ToolBar](68k:toolbar.html) menu.|Item *text* (with Custom)<br>Item *text*,*label* (with ToolBar)|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 8 to select Item.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 8 to select Item.
+       
 # The Item Command
 
 The Item command is used in [68k:Custom](68k:custom.html)..EndCustm and [68k:ToolBar](68k:toolbar.html)..EndTBar blocks (both of which create toolbar menus) to add an option to one of the tabs. See these commands for more details on how to use it.

@@ -5,7 +5,12 @@
 |Performs a Student's *t* significance test.|T-Test *μ<sub>0</sub>*, [*list*, *frequency*, *alternative*, *draw?*]<br>(data list input)<br><br>T-Test *μ<sub>0</sub>*, *sample mean*, *sample std. dev.*, *sample size*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 2 to select T-Test, or use arrows<br>(outside the program editor, this will select the T-Test... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 2 to select T-Test, or use arrows
+(outside the program editor, this will select the T-Test... interactive solver)
+       
 # The T-Test Command
 
 T-Test performs a *t* significance test of a null hypothesis you supply. This test is valid for simple random samples from a population with an unknown standard deviation. In addition, either the population must be normally distributed, or the sample size has to be sufficiently large.

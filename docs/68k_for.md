@@ -5,7 +5,10 @@
 |Repeats a block of code some number of times.|:For *counter*, *start*, *end*, *step*<br>*(block of code)*<br>:EndFor|This command works on all calculators.|3 bytes for the For command;<br>4 bytes for EndFor.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 4 to paste For..EndFor.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 4 to paste For..EndFor.
+       
 # The For Command
 
 A For..EndFor block is used to repeat the code inside the block some number of times. To specify the number of times to repeat this code, a *counter variable* is specified, along with a starting value and an ending value. The variable will be set to the starting value, then increased until it gets to the ending value, running the code inside the block each time. For example:

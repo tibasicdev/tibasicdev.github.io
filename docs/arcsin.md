@@ -5,7 +5,10 @@
 |Returns the inverse sine (also called arcsine)|sinֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># [2nd]<br># [sinֿ¹]
+Press:
+1. [2nd]
+1. [sinֿ¹]
+       
 # The sinֿ¹( Command
 
 sinֿ¹( returns the [arcsine](http://mathworld.wolfram.com/inversesine.html) of its argument. It is the inverse of [sin(](sin.html), which means that sinֿ¹(z) produces an angle θ such that sin(θ)=z.

@@ -5,7 +5,11 @@
 |Generates a random number with the binomial distribution.|randBin(*n*,*p*,*# simulations*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 7 to select randBin(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 7 to select randBin(, or use arrows.
+       
 # The randBin( Command
 
 randBin(*n*,*p*) generates a pseudorandom integer between 0 and *n* inclusive according to the binomial distribution B(*n*,*p*) - that is, *n* trials of an event with probability of success *p* are performed, and the number of successes is returned. randBin(*n*,*p*,*simulations*) performs the above calculation *simulations* times, and returns a list of the results. The expected (average) result is *n***p*.

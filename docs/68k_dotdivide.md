@@ -5,7 +5,12 @@
 |Divides two values, doing so element-by-element for two matrices.|*value* ./ *value*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press 4 to enter the Matrix submenu.<br>* Press K to enter the Element ops submenu.<br>* Press 4 to select ./.<br>...frankly, just typing it is way easier.
+- Press 2nd MATH to enter the MATH menu.
+- Press 4 to enter the Matrix submenu.
+- Press K to enter the Element ops submenu.
+- Press 4 to select ./.
+...frankly, just typing it is way easier.
+       
 # The ./ Command
 
 The ./ operator works just like [/](68k:divide.html) in most cases. The only exception is with matrices. The / command can't do anything with then (except for dividing a matrix by a value), but ./ will just apply the operation element-by-element. Obviously, when this is done for two matrices, their dimensions have to match up.

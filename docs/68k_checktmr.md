@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The checkTmr() Command
 
 The `checkTmr()` command, together with [`68k:startTmr()`](68k:starttmr().html) uses the built-in system clock to measure the time (in seconds) that passed between two points of the program. Make sure that the clock is on (with [`68k:ClockOn`](68k:clockon.html) before using these).

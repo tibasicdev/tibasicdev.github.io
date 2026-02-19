@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press [2nd][>] to enter >.
+       
 # The > Command
 
 The > operator compares two values, returning true if the left side is greater, and false otherwise. It is a basic building block of the conditions used by commands such as [68k:If](68k:if.html), [68k:when()](68k:when().html), and [68k:While](68k:while.html). The results of > and the other relational operators ([=](68k:equal.html), [≠](68k:not-equal.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html)) can be combined with the [68k:and](68k:and.html), [68k:or](68k:or.html), [68k:xor](68k:xor.html), and [68k:not](68k:not.html) operators to create more complicated conditions.

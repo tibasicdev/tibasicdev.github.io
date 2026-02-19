@@ -5,7 +5,11 @@
 |Loops through a block of code while the condition is true.|While *condition*<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># 5 to choose While, or use arrows<br># 7 to choose End, or use arrows
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. 5 to choose While, or use arrows
+1. 7 to choose End, or use arrows
+       
 # The While Command
 
 A While loop executes a block of commands between the While and End commands as long as the specified condition is true. The condition is tested at the beginning of the loop (when the End command is encountered), so if the condition is initially false, the block of commands will never get executed. This distinguishes it from the [Repeat](repeat.html) command.

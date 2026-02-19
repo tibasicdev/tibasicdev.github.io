@@ -5,7 +5,10 @@
 |Divides a number by 100.|*number*%|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd CHAR to enter the CHAR menu.<br>* Press 3 to enter the Punctuation submenu.<br>* Press 5 to select %.
+- Press 2nd CHAR to enter the CHAR menu.
+- Press 3 to enter the Punctuation submenu.
+- Press 5 to select %.
+       
 # The % Command
 
 The % operator is a cheap shortcut for dividing a number by 100: for instance, 25% = 25/100 = 1/4. When used on a list or matrix, it divides every element by 100.

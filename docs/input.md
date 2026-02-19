@@ -5,7 +5,11 @@
 |Prompts the user to enter a value and then stores the value to the variable.<br><br>Displays the graph screen and then the user can move around the cursor.|Input<br><br>Input [*"Text"*,]*variable*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 1 to choose Input
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 1 to choose Input
+       
 # The Input Command
 
 The `Input` command is the other way of getting user input on the [home screen](homescreen.html) (getting [user input](userinput.html) on the [graph screen](graphscreen.html) is only possible with the [`getKey`](getkey.html) command). The `Input` command asks the user to enter a value for a [variable](variables.html) (only one variable can be inputted at a time), waiting until the user enters a value and then presses ENTER. It does not display what variable the user is being asked for, but instead just displays a question mark (?).

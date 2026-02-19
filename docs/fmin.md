@@ -5,7 +5,10 @@
 |Calculates the local minimum of a function.|fMin(*f*(*var*),*var*,*lo*,*hi*[,*tol*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MATH to open the [math](math.html) menu<br># 6 or use arrow keys to select
+While editing a program, press:
+1. MATH to open the [math](math.html) menu
+1. 6 or use arrow keys to select
+       
 # The fMin( Command
 
 `fMin(*f*(*var*),*var*,*lo*,*hi*[,*tol*])` finds the value of *var* between *lo* and *hi* at which the minimum of *f*(*var*) occurs. *tol* controls the accuracy of the minimum value computed. The default value of *tol* is 10<sup>-5</sup>.

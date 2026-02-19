@@ -5,7 +5,10 @@
 |Finds a search string in another string.|inString(*string*, *search-string*,[)|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the Strings submenu.<br>* Press 6 to select inString(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the Strings submenu.
+- Press 6 to select inString(.
+       
 # The inString() Command
 
 The inString() command searches for one string inside another, starting from the beginning and going forward. If it finds the string, it returns the position where it finds it. If it doesn't find the string, it returns 0. If the string is there multiple times, it will only find the first one.

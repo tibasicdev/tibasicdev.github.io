@@ -5,7 +5,10 @@
 |This command must be the beginning of an assembly program.|AsmPrgm|TI-83+/84+/SE/CSE/CE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-This command is only found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># Scroll down to AsmPrgm and press ENTER.
+This command is only found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. Scroll down to AsmPrgm and press ENTER.
+       
 # The AsmPrgm Command
 
 This command denotes the start of an assembly program in hexadecimal form. The command must go at the beginning of a program.

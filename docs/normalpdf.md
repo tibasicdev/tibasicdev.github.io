@@ -5,7 +5,10 @@
 |Evaluates the normal probability density function at a point.|normalpdf(*x*[,*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ENTER to select normalpdf(.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ENTER to select normalpdf(.
+       
 # The normalpdf( Command
 
 normalpdf( is the normal (Gaussian) probability density function. 

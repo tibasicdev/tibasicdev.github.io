@@ -5,7 +5,10 @@
 |Takes the hyperbolic cosecant of a number.|csch(*value*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press C to enter the Hyperbolic submenu.<br>* Press 4 to select csch(.
+- Press 2nd MATH to enter the MATH menu.
+- Press C to enter the Hyperbolic submenu.
+- Press 4 to select csch(.
+       
 # The csch() Command
 
 

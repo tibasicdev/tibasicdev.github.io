@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the [+] key to paste +.
+       
 # The + Command
 
 The + operator adds two numbers, variables, or expressions together. Order of operations dictates that it's calculated after [*](68k:multiply.html) and [/](68k:divide.html), and at the same time as [-](68k:subtract.html).

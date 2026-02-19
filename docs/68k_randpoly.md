@@ -5,7 +5,10 @@
 |Generates a random polynomial.|randPoly(*var*,*deg*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 7 to enter the Probability submenu.<br>* Press 8 to select randPoly(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 7 to enter the Probability submenu.
+- Press 8 to select randPoly(.
+       
 # The randPoly() Command
 
 The randPoly() command generates a random polynomial. randPoly(*var*,*deg*) generates a random polynomial in variable *var* of degree *deg*. The coefficients of each power of *var* are random integers from -9 to 9.

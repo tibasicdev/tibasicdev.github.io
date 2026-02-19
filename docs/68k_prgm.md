@@ -5,7 +5,12 @@
 |Defines a set of lines as executable program code.|Prgm<br>*program code*<br>EndPrgm|This command works on all calculators.|4 bytes|
        
 ### Menu Location
-Press:<br># Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu<br># P to scroll to the P section<br># Use arrows to navigate to Prgm<br>Or type Prgm using the keyboard
+Press:
+1. Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu
+1. P to scroll to the P section
+1. Use arrows to navigate to Prgm
+Or type Prgm using the keyboard
+       
 # The Prgm...EndPrgm Command Block
 
 This command is used at the beginning/end of a program to tell the calculator to interpret it as code. Without these commands at the start and end of a program file, the interpreter will pass a syntax error.

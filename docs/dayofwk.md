@@ -5,7 +5,11 @@
 |Returns an integer from 1 to 7, each representing a day of the week, given a date.|dayOfWk(*year*,*month*,*day*)|TI-84+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># [2ND] + [0] for the CATALOG<br># [X<sup>-1</sup>] to jump to the letter D<br># [ENTER] to insert the command
+Press:
+1. [2ND] + [0] for the CATALOG
+1. [X<sup>-1</sup>] to jump to the letter D
+1. [ENTER] to insert the command
+       
 # The dayOfWk( Command
 
 `dayOfWk(*year*,*month*,*day*)` returns an integer from 1 to 7, each representing a separate day of the week. 1 represents Sunday, 2 represents Monday, and so on, with 7 representing Saturday. The date format is different than the normal American format (month/day/year), so be careful to put the arguments in the right order. You can remember this by thinking of the descending lengths of time in each of the arguments.

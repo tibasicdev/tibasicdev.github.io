@@ -5,7 +5,11 @@
 |Calculates the combinatorial number of combinations.|*a* nCr *b*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 3 to select nCr, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 3 to select nCr, or use arrows.
+       
 # The nCr Command
 
 nCr is the number of combinations function (or binomial coefficient), defined as *a* nCr *b* = *a*!/(*b*!*(*a*-*b*)!), where *a* and *b* are nonnegative integers. The function also works on lists.

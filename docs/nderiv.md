@@ -5,7 +5,10 @@
 |Calculates the approximate numerical derivative of a function, at a point.|nDeriv(*f*(*variable*),*variable*,*value*[,*h*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># 8 to select nDeriv(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. 8 to select nDeriv(, or use arrows.
+       
 # The nDeriv( Command
 
 `nDeriv(f(var),var,value[,h])` computes an approximation to the value of the derivative of *f*(*var*) with respect to *var* at *var*=*value*. *h* is the step size used in the approximation of the derivative. The default value of *h* is 0.001.

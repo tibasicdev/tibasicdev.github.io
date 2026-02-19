@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the SIN button to enter sin(.
+       
 # The sin() Command
 
 

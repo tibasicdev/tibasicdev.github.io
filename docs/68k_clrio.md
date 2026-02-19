@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The ClrIO Command
 
 This is used to clear the IO buffer (not the home screen). The IO buffer is where any `Output()`, `Disp`, `Pause`, and any other commands that use the I/O buffer display results.

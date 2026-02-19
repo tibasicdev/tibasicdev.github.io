@@ -6,6 +6,7 @@
        
 ### Menu Location
 This command is only available from the CATALOG
+       
 # Blddata
 
 Creates data variable *dataVar* based on the information used to plot the current graph. If dataVar is omitted, the data is stored in the

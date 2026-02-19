@@ -5,7 +5,11 @@
 |Sends data or a variable to a connected CBL device.|Send(*variable*)|TI-83/84/+/SE/CSE/CE(5.1.5+)|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to access the program menu.<br># RIGHT to access the I/O submenu.<br># ALPHA B to select Send(.
+While editing a program, press:
+1. PRGM to access the program menu.
+1. RIGHT to access the I/O submenu.
+1. ALPHA B to select Send(.
+       
 # The Send( Command
 
 The Send( command is used for sending data to a CBL (Calculator Based Laboratory) device (or another compatible device) via a link cable. With some exceptions, Send('s argument must be a variable: a real number, list, matrix, string, equation, picture, or GDB. An expression or a number will not work — Send(5) or Send([A][B]) is invalid.

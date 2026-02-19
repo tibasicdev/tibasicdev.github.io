@@ -6,6 +6,7 @@
        
 ### Menu Location
 This command can't be found in any menu besides the command catalog.
+       
 # The Exec Command
 
 The Exec command allows you to execute assembly-language opcodes. The optional expressions let you pass one or more arguments for a program.

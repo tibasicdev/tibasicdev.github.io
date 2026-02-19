@@ -5,7 +5,11 @@
 |Displays a dialog box for input or output.|:Dialog<br>*(dialog elements)*<br>:EndDlog|This command works on all calculators.|2 bytes for Dialog;<br>2 bytes for EndDlog.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 5 to paste Dialog..EndDlog.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 5 to paste Dialog..EndDlog.
+       
 # The Dialog Command
 
 A `Dialog`..`EndDlog` block is used to display a [dialog box](https://en.wikipedia.org/wiki/dialog_box) that can be used for input, output, or both. There are several commands that can be used inside `Dialog`..`EndDlog` to determine its content:

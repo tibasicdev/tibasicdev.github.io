@@ -5,7 +5,11 @@
 |Returns the length of a string.|length(*string*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to access the command catalog<br># L to skip to commands starting with L<br># scroll down to length( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog
+1. L to skip to commands starting with L
+1. scroll down to length( and select it
+       
 # The length( Command
 
 This command is used to determine the length of a string. Unlike the [dim(](dim.html) command for lists and matrices, it cannot be used to change this length, as there is no null character for strings (the null value is 0 for lists and matrices).

@@ -5,7 +5,10 @@
 |Converts an angle to radians, if necessary.|*angle* <sup>r</sup>|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 2 to enter the Angle submenu.<br>* Press 2 to select <sup>r</sup>.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 2 to enter the Angle submenu.
+- Press 2 to select <sup>r</sup>.
+       
 # The r Command
 
 

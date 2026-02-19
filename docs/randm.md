@@ -5,7 +5,11 @@
 |Creates a matrix of specified size with the entries random integers from -9 to 9.|randM(*# rows*, *# columns*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATRX (TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu<br># RIGHT to access the MATH submenu.<br># 6 to select randM(, or use arrows.
+Press:
+1. MATRX (TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu
+1. RIGHT to access the MATH submenu.
+1. 6 to select randM(, or use arrows.
+       
 # The randM( Command
 
 randM(*M*, *N*) generates an M by N matrix whose entries are pseudorandom integers between -9 and 9 inclusive.

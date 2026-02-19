@@ -5,7 +5,11 @@
 |Pauses the program until ENTER is pressed, optionally displaying text on the I/O screen.|:Pause [*expression*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 8 to enter the Transfers submenu.<br>* Press 1 to select Pause.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 8 to enter the Transfers submenu.
+- Press 1 to select Pause.
+       
 # The Pause Command
 
 Used by itself without parameters, `Pause` temporarily suspends the program until the ENTER key is pressed, displaying an indicator to that effect in the lower right corner of the screen. When ENTER is pressed, the program continues running from the next command in order.

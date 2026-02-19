@@ -5,7 +5,10 @@
 |Puts the calculator in floating decimal display mode.|Float|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Float.
+Press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Float.
+       
 # The Float Command
 
 The `Float` command makes the calculator display numbers with a "floating decimal point" — only as many digits after the decimal as needed are displayed (so whole numbers, for example, are shown without any decimal points). This is the default mode, and usually the most useful.

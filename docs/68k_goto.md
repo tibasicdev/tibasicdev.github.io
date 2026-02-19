@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The Goto Command
 
 The Goto command jumps to a label (declared with the [68k:Lbl](68k:lbl.html) command) somewhere else in the program — either before or after the Goto, it doesn't matter. The label has to be in the same program as the Goto — you can't jump into another program. If there are several labels with the same name, the Goto command will only find the first.

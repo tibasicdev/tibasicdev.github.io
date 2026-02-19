@@ -5,7 +5,11 @@
 |Calculates the differences between consecutive terms of a list.|ΔList(*list*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># RIGHT to access the OPS submenu.<br># 7 to select ΔList(, or use arrows.
+Press:
+1. 2nd LIST to access the list menu.
+1. RIGHT to access the OPS submenu.
+1. 7 to select ΔList(, or use arrows.
+       
 # The ΔList( Command
 
 `ΔList(` calculates the differences between consecutive terms of a list, and returns them in a new list.

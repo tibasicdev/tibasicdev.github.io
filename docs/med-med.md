@@ -5,7 +5,11 @@
 |Calculates the median fit line through a set of points.|Med-Med [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 3 to select Med-Med, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 3 to select Med-Med, or use arrows
+       
 # The Med-Med Command
 
 The Med-Med command is one of several that can calculate a line of best fit through a set of points. However, unlike the [LinReg(ax+b)](linreg(ax-b).html) and [LinReg(a+bx)](linreg(a-bx).html) commands, which generate the same result in different formats, Med-Med produces a different line entirely, known as the 'median fit line' or the 'median-median model'. This model is more resistant to outliers than the best-fit line produced by LinReg(ax+b)-type commands, in much the same way that the median of a set of data is more resistant to outliers than the mean. The process of calculating a median fit line is roughly as follows ([reference](http://www.amstat.org/publications/jse/v14n2/morrell.html)):

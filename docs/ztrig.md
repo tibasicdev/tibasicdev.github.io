@@ -5,7 +5,10 @@
 |Zooms to a trigonometry-friendly window.|ZTrig|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 7 to select ZTrig, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 7 to select ZTrig, or use arrows and ENTER.
+       
 # The ZTrig Command
 
 The `ZTrig` command sets the screen to a special [friendly window](friendly-window.html) useful for trigonometric calculations. Unlike the [`ZDecimal`](zdecimal.html) and [`ZInteger`](zinteger.html) commands, for which the distance between two pixels is a short decimal or integer, `ZTrig` sets the horizontal distance between two pixels to be π/24 (in [`Radian`](radian-mode.html) mode) or 7.5 (in [`Degree`](degree-mode.html) mode) . The specific changes `ZTrig` makes are:

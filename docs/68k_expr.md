@@ -5,7 +5,10 @@
 |Runs code stored inside a string.|expr(*string*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press MATH to enter the MATH popup menu.<br>* Press D to enter the Strings submenu.<br>* Press 2 to select expr(.
+- Press MATH to enter the MATH popup menu.
+- Press D to enter the Strings submenu.
+- Press 2 to select expr(.
+       
 # The expr() Command
 
 The expr() command runs code stored inside a string: for instance, expr("5→x") has the same effect as 5→x. The main use of expr() is with user input: the input you get from some commands comes in a string, and you might use expr() to convert it back to a number.

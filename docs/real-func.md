@@ -5,7 +5,11 @@
 |Returns the real part of a complex value.|real(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT, RIGHT to access the CPX (complex) submenu.<br># 2 to select real(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT, RIGHT to access the CPX (complex) submenu.
+1. 2 to select real(, or use arrows.
+       
 # The real( Command
 
 real(*z*) returns the real part of the complex number *z*. If *z* is represented as *x*+i*y* where *x* and *y* are both real, real(*z*) returns *x*. Also works on a list of complex numbers.

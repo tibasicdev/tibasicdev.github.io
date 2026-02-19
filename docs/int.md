@@ -5,7 +5,11 @@
 |Rounds a value down to the nearest integer.|int(*value*)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># 5 to select int(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. 5 to select int(, or use arrows.
+       
 # The int( Command
 
 `int(X)` is the [floor function](http://mathworld.wolfram.com/floorfunction.html). It returns the greatest integer less than or equal to *X*, and also works on complex numbers, lists and matrices.

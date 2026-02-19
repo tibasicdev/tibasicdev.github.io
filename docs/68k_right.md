@@ -5,7 +5,10 @@
 |Returns a subsection from the right of a list or string, or the right hand side of an equation.|right(*equation*)<br>right(*list-or-string*,*length*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 3 to enter the List submenu.<br>* Press B to select right(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 3 to enter the List submenu.
+- Press B to select right(.
+       
 # The right() Command
 
 When applied to a list or a string, right(*x*,*length*) gets the last (right-most) *length* elements/characters of *x*. 

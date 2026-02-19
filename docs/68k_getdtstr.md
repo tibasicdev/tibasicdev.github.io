@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getDtStr() Command
 
 The getDtStr() command returns the current date in a string. The date can be in one of eight formats, numbered from 1 to 8. This format can be given to getDtStr() directly: for instance, getDtStr(5) will return the date in the fifth format. Or, you can set a default format with the [68k:setDtFmt()](68k:setdtfmt().html) command, and getDtStr() will use that format when it's not given a specific format to use.

@@ -5,7 +5,12 @@
 |Performs a *z* significance test.|Z-Test(*μ<sub>0</sub>*, *σ*, [*list*, *frequency*, *alternative*, *draw?*]<br>(data list input)<br><br>Z-Test(*μ<sub>0</sub>*, *σ*, *sample mean*, *sample size*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># ENTER to select Z-Test(<br>(outside the program editor, this will select the Z-Test... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. ENTER to select Z-Test(
+(outside the program editor, this will select the Z-Test... interactive solver)
+       
 # The Z-Test( Command
 
 Z-Test( performs a *z* significance test of a null hypothesis you supply. This test is valid for simple random samples from a population with a known standard deviation. In addition, either the population must be normally distributed, or the sample size has to be sufficiently large.

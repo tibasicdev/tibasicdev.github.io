@@ -5,7 +5,10 @@
 |Zooms to a smaller graphing window with the same centre.|Zoom In|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 2 to select Zoom In, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 2 to select Zoom In, or use arrows and ENTER.
+       
 # The Zoom In Command
 
 Outside a program, the Zoom In tool allows you to pick a point on the graph screen and change the graphing window to a smaller one centered at that point. The Zoom In command, used in a program, also changes the graphing window to a smaller one, but doesn't let you pick a point — it uses the center of the screen.

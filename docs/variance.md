@@ -5,7 +5,11 @@
 |Finds the sample variance of a list.|variance(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2ND LIST to enter the LIST menu.<br># LEFT to enter the MATH submenu.<br># 8 to select variance(, or use arrows.
+Press:
+1. 2ND LIST to enter the LIST menu.
+1. LEFT to enter the MATH submenu.
+1. 8 to select variance(, or use arrows.
+       
 # The variance( Command
 
 The `variance(` command finds the sample variance of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:

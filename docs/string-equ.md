@@ -5,7 +5,11 @@
 |Stores the contents of a string to an equation variable.|String►Equ(*string*, *equation*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-This command is found only in the catalog. Press:<br># 2nd CATALOG to access the catalog<br># T to skip to commands starting with T<br># Scroll up to String►Equ( and select it.
+This command is found only in the catalog. Press:
+1. 2nd CATALOG to access the catalog
+1. T to skip to commands starting with T
+1. Scroll up to String►Equ( and select it.
+       
 # The String►Equ( Command
 
 This command stores the contents of a string  to an equation variable (such as Y<sub>1</sub> or X<sub>1T</sub>). This command can, in theory, be used whenever you need to set any equation variable.

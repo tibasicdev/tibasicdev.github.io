@@ -5,7 +5,11 @@
 |Generates a random normally-distributed number with specified mean and standard deviation.|randNorm(*µ*,*σ*,[*n*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 6 to select randNorm(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 6 to select randNorm(, or use arrows.
+       
 # The randNorm( Command
 
 randNorm(*µ*,*σ*) generates a normally-distributed pseudorandom number with [mean](mean.html) *µ* and [standard deviation](stddev.html) *σ*. The result returned will most probably be within the range *µ*±3*σ*. randNorm(*µ*,*σ*,*n*) generates a list of *n* normally-distributed pseudorandom numbers with mean *µ* and standard deviation *σ*.

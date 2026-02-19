@@ -5,7 +5,10 @@
 |Returns the last keypress.|getKey()|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting from the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 7 to paste getKey().
+Starting from the program editor:
+- Press F3 to enter the I/O menu.
+- Press 7 to paste getKey().
+       
 # The getKey() Command
 
 The getKey() command returns the [key code](68k:key-codes.html) of the last keypress. If no key was pressed since the program, function, or expression started running, or since the last getKey() command, getKey() returns 0. It's important to note that once getKey() is used, the keypress is forgotten — even if it's used in the same line! So most of the time you want to store the result of getkey to a variable to use it.

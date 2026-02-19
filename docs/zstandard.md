@@ -5,7 +5,10 @@
 |Restores window settings to the default.|ZStandard|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 6 to select ZStandard, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 6 to select ZStandard, or use arrows and ENTER.
+       
 # The ZStandard Command
 
 The ZStandard command resets all [window variables](system-variables.html#window) found in the Window screen to their default values. This means that, unlike the other zoom commands, ZStandard can affect variables other than Xmin, Xmax, Ymin, and Ymax. However, it will only affect variables that have a purpose in the current [graphing mode](graphing-mode.html). Here are the default values set by ZStandard:

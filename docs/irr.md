@@ -5,7 +5,15 @@
 |Calculates the [Internal Rate of Return](https://en.wikipedia.org/wiki/internal_rate_of_return) of an investment.|irr(*CF0*,*CFList*,[*freq*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># 8 to select irr(, or use arrows and ENTER.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># 1 or ENTER to select Finance...<br># 8 to select irr(, or use arrows and ENTER.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. 8 to select irr(, or use arrows and ENTER.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. 1 or ENTER to select Finance...
+1. 8 to select irr(, or use arrows and ENTER.
+       
 # The irr( Command
 
 The `irr(` command finds the [Internal Rate of Return](https://en.wikipedia.org/wiki/internal_rate_of_return) of an investment, which is a measure of its efficiency. Its mathematical interpretation is the interest rate for which [`npv(`](npv.html) will return 0 for the same cash flows.

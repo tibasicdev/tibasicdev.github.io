@@ -5,7 +5,10 @@
 |Calls a library routine from an application opened with [http://tibasicdev.github.io/OpenLib( OpenLib(]|ExecLib|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can be found in the Prgm Editor CTL menu, press:<br># Press "PRGM" while in the Program Editor.<br># Go to the last command and press "Enter".
+This command can be found in the Prgm Editor CTL menu, press:
+1. Press "PRGM" while in the Program Editor.
+1. Go to the last command and press "Enter".
+       
 # The ExecLib Command
 
 Together with [`OpenLib(`](openlib.html), `ExecLib` is used on the TI-84 Plus and TI-84 Plus SE for running routines from a Flash App library. This only works, of course, with libraries that have been specifically written for this purpose. The only such library so far is [usb8x](http://usb8x.sourceforge.net/), for advanced interfacing with the USB port.

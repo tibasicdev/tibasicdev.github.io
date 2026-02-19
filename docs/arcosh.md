@@ -5,7 +5,11 @@
 |Calculates the inverse hyperbolic cosine of a value.|coshֿ¹(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-The coshֿ¹( command can only be found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># C to skip to commands starting with C.<br># Scroll down and select coshֿ¹(
+The coshֿ¹( command can only be found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. C to skip to commands starting with C.
+1. Scroll down and select coshֿ¹(
+       
 # The coshֿ¹( Command
 
 The `coshֿ¹(` function gives the inverse hyperbolic cosine of a value. `coshֿ¹(x)` is the number y such that x = `cosh(y)`.

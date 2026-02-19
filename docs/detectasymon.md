@@ -5,7 +5,12 @@
 |Turns asymptote detection on.|DetectAsymOn|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format menu<br># Use arrows and ENTER to select "On" under "Detect Asymptotes:"<br><br>It can also be found under the catalog.
+Press:
+1. 2nd FORMAT to access the graph format menu
+1. Use arrows and ENTER to select "On" under "Detect Asymptotes:"
+
+It can also be found under the catalog.
+       
 # The DetectAsymOn Command
 
 When `DetectAsymOn` is selected, the calculator will detect asymptotes, adjusting the graph accordingly. This method of graphing is the most accurate but is also much slower than graphing with asymptotes turned off.

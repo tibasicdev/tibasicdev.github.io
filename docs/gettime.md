@@ -5,7 +5,11 @@
 |Returns a list with the current time that the clock has on the TI-84+/SE/CE.|getTime→*Variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># g to skip to commands starting with G<br># Scroll down to getTime and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. g to skip to commands starting with G
+1. Scroll down to getTime and select it
+       
 # The getTime Command
 
 The `getTime` command returns the current time that the clock has on the TI-84+/SE/CE calculators in [list](lists.html) format —  {*hour*, *minute*, *second*}. You can [store](store.html) this list to a variable for later use, or manipulate it the same way you do with other lists. Of course, this command only works if the time has actually been set, so you should use the [`setTime(`](settime.html) command before using it.

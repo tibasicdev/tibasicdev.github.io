@@ -5,7 +5,11 @@
 |Prematurely ends a cycle of a loop.|:Cycle|This command works on all calculators.|4 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 8 to enter the Transfers submenu.<br>* Press 3 to select Cycle.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 8 to enter the Transfers submenu.
+- Press 3 to select Cycle.
+       
 # The Cycle Command
 
 The `Cycle` command ends the current cycle of a [`68k:For`](68k:for.html)..`EndFor`, [`68k:Loop`](68k:loop.html)..`EndLoop`, or [`68k:While`](68k:while.html)..`EndWhile` loop, as though the corresponding `End` were there. It doesn't exit the loop forever; if the loop would have repeated, it goes back to the beginning. However, if the loop is ready to end (if the counter is equal to the end value, for a `For` loop, or if the condition is false, for a `While` loop), it exits the loop and continues after the `EndFor` or `EndWhile` command.

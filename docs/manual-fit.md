@@ -5,7 +5,11 @@
 |Allows user to create a line of best fit and modify it|Manual-Fit {*Function*}|TI-84+/SE (OS 2.30 or greater)|2 bytes|
 
 ### Menu Location
-Under Statistics or Catalog<br># Press STAT<br># Go to CALC<br># Press ALPHA D (or scroll to bottom)
+Under Statistics or Catalog
+1. Press STAT
+1. Go to CALC
+1. Press ALPHA D (or scroll to bottom)
+       
 # The Manual-Fit Command
 
 This command will allow the user to create a line of best fit according to their judgment.  Activate the command by just pasting it on the screen.  Then, click on a point for the line to begin followed by an end point.  The calculator will then draw your line and display its equation at the top left corner of the screen.  You can modify it by selecting the equation part and pressing enter.  Input your desired value for the calculator to change it.  The equation is stored into Y₁.  If you specify what equation you want to store it to, then it will store to that function.

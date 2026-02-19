@@ -5,7 +5,12 @@
 |Using either already-calculated statistics, or a data set, computes a *t* confidence interval.|TInterval [*list*, [*frequency*]], [*confidence level*]<br>(data list input)<br><br>TInterval *mean*, *std. deviation*, *sample size*, [*confidence level*]<br>(summary stats input)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location
-When editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 8 to select TInterval, or use arrows<br>(this key sequence will give you the TInterval... screen outside a program)
+When editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 8 to select TInterval, or use arrows
+(this key sequence will give you the TInterval... screen outside a program)
+       
 # The TInterval Command
 
 The `TInterval` command calculates a confidence interval for the mean value of a population, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the mean lies within the interval you get. Use `TInterval` when you have a single variable to analyze, and **don't** know the standard deviation. The `TInterval` assumes that your distribution is normal, but it will work for other distributions if the sample size is large enough.

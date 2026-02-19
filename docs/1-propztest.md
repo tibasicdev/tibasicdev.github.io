@@ -5,7 +5,12 @@
 |Performs a *z*-test on a proportion.|1-PropZTest(*p<sub>0</sub>*, *x*, *n*[, *alternative*, *draw?*] )|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 5 to select 1-PropZTest, or use arrows<br>(outside the program editor, this will select the 1-PropZTest... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 5 to select 1-PropZTest, or use arrows
+(outside the program editor, this will select the 1-PropZTest... interactive solver)
+       
 # The 1-PropZTest( Command
 
 1-PropZTest performs an *z*-test to compare a population proportion to a hypothesis value. This test is valid for sufficiently large samples: only when the number of successes (*x* in the command syntax) and the number of failures (*n*-*x*) are both >5.

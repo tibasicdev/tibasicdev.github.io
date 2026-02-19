@@ -5,7 +5,11 @@
 |Returns the number of seconds since the timer was started.|checkTmr(*Variable*)|TI-84+/SE/CSE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># C to skip to command starting with C<br># Scroll down to checkTmr( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. C to skip to command starting with C
+1. Scroll down to checkTmr( and select it
+       
 # The checkTmr( Command
 
 The `checkTmr(` command is used together with the [`startTmr`](starttmr.html) command to determine how much time has elapsed since the timer was started on the TI-84+/SE calculators. In particular, it returns the number of seconds since the built-in timer was started. An application of these commands is [timing](timings.html) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).

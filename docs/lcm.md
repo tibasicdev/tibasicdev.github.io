@@ -5,7 +5,11 @@
 |Finds the least common multiple of two values.|lcm(*value1*, *value2*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># 8 to select lcm(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. 8 to select lcm(, or use arrows.
+       
 # The lcm( Command
 
 Returns the least common multiple (LCM) of two nonnegative integers; lcm(*a*,*b*) is equivalent to *a**b*/gcd(*a*,*b*). Also works on lists.

@@ -5,7 +5,10 @@
 |Displays the decimal form of a fraction.|*<fraction>*►Dec|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MATH to enter the [MATH](math.html) menu<br># 2 or use the arrow keys to select
+While editing a program, press:
+1. MATH to enter the [MATH](math.html) menu
+1. 2 or use the arrow keys to select
+       
 # The ►Dec Command
 
 This command is generally useless.  Its supposed use is to convert numbers into decimal form, but any typed fractions are displayed as decimals anyway.

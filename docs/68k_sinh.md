@@ -5,7 +5,10 @@
 |Takes the hyperbolic sine of a number.|sinh(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press C to enter the Hyperbolic submenu.<br>* Press 1 to select sinh(.
+- Press 2nd MATH to enter the MATH menu.
+- Press C to enter the Hyperbolic submenu.
+- Press 1 to select sinh(.
+       
 # The sinh() Command
 
 

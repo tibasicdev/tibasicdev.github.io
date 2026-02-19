@@ -5,7 +5,10 @@
 |Sets a condition for a line or several lines to be executed.|If *condition*<br>://statement*<br>------<br>:If *condition// Then<br>…<br>:EndIf|This command works on all calculators.|2 bytes for If or If..Then;<br>2 bytes for Else;<br>2 bytes for ElseIf..Then;<br>2 bytes for EndIf.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 1 to paste If.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 1 to paste If.
+       
 # The If Command
 
 The If command is the most basic tool in programming. The idea is simple: it checks a condition, and then does something only if the condition is true.

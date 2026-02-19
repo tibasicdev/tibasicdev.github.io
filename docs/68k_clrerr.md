@@ -6,6 +6,7 @@
        
 ### Menu Location
 This command can only be found in the CATALOG
+       
 # Clrerr
 
 Clears the error status. It sets errornum to zero and clears the internal error context variables. The Else clause of the Try...EndTry in the program should use ClrErr or PassErr. If the error is to be processed or ignored, use ClrErr. If what to do with the error is not known, use PassErr to send it to the next error handler. If there are no more pending Try...EndTry error handlers, the error dialog box will be displayed as normal.

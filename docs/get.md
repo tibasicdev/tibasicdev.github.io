@@ -5,7 +5,11 @@
 |Gets a variable's value from a connected calculator or CBL device.|Get(*variable*)|TI-83/84/+/SE/CSE/CE*|1 byte<br><br><br><sub>*OS 5.1.5 or later</sub>|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to access the program menu.<br># RIGHT to access the I/O menu.<br># ALPHA A to select Get(.
+While editing a program, press:
+1. PRGM to access the program menu.
+1. RIGHT to access the I/O menu.
+1. ALPHA A to select Get(.
+       
 # The Get( Command
 
 The `Get(` command is meant for use with the CBL (Calculator Based Laboratory) device, or other compatible devices. When the calculator is connected by a link cable to such a device, `Get(*variable*)` will read data from the device and store it to *variable*. Usually, this data is a list, and so you want to `Get(L₁)` or some other list variable.

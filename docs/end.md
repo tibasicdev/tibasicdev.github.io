@@ -5,7 +5,10 @@
 |Indicates the end of a block of statements.|If *condition*<br>Then<br>*statement(s)*<br>End<br><br>While *condition*<br>*statement(s)*<br>End<br><br>Repeat *condition*<br>*statement(s)*<br>End<br><br>For(*variable*,*start*,*end*[,*step*])<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># 7 to choose End, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. 7 to choose End, or use arrows
+       
 # The End Command
 
 The `End` command is used together with the different control structures, including the [`If`](if.html) conditional, [`While`](while.html) loop, [`Repeat`](repeat.html) loop, and [`For(`](for.html) loop, to indicate the *end* of the code block for the respective control structure. In the case of the `If` conditional, you also need to add a [`Then`](if.html) command, which is used to indicate the beginning of the control structure.

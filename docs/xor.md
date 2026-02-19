@@ -5,7 +5,11 @@
 |Returns the truth value of *value1* or *value2*, but not both, being true.|*value1* xor *value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TEST to access the test menu.<br># RIGHT to access the LOGIC submenu.<br># 3 to select xor, or use arrows and ENTER.
+Press:
+1. 2nd TEST to access the test menu.
+1. RIGHT to access the LOGIC submenu.
+1. 3 to select xor, or use arrows and ENTER.
+       
 # The xor Command
 
 The third and final [binary](binandhex.html) operator is a little trickier, but it has the coolest name.  **xor** takes two numbers of expressions and checks to see if *exactly one* is True.  If both are True or both are False, it returns 0.

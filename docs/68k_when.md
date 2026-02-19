@@ -5,7 +5,10 @@
 |Chooses between two values based on a condition.|when(*condition*,*if-true*,*if-false*,[*if-undef*]])|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 3 to select when(.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 3 to select when(.
+       
 # The when() Command
 
 The when() command — a sort of one-line alternative to [68k:If](68k:if.html) — chooses one of (usually) two values based on a condition. The first argument is the condition to check; if the condition is true, when() evaluates the second argument, and if the condition is false, it evaluates the third.

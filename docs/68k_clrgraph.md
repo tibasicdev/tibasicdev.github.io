@@ -8,6 +8,7 @@
        
 ### Menu Location
 This command can be found in the Draw menu on the Graph Screen or from the CATALOG.
+       
 # Clrgraph
 
 Clears any functions or expressions that were created using the [Graph](graph.html) command or the [Table](table.html) command. Any previously selected Y= functions will be graphed the next time the graph is displayed.

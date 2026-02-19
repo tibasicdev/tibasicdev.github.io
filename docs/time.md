@@ -5,7 +5,10 @@
 |Sets the way sequence equations are graphed to value vs. time.|Time|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While in [Seq](http://tibasicdev.github.io/seq-mode) mode, press:<br># 2nd FORMAT to access the format menu.<br># ENTER to select Time
+While in [Seq](http://tibasicdev.github.io/seq-mode) mode, press:
+1. 2nd FORMAT to access the format menu.
+1. ENTER to select Time
+       
 # The Time Command
 
 

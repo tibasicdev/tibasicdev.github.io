@@ -5,7 +5,10 @@
 |Repeats a block of code forever.|:Loop<br>*(block of code)*<br>:EndLoop|This command works on all calculators.|2 bytes for Loop;<br>4 bytes for EndLoop.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 6 to paste Loop..EndLoop.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 6 to paste Loop..EndLoop.
+       
 # The Loop Command
 
 A Loop..EndLoop block is used to make the code inside the Loop repeat forever. For example, the following code will keep printing "Hello!" until you break out of the program with the ON key or the calculator runs out of batteries:

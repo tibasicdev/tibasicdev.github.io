@@ -5,7 +5,11 @@
 |Catches errors that occur in a block of code.|:Try<br> *(block of code)*<br>:Else<br> *(error-catching code)*<br>:EndTry|This command works on all calculators.|2 bytes for Try;<br>2 bytes for Else;<br>2 bytes for EndTry.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 2 to enter the If..Then submenu.<br>* Press 4 to select Try..EndTry.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 2 to enter the If..Then submenu.
+- Press 4 to select Try..EndTry.
+       
 # The Try Command
 
 The Try command is used to "catch" errors that occur in a block of code. If an error occurs in a Try..EndTry code block, it doesn't display an error message and exit the program. Instead, it records the type of error in the system variable [errornum](68k:system-variables.html#errornum), and jumps to the Else section of the Try..EndTry block.

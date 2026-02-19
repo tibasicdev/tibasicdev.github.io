@@ -5,7 +5,10 @@
 |Enables polar graphing mode.|Polar|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows to select Pol.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows to select Pol.
+       
 # The Polar Command
 
 The Polar command enables the [polar](graphing-mode.html#polar) graphing mode.

@@ -5,7 +5,10 @@
 |Truncates a number to a specified number of decimal places.|round(*value*[,*number of decimal places to round to*])|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press 3 to select round(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 1 to enter the Number submenu.
+- Press 3 to select round(.
+       
 # The round() command
 The round command takes whatever value you give it, and it rounds the value to a given number of decimal places. For instance round(9.7,0) will return 10, since rounding to 0 decimal places will return the closest whole number. Another example would be if you entered round(5.46338,3) which would return 5.463, since it rounded 5.46338 to 3 decimal places. The round function can round 0 to 12 decimal places, and if you enter a value outside that range, you will get a domain error. Strangely enough, if you enter an imaginary number into the round() command, nothing happens and the calculator returns the same function in a simplified form.
 

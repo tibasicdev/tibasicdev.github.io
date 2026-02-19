@@ -5,7 +5,13 @@
 |Changes the color of a certain function.|GraphColor(function#,color#)|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND 0 to access catalog.<br># TAN to get to the G index<br># Scroll down to find GraphColor(, then ENTER to paste.<br><br>Graph colors can also be changed under Y=.
+Press:
+1. 2ND 0 to access catalog.
+1. TAN to get to the G index
+1. Scroll down to find GraphColor(, then ENTER to paste.
+
+Graph colors can also be changed under Y=.
+       
 # The GraphColor( Command
 
 The `GraphColor(` command will change the color of any function from `Y<sub>0</sub>` to `Y<sub>9</sub>`. So, for example, to change the color of `Y<sub>3</sub>` to NAVY, do:

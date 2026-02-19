@@ -5,7 +5,11 @@
 |Finds the probability of an interval of the normal curve, and graphs the normal curve with the interval's area shaded.|ShadeNorm(*lower*, *upper*, [*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># RIGHT to select the DRAW submenu<br># ENTER to select ShadeNorm(
+Press:
+1. 2ND DISTR to access the distribution menu
+1. RIGHT to select the DRAW submenu
+1. ENTER to select ShadeNorm(
+       
 # The ShadeNorm( Command
 
 ShadeNorm( is equivalent to [normalcdf(](normalcdf.html) in terms of the probability it calculates: if a random variable follows the normal distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the normal curve, and shades the interval whose area represents the probability you want.

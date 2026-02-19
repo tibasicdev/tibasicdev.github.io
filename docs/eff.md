@@ -5,7 +5,15 @@
 |Converts a nominal interest rate to an effective interest rate.|►Eff(*interest rate*,*compounding periods*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># ALPHA C to select ►Eff(.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># ENTER or 1 to select Finance...<br># ALPHA C to select ►Eff(.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. ALPHA C to select ►Eff(.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. ENTER or 1 to select Finance...
+1. ALPHA C to select ►Eff(.
+       
 # The ►Eff( Command
 
 The `►Eff(` command converts from a nominal interest rate to an effective interest rate. In other words, it converts an interest rate that does not take into account compounding periods into one that does. The two arguments are 1) the interest rate and 2) the number of compounding periods.

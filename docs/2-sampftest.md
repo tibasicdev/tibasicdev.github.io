@@ -5,7 +5,14 @@
 |Performs a *F*-test to compare the standard deviations of two populations.|2-SampFTest [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*,*draw?*]<br>(data list input)<br><br>2-SampFTest *s<sub>1</sub>*, *n<sub>1</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*,*draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># ALPHA D to select 2-SampFTest, or use arrows<br>Outside the program editor, this will select the 2-SampFTest... interactive solver.<br><br>Change the last keypress to ALPHA E on a TI-84+/SE with OS 2.30 or higher.
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. ALPHA D to select 2-SampFTest, or use arrows
+Outside the program editor, this will select the 2-SampFTest... interactive solver.
+
+Change the last keypress to ALPHA E on a TI-84+/SE with OS 2.30 or higher.
+       
 # The 2-SampFTest Command
 
 2-SampFTest performs an *F*-test to compare the standard deviations of two populations. This test is valid for two normally distributed populations, but is extremely sensitive to non-normality, so it should not be used unless you are certain that the populations are normal.

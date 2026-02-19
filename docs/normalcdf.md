@@ -5,7 +5,10 @@
 |Finds the probability for an interval of the normal curve.|normalcdf(*lower*, *upper* [, *μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 2 to select normalcdf(, or use arrows.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 2 to select normalcdf(, or use arrows.
+       
 # The normalcdf( Command
 
 normalcdf( is the normal (Gaussian) cumulative density function. If some random variable follows a normal distribution, you can use this command to find the probability that this variable will fall in the interval you supply.

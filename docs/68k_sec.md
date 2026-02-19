@@ -5,7 +5,10 @@
 |Takes the secant of a number (usually, an angle).|sec(*angle*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press A to enter the Trig submenu.<br>* Press 5 to select sec(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press A to enter the Trig submenu.
+- Press 5 to select sec(.
+       
 # The sec() Command
 
 The `sec()` command returns the secant (the reciprocal of the [cosine](68k:cos.html)) of an angle measure. Naturally, the result depends on the angle [mode](68k:setmode.html) the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the <sup>[r](68k:radian.html)</sup>, [°](68k:degree.html), <sup>[G](68k:gradian.html)</sup> marks to specify an angle mode.

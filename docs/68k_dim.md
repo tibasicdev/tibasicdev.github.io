@@ -5,7 +5,10 @@
 |Returns the size of a list, matrix, or string.|dim(*list-matrix-or-string*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press D to enter the String submenu.<br>* Press 3 to select dim(.
+- Press 2nd MATH to enter the MATH menu.
+- Press D to enter the String submenu.
+- Press 3 to select dim(.
+       
 # The dim() Command
 
 The `dim()` command returns the size of a list, matrix, or string:

@@ -5,7 +5,12 @@
 |Adds two values, using element-by-element addition when adding a matrix and a number.|*value1* .+ *value2*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press 4 to enter the Matrix submenu.<br>* Press K to enter the Element ops submenu.<br>* Press 1 to select .+.<br>...frankly, just typing it is way easier.
+- Press 2nd MATH to enter the MATH menu.
+- Press 4 to enter the Matrix submenu.
+- Press K to enter the Element ops submenu.
+- Press 1 to select .+.
+...frankly, just typing it is way easier.
+       
 # The .+ Command
 
 The .+ command works like plain [+](68k:add.html) in most cases, adding two values together. It's distinguished by its application to matrices: in particular, when adding a matrix and a scalar. Normal addition of a matrix and a single value will add that value along the main diagonal only: as though the value were multiplied by the identity matrix. However, .+ does the more intuitive thing (for anyone but an algebraist, anyway) and adds the value to every element of the matrix.

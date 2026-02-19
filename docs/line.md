@@ -5,7 +5,10 @@
 |Draws a line at any angle.|Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>*[,erase,color,style]*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to enter the draw menu<br># 2 to insert the Line( token, or use arrows and ENTER.
+Press:
+1. 2nd DRAW to enter the draw menu
+1. 2 to insert the Line( token, or use arrows and ENTER.
+       
 # The Line( Command
 
 The Line( command is used to draw lines at any angle, as opposed to only drawing [vertical](vertical.html) or [horizontal](horizontal.html) lines. Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>) will draw a line from (X<sub>1</sub>,Y<sub>1</sub>) to (X<sub>2</sub>,Y<sub>2</sub>). Line( is affected by the window settings, although you can use a [friendly window](friendly-window.html) so there is no impact on the command.

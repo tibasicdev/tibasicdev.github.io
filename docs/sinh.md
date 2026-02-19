@@ -5,7 +5,11 @@
 |Calculates the hyperbolic sine of a value.|sinh(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-The sinh( command is only found in the Catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># S to skip to commands starting with S.<br># Scroll down and select sinh(.
+The sinh( command is only found in the Catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. S to skip to commands starting with S.
+1. Scroll down and select sinh(.
+       
 # The sinh( Command
 
 Calculates the hyperbolic sine of a value. The hyperbolic trig functions sinh(, [cosh(](cosh.html), and [tanh(](tanh.html) are an analog of normal trig functions, but for a hyperbola, rather than a circle. They can be expressed in terms of real powers of [e](e-value.html), and don't depend on the [Degree](degree-mode.html) or [Radian](radian-mode.html) mode setting.

@@ -66,7 +66,7 @@ def Image(match: re.Match) -> str:
 
 class Header:
     def __init__(self, template: str, headings: dict[str, dict[str, str]]):
-        self.template = template
+        self.template = inspect.cleandoc(template)
         self.headings = headings
 
     def format(self, **kwargs):
@@ -76,7 +76,7 @@ class Header:
                 if (value := kwargs.get(name, "").replace("@@", "")):
                     header += f"{heading}|"
                     sep += "--- |"
-                    row += f"{string.format(**{name: value})}|"
+                    row += f"{string.format(**{name: value})}|".replace("\n", "<br>")
                     break    
 
         return self.template.format(**{"$header": header, "$sep": sep, "$row": row}, **kwargs)
@@ -152,6 +152,8 @@ class Converter:
 
         # Images
         r'\[\[(?:=|<|>|f<|f>)?image\s+(?P<source>.*?)(?P<attributes>(\s+\w+=".*?")+)?\]\]': Image,
+
+        
     }
 
     includes = {
@@ -164,6 +166,7 @@ class Converter:
                    
             ++ Menu Location
             {$location}
+                   
             !+ {$title}
             """,
             {
@@ -179,9 +182,7 @@ class Converter:
             }),
 
         "cid":
-            """
-            This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}
-            """,
+            "This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}",
 
         "command":
             Header("""![{$title}]({$filename}/{$picture} "{$title}")
@@ -192,6 +193,7 @@ class Converter:
 
             ++ Menu Location
             {$location}
+                   
             !+ {$title}
             """,
             {
@@ -202,25 +204,23 @@ class Converter:
             }),
 
         "development":
-            """
+            inspect.cleandoc("""
             |**This article is part of the {$stage} stage of the [development](development%s) cycle.**|
             | --- |
-            """ % EXT,
+            """ % EXT),
 
         "math":
-            """
-            $$ {$eqn} $$
-            """,
+            "$$ {$eqn} $$",
 
         "next-prev":
-            """
+            inspect.cleandoc("""
             <center>
 
             |**[<< {$prevtitle}]({$prevpage}%s)**|**[{$toctitle}]({$tocpage}%s)**|**[{$nexttitle} >>]({$nextpage}%s)**|
             | --- | --- | --- |
 
             </center>
-            """ % (EXT, EXT, EXT),
+            """ % (EXT, EXT, EXT)),
 
         "nspire-command":
             Header("""![{$title}]({$filename}/{$picture} "{$title}")
@@ -241,11 +241,11 @@ class Converter:
             }),
 
         "prgm-code":
-            """
+            inspect.cleandoc("""
             ```
             {$code}
             ```
-            """,
+            """),
 
         "routine":
             Header("""
@@ -266,20 +266,18 @@ class Converter:
             }),
 
         "stub":
-            """
-            This article is a stub. You can help TI-Basic Developer by expanding it.
-            """
+            "This article is a stub. You can help TI-Basic Developer by expanding it."
     }
 
     def convert_include(self, filename: str, title: str):
         def inner(match: re.Match) -> str:
             name = match[1]
-            entries = {"$" + key.strip(): value[0].strip().replace("\n", "<br>")
+            entries = {"$" + key.strip(): value[0].strip()
                        for key, *value in map(lambda s: s.split("=", maxsplit=1), (match[2] or "").split("|")) if value}
 
-            return inspect.cleandoc(self.includes[name].format(default="DEFAULT",
+            return self.includes[name].format(default="DEFAULT",
                                                                **({"$location": "N/A\n"} | entries),
-                                                               **{"$filename": filename, "$title": title}))
+                                                               **{"$filename": filename, "$title": title})
 
         return inner
 

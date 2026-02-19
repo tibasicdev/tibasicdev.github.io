@@ -5,7 +5,10 @@
 |Disables labels on the X and Y coordinate axes.|LabelOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the format menu.<br># Use arrows and ENTER to select LabelOff.
+Press:
+1. 2nd FORMAT to access the format menu.
+1. Use arrows and ENTER to select LabelOff.
+       
 # The LabelOff Command
 
 The LabelOff setting disables labels on the X and Y coordinate axes. This is unnecessary if you've disabled the axes themselves, since the labels are only displayed when the axes are. To enable the labels, use the reverse setting [LabelOn](labelon.html).

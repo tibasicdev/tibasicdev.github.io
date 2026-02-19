@@ -5,7 +5,11 @@
 |Loops through a block of code until the condition is true. Always loops at least once.|Repeat *condition*<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># 6 to choose Repeat, or use arrows<br># 7 to choose End, or use arrows
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. 6 to choose Repeat, or use arrows
+1. 7 to choose End, or use arrows
+       
 # The Repeat Command
 
 A Repeat loop executes a block of commands between the Repeat and End commands until the specified condition is true. The condition is tested at the end of the loop (when the End command is encountered), so the loop will always be executed at least once. This means that you sometimes don't have to declare or initialize the variables in the condition before the loop.

@@ -5,7 +5,10 @@
 |Puts the calculator in Radian mode.|Radian|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Radian.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Radian.
+       
 # The Radian Command
 
 The Radian command puts the calculator into Radian mode, where the inputs and/or outputs to trig functions are assumed to be radian angles.
@@ -46,7 +49,12 @@ Overall, it's better to put your calculator in Radian mode when dealing with pol
 It's sometimes beneficial to use the <sup>[r](radian-symbol.html)</sup> command instead of switching to Radian mode. The <sup>r</sup> symbol will make sure a number is interpreted as a radian angle, even in degree mode, so that, for example:
 
 ```
-Degree<br>..................[[/span]]Done<br>sin(π)<br>..................[[/span]].0548036651<br>sin(π<sup>r</sup>)<br>..................[[/span]]0
+Degree
+..................[[/span]]Done
+sin(π)
+..................[[/span]].0548036651
+sin(π<sup>r</sup>)
+..................[[/span]]0
 ```
 
 

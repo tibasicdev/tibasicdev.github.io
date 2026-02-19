@@ -5,7 +5,10 @@
 |Enables sequence graphing mode.|Seq|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows to select Seq.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows to select Seq.
+       
 # The Seq Command
 
 The Seq command enables [sequence](graphing-mode.html#sequential) graphing mode.

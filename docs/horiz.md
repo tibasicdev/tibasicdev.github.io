@@ -5,7 +5,12 @@
 |Sets the screen mode to Horiz.|Horiz|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-In the program editor,<br># Press [MODE]<br># Press [DOWN] seven times<br># Press [RIGHT]<br># Press [ENTER] to insert Horiz
+In the program editor,
+1. Press [MODE]
+1. Press [DOWN] seven times
+1. Press [RIGHT]
+1. Press [ENTER] to insert Horiz
+       
 # The Horiz Command
 
 `Horiz` is usually at the beginning of a program. It is used at the beginning to ensure that the screen mode is `Horiz`, for programs such as Hangman that want to use [`Input`](input.html) but also have the graph screen shown. Note that if you use pixels, the y-coordinate can be no larger than 30, since that is the maximum pixel's range.

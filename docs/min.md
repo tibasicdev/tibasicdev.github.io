@@ -5,7 +5,16 @@
 |Returns the minimum of two elements or of a list.|* for two numbers: min(*x*,*y*)<br>* for a list: min(*list*)<br>* comparing a number to each element of a list: min(*x*,*list*) or min(*list*,*x*)<br>* pairwise comparing two lists: min(*list1*,*list2*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># 6 to select min(, or use arrows.<br><br>Alternatively, press:<br># 2nd LIST to access the list menu.<br># LEFT to access the MATH submenu.<br># ENTER to select min(.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. 6 to select min(, or use arrows.
+
+Alternatively, press:
+1. 2nd LIST to access the list menu.
+1. LEFT to access the MATH submenu.
+1. ENTER to select min(.
+       
 # The min( Command
 
 min(*x*,*y*) returns the smallest of the two numbers *x* and *y*. min(*list*) returns the smallest element of *list*. min(*list1*,*list2*) returns the pairwise minima of the two lists. min(*list1*,*x*) (equivalently, min(*x*,*list1*)) returns a list whose elements are the smaller of *x* or the corresponding element of the original list.

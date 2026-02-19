@@ -5,7 +5,11 @@
 |Sorts a list in descending order.<br><br>For more than one list, sorts the first, and reorders other lists accordingly.|SortD(*list1* [,*list2*, ...])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># RIGHT to access the OPS submenu.<br># 2 to select SortD(, or use arrows and ENTER.
+Press:
+1. 2nd LIST to access the list menu.
+1. RIGHT to access the OPS submenu.
+1. 2 to select SortD(, or use arrows and ENTER.
+       
 # The SortD( Command
 
 The SortD( command sorts a list in descending order. It does not return it, but instead edits the original list variable (so it takes only list variables as arguments).

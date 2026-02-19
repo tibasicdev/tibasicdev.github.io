@@ -5,7 +5,11 @@
 |Creates a list by evaluating a formula with one variable taking on a range of values, optionally skipping by a specified step.|seq(*formula*, *variable*, *start-value*, *end-value* [, *step*])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># 2nd LIST to enter the LIST menu<br># RIGHT to enter the OPS submenu<br># 5 to choose seq(, or use arrows.
+While editing a program, press:
+1. 2nd LIST to enter the LIST menu
+1. RIGHT to enter the OPS submenu
+1. 5 to choose seq(, or use arrows.
+       
 # The seq( Command
 
 The `seq(` command is very powerful, as it is (almost) the only command that can create a whole [list](list.html) as output. This means that you will need make use of it almost every time that you use lists. The `seq(` command creates a list by evaluating a formula with one variable taking on a range of several values.

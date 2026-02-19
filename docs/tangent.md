@@ -5,7 +5,10 @@
 |Draws a line tangent to an expression at the specified value.|Tangent(*expression*,*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd PRGM to access the draw menu.<br># 5 to select Tangent(, or use arrows and ENTER.
+Press:
+1. 2nd PRGM to access the draw menu.
+1. 5 to select Tangent(, or use arrows and ENTER.
+       
 # The Tangent( Command
 
 The Tangent( command draws a graph of an expression and then draws a line tangent to that expression, with the line touching the graph at the point of the specified value. You can either use a [equation variable](system-variables.html#equation) (such as Y<sub>1</sub>) or an expression in terms of X (such as X²). Though you can use equation variables from any [graphing mode](graphing-mode.html), they will be treated as functions in terms of X. Tangent( also ignores the graphing mode currently selected.

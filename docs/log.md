@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press the LOG key to paste log(.
+       
 # The log( Command
 
 The `log(` command computes the base 10 logarithm of a value — the exponent to which 10 must be raised, to get that value. This makes it the inverse of the [`10^(`](ten-exponent.html) command.

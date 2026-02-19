@@ -5,7 +5,11 @@
 |Puts the calculator in fixed-point display mode, displaying *value* digits after the decimal.|Fix *value*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows to select a number 0-9 from the 2nd line.<br>This will paste Fix *number*. Outside a program, it will simply put the calculator in the appropriate mode.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows to select a number 0-9 from the 2nd line.
+This will paste Fix *number*. Outside a program, it will simply put the calculator in the appropriate mode.
+       
 # The Fix Command
 
 The `Fix` command puts the calculator in fixed-point display mode: all numbers will be displayed with a fixed number of digits (0-9) after the decimal, depending on the the number following the `Fix` command.

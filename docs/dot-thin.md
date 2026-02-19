@@ -6,6 +6,7 @@
 
 ### Menu Location
 Go to Catalog, press [ALPHA][X^-1], and scroll down
+       
 # The Dot-Thin Command
 
 

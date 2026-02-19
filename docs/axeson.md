@@ -5,7 +5,10 @@
 |Enables the X- and Y- axes on the graph screen.|AxesOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the format menu.<br># Use arrows and ENTER to select AxesOn.
+Press:
+1. 2nd FORMAT to access the format menu.
+1. Use arrows and ENTER to select AxesOn.
+       
 # The AxesOn Command
 
 The `AxesOn` command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the [`AxesOff`](axesoff.html) command.

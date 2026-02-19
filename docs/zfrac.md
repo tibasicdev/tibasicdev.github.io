@@ -6,6 +6,7 @@
 
 ### Menu Location
 [Zoom][Alpha][Apps]
+       
 # The ZFracX Command
 
 ZFrac*X* refers to a collection of Zoom commands in for the OS 2.53MP and up.  The calculator boasts six such commands, each replacing *X* with a fraction of some sort.  The commands all essentially operate in the same manner, so they are all covered here on this page.

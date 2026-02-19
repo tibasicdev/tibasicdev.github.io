@@ -5,7 +5,11 @@
 |Restores the basic window settings as they were before the last zoom command.|ZPrevious|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># RIGHT to access the MEMORY submenu.<br># ENTER or 1 to select ZPrevious.
+Press:
+1. ZOOM to access the zoom menu.
+1. RIGHT to access the MEMORY submenu.
+1. ENTER or 1 to select ZPrevious.
+       
 # The ZPrevious Command
 
 The ZPrevious command (and menu option) restore the [window variables](system-variables.html#window) Xmin, Xmax, Xscl, Ymin, Ymax, and Yscl to the values they had before the last [zoom](zoom.html) command. This means, of course, that using ZPrevious a second time will cancel its effects.

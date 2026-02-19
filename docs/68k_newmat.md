@@ -5,7 +5,10 @@
 |returns a new matrix filled with 0s given the dimensions provided|newMat(rows,cols)<br>newMat(rows,cols)|This command works on all calculators.|~8 byte(s)|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup<br>* Press 4 to enter the Matrix submenu<br>* Press F ( Alpha
+- Press 2nd MATH to enter the MATH popup
+- Press 4 to enter the Matrix submenu
+- Press F ( Alpha
+       
 # newMat
 
 When integers are used as arguments, newMat() returns an empty matrix of the specified dimensions filled with zeros. When any type other than integers are used as as arguments, newMat returns a Data Type error. 

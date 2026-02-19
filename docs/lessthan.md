@@ -5,7 +5,10 @@
 |Returns true if value1 is less than value2.|*value1*<*value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TEST to access the test menu.<br># 5 to select <, or use arrows.
+Press:
+1. 2nd TEST to access the test menu.
+1. 5 to select <, or use arrows.
+       
 # The < Command
 
 The < (less than) operator takes two numbers, variables, or expressions, and tests to see if the first one has a value less than the second one. It will return 1 if it is less than, and 0 if it is not. When determining the order of operations, < will be executed after the [math](operators.html#math) operators, but it will be executed before the [logical](operators.html#logical) operators and in the order that it appears from left to right with the other [relational](operators.html#relational) operators.

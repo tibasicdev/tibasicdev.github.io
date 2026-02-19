@@ -6,6 +6,7 @@
        
 ### Menu Location
 MATH/Algebra/Complex
+       
 # Cfactor
 
 cFactor(expression1) returns expression1 factored with respect to all of its variables over a common denominator.

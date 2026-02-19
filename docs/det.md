@@ -5,7 +5,11 @@
 |Calculates the determinant of a square matrix.|det(*matrix*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATRX (83) or 2nd MATRX (83+ or higher) to access the matrix menu<br># LEFT to access the MATH submenu<br># ENTER to select det(.
+Press:
+1. MATRX (83) or 2nd MATRX (83+ or higher) to access the matrix menu
+1. LEFT to access the MATH submenu
+1. ENTER to select det(.
+       
 # The det( Command
 
 The `det(` command calculates the [determinant](http://mathworld.wolfram.com/determinant.html) of a square matrix. If its argument is not a square matrix, [ERR:INVALID DIM](errors.html#invaliddim) will be thrown.

@@ -5,7 +5,11 @@
 |Returns the string representation of the value of a real expression.|eval(*expression*)|TI-84+ CE OS 5.2|2 bytes|
 
 ### Menu Location
-This command is found only in the Catalog. Press:<br># 2ND CATALOG to enter the catalog<br># E to go to commands starting with E<br># Scroll down to eval(.
+This command is found only in the Catalog. Press:
+1. 2ND CATALOG to enter the catalog
+1. E to go to commands starting with E
+1. Scroll down to eval(.
+       
 # The eval( Command
 
 The `eval(` command, given an expression that evaluates to a real number, returns the string representation of that number.

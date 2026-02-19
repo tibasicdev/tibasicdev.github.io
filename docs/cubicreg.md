@@ -5,7 +5,11 @@
 |Calculates the best fit cubic function through a set of points.|CubicReg [*x-list*, *y-list*, [*frequency list*], [*equation variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># [STAT] to access the statistics menu<br># [LEFT] to access the CALC submenu<br># 6 to select CubicReg, or use arrows
+Press:
+1. [STAT] to access the statistics menu
+1. [LEFT] to access the CALC submenu
+1. 6 to select CubicReg, or use arrows
+       
 # The CubicReg Command
 
 The `CubicReg` command can calculate the best fit cubic function through a set of points. To use it, you must first store the points to two [lists](lists.html): one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points. You must have at least 4 points because there are infinitely many cubics that can go through 3 points or less.

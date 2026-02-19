@@ -5,7 +5,10 @@
 |Approximately computes a definite integral.|fnInt(*f*(*var*),*var*,*a*,*b*[,*tol*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press<br># Press MATH to access the [math](math.html) menu.<br># 9 to select fnInt(, or use arrows.
+Press
+1. Press MATH to access the [math](math.html) menu.
+1. 9 to select fnInt(, or use arrows.
+       
 # The fnInt( Command
 
 `fnInt(*f*(*var*),*var*,*a*,*b*[,*tol*])` computes an approximation to the definite integral of *f* with respect to *var* from *a* to *b*. *tol* controls the accuracy of the integral computed. The default value of *tol* is 10<sup>-5</sup>. fnInt( returns exact results for functions that are polynomials of small degree.

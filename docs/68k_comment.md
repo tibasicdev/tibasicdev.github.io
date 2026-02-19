@@ -5,7 +5,10 @@
 |Marks the rest of the line (in a program) as a comment.|://line of code* © *comment//|This command works on all calculators.|4 bytes (+ length of comment)|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the I/O menu.<br>* Press 9 to select ©.
+Starting in the program editor:
+- Press F2 to enter the I/O menu.
+- Press 9 to select ©.
+       
 # The © Command
 
 The © character is used for adding comments in a program: everything after © is ignored by the calculator for the purposes of actually running the program, so it's a good way to make a note to yourself about what a part of your code does. This is especially helpful if you're going to be reading the program later when you don't quite remember what you were doing.

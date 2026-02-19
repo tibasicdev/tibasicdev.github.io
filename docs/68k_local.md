@@ -5,7 +5,10 @@
 |Declares variables to be local to the current function or program.|Local *var1*[,*var2*,...]|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F4 to enter the Var menu.<br>* Press 3 to select Local.
+Starting in the program editor:
+- Press F4 to enter the Var menu.
+- Press 3 to select Local.
+       
 # The Local Command
 
 The Local command declares one or more variables to be local to the function or program it's used in. This means that the program "owns" these variables, so to speak: their values start out undefined, no matter if a variable with the same name was defined outside the program, and the variables will be cleaned up once the program exits. Even subprograms called from the main program can't see the main program's local variables.

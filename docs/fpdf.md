@@ -5,7 +5,11 @@
 |Evaluates the F-distribution probability density function at a point.|Fpdf(*x*, *numerator df*, *denominator df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 8 to select Fpdf(, or use arrows.<br>Press 9 instead of 8 on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 8 to select Fpdf(, or use arrows.
+Press 9 instead of 8 on a TI-84+/SE with OS 2.30 or higher.
+       
 # The Fpdf( Command
 
 `Fpdf(` is the *F*-distribution probability density function. 

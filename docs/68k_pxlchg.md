@@ -6,6 +6,7 @@
        
 ### Menu Location
 This command can't be found in any menu besides the command catalog.
+       
 # The PxlChg Command
 
 The PxlChg command inverts a pixel on the graph screen: drawing it if it was erased, and erasing it otherwise. It uses pixel coordinates, which means that the result isn't affected by [window variables](68k:system-variables.html#window) like xmin and xmax: PxlChg P, Q will always change the pixel P rows down and Q columns across from the top left corner of the graph screen.

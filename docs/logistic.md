@@ -5,7 +5,11 @@
 |Calculates the least-squares best fit logistic curve through a set of points.|Logistic [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># ALPHA B to select Logistic, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. ALPHA B to select Logistic, or use arrows
+       
 # The Logistic Command
 
 Logistic tries to fit a logistic curve (y=*c*/(1+*a***e*<sup>-*b**x</sup>)) through a set of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the *i*th element of one list matches up with the *i*th element of the other list. L₁ and L₂ are the default lists used, and the List Editor (STAT > Edit...) is a useful window for entering the points.

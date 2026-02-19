@@ -5,7 +5,10 @@
 |Draws an expression in terms of X.|DrawF *expression*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd PRGM to access the draw menu.<br># 6 to select DrawF, or use arrows and ENTER.
+Press:
+1. 2nd PRGM to access the draw menu.
+1. 6 to select DrawF, or use arrows and ENTER.
+       
 # The DrawF Command
 
 The `DrawF` commands draws a single expression on the graph screen in terms of X using [`Func`](func.html) graphing mode, regardless of what graphing mode the calculator is actually in. For example, `DrawF X²` will draw a [parabola](https://en.wikipedia.org/wiki/parabola) in the shape of a U on the screen. Of course, how it is displayed all depends on the window dimensions of the graph screen; you should use a [friendly window](friendly-window.html) to ensure it shows up as you intend.

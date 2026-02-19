@@ -5,7 +5,10 @@
 |Calculates the inverse of the cumulative normal distribution function.|invNorm(*probability*[,*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 3 to select invNorm(, or use arrows.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 3 to select invNorm(, or use arrows.
+       
 # The invNorm( Command
 
 `invNorm(` is the inverse of the cumulative normal distribution function: given a probability, it will give you a z-score with that tail probability. The probability argument of `invNorm(` is between 0 and 1; 0 will give `-1E[[/size]]99` instead of negative infinity, and 1 will give `1E[[/size]]99` instead of positive infinity

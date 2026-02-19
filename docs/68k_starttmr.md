@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The startTmr() Command
 
 The startTmr() command returns the number of seconds that passed since 00:00 GMT of January 1, 1997 — as far as the calculator knows, anyway, since this value is adjusted every time the current time and date changes with [68k:setTime()](68k:settime().html) or [68k:setDate()](68k:setdate().html). If the clock is running, this number is also updated every second, which is how the calculator keeps track of time.

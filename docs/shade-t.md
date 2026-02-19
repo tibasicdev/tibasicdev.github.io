@@ -5,7 +5,11 @@
 |Finds the probability of an interval of the Student's *t* distribution, and graphs the distribution with the interval's area shaded.|Shade_t(*lower*, *upper*, *df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># RIGHT to select the DRAW submenu<br># 2 to select Shade_t(, or use arrows
+Press:
+1. 2ND DISTR to access the distribution menu
+1. RIGHT to select the DRAW submenu
+1. 2 to select Shade_t(, or use arrows
+       
 # The Shade_t( Command
 
 Shade_t( is equivalent to [tcdf(](tcdf.html) in terms of the probability it calculates: if a random variable follows the Student's *t* distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the distribution, and shades the interval whose area represents the probability you want.

@@ -5,7 +5,10 @@
 |Converts an expression from one unit to another.|*expression*▶*units*|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-Press [2nd][▶] to enter ▶: this is<br>* [2nd][MODE] on a TI-89 or TI-89 Titanium<br>* [2nd][Y] on a TI-92, TI-92 Plus, or Voyage 200
+Press [2nd][▶] to enter ▶: this is
+- [2nd][MODE] on a TI-89 or TI-89 Titanium
+- [2nd][Y] on a TI-92, TI-92 Plus, or Voyage 200
+       
 # The ▶ Command
 
 The ▶ operator converts an expression to a different unit. Usually, this refers to the built-in units (such as _m (meters), _mph (miles per hour, etc.) which you can select from the UNITS menu.

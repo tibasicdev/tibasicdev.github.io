@@ -5,7 +5,10 @@
 |Creates a list by evaluating a formula over a range of values.|seq(*formula*,*variable*,*start*,*end*[,*step-size*]|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 3 to enter the List submenu.<br>* Press 1 to select seq(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 3 to enter the List submenu.
+- Press 1 to select seq(.
+       
 # The seq() Command
 
 The seq() command creates a [list](68k:lists.html) of terms of a sequence: seq(*formula*,*variable*,*start*,*end*) evaluates *formula* for every value of *variable* from *start* to *end*. Optionally, a fifth argument, *step-size*, is included: this increases the value of *variable* by *step-size* for each element, instead of 1.

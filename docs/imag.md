@@ -5,7 +5,11 @@
 |Returns the imaginary part of a complex number.|imag(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT, RIGHT to access the CPX (complex) submenu.<br># 3 to select imag(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT, RIGHT to access the CPX (complex) submenu.
+1. 3 to select imag(, or use arrows.
+       
 # The imag( Command
 
 `imag(z)` returns the imaginary part of the complex number *z*. If *z* is represented as *x*+i*y* where *x* and *y* are both real, `imag(z)` returns *y*. Also works on a list of complex numbers.

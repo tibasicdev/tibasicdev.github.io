@@ -5,7 +5,10 @@
 |Puts the calculator into re^θ*i* mode.|re^θ*i*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MODE to access the mode menu.<br># Use the arrow keys and ENTER to select re^θ*i*
+Press:
+1. MODE to access the mode menu.
+1. Use the arrow keys and ENTER to select re^θ*i*
+       
 # The re^θi Command
 
 The re^θ*i* command puts the calculator into polar complex number mode. This means that:

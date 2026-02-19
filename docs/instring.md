@@ -5,7 +5,11 @@
 |Finds the first occurrence of a search string in a larger string.|inString(*haystack*, *needle*, *starting point*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location
-This command can only be found in the Catalog. Press:<br># 2nd CATALOG to access the command catalog<br># I to skip to command starting with I<br># scroll down to find inString( and select it
+This command can only be found in the Catalog. Press:
+1. 2nd CATALOG to access the command catalog
+1. I to skip to command starting with I
+1. scroll down to find inString( and select it
+       
 # The inString( Command
 
 The `inString(` command searches a string for occurrences of a smaller string (similar to the Find feature on a computer), and returns the first such occurrence.

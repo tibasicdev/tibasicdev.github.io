@@ -5,7 +5,10 @@
 |Displays a generic menu on the home screen, with up to seven (or nine on color calculators) options for the user to select.|Menu("*Title*","*Option 1*",Label 1[,...,"*Option 7*",Label 7])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># Press ALPHA PRGM to choose Menu( or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. Press ALPHA PRGM to choose Menu( or use arrows
+       
 # The Menu( Command
 
 Menus are used for organization, to provide a list of choices for the user to select from, as well as a good way for users to interact with and navigate programs. Although using the Menu( command requires [branching](goto.html) (which is generally frowned upon in most circumstances), the menu looks like a generic built-in menu, so it is familiar and easy to use for the user.

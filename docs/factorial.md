@@ -5,7 +5,11 @@
 |Calculates the factorial of a number or list.|*value*!|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 4 to select !, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 4 to select !, or use arrows.
+       
 # The ! Command
 
 ! is the factorial function, where *n*! = *n**(*n*-1)! and 0! = 1, *n* an nonnegative integer. The function also works for arguments that are half an odd integer and greater than -1/2: $(-\frac1{2})!$ is defined as $\sqrt{\pi}$ and the rest are defined recursively. 69 is the largest number for which the calculator can perform the operation. 

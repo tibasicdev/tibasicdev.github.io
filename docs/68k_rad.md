@@ -5,7 +5,10 @@
 |Converts an angle measure to radians, if necessary.|*angle*▶Rad|This command requires a TI-89 Titanium or Voyage 200 calculator with AMS version 3.00 or higher.|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 2 to enter the Angle submenu.<br>* Press B to select ▶Rad.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 2 to enter the Angle submenu.
+- Press B to select ▶Rad.
+       
 # The ▶Rad Command
 
 The ▶Rad command is used to convert both degrees and gradians into radians. (If the command is given a value in radians it returns that value unchanged).

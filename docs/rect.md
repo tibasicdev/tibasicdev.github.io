@@ -5,7 +5,11 @@
 |Formats a complex value in rectangular form when displaying it.|*value*►Rect|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the math menu.<br># RIGHT RIGHT to access the CPX submenu.<br># 6 to select ►Rect, or use arrows and ENTER.
+Press:
+1. MATH to access the math menu.
+1. RIGHT RIGHT to access the CPX submenu.
+1. 6 to select ►Rect, or use arrows and ENTER.
+       
 # The ►Rect Command
 
 The ►Rect command can be used when displaying a complex number on the home screen, or with the [Disp](disp.html) and [Pause](pause.html) commands. It will then format the number as though [a+bi](a-bi.html) mode were enabled, even when it's not. It also works with lists.

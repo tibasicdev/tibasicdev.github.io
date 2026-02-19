@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the COS button to enter cos(.
+       
 # The cos() Command
 
 

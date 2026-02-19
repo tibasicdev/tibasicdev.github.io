@@ -5,7 +5,10 @@
 |Compresses an assembly program in hexadecimal form into [binary](http://tibasicdev.github.io/binandhex) form.|Asm(prgm*ORIGINAL*,prgm*RESULT*)|TI-83+/84+/SE/CSE/CE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location
-This command is only found in the catalog. Press:<br># 2nd CATALOG to access the command catalog.<br># Scroll down to AsmComp( and press enter.
+This command is only found in the catalog. Press:
+1. 2nd CATALOG to access the command catalog.
+1. Scroll down to AsmComp( and press enter.
+       
 # The AsmComp( Command
 
 This command is used to compress an assembly program written using [`AsmPrgm`](asmprgm.html) into an "assembled" assembly program. This will make the program about twice as small, and protect it from being edited, in addition to making execution faster.

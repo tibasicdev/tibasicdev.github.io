@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The NewPic command
 
 This command forms a new picture from a matrix. The matrix must have only 2 columns, and should contain as many rows as there are "on" pixels (darkened pixels) in the image. If the picture variable specified already exists, this command will overwrite it. This command takes each row of the matrix, and forms pixel coordinates from the two numbers there. The optional arguments maxRow and maxColumn specify the boundaries of the picture, so this is a good way to form a small sprite from a matrix.

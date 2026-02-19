@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [STO►]
+       
 # The → Command
 
 The → (store) command will store a number, variable, or expression to a variable, using the respective value(s) of the variable(s) at the time. When storing a value in a variable, you have the value on the left side of → and the variable that it will be stored to on the right side.

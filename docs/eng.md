@@ -5,7 +5,10 @@
 |Puts the calculator in engineering notation mode.|Eng|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Eng.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Eng.
+       
 # The Eng Command
 
 The `Eng` command puts the calculator in engineering notation mode. This is a variation on scientific notation in which the exponent is restricted to be a multiple of 3 (and the mantissa can range between 1 and 1000, not including 1000 itself)

@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The PxlOff Command
 
 The PxlOff command erases a pixel on the graph screen. It uses pixel coordinates, which means that the result isn't affected by [window variables](68k:system-variables.html#window) like xmin and xmax: PxlOff P, Q will always erase the pixel P rows down and Q columns across from the top left corner of the graph screen.

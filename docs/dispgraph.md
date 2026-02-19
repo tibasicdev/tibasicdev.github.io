@@ -5,7 +5,11 @@
 |Displays the graph screen.|DispGraph|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to access the program menu.<br># RIGHT to access the I/O submenu.<br># 4 to select DispGraph, or use arrows and ENTER.
+While editing a program, press:
+1. PRGM to access the program menu.
+1. RIGHT to access the I/O submenu.
+1. 4 to select DispGraph, or use arrows and ENTER.
+       
 # The DispGraph Command
 
 The `DispGraph` command displays the graph screen, along with everything drawn or graphed on it.

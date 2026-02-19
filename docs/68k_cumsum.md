@@ -5,7 +5,13 @@
 |Calculates cumulative sums of a list or of the columns of a matrix.|cumSum(*list or matrix*)|TI-89/92/+/v200|7 bytes|
 
 ### Menu Location
-Press:<br># 2nd [MATH] to access the [68k:math](68k:math.html) menu.<br># 3 to access the list submenu, or use arrows.<br># 7 to select cumSum(), or use arrows.<br><br>Alternatively, type cumSum( with the keyboard.
+Press:
+1. 2nd [MATH] to access the [68k:math](68k:math.html) menu.
+1. 3 to access the list submenu, or use arrows.
+1. 7 to select cumSum(), or use arrows.
+
+Alternatively, type cumSum( with the keyboard.
+       
 # The cumSum() Command
 
 `cumSum(` calculates the cumulative sums of a list, or of the columns of a matrix, and outputs them in a new list or matrix variable.

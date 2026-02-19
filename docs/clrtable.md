@@ -5,7 +5,11 @@
 |Clears saved calculations for the table screen.|ClrTable|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to access the program menu.<br># RIGHT to access the I/O submenu.<br># 9 to select ClrTable.
+While editing a program, press:
+1. PRGM to access the program menu.
+1. RIGHT to access the I/O submenu.
+1. 9 to select ClrTable.
+       
 # The ClrTable Command
 
 The `ClrTable` command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [TblInput](system-variables.html#window) is deleted. In [`IndpntAuto`](indpntauto.html) and [`DependAuto`](dependauto.html) mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in [`IndpntAsk`](indpntask.html) or [`DependAsk`](dependask.html) mode, where the corresponding parts of the table will be cleared entirely.

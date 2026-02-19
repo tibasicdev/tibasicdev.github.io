@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ClrHome Command
 
 The `ClrHome` command clears the home screen — not the I/O screen where the result of commands like [`68k:Disp`](68k:disp.html) or [`68k:Output`](68k:output.html) is displayed (you'd need [`68k:ClrIO`](68k:clrio.html) for that), but the screen where you run programs and evaluate expressions. This isn't usually something you want a program to clear, so this isn't a very exciting command.

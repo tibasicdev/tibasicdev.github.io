@@ -5,7 +5,10 @@
 |Returns a character given its ASCII code.|char(*code*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the String submenu.<br>* Press A to paste char(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the String submenu.
+- Press A to paste char(.
+       
 # The char() Command
 
 The `char()` command converts an integer between 0 and 255 to the corresponding character in the calculator's [internal code](68k:character-codes.html) (which is a modification of ASCII). It can also operate on a list or matrix by converting each of their elements to a character.

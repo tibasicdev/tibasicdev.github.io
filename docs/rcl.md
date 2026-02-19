@@ -6,6 +6,7 @@
 
 ### Menu Location
 [2ND][STO>]
+       
 # Rcl
 
 `Rcl` is a functionality of the calculator which allows the user to paste the value of a variable into a text entry field. The `Rcl` function can be used anywhere where text entry is required, but may not be used as a command within a program. When the user presses [2ND][STO>], the `Rcl` prompt will appear. Enter the name of the variable that you wish to recall here, and press [ENTER]. For example, you could use Rcl to paste the contents of a string variable into an Input prompt in a running program.

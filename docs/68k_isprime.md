@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The isPrime() Command
 
 The isPrime() command returns a Boolean value based on whether or not the passed argument is prime or not.  True is returned for prime numbers and false is returned for composite numbers.  A number is prime if its divisors are only 1 and itself.  For instance, the number 23 is considered prime because no two positive integers but 1 and 23 can multiply to get 23.  For the calculator, 1 isn't considered prime.

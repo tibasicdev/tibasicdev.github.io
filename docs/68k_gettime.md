@@ -6,6 +6,7 @@
        
 ### Menu Location
 In catalog under G for supported devices and operating systems.
+       
 # Gettime
 
 Returns the current system time as a list of hour, minute, second values. This function was introduced in AMS 2.07 as per tigcc. 

@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getType() Command
 
 The getType() command returns the type of a variable — number, string, function, etc. The output is a short string encoding the type of the variable.

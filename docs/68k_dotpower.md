@@ -5,7 +5,12 @@
 |Raises a value to a power, doing this element-by-element for matrices.|*base* .^ *exponent*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press 4 to enter the Matrix submenu.<br>* Press K to enter the Element ops submenu.<br>* Press 1 to select .+.<br>...frankly, just typing it is way easier.
+- Press 2nd MATH to enter the MATH menu.
+- Press 4 to enter the Matrix submenu.
+- Press K to enter the Element ops submenu.
+- Press 1 to select .+.
+...frankly, just typing it is way easier.
+       
 # The .^ Command
 
 The .^ operator is generally the same as [^](68k:power.html), except when dealing with matrices. While ^ does quite a lot of matrix-specific stuff (check out its page for more information), .^ just applies it element-by-element:

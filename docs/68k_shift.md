@@ -5,7 +5,10 @@
 |Shifts the elements of a list, string, or binary integer.|shift(*object*[,*places*])|This command works on all calculators.|2 bytes.|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press E to enter the Base submenu.<br>* Press B to select shift(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press E to enter the Base submenu.
+- Press B to select shift(.
+       
 # The shift() Command
 
 When shift() is applied to lists or strings, it moves every element or character over, removing the elements that were shifted off the end, and filling in empty spaces with an undefined value: undef for lists and a space for strings. The default action is to shift everything one element right.

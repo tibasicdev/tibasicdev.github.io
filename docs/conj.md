@@ -5,7 +5,11 @@
 |Calculates the complex conjugate of a complex number.|conj(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT, RIGHT to access the CPX (complex) submenu<br># ENTER to select conj(.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT, RIGHT to access the CPX (complex) submenu
+1. ENTER to select conj(.
+       
 # The conj( Command
 
 `conj(*z*)` returns the complex conjugate of the complex number *z*. If *z* is represented as *x*+i*y* where *x* and *y* are both real, `conj(*z*)` returns *x*-i*y*. Also works on a list of complex numbers.

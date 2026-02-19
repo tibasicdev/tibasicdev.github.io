@@ -5,7 +5,11 @@
 |Asks for a string in a dialog box.|Request *promptString*, *var*|This command works on all calculators.|? bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 2 to select Request.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 2 to select Request.
+       
 # The Request Command
 
 On its own, the Request command asks for a string in a dialog box, while showing the prompt string to its left. It can also be used inside a [`68k:Dialog`](68k:dialog.html)..EndDlog block, to add a line of text to a more advanced dialog.

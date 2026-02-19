@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press TAN
+       
 # The tan( Command
 
 tan(θ) calculates the [tangent](http://mathworld.wolfram.com/tangent.html) of the angle θ, which is defined by $\tan \theta=\frac{\sin \theta}{\cos \theta}$

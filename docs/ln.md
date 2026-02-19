@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press the LN key to paste ln(.
+       
 # The ln( Command
 
 The ln( command computes the natural logarithm of a value — the exponent to which the constant *[e](e-value.html)* must be raised, to get that value. This makes it the inverse of the *[e^(](e-exponent.html)* command.

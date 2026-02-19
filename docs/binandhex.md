@@ -130,7 +130,12 @@ Let us use the formula above.  Define every variable first.  We want to find V<s
 
 Now, plug all this into the formula:
 
-$$ \begin{align}<br>V_{10} = 2(16^1)+11(16^0) \\<br>V_{10} = 2(16)+11(1) \\<br>V_{10} = 32+11 \\<br>V_{10} = 43 \\<br>\end{align} $$
+$$ \begin{align}
+V_{10} = 2(16^1)+11(16^0) \\
+V_{10} = 2(16)+11(1) \\
+V_{10} = 32+11 \\
+V_{10} = 43 \\
+\end{align} $$
 
 Therefore, 2B<sub>16</sub> is equal to 43.
 
@@ -157,7 +162,11 @@ In the same way that for 123, we say there is one group of 100, two groups of 10
 
 Just like how we can convert from any base to decimal, it is possible to convert decimal to any base.  Let us say that we want to represent the number 236<sub>10</sub> in binary, octal, and hexadecimal.  What we need to do is pretty much reverse whatever we did above.  There isn't really a good formula for this, but there is an algorithm that you can follow which will help accomplish what we want.
 
-$$ (1) \hspace{6pt} Let \hspace{4pt} P = \operatorname{int}(\sqrt[B]{V}) \\<br>(2) \hspace{6pt} Let \hspace{4pt} v = \operatorname{int}(V \div B^P) \\<br>(v \hspace{4pt} is \hspace{4pt} the \hspace{4pt} next \hspace{4pt} digit \hspace{4pt} to \hspace{4pt} the \hspace{4pt} right) \\<br>(3) \hspace{6pt} Make \hspace{4pt} V = V-vB^p \\<br>(4) \hspace{6pt} Repeat \hspace{4pt} steps \hspace{4pt} 1 \hspace{4pt} through \hspace{4pt} 3 \hspace{4pt} until \hspace{4pt} p=0 \\ $$
+$$ (1) \hspace{6pt} Let \hspace{4pt} P = \operatorname{int}(\sqrt[B]{V}) \\
+(2) \hspace{6pt} Let \hspace{4pt} v = \operatorname{int}(V \div B^P) \\
+(v \hspace{4pt} is \hspace{4pt} the \hspace{4pt} next \hspace{4pt} digit \hspace{4pt} to \hspace{4pt} the \hspace{4pt} right) \\
+(3) \hspace{6pt} Make \hspace{4pt} V = V-vB^p \\
+(4) \hspace{6pt} Repeat \hspace{4pt} steps \hspace{4pt} 1 \hspace{4pt} through \hspace{4pt} 3 \hspace{4pt} until \hspace{4pt} p=0 \\ $$
 
 
 

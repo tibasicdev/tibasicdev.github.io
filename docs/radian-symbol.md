@@ -5,7 +5,10 @@
 |If the calculator is in degree mode, the <sup>r</sup> (radian) symbol converts a radian angle to degrees.|*angle*<sup>r</sup>|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 3 to select <sup>r</sup>, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 3 to select <sup>r</sup>, or use arrows and ENTER.
+       
 # The r (Radian Symbol) Command
 
 

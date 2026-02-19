@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The PtChg Command
 
 The `PtChg` command inverts a point on the graph screen — drawing it if it isn't already there, and erasing it otherwise. It uses point coordinates, which means that the result is determined by [window variables](68k:system-variables.html#window): the x-coordinate must be between xmin and xmax, and the y-coordinate must be between ymin and ymax (with (xmin,ymin) being the bottom left and (xmax,ymax) the top right corner).

@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The RplcPic command
 
 This command replaces whatever is on the screen at a specific spot (*[row][,column]*). If no row or column is specified, the default is the upper left corner (0,0). If the picture is less than the full screen, only the spot at which the picture is placed will be removed. If you do not want anything replaced, use [68k:RclPic](68k:rclpic.html) instead...

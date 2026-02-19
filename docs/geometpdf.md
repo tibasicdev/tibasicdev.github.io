@@ -5,7 +5,11 @@
 |Calculates the geometric probability for a single value|geometpdf(*probability*, *trials*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA D to select geometpdf(, or use arrows.<br>Press ALPHA E instead of ALPHA D on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ALPHA D to select geometpdf(, or use arrows.
+Press ALPHA E instead of ALPHA D on a TI-84+/SE with OS 2.30 or higher.
+       
 # The geometpdf( Command
 
 This command is used to calculate geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

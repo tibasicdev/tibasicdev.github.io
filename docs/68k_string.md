@@ -5,7 +5,10 @@
 |Converts any expression to a string.|string(*expression*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the String submenu.<br>* Press 1 to select string(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the String submenu.
+- Press 1 to select string(.
+       
 # The string() Command
 
 The string() command converts any expression to its string form. This applies to numbers, but also to lists, matrices, symbolic expressions, and equations. The result depends on all the mode settings that are typically involved with displaying a number: base, exact/approx setting, etc.

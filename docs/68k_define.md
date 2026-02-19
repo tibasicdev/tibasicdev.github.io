@@ -5,7 +5,10 @@
 |Stores a value in a variable.|Define *variable*=*value*|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F4 to enter the Var menu.<br>* Press 1 or Enter to select Define.
+Starting in the program editor:
+- Press F4 to enter the Var menu.
+- Press 1 or Enter to select Define.
+       
 # The Define Command
 
 The `Define` command sets the value of a variable. At its simplest, it's an alternative to [`→`](68k:store.html): `Define` x=5 is equivalent to 5→x. However, `Define` is also useful for defining functions or programs using [`68k:Func`](68k:func.html)..`EndFunc` or [`68k:Prgm`](68k:prgm.html)..`EndPrgm` respectively, which `→` can't do:

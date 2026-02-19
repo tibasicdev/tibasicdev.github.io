@@ -5,7 +5,11 @@
 |Displays an expression, a string, or several expressions and strings on the home screen.|Disp [argument1,argument2,...]|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 3 to select Disp (or use arrows to select)
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 3 to select Disp (or use arrows to select)
+       
 # The Disp Command
 
 The first, and easiest, way to display text is using the `Disp` command. You can display whatever combination of text and values that you want. Text is displayed on the left side of the screen, while numbers, variables and expressions are displayed on the right side. Text can be moved over to the right by padding it with spaces, but there is no equivalent for numbers, variables, and expressions.

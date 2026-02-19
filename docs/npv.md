@@ -5,7 +5,11 @@
 |Computes the net present value of money over a specified time period.|npv(*interest rate*,*CF0*,*CFList*[,*CFFreq*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FINANCE (on a TI-83) or APPS (TI-83+ or higher) to access the finance menu<br># On the TI-83+ or higher, select the first option "Finance..." from the APPS menu<br># 7 or use arrow keys to scroll to it
+Press:
+1. 2nd FINANCE (on a TI-83) or APPS (TI-83+ or higher) to access the finance menu
+1. On the TI-83+ or higher, select the first option "Finance..." from the APPS menu
+1. 7 or use arrow keys to scroll to it
+       
 # The npv( Command
 
 The `npv(` command computes the net present value of money over a specified time period. If a positive value is returned after executing `npv(`, that means it was a positive cashflow; otherwise it was a negative cashflow. The `npv(` command takes four arguments, and the fourth one is optional:

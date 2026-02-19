@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [2nd] [*e*<sup>x</sup>] to paste *e*^(.
+       
 # The e^( Command
 
 The `*e*^(` command raises the constant `*[e](e-value.html)*` to a power. Since it's possible to just type out `*e*`, ^, and (, the reason for having a separate function isn't immediately obvious but in fact most of the time you need to use `*e*`, it's to raise it to a power.

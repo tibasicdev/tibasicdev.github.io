@@ -5,7 +5,10 @@
 |Executes a line or block of code when an expression is nonzero.|If *condition*<br>*statement*<br><br>If *condition*<br>Then<br>*one or more statements*<br>End<br><br>If *condition*<br>Then<br>*statement(s) to run if condition is true*<br>Else<br>*statement(s) to run otherwise*<br>End|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># ENTER or 1 to choose If
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. ENTER or 1 to choose If
+       
 # The If Command
 
 The `If` command is crucial to most programs. It allows you to execute code if and only if an expression is not equal to zero. Advanced uses of the `If` command allow you to execute a different block of code if the check turns out to be false. The simplest form of the command is quite easy to understand:

@@ -5,7 +5,10 @@
 |Puts the calculator into a+b*i* mode.|a+b*i*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MODE to access the mode menu.<br># Use the arrow keys and ENTER to select a+b*i*
+Press:
+1. MODE to access the mode menu.
+1. Use the arrow keys and ENTER to select a+b*i*
+       
 # The a+bi Command
 
 The `a+b*i*` command puts the calculator into rectangular complex number mode. This means that:

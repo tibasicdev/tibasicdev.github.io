@@ -5,7 +5,10 @@
 |Rotates a string, list, or binary integer.|rotate(*object*,*places*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press E to enter the Base submenu.<br>* Press C to select rotate(.
+- Press 2nd MATH to enter the MATH menu.
+- Press E to enter the Base submenu.
+- Press C to select rotate(.
+       
 # The rotate() Command
 
 When rotate() is applied to lists or strings, it moves every element or character over, moving the displaced elements over to the other end. By default, it shifts everything right one space, and moves the rightmost element to the beginning.

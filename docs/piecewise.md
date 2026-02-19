@@ -5,7 +5,10 @@
 |Graphs up to 5 piecewise expressions.|(expression, condition [,expression, condition]) <br><br>Up to 5 (expression,condition) pieces are allowed.|TI-84+CE OS 5.3|2 bytes|
 
 ### Menu Location
-1: While editing a program, press [math]<br><br>2: Then press [alpha] [apps] (B) or scroll down.
+1: While editing a program, press [math]
+
+2: Then press [alpha] [apps] (B) or scroll down.
+       
 # The piecewise( Command
 
 The `piecewise(` command is a new addition in the release of OS 5.3 for the TI-84 Plus CE. As implied, it allows for the graphing of piecewise functions in the Y= editor. The example code demonstrates how this works from within a program.

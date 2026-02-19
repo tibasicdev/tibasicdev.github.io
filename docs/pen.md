@@ -5,7 +5,10 @@
 |Allows the user to draw on the graph screen.|Pen isn't a command, it's a menu option.|TI-83/84/+/SE|
 
 ### Menu Location
-From the home screen, press:<br># 2nd PRGM to enter the DRAW menu<br># Scroll up to select Pen, or use arrows.
+From the home screen, press:
+1. 2nd PRGM to enter the DRAW menu
+1. Scroll up to select Pen, or use arrows.
+       
 # The Pen Tool
 
 The Pen tool allows you to draw on the [graph screen](graphscreen.html) using a + cursor for the "pen", similar to what you see when accessing the graph screen with graphs or with the [Input](input.html) command. You can find Pen by pressing [2nd][PRGM] to go to the DRAW menu, but it is only accessible from the calculator's home screen (where you do math and run programs); it won't show up when you are inside the program editor.

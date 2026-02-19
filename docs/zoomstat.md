@@ -5,7 +5,10 @@
 |Zooms to a graphing window which works for all currently selected [plots](http://tibasicdev.github.io/plotn).|ZoomStat|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 9 to select ZoomStat, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 9 to select ZoomStat, or use arrows and ENTER.
+       
 # The ZoomStat Command
 
 The ZoomStat command command zooms to a graphing window that accurately represents all the currently defined stat plots (see the [PlotN(](plotn.html) commands). You can think of it as [ZoomFit](zoomfit.html), but for plots rather than equations.

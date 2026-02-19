@@ -5,7 +5,13 @@
 |Mode command that sets Answers to DEC.|DEC Answer|TI-84 2.53MP only|2 bytes|
 
 ### Menu Location
-Press:<br># MODE<br># DOWN until you see Answers<br># ENTER on DEC<br><br>Alternatively, access the catalog.
+Press:
+1. MODE
+1. DOWN until you see Answers
+1. ENTER on DEC
+
+Alternatively, access the catalog.
+       
 # The DEC Answer Command
 
 

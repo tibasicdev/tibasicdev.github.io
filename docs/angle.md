@@ -5,7 +5,11 @@
 |Returns the complex argument of a complex number.|angle(*z*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT, RIGHT to access the CPX (complex) submenu<br># 4 to select angle(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT, RIGHT to access the CPX (complex) submenu
+1. 4 to select angle(, or use arrows.
+       
 # The angle( Command
 
 `angle(z)` returns the [complex argument](http://mathworld.wolfram.com/complexargument.html) (also known as the polar angle) of the complex number *z*. If *z* is represented as *x*+i*y* where *x* and *y* are both real, `angle(z)` returns R►Pθ(*x*,*y*) (which is equivalent to tanֿ¹(*y**/x*) if x is nonzero). Also works on a list of complex numbers.

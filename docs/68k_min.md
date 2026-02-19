@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The min() Command
 
 The min() Command can be executed in two different ways.

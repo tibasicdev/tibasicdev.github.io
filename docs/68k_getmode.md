@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The getMode() Command
 
 The getMode() command checks any one current mode setting. Just give it the name of the mode setting to check, as a string, and it will give you the current value. For example:

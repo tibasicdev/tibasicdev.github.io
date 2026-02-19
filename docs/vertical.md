@@ -5,7 +5,10 @@
 |Draws a vertical line on the graph screen.|Vertical *X*|TI-83/84/+/SE/C/CSE|1 byte|
 
 ### Menu Location
-In the program editor:<br># 2nd DRAW to enter the draw menu.<br># 4 to insert the Vertical command, or use arrows and ENTER.
+In the program editor:
+1. 2nd DRAW to enter the draw menu.
+1. 4 to insert the Vertical command, or use arrows and ENTER.
+       
 # The Vertical Command
 
 Vertical *X* draws a vertical line from the top of the graph screen to the bottom at *X*. Vertical is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart [Horizontal](horizontal.html).

@@ -5,7 +5,10 @@
 |Returns the remainder of a division.|remain(*dividend*,*divisor*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the math popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press A to select remain(.
+- Press 2nd MATH to enter the math popup menu.
+- Press 1 to enter the Number submenu.
+- Press A to select remain(.
+       
 # The remain() Command
 
 The remain() command returns the remainder of a division: remain(A,B) is calculated as A-B*[68k:intDiv(](68k:intdiv.html)A,B) which in turn is equivalent to A-B*[68k:iPart(](68k:ipart.html)A/B). Although this operation is most useful for dividing whole numbers, this definition works for any number, whole or decimal, real or complex. Additionally, remain(X,0) is defined as X.

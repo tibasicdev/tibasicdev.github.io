@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [(-)]
+       
 # The ‾ Command
 
 The ‾ (negative) operator takes one number, variable, or expression and negates its value, thus returning the negative equivalent of it. The ‾ operator appears higher in the order of operations than both the [relational](operators.html#relational) and [logical](operators.html#logical) operators, so it will be executed first. In addition, it has the same order of operation as the other [math](operators.html#math) operators, so the calculator simply executes them left to right in the order that they appear.

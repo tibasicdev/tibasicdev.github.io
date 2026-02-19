@@ -5,7 +5,11 @@
 |Calculates some common statistics for two lists of data, and stores them to statistical variables. They're also displayed in a scrollable list, if done outside a program.|2-Var Stats [*list1*, *list2*, [*freqlist*]]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># 2 to select 2-Var Stats, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. 2 to select 2-Var Stats, or use arrows
+       
 # The 2-Var Stats Command
 
 This command calculates a bunch of common (and a few uncommon) statistics for a pair of [lists](lists.html) (it uses L1 and L2 by default, but you can use any list by supplying it as an argument). You have to store the lists to variables first, though, before calculating statistics for them. For example:

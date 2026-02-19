@@ -5,7 +5,11 @@
 |Exits a loop.|:Exit|This command works on all calculators.|4 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 8 to enter the Transfers submenu.<br>* Press 5 to select Exit.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 8 to enter the Transfers submenu.
+- Press 5 to select Exit.
+       
 # The Exit Command
 
 The Exit command immediately exits from a [68k:For](68k:for.html)..EndFor, [68k:Loop](68k:loop.html)..EndLoop, or [68k:While](68k:while.html)..EndWhile loop. The program continues running from the instruction after the EndFor, EndLoop, or EndWhile.

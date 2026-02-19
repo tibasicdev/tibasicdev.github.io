@@ -5,7 +5,12 @@
 |The ▶Bin command converts numbers into binary.|*int*▶Bin|This command works on all calculators.|4 bytes|
        
 ### Menu Location
-1. [2nd]<br># [Math]<br># [up or E]<br># [right]<br># [4]
+1. [2nd]
+1. [Math]
+1. [up or E]
+1. [right]
+1. [4]
+       
 # The ▶Bin Command
 `▶Bin` converts an integer from decimal (base 10) or hexadecimal (base 16) into binary (base 2). 
 ```

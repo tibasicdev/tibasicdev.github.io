@@ -5,7 +5,10 @@
 |P►Ry( calculates the y-value (in Cartesian coordinates) given Polar coordinates.|P►Ry(r,θ)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 8 to select P►Ry(, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 8 to select P►Ry(, or use arrows and ENTER.
+       
 # The P►Ry( Command
 
 P►Ry( (polar to rectangular y-coordinate) calculates the y-coordinate of a polar point.  Polar coordinates are of the form (r,θ), where θ is the counterclockwise angle made with the positive x-axis, and r is the distance away from the origin (the point (0,0)).  The conversion identity y=r*sin(θ) is used to calculate P►Ry(.

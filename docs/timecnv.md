@@ -5,7 +5,11 @@
 |Converts seconds into the equivalent days, hours, minutes, and seconds.|timeCnv(*value*)→*variable*|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># t to skip to commands starting with T<br># Scroll down to timeCnv( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. t to skip to commands starting with T
+1. Scroll down to timeCnv( and select it
+       
 # The timeCnv( Command
 
 The timeCnv( command converts seconds into the equivalent days, hours, minutes, and seconds. You just specify a number of seconds (should be a whole number, although a decimal number would work too; the calculator will simply use the integer part and discard the decimal) and the calculator will automatically break the seconds up into the standard parts of time, storing them in [list](lists.html) format — {*days*,*hours*,*minutes*,*seconds*}. You can [store](store.html) this list to a variable for later use, or manipulate it the same way you do with other lists.

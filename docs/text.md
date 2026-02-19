@@ -5,7 +5,10 @@
 |Displays a number, a string, or several numbers and strings (you may mix and match) at (row, column) on the graph screen, using the small font.<br><br>The alternative syntax allows using the large font on the graph screen (TI-83+ and higher only)|Text(*row*, *column*, *value1* [,*value2*, ...])<br><br>(83+ and higher only)<br>Text(*-1*, *row*, *column*, *value1* [,*value2*, ...])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-Press:<br># 2ND PRGM to enter the DRAW menu<br># 0 to choose Text(, or use arrows
+Press:
+1. 2ND PRGM to enter the DRAW menu
+1. 0 to choose Text(, or use arrows
+       
 # The Text( Command
 
 The `Text(` command allows you to display text on the graph screen, using the small font. It takes three arguments: the row, which can range from 0 to the number of pixels tall the screen is (62 on grayscale, 164 on color) at which you want to display something, the column, which can range from 0 to the number of pixels wide the screen is (94 on grayscale, 264 on color), and whatever it is you want to display. Like the` [Output(](output.html)` command, it is limited to numbers and strings. If part of what you want to display goes off the screen, it will not be displayed - the calculator will cut you off at the most characters that will fit on the screen entirely.

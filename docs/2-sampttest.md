@@ -5,7 +5,12 @@
 |Performs a *t* significance test to compare the means of two populations.|2-SampTTest [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*, *pooled?* *draw?*]<br>(data list input)<br><br>2-SampTTest *x<sub>1</sub>*, *s<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *pooled?*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 4 to select 2-SampTTest, or use arrows<br>(outside the program editor, this will select the 2-SampTTest... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 4 to select 2-SampTTest, or use arrows
+(outside the program editor, this will select the 2-SampTTest... interactive solver)
+       
 # The 2-SampTTest Command
 
 2-SampTTest performs a *t* significance test to compare the means of two populations. This test is valid for simple random samples from populations with unknown standard deviations. In addition, either the populations must be normally distributed, or the sample sizes have to be sufficiently large (usually, greater than 10).

@@ -5,7 +5,11 @@
 |Generates a random number between 0 and 1, or a list of such numbers. Can also be used to set the random number seed.|rand<br><br>rand(*# of numbers*)<br><br>*seed*→rand|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># ENTER to select rand.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. ENTER to select rand.
+       
 # The rand Command
 
 rand generates a uniformly-distributed pseudorandom number (this page and others will sometimes drop the pseudo- prefix for simplicity) between 0 and 1. rand(*n*) generates a list of *n* uniformly-distributed pseudorandom numbers between 0 and 1. *seed*→rand seeds (initializes) the built-in pseudorandom number generator. The factory default seed is 0.
@@ -35,7 +39,11 @@ Seeding the random number generator can also be used to create fairly secure (un
 When seeding the random number generator, as above, you make every random number generated afterwards predictable. This may be problematic even if your program doesn't need random numbers, because other programs might. To prevent this, use the following code to save and restore "randomness":
 
 ```
-:randInt(1,E[[/size]]9)→N<br><br>(code that involves seeding the RNG here)<br><br>:N→rand
+:randInt(1,E[[/size]]9)→N
+
+(code that involves seeding the RNG here)
+
+:N→rand
 ```
 
 ------

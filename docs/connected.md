@@ -5,7 +5,10 @@
 |Sets all equations to use the connected graphing style, and makes it the default setting.|Connected|TI-83/84/+/SE (Not available on TI-84+CE calculators)|2 bytes|
 
 ### Menu Location
-Press:<br># MODE to access the mode menu.<br># Use arrows to select Connected.
+Press:
+1. MODE to access the mode menu.
+1. Use arrows to select Connected.
+       
 # The Connected Command
 
 The `Connected` command sets all equations to use the usual graph style - a connected line. In addition, this graph style is made the default, so that when a variable is deleted it will revert to this graph style. The other possible setting for this option is [`Dot`](dot.html).

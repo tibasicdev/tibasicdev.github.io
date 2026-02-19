@@ -5,7 +5,11 @@
 |Returns the numerical code of the last key pressed, or 0 if no key is pressed.|getKey[→*Variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 7 to choose getKey or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 7 to choose getKey or use arrows
+       
 # The getKey Command
 
 The `getKey` command returns the value of the last key pressed since the last time `getKey` was executed. Reading key presses with `getKey` allows a program to transfer control to the user, and you can combine `getKey` with other commands to create [menus](custommenus.html), [movement](movement.html), or whatever else you want.

@@ -5,7 +5,10 @@
 |Returns the floor of a number.|floor(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press 6 to select floor(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 1 to enter the Number submenu.
+- Press 6 to select floor(.
+       
 # The floor() Command
 
 The floor() command rounds a number down to the nearest integer less than or equal to the number. For instance, floor(π) returns 3, while floor(-π) returns -4. 

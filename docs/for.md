@@ -5,7 +5,11 @@
 |Executes some commands many times, with a variable increasing from *start* to *end* by *step*, with the default value *step*=1.|For(*variable*,*start*,*end*[,*step*])<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># 4 to choose For(, or use arrows<br># 7 to choose End, or use arrows
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. 4 to choose For(, or use arrows
+1. 7 to choose End, or use arrows
+       
 # The For( Command
 
 A `For(` loop is generally used to do something a specific number of times or to go through each one of a bunch of things (such as elements of a list, or the pixels of your screen). Of all the loops, it's the most complicated. The syntax:

@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The Line Command
 
 The `line` command draws a line between two points. By default, the drawing mode is set to 1, which draws the line normally, so it doesn't have to be included if drawing a regular line.

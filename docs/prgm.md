@@ -5,7 +5,15 @@
 |Calls another program from within a program, with program execution moving to that program.|prgm*NAME*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Outside the editor, press:<br># PRGM to enter the PRGM menu<br># Use arrows to choose program<br><br>When editing a program, press:<br># PRGM to enter the PRGM menu<br># LEFT to enter the EXEC submenu<br># select a program
+Outside the editor, press:
+1. PRGM to enter the PRGM menu
+1. Use arrows to choose program
+
+When editing a program, press:
+1. PRGM to enter the PRGM menu
+1. LEFT to enter the EXEC submenu
+1. select a program
+       
 # The prgm Command
 
 The prgm command is used to execute a program from inside another program (at any time while the program is running), with the secondary program acting as a [subprogram](subprograms.html) for that program. Although they are listed in the program menu and can be executed independently like any other program, subprograms are primarily designed to do a particular task for the other program.

@@ -5,7 +5,11 @@
 |Calculates the linear regression of two sets of data with a confidence interval for the slope coefficient.|LinRegTInt [*x-list*, *y-list*, [*frequency*], [*confidence level*], [*equation*]]|TI-84+(SE) OS 2.30 or greater|2 bytes|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># RIGHT to access the TESTS submenu<br># ALPHA G to select LinRegTInt, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. RIGHT to access the TESTS submenu
+1. ALPHA G to select LinRegTInt, or use arrows
+       
 # The LinRegTInt Command
 Like [LinReg(ax+b)](linreg(ax-b).html) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
 

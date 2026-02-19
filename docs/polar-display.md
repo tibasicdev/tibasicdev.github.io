@@ -5,7 +5,11 @@
 |Formats a complex value in polar form when displaying it.|*value*►Polar|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the math menu.<br># RIGHT RIGHT to access the CPX submenu.<br># 7 to select ►Polar, or use arrows and ENTER.
+Press:
+1. MATH to access the math menu.
+1. RIGHT RIGHT to access the CPX submenu.
+1. 7 to select ►Polar, or use arrows and ENTER.
+       
 # The ►Polar Command
 
 The ►Polar command can be used when displaying a complex number on the home screen, or with the [Disp](disp.html) and [Pause](pause.html) commands. It will then format the number as though [re^θi](re-thetai.html) mode were enabled. It also works with lists.

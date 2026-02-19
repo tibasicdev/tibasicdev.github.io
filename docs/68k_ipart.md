@@ -5,7 +5,10 @@
 |Returns the integer part of a number.|iPart(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press 4 to select iPart(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 1 to enter the Number submenu.
+- Press 4 to select iPart(.
+       
 # The iPart() Command
 
 The iPart() command returns the integer part of a number (removing all the digits after the decimal). Another way of thinking about it is it rounds a number towards 0: positive numbers get rounded down to an integer, and negative numbers get rounded up to an integer.

@@ -5,7 +5,11 @@
 |Calculates the cumulative geometric probability for a single value|geometcdf(*probability*, *trials*)|TI-83/84/+/SE/CSE/+CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA E to select geometcdf(, or use arrows.<br>Press ALPHA F instead of ALPHA E on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. ALPHA E to select geometcdf(, or use arrows.
+Press ALPHA F instead of ALPHA E on a TI-84+/SE with OS 2.30 or higher.
+       
 # The geometcdf( Command
 
 This command is used to calculate cumulative geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:

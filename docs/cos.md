@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [COS]
+       
 # The cos( Command
 
 `cos(θ)` returns the [cosine](http://mathworld.wolfram.com/cosine.html) of θ, which is defined as the x-value of the point of intersection of the unit circle and a line containing the origin that makes an angle θ with the positive x-axis

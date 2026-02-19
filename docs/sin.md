@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press the SIN key to paste sin(.
+       
 # The sin( Command
 
 

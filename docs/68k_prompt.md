@@ -6,6 +6,7 @@
 
 ### Menu Location
 In the program editor, press [F3][5]
+       
 # The Prompt Command
 The Prompt command functions much like the [68k:Input](68k:input.html) command. It allows you to type a value to be stored to a variable. You can also prompt multiple values at the same time. For example:
 ```

@@ -5,7 +5,11 @@
 |Saves the current window settings.|ZoomSto|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># RIGHT to access the MEMORY submenu.<br># 2 to select ZoomSto, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. RIGHT to access the MEMORY submenu.
+1. 2 to select ZoomSto, or use arrows and ENTER.
+       
 # The ZoomSto Command
 
 The ZoomSto command backs up all window settings applicable to the current graphing mode (those that are shown in the WINDOW menu) to backup variables used specifically for this command. These backup variables are found in the VARS>Zoom... menu, and are distinguished by a Z in front of their name. For example, Xmin is backed up to ZXmin, PlotStart is backed up to ZPlotStart, etc.

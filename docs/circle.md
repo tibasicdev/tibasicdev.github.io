@@ -5,7 +5,10 @@
 |Draws a circle.|Circle(*X*,*Y*,*r*)<br><br>(83+ and higher only)<br>Circle(*X*,*Y*,*r*,{*i*})<br><br>(84+ CSE only)<br>Circle(*X*,*Y*,*r*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-Press:<br># Press [2ND] [PRGM] to enter the DRAW menu<br># Press [9] to insert Circle(
+Press:
+1. Press [2ND] [PRGM] to enter the DRAW menu
+1. Press [9] to insert Circle(
+       
 # The Circle( Command
 
 `Circle(*X*,*Y*,*r*)` will draw a circle at (*X*,*Y*) with radius *r*. *X* and *Y* will be affected by the window settings. The radius will also be affected by the window settings.

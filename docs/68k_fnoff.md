@@ -5,7 +5,9 @@
 |This command turns off all or a group of functions.|FnOff *[optional function numbers]*|This command works on all calculators.|
        
 ### Menu Location
-- Press F4 from the Homescreen to enter the OTHER menu.<br>* Press 8 to select the FnOff command.
+- Press F4 from the Homescreen to enter the OTHER menu.
+- Press 8 to select the FnOff command.
+       
 # The FnOff Command
 
 The FnOff Command turns Graph functions off. The FnOff Command command can be used to clear the graph of any functions that the user has created before running any programs that might require the graph screen. The FnOff command can also be used to turn just one or a few functions off by stating the function number after the command FnOff:

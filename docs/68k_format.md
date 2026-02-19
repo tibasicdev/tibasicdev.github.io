@@ -5,7 +5,10 @@
 |Converts a number to a string with specified formatting.|format(*number*[,*options*])|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the Strings submenu.<br>* Press 9 to select format(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the Strings submenu.
+- Press 9 to select format(.
+       
 # The format() Command
 
 E[[/size]]]]

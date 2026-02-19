@@ -5,7 +5,10 @@
 |Puts the calculator in "normal" mode regarding scientific notation.|Normal|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># ENTER to select Normal.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. ENTER to select Normal.
+       
 # The Normal Command
 
 The Normal command puts the calculator in normal number mode, in which it only uses scientific notation for large enough numbers (10 000 000 000 or higher), negative numbers large enough in absolute value (-10 000 000 000 or lower), or numbers close enough to 0 (less than .001 and greater than -.001)

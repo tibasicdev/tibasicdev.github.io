@@ -5,7 +5,12 @@
 |Performs a χ² test of independence.|χ²-Test(*observed matrix*, *expected matrix*, *draw?*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># ALPHA C to select χ²-Test(, or use arrows<br>(outside the program editor, this will select the χ²-Test... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. ALPHA C to select χ²-Test(, or use arrows
+(outside the program editor, this will select the χ²-Test... interactive solver)
+       
 # The χ²-Test( Command
 
 This command performs a `χ²` test of independence. This test is used to assess the independence of two categorical variables with known frequencies. The test is only valid for a simple random sample from the population, and only if all the frequencies are sufficiently large (greater than 5).

@@ -5,7 +5,10 @@
 |Enables the grid on the graph screen.|GridOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format menu.<br># Use arrows and ENTER to select GridOn.
+Press:
+1. 2nd FORMAT to access the graph format menu.
+1. Use arrows and ENTER to select GridOn.
+       
 # The GridOn Command
 
 The `GridOn` command enables a grid on the graph screen (you can disable it again with the [`GridOff`](gridoff.html) command). How fine or coarse the grid is depends on the [`Xscl`](system-variables.html#window) and [`Yscl`](system-variables.html#window) variables. Drawing the grid just involves plotting points all the points of the form (`A*Xscl`, `B*Yscl`) that are in the graphing window. The grid is often used in games such as Dots & Boxes, Tic-Tac-Toe, and 2D puzzles.

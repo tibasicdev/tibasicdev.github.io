@@ -5,7 +5,11 @@
 |Evaluates the χ² probability density function at a point.|χ²pdf(*x*, *df*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># 6 to select χ²pdf(, or use arrows.<br>Press 7 instead of 6 on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. 2ND DISTR to access the distribution menu
+1. 6 to select χ²pdf(, or use arrows.
+Press 7 instead of 6 on a TI-84+/SE with OS 2.30 or higher.
+       
 # The χ²pdf( Command
 
 `χ²pdf(` is the χ² probability density function. 

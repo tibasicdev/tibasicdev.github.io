@@ -5,7 +5,10 @@
 |Used in entering a vector in polar, cylindrical, or spherical format, or a complex number in polar form.|[*r*,∠*θ*]<br>[*r*,∠*θ*,*z*]<br>[*r*,∠*θ*,∠*φ*]<br>(*r*∠*θ*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press 2 to enter the Angle submenu.<br>* Press 7 to select ∠.
+- Press 2nd MATH to enter the MATH menu.
+- Press 2 to enter the Angle submenu.
+- Press 7 to select ∠.
+       
 # The ∠ Command
 
 The ∠ operator is used for alternate forms of entering vectors or complex numbers. It will be used for output depending on the Complex Format and Vector Format [68k:mode settings](68k:mode-settings.html), but you can always use it in an expression.

@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ClrDraw Command
 
 The `ClrDraw` command clears away anything drawn on the graph screen — that is, the result of any of the [68k:graphics](68k:graphics.html) commands, except for [`68k:Graph`](68k:graph.html) (which you can only clear with [`68k:ClrGraph`](68k:clrgraph.html)). It also leaves alone any functions or plots (which are disabled by [`68k:FnOff`](68k:fnoff.html) and [`68k:PlotsOff`](68k:plotsoff.html), respectively), as well as axes, labels, a grid, etc. (which can be disabled by the [`68k:setGraph()`](68k:setgraph().html) command).

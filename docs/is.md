@@ -5,7 +5,10 @@
 |Increments a variable by 1 and skips the next command if the variable is greater than the value.|IS>(*variable*,*value*)<br>*command*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># A to choose IS>(, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. A to choose IS>(, or use arrows
+       
 # The IS>( Command
 
 The increment and skip if greater than command — `IS>(` — is a specialized conditional command. It is equivalent to an [If](if.html) conditional, except the next command will be skipped when the condition is true and it has a [variable](variables.html) update built-in. However, it is not used very often (if anything, it is often misused as a looping command) because of its obscure name and somewhat limited application.

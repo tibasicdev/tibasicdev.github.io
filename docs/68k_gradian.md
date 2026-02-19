@@ -5,7 +5,10 @@
 |Converts an angle to gradians, if necessary.|*angle* <sup>G</sup>|This command requires a TI-89 Titanium or Voyage 200 calculator with AMS version 3.10 or higher.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 2 to enter the Angle submenu.<br>* Press C to select <sup>G</sup>.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 2 to enter the Angle submenu.
+- Press C to select <sup>G</sup>.
+       
 # The G Command
 
 

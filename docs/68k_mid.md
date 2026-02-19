@@ -5,7 +5,10 @@
 |Selects a substring from a string, or a sublist from a list.|mid(*string-or-list*,*start*[,*count*])|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press D to enter the String submenu.<br>* Press 5 to paste mid(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press D to enter the String submenu.
+- Press 5 to paste mid(.
+       
 # The mid() Command
 
 The mid() command can be used in two ways: to select a sublist from a list, or a substring from a string. In both cases, the syntax is similar:

@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the STO> key to insert →.
+       
 # The → Command
 
 The `→` operator assigns a value to a variable.

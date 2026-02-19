@@ -5,7 +5,15 @@
 |Converts an effective interest rate to a nominal interest rate.|►Nom(*interest rate*,*compounding periods*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># ALPHA B to select ►Nom(.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># ENTER or 1 to select Finance...<br># ALPHA B to select ►Nom(.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. ALPHA B to select ►Nom(.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. ENTER or 1 to select Finance...
+1. ALPHA B to select ►Nom(.
+       
 # The ►Nom( Command
 
 The ►Nom( command converts from an effective interest rate to a nominal interest rate. In other words, it converts an interest rate that takes compounding periods into account into one that doesn't. The two arguments are 1) the interest rate and 2) the number of compounding periods.

@@ -5,7 +5,12 @@
 |Performs a *z* significance test to compare the means of two populations.|2-SampZTest(*σ<sub>1</sub>*, *σ<sub>2</sub>* [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*, *draw?*]<br>(data list input)<br><br>2-SampZTest(*σ<sub>1</sub>*, *σ<sub>2</sub>* *x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-While editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 3 to select 2-SampZTest(, or use arrows<br>(outside the program editor, this will select the 2-SampZTest... interactive solver)
+While editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. 3 to select 2-SampZTest(, or use arrows
+(outside the program editor, this will select the 2-SampZTest... interactive solver)
+       
 # The 2-SampZTest( Command
 
 2-SampZTest( performs a *z* significance test to compare the means of two populations. This test is valid for simple random samples from populations with known standard deviations. In addition, either the populations must be normally distributed, or the sample sizes have to be sufficiently large (usually, greater than 10).

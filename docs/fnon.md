@@ -5,7 +5,12 @@
 |Turns on equations in the Y= editor (all of them, or only the ones specified)|FnOn [*equation numbers*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># VARS to access the variables menu.<br># RIGHT to access the Y-VARS submenu.<br># 4 to select On/Off..., or use arrows and ENTER.<br># ENTER to select FnOn.
+Press:
+1. VARS to access the variables menu.
+1. RIGHT to access the Y-VARS submenu.
+1. 4 to select On/Off..., or use arrows and ENTER.
+1. ENTER to select FnOn.
+       
 # The FnOn Command
 
 The `FnOn` command is used to turn on equations in the current [graphing mode](graphing-mode.html). When you define an equation, it's turned on by default, but the [`FnOff`](fnoff.html) command can turn an equation off (in which case, it's still defined, but isn't graphed). To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.

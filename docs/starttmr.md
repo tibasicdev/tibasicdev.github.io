@@ -5,7 +5,11 @@
 |Returns the value of the clock timer on the TI-84+/SE.|startTmr→*Variable*|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># T to skip to command starting with T<br># Scroll up to startTmr and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. T to skip to command starting with T
+1. Scroll up to startTmr and select it
+       
 # The startTmr Command
 
 The startTmr command is used with the built-in timer that is available on the TI-84+/SE calculators. It is used together with the [checkTmr(](checktmr.html) command to determine how much time has elapsed since the timer was started. An application of these commands is [timing](timings.html) different commands or pieces of code, as well as countdowns in games, or a time-based score (such as in Minesweeper).

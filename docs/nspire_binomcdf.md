@@ -5,7 +5,10 @@
 |Calculates the binomial cumulative probability, either at a single value or for all values|for a single value:<br>binomcdf(trials, probability, [lower_bound,] upper_bound)<br><br>for a list of all values (0 to trials)<br>binomcdf(trials, probability)|If this is only available on certain versions of the nspire|
 
 ### Menu Location
-From inside a document:<br>Press Menu, then scroll to probability.<br>Press the right arrow, then scroll to Distributions.<br>Press the right arrow, then scroll to Binomial Cdf (B)
+From inside a document:
+Press Menu, then scroll to probability.
+Press the right arrow, then scroll to Distributions.
+Press the right arrow, then scroll to Binomial Cdf (B)
 
 # Binomcdf
 

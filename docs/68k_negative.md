@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the ‾ key to enter ‾.
+       
 # The ‾ Command
 
 The ‾ operator gives the negative of the value immediately following it. It's not to be confused with the [-](68k:subtract.html) operator, which subtracts two numbers — while on paper you'd generally use the same symbol for -2 and 4-2, the calculator has two different symbols, and negation is represented by the slightly shorter and higher dash.

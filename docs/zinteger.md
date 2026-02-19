@@ -5,7 +5,10 @@
 |Zooms to a square window with all-integer coordinates.|ZInteger|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 8 to select ZInteger, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 8 to select ZInteger, or use arrows and ENTER.
+       
 # The ZInteger Command
 
 When ZInteger is chosen as a menu option outside a program, it asks for a point on the graph screen. This point's coordinates are rounded to the nearest integer point. Then the [window variables](system-variables.html#window) are changed so the window is centered at this point, and so that the coordinates of every pixel are integers. ΔX and ΔY, the distances between two pixels next to each other, are both 1.

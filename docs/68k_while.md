@@ -5,7 +5,10 @@
 |Repeats a block of code as long as a condition is met|:While *condition*<br>*(block of code)*<br>:EndWhile|This command works on all calculators.|2 bytes for While;<br>4 bytes for EndWhile.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 5 to paste While..EndWhile.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 5 to paste While..EndWhile.
+       
 # The While Command
 
 A While..EndWhile block is used to repeat a block of code as long as some true-or-false condition is met. This condition is checked before entering the loop (if it's false to begin with, the loop is skipped), and checked again every time the loop ends. For example:

@@ -5,7 +5,10 @@
 |Graphs two functions and shades the area between them.|Shade(*lower func*, *upper func*, [*xmin*, *xmax*, *pattern #*, *resolution*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to access the draw menu.<br># 7 to select Shade(, or use arrows.
+Press:
+1. 2nd DRAW to access the draw menu.
+1. 7 to select Shade(, or use arrows.
+       
 # The Shade( Command
 
 The Shade( command draws two functions and shades the area between them.

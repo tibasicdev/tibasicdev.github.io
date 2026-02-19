@@ -5,7 +5,11 @@
 |Calculates the least-squares best fit sinusoidal curve through a set of points.|SinReg [*iterations*, *x-list*, *y-list*, *period*, *equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the CALC submenu<br># ALPHA C to select SinReg, or use arrows
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the CALC submenu
+1. ALPHA C to select SinReg, or use arrows
+       
 # The SinReg Command
 
 SinReg tries to fit a sine wave to a given list of points. To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the *i*th element of one list matches up with the *i*th element of the other list (i.e. the first element of the x-list and the first element of the y-list make up an ordered pair). L₁ and L₂ are the default lists used, and the List Editor (STAT > Edit...) is a useful window for entering the points.

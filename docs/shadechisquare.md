@@ -5,7 +5,11 @@
 |Finds the probability of an interval of the χ² distribution, and graphs this distribution with the interval's area shaded.|Shadeχ²(*lower*, *upper*, *df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND DISTR to access the distribution menu<br># RIGHT to select the DRAW submenu<br># 3 to select Shadeχ²(, or use arrows
+Press:
+1. 2ND DISTR to access the distribution menu
+1. RIGHT to select the DRAW submenu
+1. 3 to select Shadeχ²(, or use arrows
+       
 # The Shadeχ²( Command
 
 `Shadeχ²(` is equivalent to [`χ²cdf(`](chisquarecdf.html) in terms of the probability it calculates: if a random variable follows the χ² distribution, you can use it to calculate the probability that the variable's value falls in a certain interval. However, in addition to calculating the probability, this command also draws the χ² curve, and shades the interval whose area represents the probability you want.

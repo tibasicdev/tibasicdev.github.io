@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press  [+]
+       
 # The + Command
 
 The + (add) operator takes two numbers, variables, or expressions and adds their values together, thus returning a single new value. The + operator appears lower in the order of operations than both [*](multiply.html) and [/](divide.html), so if those appear in an expression, they will be executed first. In addition,  the [-](subtract.html) operator has the same order of operations as +, so the calculator simply executes them left to right in the order that they appear.

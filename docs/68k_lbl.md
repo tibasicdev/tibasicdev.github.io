@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The Lbl Command
 
 The Lbl command is used to mark a point in the program to which the [68k:Goto](68k:goto.html) command or selections from a [68k:Toolbar](68k:toolbar.html)..EndTBar menu can jump. When jumping to a label, the calculator will start searching the program from the beginning to find the label.

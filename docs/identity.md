@@ -5,7 +5,11 @@
 |Creates an *n* by *n* identity matrix.|identity(*n*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATRX (on the 83) or 2ND MATRX (83+ or higher) to access the matrix menu.<br># LEFT to access the MATH submenu.<br># 5 to select identity(, or use arrows.
+Press:
+1. MATRX (on the 83) or 2ND MATRX (83+ or higher) to access the matrix menu.
+1. LEFT to access the MATH submenu.
+1. 5 to select identity(, or use arrows.
+       
 # The identity( Command
 
 The `identity(` command generates an identity matrix: that is, a matrix [B] such that for any other matrix [A], [A]*[B]=[A] (if [A] is the right size to make the multiplication valid). 

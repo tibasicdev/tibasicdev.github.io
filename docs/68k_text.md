@@ -5,7 +5,11 @@
 |Displays a line of text in a dialog box.|Text *string of text*|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 1 to select Text.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 1 to select Text.
+       
 # The Text Command
 
 On its own, the Text command displays a simple dialog box with a line of text (left-aligned) inside. It can also be used inside a [68k:Dialog](68k:dialog.html)..EndDlog block, to add a line of text to a more advanced dialog.

@@ -6,6 +6,7 @@
 
 ### Menu Location
 This command requires a hex editor to access.
+       
 # The PrintScreen Command
 
 On the TI-82, the PrintScreen command could be found in the I/O submenu of the PRGM menu. According to the TI-82 manual, it "prints the current screen on a printer attached to an IBM®-compatible computer or a Macintosh® if you are using TI-GRAPH LINK™ software". Aside from this potential interaction with computers, it was otherwise equivalent to [Pause](pause.html).

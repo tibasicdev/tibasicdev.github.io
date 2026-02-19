@@ -5,7 +5,10 @@
 |Adds together the evaluations of an expression with one variable taking on a range of values.|∑(*expression*, *variable*, *start*, *end*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press B to enter the Calculus submenu.<br>* Press 4 to select ∑(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press B to enter the Calculus submenu.
+- Press 4 to select ∑(.
+       
 # The ∑() Command
 
 ∑() is used to add a sequence of numbers. ∑(*expression*, *variable*, *start*, *end*) will evaluate *expression* for *variable*=*start*, then for *variable*=*start*+1, all the way through *variable*=*end*, and add up the results:

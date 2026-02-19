@@ -5,7 +5,10 @@
 |R►Pr( calculates the radius component (in polar coordinates) given the Cartesian coordinates.|R►Pr(*x*,*y*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 5 to select R►Pr(, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 5 to select R►Pr(, or use arrows and ENTER.
+       
 # The R►Pr( Command
 
 R►Pr( (Rectangular to polar radius) takes the (*x*,*y*)  (Cartesian) coordinates, and gives the radius coordinate *r* of the same point in (*r*,*θ*) (polar) mode. The identity used for this conversion is *r*² = *x*²+*y*²

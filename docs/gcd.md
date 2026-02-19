@@ -5,7 +5,11 @@
 |Finds the greatest common divisor of two values.|gcd(*value1*, *value2*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># 9 to select gcd(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. 9 to select gcd(, or use arrows.
+       
 # The gcd( Command
 
 The `gcd(` command returns the [greatest common divisor](https://en.wikipedia.org/wiki/greatest_common_divisor) (GCD) of two nonnegative integers. It also works on lists.

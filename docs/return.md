@@ -5,7 +5,10 @@
 |Stops the program and returns the user to the home screen. If the program is a subprogram, however, it just stops the subprogram and returns program execution to the parent program.|Return|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># PRGM to enter the PRGM menu<br># ALPHA SIN to choose Return, or use arrows
+Press:
+1. PRGM to enter the PRGM menu
+1. ALPHA SIN to choose Return, or use arrows
+       
 # The Return Command
 
 When the Return command is used in a program it exits the program (terminating the program execution) and returns the user to the home screen. If it is encountered within [loops](while.html), the loops will be stopped.

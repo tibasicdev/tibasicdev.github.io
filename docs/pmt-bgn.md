@@ -5,7 +5,15 @@
 |Sets the TVM solver to use payments at the beginning of a period.|Pmt_Bgn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># ALPHA F to select Pmt_Bgn, or use arrows and ENTER.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># ENTER to select Finance...<br># ALPHA F to select Pmt_Bgn, or use arrows and ENTER.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. ALPHA F to select Pmt_Bgn, or use arrows and ENTER.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. ENTER to select Finance...
+1. ALPHA F to select Pmt_Bgn, or use arrows and ENTER.
+       
 # The Pmt_Bgn Command
 
 The Pmt_Bgn and [Pmt_End](pmt_end.html) commands toggle a setting with the finance solver. In Pmt_Bgn mode, the calculator assumes that the payments are made at the beginning of each time period, rather than at the end. 

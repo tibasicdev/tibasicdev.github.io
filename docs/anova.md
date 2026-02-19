@@ -5,7 +5,12 @@
 |Performs a one way ANOVA (analysis of variance) test to compare the means of multiple populations (up to 20).|ANOVA(*list*, *list*, …|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># ALPHA F to select ANOVA(, or use arrows<br>Change the last keypress to ALPHA H on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. ALPHA F to select ANOVA(, or use arrows
+Change the last keypress to ALPHA H on a TI-84+/SE with OS 2.30 or higher.
+       
 # The ANOVA( Command
 
 The `ANOVA` (analysis of variance) command is used to test if there is a significant difference between the means of several populations (this is an extension of the [two-sample t-test](2-sampttest.html) which compares only two populations). The calculator assumes the null hypothesis, that all means are equal, and returns a probability value, p, of the differences in the data occurring if the null hypothesis were true. If p is small (usually, if it's less than .05), then it's unlikely we'd get such differences just by chance if the null hypothesis were true, so we reject it and conclude that at least one of the means is different.

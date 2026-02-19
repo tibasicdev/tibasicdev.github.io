@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The newList() Command
 
 The `newList()` command returns a list of a specific length that is filled entirely with zeroes.

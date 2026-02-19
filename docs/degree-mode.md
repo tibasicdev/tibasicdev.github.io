@@ -5,7 +5,10 @@
 |Puts the calculator in Degree mode.|Degree|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Degree.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Degree.
+       
 # The Degree Command
 
 The `Degree` command puts the calculator into Degree mode, where the inputs and/or outputs to trig functions are assumed to be degree angles.

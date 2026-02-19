@@ -5,7 +5,11 @@
 |Recalls graph settings from a GDB (Graph DataBase) variable|RecallGDB *number*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to access the draw menu.<br># LEFT to access the STO menu.<br># 4 to select RecallGDB, or use arrows and ENTER.
+Press:
+1. 2nd DRAW to access the draw menu.
+1. LEFT to access the STO menu.
+1. 4 to select RecallGDB, or use arrows and ENTER.
+       
 # The RecallGDB Command
 
 The RecallGDB command recalls graph settings a GDB (Graph DataBase) variable, one of GDB1, GDB2, ..., GDB0 (as indicated by the argument). These settings can be stored to a GDB using the [StoreGDB](storegdb.html) command.

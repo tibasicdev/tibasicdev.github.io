@@ -5,7 +5,10 @@
 |Sets which lists are shown in the List Editor. As a side effect, unarchives the lists, and creates them if they don't exist.<br><br>By default, works with L1-L6.|SetUpEditor [*list*, *list*,...]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># STAT to enter the STAT menu.<br># 5 to choose SetUpEditor, or use arrows.
+Press:
+1. STAT to enter the STAT menu.
+1. 5 to choose SetUpEditor, or use arrows.
+       
 # The SetUpEditor Command
 
 The `SetUpEditor` command is used to define which lists are shown in the List Editor (which can be accessed by pressing [STAT] [ENTER] [Edit...]). The list editor provides a convenient interface for viewing and editing items inside lists (especially when the elements of two lists are connected to each other, such as a list for X-coordinates and one for Y-coordinates, since they will be shown in the same row). 

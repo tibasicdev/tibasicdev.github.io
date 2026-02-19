@@ -5,7 +5,11 @@
 |Calculates the combinatorial number of permutations.|*a* nPr *b*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># LEFT to access the PRB submenu.<br># 2 to select nPr, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. LEFT to access the PRB submenu.
+1. 2 to select nPr, or use arrows.
+       
 # The nPr Command
 
 nPr is the number of permutations function, defined as *a* nPr *b* = *a*!/(*a*-*b*)!, where *a* and *b* are nonnegative integers. The function also works on lists.

@@ -5,7 +5,10 @@
 |Zooms to a graphing window that works for the currently graphed equations.|ZoomFit|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 0 to select ZoomFit, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 0 to select ZoomFit, or use arrows and ENTER.
+       
 # The ZoomFit Command
 
 The ZoomFit zooms to the smallest window that contains all points of the currently graphed equations. In [Func](func.html) mode, this means that it calculates the minimum and maximum Y-value for the current Xmin to Xmax range, and sets Ymin and Ymax to those values (Xmin and Xmax remain unchanged). In other graphing modes, this process is done for both X and Y over the range of T, θ, or *n*.

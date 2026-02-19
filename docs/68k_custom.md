@@ -5,7 +5,10 @@
 |Creates a custom toolbar menu.|:Custom<br>*(list of titles and items)*<br>:EndCustm|This command works on all calculators.|2 bytes for Custom;<br>2 bytes for EndCustm.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F2 to enter the Control menu.<br>* Press 7 to select Custom...EndCustm.
+Starting in the program editor:
+- Press F2 to enter the Control menu.
+- Press 7 to select Custom...EndCustm.
+       
 # The Custom Command
 
 A `Custom`..`EndCustm` block creates a custom toolbar menu. The menu can have up to eight tabs for the F1 .. F8 keys, each with any number of sub-items. The contents of the menu are defined using the [`68k:Title`](68k:title.html) and [`68k:Item`](68k:item.html) commands inside the `Custom`..`EndCustm` block.

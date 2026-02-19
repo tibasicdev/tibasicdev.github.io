@@ -5,7 +5,11 @@
 |If the calculator is in radian mode, the ° (degree) symbol converts an angle to radians.|*angle*°|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># [2nd]<br># [Angle]<br># [Enter] or [1]
+Press:
+1. [2nd]
+1. [Angle]
+1. [Enter] or [1]
+       
 # The ° (Degree Symbol) Command
 
 Normally, when the calculator is in radian mode, the trigonometric functions only return values calculated  in radians. With the ° symbol you can have the angle evaluated as if in degree mode because it converts the angle into radians.

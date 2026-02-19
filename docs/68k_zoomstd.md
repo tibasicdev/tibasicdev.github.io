@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The ZoomStd Command
 
 The ZoomStd command initializes the [window variables](68k:system-variables.html#window) applicable to the current mode to their default values. These default values are:

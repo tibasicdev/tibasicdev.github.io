@@ -5,7 +5,12 @@
 |Returns the fractional part of a value.|fPart(*value*)|TI-89/92/+/V200|6 bytes|
 
 ### Menu Location
-Press:<br># [2nd] + [MATH] to access the [68k:math](68k:math.html) menu.<br># [RIGHT] to access the Number submenu.<br># 5 to select fPart(, or use arrows.<br>Alternativly, type "fPart(" with the keyboard
+Press:
+1. [2nd] + [MATH] to access the [68k:math](68k:math.html) menu.
+1. [RIGHT] to access the Number submenu.
+1. 5 to select fPart(, or use arrows.
+Alternativly, type "fPart(" with the keyboard
+       
 # The fPart() command
 
 fPart(*value*) returns the fractional part of *value*. Also works on complex numbers/expressions, lists and matrices.

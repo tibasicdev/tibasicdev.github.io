@@ -6,6 +6,7 @@
        
 ### Menu Location
 From the program editor, press [F3][2]
+       
 # The Disp Command
 The Disp command displays output in the Home App I/O screen. An example:
 ```

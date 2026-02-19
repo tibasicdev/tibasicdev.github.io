@@ -5,7 +5,12 @@
 |Calculates the best fit line through a set of points, then uses a significance test on the slope of the line.|LinRegTTest [*x-list*, *y-list*, [*frequency*], [*alternative*], [*equation*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># RIGHT to access the TESTS submenu<br># ALPHA E to select LinRegTTest, or use arrows<br>Change the last keypress to ALPHA F on a TI-84+/SE with OS 2.30 or higher.
+Press:
+1. STAT to access the statistics menu
+1. RIGHT to access the TESTS submenu
+1. ALPHA E to select LinRegTTest, or use arrows
+Change the last keypress to ALPHA F on a TI-84+/SE with OS 2.30 or higher.
+       
 # The LinRegTTest Command
 
 Like [`LinReg(ax+b)`](linreg(ax-b).html) and similar commands, `LinRegTTest` finds the best fit line through a set of points. However, `LinRegTTest` adds another method of checking the quality of the fit, by performing a [`t-test`](t-test.html) on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.

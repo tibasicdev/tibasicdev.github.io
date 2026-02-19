@@ -5,7 +5,11 @@
 |Displays an expression on the home screen starting at a specified row and column. Wraps around if necessary.|Output(*row*, *column*, *expression*)|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># PRGM to enter the PRGM menu<br># RIGHT to enter the I/O menu<br># 6 to choose Output(, or use arrows
+While editing a program press:
+1. PRGM to enter the PRGM menu
+1. RIGHT to enter the I/O menu
+1. 6 to choose Output(, or use arrows
+       
 # The Output( Command
 
 The `Output(` command is the fastest way to display text on the [home screen](homescreen.html). It takes three arguments: the row (1-8) at which you want to display something, the column (1-16), and whatever it is you want to display. It allows for more freedom than the [`Disp`](disp.html) command.

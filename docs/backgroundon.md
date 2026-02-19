@@ -5,7 +5,11 @@
 |Used to display a background image on the graphscreen|BackgroundOn *Image#*<br>Background *color*<br>Background *# (0-24)*|TI-84+CSE and TI-84+CE|2 bytes|
 
 ### Menu Location
-Press<br># 2ND DRAW to access the draw menu<br># Navigate to BACKGROUND submenu<br># Enter or 1 to select BackgroundOn
+Press
+1. 2ND DRAW to access the draw menu
+1. Navigate to BACKGROUND submenu
+1. Enter or 1 to select BackgroundOn
+       
 # The BackgroundOn Command
 
 With the introduction of color and a higher resolution screen than the monochrome calculators, the TI-84+CSE and TI-84+CE included the ability to display a background image on the graphscreen. The images variables are similar to the picture variables in that there 10 slots. In addition, functions can be drawn on top of images. 

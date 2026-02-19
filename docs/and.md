@@ -5,7 +5,11 @@
 |Returns the logical value of *value1* and *value2* being true.|*value1* and *value2*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TEST to access the test menu.<br># RIGHT to access the LOGIC submenu.<br># ENTER to select and.
+Press:
+1. 2nd TEST to access the test menu.
+1. RIGHT to access the LOGIC submenu.
+1. ENTER to select and.
+       
 # The and Command
 
 `and` takes two numbers, variables, or expressions and tests to see if they are both True (not equal to 0).  If they are, it returns 1.  If either input is False (0), it returns 0.  Note that the order of the operators doesn't matter (i.e. `and` is commutative), and that multiple `and`'s can be used together

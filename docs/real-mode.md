@@ -5,7 +5,10 @@
 |Enables real number only mode.|Real|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows and ENTER to select Real.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows and ENTER to select Real.
+       
 # The Real Command
 
 The Real command puts the calculator in real number-only mode. This shouldn't be taken quite literally, as you can still type in *i* to get complex numbers, and do operations with them (they will be displayed as in [a+bi](a-bi.html) mode, in that case). However, any operation done with **real** numbers that comes out to a complex result, such as taking the square root of a negative number, will throw a [ERR:NONREAL ANS](errors.html#nonrealans) error.

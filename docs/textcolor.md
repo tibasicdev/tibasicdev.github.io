@@ -5,7 +5,10 @@
 |Defines the color of the text|TextColor(*color*<br>TextColor(*number*|TI-84+CSE and TI-84+CE|2 bytes|
 
 ### Menu Location
-Press:<br># 2ND PRGM to enter the DRAW menu<br># A to select TextColor(, or use arrows
+Press:
+1. 2ND PRGM to enter the DRAW menu
+1. A to select TextColor(, or use arrows
+       
 # The TextColor( Command
 
 The `TextColor(` token is used to set the color for [`Text(`](text.html). Although the default color is Blue, the calculator saves the color until it is changed again using `TextColor(` or when a memory reset occurs. When a memory reset occurs, the text color is reset back to blue.

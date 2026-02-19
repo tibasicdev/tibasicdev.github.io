@@ -5,7 +5,10 @@
 |Generates a random matrix.|randMat(*rows*,*columns*|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press 7 to enter the Probability submenu.<br>* Press 7 to select randMat(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press 7 to enter the Probability submenu.
+- Press 7 to select randMat(.
+       
 # The randMat() Command
 
 The randMat() command generates a random matrix: randMat(*rows*,*columns*) generates a *rows* by *columns* matrix whose entries are random integers between -9 and 9.

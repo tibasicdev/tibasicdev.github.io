@@ -5,7 +5,11 @@
 |Flips the truth value of its argument.|not(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TEST to access the test menu.<br># RIGHT to access the LOGIC submenu.<br># 4 to select not(, or use arrows and ENTER.
+Press:
+1. 2nd TEST to access the test menu.
+1. RIGHT to access the LOGIC submenu.
+1. 4 to select not(, or use arrows and ENTER.
+       
 # The not( Command
 
 The last logical operator available on the 83 series takes only one value as input.  **not(** comes with its own parentheses to make up for this loss.  Quite simply, it negates the input: False becomes True (1) and True returns False (0).   not( can be nested; one use is to make any True value into a 1.

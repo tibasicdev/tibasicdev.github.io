@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press [2nd] COS button to enter cos<sup>-1</sup>(.
+       
 # The Arccos (cos^-1) command
 
 

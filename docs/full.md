@@ -5,7 +5,11 @@
 |Sets the screen mode to FULL.|Full|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-In the BASIC editor,<br># Press [MODE]<br># Press [DOWN] seven times<br># Press [ENTER] to insert Full
+In the BASIC editor,
+1. Press [MODE]
+1. Press [DOWN] seven times
+1. Press [ENTER] to insert Full
+       
 # The Full Command
 
 The `Full` command cancels the effects of either [`Horiz`](horiz.html) or [`G-T`](g-t.html).

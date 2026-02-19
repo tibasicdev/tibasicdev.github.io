@@ -5,7 +5,10 @@
 |Take the cube root of a number.|³√(*input*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MATH to open the [math](math.html) menu<br># 4 or use the arrow keys to select.
+While editing a program, press:
+1. MATH to open the [math](math.html) menu
+1. 4 or use the arrow keys to select.
+       
 # The ³√( Command
 
 Takes the cube root of a positive or negative number.  It works exactly the same as 3<sup>×</sup>√ or ^(1/3) but is smaller and uses an ending parenthesis.  If used on a list, it will return a list with the cube root of each element.

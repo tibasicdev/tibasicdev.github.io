@@ -5,7 +5,11 @@
 |Changes one or more mode settings.|* setMode(*setting*,*value*)<br>* setMode({*set1*,*val1*,...})|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F6 to enter the Mode menu.<br>* Select the desired setting to enter its submenu.<br>* Select the desired value to paste setMode("setting", "value")
+Starting in the program editor:
+- Press F6 to enter the Mode menu.
+- Select the desired setting to enter its submenu.
+- Select the desired value to paste setMode("setting", "value")
+       
 # The setMode() Command
 
 The setMode() command is used, mainly by programmers, to change mode settings (outside a program, of course, you can just select the settings in the MODE menu). When a setting is changed, it returns the old value of the setting. There are two ways to use the command:

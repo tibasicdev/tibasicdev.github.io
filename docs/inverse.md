@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [*x*ֿ¹]
+       
 # The ֿ¹ Command
 
 The ֿ¹ command returns the reciprocal of a number, equivalent to dividing 1 by the number (although reciprocals are sometimes more convenient to type). It also works for lists, by calculating the reciprocal of each element. 

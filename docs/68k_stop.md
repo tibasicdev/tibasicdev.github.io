@@ -6,6 +6,7 @@
        
 ### Menu Location
 In the program editor, [F2][8][4]
+       
 # The Stop Command
 Simply put, the Stop command stops the program wherever it is placed. 
 ```

@@ -5,7 +5,10 @@
 |Returns true if value1 is equal to value2.|*value1*=*value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TEST to access the test menu.<br># 1 to select =, or use arrows.
+Press:
+1. 2nd TEST to access the test menu.
+1. 1 to select =, or use arrows.
+       
 # The = Command
 
 The `=` (equal) operator takes two numbers, variables, or expressions, and tests to see if they are equal to each other. It will return 1 if they are, and 0 if they are not. When determining the order of operations, `=` will be executed after the [math](operators.html#math) operators, but it will be executed before the [logical](operators.html#logical) operators and in the order that it appears from left to right with the other [relational](operators.html#relational) operators.

@@ -5,7 +5,12 @@
 |Turns off equations in the Y= editor (all of them, or only the ones specified)|FnOff [*integer*] [,*integer*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># VARS to access the variables menu.<br># RIGHT to access the Y-VARS submenu.<br># 4 to select On/Off..., or use arrows and ENTER.<br># 2 to select FnOff, or use arrows and enter.
+Press:
+1. VARS to access the variables menu.
+1. RIGHT to access the Y-VARS submenu.
+1. 4 to select On/Off..., or use arrows and ENTER.
+1. 2 to select FnOff, or use arrows and enter.
+       
 # The FnOff Command
 
 The `FnOff` command is used to turn off equations in the current [graphing mode](graphing-mode.html). When you turn off an equation, it's still defined, but isn't graphed; you can reverse this with the [`FnOn`](fnon.html) command. To turn functions on and off manually, put your cursor over the = symbol in the equation editor, and press enter.

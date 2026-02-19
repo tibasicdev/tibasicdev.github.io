@@ -5,7 +5,16 @@
 |Combines two lists or matrices into one. In the case of matrices, this is done horizontally rather than vertically.|augment(*list1*,*list2*<br><br>augment(*matrix1*,*matrix2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the List menu<br># RIGHT to access the OPS submenu<br># 9 to select augment(, or use arrows<br><br>Alternatively, press:<br># MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the Matrix menu<br># RIGHT to access the MATH submenu<br># 7 to select augment(, or use arrows
+Press:
+1. 2nd LIST to access the List menu
+1. RIGHT to access the OPS submenu
+1. 9 to select augment(, or use arrows
+
+Alternatively, press:
+1. MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the Matrix menu
+1. RIGHT to access the MATH submenu
+1. 7 to select augment(, or use arrows
+       
 # The augment( Command
 
 The `augment(` command is used to combine two lists or two matrices into one. For lists, this is done the obvious way: adding the elements of the second on to the elements of the first. For example:

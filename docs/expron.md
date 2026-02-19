@@ -5,7 +5,10 @@
 |The equation or plot being traced is displayed in long form at the top of the screen.|ExprOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format menu<br># Use arrows and ENTER to select ExprOn
+Press:
+1. 2nd FORMAT to access the graph format menu
+1. Use arrows and ENTER to select ExprOn
+       
 # The ExprOn Command
 
 The `ExprOn` command enables a "long" form of displaying the equation or plot being traced. 

@@ -5,7 +5,10 @@
 |Sets the dimension of a list or lists to 0.|ClrList *list1*, [*list2*, *list3*, ...]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># STAT to access the statistics menu<br># 4 to select ClrList, or use arrows.
+Press:
+1. STAT to access the statistics menu
+1. 4 to select ClrList, or use arrows.
+       
 # The ClrList Command
 
 `ClrList` sets the length of a list (or several lists) to 0. This is virtually equivalent to deleting the list, except for several differences:

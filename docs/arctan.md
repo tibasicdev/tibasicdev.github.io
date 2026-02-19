@@ -5,7 +5,10 @@
 |Returns the inverse tangent (also called arctangent)|tanֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># [2nd]<br># [tanֿ¹]
+Press:
+1. [2nd]
+1. [tanֿ¹]
+       
 # The tanֿ¹( Command
 
 tanֿ¹( returns the [arctangent](http://mathworld.wolfram.com/inversetangent.html) of its argument. It is the inverse of [tan(](tan.html), which means that tanֿ¹(n) produces an angle θ such that tan(θ)=n.

@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The isClkOn() Command
 
 The isClkOn() command checks if the calculator's clock (which is used by most [68k:time and date](68k:time-and-date.html) commands) is running or stopped. The result of isClkOn() is a truth value — true if the clock is on, and false if the clock is off — which makes it perfect for a condition in commands such as [68k:If](68k:if.html):

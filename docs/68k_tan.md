@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the TAN button to enter tan(.
+       
 # The tan() Command
 
 

@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The setGraph() Command
 
 The setGraph() command is an analog of the [68k:setMode()](68k:setmode().html) command, except that it's used specifically to change graph settings. setGraph(*setting*,*value*) will change *setting* to *value*, and return the old value of *setting*. Both settings and values are identified by strings (not case-sensitive, but very spelling-sensitive), which are listed on the [68k:mode-settings](68k:mode-settings.html) page.

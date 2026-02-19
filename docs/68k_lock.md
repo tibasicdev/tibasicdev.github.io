@@ -6,6 +6,7 @@
        
 ### Menu Location
 
+       
 # The Lock Command
 The `lock` command prevents a variable's value from changing. In programs and functions, `lock` is usually used to stop a variable from undesirably changing. If a variable is universally defined (like files in folders), the `lock` command has a popular purpose of making the variable constant (unchanging) throughout use in sets of programs.
 

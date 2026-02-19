@@ -5,7 +5,11 @@
 |Supplies the title text in one of several types of menus.|Title *text*<br><br>or (with [68k:ToolBar](68k:toolbar.html) only)<br><br>Title *text-or-icon*[,*label*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 7 to select Title.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 7 to select Title.
+       
 # The Title Command
 
 The Title command is used in different ways with several types of menus:

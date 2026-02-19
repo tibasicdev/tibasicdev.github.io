@@ -5,7 +5,10 @@
 |Moves a variable from RAM to the archive.|Archive *variable*, [*another*, ...]|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F4 to enter the Var menu.<br>* Press 8 to select Archive.
+Starting in the program editor:
+- Press F4 to enter the Var menu.
+- Press 8 to select Archive.
+       
 # The Archive Command
 
 The `Archive` command moves a variable, or several variables, from RAM to the archive. This serves two purposes:

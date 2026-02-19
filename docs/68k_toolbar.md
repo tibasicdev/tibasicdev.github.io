@@ -5,7 +5,11 @@
 |Creates a toolbar menu and waits for input.|:ToolBar<br> (list of titles and items)<br>:EndTBar|This command works on all calculators.|2 bytes for ToolBar;<br>2 bytes for EndTBar.|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 1 to enter the Dialog submenu.<br>* Press 6 to select ToolBar..EndTBar.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 1 to enter the Dialog submenu.
+- Press 6 to select ToolBar..EndTBar.
+       
 # The ToolBar Command
 
 A ToolBar..EndTBar block, usable only inside a program, displays a custom toolbar menu in place of the usual toolbar, and immediately asks for one of the options to be selected. Selecting an object transfers program flow to a [label](68k:lbl.html) somewhere else in the program.

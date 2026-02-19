@@ -6,6 +6,7 @@
 
 ### Menu Location
 Press [CATALOG] [D] then scroll down until you see it.
+       
 # The DispHome Command
 The DispHome command returns the user to the homescreen. This is very useful in a program that uses the I/O screen since ending a program with a command like [68k:Stop](68k:stop.html) will not automatically return the user to the homescreen. Take this example:
 ```

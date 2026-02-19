@@ -6,6 +6,7 @@
        
 ### Menu Location
 Catalog Menu
+       
 # The Rename Command
 
 The Rename command allows you to rename a defined variable to an undefined variable. This is useful if you want to store the value of a variable into another variable, although the [68k:Store](68k:store.html) command is more commonly used for that purpose.

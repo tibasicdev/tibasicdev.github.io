@@ -5,7 +5,11 @@
 |Sorts a list in ascending order.<br><br>For more than one list, sorts the first, and reorders other lists accordingly.|SortA(*list1* [,*list2*, ...])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd LIST to access the list menu.<br># RIGHT to access the OPS submenu.<br># ENTER to select SortA(.
+Press:
+1. 2nd LIST to access the list menu.
+1. RIGHT to access the OPS submenu.
+1. ENTER to select SortA(.
+       
 # The SortA( Command
 
 The SortA( command sorts a list in ascending order. It does not return it, but instead edits the original list variable (so it takes only list variables as arguments).

@@ -5,7 +5,10 @@
 |Pauses the program until the user presses ENTER.|Pause [*value-or-text*]|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># PRGM to enter the PRGM menu<br># 8 to choose Pause, or use arrows
+While editing a program, press:
+1. PRGM to enter the PRGM menu
+1. 8 to choose Pause, or use arrows
+       
 # The Pause Command
 
 The `Pause` command is used for suspending the execution of a program at a certain point. This is useful when you have text or instructions on the home screen that you want the user to read before the program continues on to the next thing. While the program is paused, the pause indicator turns on in the top-right corner of the screen (it is the dotted line that moves around).

@@ -5,7 +5,11 @@
 |Finds the sample standard deviation of a list.|stdDev(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2ND LIST to enter the LIST menu.<br># LEFT to enter the MATH submenu.<br># 7 to select stdDev(, or use arrows.
+Press:
+1. 2ND LIST to enter the LIST menu.
+1. LEFT to enter the MATH submenu.
+1. 7 to select stdDev(, or use arrows.
+       
 # The stdDev( Command
 
 The stdDev( command finds the sample standard deviation of a list, a measure of the spread of a distribution. It takes a list of real numbers as a parameter. For example:

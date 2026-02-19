@@ -5,7 +5,13 @@
 |Mode command that puts the calculator into Classic mode.|MATHPRINT|TI-84 2.53MP or later|2 bytes|
 
 ### Menu Location
-Press:<br># MODE<br># DOWN until you reach Mathprint or Classic<br># ENTER on Mathprint<br><br>Alternatively, use the catalog.
+Press:
+1. MODE
+1. DOWN until you reach Mathprint or Classic
+1. ENTER on Mathprint
+
+Alternatively, use the catalog.
+       
 # The MATHPRINT Command
 
 MATHPRINT will put the calculator into Mathprint mode as opposed to Classic mode.  In MathPrint mode, enhanced homescreen input formatting is available. The Classic mode will make the calculator display everything as a calculator of lower OS would, including input.  For instance, rather than superscripting exponents as Mathprint mode would, Classic mode uses the simple caret syntax ([^](power.html)).

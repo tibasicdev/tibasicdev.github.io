@@ -5,7 +5,10 @@
 |Takes the cosecant of a number (usually, an angle).|csc(*angle*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH popup menu.<br>* Press A to enter the Trig submenu.<br>* Press 4 to select csc(.
+- Press 2nd MATH to enter the MATH popup menu.
+- Press A to enter the Trig submenu.
+- Press 4 to select csc(.
+       
 # The csc() Command
 
 The `csc()` command returns the cosecant (the reciprocal of the [`sine`](68k:sin.html)) of an angle measure. Naturally, the result depends on the angle [mode](68k:setmode.html) the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the `<sup>[r](68k:radian.html)</sup>`, [`°`](68k:degree.html), `<sup>[G](68k:gradian.html)</sup>` marks to specify an angle mode.

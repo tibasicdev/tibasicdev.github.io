@@ -5,7 +5,15 @@
 |For an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule), calculates the principal amount paid over a range of payments.|ΣPrn(*paymentt1*, *payment2*, [*roundvalue*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-On the TI-83, press:<br># 2nd FINANCE to access the finance menu.<br># 0 to select ΣPrn(, or use arrows and ENTER.<br><br>On the TI-83+ or higher, press:<br># APPS to access the applications menu.<br># 1 or ENTER to select Finance...<br># 0 to select ΣPrn(, or use arrows and ENTER.
+On the TI-83, press:
+1. 2nd FINANCE to access the finance menu.
+1. 0 to select ΣPrn(, or use arrows and ENTER.
+
+On the TI-83+ or higher, press:
+1. APPS to access the applications menu.
+1. 1 or ENTER to select Finance...
+1. 0 to select ΣPrn(, or use arrows and ENTER.
+       
 # The ΣPrn( Command
 
 The `ΣPrn(` command calculates, for an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule), the principal amount over a range of payments: the portion of those payments that went toward paying off the principal. Its two required arguments are *payment1* and *payment2*, which define the range of payments we're interested in. However, it also uses the values of the finance variables PV, PMT, and I% in its calculations.

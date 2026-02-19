@@ -5,7 +5,10 @@
 |Calculates several summary statistics for a list.|OneVar *list*[,*freq*,*arg3*,*arg4*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-1. Press 2nd MATH to enter the MATH popup menu.<br># Press 6 to enter the Statistics submenu.<br># Press 1 to select OneVar.
+1. Press 2nd MATH to enter the MATH popup menu.
+1. Press 6 to enter the Statistics submenu.
+1. Press 1 to select OneVar.
+       
 # The OneVar Command
 
 The OneVar command generates some summary statistics for a list. In its simplest form, it takes one argument — a list variable to analyze (it won't work with a list expression). It will store results to the following [68k:system variables](68k:system-variables.html):

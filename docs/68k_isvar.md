@@ -6,6 +6,7 @@
        
 ### Menu Location
 [CATALOG][I] + navigate down with arrows
+       
 # The isVar() command
 
 Returns true if the variable inputted has a value, false otherwise.

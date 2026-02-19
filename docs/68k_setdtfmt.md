@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The setDtFmt() Command
 
 The setDtFmt() sets the default format for dates: this format is used in the top right corner of the Apps Desktop, and also as the format for the output of [68k:getDtStr()](68k:getdtstr().html) (when it's used without a parameter to override this setting).

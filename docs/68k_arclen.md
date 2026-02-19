@@ -6,6 +6,7 @@
        
 ### Menu Location
 Describe how to get the command from a menu.
+       
 # The arcLen() Command
 
 The `arcLen()` command uses the integral arc length formula to calculate the arc length of a function over the specified interval.

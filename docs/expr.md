@@ -5,7 +5,11 @@
 |Returns the value of a string that contains an expression.|expr(*string*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-This command is found only in the Catalog. Press:<br># 2ND CATALOG to enter the catalog<br># F to go to commands starting with F<br># Scroll up a bit to expr(.
+This command is found only in the Catalog. Press:
+1. 2ND CATALOG to enter the catalog
+1. F to go to commands starting with F
+1. Scroll up a bit to expr(.
+       
 # The expr( Command
 
 The `expr(` command is used to evaluate an expression that's stored in a string (an expression is merely anything that returns a value - of any type). Expressions are occasionally stored to strings, rather than evaluated outright, so that their value has the capacity to change when the variables stored inside them change.  The `expr(` command's result depends on the kind of expression that's in the string you pass it — it may return a number, a list, a matrix, or even another string. 

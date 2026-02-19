@@ -5,7 +5,10 @@
 |Automatically fills in the table values for the independent variable.|IndpntAuto|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd TBLSET to access the table settings.<br># Use arrows to select Auto in the Indpnt line to select IndpntAuto.
+Press:
+1. 2nd TBLSET to access the table settings.
+1. Use arrows to select Auto in the Indpnt line to select IndpntAuto.
+       
 # The IndpntAuto Command
 
 The `IndpntAuto` setting sets the independent variable (X, T, θ, or *n* depending on [graphing mode](graphing-mode.html)) to be filled in automatically in the table (which is accessible by pressing 2nd TABLE, or from a program with the [`DispTable`](disptable.html) command).

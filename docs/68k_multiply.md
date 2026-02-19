@@ -6,6 +6,7 @@
        
 ### Menu Location
 Press the [*] key to paste *.
+       
 # The * Command
 
 The * operator multiplies two numbers, variables, or expressions. In many cases, it's implied — 5x, for instance, will be assumed to be 5*x. There are two exceptions: long variable names — xy will be interpreted as a single variable, not as x*y — and function calls — f(x) will be interpreted as f() applied to x, not as f*x.

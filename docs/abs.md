@@ -5,7 +5,16 @@
 |Returns the absolute value of a real number, and the complex absolute value of a complex number.|abs(*value*)|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># ENTER to select abs(.<br><br>Alternatively, press:<br># MATH to access the [math](math.html) menu.<br># RIGHT twice to access the CPX (complex) submenu.<br># 5 to select abs(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. ENTER to select abs(.
+
+Alternatively, press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT twice to access the CPX (complex) submenu.
+1. 5 to select abs(, or use arrows.
+       
 # The abs( Command
 
 `abs(*x*)` returns the absolute value of the real number *x*. Also works on a list or matrix of real numbers.

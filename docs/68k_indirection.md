@@ -5,7 +5,13 @@
 |Gets a variable given its name as a string.|#*var-name*|This command works on all calculators.|2 bytes|
        
 ### Menu Location
-On a widescreen calculator, press 2nd # to paste #.<br><br>Or, on any calculator model, press:<br>* 2nd CHAR to enter the CHAR popup menu.<br>* 3 to enter the Punctuation submenu.<br>* 3 again to paste #.
+On a widescreen calculator, press 2nd # to paste #.
+
+Or, on any calculator model, press:
+- 2nd CHAR to enter the CHAR popup menu.
+- 3 to enter the Punctuation submenu.
+- 3 again to paste #.
+       
 # The # Command
 
 The # operator takes a string containing a variable name, such as "x", and gives you the variable itself. This can be used to get the value of that variable (kind of like a weaker version of [expr()](68k:expr.html)), but the # operator really shines when you need to refer to the variable itself: storing to it, for example. 5→expr("var") will give you an error. 5→#"var", however, will work.

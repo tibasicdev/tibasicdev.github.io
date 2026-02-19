@@ -5,7 +5,13 @@
 |Computes a Z confidence interval of a proportion.|1-PropZInt(*x*, *n*[, *confidence level*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-When editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># ALPHA A to select 1-PropZInt(, or use arrows<br><br>(this key sequence will give you the 1-PropZInt... screen outside a program)
+When editing a program, press:
+1. STAT to access the statistics menu
+1. LEFT to access the TESTS submenu
+1. ALPHA A to select 1-PropZInt(, or use arrows
+
+(this key sequence will give you the 1-PropZInt... screen outside a program)
+       
 # The 1-PropZInt( Command
 
 The 1-PropZInt( command calculates a confidence interval for a proportion, at a specific confidence level: for example, if the confidence level is 95%, you are 95% certain that the proportion lies within the interval you get. The command assumes that the sample is large enough that the normal approximation to binomial distributions is valid: this is true if, in the sample you take, the positive and negative counts are both >5.

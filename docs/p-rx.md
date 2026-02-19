@@ -5,7 +5,10 @@
 |P►Rx( calculates the x-value (in Cartesian coordinates) given Polar coordinates.|P►Rx(r,θ)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd ANGLE to access the angle menu.<br># 7 to select P►Rx(, or use arrows and ENTER.
+Press:
+1. 2nd ANGLE to access the angle menu.
+1. 7 to select P►Rx(, or use arrows and ENTER.
+       
 # The P►Rx( Command
 
 P►Rx( (polar►rectangular x-coordinate) calculates the x-coordinate of a polar point.  Polar coordinates are of the form (r,θ), where θ is the counterclockwise angle made with the positive x-axis, and r is the distance away from the origin (the point (0,0)).  The conversion identity x=r*cos(θ) is used to calculate P►Rx(.

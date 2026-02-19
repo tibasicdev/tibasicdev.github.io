@@ -5,7 +5,11 @@
 |Finds the median of a list.|median(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2ND LIST to enter the LIST menu.<br># LEFT to enter the MATH submenu.<br># 4 to select median(, or use arrows.
+Press:
+1. 2ND LIST to enter the LIST menu.
+1. LEFT to enter the MATH submenu.
+1. 4 to select median(, or use arrows.
+       
 # The median( Command
 
 The median( command finds the [median](https://en.wikipedia.org/wiki/median) of a list. It takes a list of real numbers as a parameter. For example:

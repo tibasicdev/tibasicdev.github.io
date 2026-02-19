@@ -7,6 +7,7 @@
 ### Menu Location
 N/A
 
+       
 # The intDiv() Command
 
 The integer division command, intDiv(a,b) returns the whole number portion of a/b: this is equal to [iPart(](68k:ipart.html)a/b). Although this operation is most useful for dividing whole numbers, this definition works for any number, whole or decimal, real or complex.

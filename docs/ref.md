@@ -5,7 +5,11 @@
 |Puts a matrix into row-echelon form.|ref(*matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.<br># RIGHT to access the MATH submenu.<br># ALPHA A to select ref(, or use arrows.
+Press:
+1. MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
+1. RIGHT to access the MATH submenu.
+1. ALPHA A to select ref(, or use arrows.
+       
 # The ref( Command
 
 Given a matrix with at least as many columns as it has rows, the `ref(` command uses a technique called Gaussian elimination to put the matrix into row-echelon form.

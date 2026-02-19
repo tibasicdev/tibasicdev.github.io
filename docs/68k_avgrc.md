@@ -6,6 +6,7 @@
        
 ### Menu Location
 This command can only be found in the CATALOG
+       
 # Avgrc
 
 AvgRC() returns an expression equal to the following formula:

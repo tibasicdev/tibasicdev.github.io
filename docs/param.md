@@ -5,7 +5,10 @@
 |Enables parametric graphing mode.|Param|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program, press:<br># MODE to access the mode menu.<br># Use arrows to select Par.
+While editing a program, press:
+1. MODE to access the mode menu.
+1. Use arrows to select Par.
+       
 # The Param Command
 
 The Param command enables [parametric](graphing-mode.html#parametric) graphing mode.

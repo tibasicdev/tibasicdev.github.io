@@ -5,7 +5,11 @@
 |Returns the integer part of a value.|iPart(*value*)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu<br># 3 to select iPart(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu
+1. 3 to select iPart(, or use arrows.
+       
 # The iPart( Command
 
 `iPart(*value*)` returns the integer part of *value*, and extends to complex numbers, lists, and matrices.

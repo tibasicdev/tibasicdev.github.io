@@ -5,7 +5,16 @@
 |Returns the maximum of two elements or of a list.|* for two numbers: max(*x*,*y*)<br>* for a list: max(*list*)<br>* comparing a number to each element of a list: max(*x*,*list*) or max(*list*,*x*)<br>* pairwise comparing two lists: max(*list1*,*list2*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># MATH to access the [math](math.html) menu.<br># RIGHT to access the NUM submenu.<br># 7 to select max(, or use arrows.<br><br>Alternatively, press:<br># 2nd LIST to access the list menu.<br># LEFT to access the MATH submenu.<br># 2 to select max(, or use arrows.
+Press:
+1. MATH to access the [math](math.html) menu.
+1. RIGHT to access the NUM submenu.
+1. 7 to select max(, or use arrows.
+
+Alternatively, press:
+1. 2nd LIST to access the list menu.
+1. LEFT to access the MATH submenu.
+1. 2 to select max(, or use arrows.
+       
 # The max( Command
 
 `max(X,Y)` returns the largest of the two numbers `X` and `Y`. `max(*list*)` returns the largest element of *list*. `max(*list1*,*list2*)` returns the pairwise maxima of the two lists. `max(*list1*,X)` (equivalently, `max(X,*list1*)`) returns a list whose elements are the larger of `X` or the corresponding element of the original list.

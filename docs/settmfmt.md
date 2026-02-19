@@ -5,7 +5,11 @@
 |Sets the time format of the clock on the TI-84+/SE.|setTmFmt(*value*)|TI-84+/SE|2 bytes|
 
 ### Menu Location
-This command can only be found in the catalog. Press:<br># 2nd CATALOG to enter the command catalog<br># s to skip to commands starting with S<br># Scroll down to setTmFmt( and select it
+This command can only be found in the catalog. Press:
+1. 2nd CATALOG to enter the command catalog
+1. s to skip to commands starting with S
+1. Scroll down to setTmFmt( and select it
+       
 # The setTmFmt( Command
 
 The setTmFmt( command sets the time format of the clock on the TI-84+/SE calculators when displaying the time on the [mode screen](settings.html). There are two different formats available, and you simply use the respective value (can be either a literal number or a variable) to display the desired one: 12 (12 hour) or 24 (24 hour). For example, this would set the time format to 24 hour:

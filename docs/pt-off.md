@@ -5,7 +5,11 @@
 |Turns off a point on the graph screen.|Pt-Off(X,Y[,*mark*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-While editing a program press:<br># 2nd PRGM to enter the DRAW menu<br># RIGHT to enter the POINTS menu<br># 2 to choose Pt-Off(
+While editing a program press:
+1. 2nd PRGM to enter the DRAW menu
+1. RIGHT to enter the POINTS menu
+1. 2 to choose Pt-Off(
+       
 # The Pt-Off( Command
 
 The Pt-Off( command is used to turn off a point (a pixel on the screen) on the graph screen at the given (X,Y) coordinates. Pt-Off( is affected by the window settings, which means you have to change the window settings accordingly, otherwise the point won't show up correctly on the screen.

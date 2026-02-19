@@ -5,7 +5,11 @@
 |Recalls a saved picture (one of Pic1, Pic2, ..., Pic0) to the graph screen.|RecallPic *number*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># 2nd DRAW to access the draw menu.<br># LEFT to access the STO submenu.<br># 2 to select RecallPic, or use arrows and ENTER.
+Press:
+1. 2nd DRAW to access the draw menu.
+1. LEFT to access the STO submenu.
+1. 2 to select RecallPic, or use arrows and ENTER.
+       
 # The RecallPic Command
 
 `RecallPic` draws a saved picture to the graph screen (to save a picture, draw it on the graph screen, then save it with [`StorePic`](storepic.html)). If something is already drawn on the graph screen, `RecallPic` will draw new pixels where needed, but it will not erase anything. As a result, you often want to [`ClrDraw`](clrdraw.html) before recalling a picture.

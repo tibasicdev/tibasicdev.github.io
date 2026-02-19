@@ -5,7 +5,10 @@
 |Disables the grid on the graph screen.|GridOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the graph format menu.<br># Use arrows and ENTER to select GridOff.
+Press:
+1. 2nd FORMAT to access the graph format menu.
+1. Use arrows and ENTER to select GridOff.
+       
 # The GridOff Command
 
 The `GridOff` command disables the grid on the graph screen. This is the default setting. Use [`GridOn`](gridon.html) to enable the grid.

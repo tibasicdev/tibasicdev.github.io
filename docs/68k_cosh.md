@@ -5,7 +5,10 @@
 |Takes the hyperbolic cosine of a number.|cosh(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location
-- Press 2nd MATH to enter the MATH menu.<br>* Press C to enter the Hyperbolic submenu.<br>* Press 2 to select cosh(.
+- Press 2nd MATH to enter the MATH menu.
+- Press C to enter the Hyperbolic submenu.
+- Press 2 to select cosh(.
+       
 # The cosh() Command
 
 

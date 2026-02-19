@@ -5,7 +5,10 @@
 |Disables the X- and Y- axes on the graph screen.|AxesOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location
-Press:<br># 2nd FORMAT to access the format menu.<br># Use arrows and ENTER to select AxesOff.
+Press:
+1. 2nd FORMAT to access the format menu.
+1. Use arrows and ENTER to select AxesOff.
+       
 # The AxesOff Command
 
 The `AxesOff` command disables the X and Y axes on the graph screen, so that they aren't drawn. They can be enabled again with the [`AxesOn`](axeson.html) command.

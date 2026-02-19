@@ -5,7 +5,10 @@
 |Zooms to a square window.|ZSquare|TI-83/84/+/SE|1 byte|
 
 ### Menu Location
-Press:<br># ZOOM to access the zoom menu.<br># 5 to select ZSquare, or use arrows and ENTER.
+Press:
+1. ZOOM to access the zoom menu.
+1. 5 to select ZSquare, or use arrows and ENTER.
+       
 # The ZSquare Command
 
 The ZSquare command changes the [window variables](system-variables.html#window) Xmin and Xmax, or Ymin and Ymax, so that ΔX=ΔY, preserving all other settings and the coordinate of the center of the screen. This ensures that a numerical distance on the graphscreen has the same physical length on the calculator display, no matter if it's vertical, horizontal, or diagonal. Probably the most obvious effect of this change is that circles (whether graphed with an equation or drawn with the [Circle(](circle.html) command) are actually circles and not ovals.

@@ -5,7 +5,10 @@
 |Asks for a value to be typed in on the I/O screen.|Input [*prompt*,]*variable*<br>Input|This command works on all calculators.|3 bytes|
        
 ### Menu Location
-Starting in the program editor:<br>* Press F3 to enter the I/O menu.<br>* Press 3 to select Input.
+Starting in the program editor:
+- Press F3 to enter the I/O menu.
+- Press 3 to select Input.
+       
 # The Input Command
 
 Input *prompt*, *variable* displays *prompt* (which should be a string) on a new line on the Program I/O screen, then waits for the user to type in an expression on the next line. Whatever is typed in is then stored to *variable*. You can leave out the *prompt* part to just have the prompt be a question mark.
