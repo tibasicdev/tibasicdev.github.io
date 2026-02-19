@@ -28,8 +28,7 @@ e^({-1,0,1})
 
 The `*e*^(` is usually defined by an infinite series:
 
-$$
-e^x=\sum_{n=0}^\infty{\frac{x^n}{n!}}$$
+$$e^x=\sum_{n=0}^\infty{\frac{x^n}{n!}}$$
 
 This is then used to define exponentiation in general (for all real and even complex numbers), rather than using some sort of definition of exponents that involves multiplying a number by itself many times (which only works for integers).
 

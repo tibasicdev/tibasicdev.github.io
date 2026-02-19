@@ -64,14 +64,16 @@ Using the [sub(](sub.html) command, if only one argument is given and it contain
 If your window is set up so that Xscl < ΔX and Yscl < ΔY, you can use [GridOn](gridon.html) to make the entire screen black. You should note, however, that is rather slow.
 You can also use [Shade(](shade.html) to go faster.
 
-```:Shade(Ymin,Ymax
+```
+:Shade(Ymin,Ymax
 ```
 
 **Inputting Coordinates**
 
 Most programmers know the normal syntax for Input, but it can be used alone without any arguments. This simply displays a little "+" on the graph screen, along with the coordinates on the bottom. The plus symbol can be moved horizontally or vertically to a certain coordinate, and the command ends by pressing ENTER. The coordinates are then stored to x and y, respectively.
 
-```:Input
+```
+:Input
 ```
 **Faster Circles**
 

@@ -22,34 +22,29 @@ Often, you want to find a "tail probability" - a special case for which the inte
 
 Alternatively, you can exploit the identity
 
-$$
-\operatorname{tcdf}(-\infty,0,\nu)=\frac1{2}$$
+$$\operatorname{tcdf}(-\infty,0,\nu)=\frac1{2}$$
 
 (similarly for the interval from 0 to ∞)
 
 and thus
 
-$$
-\operatorname{tcdf}(-\infty,x,\nu)=\frac1{2}+\operatorname{tcdf}(0,x,\nu)$$
+$$\operatorname{tcdf}(-\infty,x,\nu)=\frac1{2}+\operatorname{tcdf}(0,x,\nu)$$
 
 For the form used in two-tailed tests, the following identity may be useful:
 
-$$
-\operatorname{tcdf}(-x,x,\nu)=2\operatorname{tcdf}(0,x,\nu)$$
+$$\operatorname{tcdf}(-x,x,\nu)=2\operatorname{tcdf}(0,x,\nu)$$
 
 ## Formulas
 
 As with any other continuous distribution, tcdf( can be defined in terms of the probability density function, [tpdf(](tpdf.html):
 
-$$
-\operatorname{tcdf}(a,b,\nu)=\int_a^b \operatorname{tpdf}(t,\nu)\mathrm{d}t$$
+$$\operatorname{tcdf}(a,b,\nu)=\int_a^b \operatorname{tpdf}(t,\nu)\mathrm{d}t$$
 
 The function can also be expressed in terms of an [incomplete beta function](http://mathworld.wolfram.com/incompletebetafunction.html).
 
 For one degree of freedom (ν=1), tcdf( is expressible in terms of simpler functions:
 
-$$
-\operatorname{tcdf}(a,b,1)=\frac1{\pi}\left(\tan^{-1}\left(b\right)-\tan^{-1}\left(a\right)\right)$$
+$$\operatorname{tcdf}(a,b,1)=\frac1{\pi}\left(\tan^{-1}\left(b\right)-\tan^{-1}\left(a\right)\right)$$
 
 This is the so-called Cauchy distribution.
 

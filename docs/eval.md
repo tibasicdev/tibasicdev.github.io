@@ -14,7 +14,8 @@ This command is found only in the Catalog. Press:
 
 The `eval(` command, given an expression that evaluates to a real number, returns the string representation of that number.
 
-```eval(1337       //returns "1337"
+```
+eval(1337       //returns "1337"
 
 eval(2.0-3.0    //returns "‾1"
 

@@ -11,8 +11,7 @@ This command can only be found in the CATALOG
 
 AvgRC() returns an expression equal to the following formula:
 
-$$
-\frac{f(x+h)-f(x)}{h}$$
+$$\frac{f(x+h)-f(x)}{h}$$
 
 h is the step value, which defaults to 0.001.
 

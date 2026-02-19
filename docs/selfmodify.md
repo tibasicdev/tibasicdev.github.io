@@ -33,7 +33,8 @@ When you access u, it will have a value of 100. But what would happen to the val
 
 As it turns out, finding an occasion to use this technique is usually rare, so here is a made-up example. This program will count up and down with the arrow keys until you press ENTER. If you press 2ND, however, it will switch the order of the keys:
 
-```:5→A
+```
+:5→A
 :"(Ans=25)-(Ans=34→u        // initial expression for u
 :Repeat Ans=105
 :A+u→A

@@ -35,8 +35,7 @@ This will give about .148 when you run it, so there's a .148 probability that it
 
 The value of `geometpdf(` is given by the formula
 
-$$
-\operatorname{geometpdf}(p,n) = p(1-p)^{n-1}$$
+$$\operatorname{geometpdf}(p,n) = p(1-p)^{n-1}$$
 
 This formula can be intuitively understood: the probability that the first success is the nth trial is the probability of getting a success - $p$ - times the probability of missing it the first n-1 times - $(1-p)^{n-1}$.
 

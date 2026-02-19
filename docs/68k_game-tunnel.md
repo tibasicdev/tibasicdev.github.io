@@ -11,7 +11,8 @@ This game showcases the following techniques and ideas:
  
 ## The Code
 
-```:tunnel()
+```
+:tunnel()
 :Prgm
 :Local center,height,player,temp,wall,score,shift1,shift2,key,dir,i,modeset,graphset,graphopt
 :StoGDB graphset

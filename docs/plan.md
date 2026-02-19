@@ -64,7 +64,8 @@ Cleanup
 
 You could translate this into a basic program almost directly. Here's how we do it (note that we don't write any code yet):
 
-```prgmMAINMENU  // user enters difficulty, etc.
+```
+prgmMAINMENU  // user enters difficulty, etc.
 prgmINITVARS  // initialize variables
 Repeat Z
 prgmMOVEPLR  // moves player

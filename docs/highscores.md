@@ -27,37 +27,44 @@ Managing a table of multiple high scores and names would be more complicated. He
 ```
 
 First, we should check if our score is even good enough to be in the high scores table. We're assuming that our high score table is kept in order, because we presumably initialized it that way (which will be discussed later), and we're going to keep it that way when we're done with this routine. So all we need to do is see if the score is greater than an element in our list:
-```If max(S>∟HIGH:Then
+```
+If max(S>∟HIGH:Then
 ```
 
 Next, we should input the high scorer's name. You can make this as easy or as hard as you want to, in this example I used Input for simplicity. We also pad this by appending spaces to the end then truncating the string to 10 letters, because we want it to be exactly 10 letters long.
-```Disp "NEW HIGH SCORE!
+```
+Disp "NEW HIGH SCORE!
 Input "YOUR NAME?",Str1
 sub(Str1+" (9 spaces) ",1,10→Str1
 ```
 
 Now, we find the place that the high score ``S`` got in the table.  This line adds up the number of scores higher than the new one, and by adding one you get the new rank.
-```1+sum(S<∟HIGH
+```
+1+sum(S<∟HIGH
 ```
 
 Now we insert Str1 into Str0 at the correct place. First we use sub( to find all the characters before the place we're sticking it in.  Str1 is added onto this, and then we use sub( again to get all the characters that go after the new name.
-```sub(Str0,1,10Ans-9)+Str1+sub(Str0,10Ans-8,81-10Ans
+```
+sub(Str0,1,10Ans-9)+Str1+sub(Str0,10Ans-8,81-10Ans
 ```
 
 We could do the same for lists, but there's an easier way. Since the list of scores is sorted, inserting an element into its correct place is the same as adding it to the end, then sorting the list. Finally, we remove the last score that was "bumped out" of the high score table.
-```S→LHIGH(8
+```
+S→LHIGH(8
 SortA(LHIGH
 7→dim(LHIGH
 ```
 
 We're done!
-```End
+```
+End
 ```
 
 ## Initializing the High Scores
 
 Being able to add scores and names into the table would be useless without a table or names to begin with, so at the start of your program you should put in a block of code to do this.
-```:SetUpEditor HIGH
+```
+:SetUpEditor HIGH
 :If 7≠dim(∟HIGH:Then
 :" (6 spaces)
 :Ans+Ans
@@ -78,7 +85,8 @@ We usually use a named list to store the high scores, due to the versatility of 
 If we just have a score to deal with, it's simple to store it: just make it the first element of the list! However, with a complicated high score table, we'll have to store the names of the high scorers as well as their scores. So we have to find a way to convert a string to a list (and back).
 
 This is simplest if you limit the variety of characters to be used for names (for example, uppercase letters and spaces). Then, you can store all the possible characters to a string, and use ``inString()`` to convert each character into a number - an index in that string. You would do this for all the characters, and append to the high scores. The following code is split up for clarity, but it could actually be combined into one line:
-```:" ABCDEFGHIJKLMNOPQRSTUVWXYZ
+```
+:" ABCDEFGHIJKLMNOPQRSTUVWXYZ
 :seq(inString(Ans,sub(Str0,I,1)),I,1,70
 :augment(∟HIGH,Ans→∟HIGH
 ```
@@ -98,7 +106,8 @@ Going the other way is equally simple. Unfortunately, there is no ``seq()`` comm
 This is an optional side to high score saving. It's impossible to to make high scores completely tamper-proof, since someone could just look in the source code of your program and find out how you secure your high scores. However, you can use the random number generator to stop most casual cheaters (this is just one of many methods).
 
 To do this, we first compute some number that depends on the entirety of the high score list. The most obvious is the sum of the elements. However, to obfuscate the process a bit more, you use the sum as the random number seed and save the first random number generated to the end of your list.
-```:sum(∟HIGH→rand
+```
+:sum(∟HIGH→rand
 :rand→∟HIGH(78
 ```
 

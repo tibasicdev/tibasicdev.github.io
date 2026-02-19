@@ -138,7 +138,7 @@ class Converter:
         r'\[\[/collapsible\]\]': r'</details>',
 
         # Code
-        rf'^\[\[code(?: +type="(\S+)")?\]\]({UUID})\[\[/code\]\]\s*?$': r'```\1\2\n```',
+        rf'^\[\[code(?: +type="(\S+)")?\]\]({UUID})\[\[/code\]\]\s*?$': r'```\1\n\2\n```',
         rf'^\[\[include inc:prgm-code\s*\|\s*code\s*=({UUID})\]\]\s*?$': r'```\1\n```',
 
         # Math
@@ -305,7 +305,7 @@ class Converter:
 
         # Replace blocks
         for block_id, block in BLOCKS.items():
-            page = page.replace(block_id, block.rstrip())
+            page = page.replace(block_id, block.rstrip().lstrip("\n"))
 
         # Table of contents
         page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)

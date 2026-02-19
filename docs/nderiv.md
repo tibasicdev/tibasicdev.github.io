@@ -37,14 +37,12 @@ A suitable compromise is to choose a tolerance *h* that's based on X. As suggest
 
 The exact formula that the calculator uses to evaluate this function is:
 
-$$
-\operatorname{nDeriv}(f(t),t,x,h)=\frac{f(x+h)-f(x-h)}{2h}$$
+$$\operatorname{nDeriv}(f(t),t,x,h)=\frac{f(x+h)-f(x-h)}{2h}$$
 
 
 This formula is known as the [symmetric derivative](https://en.wikipedia.org/wiki/symmetric_derivative), and using it generally increases the accuracy of the calculation. However, in a few instances it can give erroneous answers. One case where it gives false answers is with the function, 
 
-$$
-f(x) = \dfrac{1}{x^2} \bigg\vert_{x=0}$$
+$$f(x) = \dfrac{1}{x^2} \bigg\vert_{x=0}$$
 
 This derivative is undefined when calculated algebraically, but due to the method of calculation, the derivative given by `nDeriv(` is zero. These problems can be avoided by ensuring that a function's derivative is defined at the point of interest.
 

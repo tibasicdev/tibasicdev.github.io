@@ -53,7 +53,8 @@ Cleanup
 
 You could translate this into a basic program almost directly. Here's how we do it (note that we don't write any code yet):
 
-```:program()
+```
+:program()
 :Prgm
 :setup() © set up settings, variables, etc.
 :mainmenu() © user enters difficulty, etc.

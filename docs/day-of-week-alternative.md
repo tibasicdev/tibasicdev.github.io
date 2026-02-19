@@ -3,7 +3,8 @@
 |--- |--- |--- |--- |--- |--- |
 |Calculates the day of week of a date, without using [dayOfWk(](dayofwk.html) (because it's only available on the 84+ and 84+SE)|*D* - The day<br>*M* - The month<br>*Y* - The year (Any year at all)|*Ans* - 0-6 = the day of week (Sunday - Saturday)|D, M, Y, Ans|Michael Keith|[file weekday2.zip]|
 
-```:Y-(M<3
+```
+:Y-(M<3
 :round(7fPart((int(23M/9)+D+4+Y+int(Ans/4)-int(Ans/ᴇ2)+int(Ans/400)-2(M≥3))/7
 ```
 
@@ -30,10 +31,12 @@ Directly from [this website](http://cadaeic.net/calendar.htm):
 ## Display Day
 
 Just as the other formula, append the following code to display the day of the week,
-```:Disp sub("SUNDAY***MONDAY***TUESDAY**WEDNESDAYTHURSDAY*FRIDAY***SATURDAY*",9Ans+1,9      //replace *s with spaces
+```
+:Disp sub("SUNDAY***MONDAY***TUESDAY**WEDNESDAYTHURSDAY*FRIDAY***SATURDAY*",9Ans+1,9      //replace *s with spaces
 ```
 Or you can use the alternative code, which is smaller and space-pads it.
-```Disp sub("***SUN***MON**TUESWEDNES*THURS***FRI*SATUR",6Ans+1,6)+"DAY       //replace *s with spaces
+```
+Disp sub("***SUN***MON**TUESWEDNES*THURS***FRI*SATUR",6Ans+1,6)+"DAY       //replace *s with spaces
 ```
 ## Error Conditions
 

@@ -3,7 +3,8 @@
 |--- |--- |--- |--- |--- |--- |
 |Calculates the day that Easter Sunday falls on any given year.|*Y* - The year (any year at all)|*Ans* - The day in March of Easter Sunday (plus 31 if the month is April)|Y, Ans|John Horton Conway|[file eastercalculation.zip]|
 
-```:int(Y/ᴇ2
+```
+:int(Y/ᴇ2
 :50-30fPart((11(1+19fPart(Y/19))-Ans+int(Ans/4)+int(8(Ans+11)/25))/30
 :If Ans=50 or Ans=49 and 11≤19fPart(Y/19
 :Ans-1
@@ -16,7 +17,8 @@ This is the TI-BASIC version of an Easter Calculation algorithm by John Horton C
 This code, as it stands right now, displays the day of March it falls on (if it's over 31, then the day in April+31).
 
 Append the following code to display the actual day:
-```:ClrHome
+```
+:ClrHome
 :Disp sub("MARCHAPRIL",1+5(Ans>31),5
 :Output(1,7,Ans-31(Ans>31
 ```
@@ -47,7 +49,8 @@ Lastly, the last line of code adjusts the date to the next Sunday using a modifi
 
 This routine is a modified version of the Easter20Ops function on [this page](https://web.archive.org/web/20150227133210/http://www.merlyn.demon.co.uk/estralgs.txt).
 
-```:2613+1483int(.01Y)-2225int(Y/400→A
+```
+:2613+1483int(.01Y)-2225int(Y/400→A
 :round(29fPart(int((66690fPart(Y/19)+319int(Ans/25))/330)/29
 :56-Ans-7fPart((int(5Y/4)+A-Ans)/7
 ```

@@ -24,8 +24,7 @@ Often, you want to find a "tail probability" - a special case for which the inte
 
 As with other continuous distributions, `Fcdf(` can be expressed in terms of the probability density function:
 
-$$
-\operatorname{Fcdf}(a,b,d_1,d_2) = \int_a^b \operatorname{Fpdf}(x,d_1,d_2) \, dx$$
+$$\operatorname{Fcdf}(a,b,d_1,d_2) = \int_a^b \operatorname{Fpdf}(x,d_1,d_2) \, dx$$
 
 ## Related Commands
 

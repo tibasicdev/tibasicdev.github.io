@@ -19,10 +19,12 @@ All of the commands which draw lines and circles depend on the Xmin, Xmax, Ymin,
 The [Horizontal](horizontal.html) command is used to draw a line from left to right on the Graph Screen. Press 2nd, Draw then scroll until you find "Horizontal". This command takes a single input as the value for the Y value of the line. For the horizontal command, the Xmin and Xmax do not matter, since the line extends indefinitely in both directions, and is parallel to the X-axis.
 
 As an example, the following would draw a line in the middle of the screen given the graph settings above.
-```Horizontal 5
+```
+Horizontal 5
 ```
 This code would draw a line in the middle of the screen given any graph settings.
-```Horizontal (Ymax-Ymin)/2
+```
+Horizontal (Ymax-Ymin)/2
 ```
 
 ### Vertical
@@ -30,10 +32,12 @@ This code would draw a line in the middle of the screen given any graph settings
 The [Vertical](vertical.html) command is used to draw a line from top to bottom on the Graph Screen. Press 2nd, Draw then scroll until you find "Vertical". This time, you need to enter the X coordinate of the line. This command is the opposite of Horizontal, so the Ymin and Ymax settings don't matter.
 
 As an example, the following would draw a line in the middle of the screen given the graph settings above.
-```:Vertical 5
+```
+:Vertical 5
 ```
 This code would draw a line in the middle of the screen given any graph settings.
-```Vertical (Xmax-Xmin)/2
+```
+Vertical (Xmax-Xmin)/2
 ```
 
 ### Line(
@@ -68,7 +72,8 @@ The following are commands that draw lines or curves according to a function. Yo
 Use the [DrawF](drawf.html) command to draw a function. This command is useful because it's output is erased with the rest of the Graph Screen when you use the [ClrDraw](clrdraw.html) command, which is not the case of a function entered into the "Y<sub>n</sub>" variables.
 
 As an example:
-```DrawF X²+2x-4
+```
+DrawF X²+2x-4
 ```
 would draw something like this:
 ![http://tibasicdev.wdfiles.com/local—files/sk:more-shapes/DrawF_command.png](http://tibasicdev.wdfiles.com/local—files/sk:more-shapes/DrawF_command.png "")
@@ -78,7 +83,8 @@ would draw something like this:
 As with DrawF, [DrawInv](drawinv.html) draws a function. This command, however, draws the inverse of the function you enter. The syntax is the same and again, it will also be erased with the rest of the graph screen when [ClrDraw](clrdraw.html) is used.
 
 As an example of DrawInv, we will draw the same function as before, then draw the inverse:
-```DrawF X²+2x-4
+```
+DrawF X²+2x-4
 DrawInv X²+2x-4
 ```
 ![http://tibasicdev.wdfiles.com/local—files/sk:more-shapes/DrawInv_command.png](http://tibasicdev.wdfiles.com/local—files/sk:more-shapes/DrawInv_command.png "")
@@ -88,7 +94,8 @@ DrawInv X²+2x-4
 The [Tangent(](tangent.html) command draws a function and it's tangent. This command is used very infrequently, but can be useful in certain applications such as Newton's Method. The syntax for this command takes two arguments; It requires a function, and a point at which to draw the tangent line.
 
 As an example, we will use the same function and have our tangent line positioned at some point "A" along the curve. Try this for yourself with different values of "A"!
-```Tangent(X²+2x-4,A
+```
+Tangent(X²+2x-4,A
 ```
 
 ### Shade(
@@ -102,7 +109,8 @@ Shade(0,10)
 Shade(Ymin,Ymax)
 ```
 As an example of functions being used, we can do the following.
-```Shade(-6,X/3+2
+```
+Shade(-6,X/3+2
 Pause
 ClrDraw
 Shade(-X+1,X/2
@@ -125,7 +133,8 @@ AxesOff
 62→Ymax
 ```
 Notice how we selected the dimensions to be the same size as the number of pixels on the graph screen. This will make it easier when we go to do the drawing. Now, there's nothing in this code that we haven't seen. We'll go step by step through it. First we'll draw the dice. Yes, we could draw each line individually, but optimized code is always preferred. To optimize this code right away, we will use loops to draw the outlines of the dice. Try to understand this code before continuing and typing it into your own calculator.
-```For(I,4,76,18
+```
+For(I,4,76,18
 Line(I,21,I,35
 Line(I,21,I+14,21
 Line(I,35,I+14,35
@@ -134,7 +143,8 @@ End
 ```
 Now that we have the dice, we need to roll them. Since there will be more than one result, we should use a list to store the values to so that we overwrite as few variables as possible; Let's use L₁. Try to create your own code here! When you think you have it working, take a look at how I would do it before moving to the next section.
 <details style="display: inline;"><summary>show</summary>
-```randInt(1,6,5)→L₁
+```
+randInt(1,6,5)→L₁
 ```
 </details>
 

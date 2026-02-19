@@ -36,8 +36,7 @@ We are ready to use `ΣInt(`. We are interested in the payments made during the 
 
 `ΣInt(` is calculated in terms of [`ΣPrn(`](sigmaprn.html), for which a recurrence exists. Since the total amount paid during an interval is known (it's the payment size, multiplied by the number of payments), we can subtract `ΣPrn(` from this total to get `ΣInt(`:
 
-$$
-\operatorname{\Sigma Int}(n_1,n_2)=(n_2-n_1+1)\operatorname{PMT}-\operatorname{\Sigma Prn}(n_1,n_2)$$
+$$\operatorname{\Sigma Int}(n_1,n_2)=(n_2-n_1+1)\operatorname{PMT}-\operatorname{\Sigma Prn}(n_1,n_2)$$
 
 ## Error Conditions
 

@@ -8,7 +8,8 @@ The Graph Screen is 95 pixels wide and 63 pixels high.  As can be seen from the 
 
 The first thing you need to know when you deal with the Graph Screen is how to erase your draw. The function you need is ClrDraw. It's found in the Draw Menu and has no syntax. Simply enter ClrDraw as above and the Graph Screen will erase.
 
-```:RecallPic1
+```
+:RecallPic1
 :Pause
 :ClrDraw
 ```
@@ -25,7 +26,8 @@ Two advantages using Pxl- commands has over Pt- commands are the coordinates and
 
 The [Pxl-On(](pxl-on.html) command is used to turn a pixel on.  It only takes two arguments which are the row and the column.  This is useful when you need just a little tweak for the perfect graphic.
 Here's an example.  Let's say you want to draw a face.  You could use [Circle(](circle.html) (we'll get to that later) for the head but then you're missing the eyes.  Turn a couple pixels on!
-```:Circle(47,-31,4)
+```
+:Circle(47,-31,4)
 :Pxl-On(30,46)
 :Pxl-On(30,48)
 ```
@@ -33,7 +35,8 @@ Here's an example.  Let's say you want to draw a face.  You could use [Circle(](
 ### Pxl-Off(
 
 [Pxl-Off(](pxl-off.html) is used to turn a pixel off.  It's arguments are the same as Pxl-On.  This is useful when you need to get rid of a couple little things.  For example, if we wanted to add a mouth on our little head we could use Pt-On (which is coming right after this) and its special 'mark' argument and then turn off the 2 pixels we don't need.
-```:Pt-On(47,-32,3)
+```
+:Pt-On(47,-32,3)
 :Pxl-Off(31,47)
 :Pxl-Off(33,47)
 ```
@@ -75,7 +78,8 @@ The third argument, unique to points, is the 'mark'.  The number 1 corresponds t
 ### Pt-Off(
 
 [Pt-Off(](pt-off.html) erases the mark at a point.  This doesn't just turn off the pixel at the point, but it turns off every pixel that would be part of the mark.  An example of using these to get a cool-looking point is
-```:Pt-On(20,-20,2)
+```
+:Pt-On(20,-20,2)
 :Pt-Off(20,-20,3)
 ```
 This will only leave the corner pixels of the little box.

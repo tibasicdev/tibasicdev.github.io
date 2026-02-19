@@ -394,7 +394,8 @@ Use Another Variable
 ### So What Is Branching Good For?
 
 Despite its many disadvantages, Lbl and Goto statements actually have their uses. For example, you may want to have a label at the end of the program that you Goto everywhere you want to exit the program. This is useful if you have a lot of clean-up (such as deleting large temporary variables) every time the program exits.
-```If K=45:Goto Q
+```
+If K=45:Goto Q
 ...
 Lbl Q
 DelVar [A]DelVar L1

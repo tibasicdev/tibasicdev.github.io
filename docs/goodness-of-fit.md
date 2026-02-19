@@ -30,8 +30,7 @@ Because the value of p is high, it's perfectly plausible that the null hypothesi
 ## Formulas
 
 The formula for calculating the χ² statistic: (O<sub>i</sub> is the observed count of the ith outcome, and E<sub>i</sub> is the expected count)
-$$
-\chi_{n-1}^2 = \sum_{i=1}^n \frac{(O_i-E_i)^2}{E_i}$$
+$$\chi_{n-1}^2 = \sum_{i=1}^n \frac{(O_i-E_i)^2}{E_i}$$
 
 ## Error Conditions
 

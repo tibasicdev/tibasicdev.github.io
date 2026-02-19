@@ -89,7 +89,8 @@ We start the routine normally: repeat until a key is pressed. The two Text( stat
 
 Although this routine differs from the one above, it accomplishes the same thing.  Again, thanks to DarkerLine for the keypress to letter formula.  Harrierfalcon came up with the formula to convert keypresses to numbers.
 
-```:ClrDraw
+```
+:ClrDraw
 :DelVar A15→B
 :Text(1,82,"             
 :Text(0,82," LET
@@ -179,7 +180,8 @@ Lines 4-8 toggles AlphaLock and NumLock, and updates the display.
 :Else
 ```
 This If-Then is executed only if [2ND],[DEL],[ENTER], and [CLEAR] were NOT pressed.  This prevents garbled numbers with would cause ERR:DOMAIN.  This is executed only if NumLock was on.
-```:Else
+```
+:Else
 :sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZθ",M-5int(.1M)-20,1
 :Text(29,B,Ans
 :Str1+Ans→Str1

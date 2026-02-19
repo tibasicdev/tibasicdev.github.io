@@ -18,8 +18,7 @@ Since the *t* distribution is continuous, the value of `tpdf(` doesn't represent
 
 The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which *t* distribution to use). As the degrees of freedom increases without bound, `tpdf(` approaches [`normalpdf(`](normalpdf.html); i.e.
 
-$$
-\lim_{\nu\rightarrow\infty}\operatorname{tpdf}(x,\nu)=\operatorname{normalpdf}(x)$$
+$$\lim_{\nu\rightarrow\infty}\operatorname{tpdf}(x,\nu)=\operatorname{normalpdf}(x)$$
 
 ## Formulas
 

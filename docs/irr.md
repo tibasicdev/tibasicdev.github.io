@@ -36,8 +36,7 @@ Solving for `irr(` requires solving a polynomial with degree equal to the total 
 
 The polynomial associated with the calculation is:
 
-$$
-\sum_{i=0}^{N}{C_i\left(1+\frac{\mathrm{Irr}}{100}\right)^{N-i}}=0$$
+$$\sum_{i=0}^{N}{C_i\left(1+\frac{\mathrm{Irr}}{100}\right)^{N-i}}=0$$
 
 Here, Irr is the internal rate of return, N is the number of cash flows, and C<sub>t</sub> is the t <sup>th</sup> cash flow. 
 

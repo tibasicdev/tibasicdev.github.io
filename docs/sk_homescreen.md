@@ -19,7 +19,8 @@ The [ClrHome](clrhome.html) command clears the homescreen, giving you an empty s
 The [Output(](output.html) command lets you print text, just like the Disp command. There are two differences, though: You can choose where to start the text, and strings that go off the end of the screen will wrap around to the next line!
 To use it, you need three arguments: the row where the first character appears, the column, and the text.
 You use it like so:
-```:Output(8,1,"PRESS ENTER")
+```
+:Output(8,1,"PRESS ENTER")
 ```
 This text starts at the bottom-left corner of the screen, and prints PRESS ENTER.
 The most useful application for Output( is to dynamically update the home screen. If you had money in the top left corner and life in the bottom left for a game, using Disp to update those would be a pain. You would have the un-updated text blink, because you had to ClrHome first. Output allows you to avoid the flicker.
@@ -29,7 +30,8 @@ In the past, you only knew of the Input command for input. Now we will cover two
 
 ### Prompt
 [Prompt](prompt.html) is a much more primitive command than Input, but it gets the job done. It only needs one argument: the variable. You can add more variables to one Prompt statement, as long as they are separated by commas. Here is a basic use:
-```Prompt A
+```
+Prompt A
 ```
 The code will show A=?, which means, "What do you want A to equal?". Prompt has limitations, and quality programs are unlikely to use it because the A=? thing doesn't look very professional.
 The limitations are outlined below:

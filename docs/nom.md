@@ -29,8 +29,7 @@ For example, you want to know the interest rate, compounded monthly, that will y
 
 The formula for converting from an effective rate to a nominal rate is:
 
-$$
-\operatorname{Nom}=100 \operatorname{CP} \left(\sqrt[\operatorname{CP}]{\frac{\operatorname{Eff}}{100}+1}-1\right)$$
+$$\operatorname{Nom}=100 \operatorname{CP} \left(\sqrt[\operatorname{CP}]{\frac{\operatorname{Eff}}{100}+1}-1\right)$$
 
 Here, Eff is the effective rate, Nom is the nominal rate, and CP is the number of compounding periods.
 

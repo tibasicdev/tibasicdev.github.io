@@ -28,8 +28,7 @@ Unlike the [`tpdf(`](tpdf.html) and [`tcdf(`](tcdf.html) commands, the invT( com
 
 For one degree of freedom, `invT(` is expressible in terms of simpler functions:
 
-$$
-\operatorname{invT}(p,1)=\tan\left(\pi\left(p-\frac1{2}\right)\right)$$
+$$\operatorname{invT}(p,1)=\tan\left(\pi\left(p-\frac1{2}\right)\right)$$
 
 ## Related Commands
 

@@ -35,8 +35,7 @@ This will give about .065 when you run it, so there's a .065 probability that in
 
 The value of `poissonpdf(` is given by the formula
 
-$$
-\operatorname{poissonpdf}(\lambda,k) = \frac{e^{-\lambda}\lambda^k}{k!}$$
+$$\operatorname{poissonpdf}(\lambda,k) = \frac{e^{-\lambda}\lambda^k}{k!}$$
 
 ## Related Commands
 

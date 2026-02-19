@@ -59,7 +59,8 @@ To display it, use this line:
 
 Now, let's modify our program to show some results.
 
-```:ClrHome
+```
+:ClrHome
 :{2,3}→dim([J])
 :0→P
 :For(R,1,2)

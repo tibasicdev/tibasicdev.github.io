@@ -29,8 +29,7 @@ In both routines, r², a, b, n, and  Σx² are statistical variables.
 
 For the fitting equation *y*=*a**x*+*b*,
 
-$$
-\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen}
+$$\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen}
 \begin{align*}
 \sigma_a&=a\sqrt{\frac{\frac1{r^2}-1}{n-2}} \\
 \sigma_b&=\sigma_a\sqrt{\frac{\Sigma x^2}{n}}

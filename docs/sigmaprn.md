@@ -36,13 +36,11 @@ We are ready to use `ΣPrn(`. We are interested in the payments made during the 
 
 The formula that the calculator uses for `ΣPrn(` is in terms of [`bal(`](bal.html):
 
-$$
-\operatorname{\Sigma Prn}(n_1,n_2)=\operatorname{bal}(n_2)-\operatorname{bal}(n_1)$$
+$$\operatorname{\Sigma Prn}(n_1,n_2)=\operatorname{bal}(n_2)-\operatorname{bal}(n_1)$$
 
 When the *roundvalue* argument isn't given, we can substitute the explicit formula for `bal(` and simplify to get the following formula:
 
-$$
-\operatorname{\Sigma Prn}(n_1,n_2)=\left(\operatorname{PV}-\frac{\operatorname{PMT}}{I\%/100}\right)\left[\left(1-\frac{I\%}{100}\right)^{n_1}-\left(1-\frac{I\%}{100}\right)^{n_2}\right]$$
+$$\operatorname{\Sigma Prn}(n_1,n_2)=\left(\operatorname{PV}-\frac{\operatorname{PMT}}{I\%/100}\right)\left[\left(1-\frac{I\%}{100}\right)^{n_1}-\left(1-\frac{I\%}{100}\right)^{n_2}\right]$$
 
 ## Error Conditions
 

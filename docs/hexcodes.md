@@ -49,110 +49,135 @@ This will switch from normal text mode to inverse (white text on black backgroun
 
 ## Lowercase
 ### Lowercase On
-```AsmPrgmFDCB24DEC9
+```
+AsmPrgmFDCB24DEC9
 ```
 ### Lowercase Off
-```AsmPrgmFDCB249EC9
+```
+AsmPrgmFDCB249EC9
 ```
 ### Lowercase Toggle
-```AsmPrgm21148A3E08AE77C9
+```
+AsmPrgm21148A3E08AE77C9
 ```
 This will toggle lowercase on or off
 
 ## Fill Screen
 Clear, Black, & Invert Screen
 ### LCD Clear
-```AsmPrgmEF4045C9
+```
+AsmPrgmEF4045C9
 ```
 This only clears the LCD, it doesn't actually clear the graph screen or homescreen
 ### White
-```AsmPrgm210000115F3FEF5C4DC9
+```
+AsmPrgm210000115F3FEF5C4DC9
 ```
 This fills the graph screen with white pixels. This is not like ClrDraw, as it won't update graphs or plots.
 ### Black
-```AsmPrgm210000115F3FEF624DC9
+```
+AsmPrgm210000115F3FEF624DC9
 ```
 This fills the graph screen with black pixels
 ### Invert
-```AsmPrgm210000115F3FEF5F4DC9
+```
+AsmPrgm210000115F3FEF5F4DC9
 ```
 This inverts the contents of the screen, drawing it to the graph screen.
 ### Border
-```AsmPrgm210000115F3FEF7D4DC9
+```
+AsmPrgm210000115F3FEF7D4DC9
 ```
 This draws a border around the graph screen.
 ### White Border
-```AsmPrgm210000115F3FEF864DC9
+```
+AsmPrgm210000115F3FEF864DC9
 ```
 This draws a border of white pixels around the graph screen.
 ### Black Border, Clear Inside
-```AsmPrgm210000115F3FEF8C4DC9
+```
+AsmPrgm210000115F3FEF8C4DC9
 ```
 This will draw a black border around the graph screen, clearing the contents inside.
 ## Change contrast level
 ### Set Contrast
 The input is a value between 0 and 39 in [Ans](ans.html) (if you use something else, the program will ignore it), with 0 corresponding to the lowest contrast value, and 39 to the highest. The number displayed by the OS in the top right corner of the screen when you change the contrast with 2nd+UP and 2nd+DOWN is 1/4 of this value, rounded (so a displayed 6 corresponds to a value between 24 and 27 when using this program).
 
-```AsmPrgmEFD74AEFEF4AC6D8D8D3107B324784C9
+```
+AsmPrgmEFD74AEFEF4AC6D8D8D3107B324784C9
 ```
 
 ### Get Contrast
 This gets the OS contrast level and stores it in Ans:
-```AsmPrgm3A4784EF8C47EFBF4AC9
+```
+AsmPrgm3A4784EF8C47EFBF4AC9
 ```
 
 ### Decrease Contrast
-```AsmPrgm2147847ED601D835C6D8D310C9
+```
+AsmPrgm2147847ED601D835C6D8D310C9
 ```
 Decrease the contrast by one unit (this will be ignored if the contrast is at minimum already).
 
 ### Increase Contrast
-```AsmPrgm2147847EC6D9D834D310C9
+```
+AsmPrgm2147847EC6D9D834D310C9
 ```
 Increase the contrast by one unit (this will be ignored if the contrast is at maximum already).
 
 ## Run Indicator
 ### Run Indicator Off
-```AsmPrgmEF7045C9
+```
+AsmPrgmEF7045C9
 ```
 ### Run Indicator On
-```AsmPrgmEF6D45C9
+```
+AsmPrgmEF6D45C9
 ```
 ### Toggle Run Indicator
-```AsmPrgm21028A3E01AE77C9
+```
+AsmPrgm21028A3E01AE77C9
 ```
 Note that when this routine turns the run indicator off, it doesn't erase the run indicator, it simply stops it. You can do this yourself — either by outputting something to the top right corner, or by clearing the screen ([ClrDraw](clrdraw.html) or [ClrHome](clrhome.html), doesn’t matter).
 
 ## Simulated Key Presses
 
 ### Alpha Lock
-```AsmPrgmFD361251C9
+```
+AsmPrgmFD361251C9
 ```
 This simulates [2nd][Alpha]
 ### Alpha Lock (No disable)
-```AsmPrgmFD3612D1C9
+```
+AsmPrgmFD3612D1C9
 ```
 This is the same as the first, but you have to press [2nd][mode] to disable it.
 ### Lowercase Press
-```AsmPrgmFD361231C9
+```
+AsmPrgmFD361231C9
 ```
 This works even if lowercase isn't enabled.
 ### Lowercase Lock
-```AsmPrgmFD361271C9
+```
+AsmPrgmFD361271C9
 ```
 This simulates [2nd][Alpha][Alpha].
 ### Lowercase Lock (No disable)
-```AsmPrgmFD3612B1C9
+```
+AsmPrgmFD3612B1C9
 ```
 This can only be disabled by pressing [2nd][mode]
 ### Alpha Off
-```AsmPrgm21028A3E0FA677C9
+```
+AsmPrgm21028A3E0FA677C9
 ```
 Alternatively:
-```AsmPrgm3E01FD7712C9
+```
+AsmPrgm3E01FD7712C9
 ```
 ### [2nd]
-```AsmPrgmFDCB12DEC9
+```
+AsmPrgmFDCB12DEC9
 ```
 
 An interesting use of these codes can be for prompting user input (If you run Alpha Lock, for example, [Input](input.html) will start with an Alpha press.
@@ -160,10 +185,12 @@ An interesting use of these codes can be for prompting user input (If you run Al
 If you run the Alpha Lock that can't be disabled at the start of your program and a user presses ON (or an error occurs), you will not be able to select the options, so you are forced to press [2nd][mode].
 ## Disabling "Done" Message
 To disable the "Done" message at the end of a Basic program:
-```AsmPrgmFDCB00AEC9
+```
+AsmPrgmFDCB00AEC9
 ```
 ## Un-Dirty Graph Screen
-```:AsmPrgmFDCB0386C9
+```
+:AsmPrgmFDCB0386C9
 ```
 
 This will mark the Graph Screen as not dirty.  Using [ClrDraw](clrdraw.html) will mark the Graph Screen as dirty so the next time it is displayed the screen will be cleared. Many ASM libraries (such as [xLIB](xlib.html)) modify the graph buffer without displaying the screen which might be unintentionally cleared.
@@ -173,19 +200,23 @@ This will mark the Graph Screen as not dirty.  Using [ClrDraw](clrdraw.html) wil
 With turning the calculator off, you have options. You can either turn the screen off (your program will continue running, but the calculator will look like it’s turned off) or actually turn the calculator off and wait for the [on] button to be pressed.
 
 ### LCD Off
-```AsmPrgm3E02D310C9
+```
+AsmPrgm3E02D310C9
 ```
 
 ### LCD On
-```AsmPrgm3E03D310C9
+```
+AsmPrgm3E03D310C9
 ```
 
 ### Toggle LCD Power
-```AsmPrgmDB108787879FC603D310C9
+```
+AsmPrgmDB108787879FC603D310C9
 ```
 
 ### Calculator Off
-```AsmPrgm3E01D303FB76FDCB09A6C9
+```
+AsmPrgm3E01D303FB76FDCB09A6C9
 ```
 Turn the calculator off; wait for [on] key before continuing:
 
@@ -198,12 +229,14 @@ Finally, exit the program and turn the calculator off (i.e., once you turn the c
 ## Auto Calc
 
 ### Auto DMS
-```AsmPrgmFD360A06C9
+```
+AsmPrgmFD360A06C9
 ```
 Auto DMS displays all decimals in Degrees-Minutes-Seconds on the home screen, automatically.
 
 ### Auto Fractions
-```AsmPrgmFD360A0CC9
+```
+AsmPrgmFD360A0CC9
 ```
 Auto Fractions will display decimals as fractions (if it can) on the home screen, automatically.
 
@@ -262,11 +295,13 @@ This shifts the graph screen down by four pixels. See the note [here](http://tib
 
 ### Free RAM
 Get the amount of free RAM left in Ans
-```AsmPrgmEFE542EF9247EF5641EFBF4AC9
+```
+AsmPrgmEFE542EF9247EF5641EFBF4AC9
 ```
 
 ### Archiving
-```AsmPrgm
+```
+AsmPrgm
 EFD74AD604C0   ;Get the pointers to Ans
 EB4E234623     ;Get the size and location of the string
 117884EDB012   ;Copy it to OP1
@@ -294,7 +329,8 @@ U         Appvar
 "FTEST
 ```
 ### Unarchiving
-```AsmPrgm
+```
+AsmPrgm
 EFD74AD604C0
 EB4E234623
 117884EDB0
@@ -304,7 +340,8 @@ EFD84FC9
 ```
 Input: See Archiving.
 ### ToggleArch
-```AsmPrgm
+```
+AsmPrgm
 EFD74AD604C0
 EB4E234623
 117884EDB0
@@ -313,14 +350,17 @@ EFD84FC9
 ```
 Input: See Archiving.
 ### Reset Defaults
-```AsmPrgmEF2851C9
+```
+AsmPrgmEF2851C9
 ```
 ### Reset RAM
-```AsmPrgmEF4E40C9
+```
+AsmPrgmEF4E40C9
 AsmPrgmC7
 ```
 ### DelVar
-```AsmPrgm
+```
+AsmPrgm
 EFD74AD604C0
 EB4E234623
 117884EDB0
@@ -332,19 +372,22 @@ Input: See Archiving.
 ## Miscellaneous
 
 ### Remove Cursor
-```AsmPrgmFDCB0CE6C9
+```
+AsmPrgmFDCB0CE6C9
 ```
 This is harmless, but it stops displaying that blinking cursor :D Just press [2nd][MODE] to put it back to normal. What, jokes are allowed, right?
 
 ### Edit Lock/Unlock Program
 We are generally an open source community, so this should be fun. To toggle the lock status of a program:
-```:AsmPrgmEFD74AFE04C03CEB4E234623117884121CEDB0AF12EFF142D8EE0377C9
+```
+:AsmPrgmEFD74AFE04C03CEB4E234623117884121CEDB0AF12EFF142D8EE0377C9
 ```
 Please note that you should avoid editing an assembly program using this code. It will likely get messed up and it could cause it to be volatile. The program name will be in Ans, as a string. For example, "HELLO":Asm(prgmLOCK
 
 ### Battery Check
 This is a "smart" battery check, that detects if the calc is an 84+ or an 83+. If it is a TI-83+, either a 0 or 4 is stored to Ans. If it is a TI-84+, a value from 0 to 4 is stored to Ans. 0 implies a low battery, 4 implies a good battery, and anything in between is just that.
-```AsmPrgm
+```
+AsmPrgm
 EF6F4C3D280A78FE1E
 3805
 EF21521808
@@ -354,10 +397,12 @@ EF8C47EFBF4AC9
 
 ### ASCII
 Display an ASCII character at the last cursor position, using Ans (0 to 255)
-```AsmPrgmEFD74AEFEF4AEF0445C9
+```
+AsmPrgmEFD74AEFEF4AEF0445C9
 ```
 Display a string of ASCII characters using a list in Ans (use values 0 to 255):
-```AsmPrgmEFD74A3DC0EB462323C5EF7A41E5EFEF4AEF0445E1C110F1C9
+```
+AsmPrgmEFD74A3DC0EB462323C5EF7A41E5EFEF4AEF0445E1C110F1C9
 ```
 An example of using this might be:
 ```
@@ -368,7 +413,8 @@ That will display "HELLO" and if you change the 65 to a 97, it will disply "hell
 
 ### Error
 This code will cause an error to be thrown, based on the value in Ans. The values correspond to the ones found [here](http://www.brandonw.net/calcstuff/ti83plus.txt). Use your browser's search tool to look for "E_Overflow" which is Error 1. By default, there is no Goto option unless you add 128 to the values. So for example, for a divide by zero error with a goto option, use 130 as the error code.
-```AsmPrgmEFD74AEFEF4AEFD744C9
+```
+AsmPrgmEFD74AEFEF4AEFD744C9
 ```
 
 ### Token generator

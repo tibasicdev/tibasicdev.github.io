@@ -37,15 +37,13 @@ Note the relationship between [`geometpdf(`](geometpdf.html) and `geometcdf(`. S
 
 Going off of the relationship between `geometpdf(` and `geometcdf(`, we can write a formula for `geometcdf(` in terms of `geometpdf(`:
 
-$$
-\operatorname{geometcdf}(p,n) = \sum_{i=1}^{n} \operatorname{geometpdf}(p,i) = \sum_{i=1}^{n} p\,(1-p)^{i-1}$$
+$$\operatorname{geometcdf}(p,n) = \sum_{i=1}^{n} \operatorname{geometpdf}(p,i) = \sum_{i=1}^{n} p\,(1-p)^{i-1}$$
 
 (If you're unfamiliar with sigma notation, $\sum_{i=1}^{n}$ just means "add up the following for all values of i from 1 to n")
 
 However, we can take a shortcut to arrive at a much simpler expression for `geometcdf(`. Consider the opposite probability to the one we're interested in, the probability that it will **not** take "at most N trials", that is, the probability that it will take more than N trials. This means that the first N trials are failures. So `geometcdf(p,N)` = (1 - "probability that the first N trials are failures"), or:
 
-$$
-\operatorname{geometcdf}(p,n) = 1-(1-p)^n$$
+$$\operatorname{geometcdf}(p,n) = 1-(1-p)^n$$
 
 ## Related Commands
 

@@ -26,8 +26,7 @@ Like normal trig commands, sinh( works on lists as well, but not on complex numb
 ## Formulas
 
 The definition of hyperbolic sine is:
-$$
-\sinh{x}=\frac{e^x-e^{-x}}{2}$$
+$$\sinh{x}=\frac{e^x-e^{-x}}{2}$$
 
 ## Related Commands
 

@@ -24,8 +24,7 @@ The *F*-distribution is used mainly in significance tests of variance.
 
 The value of the `Fpdf(` is given by
 
-$$
-\operatorname{Fpdf}(x,d_1,d_2) = \frac{\left( \frac{d_1x}{d_1x+d_2} \right)^{d_1/2} \left(1-\frac{d_1x}{d_1x+d_2}\right)^{d_2/2}}{x \operatorname{B}(d_1/2,d_2/2)}$$
+$$\operatorname{Fpdf}(x,d_1,d_2) = \frac{\left( \frac{d_1x}{d_1x+d_2} \right)^{d_1/2} \left(1-\frac{d_1x}{d_1x+d_2}\right)^{d_2/2}}{x \operatorname{B}(d_1/2,d_2/2)}$$
 
 where *B(x,y)* is the [Beta function](https://en.wikipedia.org/wiki/beta_function).
 

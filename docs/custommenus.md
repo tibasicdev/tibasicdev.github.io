@@ -141,7 +141,6 @@ First, you need some variables. You can use a list, in this case L(SCBAR).
 First, we need to calculate P<sub>Start</sub> and P<sub>End</sub>:
 
 ```
-
 LSCBAR(6)+LSCBAR(4)*((LSCBAR(7)-LSCBAR(6))/LSCBAR(3))->LSCBAR(1) // P,,Start,, = L,,Start,, + E,,Above,, * (L,,End,, - L,,Start,,)/E,,Total,,
 LSCBAR(7)-LSCBAR(5)*((LSCBAR(7)-LSCBAR(6))/LSCBAR(3))->LSCBAR(2) // P,,End,, = L,,End,, + E,,Below,, * (L,,End,, - L,,Start,,)/E,,Total,,
 ```
@@ -151,7 +150,6 @@ Simple percent math ;)
 For the scroll bar you just draw 3 lines:
 
 ```
-
 Line(93,-LSCBAR(1),93,-LSCBAR(2) // 93 is the X-Coordinate where the scroll bar will be drawn
 Line(92,-LSCBAR(1)-1,92,-LSCBAR(2)+1 // Makes the scroll bar look better
 Line(94,-LSCBAR(1)-1,94,-LSCBAR(2)+1

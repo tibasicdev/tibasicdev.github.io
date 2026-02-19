@@ -14,7 +14,8 @@ This command is found only in the Catalog. Press:
 
 The `toString(` command, given any value including real numbers, complex numbers, lists, or matrices, returns the string representation of the value of the input.
 
-```toString(1337       //returns "1337"
+```
+toString(1337       //returns "1337"
 
 toString({1,2,3}    //returns "{1,2,3}"
 

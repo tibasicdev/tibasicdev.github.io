@@ -50,13 +50,11 @@ can be
 ## Formulas
 
 Without a frequency list, the formula for `npv(` is the following:
-$$
-\operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\})=\sum_{j=0}^N{\operatorname{CF}_j\left(1+\frac{i}{100}\right)^{-j}}$$
+$$\operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\})=\sum_{j=0}^N{\operatorname{CF}_j\left(1+\frac{i}{100}\right)^{-j}}$$
 
 When a frequency list is used, the same formula can be applied if we expand the list with frequencies into a long list without frequencies. However, it's possible to do the calculation directly. We define the cumulative frequency S<sub>j</sub> as the sum of the first j frequencies (S<sub>0</sub> is taken to be 0):
 
-$$
-\operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\},\{n_j\})
+$$\operatorname{npv}(i,\operatorname{CF}_0,\{\operatorname{CF}_j\},\{n_j\})
 =\operatorname{CF}_0+\sum_{j=1}^N{\operatorname{CF}_j\left(1+\frac{i}{100}\right)^{S_{j-1}}\frac{(1-(1+\frac{i}{100})^{-n_j})}{i}}$$
 
 

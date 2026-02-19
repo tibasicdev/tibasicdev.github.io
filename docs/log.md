@@ -16,8 +16,7 @@ The `log(` command computes the base 10 logarithm of a value — the exponent to
 ## Advanced Uses
 
 Using either the [`ln(`](ln.html) or the `log(` command, logarithms of any base can be calculated, using the identity:
-$$
-\log_b{x} = \frac{\ln{x}}{\ln{b}} = \frac{\log{x}}{\log{b}}$$
+$$\log_b{x} = \frac{\ln{x}}{\ln{b}} = \frac{\log{x}}{\log{b}}$$
 
 So, to take the base B log of a number X, you could use either of the following equivalent ways:
 ```

@@ -13,7 +13,8 @@ Press:
 # The xor Command
 
 The third and final [binary](binandhex.html) operator is a little trickier, but it has the coolest name.  **xor** takes two numbers of expressions and checks to see if *exactly one* is True.  If both are True or both are False, it returns 0.
-```1 xor 0
+```
+1 xor 0
            1
 
 :2 xor (3 xor 0)    (after evaluating 3 xor 0, it simplifies into True xor True.)

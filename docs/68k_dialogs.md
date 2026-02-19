@@ -58,7 +58,8 @@ If the variables being stored to by Request or DropDown aren't undefined, they'r
 - For Request, *if* the variable's value is a string, it's pre-entered and highlighted in the request box.
 - For DropDown, *if* the variable's value is a number, the corresponding option is the one initially chosen.
 This can be useful for changing menu options. Alternatively, you can use it for instructions or custom default values, for example:
-```"Enter the answer here"→answer
+```
+"Enter the answer here"→answer
 Request "Ans:",answer
 ```
 

@@ -9,7 +9,8 @@ Describe how to get the command from a menu.
        
 # The DropDown Command
 Similar to the Menu( command, the DropDown is used in a dialog box to make body text that includes a dropdown menu, with multiple options. This is good for use in text RPGs or game menus where a dialog box already exists and there isn't a need for another box. Look at this code for example:
-``` 
+```
+ 
 :Dialog
 :DropDown "Do you like food?", {"Yes", "No"}, t
 :EndDlog

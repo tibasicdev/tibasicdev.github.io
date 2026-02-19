@@ -19,5 +19,4 @@
 
 The [Extended Euclidean Algorithm](https://en.wikipedia.org/wiki/extended_euclidean_algorithm) is a highly efficient algorithm for calculating the greatest common divisor ([GCD](gcd.html)) of two numbers. The algorithm, in the process of finding the GCD, also finds the Bézout coefficients x and y. These are integers such that
 
-$$
-ax+by=\gcd(a,b)$$
+$$ax+by=\gcd(a,b)$$

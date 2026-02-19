@@ -14,7 +14,8 @@ Press:
 
 `and` takes two numbers, variables, or expressions and tests to see if they are both True (not equal to 0).  If they are, it returns 1.  If either input is False (0), it returns 0.  Note that the order of the operators doesn't matter (i.e. `and` is commutative), and that multiple `and`'s can be used together
 
-```:0 and 0 
+```
+:0 and 0 
            0
 
 :0 and 1

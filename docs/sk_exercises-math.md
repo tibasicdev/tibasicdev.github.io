@@ -21,8 +21,7 @@ Let's review the commands you have learned concerning mathematical operations. H
 
 **4**. Evaluate the following expression. Remember the Order of Operations.
 
-$$
-24 / 4 + 2 * (9 - √9) / 3$$
+$$24 / 4 + 2 * (9 - √9) / 3$$
 
 **Answer**: ##e7e9dc|The answer is 10. Remember PEMDAS##
 

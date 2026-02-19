@@ -32,7 +32,8 @@ In other words: **a `For(` loop repeats its contents once for every value of *va
 
 This is perhaps best explained with an example. The following code will display the numbers 1 to 10, in order:
 
-```:For(A,1,10)
+```
+:For(A,1,10)
 :Disp A
 :End
 ```
@@ -51,7 +52,8 @@ An advanced note: each time the program enters a `For(` loop, the calculator use
 
 Sometimes you want to exit out of a `For(` loop when it hasn't finished. You can do this by storing the *end* value to the variable you used in the `For(` loop. For example:
 
-```:For(A,1,100)
+```
+:For(A,1,100)
 <some code>
 :If <condition for exiting out>
 :100→A
@@ -129,7 +131,8 @@ which doubles the value of A (so `1.8E100` becomes `3.6E100`). This process can 
 
 The [`seq(`](seq-list.html) command, or simple math, can often be used in place of the `For(` command when dealing with lists. For example:
 
-```:For(A,1,dim(L1
+```
+:For(A,1,dim(L1
 :cos(A)→L1(A
 :End
 //can be
@@ -138,7 +141,8 @@ The [`seq(`](seq-list.html) command, or simple math, can often be used in place 
 
 and 
 
-```:For(A,1,dim(L1
+```
+:For(A,1,dim(L1
 :1+L1(A→L1(A
 :End
 //can be

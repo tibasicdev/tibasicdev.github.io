@@ -34,8 +34,7 @@ log<sub>2</sub>(8)
 
 The log in base *b* can also be found using the [`ln(`](ln.html) or [`log(`](log.html) commands.  This can be done indirectly using the change-of-base formula:
 
-$$
-\log_bx = {\ln x \over \ln b} = {\log x \over \log b}$$
+$$\log_bx = {\ln x \over \ln b} = {\log x \over \log b}$$
 
 Or directly, using the optional second argument of `log(`:
 

@@ -13,7 +13,8 @@ Press:
 # The not( Command
 
 The last logical operator available on the 83 series takes only one value as input.  **not(** comes with its own parentheses to make up for this loss.  Quite simply, it negates the input: False becomes True (1) and True returns False (0).   not( can be nested; one use is to make any True value into a 1.
-```:not(0)
+```
+:not(0)
            1
 
 :not(-20 and 14)

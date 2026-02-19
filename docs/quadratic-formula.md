@@ -15,7 +15,8 @@ The output is a complex list in [Ans](ans.html) of the two roots. If there is on
 
 The ordinary formula above can give poor results if B is much larger than A and/or C. In that case, an alternate routine can be used:
 
-```√(B²+4ACi²
+```
+√(B²+4ACi²
 If 0>real(Ansconj(B
 -Ans
 -.5(B+Ans
@@ -26,8 +27,7 @@ If 0>real(Ansconj(B
 
 The ordinary quadratic formula, and its alternate form are used:
 
-$$
-\begin{align}
+$$\begin{align}
 \mathrm{For} \hspace{5pt} ax^2+bx+c = 0, \\ \\
 x = \frac{-b\pm\sqrt{b^2-4ac}}{2a} \\ \\
 x = \frac{2c}{-b\pm\sqrt{b^2-4ac}}

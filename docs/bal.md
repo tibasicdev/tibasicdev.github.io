@@ -36,15 +36,12 @@ We are ready to use `bal(`. We are interested in the payment made after 15 years
 
 The calculator uses a recursive formula to calculate `bal()`:
 
-$$
-\operatorname{bal}(0)=\operatorname{PV}$$
-$$
-\operatorname{bal}(m)=\left(1-\frac{I\%}{100}\right)\operatorname{bal}(m-1)+\operatorname{PMT}$$
+$$\operatorname{bal}(0)=\operatorname{PV}$$
+$$\operatorname{bal}(m)=\left(1-\frac{I\%}{100}\right)\operatorname{bal}(m-1)+\operatorname{PMT}$$
 
 In the case that *roundvalue* is given as an argument, the rounding is done at each step of the recurrence (which virtually forces us to use this formula). Otherwise, if no rounding is done (and assuming I% is not 0), we can solve the recurrence relation to get:
 
-$$
-\operatorname{bal}(m)=\frac{1-\left(1-\frac{I\%}{100}\right)^m}{\frac{I\%}{100}}\operatorname{PMT}+\left(1-\frac{I\%}{100}\right)^m\operatorname{PV}$$
+$$\operatorname{bal}(m)=\frac{1-\left(1-\frac{I\%}{100}\right)^m}{\frac{I\%}{100}}\operatorname{PMT}+\left(1-\frac{I\%}{100}\right)^m\operatorname{PV}$$
 
 ## Error Conditions
 

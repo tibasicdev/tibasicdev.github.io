@@ -12,7 +12,8 @@ While editing a program, press:
 # The ►Dec Command
 
 This command is generally useless.  Its supposed use is to convert numbers into decimal form, but any typed fractions are displayed as decimals anyway.
-```1/3
+```
+1/3
      .3333333333
 1/3►Dec
      .3333333333

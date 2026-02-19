@@ -26,8 +26,7 @@ Like normal trig commands, `cosh(` works on [lists](lists.html) as well, but not
 ## Formulas
 
 The definition of hyperbolic cosine is:
-$$
-\cosh{x}=\frac{e^x+e^{-x}}{2}$$
+$$\cosh{x}=\frac{e^x+e^{-x}}{2}$$
 
 ## Related Commands
 

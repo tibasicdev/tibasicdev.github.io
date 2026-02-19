@@ -5,7 +5,8 @@
 
 This routine takes a string stored in Str1 and scramble it. The results is contained in Ans. For example, "ABCDE12345" could be scrambled to "B34AC1DE25".
 
-```:rand(length(Str1→L₁
+```
+:rand(length(Str1→L₁
 :cumSum(1 or Ans→L₂
 :SortA(L₁,L₂
 :sub(Str1,L₂(1),1
@@ -18,7 +19,8 @@ With your string stored in Str1, it creates L₁={1,2,3,4,...,length(Str1)}. Aft
 
 For the TI-84+ and higher with a MathPrint or color OS, use this code instead:
 
-```:randIntNoRep(1,length(Str1→L₁
+```
+:randIntNoRep(1,length(Str1→L₁
 :sub(Str1,Ans(1),1
 :For(N,2,length(Str1
 :Ans+sub(Str1,L₁(N),1
