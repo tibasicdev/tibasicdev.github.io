@@ -422,7 +422,7 @@ if __name__ == "__main__":
             continue
 
         # Write converted sources
-        out = Path(f"pages/{prefix}:{name}.md") if prefix else Path(f"pages/{name}.md")
+        out = Path(f"docs/{prefix}:{name}.md") if prefix else Path(f"docs/{name}.md")
         out.parent.mkdir(parents=True, exist_ok=True)
 
         with open(out, "w+", encoding="utf8") as outfile:
@@ -447,6 +447,6 @@ if __name__ == "__main__":
         text = converter.convert(dyk.read_text(encoding="utf8"), "", "")
         dyks += f"- {text}\n"
 
-    with open(Path("pages/did-you-know.md"), "w+", encoding="utf8") as outfile:
+    with open(Path("docs/did-you-know.md"), "w+", encoding="utf8") as outfile:
         outfile.write(dyks)
         print("Wrote DYKs")
