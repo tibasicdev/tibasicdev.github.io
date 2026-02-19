@@ -422,7 +422,7 @@ if __name__ == "__main__":
             continue
 
         # Write converted sources
-        out = Path(f"docs/{prefix}:{name}.md") if prefix else Path(f"docs/{name}.md")
+        out = Path(f"docs/{filename}.md")
         out.parent.mkdir(parents=True, exist_ok=True)
 
         with open(out, "w+", encoding="utf8") as outfile:

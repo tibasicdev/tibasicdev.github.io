@@ -48,6 +48,10 @@ jobs:
           title: TI-Basic Developer
           icon: calculator
           
+      - name: Rename prefixed pages
+        run: |
+          sudo find ./html -depth -name "*_*" -execdir bash -c 'mv -- "$1" "${1//_/:}"' bash {} \;
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
