@@ -52,7 +52,7 @@ jobs:
           
       - name: Copy non-HTML
         run: |
-          cp !(*.html) ./html/
+          find . -not -name "*.html" -d 1 -exec cp '{}' ./html/ \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
