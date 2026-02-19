@@ -33,9 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Includes history for MkDocs plugin
-          fetch-depth: 0
           
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -51,6 +48,7 @@ jobs:
       - name: Rename prefixed pages
         run: |
           sudo find ./html -depth -name "*_*" -execdir bash -c 'mv -- "$1" "${1//_/:}"' bash {} \;
+          sudo find ./html -name "*.html" -type f -exec sed -i -r "s/_(?=\S*?\.html\")/\:g" {} \;
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
