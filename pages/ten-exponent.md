@@ -1,0 +1,50 @@
+# The 10^( Command
+![TENPOWER.PNG](TENPOWER.PNG "")
+
+**Command Summary**
+
+Raises 10 to a power.
+
+**Command Syntax**
+
+10^(*value*)
+
+**Menu Location**
+
+Press [2nd] [10<sup>x</sup>] to paste 10^(.
+
+**Calculator Compatibility**
+
+TI-83/84/+/SE
+
+**Token Size**
+
+[1 byte](tokens.html)
+
+
+
+The `10^(` command raises 10 to a power. Since it's possible to just type out 1, 0, ^, and (, the reason for having a separate function isn't immediately obvious, but the command is occasionally useful.
+
+`10^(` accepts numbers and lists as arguments. It also works for complex numbers.
+
+```
+10^(2)
+     100
+10^({-1,0,1})
+     {0.1 1 10}
+```
+
+## Optimization
+
+Don't type `10^(` out, use this command instead. It's three bytes smaller and usually faster as well. However, keep in mind that you might be able to use the [`E`](e-ten.html) command instead of `10^(`, for constant values.
+
+## Command Timings
+
+The command `10^(` is faster than typing out `10^(` in most cases, except for small integer arguments. Even faster is [`E`](e-ten.html), but that only works for raising 10 to a constant power.
+
+
+## Related Commands
+
+- [`E`](e-ten.html)
+- [`log(`](log.html)
+- [`^`](power.html)

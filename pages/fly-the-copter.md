@@ -1,0 +1,61 @@
+# Fly The Copter
+Fly The Copter is a simple game where you have to navigate a scrolling tunnel for as long as possible, and you need to press 2nd to move the copter higher in the air, and don't press anything to lower the copter. [Smoothscrolling](movement.html) isn't very viable in pure TI-Basic, so the way this game works is that once your copter gets to a certain point on the screen, the next part of the tunnel will be redrawn and the copter will be redisplayed at the beginning of the tunnel. Like with the other games, try out the game and try to understand and think through the code.
+
+(NOTE: This game was created by Weregoose, and originally posted on the UTI forums.)
+
+
+
+### The Code
+
+```
+:FnOff
+:ClrHome
+:ClrDraw
+:GridOff
+:AxesOff
+:PlotsOff
+:0→Xmin:1→∆X
+:0→Ymin:1→∆Y
+:20→G
+:For(X,0,47
+:Vertical X
+:Line(X,Ans,X,Ans+G,0
+:Ans+randInt(-(Ans>2),Ans<53-G
+:End
+:Ans→X:-1→A
+:31→B:.2→F
+:For(θ,0,E9      // scientific E, not the variable E
+:Text(0,0,θ
+:If not(fPart(A/3
+:Pt-Off(C,D
+:Pt-On(A,B
+:A→C:B→D
+:getKey→E
+:F-.1+.3(Ans=21→F
+:B+Ans→B
+:(A+1)(A≠Xmax→A
+:G-.5not(Ans→G
+:A+47-95(A>47
+:Pt-On(Ans,X+randG,1+not(fPart(θ/32
+:Vertical Ans
+:Line(Ans,X,Ans,X+G,0
+:X+randInt(-(X>2),X<53-G→X
+:G-not(A→G
+:If E=105:Pause
+:If not(E=45 or pxl-Test(Ymax-round(B,0),A
+:End
+:For(C,1,9
+:Pt-Change(A,B
+:rand(20
+:End
+:ClrHome
+:ClrDraw
+:Disp "Distance:
+:Output(1,10,θ
+```
+
+### The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+- [Fly The Copter](http://tibasicdev.github.io/local--files/fly-the-copter/flythecopter.zip)

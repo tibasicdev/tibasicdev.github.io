@@ -1,0 +1,61 @@
+# Cross Compatibility
+Cross-compatibility is the practice of making sure that your program will work on any TI-68k calculator, not just the one you used to program it. There are three different areas that you need to consider for cross-compatibility:
+
+- Making sure that the program works on any calculator model (TI-89 through Voyage 200)
+- Making sure that the program works on any OS version
+- Making sure that the program is compatible with language localization
+
+### Calculator Compatibility
+
+The main difference between the different calculator models is the screen size. The TI-89 and TI-89 Titanium have a screen with 100 rows and 160 columns of pixels. The TI-92, TI-92 Plus, and Voyage 200 have a screen with 128 rows and 240 columns of pixels.
+
+Naturally, this poses a problem with graphics. If you program solely for the TI-89, the result will end up in a corner of the screen on the widescreen calculators. If you program for these, however, the result will cause domain errors on the TI-89.
+
+To avoid this, use the [getConfg()](68k:getconfg.html) command — this returns a list of useful things about the calculator (OS version, calculator ID, screen dimensions, amount of memory) that you can use to figure out which calculator you're on, and plan accordingly. Note, however, that there's a slight error in the output of getConfg(): it will tell you your window height (the part of the screen you can draw to) is 67 or 91 when it's actually 76 or 102. The best way to use getConfg(), then, is the following:
+
+```
+:Local is89,width,height
+:getConfg()[10]=160→is89
+:when(is89,158,238)→width
+:when(is89,76,102)→height
+```
+
+This uses the 10<sup>th</sup> part of getConfg()'s output, the screen width, to determine if the calculator is a TI-89. If it is, we set the variables width to 158 and height to 76; otherwise width is 238 and height is 102. These are the dimensions, in pixels, of the part of the screen you can draw to, which is what we're really interested in.
+
+Once we have that, there's a few things to do with the result:
+
+- depending on 'is89', use an entirely different set of graphics (looks best, but you'd have to keep twice the amount of pictures around)
+- depending on 'width' and 'height', show a wider or narrower view (this works well for [tilemaps](68k:sprites.html#toc7))
+- using 'width' and 'height', center the view (will be perfect on the TI-89, and will not look quite as horrible on widescreen calculators as it would otherwise)
+- using 'is89', determine the length at which to wrap text (for when you're not using graphics)
+
+There are a few more differences between the calculator models. On the widescreen calculators, [Toolbar](68k:toolbar.html) accepts pictures for a title — stay away from this feature if you want compatibility. Also, top menus and dialogs will use a different font on the widescreen calculators, so less text might actually fit. Keep the text short is my advice.
+
+### OS Version Compatibility
+
+If you check the [command index](68k:command-index.html) on this wiki, you'll see that some commands have a superscript next to them. This means that the command wasn't present on OS versions before the one indicated. If your program uses the command on an earlier version, it will lead to an error.
+
+Just as above, you can use [getConfg()](68k:getconfg.html) to figure out the OS version - specifically, getConfg()[4] will say something like "3.10, 07/18/2005." However, in many cases it's possible to avoid using the command entirely. For example, rather than using [isVar()](68k:isvar.html), you can check the same thing with [getType()](68k:gettype.html). 
+
+Some OS limits are harsher than others. It's the 3.xx OS version that you really have to watch out for. This is because it's only available for the TI-89 Titanium, or Voyage 200. While other OS versions can be upgraded to, a TI-89 user won't be able to use a command that requires, say, OS 3.10, even if he upgrades his calculator to the latest version (2.09) available for it.
+
+### Language Compatibility
+
+Finally, it's important to be compatible with other language versions (which you can change in the menu). Unlike other menu settings which your program can change and change back, this one is more complicated - not only does [setMode()](68k:setmode.html) ignore the setting, but some calculators don't even have the right language installed.
+
+Most of the language differences don't affect programmers. You may not have any idea what [GanzZahl()](68k:floor.html) means in German, but once your program is [tokenized](68k:tokenization.html), you don't have to: the commands are stored as codes that are the same in different languages, not as the letters that make them up.
+
+The only thing you have to worry about is commands that deal with constant strings: [getMode()](68k:getmode.html), [setMode()](68k:setmode.html), [setGraph()](68k:setgraph.html), and [setTable()](68k:settable.html) are good examples. If someone is using German language localization, setMode("Exact/Approx","AUTO") will not work, because the calculator is expecting the string "Exakt/Näherung" instead. 
+
+Fortunately, TI has built in a safeguard against precisely this problem. Rather than using the long text versions of these strings, you can use short codes such as setMode("14","1"). See the [Table of Mode Settings](68k:mode-settings.html) to get these codes. They're compatible with any language version — and they're shorter to type!
+
+There are a few problems you can't solve this way. For example, [nSolve()](68k:nsolve.html) will return "No solution found" if it doesn't find a solution, and since that string will be translated based on the language installed, you can't check for it directly very easily. This also applies to any code that is stored in a string and executed using [expr()](68k:expr.html), since it doesn't get tokenized.
+
+A possible solution to the first problem is to use [Try](68k:try.html)...EndTry blocks to catch the errors that result. For expr() strings, you can avoid putting actual commands in the string: rather than storing "floor(x)" in a string and then calling expr(), for instance, you can store floor(x) to a subroutine floor2(x), and then store "floor2(x)" to the string. The easiest solution, however, is to just avoid using such commands.
+
+<center>
+
+|**[<< Compression](68k:compression.html)**|**[Overview](68k:techniques-overview.html)**|**[Tokenization >>](68k:tokenization.html)**|
+| --- | --- | --- |
+
+</center>

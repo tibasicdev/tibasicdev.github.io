@@ -1,0 +1,27 @@
+![The Pt-Off( Command](pt-off/PT-OFF.gif "The Pt-Off( Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Turns off a point on the graph screen.|Pt-Off(X,Y[,*mark*])|TI-83/84/+/SE|1 byte|
+
+### Menu Location
+While editing a program press:<br># 2nd PRGM to enter the DRAW menu<br># RIGHT to enter the POINTS menu<br># 2 to choose Pt-Off(
+# The Pt-Off( Command
+
+The Pt-Off( command is used to turn off a point (a pixel on the screen) on the graph screen at the given (X,Y) coordinates. Pt-Off( is affected by the window settings, which means you have to change the window settings accordingly, otherwise the point won't show up correctly on the screen.
+
+## Advanced Uses
+
+The Pt-Off( command has an optional third argument that determines the shape of the point (its mark). The mark can be 1 (dot), 2 (3x3 box), 3 (3x3 cross), 6 (3x3 box), or 7 (3x3 cross). Note that by using the 3x3 shapes the X,Y coördinates will be the center of the shape and not the upperleft corner of the shape. You don't need to specify the mark when using the first mark because it is the default; also, any value that isn't 2, 3, 6, or 7 will be treated as the default of 1.
+
+```
+:Pt-Off(5,5,1
+Remove Mark
+:Pt-Off(5,5
+```
+
+## Related Commands
+
+- [Pt-On(](pt-on.html)
+- [Pt-Change(](pt-change.html)
+- [Pxl-Off(](pxl-off.html)

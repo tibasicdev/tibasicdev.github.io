@@ -1,0 +1,65 @@
+# Window and Finance Tokens
+The byte 0x63 signifies the beginning of a two-byte window or finance variable token. All valid such tokens are given below. Note that tokens like u(n-1) are kept for backwards compatibility with the TI-82 only; they will cause a syntax error if entered (which makes it unclear how exactly this exhibits "compatibility," but that's TI's official explanation)
+
+All token values here (and elsewhere in this guide) are in hexadecimal.
+
+- **63 00** — ZXscl
+- **63 01** — ZYscl
+- **63 02** — Xscl
+- **63 03** — Yscl
+- **63 04** — u(*n*Min)
+- **63 05** — v(*n*Min)
+- **63 06** — u(*n*-1)
+- **63 07** — v(*n*-1)
+- **63 08** — Zu(*n*Min)
+- **63 09** — Zv(*n*Min)
+- **63 0A** — Xmin
+- **63 0B** — Xmax
+- **63 0C** — Ymin
+- **63 0D** — Ymax
+- **63 0E** — Tmin
+- **63 0F** — Tmax
+
+- **63 10** — θmin
+- **63 11** — θmax
+- **63 12** — ZXmin
+- **63 13** — ZXmax
+- **63 14** — ZYmin
+- **63 15** — ZYmax
+- **63 16** — Zθmin
+- **63 17** — Zθmax
+- **63 18** — ZTmin
+- **63 19** — ZTmax
+- **63 1A** — TblStart
+- **63 1B** — PlotStart
+- **63 1C** — ZPlotStart
+- **63 1D** — *n*Max
+- **63 1E** — Z*n*Max
+- **63 1F** — *n*Min
+
+- **63 20** — Z*n*Min
+- **63 21** — ΔTbl
+- **63 22** — Tstep
+- **63 23** — θstep
+- **63 24** — ZTstep
+- **63 25** — Zθstep
+- **63 26** — ΔX
+- **63 27** — ΔY
+- **63 28** — XFact
+- **63 29** — YFact
+- **63 2A** — TblInput
+- **63 2B** — **N**
+- **63 2C** — I%
+- **63 2D** — PV
+- **63 2E** — PMT
+- **63 2F** — FV
+
+- **63 30** — P/Y
+- **63 31** — C/Y
+- **63 32** — w(*n*Min)
+- **63 33** — Zw(*n*Min)
+- **63 34** — PlotStep
+- **63 35** — ZPlotStep
+- **63 36** — Xres
+- **63 37** — ZXres
+- **63 38** — TraceStep

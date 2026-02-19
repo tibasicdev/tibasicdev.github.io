@@ -1,0 +1,40 @@
+# Number to String (Alternate)
+|Routine Summary|Inputs|Outputs|Variables Used|Download|
+|--- |--- |--- |--- |--- |
+|Converts a positive integer to a string.|*N* - the number you want to convert|*Str1* - the number N in string form|X, N, Ans, Str1|http://tibasicdev.github.io/local—files/number-to-string2/numbertostring2.zip numbertostring2.zip|
+
+```
+:"?
+:For(X,1,1+log(N+not(N
+:sub("0123456789",ipart(10fpart(N10^(-X)))+1,1)+Ans
+:End
+:sub(Ans,1,length(Ans)-1→Str1
+```
+
+Although there is another [number to string](number-to-string.html) routine available, it is somewhat difficult to understand, and also uses three additional variables (two lists and a function variable). This routine, on the other hand, is straightforward and doesn't leave any [cleanup](cleanup.html) afterwards.
+
+With our number stored in N, we loop through each digit of N and store the numeric character to our string that is at the matching position in our substring. You access the individual digit in the number by using iPart(10fPart(A/10^(X, and then locate where it is in the string "0123456789". The reason you need to add 1 and not(N) is so that it works with the 0 digit.
+
+In order to construct a string with all of the digits of the number, we first create a dummy string. This is what the "? is used for. Each time through the [For(](for.html) loop, we concatenate the string from before (which is still stored in the Ans variable) to the next numeric character that is found in N. Using [Ans](ans.html) allows us to not have to use another string variable, since Ans can act like a string and it gets updated accordingly, and Ans is also faster than a string variable.
+
+By the time we are done with the For( loop, all of our numeric characters are put together in Ans. However, because we stored a dummy character to the string initially, we now need to remove it, which we do by getting the substring from the first character to the second to last character of the string. Finally, we store the string to a more permanent variable (in this case, Str1) for future use.
+
+The way we get the number of digits in a number is by using the 1+int(log( trick. This trick works with any positive whole numbers, and if you add [abs(](abs.html) after log(, it will also work with negative numbers. Unfortunately, it does not work with decimals. Also note that we are looping through the digits backwards, and concatenate the previous digit to the next digit. This is done purely for optimization sake.
+
+## Reversed version
+
+When the string is being concatenated to one that already exists, this code can be optimized by decrementing the For loop rather than incrementing, and appending each character rather than prepending.
+
+```
+:[your string here]
+:For(X,1+int(log(N+not(N))),1,-1
+:Ans+sub("0123456789",1+int(10fpart(N/10^X)),1
+:End
+:Ans→Str1
+```
+
+## Related Routines
+
+- [Number to String](number-to-string.html)
+- [List to String](list-to-string.html)
+- [Matrix to String](matrix-to-string.html)

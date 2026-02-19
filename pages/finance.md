@@ -1,0 +1,40 @@
+# Finance
+A major feature of all TI-83 series calculators is their finance calculating capability. In addition to a TVM (Time Value of Money) solver, the calculator has several miscellaneous commands for finance calculations.
+
+## Locating the Finance Menu
+
+On the TI-83, the finance menu can be accessed by pressing 2nd FINANCE (the 2nd function of the *x*<sup>-1</sup> key). On the TI-83 Plus and higher, Flash applications were added, and as a result, the finance and matrix menus were moved around. On these calculators, you can access the finance menu by pressing APPS and selecting the first option, which will always be "Finance..." Despite its location, the finance menu is *not* an application (and even if you delete all applications, you can't get rid of it, because it's part of the operating system). However, some tools allow you to hide the finance entry in the application menu.
+
+In the finance menu itself, the first option is the interactive TVM Solver. The commands prefixed with "tvm_", the [Pmt_End](pmt_end.html) and [Pmt_Bgn](pmt_bgn.html) settings, and the VARS submenu are also used with this solver. The other commands add further finance functionality.
+
+## The TVM Solver
+
+The Time Value of Money Solver is used similarly to the [equation solver](solve.html) found in the math menu. You enter the values of the known variables, select the variable you want to solve for, and press ALPHA SOLVE to solve for it. The values you enter and solve for are also stored to the variables found in the VARS submenu. Their meanings are:
+- **N** is the number of payments.
+- I% is the interest percent (expressed as a number, not a decimal: 7% is written as 7, not 0.07)
+- PV is the present value of a sum of money.
+- PMT is the payment amount.
+- FV is the future value of the sum of money involved.
+- P/Y is the number of payments per year.
+- C/Y is the number of coupons per year.
+
+The Pmt setting at the bottom (which you can set in the TVM solver, or with the [Pmt_End](pmt_end.html) and [Pmt_Bgn](pmt_bgn.html) commands) determines whether payments are made at the beginning or end of a time period.
+
+In a program, you can use the [tvm_Pmt](tvm.html), [tvm_I%](tvm.html), [tvm_PV](tvm.html), [tvm_N](tvm.html), and [tvm_FV](tvm.html) commands to solve for the PMT, I%, PV, N, and FV variables respectively. You can enter them without arguments to use the values stored to the variables, or give them arguments to use those values instead.
+
+The finance variables also have a use in programming: they are faster to access than normal real variables (presumably, because they have a fixed address in memory). However, they cannot be as the indices in [For(](for.html) loops or [seq(](seq-list.html), or with [IS>(](is-.html) and [DS<(](ds-.html). Be aware that P/Y and C/Y are related, which means that when the value of P/Y is changed, the value of C/Y is updated as well.
+
+## Other Finance Commands
+
+The other finance commands are:
+
+- [npv(](npv.html)
+- [irr(](irr.html)
+- [bal(](bal.html)
+- [ΣPrn(](sigmaprn.html)
+- [ΣInt(](sigmaint.html)
+- [►Nom(](-nom.html)
+- [►Eff(](-eff.html)
+- [dbd(](dbd.html)
+
+The last of these, [dbd(](dbd.html), has a conceivable use outside the world of finance calculating, since it gives the number of days between two dates.

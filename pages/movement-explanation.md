@@ -1,0 +1,98 @@
+# Movement Explanation
+The code below allows you to move an X around on the [home screen](homescreen.html), within the boundaries of the four sides of the home screen. This is the same screen that you perform math on and execute programs from. You can end the program by pressing `2nd`.
+```
+:4→A
+:8→B
+:Repeat K=21
+:getKey→K
+:If Ans
+:Output(A,B," // 1 space
+:min(8,max(1,A+sum(ΔList(Ans={25,34→A
+:min(16,max(1,B+sum(ΔList(K={24,26→B
+:Output(A,Ans,"X
+:End
+```
+
+## Why This Works
+
+This code is a collaboration of many optimizations by many members of the ti-basic community.  The first lines have always been the same, just initializing the beginning coordinates as a starting point.  4 and 8 are used preferentially because these set the guy at the center.  You may use variables other than real ones such as lists, matrices, and strings, but the best way to program this specific example is to use real variables and [Ans](ans.html).  Those of you who are somewhat familiar with TI-Basic may have noticed that I have left off the [ClrHome](clrhome.html) command at the beginning of the program. This is for optimizational reasons, and in some cases ClrHome may not be necessary anyway.
+
+```
+:4→A:8→B
+```
+
+After initializing the variables, we then start the main program [loop](controlflow.html). The main program loop contains the primary code that will be repeated while the program is running. While we could have used any one of the three different loops that exist in TI-Basic for the main program loop (i.e. [While](while.html), [Repeat](repeat.html), or [For](for.html)), the Repeat loop was chosen because it always loops at least once. This allowed us to skip initializing the variable within the loop's condition. The loop condition will be explained later.
+
+```
+:Repeat K=21
+```
+
+Next we read the keypresses of the user with the getKey command. This information is stored into a variable because it is useful to determine when the main program loop should end and to move the X character around the screen. I have chosen the K real variable because 'K' is the first letter of keypress, so it makes it easy to remember what the variable is being used for.  While this is primarily just a personal preference, it is good to consistently use the same variables for the same purposes in a program. It's not that important in this program because it is small, but it is definitely important in large programs. After programming for a while, you will begin to develop a habit for which variables you use. Just remember to be consistent.
+
+For some reason, people used to put an extra loop condition around the getKey.  We no longer do that because we check if there was a keypress near the output command.
+
+```
+:getKey→K
+```
+
+We then check for the keypress value.  The Ans variable assumes the value of the last variable the calculator stored, and because the variable was on the line above, we can use the Ans variable instead of K.
+You might be asking why we even need a conditional there. Couldn't we just have the getKey command by itself? Wouldn't that work just as well? While the program would run the same way, the program would not look the same. The conditional is there to prevent flickering when no key has been pressed but the X is erased anyways.
+
+```
+:If Ans
+:Output(A,B," // 1 space
+```
+
+The next two lines are the most complicated, yet most important in the entire program. They are used for moving the coordinates of the X character around on the screen. Each of the two coordinate variables A and B is modified using a complicated routine based on the key that was pressed. 
+
+```
+:min(8,max(1,A+sum(ΔList(Ans={25,34→A
+:min(16,max(1,B+sum(ΔList(K={24,26→B
+```
+
+Now, you are probably wondering why we just didn't use four separate [If](if.html) conditionals instead of combining them into two large math expressions? Why does it need to be so complicated? The reason is that using four If conditionals would slow down the program considerably, and the code would be much larger.  If you're not convinced that the piecewise expressions eliminate the need for If conditionals in this program and/or that If conditionals would slow down the program, try using the four separate If conditionals and see the affect for yourself. As I want to drive home the point, I have provided the If conditionals code below for you to type into your calculator. Please do type it in and see for yourself because that's the way you learn and grow as a programmer.
+
+```
+:If K=25 and A>1:A-1→A
+:If K=34 and A<8:A+1→A
+:If K=24 and B>1:B-1→B
+:If K=26 and B<16:B+1→B
+```
+
+This is how this code works.  When you press a key, its value is stored to K.  We check to see if K equals one of the keys we pressed by comparing it to the lists {24,26 and {25,34.  This results in a list {0,1}, {1,0}, or {0,0}. We then take the fancy command Δlist( to see whether to move up, down, left or right.  What Δlist( does is quite simple.  Δlist( subtracts the first element from the second in the previous list, and stores that as a new one element list, {1}, {-1}, or {0}.  We then turn the list into a real number by taking the sum of the one byte list.  This 1, -1, or 0 is added to A.
+
+After this, we compare A to 1, and take larger of the two, to make sure the coordinate isn't too low.  That number is compared to 8 or 16, to make sure the other coordinate isn't too high.  This number is stored as A or B, and thus we have our formula.
+
+After adjusting the two coordinate variables, we then display the X character at its new position on the screen. Since the Ans variable currently contains the B variable's value, we can use Ans instead of B for displaying the column.  It is completely preferential whether you do this, but developing optimizational habits is good for when you make larger programs and speed really matters. It is left in to show what the optimized version of the program looks like.
+
+```
+:Output(A,Ans,"X
+```
+
+
+Finally, we close the main program loop with an End command. The condition in the loop is tested when the program reaches the End command, so the program will now check the K variable to see if the user has pressed `2nd`.
+
+```
+:End
+```
+
+And thus we have the full movement code.
+
+## Graph Screen
+
+The differences here are that we need to start by setting up window coordinates, which can be found [here](friendly-window.html), we need to change the start points and limits of the variables to the appropriate X,Y coordinates, and the display routine is able to use only one line function do to its optional fifth argument.  This argument determines whether to turn off pixels or turn them on.  We manipulate this fact by checking if K has been pressed algebraically. Here is the full code.
+
+```
+:Zstandard
+:104→Xmax
+:72→Ymax
+:Zinteger
+:1→A
+:1→B
+:Repeat K=21
+:getKey→K
+:Line(A,B,A,B,not(K
+:min(94,max(0,A+sum(ΔList(K={24,26→A
+:min(62,max(0,B+sum(ΔList(K={34,25→B
+:End
+```

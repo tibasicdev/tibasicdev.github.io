@@ -1,0 +1,33 @@
+# Math One Liners
+This page is dedicated to showcase small snippets of code that may be useful. These small routines are designed to accomplish tasks involving mathematics. Unless specified, output is in Ans.
+
+------
+**Primality of Positive Integer** – ; 
+
+This routine works for 3≤X<10<sup>6</sup> and returns 0 if X is composite, and 1 if X is prime.
+If used in an If statement or place where the true value does not matter, you can remove the 0≠.
+```
+min(remainder(X,seq(A,A,2,1+√(X
+[[/code]] This code can be modified to be faster if X is already known to be odd.
+[[code]]
+min(remainder(X,seq(A,A,3,1+√(X),2
+[[/code]] The following code is faster for large or even X, and works for all 0≤X<3.99*10^^6^^.
+[[code]]
+min(X={2,3,5
+If X≥7 and fPart(.5X
+min(remainder(X,3+2cumSum(not(binompdf(int(.5√(X)),0
+```
+
+**Euler's Totient Function Φ(n)** – 
+
+This routine calculates the value of [Euler's Totient Function](http://en.wikipedia.org/wiki/euler-27s_totient_function) for any integer X>3.
+```
+2+sum(seq(gcd(X,A)=1,A,2,X-2
+```
+
+**Number of Factors** – 
+
+This routine calculates the number of factors for any integer X>2. A factor is any integer can divide X with no remainder (including 1 and X).
+```
+2+Xmean(seq(not(remainder(X,A),A,2,X-2
+```

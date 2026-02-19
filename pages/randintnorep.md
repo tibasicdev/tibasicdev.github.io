@@ -1,0 +1,62 @@
+![The randIntNoRep( Command](randintnorep/randIntNoRep.gif "The randIntNoRep( Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Used to create random lists|randIntNoRep(start,end)|OS 2.53MP and TI-84+/SE|2 bytes (EF35h)|
+
+### Menu Location
+[Math][left][8]
+# The randIntNoRep( Command
+randIntNoRep( is used when you need to create a list of numbers in random order in which no integer is repeated.  This command is useful for things such as simulating decks of cards. Commonly, before this command was introduced, the following code would shuffle a deck:
+```
+rand(52→L₂
+seq(X,X,0,51→L₁
+SortA(L₂,L₁
+```
+This result can now be achieved with the following code:
+```
+randIntNoRep(0,51→L₁
+```
+
+
+## Advanced Uses
+*seed*→rand affects the output of randIntNoRep(
+
+What this does is quite simple. When you seed rand, then the next time you use randIntNoRep(, you will get a result that will be fairly random, but the same on all calculators. This allows several things to be possible, including password protection and encryption. For example, if you were to use the following code, you could encrypt and decrypt messages only if you use the same encryption value. In this example, Str1 contains the message:
+
+Decode:
+```
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ .!,0123456789→Str2
+Input "CODE:",A
+A→rand
+randIntNoRep(1,length(Str2→L1
+length(Str1→B
+".
+For(A,1,B
+Ans+sub(Str2,sum(cumSum(L1=inString(Str2,sub(Str1,A,1)))),1
+End
+sub(Ans,2,B
+```
+Encode:
+```
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ .!,0123456789→Str2
+Input "CODE:",A
+A→rand
+length(Str2→C
+randIntNoRep(1,Ans→L1
+length(Str1→B
+".
+For(A,1,B
+Ans+sub(Str2,L1(C+1-inString(Str2,sub(Str1,A,1))),1
+End
+sub(Ans,2,B
+```
+The output strings are in Ans
+
+## Related Commands
+
+- [rand](rand.html)
+- [randBin(](randbin.html)
+- [randNorm(](randnorm.html)
+- [randM(](randm.html)
+- [randInt(](randint.html)

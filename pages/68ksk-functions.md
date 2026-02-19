@@ -1,0 +1,24 @@
+# Functions in 68k Basic
+## Introduction
+The 68k series can easily make an accurate distinction between programs and/or functions. Functions are just like programs except that they do not allow statements with side effects (such as Input or "Disp," or allow editing of non-local variables), and they return a single value, which in the absence of an explicit Return statement is the last expression evaluated in the system. 
+
+Moreover, the 68k version of TI-BASIC allows creating user-defined functions. Functions have the same syntax as programs except that they use the "Func...EndFunc" keywords instead of "Prgm...EndPrgm," and that they are not allowed to use instructions that perform I/O, modify non-local variables, nor call programs. However, functions can still be non-pure because they can call built-in functions such as "getTime(), getKey(), or rand()."
+
+Lastly, all functions have a return value, which in the absence of an explicit Return statement is the last expression evaluated.
+
+## Functions Program Example
+
+
+fact(x)
+:Func
+:If x=0
+:Return 1
+:If x<0
+:Return undef
+:x*fact(x-1)
+:EndFunc
+
+
+[[bibliography]]
+: Wikipedia : https://en.wikipedia.org/wiki/TI-BASIC
+[[/bibliography]]

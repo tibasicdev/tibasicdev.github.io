@@ -1,0 +1,98 @@
+# Debugging Programs
+|**This article is part of the revising stage of the [development](development.html) cycle.**|
+| --- |
+
+Going through the process of debugging your programs may seem like a lot of unnecessary work, but it is better that you find and correct the errors then having the user of your program tell you that your program doesn't work. On this page, we've tried to simplify debugging for you by breaking it down into general steps that you can follow. Just remember to always strive for bug-free programs.
+
+
+
+## Backup & Document
+
+Before debugging, make a backup of your program. This is to ensure that you don't lose your program in its current form. During the debugging process it is easy to mess up your program, overwriting or deleting necessary pieces of code. If you just spent several hours working on your program, you don't want to have all of that work wasted.
+
+You should also backup your program before changing anything. This is so you will have a version of your program that you can return to if you mess up your program while doing further debugging. Instead of having to undo any coding mistakes that you made, you can just go back to the last updated version of your program.
+
+You also want to document your program and the variables you use. This is important because it makes it easier to come back to the program in the future (if you need to). Documenting a program entails listing what the program does, how it does it, and anything else that might be important. For documenting the variables, you should list out all of the variables, including what they are used for and what values they can have.
+
+## Simplify the Code
+
+You want to remove any code that is not related to the problem. If you are unsure of what code is related to the problem, look at what its function is. If the code is changing variables or controlling program flow, then it may be important to keep it. If it is just print statements or checking conditionals, you can probably remove it without it affecting the code.
+
+Once you have identified the code that contains the error, you will want to create a new program and put the code in it. If the error still exists, you will want to remove parts of the code, repeatedly testing the code afterwards each time. If the error disappears, you know that the last part of the code that you removed is what caused the error.
+
+One of the most common problems that programmers make when debugging their code is making lots of changes at once. This is usually not very effective because it can lead to other problems within the code or, if it results in removing some of the errors, you don't know which changes corrected the errors. It also tends to make the debugging process very unorganized because you will have to re-test parts of the code, and sometimes you won't even know which parts need to be re-tested. What you should do instead is fix each problem individually and then test the program. This will take you longer, but your program will have fewer errors and problems.
+
+This can further be improved upon by breaking the program up into modules, testing and debugging the individual modules separately from the main program. The advantage of testing the modules by themselves is that it is easier to find errors. Instead of having to look at the whole program, you can look at an isolated part. Once you have removed all of the errors in the module, you don't have to test it again. After going through all of the modules, you then just have to debug the main program that calls the modules.
+
+## Analyze The Error
+
+When you are trying to fix an error in your program, you will want to gather as much data about it as possible. To do this you should run your program several times, keeping track of when the error occurs, where it is happening, and what type of error it is.
+
+Once you think you have a solid grasp of the error, you will want to repeatedly test the code that contains the error. If you can consistently produce the error, you will know that you are on the right track to fixing it. If you can't produce the error, however, that means you need to do more extensive analysis.
+
+One of the most effective ways of debugging programs is to walk through the code. This involves sitting down with a printed version of the program, carefully going through its logic. Walking through the code will allow you to see potential solutions to the errors in your program.
+
+There's another way to figure out where your bugs start, especially with Lbl errors. Place equations such as 1/4 around the path of the problematic code. Make every equation different. When the game crashes or acts up, go to the home screen and recall Ans. Whatever number Ans shows you (for our example, it would be .25) is where the code goes awry. Go to that part of the code and run further testing.
+
+Once you have a potential solution, you will want to look at how it should work in the code, and then test it to see if it actually works like you believe. The more thorough you are at analyzing the solution, the easier it will be to tell if it will fix the error. Once you know that the solution will fix the problem, you can then apply it to your program.
+
+Looking at the variables and their values is essential when you are debugging. You will want to take note of how they gradually change throughout the program. If you know which part of the program contains the error, you can then check the variables that are used within that part. Make sure the variables contain values within their correct limits. If they don't, you need to go to the code before and after the error, and check the value of the variables. Make sure the variables are functioning properly, and that you aren't doing anything to change them.
+
+When writing code you will often make assumptions about it. You need to be aware of these assumptions when you are debugging, so you can make sure they are sound. If your program is not functioning properly, you should test all of your assumptions. One of the most common assumptions that programmers make is that the variables they are using are working properly. Most programmers will thoroughly debug their code, but they're not as thorough when debugging variables. Debugging can become very frustrating if you don't thoroughly debug both.
+
+## Debugging Tools
+
+When you first start debugging your programs, you will want to check to see that the errors you are getting aren't because of a misuse of a command or a misunderstanding of a command's arguments. You should consult the TI-83+ manual to see what the syntax of the command is and how to use it properly. Many errors that you recieve can easily be remedied if you just consult the manual. In fact, if you use the manual when you are programming your program, you can avoid a lot of the typos and superficial errors during debugging.
+
+The TI-Basic language has a rather useful feature for debugging programs: when it comes across an error while running your program, it will give you an error menu — telling you what the error is and giving you the option to see where the error is in your code. You will want to take the information that it gives you, and then see if you can figure out why it's producing an error.
+
+After the error occurs, you should recall some of your variable's values to see what they are. This might give you an indication of what the error is (if a variable is not in the range it's supposed to be), where in a For( loop you are (just recall the variable you used for the loop), and many other helpful hints.
+
+Many times you will make a simple mistake, such as forgetting to close a string or leaving an argument off of a command. You have to be careful, though, because sometimes the error that the calculator reports isn't the actual error in your code. You might have errors in your code that the calculator doesn't notice because it is still valid code, and it isn't until later that the errors cause problems. These errors are very hard to track down.
+
+Using print statements is one of the oldest and most tested methods for debugging programs. If you come upon a problem in your program, and you can't seem to figure out what's causing it, you should add several print statements throughout the code. When you run your program, you will be able to see what is actually happening. You can do this to see the code that the program is running or to see what values the variables have.
+
+If you don't like using print statements or you think they aren't effective enough, an alternative that you can try is inserting breakpoints (pause statements). Once you think you have identified the code that has the error, you can set breakpoints around it. After restarting the program, look at what happens to the code before and after the breakpoints. If this doesn't give you enough information about the error, you might need to use more breakpoints. The advantage of using breakpoints is that you can pause the execution of your program, allowing you to slowly look at the program and at what's causing the error. Two of the best places to put breakpoints are in program flow statements and inside loops.
+
+Changing the code to solve a problem is an effective way to debug programs. You go to where the problem is, and you start changing parts of the code. You can change whatever you want to, but you should have a general idea of how the code works. If you don't know your code very well, this can cause even more errors. You should also remember to make a backup of your code before you change anything.
+
+If changing the code doesn't help in solving the problem, you might want to try creating test code. Creating test code allows you to focus on the problem, making it easier to see and fix. You look at the code in your program that has the problem, and then you create a new program with similar code. You then experiment with that code, switching things around or adding code to it, looking at how it affects the operation of the code. You can also do this as a way to learn some of the more confusing aspects of the TI-Basic language.
+
+## Be Prepared For Setbacks
+
+After working on debugging a program for a prolonged period of time, with no progress and no new ideas on how to fix the error, you stop being able to effectively debug your program.
+
+One of the simplest remedies is to just take a break from debugging and do something else. Take a walk outside around the neighborhood or take a nap. Many times after taking a nap, you will suddenly get the answer to the problem in an epiphany. In addition, it is just a good rule to take frequent breaks from programming so that you don't get burned out so easily.
+
+Although it may seem like debugging your program will be a monumental task requiring lots of work, it is essential that you do it. If you are to release your program to the public, you don't want users complaining that it doesn't work correctly or that it contains errors.
+
+Another cause of feeling overwhelmed is if you are not very good at debugging. When you are just starting out, you will be able to fix the simple or obvious errors, but you will have a hard time tracking down some of the more complicated errors. The only way to get around this is by repeatedly debugging programs until you have figured out the errors for yourself. The more debugging you do, the better you become at it. It just takes practice.
+
+Often when you are debugging a program, and it seems like you just can't find the error in it, you will stop thinking logically and start thinking irrationally. Your only desire is to get the program to work correctly, so you decide that you will do that by whatever means necessary. If you still can't figure out the problem, you might start blaming the calculator or the TI-Basic language.
+
+While blaming the calculator or the TI-Basic language will provide you with temporary relief concerning the error in your program, you have to remember that they don't do any of the thinking. They just follow what your program says to do. You are the one that is responsible for the code that you produce.
+
+## Get Outside Help
+
+If you have tried everything that you know to do and you are still unable to fix the problem, you should now start looking for outside help. You should ask other programmers or go to programming forums. Either one of these should be able to help you with your problem.
+
+Asking other programmers for help is a good alternative to getting mad at yourself because you can't figure out the problem. Because you wrote the code, you may make assumptions or have biases when debugging it. You know the code so well that you can't be objective. When another programmer looks at it, though, they don't have any of those hang-ups. In addition, when you're explaining the problem to the other programmer, many times the solution will come to you. Asking the other programmer for help also benefits the other programmer because they improve their confidence debugging programs.
+
+If you asked another programmer for help and they could not find and fix the problem, you should then go to programming forums. The advantage of programming forums is that several programmers are working together, building off of each other's ideas. This is the ideal situation because the more people looking at the code, the greater the chance that the problem will be found and fixed.
+
+Here are some programming forums that you should go to if you ever need help with a problem:
+
+- [Maxcoderz](http://www.maxcoderz.org)
+- [Revsoft](http://revsoft.tifreakware.net/)
+- [Calcgames](http://www.calcgames.org)
+- [Cemetech](http://www.cemetech.net)
+- [Omnimaga](http://www.omnimaga.org)
+- [CodeWalrus](http://codewalr.us)
+
+
+<center>
+
+|**[<< Program Cleanup](cleanup.html)**|**[Overview](development.html)**|**[Optimization >>](optimize.html)**|
+| --- | --- | --- |
+
+</center>

@@ -1,0 +1,21 @@
+# How the Calculator Works
+This is how the calculator really works. The following is based on my knowledge of how computers work. Since the calculator at this point *is* a computer, I thought this knowledge of mine would come nicely. I will have analogies referring to computers, but that's to be expected in this article
+
+
+
+
+## On, Sleep, On, Sleep, On, Sleep...
+Yes, it's true. Your computer only turns off when it "crashes". Read on.
+
+### On for the Very First Time
+When you unpackage your new TI-84+ and turn it on, you're turning it on from a complete off state, as if you turn on your computer for the first time.
+
+### Off? Try Sleep
+Every single time you press the off button, you're actually suspending the calculator's activities. Basically, putting the calculator to sleep, like on a computer.
+In the old days of TI calculators, when calculators ran on AC power and required special "modules" in the back to work, when you turned off the calculator, it was off. Any programs you had written were lost, because they were in the RAM. Nowadays, the calculator just goes to sleep.
+
+### Crashed Calc!
+When your calc crashes, you are forced to turn it off, by taking out a battery. This is the same as your computer freezing up, and requiring you to hold down the power button for a few seconds. This is the only way you can force your calculator off, by causing it to crash. At this point, it says RAM Cleared like it is a scary thing, but it isn't.
+
+### Final Notes on Calculator RAM
+It seems funny that RAM on a TI-83 and RAM on a computer are viewed as two completely different things, when they are exactly the same. A program that is in the RAM on the calc is like an unsaved document on your computer. The RAM Cleared message you may get really says, "Your calculator turned off completely, and it cleared the RAM like your computer would if you turned it off." The RAM on your calc acts like any other RAM in computers.

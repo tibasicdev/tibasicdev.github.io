@@ -1,0 +1,189 @@
+# Tmp
+div.code {  counter-reset: linenumber; }
+div.code p {
+    counter-increment: linenumber;
+    margin: 0;
+}
+div.code p::before {
+    content: counter(linenumber);
+    width: 2.25em;
+    display: inline-block;
+    text-align: right;
+    border-right: 1px dashed #DDD;
+    padding-right: 3px;
+    margin-right: 6px;
+    -webkit-user-select: none;  /* Chrome/Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+}
+[[/module]]
+
+## CSS
+
+```css
+div.code {  counter-reset: linenumber; }
+div.code p {
+    counter-increment: linenumber;
+    margin: 0;
+}
+div.code p::before {
+    content: counter(linenumber);
+    width: 2.25em;
+    display: inline-block;
+    text-align: right;
+    border-right: 1px dashed #DDD;
+    padding-right: 3px;
+    margin-right: 6px;
+    -webkit-user-select: none;  /* Chrome/Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */ 
+}
+```
+
+## Correct Format
+
+
+:Full
+
+:FnOff
+
+:AxesOff
+
+:0→Xmin:1→ΔX
+
+:0→Ymin:1→ΔY
+
+:ClrDraw
+
+:Vertical Xmin
+
+:Vertical Xmax
+
+:Horizontal Ymin
+
+:Horizontal Ymax
+
+:60→A:92→B
+
+:2→C:2→D:25→G
+
+:Pxl-On(A,B
+
+:Pxl-On(C,D
+
+:Text(-1,28,31,"READY?
+
+:Pause
+
+:For(E,26,36
+
+:Line(29,E,67,E,0
+
+:End
+
+:Repeat G=45 or not(pxl-Test(A,B) and pxl-Test(C,D
+
+:getKey
+
+:If Ans
+
+:Ans→G
+
+:A+(G=34)-(G=25→A
+
+:B+(G=26)-(G=24→B
+
+:1+pxl-Test(C+1,D
+
+:Ans+(Ans=2 and pxl-Test(C,D-1
+
+:Ans+(Ans=3 and pxl-Test(C-1,D→F
+
+:C+(Ans=1)-(Ans=3→C
+
+:D+(F=4)-(F=2→D
+
+:Pxl-Change(A,B
+
+:Pxl-Change(C,D
+
+:End
+
+
+## Incorrect Format
+
+
+:Full
+:FnOff
+:AxesOff
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:ClrDraw
+:Vertical Xmin
+:Vertical Xmax
+:Horizontal Ymin
+:Horizontal Ymax
+:60→A:92→B
+:2→C:2→D:25→G
+:Pxl-On(A,B
+:Pxl-On(C,D
+:Text(-1,28,31,"READY?
+:Pause
+:For(E,26,36
+:Line(29,E,67,E,0
+:End
+:Repeat G=45 or not(pxl-Test(A,B) and pxl-Test(C,D
+:getKey
+:If Ans
+:Ans→G
+:A+(G=34)-(G=25→A
+:B+(G=26)-(G=24→B
+:1+pxl-Test(C+1,D
+:Ans+(Ans=2 and pxl-Test(C,D-1
+:Ans+(Ans=3 and pxl-Test(C-1,D→F
+:C+(Ans=1)-(Ans=3→C
+:D+(F=4)-(F=2→D
+:Pxl-Change(A,B
+:Pxl-Change(C,D
+:End
+
+
+## Code Block
+
+```
+:Full
+:FnOff
+:AxesOff
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:ClrDraw
+:Vertical Xmin
+:Vertical Xmax
+:Horizontal Ymin
+:Horizontal Ymax
+:60→A:92→B
+:2→C:2→D:25→G
+:Pxl-On(A,B
+:Pxl-On(C,D
+:Text(-1,28,31,"READY?
+:Pause
+:For(E,26,36
+:Line(29,E,67,E,0
+:End
+:Repeat G=45 or not(pxl-Test(A,B) and pxl-Test(C,D
+:getKey
+:If Ans
+:Ans→G
+:A+(G=34)-(G=25→A
+:B+(G=26)-(G=24→B
+:1+pxl-Test(C+1,D
+:Ans+(Ans=2 and pxl-Test(C,D-1
+:Ans+(Ans=3 and pxl-Test(C-1,D→F
+:C+(Ans=1)-(Ans=3→C
+:D+(F=4)-(F=2→D
+:Pxl-Change(A,B
+:Pxl-Change(C,D
+:End
+```

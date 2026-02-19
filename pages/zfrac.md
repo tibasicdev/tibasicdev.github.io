@@ -1,0 +1,28 @@
+![The ZFracX Command](zfrac/ "The ZFracX Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Scales window settings relative to pixel length and height|ZFrac*X*|OS 2.53MP+|2 bytes|
+
+### Menu Location
+[Zoom][Alpha][Apps]
+# The ZFracX Command
+
+ZFrac*X* refers to a collection of Zoom commands in for the OS 2.53MP and up.  The calculator boasts six such commands, each replacing *X* with a fraction of some sort.  The commands all essentially operate in the same manner, so they are all covered here on this page.
+
+This command centers the origin of the graph and makes each pixel *X* units tall and wide where "*X*" refers to the suffix of the command. For example, ZFrac1/3 makes each pixel a length of and height of 1/3, which means that each square unit would be a 3x3 square of pixels. It also sets Xscale and Yscale to 1.
+
+It is useful when the users wants each pixel to be a uniform length and height, though other commands such as [ZSquare](zsquare.html), [ZDecimal](zdecimal.html), and [ZInteger](zinteger.html) also create a [friendly window](friendly-window.html), and being more compatible, they would be more useful in programming across calculators.
+
+The following is a list of the available ZFrac*X* commands:
+- ZFrac1/2
+- ZFrac1/3
+- ZFrac1/4
+- ZFrac1/5
+- ZFrac1/8
+- ZFrac1/10
+
+## Related Commands
+
+- [ZSquare](zsquare.html)
+- [ZDecimal](zdecimal.html)

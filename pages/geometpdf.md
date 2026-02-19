@@ -1,0 +1,45 @@
+![The geometpdf( Command](geometpdf/GEOMETPDF.GIF "The geometpdf( Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Calculates the geometric probability for a single value|geometpdf(*probability*, *trials*)|TI-83/84/+/SE/CSE/CE|2 bytes|
+
+### Menu Location
+Press:<br># 2ND DISTR to access the distribution menu<br># ALPHA D to select geometpdf(, or use arrows.<br>Press ALPHA E instead of ALPHA D on a TI-84+/SE with OS 2.30 or higher.
+# The geometpdf( Command
+
+This command is used to calculate geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
+1. A specific event has only two outcomes, which we will call "success" and "failure"
+1. The event is going to keep happening until a success occurs
+1. Success or failure is determined randomly with the same probability of success each time the event occurs
+1. We're interested in the probability that it takes a specific amount of trials to get a success.
+
+For example, consider a basketball player that always makes a shot with 1/3 probability. He will keep throwing the ball until he makes a shot. What is the probability that it takes him 3 shots?
+
+1. The event here is throwing the ball. A "success", obviously, is making the shot, and a "failure" is missing.
+1. The event is going to happen until he makes the shot: a success.
+1. The probability of a success - making a shot - is 1/3
+1. We're interested in the probability that it takes 3 trials to get a success
+ 
+The syntax here is `geometpdf(*probability*, *trials*)`. In this case:
+```
+:geometpdf(1/3,3
+```
+This will give about .148 when you run it, so there's a .148 probability that it will take him 3 shots until he makes one (he'll make it on the 3rd try).
+
+## Formulas
+
+The value of `geometpdf(` is given by the formula
+
+$$
+\operatorname{geometpdf}(p,n) = p(1-p)^{n-1}$$
+
+This formula can be intuitively understood: the probability that the first success is the nth trial is the probability of getting a success - $p$ - times the probability of missing it the first n-1 times - $(1-p)^{n-1}$.
+
+For the trivial value of n=0, however, the above formula gives the incorrect value of 1. It should actually be 0, since the first success can never be the 0th trial. However, since you're not likely to ever be interested in this probability, this drawback doesn't really matter.
+
+## Related Commands
+
+- [`binompdf(`](binompdf.html)
+- [`binomcdf(`](binomcdf.html)
+- [`geometcdf(`](geometcdf.html)

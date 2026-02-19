@@ -1,0 +1,73 @@
+![The 2-SampTInt Command](2-samptint/2-SAMPTINT.GIF "The 2-SampTInt Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Using either already-calculated statistics, or two data sets, computes a T confidence interval for the difference between two sample means.|2-SampTInt *list1*, *list2*, [*frequency1*], [*frequency2*], [*confidence level*, *pooled*]<br>(data list input)<br><br>2-SampTInt *x<sub>1</sub>*, *s<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*confidence level*, *pooled*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
+
+### Menu Location
+When editing a program, press:<br># STAT to access the statistics menu<br># LEFT to access the TESTS submenu<br># 0 to select 2-SampTInt, or use arrows<br>(this key sequence will give you the 2-SampTInt... screen outside a program)
+# The 2-SampTInt Command
+
+The 2-SampTInt command uses the techniques of T Intervals to compute an interval for the **difference** between the means of two independent populations, at a specified confidence level. Use 2-SampTInt( when you have two independent variables to compare, and you don't know their standard deviations. The 2-SampTInt command assumes that both your variables are normally distributed, but it will work for other distributions if the sample size is large enough.
+
+There are two ways to call this command: by supplying it with needed sample statistics (mean, standard deviation, and sample size, for both data sets), or by entering two lists and letting the calculator work the statistics out. In either case, you will need to enter the desired confidence level as well. 
+
+In the summary stats syntax, *x<sub>1</sub>* and *x<sub>2</sub>* the two sample means, *s<sub>1</sub>* and *s<sub>2</sub>* are the two sample standard deviations, and *n<sub>1</sub>* and *n<sub>2</sub>* the two sample sizes.
+
+The output will contain an open interval (a, b) that is your answer: the difference between the two means will lie in this interval. Specifically, it is the second mean subtracted from the first - μ<sub>1</sub>-μ<sub>2</sub>. If you're interested in the reverse difference, just flip the signs on the interval.
+
+Tip: don't use this command in a matched-pairs setting when you can match the two samples up by units or subjects. Instead, take the difference between the two samples in each matched pair, and use a regular [TInterval](tinterval.html).
+
+## Sample Problem
+
+You want to compare the average height of a freshman and a senior at your school. You haven't asked everyone, but you took a random sample of 40 people from each class and found out their heights (and stored them to L<sub>1</sub> and L<sub>2</sub>). You've decided to use a 95% confidence interval.
+
+Based on the data list syntax for a 2-SampTInt, here is your code:
+```
+:2-SampTInt L1,L2,95
+you can also use
+:2-SampTInt L1,L2,.95
+```
+
+Alternatively, you could calculate the mean and sample size and enter those instead. The sample size in this case is 40 for both data sets; let's say the means were 57 inches and 67 inches and the standard deviations 5.2 and 7.1 inches. You now have all the needed statistics:
+- *x<sub>1</sub>* is the mean height of freshmen: 57 inches
+- *s<sub>1</sub>* is the sample standard deviation for freshmen: 5.2 inches
+- *n<sub>1</sub>* is the number of freshmen in the sample: 40
+- *x<sub>2</sub>* is the mean height of seniors: 67 inches
+- *s<sub>2</sub>* is the sample standard deviation for seniors: 7.1 inches
+- *n<sub>2</sub>* is the number of seniors in the sample: 40
+This means that the code is:
+```
+:2-SampTInt 57,5.2,40,67,7.1,40,95
+you can also use
+:2-SampTInt 57,5.2,40,67,7.1,40,.95
+```
+
+Of course, the main use of the 2-SampTInt command is in a program. While you can enter the command on the home screen as well (just look in the catalog for it), it would probably be easier to select 2-SampTInt... from the STAT>TEST menu (see the sidebar), since you don't have to remember the syntax.
+
+## Advanced Uses
+
+As with most other statistical commands, you can add frequencies to the lists (only with the data list syntax, of course); if you do, both lists must have frequencies, and the arguments go in the order *first data list*, *second data list*, *first freq. list*, *second freq. list*. Each frequency list must contain non-negative real numbers, which can't be all 0.
+
+There is a final argument to 2-SampTInt: *pooled*. It can be either 0 or 1 (although any argument that isn't 0 will get treated as a 1); the default value is 0. If the value is 1, then then the variances will be pooled: that is, the calculator will assume that the variances of the two populations are equal, and use a combined form of the two standard deviations in place of each population's individual standard deviation. Set this flag if you have reason to believe that the standard deviations are equal.
+
+## Optimization
+
+Using the data list syntax, all items are optional: the calculator will assume you want to use L1 and L2 for your data unless other lists are supplied, and that the confidence level you want is 95% unless you give another one. Using the summary stats syntax, the confidence level is also optional - again, the calculator will assume 95%. This means we can rewrite our code above in a simpler manner:
+
+```
+:2-SampTInt L1,L2,95
+can be
+:2-SampTInt
+```
+```
+:2-SampTInt 57,5.2,40,67,7.1,40,95
+can be
+:2-SampTInt 57,5.2,40,67,7.1,40
+```
+
+## Related Commands
+
+- [TInterval](tinterval.html)
+- [ZInterval](zinterval.html)
+- [2-SampZInt(](2-sampzint.html)

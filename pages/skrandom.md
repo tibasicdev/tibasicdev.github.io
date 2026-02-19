@@ -1,0 +1,139 @@
+# Random Numbers
+Random Numbers provide the essence of most games. They keep that element of chance alive. You cannot substitute for random numbers without someone who plays the game over and over again to figure out a pattern. Below we will start a discussion of random numbers.
+
+
+## The Commands
+
+### rand
+The [rand](rand.html) command generates a random number between 0 and 1. It will display a decimal number longer than you can care for. It requires no arguments.
+BUT WAIT! There is a secret function to rand. First we must tell you something: the calculator doesn't produce random numbers. It's true. Calculators use pseudorandom number generators. It uses a complex formula to create the "random" numbers, mainly by a processing cycle. The secret to the random numbers is something called the seed. The seed is a number that is used to determine these random numbers. It is the starting number used, and an algorithm is used to generate pseudorandom numbers. One example method is the middle-square method, which starts with the seed, squares the number, and takes the half of that number, and repeats the cycle to generate numbers. More information about random vs. pseudorandom numbers can be found in this Khan Academy video: https://www.youtube.com/watch?t=59&v=GtOt7EBNEwQ
+
+The secret function to rand, is that you can set the seed using:
+```
+:x→rand
+```
+where x equals the number. Set the seed to 1 on two different calculators and they put out the same sequence of numbers.
+
+Here's a trick. To set the seed to a random number, use this code:
+```
+:rand→X
+:X→rand
+```
+
+rand can also be multiplied in order to get larger numbers. Just put a coefficient before rand. Also, you can generate a [list](list.html) of random numbers by doing this:
+```
+:rand(x)
+```
+This will generate a random list with *x* number of elements.
+
+### randBin(
+This command randBin(*numtrials,prob*) requires two arguments. *numbtrials* specifies the number of trials, and prob requires a number between 0 and 1.
+The manual's definition is this:
+*Generates and displays a random real number from a specified Binomial distribution.*
+
+### randInt(
+Ah, yes, this one. It's the most common random number command. It requires two arguments, both very simple.
+The command is randInt(*lower, upper*). *Lower* specifies the minimum number possible. *Upper* specifies the maximum possible. For example, randInt(1,10) will generate a whole number between 1 and 10.
+Here is a simple program that uses randInt(
+```
+:ClrHome
+:Disp "Think of your"
+:Disp "question and"
+:Disp "press enter."
+:Pause
+:randInt(0,2)→X
+:"Maybe"
+:If X=1
+:"Yes"
+:If not(X)
+:"No"
+:Disp Ans
+```
+
+In this program, the user thinks of a question that he or she would ask a magic eight ball. It calculates a random integer between 0 and 2 (0, 1, or 2). It makes "Maybe" the default answer. The program then tests the random number under the conditions to make the string, "Maybe", change to "Yes", "No", or remain the same.
+
+### randM(
+This may be not as well-known as the others. This command will generate a random matrix. The command syntax is randM(*rows,columns*). *Rows* stands for the number of rows in the matrix, *columns* for the number of columns. The numbers in the matrix are the random part.
+
+### randNorm(
+
+This command will generate a number, with given randNorm(*µ,σ*), within the range *µ*±3*σ*. The command uses a normal distribution based on the 68-95-99.7 empirical rule. When the third argument is given, it will generate a list of that many elements.
+
+## Putting it Together
+Let's make a program that will use the random commands. The program will be a game where it is you against the computer. You take turns where one player thinks of a number between 1 and 10, and the other player must guess as close as possible. The AI will use random numbers as his guess.
+```
+:rand→X
+:X→rand
+:ClrHome
+:SetUpEditior L₁
+:{30,30}→L₁
+:Delvar A
+:Repeat L₁(A)<0
+:A(A≠2)+1→A
+```
+Okay, first we reset the seed. Then, we set up the game by storing each player's health into a list and deleting A, the turn. The loop starts and is set to end when a player's health reaches below zero. The next thing that happens is that the player number turn switches between 1 and 2, with human being 2 and AI being 1.
+```
+:If A=2
+:Then
+:Repeat N>0 and N≤10
+:Input "Your Number?_",N
+:int(N)→N
+:End
+:randBin(10,N/10)
+:End
+```
+This is what happens when it is your turn. You must input a number where the calculator makes sure your number isn't less than 1 or greater than 10. It also ensures an integer number. The calculator uses a formulated guess which gives it a higher probability of guessing right (I know... cheap).
+```
+:If A=1
+:Then
+:Input "Guess?_",N
+:abs(int(N))→N
+:randInt(1,10)
+:End
+```
+This is what happens when it is the calculator's turn. The calculator first randomly chooses a number, and then you are asked to give a guess. The calculator will not check for boundaries, but it will check for decimals.
+```
+:ClrHome
+:L₁(A)-abs(N-Ans)→L₁(A)
+:End
+:ClrHome
+:"You"+sub("Win!Lose",3(L₁(1)<0)+1,4)
+```
+This is the final part of the code where it takes the difference of the guesses and subtracts that from the turn player's opponent. When the game ends, it displays a message at the end.
+```
+:rand→X
+:X→rand
+:ClrHome
+:SetUpEditior L₁
+:{30,30}→L₁
+:Delvar A
+:Repeat L₁(A)<0
+:A(A≠2)+1→A
+:If A=2
+:Then
+:Repeat N>0 and N≤10
+:Input "Your Number?_",N
+:int(N)→N
+:End
+:randBin(10,N/10)
+:End
+:If A=1
+:Then
+:Input "Guess?_",N
+:abs(int(N))→N
+:randInt(1,10)
+:End
+:ClrHome
+:L₁(A)-abs(N-Ans)→L₁(A)
+:End
+:ClrHome
+:"You"+sub("Win!Lose",3(L₁(1)<0)+1,4)
+```
+That sums up random numbers, and the last section of this chapter. We hope you learned a lot.
+
+<center>
+
+|**[<< Data Types (strings)](sk:strings.html)**|**[Table of Contents](starter-kit.html)**|**[Summary >>](sk:summary-games.html)**|
+| --- | --- | --- |
+
+</center>

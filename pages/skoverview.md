@@ -1,0 +1,102 @@
+# Overview of TI-Basic
+TI-Basic features are fairly extensive set of commands and functionality, which allows you to do almost anything you want. This tutorial provides a brief overview of some of these things, along with links to further documentation available elsewhere on the wiki.
+
+## Basic Syntax
+
+A TI-Basic program consists of one or more statements, which can be commands, functions, or combination thereof. However, there are some general rules that you need to follow concerning syntax when using statements:
+
+While a command or function looks like it just made up of individual characters that you can type in, it is in fact a token that must be obtained in the appropriate menu or by pressing a key on the calculator. Using tokens allows the calculator to quickly lookup a command or function, rather than having to compile it together before you can use it.
+
+Each statement gets placed on its own line, which starts with a colon. The calculator automatically puts a colon at the beginning of the line, which cannot be edited. If you delete the line, however, the colon gets deleted as well. In addition to the built-in colons, you can artificially put multiple statements on the same line by separating each one with a colon. The calculator treats each of these statements as being on their own line.
+
+There is no built-in support for comments, although you can make your own by using strings. If you place a string of text inside a double quote on its own line, the calculator will simply read through this and not do anything with it. The calculator does not allow you to put quotes or the store arrow inside a string because those are used for indicating the beginning and end of the string.
+
+Whitespace is not allowed between the arguments of a command or function, and will cause an error if you try to put it there. However, if you have whitespace inside a string, the space is preserved by the calculator, and will impact how the string appears on the screen or gets used in the program. In addition, blank lines in a program are perfectly legal, although they do take up space.
+
+You can omit the closing parenthesis, quote, square bracket, curly brace, etc. at the end of a command or function. Each of these things take up space, and will impact the size of a program. However, if you have a complex expression involving lots of math, or you have multiple commands on one line, then you should keep them.
+
+(for more information, see [Tokens and Token Size](tokens.html), [Code Conventions](code-conventions.html), and [Commenting Your Code](comments.html))
+
+## Variable Types
+
+TI-Basic has four main built-in variable types: numerics, lists, matrices, and strings. Unlike other programming languages, TI-Basic does not allow you to create your own variables (with the exception of custom lists), and all of the variables are available globally across the calculator. You can use the variables inside functions and commands, and even combine several of them together to make new variables.
+
+**Numerics**
+
+A numeric represents a single number value, such as -5 or 2683.45, and there are 27 numeric variables (A-Z and theta). A value can be either real or complex (meaning it is an imaginary number), and the calculator represents each number as a floating point, with 14 decimal positions stored (although only 10 are accessible).
+
+```
+:5→A
+```
+
+**Lists**
+
+A list represents a collection of expressions, consisting of numbers and/or numeric variables, stored together as one variable. There are six built-in list variables (L1,...,L6). You can also make your own custom list by using the little L character. When you construct a list, you need to put an opening curly brace, and then separate each value with a comma. You can have up to 999 values in a list.
+
+```
+:{1,B,2,C→L1
+```
+
+**Matrices**
+
+A matrix represents a collection of expressions, consisting of numbers and/or numeric variables, stored together as one two-dimensional (row x column) variable. There are ten built-in matrix variables ([A],...[J]). When you construct a matrix, you need to put an opening square bracket, place an opening and closing bracket around each row, and separate each value with a comma. You can have up to 99x99 in a matrix.
+
+```
+:[[1,2,3][4,5,6→[A]
+```
+
+**Strings**
+
+A string represents a sequence of characters, consisting of letters, numbers, symbols, commands, and functions, stored together as one variable. There are ten built-in string variables (Str1,...,Str0). When you construct a string, you need to put an opening double quote, and then list the characters one after another. A string's size is limited only by the amount of free RAM available.
+
+```
+:"ABC DEF 123→Str1
+```
+
+(for more information, see [Variable Types](variables.html))
+
+## Program Flow
+
+TI-Basic has the majority of the standard conditional and looping structures that you find in other programming languages. A condition can be almost anything, including values, variables, or a combination thereof. Because of the way that TI-Basic interprets expressions, a condition is true if its value is one or non-zero, and false if its value is zero.
+
+**Conditionals**
+
+The simplest conditional involves just using the If command. You usually only use this when you just have one command or statement that you want to be executed. If you have two or more statements that you want executed when the conditional is true, you need to add a Then and End command to the If statement. The Then goes on the line right after the If command, and the End command goes after all of the statements that you want executed.
+
+The most complicated conditional is when you want to execute certain statements if the condition is true, and other statements if the condition is false. The conditional looks essentially the same as the multi-line conditional, with the only difference being that you insert an Else command in between the true and false statements.
+
+```
+:If A=2:Then
+:Disp "A was 2
+:A→B
+:End
+```
+
+**Loops**
+
+There are three different kinds of loops: While, Repeat, and For(. A While loop loops while the condition is true, whereas a Repeat loop repeats itself until the condition is true. A For( loop is essentially a specialized While loop, with the main differences being that it loops a set number of times and it has the condition built-in.
+
+```
+:For(X,1,8
+:Output(X,1,"Hello
+:End
+```
+
+**Branching**
+
+Branching allows the calculator to jump from one point in a program to another. You use the Goto and Lbl commands together to achieve this. The Lbl command specifies a location in the program, and the Goto command tells the program to jump to the location with the matching label. Loops are generally preferred over branching because it has some major disadvantages associated with using it.
+
+```
+:Goto A
+...
+:Lbl A
+```
+
+(for more information, see [Controlling Program Flow](controlflow.html) and [Logical Operators](operators.html))
+
+<center>
+
+|**[<< Introduction to TI-Basic](sk:introduction.html)**|**[Table of Contents](starter-kit.html)**|**[Your First Program >>](sk:first-program.html)**|
+| --- | --- | --- |
+
+</center>

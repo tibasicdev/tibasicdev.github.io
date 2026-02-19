@@ -1,0 +1,23 @@
+# Strip a String
+|Routine Summary|Inputs|Outputs|Variables Used|Download|
+|--- |--- |--- |--- |--- |
+|Strip a string of its spaces on the left and right.|*Ans* - The string you want to strip|*Str1* - The stripped string|Ans, Str1|[file stripstring.zip]|
+
+```
+:While " "=sub(Ans,1,1) or " "=sub(Ans,length(Ans),1
+:sub(Ans,1+(" "=sub(Ans,1,1)),length(Ans)-1→Str1
+:End
+```
+
+With our string stored in [Ans](ans.html), we check to see if there is a space at the beginning or end of the string. If there is a space, then we remove it by storing the substring of the string that doesn't include the first character (for a space at the beginning) or the last character (for a space at the ending), and store the new string to Str1.
+
+At the same time, the new string is stored to Ans, which is what we use next time through the [While](while.html) loop. The loop gets repeated over and over again until we have stripped all of the spaces from the beginning and end of the string. If you only want to remove spaces on one side of the string, edit the first and second lines accordingly.
+
+Using Ans allows us to not have to use another string variable, since Ans can act like a string and it gets updated accordingly, and Ans is also faster than a string variable. In addition, by storing the string to Str1 inside the loop, we avoid having to add an additional storage to the routine.
+
+We store the string to a more permanent variable (in this case, Str1) for future use. When you are done using Str1, you should [clean it up](cleanup.html) at the end of your program.
+
+## Related Routines
+
+- [Pad a String](pad-a-string.html)
+- [Scramble a String](scramble-a-string.html)

@@ -1,0 +1,124 @@
+# Conditionals
+## Conditionals
+Conditionals in TI-Basic are slightly different than other programming language's conditionals. The first thing you need to understand is that an If condition tests a number. So:
+
+```
+:If 0
+This won't show up
+:If 1
+This will show up
+:If 2
+This will show up
+```
+
+When the If condition tests the 0 number it returns false, so the code underneath it won't be displayed. Now if the If comes across a 1, it returns true and executes the code that follows. Now you might be asking yourself "And what about the If 2?" well in every single programming language the 0 number is equivalent to false and all numbers but 0 are equivalent to true. So when you use an If condition you are testing if a number is 0 or not 0, if it is false or not false (true) and execute (or not) the instructions that follow.
+
+But what about this:
+
+```
+:1->A
+:If A=0
+This won't show up
+:If A=1
+This will show up
+:If A=2
+This won't show up
+```
+
+Well, in this case, you may think the If statement isn't testing a number but a condition. Well, you are wrong. Look at the following piece of code:
+
+```
+:1=1
+		1
+:1=4
+		0
+```
+
+If you type the 1=1 in the main calculator screen you get a 1, meaning that it is true. If you type 1=4 you get a 0, it is false. So, what we can conclude is very simple: conditions return a number whether they are true or false. When comparing two numbers (or variables) the calculator will see if it is true or false and send a number: 0 if it is false; 1 if it is true; So as you can see, the calculator works an If condition by calculating the Something = Something condition, returns a number and if it is 1, executes the following code, if it is 0, it doesn't.
+
+Now it makes sense, doesn't it? That's why we talked about If 0 and If 1 in the beginning.
+So this:
+
+```
+:1->A
+:If A=1
+Do something
+```
+
+Is the same as this:
+
+```
+:If 1
+Do something
+```
+
+Of course the first one can be false if you change the variable's value, but in this case, it is all the same thing.
+
+### Cool examples that use conditions
+1. The best example of the use of conditions is the collision code located here: [Collision](http://tibasicdev.github.io/sk:movement#toc4). It uses conditions to know if the place the character is supposed to go is "walkable" or not.
+
+2. Another rather cool example is the area calculator. You know that an area can't be negative so the program can't return a negative area. Take a look at the next example:
+
+```
+:Prompt A,B
+:A*B->C
+:If A>0 and B>0
+:Then
+:Disp C
+:Else
+:Disp 0
+```
+
+Looks good doesn't it? Well but it isn't. It is true that it correctly displays only positive areas but there's a simpler way of doing it:
+
+```
+:Prompt A,B
+:AB(A>0 and B>0)->C
+:Disp C
+```
+
+In this case, with only 3 lines of code, we do the same thing as above and we save memory. Of course, this may seem stupid because it only saves a few bits, but in a bigger game production the bits turn into bytes and then KiloBytes and the game becomes very big and unusable.
+Let's just go through the code: The Prompt asks the user to give some input. Then it calculates A*B and multiplies it by the result of the condition (A>0 and B>0). So if both are greater then 0, then the condition returns 1 and C becomes A*B. If they aren't the condition returns 0 and C becomes 0. So there are no negative values!!
+
+3. What if you want to know if a certain pixel of the screen is on? Let's see:
+
+```
+:45->X
+:55->Y
+:If pxl-Test(Y,X)
+Do something
+```
+
+Using the pxl-Test( command and an If statement we get the job done!! The pxl-Test( returns a number (1 or 0) whether the pixel indicated between brackets is on or off.
+
+### Some tips:
+Conditions are very handy to test variables and stuff, but have to be used wisely. A very common mistake when using If conditions is forgetting the Then after the If and writing more than one line. See the next example:
+
+```
+:0->A
+:1->B
+:If A≠B
+:Disp A
+:Disp B
+:End
+```
+
+WRONG... Here the Then command is missing so the calculator would return an error like: ERR: SYNTAX, because there was an extra End. Here's the correct way:
+
+```
+:0->A
+:1->B
+:If A≠B:Then
+:Disp A
+:Disp B
+:End
+```
+
+And there you have it...
+
+<center>
+
+|**[<< Logic Operations](sk:logic-operations.html)**|**[Table of Contents](starter-kit.html)**|**[Loops Optimization >>](sk:loops-optimize.html)**|
+| --- | --- | --- |
+
+</center>

@@ -1,0 +1,233 @@
+# Mancala
+Mancala is an ancient game in which players take turns dropping stones (or seeds) into holes (or houses) that form a 6x2 grid with an extra house on either end, which are the players' end houses. Player choose a house on their side of the grid, pick up the stones in that house and distribute them in the consecutive houses going in a counter-clockwise manner. There are many rule sets to mancala, just as there were many civilisations that played versions of it. This page gives two versions: the "kahla" rule set widely used in the United States and coded by user kg583, and another rule set coded by TI-GBR (rules are explained).
+
+	- [Version 1: Kahla](#version-1:-kahla)
+
+### Version 1: Kahla 
+		— Programmed by kg583 and optimised by the TI-Basic Developer community (see credits for details)
+		— Compatible on both grayscale and color calculators
++++++ Version 1 rules:
+		See wikipedia page describing "kahla" rules of play  -----   ["KAHLA" mancala](https://en.wikipedia.org/wiki/kalah)
++++++ The Code, Version 1, Kahla Mancala
+
+```
+ClrHome
+14→F
+F→dim(L1
+Fill(3,L1                         
+0→Xmin
+1→deltaX                        //The little triangle X
+{5,6→L2
+If Xmax=94
+L2-{1,5→L2
+L2(1→C 
+L2(2→D
+DelVar J1-->P
+Lbl M
+For(X,1,6
+Output(C-1,D+2X+(X>3),L1(X
+Output(C+2,D+2X+(X>3),L1(F-X
+End
+L1(7→H                         //Saves a couple of bytes to do this
+L1(F→I
+Output(C,D+(I>=9),"_ _ _          
+Output(C+1,D+F,"_ _ _
+Output(C,D+(I>=9),I          //Greater than or equal to 9
+Output(C+1,D+F,H       
+If J 
+Then
+Pause
+ClrHome
+If H>I
+Disp "Player 1 Wins!
+If H<I
+Disp "Player 2 Wins!
+If H=I
+Disp "Draw!
+Pause
+Goto Q                               
+End
+D+2-->A
+C-1+3(P=2-->B
+Repeat K=21
+getKey-->K
+Output(B,A-1,">
+Output(B,A+1,"<
+If K
+Then
+Output(B,A-1,"_              //One space here and the next line
+Output(B,A+1,"_
+End
+A+(K=26)(A=D+6)+2(K=26)(A≠D+13)-(K=24)(A=D+9)-2(K=24)(A≠D+2→A
+If K=45
+Goto Q
+End
+.5(A-D-(A>D+6→X
+F(P=2)-X+2X(P=1→X
+L1(X→V
+0→L1(X
+If not(V
+Goto M
+While V
+X+1→X
+If X=15
+1→X
+1+L1(X→L1(X
+V-1→V
+End
+If X/7≠P
+Then
+If 1=L1(X
+Then
+1+L1(7P)+L1(F-X→L1(7P
+0→L1(X
+0→L1(F-X
+End
+3-P→P
+End
+If not(sum(L1,1,6             //Tried to a piecewise thing here; had to settle for two If's
+Then
+L1(F)+sum(L1,8,13-->S
+L1(7→T
+Fill(0,L1
+S→L1(F
+T→L1(7
+1→J
+End
+If not(sum(L1,8,13
+Then
+L1(7)+sum(L1,1,6→S
+L1(F→T
+Fill(0,L1
+S→L1(7
+T→L1(F
+1→J
+End
+Goto M
+Lbl Q
+ClrList L1,L2
+ZStandard
+ClrHome
+```
+
+### Version 2:
+		— Programmed by TI-GBR and optimised by the TI-Basic Developer community (see credits for details)
++++++ Version 2 rules:
+
+	Board 6 by 2 active houses with 4 stones starting in each, and two wells, one at either end.
+
+Picture at start:
+![http://clrhome.org/homer/P%20%20%20%20%20%200%20%20%20%20%20%20%20P%D6L%20%20%204%20%20%20%20%204%20%3C%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%204%20%20%20%20%204%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%204%20%20%20%20Y%20%D6E%20%20%204%20%20%20%20%204%20%20%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif](http://clrhome.org/homer/P%20%20%20%20%20%200%20%20%20%20%20%20%20P%D6L%20%20%204%20%20%20%20%204%20%3C%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%204%20%20%20%20%204%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%204%20%20%20%20Y%20%D6E%20%20%204%20%20%20%20%204%20%20%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif "")
+
+(It's been stretched a little.)
+
+Each player, on their turn, chooses a house on their side of the board. (6 options)
+The stones from that house get distributed by picking them up, and placing 1 stone in each house consecutive to the last, going around in a counter-clockwise pattern until the stones run out. If the last stone falls in one of the wells, then the player gets another turn. The first player to clear their side of the board of stones wins.
+
+After first turn: player 1 has chosen the fourth house from the top, the last stone fell in a well, so player 1 will go again.
+![http://clrhome.org/homer/P%20%20%20%20%20%201%20%20%20%20%20%20%20P%D6L%20%20%204%20%20%20%20%205%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%204%20%20%20%20%205%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%205%20%20%20%20Y%20%D6E%20%20%204%20%20%20%20%200%20%3C%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif](http://clrhome.org/homer/P%20%20%20%20%20%201%20%20%20%20%20%20%20P%D6L%20%20%204%20%20%20%20%205%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%204%20%20%20%20%205%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%205%20%20%20%20Y%20%D6E%20%20%204%20%20%20%20%200%20%3C%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif "")
+
+
+Player 1 goes again.
+
+
+![http://clrhome.org/homer/P%20%20%20%20%20%202%20%20%20%20%20%20%20P%D6L%20%20%205%20%20%20%20%206%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%205%20%20%20%20%206%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%200%20%3C%20%20Y%20%D6E%20%20%204%20%20%20%20%200%20%20%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif](http://clrhome.org/homer/P%20%20%20%20%20%202%20%20%20%20%20%20%20P%D6L%20%20%205%20%20%20%20%206%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%205%20%20%20%20%206%20%20%20%20A%20%D6Y%20%20%204%20%20%20%20%200%20%3C%20%20Y%20%D6E%20%20%204%20%20%20%20%200%20%20%20%20E%20%D6R%20%20%204%20%20%20%20%204%20%20%20%20R%D6%20%20%20%204%20%20%20%20%204%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%200%20%20%20%20%20%20%201.gif "")
+
+Now it's player 2's turn.
+
+
+End of game image:
+
+![http://clrhome.org/homer/P%20%20%20%20%20%2027%20%20%20%20%20%20P%D6L%20%20%200%20%20%20%20%200%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%200%20%20%20%20%200%20%20%20%20A%20%D6Y%20%20%200%20%20%20%20%200%20%20%20%20Y%20%D6E%20%20%200%20%20%20%20%200%20%20%20%20E%20%D6R%20%20%200%20%20%20%20%200%20%20%20%20R%D6%20%20%20%3E0%20%20%20%20%201%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%2021%20%20%20%20%20%201.gif](http://clrhome.org/homer/P%20%20%20%20%20%2027%20%20%20%20%20%20P%D6L%20%20%200%20%20%20%20%200%20%20%20%20L%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%D6A%20%20%200%20%20%20%20%200%20%20%20%20A%20%D6Y%20%20%200%20%20%20%20%200%20%20%20%20Y%20%D6E%20%20%200%20%20%20%20%200%20%20%20%20E%20%D6R%20%20%200%20%20%20%20%200%20%20%20%20R%D6%20%20%20%3E0%20%20%20%20%201%20%20%20%20%20%20%20%20%D62%20%20%20%20%20%2021%20%20%20%20%20%201.gif "")
+
+Player 2 has won.
+	
+
+
++++++ The Code, Version 2
+
+```
+:Clrhome                                                        //setup
+:14->dim(L1
+:Fill(4,L1                                              
+:0->L1(7
+:0->L1(14                                                       //L1 setup finished here; board ready
+:DelVar WDelVar K1->L
+:"PLAYER_
+:For(P,1,8
+:Output(P,1,sub(Ans+"2",P,1
+:Output(P,16,sub(Ans+"1",P,1
+:End
+:Repeat W                                                    // Main loop, Keep playing until W is no longer = 0, (equals 1 or 2)
+:If L!=7 and L!=14                                          //Does not switch player if L = 7 or 14, allows for extra turns
+:1+(P=1->P                                          //switch player between 1 and 2
+:1->L                                                             //Initialize L
+:For(A,1,6                                                     // Display the board after clearing possible extra numbers. See L1 schematic below.
+:Output(A+1,6,"_
+:Output(A+1,5,L1(A
+:Output(A+1,12,"_
+:Output(A+1,11,L1(14-A
+:End
+:Output(8,8,L1(7
+:Output(1,8,L1(14
+:1->R                                                                 //initialize R which is the row input number
+:Repeat K=105 and L1(R(P=2)+(14-R)(P=1))!=0                                                 //repeat input routine until user presses enter and the current house is not empty
+:Output(R+1,4(P=2)+13(P=1),sub("<>",P,1             //Display the appropriate cursor at the relative R coordinate and at  the x value of 4 if P=2 and at 13 if P=1
+:Repeat Ans                                                           // getkey
+:getkey->K
+:End
+:Output(R+1,4(P=2)+13(P=1),"_                             //Delete the cursor
+:min(6,max(1,R+(K=34)-(K=25->R                  //Depending on input, add or subtract 1 from R, within the bounds
+:End                                                                // End input routine
+:R(P=2)+(14-R)(P=1)->L                                    //Calculate L Based on R and the player number (right now, L is the list element number that was chosen)
+:L1(L->S                                                            //Set S to the number of stones in the chosen lest element
+:0->L1(L                                                            //Remove the stones from the chosen list element
+:While S                                                    //Distribution loop ends when S = 0
+:L+(L<14)-13(L=14->L                                        //Select the next list element. If The current List element is 14, the next is 1 (loops around)
+:1+L1(L->L1(L                                               //These two commands add one to the list element house (determined by L), and take one away from the supply (S)
+:S-1->S                                                          
+:End                                                                 //End Distribution loop, check S
+:seq(L1(M),M,1,6                                              // take Player 2's Houses list from L1
+:If not(max(Ans                                                 // If none of player 2's Houses have stones-
+:2->W                                                                //then store 2 to W, Game will end.
+:seq(L1(M),M,8,13                                             //take Player 1's Houses from L1
+:If not(max(Ans                                               //If none of player 1's Houses have stones-
+:1->W                                                             //then store 1 to W, Game will end.
+:End                                                               // End main loop, check W
+:Clrhome                                                            // clear screen
+:SetupEditor               
+:"CONGRATS_PLAYER"+sub("12",W,1        //display winner
+```
+
+Vars used:
+
+    L1 - list of number of stones in each house
+    R - Input row number from which L is derived (can be equal to any #1-6)
+    P - Player 1 or 2
+    L - Chosen List element (house) to empty - equals: R if P+2 and equals: 14-R if P=1
+    W - Win or continue playing and for which player if win. Can equal 0,1, or 2, if 1 or 2, game ends
+    S - number of stones left to distribute during distribution routine.
+    A - a counting var used in For( loops.
+### Credits
+
+The original version 1 was coded by kg583 
+It was then optimised by the TI-Basic community, Including:
+- kg583
+- earthnite
+- TI-GBR
+- lirtosiast
+
+The original version 2 was coded by TI-GBR
+It was then optimised by the TI-Basic community, Including:
+- TI-GBR
+- earthnite
+- kg583
+- jonbush
+
+**This was a COMMUNITY PROJECT and was developed in the [Projects](projects.html) page**
+
+[See development page](http://tibasicdev.github.io/projects:abstract-strategy-board-games)
+
+THANK YOU to everyone who participated in this community project!
+
+If anyone experiences problems with the code on this page, please post on the "Discuss"  page for this page. See the tools below.

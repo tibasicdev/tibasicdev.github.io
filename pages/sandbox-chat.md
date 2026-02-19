@@ -1,0 +1,10 @@
+# Sandbox Chat [TEST]
+NOTE THAT THIS IS A SANDBOX AREA.
+[[html]]
+<iframe src="https://www4.cbox.ws/box/?boxid=4328890&boxtag=rRvXSd" width="100%" height="450" allowtransparency="yes" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+[[/html]]
+
+[[html]]
+<script type="text/javascript" src = "http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox=78589803">
+</script>
+[[/html]]

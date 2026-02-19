@@ -1,0 +1,4 @@
+# The Loop Command
+<!DOCTYPE html>
+<meta http-equiv="refresh" content="0; URL=http://tibasicdev.github.io/68k:loop">
+<link rel="canonical" href="http://tibasicdev.github.io/68k:loop">

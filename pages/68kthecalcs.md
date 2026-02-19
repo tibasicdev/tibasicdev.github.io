@@ -1,0 +1,71 @@
+# The Calculators
+This section of the wiki is concerned with the 68k family of TI graphing calculators (this name is due to the Motorola 68000 processor they use, as opposed to the Zilog Z80 chip on older calculators). The calculators in this family are the TI-89, TI-89 Titanium, TI-92, TI-92 Plus, and Voyage 200. Unlike other TI graphing calculators, the 68k family calculators have symbolic manipulation capabilities — this allows the calculators to manipulate algebraic expressions directly, and to give exact answers rather than decimal approximations.
+
+
+
+
+
+## The TI-89 Calculator
+
+![ti89.png](ti89.png "")
+
+Though lower in number than the TI-92, the TI-89 was actually released somewhat later, in 1998. Backward compatible with the TI-92, at least in terms of TI-Basic programming, the main difference is the physical size of the calculator: the TI-89 is exactly the same size as the lower-numbered z80 calculators. Another difference is the presence of Flash ROM, or archive memory. This secondary memory is larger and more protected from crashes, but cannot be edited directly. The TI-89 has a 160x100 pixel resolution high-contrast LCD.
+
+There are two hardware versions of the TI-89, HW1 and HW2. HW2 calculators are slightly faster (the processor speed is increased from 10MHz to 12MHz). However, due to a change in the way the display is addressed, HW2 calculators cannot handle grayscale as well as HW1 (this mostly applies to assembly programs). Though both versions are capable of 4-level grayscale, 7-level grayscale is only possible on the HW1. Another difference is the presence of hardware limitations on assembly program size, though these can be removed with an unofficial patch. Finally, HW2 calculators have a built-in clock, though commands to access it only come with AMS 2.07 or higher.
+
+With the release of the TI-89 Titanium, the TI-89 calculator has been discontinued by TI.
+
+
+
+
+## The TI-89 Titanium Calculator
+
+![ti89titanium.png](ti89titanium.png "")
+
+The TI-89 Titanium is an upgrade of the TI-89, released in the summer of 2004, that contains 3 times the Flash ROM, as well as a USB port. Basic programming is unchanged from the TI-89, although assembly programs can have some compatibility problems that should be fixed with patches.
+
+Like the TI-89, the TI-89 Titanium has two hardware versions, HW3 and HW4. Both of these are nearly identical to the HW2 version of the TI-89. HW4 calculators have more RAM, and supposedly have a faster, 16MHz processor.
+
+
+
+
+## The TI-92 Calculator
+
+![ti92.png](ti92.png "")
+
+The oldest 68k calculator, the TI-92 was released in 1995. It is a wide calculator with a QWERTY keyboard and a 240x128 LCD screen. Unlike the other 68k calculators, the TI-92 does not support Flash ROM, and has a mere 70KB RAM. Later, the TI-92 II was released with a RAM upgrade.
+
+The TI-92 hardware is similar to the HW1 version of the TI-89. With the release of newer calculators, the TI-92 has been discontinued, though a "Plus module" was available to upgrade it ot a TI-92 Plus.
+
+
+
+## The TI-92 Plus Calculator
+
+![ti92plus.png](ti92plus.png "")
+
+Shortly after the release of the TI-89 calculator, the TI-92 Plus was released in 1998. It's virtually the same as the TI-89 in terms of software, but looks physically much like the TI-92 — it also has a QWERTY keyboard and a 240x128 LCD screen (though with sharper contrast). Its improvements include Flash ROM and a hardware clock.
+
+A "Plus module" was also available to upgrade a TI-92 calculator to a TI-92 Plus in many ways (giving it Flash ROM capability, for instance). The TI-92 with a Plus module is similar, in terms of compatibility, to the TI-89's HW1 version, while the normal TI-92 Plus is similar to the HW2 version.
+
+With the release of the Voyage 200 and TI-89 Titanium, the TI-92 Plus has been discontinued by TI.
+
+
+
+
+## The Voyage 200 Calculator
+
+![voyage200.png](voyage200.png "")
+
+Released in 2002, the Voyage 200 is the most advanced of the 68k calculators. Like the TI-92 Plus, the Voyage 200 has a QWERTY keyboard and 240x128 high-contrast LCD screen. Together with the TI-89 Titanium, it also has the most memory: 190 KB RAM, and 2.7 MB ROM. The Voyage 200, like the other models, has also been discontinued in favor of the TI-89 Titanium.
+
+
+
+## Calculator Comparison
+
+| Model| Processor| RAM| ROM| Screen Size| Link port| Clock| Release Date|
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|= TI-89 |= 10-12 MHz |= 190 KB |= 700 KB |= 160x100 |= I/O |= HW2 only |= 1998 |
+|= TI-89 Ti |= 14-16 MHz |= 190 KB |= 2.7 MB |= 160x100 |= I/O+USB |= Yes |= 2004 |
+|= TI-92 |= 10 MHz |= 70 KB |= None |= 240x128 |= I/O |= No |= 1995 |
+|= TI-92 Plus |= 12 MHz |= 190 KB |= 700 KB |= 240x128 |= I/O |= Yes |= 1998 |
+|= V200 |= 12 MHz |= 190 KB |= 2.7 MB |= 240x128 |= I/O |= Yes |= 2002 |

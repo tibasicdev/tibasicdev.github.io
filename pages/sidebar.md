@@ -1,0 +1,25 @@
+# TI-Basic Sidebar
+[[html]]
+<html>
+<head>
+<title>TI-Basic Sidebar</title>
+<script type="text/javascript">
+//<![CDATA[
+var baseurl = "http://tibasicdev.github.io/local—files/sidebar/";
+function addSidebar(title, url, custom) {
+  if ((typeof window.sidebar == "object") && (typeof window.sidebar.addPanel == "function")) {
+    window.sidebar.addPanel(title, baseurl+url, custom);
+  }
+}
+//]]>
+</script>
+</head>
+<body>
+
+<p style="font-size:80%;font-family:Arial, Helvetica;color:#4E4F43">The TI-Basic Sidebar is a list of the TI-83/84/+/SE commands organized alphabetically for quick reference. Clicking a command link opens up the respective command page on TI-Basic Developer in the main browser window.</p>
+
+<p style="font-size:80%;font-family:Arial, Helvetica;color:#4E4F43">When downloading the sidebar, it will appear as a bookmark in the bookmarks list. Clicking on the bookmark will open up a new frame in the browser. This sidebar is only available for those people using Mozilla Firefox. Click <a href="javascript:void addSidebar("TI-Basic Quick Reference","side.html","");" style="color:#2D2E2A">here</a> to download the sidebar.</p>
+
+</body>
+</html>
+[[/html]]

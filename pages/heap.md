@@ -1,0 +1,19 @@
+# Heap
+A [*http://en.wikipedia.org/wiki/Heap_(data_structure) heap] heap is a special type of [*http://en.wikipedia.org/wiki/Tree_(data_structure) tree]. A max heap is a binary tree that has the property that every node's children are smaller than itself, and both its left and right subtrees are heaps. A min heap is like a max heap the only difference is that every node's children are greater than itself. A heap, no matter what kind is always complete. This means that a heap can always be represented by a list. For every element at index *i* in a list its parent is at *i/2* and its children are at 2*i* and 2*i*+1. This can be seen below:
+
+![heap.png](heap.png "")
+
+In TI-Basic as in most other languages the best way to implement a heap is as a list. There are two main operations that we can do. The first is to add to the heap. This adds a number to the end of the list and then inserts it in the right place. The second operation is to remove from the list. This removes and returns the first element of the list and then fixes the rest of the list so that everything is in the correct order.
+
+The add code is as follows:
+
+```
+1+dim(L1->I
+N->L1(I
+While N>L1(max(1,int(I.5
+	int(I.5->J
+	L1(J->L1(I
+	N->L1(J
+	J->I
+End
+```

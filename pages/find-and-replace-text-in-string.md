@@ -1,0 +1,35 @@
+# Find And Replace Text In String
+|Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
+|--- |--- |--- |--- |--- |--- |
+|Finds specific text in a string and replaces all occurrences with replacement text.|*Str1* - The main string to modify<br>*Str2* - What to search for<br>*Str3* - What to replace with|*Str1* - the modified string|Str1, Str2, Str3, I, J|Michael2_3B|https://www.cemetech.net/forum/viewtopic.php?p=271251#271251 Cemetech|
+
+```
+"SEARCH"→Str2
+"REPLACE"→Str3
+length(Str2→J
+1→I
+While inString(Str1,Str2,I
+inString(Str1,Str2,I→I
+Str3
+If I>1
+sub(Str1,1,I-1)+Ans
+If I+J<1+length(Str1
+Ans+sub(Str1,I+J,1+length(Str1)-(I+J
+Ans→Str1
+I+length(Str3→I
+End
+```
+First, note that the input for the search string (Str2) and replacement string (Str3) can be modified for however you need them to be input. In this case, the texts "SEARCH" and "REPLACE" have been used as examples for these 2 strings.
+
+To start off, we first store the length of the search string in variable J. Then, we check if the search string can be found in the main string. If not, the loop doesn't continue to run. Otherwise, we store the index in the string where the search string was found in variable I.
+
+After this, we have to account for 3 distinct options:
+1. The search string was found at the beginning of the main string
+2. The search string was found at the end of the main string
+3. The search string was found somewhere in the middle of the main string
+
+So, we first put Str3 in Ans. 
+Then, if some of the string exists before the search string (so I>1), we add the replacement string in Ans onto that text.
+After that, we check if the string exists after the search string (so I+J<1+length(Str1)), and if so, we add the rest of the text onto Ans.
+
+After modifying the string like this, the program then checks if there are any more occurrences of the search string in the main string. If so, this whole process is repeated over.

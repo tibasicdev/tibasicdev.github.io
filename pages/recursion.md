@@ -1,0 +1,40 @@
+# Recursion
+Good programmers usually design their programs to utilize [subprograms](subprograms.html) (calling another program from within the program) for [optimization](optimize.html) but another alternative that is available, but less often used, is the program simply calling itself — more commonly known as recursion.
+
+The basic premise behind recursion is breaking up a problem into smaller problems, and then working your way through each problem until they are all completed. By tackling one small problem at a time, instead of the entire problem, the code needed is typically not only smaller and easier to understand (i.e., more manageable), but also tends to be faster.
+
+However, recursion isn't always the most appropriate approach. You can usually rewrite a recursive program to use iteration instead (whether it's a [While](while.html), [Repeat](repeat.html), or [For(](for.html) loop). While the iteration code may be larger, it doesn't need the additional memory for each call that the program makes like recursion does. Iteration is also better when trying to implement an algorithm with recursion isn't very practical.
+
+## Problems with Recursion
+
+There are some problems you will come across when trying to use recursion in your programs. Each of these problems is inherent to TI-Basic because of the way TI designed it, which means you can't change them. Fortunately, you can use some creative thinking to work around them.
+
+The first problem you will come across is that you can only call a program a set number of times before you run out of memory and the program crashes — giving you the dreaded [ERR:MEMORY](errors.html#memory) error. The reason that this happens is because the calculator places each program call on a stack.
+
+The program call stack is kept in [RAM](glossary.html#ram), so it is fine as long as its size doesn't exceed the amount of free RAM available. Each program call takes up approximately sixteen bytes, so just divide that by the free RAM to see how many program calls you can make.
+
+Besides simply limiting the number of program calls you make in a program (i.e., trying to keep recursion to a minimum), a work around to this problem is storing a special value to a variable (something unique that wouldn't be entered by accident), displaying a message to the user telling them to "Press ENTER" and then stopping the program with the [Return](return.html) command after a set number of program calls have occurred.
+
+```
+:312958→A
+:Output(4,4,"Press ENTER
+:Return
+```
+
+Once the user presses ENTER, you will want to include a check at the beginning of the program for the variable you used to see if its value is equal to the unique value you assigned it. If it is, you then can jump to the place in the program where you left off before. You also want to give the variable a new value so that the program won't accidentally jump to the place in the program when the program is next executed.
+
+```
+:If A=312958  // Check if variable equal to unique value
+:Goto A
+...
+:Lbl A
+:1→A  // Reset variable to a new value
+```
+
+Another problem you will cross across is that TI-Basic programs don't have return values. In [68k TI-Basic](68k:home.html) (which is much more powerful overall), a return value can be passed to the calling program, which can then use it however they want (for example, to determine which [course of action](controlflow.html) to take next).
+
+While you can't add a return value to a program, you can mimic that functionality using a [variable](variables.html). The best variable to use is [Ans](ans.html) because it can take on whatever value and variable type you want, so the program doesn't have a specific variable hard-coded in. This is especially important because variables are shared by every program.
+
+Related to creating a return value is the problem of creating (pseudo) local variables. As you deal with each program call in recursion, it is useful to be able to keep track of variables and how they change from one program call to the next. While there are no local variables, you can make a [list](lists.html) perform in that capacity.
+
+In addition to the list itself, an index variable that keeps track of where you are in the list is also required. Whenever you enter a program that needs a local variable, increase the index variable and add a new element to the end of the list with augment(∟NAME,{var}). When you exit the program, decrease the index variable and remove the element from the list with var→dim(∟NAME). You can access the local variable at any time with ∟NAME(var).

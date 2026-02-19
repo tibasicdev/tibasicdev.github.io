@@ -1,0 +1,11 @@
+# Animation
+Well, animation in any Ti basic program can be a problem, though 68k calculators have better capability for animations. There are a virtually unlimited number of picture names, and folders allow for even more possibilities. Due to the limitations of a calculator's basic graphics, the best way to animate is to use a series of pre-drawn pictures, displayed one after another. Even this has limitations, as the relatively slow refresh rate can make animations seem choppy. Also, each frame must be created individually, so animation design is very time-consuming. If anyone could please elaborate on this, it would be greatly appreciated.
+
+Update - There is a command in 68k called [68k:CyclePic](68k:cyclepic.html). It allows you to cycle through a number of pictures under a few parameters. Unfortunately, every picture has to be in the main folder for the command to work. You still have to draw every frame, however, you can set the framerate to be slower, allowing the animation to look smoother without as much work.
+
+<center>
+
+|**[<< Sprites](68k:sprites.html)**|**[Overview](68k:techniques-overview.html)**|**[Compression >>](68k:compression.html)**|
+| --- | --- | --- |
+
+</center>

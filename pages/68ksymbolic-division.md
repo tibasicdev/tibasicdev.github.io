@@ -1,0 +1,62 @@
+# Symbolic Division
+Symbolic Division is a method of finding the roots and factors of a polynomial given at least one factor.
+This is a function, rather than a program, and can be used in graphs, other functions, and programs.
+Rather than returning a list of factors as a result, we return an expression.
+
+
+
+## Code
+
+```
+:synthdiv(colist,ftr)
+:Func
+:Local count,ansList,xexp,ansExp
+:expr("x")→xexp
+:0→ansExp
+:newList(dim(colist))→ansList
+:colist[1]→ansList[1]
+:For count,2,dim(ansList)
+:colist[count]+ansList[count-1]*ftr→ansList[count]
+:EndFor
+:For count,1,dim(ansList)
+:ansExp+ansList[count]*xexp^(dim(ansList)-count-1)→ansExp
+:EndFor
+:ansExp-ansList[dim(ansList)]/xexp+ansList[dim(ansList)]/(xexp-ftr)→ansExp
+:Return ansExp
+:EndFunc
+```
+
+## What's Going On?
+First, this is a function, not a program! To make a function, press F1 in the program editor, choose "3:New", and make sure the "Type:" is "Function"
+This takes 2 arguments, a list, and a number. We assume that's what we are given, and don't bother to check the type of the arguments.
+The first argument, `colist`, should be a list of all the coefficients in your expression. The second, `ftr`, is one single factor or root of your expression.
+### Variables
+We then set up a few variables for our function.
+*Functions can read global variables, but cannot write or create global variables!*
+`count` is used in our For loops.
+`ansList` is a list of all the factors we want to return
+`xexp` is the expression "`x`". We use it to create the returned expression.
+`ansExp` is the factors in expression form.
+To prevent errors when making our expression, we set our answer expression `ansExp` to zero.
+We create the answer list using `newList()` with the number of elements in our given `colist`
+In symbolic division, you "drop" your first coefficient. We just store the first element of `colist` as the first element of our answer list `ansList`
+### Dividing
+Now we start a For loop. We start from 2 since we already found our first answer above.
+The next line multiplies the previous answer by the factor, and adds that to the current coefficient, storing it in the next element of our answer list.
+### Prettifying the Answer
+We start another For loop.
+Then we add our current expression to the answer list element times "x" to the power of the appropriate power. and store that as our answer expression.
+### Fixing an Error
+After we prettify the answer, we have a mistake. Since the answer is an expression, we can easily subtract the mistake, and add our correction.
+### Returning the Answer
+*All Functions <u>must</u> return something using* `Return`
+
+## Examples
+Here are a few examples of use.
+> `synthdiv({5,.46,84,.50,7},1/5)`
+> `       5x<sup>3</sup>-45x<sup>2</sup>+75x-35`
+
+> `synthdiv({1,5,6},1)`
+>     `12 `
+>   `----------`  `+x+6`
+>   `x-1`

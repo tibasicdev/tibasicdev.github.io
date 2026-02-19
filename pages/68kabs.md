@@ -1,0 +1,24 @@
+![The abs() Command](68k_abs/abs.png "The abs() Command")
+       
+|Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
+|--- |--- |--- |
+|Returns the absolute value of an argument.|abs(*expression*)|This command works on all calculators.|
+       
+### Menu Location
+- Press 2nd MATH to enter the MATH popup menu.<br>* Press 1 to enter the Number submenu.<br>* Press 2 to select abs(.
+# The abs() Command
+
+The `abs()` command returns the absolute value of an expression.  The absolute value of a real number is the number of units from 0 the number is.  The absolute value of 7 for example is 7 becasue it is that many units away from zero.  The absolute value of -7 however is 7.  So it in a way gets rid of the negative.
+
+The absolute value of a complex or imaginary number can also be taken, but it is done a little differently.  If a complex number is written a+b*i*, then the absolute value of the number is √(a<sup>2</sup>+b<sup>2</sup>).
+```
+abs(5)
+       5
+abs(-5)
+       5
+abs(3+4i)
+       5
+```
+
+## Related Commands
+- [`Negation`](68k:negative.html) ( <sup>-</sup> )

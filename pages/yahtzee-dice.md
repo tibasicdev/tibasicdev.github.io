@@ -1,0 +1,46 @@
+# Yahtzee Dice
+This is a simple program for yahtzee. But this is just the dice really.
+
+```
+ClrDraw
+FnOff 
+AxesOff
+0→Xmin
+0→Ymin
+94→Xmax
+62→Ymax
+For(I,4,76,18
+Line(I,21,I,35
+Line(I,21,I+14,21
+Line(I,35,I+14,35
+Line(I+14,21,I+14,35
+End
+randInt(1,6,5→L₁
+0→K
+While not(K
+getKey→K
+End
+For(I,1,5
+18I-7→X
+If fPart(L₁(I)/2)=.5
+Pt-On(X,28,2
+If L₁(I)≠1:Then
+Pt-On(X-4,32,2
+Pt-On(X+4,24,2
+End
+If L₁(I)>3:Then
+Pt-On(X-4,24,2
+Pt-On(X+4,32,2
+End
+If L₁(I)=6:Then
+Pt-On(X-4,28,2
+Pt-On(X+4,28,2
+End
+End
+Pause
+ClrDraw
+AxesOn
+FnOn
+ZStandard
+Output(1,1,"
+```

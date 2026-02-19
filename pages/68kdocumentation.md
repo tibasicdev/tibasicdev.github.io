@@ -1,0 +1,23 @@
+# Writing Program Documentation
+After spending lots of time planning a program, then coding it, and finally optimizing it, the next move for many people is to call the program "done" and release it to one of the major TI sites (such as [ticalc.org](http://www.ticalc.org), [calcgames.org](http://www.calcgames.org), or [unitedti.org](http://www.unitedti.org)). Unfortunately, these people are leaving off one of the most important steps of the programming process: documentation.
+
+Now, I'm sure some of you are probably wondering what is so important about documentation and why it is necessary in the first place. You might even be asking, "If we design the program so it is user-friendly, isn't that good enough?" The answer to that question is a resounding NO! In reality, documentation is a crucial part of a program.
+
+When you release a program to the public, you need to remember that there are all sorts of program users out there — they literally run the gamut. Because of this, you need to always try to keep your basic, simplest program user in mind (those with little or no calculator savvy). These people are (typically) not familiar with the calculator beyond just using it for playing games, so they need all the help you can give them for using your program.
+
+Writing documentation for your program is one of the best ways you can help your users: the basic users don't want to have to spend lots of unnecessary time trying to figure out how to use your program and the hardcore gamers consider a program without documentation to just be distasteful (some don't even download a program unless it has documentation).
+
+While there are literally an infinite number of things that you can include in program documentation, you should always at least include the basic essentials about your program. (It is your decision whether you decide to include any of the extras, but keep in mind that the more detailed your documentation is the better it will be for the program user):
+
+- Author information (including contacts)
+- Program description
+- Calculator requirements
+- Installation (if necessary)
+- Instructions
+- Files included in zip
+- Program controls
+- Troubleshooting
+
+Besides the things listed in the list, you might also want to include some technical information. If you have a quality program with some exceptional code, other less knowledgeable users would probably be interested in studying the technical information from your program so they can learn from it. This not only allows them to become better programmers, but they might even be able to add on to your program with more features, functionality, or whatever.
+
+When naming your documentation, try not to use a generic name like readme.txt. This is the current standard, but it doesn't work very well when a person has several programs stored in the same folder at the same time. Instead you should name your documentation after the name of your program. For example, if your program's name is Donut Quest, your documentation should be named DonutQuest.txt. This makes it much easier to maintain order.

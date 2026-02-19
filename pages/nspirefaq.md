@@ -1,0 +1,111 @@
+# TI-Basic FAQ
+This FAQ is an attempt to answer the common TI-Basic related questions that people ask. Many of the questions are related to each other, so it is recommended that you read through the whole list. If you have any questions that aren't mentioned on the list, please post them in the [forum](forum:home.html) or make a comment at the bottom of the page.
+
+
+### General
+
+**Q**: Is TI-Basic easy to learn?
+**A**: Yes! TI-Basic has the majority of the standard features and functionality that you find in other BASIC programming language variants (i.e., things like user input and variables are very similar), so if you can learn those languages, TI-Basic should be no problem. If TI-Basic is your first exposure to programming, it will require some work to learn, but it is definitely worth it because TI-Basic is a fun language to use.
+
+**Q**: How do I learn TI-Basic?
+**A**: The best way to learn TI-Basic is to download a copy of the manual, and start making small, sample programs to try out the different TI-Basic [commands](nspire:command-index.html). Once you feel comfortable with the commands, you can start putting them together to create larger programs. After that, you should move on to learning the more advanced design concepts and techniques that are part of TI-Basic.
+
+**Q**: Where can I get information on TI-Basic?
+**A**: The wiki you are currently on has the largest collection of TI-Basic information available, including commands, design concepts, techniques, and experimentation. The [resources](nspire:resources.html) page also has a comprehensive list of TI-Basic tutorials that you can find elsewhere on the Internet. In addition, you can download all of those tutorials (and many more) on the [nspire:downloads](nspire:downloads.html) page.
+
+**Q**: Do you have a tutorial about [subject]?
+**A**: The best way to find out is to use the [search box](search:site.html). If you don't find what you are looking for, leave a comment in the [forum](forum:home.html) and one of us will try to help you. We won't guarantee that you will find everything on this wiki that you are looking for, since it is a constant work in progress and there are simply too many topics to cover. If you would like to make a suggestion for a new tutorial, you can add it to the wiki [to-do list](nspire:to-do.html).
+
+**Q**: Where did the TI-Basic name come from?
+**A**: Back when the language was growing in popularity and use, people wanted a simple name to refer to it that was easy to remember and told you what it was. Because it is the built-in programming language of the *TI* graphing calculators, and it is a variant of *BASIC* (more or less), TI-Basic is what they called it. You should note that the name is unofficial, as TI has never actually given it a name (for example, try searching for TI-Basic in the calculator manual; you won't find it).
+
+**Q**: I've seen TI-Basic spelled with all uppercase (TI-BASIC) and with mixed case (TI-Basic), but what is the correct way to spell it?
+**A**: Truthfully, there is no one correct way to spell it. It is just a personal preference. On this wiki, however, you will probably notice that we spell TI-Basic with mixed case. The primary reason for that decision is because it is easier to read (all caps aren't very reader-friendly).
+
+**Q**: What calculators support TI-Basic?
+**A**: All of the TI graphing calculators have TI-Basic support built-in. Of course, the calculators each have their own TI-Basic variant (see next question).
+
+**Q**: What's the difference between Z80 and 68k TI-Basic and Nspire TI-Basic?
+**A**: Simply put, a whole lot. Nspire TI-Basic lacks all sorts of things that 68k (and even Z80) TI-Basic has, especially graphics commands. This mostly relegates Nspire TI-Basic to math programs.
+
+**Q**: Is there a place where I can interact with other TI-Basic programmers?
+**A**: While there is a [forum](forum:home.html) available here on this wiki for TI-Basic discussion and help, the best TI-Basic forum in terms of user activity is United-TI, which has a [Nspire TI-Basic section](http://www.unitedti.org/index.php?showforum-58). In fact, the majority of members of this wiki are active members at United-TI, so you will probably see us hanging around there.
+
+### Games
+
+**Q**: Where can I find TI-Basic games and programs to download?
+**A**: On our [resources](resources.html) page, you will find several links to general TI related sites. One of the best sites to visit for games and programs is [ticalc.org](http://www.ticalc.org/), which has the largest archive of TI-Basic games and programs of any site on the Internet.
+
+**Q**: What is an emulator?
+**A**: An emulator allows you to run a virtual form of your calculator on your computer, which is very convenient when you want to make quick changes to programs, or do any debugging or optimizing. There are several [emulators](resources.html) available for you to use, so you should just experiment to see which one you prefer.
+
+**Q**: I downloaded an emulator for my calculator, but it won't work because it says it needs a ROM image. What is that?
+**A**: A ROM image is simply an instance of your calculator, which tells the emulator that you own your calculator. It is primarily used as a safeguard because only one person is supposed to be using any one ROM image. To download the ROM image to your computer, you just link your calculator to your computer, and then the emulator should be able to download the ROM image off of it.
+
+**Q**: I have an awesome idea for a game, but I don't know how to program. Can you program it for me?
+**A**: While we would like to help you program your game, we each have our own projects that we're working on and other real-world things (like school and a job) that occupy our time, so we aren't able to program your game for you. At the same time, if you have a specific TI-Basic programming question that you need help with, we'd be happy to help you. Even better than us programming your game, though, is you programming it yourself (see next question).
+
+**Q**: What do I need to make games?
+**A**: The main things you need to make games are your TI [calculator](nspire:thecalcs.html) and calculator [manual](nspire:downloads.html). Before you actually implement a game, however, you should [plan](nspire:planning.html) it out. This involves coming up with the idea for the game, and working out the many details of the game: graphics, gameplay, menus, and so on. Once you have all of those things figured out, you just need to put them into action.
+
+**Q**: What is a good tutorial for making games?
+**A**: Unfortunately, there really is no comprehensive game tutorial available. Instead, there are several small [tutorials](resources.html) that each cover different aspects of games. In addition, on this wiki there are quite a few techniques covered — see for example the Special Topics section.
+
+**Q**: Can I use a routine from this wiki in my game?
+**A**: Yes! In fact, we encourage it. All of the routines on this site are designed to be as optimized and efficient as possible, so that readers learn the best way to program.
+
+**Q**: Can I use sprites from other games in my own game?
+**A**: The general consensus among the calculator programming community is that using somebody else's graphics in your game is fine, as long as you get their permission to do so. However, if you don't plan on releasing your game to the community, but instead just keeping it to yourself and your friends, then it doesn't really matter.
+
+### Programming
+
+**Q**: How do I draw graphics?
+**A**: Nspire TI-Basic is relatively unknown to the programming community, so nobdy really knows how to use [graphics](nspire:graphics.html) commands. Hopefully, as knowledge of programming the Nspire grows, there will be more information on Nspire graphics.
+
+**Q**: Can I do [task] in TI-Basic?
+**A**: While it's possible to do almost anything in TI-Basic, whether it looks nice and runs at a decent speed is a different matter. If you have thoroughly [planned](nspire:planning.html) your program and made it as [optimized](nspire:optimization.html) as possible, and your program still takes a minute to load and there's a five second lag after each key press, that's a good indicator that you should probably use assembly or C instead. At the same time, you should always strive to push the boundaries of TI-Basic.
+
+**Q**: How do I convert a number to a string and vice versa?
+**A**: The [string()](nspire:string.html) command can be used to convert any variable type to a string. To convert in the other direction, use the [expr()](nspire:expr.html) command.
+
+**Q**: My program is extremely large. Is there a way to manage/condense the code better?
+**A**: First of all, your program will probably shrink in size after the first time you run it, due to [tokenization](nspire:tokenization.html). If that's not enough for you, see the [optimization](nspire:optimization.html) page for more tricks.
+
+**Q**: Are there any undocumented features (Easter eggs) in TI-Basic?
+**A**: Unlike the TI-83 version of TI-Basic, virtually everything we know about the Nspire calculators' TI-Basic is documented somewhere. However, there are some features that the manual doesn't emphasize but are quite useful to TI-Basic programmers.
+
+**Q**: How do you disable the ON key?
+**A**: This is impossible in pure TI-Basic. Using [Try](nspire:try.html)..EndTry blocks, you can disable the ON key during text input, but the only way to disable it universally is with an assembly program or [Exec](nspire:exec.html) code.
+
+**Q**: How do I hide the code of my TI-Basic program?
+**A**: This is impossible — if someone can run your program, they can see the code as well. You really shouldn't try to hide the code too, but let others learn from it instead.
+
+### Troubleshooting
+
+**Q**: My calculator can't handle expressions with several variables, (e.g. it can't factor x^2+y^2+2xy). How do I fix this?
+**A**: When you type xy next to each other, the calculator doesn't treat it as multiplication, but as a different variable called "xy". Write x*y instead and you should have no trouble.
+
+**Q**: I've entered a simple expression and am confident of the result, but the calculator gives something bizarre! (For example, *d*(x^2,x) gives 10 as a result) What's wrong?
+**A**: Make sure all the variables you're manipulating in a general way (x, in the example) are actually undefined. If not, delete them using [nspire:DelVar](nspire:delvar.html). Otherwise, their values will get substituted and you'll get a weird answer. This can result in other surprising errors as well.
+
+**Q**: I think some of the routines on this wiki have errors in them, because they didn't work for me. Could you please correct them?
+**A**: We have strived to make sure that all of the routines on this site work correctly and without problems. However, if you are 100% sure that you entered the routine correctly into your calculator, please leave a comment on the page using the comment function at the bottom of the page. Somebody will then be able to correct the routine so that it won't cause anybody else any problems.
+
+**Q**: I was playing a TI-Basic game and my calculator suddenly shut off. When I turned it back on, my memory was erased. What happened?
+**A**: Your game had a glitch of some kind, and it caused the calculator to crash. This is usually caused by Assembly programs, as the majority of TI-Basic errors are caught by the calculator. You don't have to worry very much about TI-Basic crashes because they don't do any real permanent damage to the calculator, but because it is very annoying to have to replace all of your programs after your RAM is cleared, you should always store any important files in the archive.
+
+**Q**: When I tried to run my TI-Basic program, I got this error message. What does it mean?
+**A**: Most error messages are fairly self-explanatory, but if you're still confused, you should consult our list of [error messages](nspire:errors.html) with a more in-depth explanation.
+
+### Assembly/C
+
+**Q**: How does TI-Basic compare to Assembly or C?
+**A**: TI-Basic is much easier to learn and program in, but it is rather slow because it is an interpreted language. TI-Basic has many good graphics commands, but will still be slower than assembly or C programs; also, TI-Basic programs are limited in control over the calculator.
+
+**Q**: Is it possible to convert TI-Basic to Assembly?
+**A**: No, it is not. There are currently no working programs available that will convert TI-Basic to Assembly (note: I say working because people have tried creating TI-Basic to Assembly converters, but nobody has completed one yet), so the only way you can convert a TI-Basic program to Assembly is by learning Assembly and porting the program yourself. You could also try asking an Assembly programmer to port it for you, but most people won't do that unless the program is pretty small.
+
+**Q**: I want to use an Assembly program with my TI-Basic program, but I can't figure out how to use it. Can you help me?
+**A**: Unfortunately, we really can't do much for you. What we recommend is that you contact the author of the Assembly program and ask them for help. They wrote the program, so naturally they should be able to answer any questions that you have.
+
+[[/div]]

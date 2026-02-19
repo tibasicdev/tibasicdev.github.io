@@ -1,0 +1,37 @@
+# Mine Field
+Like the classic game minesweeper, the goal of Mine Field is to avoid hitting the mines. A new twist has been added, however, and you must maneuver the field around the mines to get to the star (the asterisk) on the other side. The game uses a simple 8x16 matrix to store the field, although you could use a list or string as well. You can play this game indefinitely, since all of the mines are randomly placed.
+
+
+
+### The Code
+
+```
+:ClrHome
+:1→X:1→Y
+:DelVar [B]{8,16→dim([B]
+:6→[B](randInt(2,7),15
+:6→[B](randInt(2,7),14
+:For(A,1,8
+:6→[B](A,randInt(2,15
+:End
+:1→[B](4,16
+:Output(Y,X,">
+:Output(4,16,"*
+:Repeat [B](Y,X
+:Repeat Ans
+:getKey→G
+:End
+:Output(Y,X,"  // 1 space
+:X-(G=24 and X>1)+(G=26 and X<16→X
+:Y-(G=25 and Y>1)+(G=34 and Y<8→Y
+:Output(Y,X,">
+:End
+:ClrHome
+:"YOU "+sub("WIN!!LOSE!",[B](Y,X),5
+```
+
+### The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+- [Mine Field](http://tibasicdev.github.io/local--files/mine-field/minefield.zip)

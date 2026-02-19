@@ -1,0 +1,58 @@
+# Optimization: General Optimizations
+You can remove closing parentheses, braces, and quotes at the end of a line of code. The one *rare* case you would keep an end parenthesis if if you are dealing with an If conditional directly after a [For(](for.html) loop which is detailed on the For( command.
+
+```
+:Output(3,2,"Hello")
+can be
+:Output(3,2,"Hello
+```
+
+You can also remove closing parentheses, braces, brackets, and quotes that are before a store command.
+
+```
+:"Hello"→Str1
+can be
+:"Hello→Str1
+```
+
+Rearrange the group of expressions with the most closing parentheses, braces, brackets, and quotes so that they are at the end of the line.
+
+```
+:If 7/(A+B)=2
+can be
+:If 2=7/(A+B
+```
+
+Keep your label and list names as short as possible. You ideally want them to be one character in length.
+
+```
+:Lbl AA
+:∟HIGH
+can be
+:Lbl A
+:∟H
+```
+
+When displaying text, always look for words that can be replaced with the respective command. The commands are much smaller than writing out the word.  In this example, the command [Return](return.html) is used in place of writing out the word.
+
+```
+:"RETURN→Str1
+can be
+:"Return→Str1
+```
+
+You can change all of your text to uppercase. Making your text look nice comes with a price. Lowercase letters are two bytes each instead of one byte like uppercase letters. This can really be costly if your program has a lot of text in it.
+
+```
+:Disp "Hello
+can be
+:Disp "HELLO
+```
+
+You can often shorten text by removing or rewording some of it.
+
+```
+:Output(3,2,"Too Low
+can be
+:Output(3,2,"Higher
+```

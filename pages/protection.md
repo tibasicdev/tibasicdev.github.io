@@ -1,0 +1,270 @@
+# Program Protection
+> **Disclaimer:** Program protection not only is rather limited in its effectiveness, but also acts as a hindrance towards maintaining the open and collaborative nature of the TI-Basic community: allowing others to study and learn from your code, and to use the techniques and concepts in their programs, increases the quality of TI-Basic programs being released.
+
+You've just finished working on your latest, greatest program. You put in a lot of time and effort creating the program, and now you want to enjoy the fruits of your labor — showing it off to your friends at school. When your friends try the game, you get positive feedback and they tell you how much fun it is, and even ask if you could put the game on their calculators.
+
+Now, you don't mind putting the game on your friends' calculators, but you want to make sure that no one can mess with it. Once the game is out amongst the school crowd, you know that other people will want the game so you need to come up with a way to protect your program. Fortunately, there are several ways to protect a program.
+
+Before getting to program protection, the first thing you need to do is edit lock your program. You can edit lock a program using either one of the several downloadable [assembly](assembly.html) programs or the [Graph Link](http://tibasicdev.github.io/local--files/downloads/graphlink.zip) software made by TI. It goes without saying that you should never give someone an editable version of your program.
+
+Once your program is edit locked, now you can add a security function. Although there are several ways to protect a program, they each have varying degrees of complexity and success. The general rule is that the more complicated the protection is, the more difficult it will be for someone to circumvent it.
+
+	- [{#hash}](#hash-functions)
+
+## Put the Code Together
+
+Arguably the simplest, yet most crude program protection method is just putting all of the code in the program on one line. You might recognize this as utilizing [compact style](code-conventions.html#toc1), except this time it serves as a program safeguard instead of a stylistic choice.
+
+In order to put code together, you need to separate each command with a colon (:). The colon closes everything except a literal string, in which case the colon will actually be included as part of the string. In order to prevent this from happening, you need to close the string with a quote before adding the colon.
+
+```
+:If A=2:Then
+:Disp "Hello
+:not(B→B
+:End
+can be
+:If A=2:Then:Disp "Hello":not(B→B:End  // Note the closed string
+```
+
+There is one command that doesn't need a colon following after it — [DelVar](delvar.html) — but leaving it off can cause some problems. DelVar's are typically chained together with one variable after another (i.e., DelVar ADelVar B), but the DelVar command also allows you to take the command from the next line (it doesn't matter what command it is) and put it immediately after the DelVar (i.e., DelVar ADisp "TI-Basic").
+
+This works for the majority of commands, but there are two cases in which the command will actually be ignored: the [End](end.html) from an [If](if.html) conditional and a [Lbl](lbl.html) command. Both of these cases can cause your code to not work correctly anymore, and so you should either add the appropriate colons between the DelVar's or re-organize your code to eliminate the situation entirely.
+
+```
+:If not(X:Then:-Y→Y:DelVar ZEnd
+can be
+:If not(X:Then:DelVar Z-Y→Y:End  // Note DelVar's position
+```
+
+When you put the code together it will wrap around to the next line (and keep wrapping around for however many lines are needed), which is useful because the average calculator user will not be able to read and understand the code then. More importantly, if they press a key to try to mess with the code it can have dire consequences. Specifically, if the user presses CLEAR, the whole line of code (i.e., the entire program) will be deleted.
+
+## Entering a Password
+
+If putting all of the code together on one line seems rather complicated (and maybe not worth all that effort), a simpler program protection method is having the user type in a password at the beginning of a program. You then check the password against the stored password and allow the person to play the game if the passwords match or exit back to the home screen. You can have the password be whatever you want.
+
+```
+:"5552646472→Str1    // Store the password to a string
+:For(X,1,.5length(Str1    // Loop every two characters for a key
+:Repeat Ans
+:getKey
+:End
+:If Ans≠expr(sub(Str1,2X-1,2    // Check if the user typed the wrong key
+:Stop    // Stop the program and return to the home screen
+:End
+```
+
+When editing the password string, you must keep the length divisible by two because of the [For(](for.html) loop and the [If](if.html) conditional check. Besides that, this code does not allow keys 102-105 to be included in the password. That shouldn't be too big of a problem, though.
+
+### Entering Seeds
+
+You can use pseudo random number sequences as a sort of password protection. After seeding the [rand](rand.html) command, the results generated will be unique to the seed that was chosen. If the seed takes on the behavior of a password, then a comparison of the rand function to one of its precomputed results will act as an authentication for that password.
+
+For instance, 5→rand followed by a single use of rand will return .727803… on all calculators, so a test can be devised as follows:
+
+```
+:Input X    // Request a number
+:X→rand    // Seed the random number generator
+:If rand≠.7278038625    // Check if the first random number is not equal to this value
+:Stop    // Stop the program
+or
+:If rand≠.7278038625
+:Stop
+```
+
+Only when the user inputs the correct seed (or in the latter case, stores the correct seed to rand before running the program) will he be able to venture past this part of the code. The upside to this technique is that even if he does see the code, he won't be able to figure out what the password is just by looking at that number.
+
+Going further with this, you can test for a result that is obtained only after a specific number of *numtrials* (i.e., uses of the rand command). After storing 7 as a seed, the third result will be .577519…, so having a test similar to the one shown above will mean that the code that follows it will only work on its third execution after the seed is stored manually — adding another layer of obscurity.
+
+### Hash Functions {#hash}
+
+While using the [seq(](seq-list.html) command, the calculator can still interpret keypresses and store them to [getKey](getkey.html). One possible way you can use this feature is to make a password function that asks the user to enter in the correct password before time expires:
+
+```
+:DelVar L1seq(getKey,X,1,200→L2
+:For(A,1,dim(Ans
+:L2(A
+:If Ans:Ans→L1(1+dim(L1
+:End
+:If 5=dim(L1
+:If max(L1≠{55,52,64,64,72
+:Stop
+:"Success!
+```
+
+The main problem with using this routine is that you have to create a huge list to have enough time to input a reasonable password. This can be fixed by replacing seq(getKey,X,1,200 with something that goes a little slower:
+
+```
+:seq(getKey+0rand,X,1,100)
+:seq(getKey+0dim(rand(2)),X,1,100)
+...
+```
+
+This does lose a bit of sensitivity, but this isn't a huge problem because the routine has a lot of sensitivity to begin with. Even adding +0dim(rand(2)) left the code still sensitive enough that it recorded every keypress of me simply brushing a finger across the keyboard of my TI-83+.
+
+Put this together with the idea that we don't want to store the password itself (because that would be fairly easy to figure out), but rather a hash of the password —  a numerical equivalent value for the password. This is easier than extracting the nonzero elements of a list. For example, sum(√(Ans is a decent option that doesn't care about the order of the keypresses. If you want an option that does, take cumSum(Ans)not(not(Ans first — this multiplies the last keypress by 1, the next-to-last by 2, the one before that by 3, and so on.
+
+Here is an example:
+
+```
+:ClrHome
+:Disp "Input Password
+:seq(getKey+0dim(rand(2)),I,1,50
+:If 106.322402=sum(√(cumSum(Ans)not(not(Ans
+:"Success!
+```
+
+This example will display the message Success! if you enter the password AWESOME. Obviously, one of the main programs with using a hash function is coming up with the different hashes for the passwords, so here is a program that will assist you in making the hashes:
+
+```
+:{0→L1:0
+:Repeat Ans=105
+:If Ans
+:Ans→L1(1+dim(L1
+:getKey
+:End
+:sum(√(cumSum(L1
+:DelVar L1Ans
+```
+
+Input your password and then press ENTER to get the appropriate number to test against.
+
+Example password: HAL
+Hashed result: 29.8632681
+
+By replacing 106.322402 in the hash password program with 29.8632681, the password will be reconfigured to HAL.
+
+## Self-Modifying Code (SMC)
+
+Another way you can protect your program is by using [self-modifying code](selfmodify.html). SMC makes your code more difficult to understand, and by placing code inside a graphing variable, you are essentially hiding it. This prevents somebody who's not very knowledgeable from figuring out what it is.
+
+A good example of this is where you have an [If](if.html) conditional, and you replace part of the condition with a graphing variable:
+
+```
+:If Xnot(Yint(rand
+can be
+:"not(Yint(rand→u
+:If Xu
+```
+
+If this conditional is inside a [loop](while.html), then you can modify the u variable later so that its code is something different when the If conditional is checked next time. For the average calculator user, this will make your code seem obfuscated, and they will be hesitant to mess with it.
+
+## Causing an Error
+
+Depending on the protection used, you usually want to implement an error when it has been breached. The simplest error would be a message to the user. <error status> can be anything you want: see the methods below for when to cause an error.
+
+```
+:If <error status>
+:Pause "ERROR! UNAUTHORIZED USE DETECTED!
+:Stop
+```
+
+Unfortunately, this method allows the user to know when the error occurred and remove the error code by pressing ON when the error is displayed. A more secure method uses an error caused by the calculator that cannot be traced to specific code. The drawback of this method is that a custom error message explaining the problem cannot be displayed.
+
+```
+:If <error status>
+:Goto XX
+```
+
+This code will cause a program to display [ERR:LABEL](errors.html#label) because there is no label XX. It is one of the few errors that does not have the option to go to the code causing the problem, which makes it more secure. An experienced user will most likely be able to find the problem [Goto](goto.html), however.
+
+The most complicated method of causing an error is to embed pieces of code that cause problems when <error status> is true. In the examples below, problems are caused when X≠20 (replace this with whatever condition you want). Unless the user is an expert, it will be difficult for the user to fix the errors.
+
+```
+:If 21=getKey(X=20    // Clear getKey
+:L1(X=20→LSAVE    // Prevent saving
+:A+X→A    // Use as a replacement to A+20→A
+:max({17,21,35,42,55}=seq(5Aint(B(X=20)/fPart(C
+    // Screw up a complicated command
+    // Extremely difficult for someone else to figure out
+```
+
+Another option is to quit the program immediately. This is most effective in a large program, where users will have to pore through hundreds if not thousands of lines of code to find the problem code. In addition, make the program jump to the default quit routine instead of a new one to confuse users even more.
+
+```
+:If L1(31)=5    // Quit condition test
+:Goto XX    // Default quit label
+...    // Whatever code is in between the Goto and matching Lbl
+:Lbl XX
+...    // Stuff to do before quitting
+:Stop
+```
+
+## Storing the Protection Status
+
+The other program protection methods all require one [variable](variables.html) in which to store the protection status (the number of times the program has run for a "trial period", whether it is protected or not, etc.). You can use any variable for this, but each has its own advantages and disadvantages: a custom list is best (but somewhat difficult to implement) and a finance variable is second best.
+
+- ***Regular variables*** — Have the advantage of being readily accessible, but are not very suitable because they are frequently overwritten by other programs.
+- ***Finance variables*** — Built-in to the calculator and are somewhat hidden, so they are unlikely to be erased. You can access these variables by going into the Finance menu. The only uses of the finance variables are the Finance Application and other programs. If another program is using the finance variable you want to use, either use a different one or change the other program. However, all the finance variables are reset to zero when the RAM is cleared.
+- ***Custom Lists*** — Can be archived, and it is unlikely that some other program would use the same list name. However, the list is visible in the Memory Management menu, and a perceptive user may realize that it is being used for program protection and change it. To counter this, you can hide the value among other values in another list used by your program (for example, save lists).
+
+### Trial Periods
+
+If you wanted your program to only run a certain number of times (a trial period), you will have to have a counter that counts the number of times the program has run and produce an error when the limit is reached. (See above for a discussion on which counter to use.) For this example, we will use the finance variable *n* for simplicity. Add something like this to your program:
+
+```
+:n+1→n    // Increment the counter
+:If n>5    // If this is past the fifth time, free trial is over
+:Goto XX    // Replace this with any of error methods explained above
+```
+
+That's it. The above code will cause an error message to be displayed after the user has reached the end of the trial period (used the program five times). You can change this however you want to fit your needs. Since the increment comes after the error, it will continue erring each time it is run.
+
+### Authorization Required
+
+You can also set up your program so that only authorized/licensed users can run it. This method can be combined with the above method: Users can use the programs until their free trial is up and they have to become "authorized." To "authorize" an individual calculator, set *n* to a predetermined value.
+
+There are two ways of doing this: either type in the value manually (and use [Clear Entries](clear-entries.html) afterwards to prevent the user from discovering it), or transfer *n* as part of a [group](grouping.html) containing your program.
+
+```
+:If n≠20    // If n=20, the calculator is "authorized"
+:Goto XX    // If not, cause problems
+    // You can replace this with any of the errors mentioned above
+```
+
+You can also use this method to lock some of your program's features in the "unauthorized" versions. For instance, in this example every user can use feature one (which is part of label 1) while only authorized users can use feature two (which is part of label 2):
+
+```
+:Menu("MAIN MENU", "FEATURE 1", 1, "FEATURE 2", 2
+:Lbl 1 
+<feature one, available to everyone>
+:Lbl 2
+:If n≠20:Then
+:Disp "ONLY AUTHORIZED","USERS CAN USE","THIS FEATURE
+:Else
+<feature two, restricted>
+:End
+```
+
+## Keeping subprograms un-executable
+
+Say you have a large program with many subprograms, the only correct way to run the program is to run the main one. So to keep subprograms from being run outside of the main one you create a pass-on key and have the subprograms check Ans to see if it matches.
+
+```
+PROGRAM:MAIN
+:randInt(1,100→Z	//make a pass-on key, keeping it new each time so the user cant guess it
+(...rest of code)
+:Z				//Store the key as Ans
+:prgrmSUB1			//Call the subprogram
+```
+
+```
+PROGRAM:SUB1
+:If Ans≠Z			//Check the key and end the program if it doesn't match
+:Stop
+(...rest of code)
+```
+
+Simple enough
+
+## Thoughts to Consider
+
+While discussing program protection, it is important to mention that somebody who's a knowledgeable calculator user will be able to circumvent any program protection using either one of the downloadable assembly programs that can unlock TI-Basic programs or the Graph Link software. Because of this, program protection really is only possible when you are dealing with ignorant calculator users.
+
+Besides knowing about knowledgeable calculator users, you should also think about how others would be able to learn from your code. The general consensus among the calculator programming community is that programs should be unrestricted so others are able to study your work, as long as they do not release it as their own.
+
+Putting all the code on one line would be frowned upon in this case because other programmers don't want to have to deal with separating out the code one line at a time to be able to understand and read it; that's just a major headache. Just remember that experimentation is key to learning TI-Basic, so you don't want to deprive that opportunity from someone else.
+
+## References
+
+- David Martin had the ideas for "free trial" and "authorization" program protection in his TI-Basic guide, which unfortunately is not available on the Internet anymore. The examples given here are based on these ideas, but modified to fit this guide better.
+- Weregoose came up with the plain password code example, while DarkerLine and Weregoose came up with the hash function password code examples; the examples were originally posted on the United-TI TI-Basic forum topic.

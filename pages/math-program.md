@@ -1,0 +1,38 @@
+# Math Program
+> **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
+
+**Math Programs** are programs made to perform mathematic calculations or perform other functions. TI-BASIC is capable of creating programs to perform virtually any mathematical function.
+
+### Program
+
+**Needed Commands:** [→](store.html), [Input](input.html), [Output(](output.html), [ClrHome](clrhome.html)
+
+For our example, we are going to make a simple program that will peform the quadratic equation. In other words, when the A, B, and C variables from a quadratic equation are inputed, it will solve for X. We start with the familiar quadratic equation:
+
+```
+PROGRAM:QUADRAT
+:(-B+√(B²-4AC))/(2A→X
+:(-B-√(B²-4AC))/(2A→Y
+```
+
+Notice that because there is no +/- symbol in TI-BASIC, you must create two separate equations in case the solution is negative. The rest of the program is fairly simple.
+
+```
+:ClrHome
+:Output(1,1,"QUADRATIC EQUATE
+:Output(2,1,"----------------
+:Input "A=",A
+:Input "B=",B
+:Input "C=",C
+:ClrHome
+:Output(1,1,"X=
+:Output(1,3,X
+:Output(2,1,"OR
+:Output(2,3,Y
+```
+
+With only these 13 lines of code, you have created a very powerful program that can save you a lot of time. Math programs can be created to do a wide array of tasks, including:
+
+- Do conversions from Metric to English measurements
+- Solve equations that come up a lot (much like the Quadratic Equation)
+- Quickly find the average in a set of numbers

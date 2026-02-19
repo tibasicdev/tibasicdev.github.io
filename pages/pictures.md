@@ -1,0 +1,29 @@
+# Pictures and GDBs
+Picture variables and GDBs (short for Graph DataBase) are used to save two different elements of the current graph display. A picture variable is used to store the exact appearance of the graph screen. A GDB is used to store system variables relevant to the graph screen - equations, window settings, and the like. 10 built-in variables of each type exist: Pic0 through Pic9 for pictures and GDB0 through GDB9 for GDBs.
+
+A picture variable stores the on-or-off state of each pixel in the first 63 rows of the screen (the 64th row is only available for [assembly](assembly.html) programs). The right-most, 96th column is stored with the picture, although it can't be drawn to by TI-Basic commands). The screen is stored to the picture exactly as it appears, with the exception of axes labels (even if they are shown).
+
+A GDB stores the following elements of a graph:
+- [Graphing mode](graphing-mode.html) ([Function](func.html), [Parametric](param.html), [Polar](polar-mode.html), or [Sequential](seq-mode.html))
+- [Window variables](system-variables.html#window) (all variables available for editing in the WINDOW screen)
+- Format settings (the settings selected under 2ND FORMAT, such as axes being on or off)
+- Any functions in the Y= editor, as well as their graph style and selection status
+
+Note that stat plots and functions entered in another graphing mode are not saved. Neither is the output of any drawing command such as those in the 2nd DRAW menu.
+
+## Commands
+
+Only 4 commands exist for dealing with pictures and GDBs:
+
+- [StorePic](storepic.html)
+- [RecallPic](recallpic.html)
+- [StoreGDB](storegdb.html)
+- [RecallGDB](recallgdb.html)
+
+They pretty much do what you expect them to.
+
+## Advanced
+
+It's possible, using an assembly program such as [Picture Manager v1.0](http://www.ticalc.org/archives/files/fileinfo/357/35781.html), to access extra picture variables available due to a shortcut in the TIOS. There are 256 pictures available total; the first ten are Pic1, Pic2, ..., Pic9, Pic0, and the rest are only accessible through an [assembly](assembly.html) program.
+
+The same shortcut exists, in theory, for the GDB variables, but since most programmers don't even use the ones that are available, no assembly program for the purpose has been written.

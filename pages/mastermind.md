@@ -1,0 +1,41 @@
+# Mastermind
+Mastermind is a fun game that involves trying to break a random code of five numbers (1-9) in fifteen guesses or less. To help assist you with the code-breaking, a clue is displayed below each number. If the number is correct and in the right position, a star (*) will be displayed. If the number is correct but in the wrong position, a plus (+) will be displayed. And if the number is simply wrong, a minus (-) will be displayed. Try out the game and try to understand and think through the code.
+
+### The Code
+
+```
+:randInt(1,9,5→L1
+:For(X,1,15
+:0→dim(L2
+:Repeat Ans=105 and 5=dim(L2
+:ClrHome
+:For(Y,1,dim(L2
+:Output(1,Y,L2(Y
+:End
+:Repeat Ans
+:getKey
+:End
+:If Ans=22
+:Goto Q
+:If Ans=45
+:ClrList L2
+:If Ans=23 and dim(L2
+:dim(L2)-1→dim(L2
+:If 5>dim(L2) and 2>abs(5-abs(5-abs(Ans-83
+:26-3int(.1Ans)+10fPart(.1Ans→L2(1+dim(L2
+:End
+:" // 1 space
+:For(Y,1,5
+:Ans+sub("-+*",1+max(L2(Y)=L1)+(L2(Y)=L1(Y)),1
+:End
+:Output(2,1,sub(Ans,2,5
+:rand(E2  // scientific E ([2nd][,])
+:If not(min(L2=L1
+:End
+:Disp sub("FAIL!WIN! ",1+5(X<16),5
+:Lbl Q
+```
+
+### Related Games
+
+- [Mastermind (Alternate)](mastermind2.html)

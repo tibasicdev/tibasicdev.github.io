@@ -1,0 +1,40 @@
+# Light Cycles
+If you remember the old movie, *Tron*, you might remember the premise of this game.  You control a cycle (or in this case, a pixel) that moves in a direction until you change the direction.  It leaves a path, and if you hit the path, or the wall, you lose.  The trick here is that you must out last your opponent: an AI.  This version of Light Cycles for the calculator utilizes a simple AI system that makes it kind of intelligent.  Please try to understand the code and learn from it.
+
+### The Code
+
+```
+:Full
+:FnOff
+:AxesOff
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:ClrDraw
+:Vertical Xmin
+:Vertical Xmax
+:Horizontal Ymin
+:Horizontal Ymax
+:60→A:92→B
+:2→C:2→D:25→G
+:Pxl-On(A,B
+:Pxl-On(C,D
+:Text(-1,28,31,"READY?
+:Pause
+:For(E,26,36
+:Line(29,E,67,E,0
+:End
+:Repeat G=45 or not(pxl-Test(A,B) and pxl-Test(C,D
+:getKey
+:If Ans
+:Ans→G
+:A+(G=34)-(G=25→A
+:B+(G=26)-(G=24→B
+:1+pxl-Test(C+1,D
+:Ans+(Ans=2 and pxl-Test(C,D-1
+:Ans+(Ans=3 and pxl-Test(C-1,D→F
+:C+(Ans=1)-(Ans=3→C
+:D+(F=4)-(F=2→D
+:Pxl-Change(A,B
+:Pxl-Change(C,D
+:End
+```

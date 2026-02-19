@@ -1,0 +1,42 @@
+# Darts
+Darts is a simple game where you want to hit the target ("]") with your dart (">"), while avoiding the obstacles ("^" or "v") in your way. You get one point for each target you hit, and since there are twenty rounds, the maximum number of points is twenty. Although this game is rather simple at its core, it is extremely compact, and a good example of what you can do in a small number of bytes. Like with the other games, try out the game and try to understand and think through the code.
+
+
+
+### The Code
+
+```
+:"Ans+8(not(Ans)-(Ans=9→u
+:"1-2int(2rand→v
+:"randInt(1,8→w
+:DelVar SFor(I,1,20
+:seq(w,J,1,3→L1
+:seq(4J-v,J,1,3→L2
+:seq(v,J,1,3→L3
+:w→A:1→D:w→B
+:DelVar Ev→C
+:Repeat D=16 or max(A=Ans and D=L2
+:ClrHome
+:getKey→K
+:If Ans=45:Goto Q
+:If Ans=21:1→E
+:Output(A,D,">
+:Output(B,16,"]
+:For(J,1,3
+:Output(L1(J),L2(J),sub("^ v",2+L3(J),1
+:End
+:A+(Ans=34)-(Ans=25
+:u→A:D+E→D:B+C
+:u→B:L1+L3:u→L1
+:End
+:S+(A=B and D=16→S
+:End
+:Lbl Q
+:ClrHome:S
+```
+
+### The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+- [Darts](http://tibasicdev.github.io/local--files/darts/darts.zip)

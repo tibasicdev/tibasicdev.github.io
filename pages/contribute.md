@@ -1,0 +1,31 @@
+# Contributing to the Wiki
+You can join the TI-Basic Developer by clicking the “Join TI|BD” button on the [system:join](system:join.html) page.
+
+## How to use the Wiki
+
+We know that you probably aren't very familiar with this wiki and how to use it, so we wanted to provide you with some help on how to edit and create a new page, as well as to lay down some basic guidelines to follow when contributing.
+
+You can edit a page by clicking on the *edit* button at the bottom of the page. This will open an editor with a toolbar palette that has lots of editing options and features available. You then can make whatever changes to the page that you want.
+The wiki uses its own markup language based on HTML to format the text — you can see the complete language at the [wiki syntax](http://www.wikidot.com/doc:wiki-syntax) page.
+
+Please don't worry about making a mistake when editing a page because every version of a page is saved and can be accessed by clicking the *history* button at the bottom of the page. If you don't like what you wrote or it is incomplete, somebody else can change it and make it better. And if somebody tries to vandalize a page, you can simply revert it to a previous good version.
+
+To create a link to a new page, you can use either ``[`new page name`](new-page-name.html)`` or ``[`text to display`](new-page-name.html)``. Follow the link (which should be colored red if the page does not exist) and create a new page. You can also create a new page by typing the page's name in the "Add New Page" section of the navigator (on the left of every page) or at the end of the URL — http://tibasicdev.github.io/whateveryouwant — and pressing ENTER.
+
+A useful technique for testing new articles/features/whatevers you may intend to implement, is that of creating pages in the [sandbox](sandbox.html) category. When you finish the page, click on "Discuss" in the bottom right-hand corner to alert the community in the forums to hear their opinions on your new article/feature/whatever. Then, once everybody is happy, you can transfer the page to the appropriate section of the wiki.
+
+When you are creating a command or routine page, please use the respective [command](template:command.html) or [routine](template:routine.html) template. Similarly, when creating a regular page, follow the [wiki conventions](conventions.html) so that the wiki maintains a consistent look and feel. And if you are looking for something to write, see the [wiki to-do list](to-do.html).
+
+You may also find the [guide to editing](guide-to-editing.html) page useful for editing specific or pages, as this page explains the unique oddities which improve the structure of this site.
+
+## Wiki Guidelines
+
+If somebody has already created a page with the same name that you wanted, you should analyze the content and focus of the page to see if it is different than what you were planning. If the content and focus are the same, then you should add your contribution to the page; if it is something different, then create a new page with a different name.
+
+However, if the content and focus of the page are the same and your contribution is substantial enough to warrant its own page (i.e., it is rather lengthy), it would be better to place it on a new page and link back to the other related page. This ensures that the new page won't be forgotten because it has an incoming link linking to it.
+
+While you are adding content to a page, always try to insert links to other pages in the wiki wherever you can. This inter-linking is a big part of what determines a wiki's success, so it is important that you do it. That said, you don't want to have every other word be a link, as it reduces the readability of the page.
+
+Finally, when coming up with a page name, look at the content you want to write about and choose something that is logically representative of the topic (for example, *Movement in Maps* is adequately named [movement](movement.html)). If you want to write about a general topic, make sure that the page name is basic enough so that other people can include their own content on the page. Please try to put some thought into page names before creating a new page.
+
+For more specific guidelines on content and formatting, check out the [wiki conventions](conventions.html).

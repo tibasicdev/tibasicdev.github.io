@@ -1,0 +1,3 @@
+# N D
+n/d is the template for entering a simple fraction.
+n/d is accessible by pressing ALPHA then Y= then enter.

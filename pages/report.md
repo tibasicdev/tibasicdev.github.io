@@ -1,0 +1,2 @@
+# Report A Member
+This is where you can report members you who have broken the rules, or who you suspect to be alternate accounts. By reporting members here, it sends the report to all admins so the members can be dealt with in a fast and efficient manner. Simply enter their username into the box below and click the button to start a new report.

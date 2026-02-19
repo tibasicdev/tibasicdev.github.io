@@ -1,0 +1,16 @@
+# Marketing
+After spending considerable time making a program that you are proud of, the natural next step is to try to get people to start using your program. After all, a program is nothing without people downloading and using it. The way to achieve this is by marketing the program to other TI-Basic programmers and gamers in the TI community.
+
+Marketing consists of three main channels: advertising, public relations, and email. Probably the best place to advertise a program is on TI-Basic forums. Forums typically get the most visibility (i.e. traffic) simply because they are a nexus for lots of like-minded people to come together to communicate and freely talk. Besides the posters, there are lots of visitors/lurkers who frequent forums.
+
+When marketing on the forums, try to be honest about your program's merits and avoid any needless hyping; let your program's quality speak for itself. People are keenly aware of when wannabe TI-Basic programmers are all smoke and mirrors (with no real substance), so how you present your program is extremely important.
+
+The other way to market your program on forums is to post a download link to the program in your signature. Depending on how often you post on the forums you frequent, sooner or later people will see the link to your program and curiosity will cause them to click the link. This is marketing in a simple, yet effective way.
+
+Public relations marketing involves using two main resources: your own website or group and affiliating with other TI-Basic programmers and groups. If you have your own website and/or are part of a TI-Basic group, consider announcing the release of your program in a news post and asking the other members in your group to download the program. In addition, ask them to tell other TI-Basic programmers and gamers about it.
+
+Related to having your own website or group, think about affiliating with other TI-Basic programmers and groups. These people already have a built-in audience that you can market your program to and they are probably willing to help you out with the marketing. It can't be said enough that building bridges in the TI community goes a long way towards marketing success. This is especially true if the affiliates have a good reputation in the community, since they have some sway on other TI-Basic programmers.
+
+Email is often the most forgotten part of marketing because it involves contacting people on an individual basis. However, email marketing can be very effective because it has a personal element to it which other marketing channels simply don't have. When using email, try to tell the person about your program and how you think it might be useful to them. Even if the person tells you they're not interested, they will usually thank you for taking the time to email them.
+
+Regardless of which way(s) you market your programs, always remember that there is a delicate, fine balance. Once you misuse or go overboard with marketing, it not only makes people *not* want to download your programs but it takes a long time for people to change their opinion of you; your reputation in the community is extremely hard to get back once it is ruined. So, try to create the highest quality programs possible and use wise marketing sense.

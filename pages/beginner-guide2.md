@@ -1,0 +1,150 @@
+# Different Paths
+> **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
+
+
+
+### Lbl and Menu
+
+An important aspect of every program is allowing the user to feel like they have some control over what goes on in the program. There are a lot of ways to let users chose their own paths. But first, you need those paths to lead somewhere.
+
+#### [Lbl](goto.html)
+
+Lbl (label) is a command that divides your program into different sections. While this is not very helpful on its own, you can add commands that direct the user to different labels.
+
+#### [Menu(](menu.html)
+
+The Menu( function is used to create some pretty awesome looking menus in your programs. Better yet, it's really simple. Look on the [Menu(](menu.html) page to see how easy it is to make a menu.
+
+#### Using Lbl and Menu( Together
+
+Let's make the following program:
+
+```
+Program:WIKI
+:Lbl 1
+:ClrHome
+:Menu("I AM REALLY...","COOL",2,"SMART",3,"PRETTY",4
+:Lbl 2
+:Output(1,1,"YOU ARE COOL
+:Pause
+:Goto 1
+:Lbl 3
+:Output(1,1,"YOU ARE SMART
+:Pause
+:Goto 1
+:Lbl 4
+:Output(1,1,"YOU ARE PRETTY
+:Pause
+:Goto 1
+```
+
+This program lets the user feel as if they are in control. It lets them pick which of the given paths they want to take, and the choice they make affects what happens in the program. In the program, whichever word they choose will appear after YOU ARE on the screen. Using only [Lbl](goto.html), [Menu(](menu.html), [Output(](output.html), [Pause](pause.html), and [ClrHome](clrhome.html) commands, you have all the tools necessary to create a complete, nice looking [Text Adventure](text-adventure.html). Click on the link to see a tutorial of how to create a text adventure.
+
+#### If, Then, Else, and Goto
+
+#### [If](if.html)
+
+If is used as a normal conditional statement would, in conjunction with Then. This means that when you place it in a program with a condition next to it (like X=5 or N>P), the next line of commands will only be executed if the statement is true (unless a [not(](not.html) restriction is placed before it, in which case, it will only be executed if the statement is not true).
+
+#### [Then](then.html)
+
+When separated from an if command by a colon (e.x. If X:Then), will only perform the following line of text if the statement following the if statement is true.
+
+#### [Else](else.html)
+
+When you place an If/Then statement into a program, there are always two options: The If/Then statement is true or the If/Then statement is false. Placing multiple If/Then statements for the same condition can get confusing. Instead, you can place an Else command, which will only perform the text after it if the If/Then statement before it is false.
+
+#### [Goto](goto.html)
+
+Goto will simply do one task: It will GoTo the indicated label (e.x. ''Goto 5'' will send the program to label 5).
+
+#### Using If, Then, Else, and Goto Together
+
+In order to get this program to work, we need to use one command you do not know yet: [randInt(](randint.html). All you need to know is that it will choose a random integer between the two indicated numbers and store it into the indicated variable. You will learn more about this command later.
+
+```
+Program:WIKI
+:ClrHome
+:randInt(1,10→X
+:Output(1,1,X
+:Pause
+:If X>5:Then
+:Goto 1
+:Else
+:Goto 2
+:Lbl 1
+:Output(2,1,"GREATER THAN 5
+:Goto 3
+:Lbl 2
+:Output(2,1,"LESS THAN/EQUAL  TO 5
+:Goto 3
+:Lbl 3
+:Output(4,1,"END
+```
+
+This program will choose a random number between 1 and 10. It will then show you the number, and pause. If the value of the number is greater than 5, the program goes to label 1, and outputs GREATER THAN 5. If is is not, the program goes to label 1 and outputs LESS THAN/EQUAL  TO 5 (the two spaces are put in to wrap the text to the next line). After, the program will go to label 3 and output END.
+
+#### Note on Using If and Then
+
+A common problem that new programmers run into is the difference between using "If/Then" commands as opposed to just "If" commands. Observe the two programs:
+
+```
+Program:IFTHEN
+:ClrHome
+:Input "NUM",X
+:If X=5:Then
+:Goto 1
+:Else
+:Goto 2
+...
+```
+
+In this program, if the number is five, the program will go to label one. If not, it will go to label two. But what if you wanted to change the program so that it would go to a different label for each number one through five? **You cannot use more than one If/Then command for a condition! You must follow an If/Then with an Else!** Instead, use this program:
+
+```
+Program:IF
+:ClrHome
+:Input "NUM",X
+:If X=1
+:Goto 1
+:If X=2
+:Goto 2
+:If X=3
+:Goto 3
+...
+```
+
+If the statement, does not meet any of the conditions, the program will just continue normally.
+
+### Input
+
+#### [Input](input.html)
+
+Input is one of the most important commands that could be put into a program. It will allow the user of the program to input data, then the data will get stored into a variable. For example, if '''Input "NUMBER:",X''' is put into a program, the program will print NUMBER:, then wait until the user enters data and presses enter. The data will be stored into the variable X. This can make programs, such as the one above, be much more enjoyable for the user. If we take the program above and substitute the randInt( command for an Input command, we get:
+
+```
+Program:WIKI
+:ClrHome
+:Input "NUMBER 1-10:",X
+:Pause
+:If X>5:Then
+:Goto 1
+:Else
+:Goto 2
+:Lbl 1
+:Output(2,1,"GREATER THAN 5
+:Goto 3
+:Lbl 2
+:Output(2,1,"LESS THAN/EQUAL  TO 5
+:Goto 3
+:Lbl 3
+:Output(4,1,"END
+```
+
+The part of the code that displayed X is no longer necessary, because the user will obviously know the number they chose. The program will then go through the same analysis, but with the inputted number instead of a random one. 
+
+#### Guessing Games
+
+Using the Input command is the basis of nearly all programs that do not use [Menu(](menu.html) or [getKey](getkey.html) (which you'll learn about later). One of the simplest programs you can make with it is a 1 or even 2 person [Guessing Game](guess.html). Check out the Guessing Game tutorial to see how to use the commands you know to create a game that you and your friends can enjoy.
+
+[Continue to Visual Magic](beginner-guide3.html)

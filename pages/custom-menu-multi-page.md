@@ -1,0 +1,61 @@
+# Custom Menu Multi Page
+|Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
+|--- |--- |--- |--- |--- |--- |
+|A custom menu with up to 9 switchable pages.|*Str1-Str9* - one string per page<br>*A* - Number of pages the menu includes|*B* - the page they're on<br>*X* - the # choice they made|Ans, B, C, D, X, Str#|Mr Dino|[file MENUZ.zip]|
+
+```
+:1→B
+:While 1
+:If B=1:Str1
+:If B=2:Str2
+:If B=3:Str3
+:If B=4:Str4
+:If B=5:Str5
+:If B=6:Str6
+:If B=7:Str7
+:If B=8:Str8
+:If B=9:Str9
+:ClrHome
+:Output(1,1,Ans
+:length(Ans)/16
+:If fPart(Ans
+:1+iPart(Ans
+:Ans→D
+:2→X
+:Repeat C=24 or C=26
+:Output(X,2,">
+:Repeat Ans
+:getKey→C
+:End
+:If Ans=21
+:Then
+:X-1→X
+:Return
+:End
+:Output(X,2," " // space
+:X-(Ans=25)+(Ans=34→X
+:2(X>D)+D(X≤1)+X(X≤D and X>1→X
+:max(1,min(A,B+(C=26)-(C=24→B
+:End
+:End
+```
+
+To use this code, store an integer to A 1-0 representing the number of pages that will be in your menu. It will use all strings Str1-StrA. Next, store the menu pages into the strings. They will be shown with 'Output(1,1,StrA)', so make sure that the menu looks right before using it. Make sure there are 16 characters in each line (starting with the title). Use spaces to make the words fit right, and you should probably test it to make sure it works. There should probably also be something in the title that signifies what page you're on. Finally, run the code as a subprogram.
+
+Here's how it works:
+
+B represents what page number it's on, so we start off by storing 1 to B to put us on page 1. Then we have a While 1 loop to manage page changes. Based on the value of B, it will put one of the strings into Ans. It will output Ans onto the home screen, then determine how many rows are in the menu and store that to D. And the user will always start out on option 1 - row 2 (because of the title screen).
+
+Now we start the choice loop: We display the cursor, then wait for a keypress. If the use presses [2nd], we subtract 1 from X (for the offset from the title) and Return back to the parent program, with B as the page number and X as the choice number. But if not, it continues: The cursor is erased, X and B are changed according to the keypress, and if the use changed the page, it exits the choice loop and enters the page loop where it displays the new page and sets up for another choice loop.
+
+## Error Conditions
+
+It won't work properly if A isn't an integer within the bounds 1-9 or if the strings don't represent the menu pages correctly.
+
+- **[ERR:UNDEFINED](errors.html#undefined)** is thrown if you don't define the strings.
+
+## Related Routines
+
+There are several routines that are similar in functionality or are used in a similar context. Make a bulleted list of them, with links to the other routines' pages. It will often be the case that several routines all link to each other.
+
+- [Custom Menu Single Page](custom-menu-single-page.html)

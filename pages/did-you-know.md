@@ -1,0 +1,84 @@
+# "Did You Know..." Archive
+
+### Did you know...
+- …that [Finance](finance.html) under the Applications menu is really not an application at all?
+- …that the arrow and DEL keys can actually be held down, which will cause the key to keep being repeated until it is released?
+- …that a [`Repeat`](repeat.html) loop will always loop at least once, regardless of whether the condition is true or false before entering the loop?
+- …that you can use -E[[/size]]99 and E[[/size]]99 to represent -∞ and +∞ in many calculations?
+- …that TI added several new TI-Basic commands to the newer TI-84+/SE calculators?
+- …that pressing [2nd] [RIGHT] in the program editor will take you to the end of your current line, and [2nd] [LEFT] will take you to the beginning of that line?
+- …that pressing alpha in the program editor followed by up or down, you will scroll a whole page of program code?
+- …that the smallest (though not the fastest) way to shade the entire [graph screen](graphscreen.html) is [`Shade(`](shade.html)[Ymin](system-variables.html),[Ymax](system-variables.html))?
+- …that you can scroll the [`Pause`](pause.html) command's optional argument to see it in its entirety?
+- …that placing a [Lbl](lbl.html) after [DelVar](delvar.html) will make that Lbl literally disappear?
+- …that you can omit the closing parentheses, quote, square bracket, curly brace, etc. at the end of a command or function?
+- …that you can get away with not having a colon or a new line after [`DelVar`](delvar.html)?
+- …that you can use [`SetUpEditor`](setupeditor.html) to [`UnArchive`](unarchive.html) a [list](list.html), but at the same time create the list if it doesn't exist?
+- …that you can make [subprograms](subprograms.html) that are contained inside the program itself, so that they can be called by the program whenever needed?
+- …that the majority of the [graphics](graphscreen.html) commands are dependent upon the [window dimensions](system-variables.html#window), so you should always use a [friendly graphing window](friendly-window.html) to ensure everything shows up as you intended?
+- …that you can [compress](compression.html) a list of related numbers by combining them into integer and fraction parts?
+- …that the fastest way to check for a whole number is the command [`not(`](not.html)[fPart(](fpart.html)?
+- …that the [`String►Equ(`](string-equ.html) command is completely useless, and you can store a string into one of the [equation variables](system-variables.html#equation) just using the → ([store](store.html)) operator?
+- …that the [finance variables](system-variables.html#finance) are the fastest variables to use, even faster than [Ans](ans.html)?
+- …There is no dyk 28
+..oh wait now there is…
+- …that you can store to the [list](lists.html) element one past the last element to add it to the end?
+- …that [lists](lists.html) are the only variable that you can give your own names to?
+- …that you can run your TI-Basic program from an [assembly shell](asmshells.html) by placing a colon (":") as the first line of your program?
+- …that you can get rid of the run indicator on the TI-83/84/+/SE by using `Text(-1,0,90,"  "` on the [graph screen](graphscreen.html) and `Output(1,16,"  "` on the [home screen](homescreen.html)?
+- …that you can use the [`%`](percent.html) symbol or [`sub(`](sub.html) with one argument as a smaller replacement for multiplying by .01?
+- …that the smallest way to implement the distance formula is by using the [`R►Pr(`](r-pr.html) command?
+- …that you can get the number of digits of a number N to the left of the decimal point by using the formula `1+[int(](int.html)[log(](log.html)N)`?
+- …that you can get the [home screen](homescreen.html) font on the [graph screen](graphscreen.html) (except on the regular TI-83) by placing a '-1' at the beginning of the [`Text(`](text.html) command?
+- …that you can enable the faster circle drawing flag on the TI-83/84/+/SE by placing {*i* after the last argument of the [`Circle(`](circle.html) command?
+- …that there are 256 [picture variables](pictures.html) built-in to the TI-83+ calculator, even though the calculator only shows 10 picture variables?
+- …that using [`ΔList(`](deltalist.html) together with [`cumSum(`](cumsum.html) will return a list with its first element removed?
+- …that "0<X<10" will actually compare "0<X" first, and compares the result (0 or 1) to 10, so "0<X and X<10" should be used instead?
+- …that [`iPart(`](ipart.html) and [`int(`](int.html) will return the same answers for positive numbers, but `int(` will return an answer 1 less than `iPart(` for (non-integer) negative numbers?
+- …that you can save memory when displaying text by replacing words such as "If" and "Then" with the [appropriate commands](if.html)?
+- …that you can draw with different plot marks using [`Pt-On`](pt-on.html)(X,Y,#)?
+- …that you can use multiple *text* arguments at the end of one [`Text(`](text.html) command to write, for example, `Text(R,C,"Score",S)`?
+- …that you can use [`rand`](rand.html)(` to create a time delay similar to the `[Wait](wait.html) command on the [http://tibasicdev.github.io/thecalcs#toc6|TI-84+CE](http://tibasicdev.github.io/thecalcs#toc6-ti-84-ce)(http://tibasicdev.github.io/thecalcs#toc6-ti-84-ce)?
+- …that you can replace the "Done" message that appears after a program is finished running by placing an expression, some text, or just a quote on the last line of your program?
+- …that [`Line(`](line.html) has an optional fifth argument that, if zero, will *erase* the pixels on a line, and, on [color calculators](http://tibasicdev.github.io/thecalcs#toc5), will change the color of the line?
+- …that you can use `[tanh(](tanh.html)E[[/size]]9X` to compute the sign of X?
+- …that while using [`seq(`](seq-list.html), the calculator can still interpret keypresses and store them to [`getKey`](getkey.html)?
+- …that you can omit the closing parentheses, quote, square bracket, curly brace, etc. at the end of a command or function?
+- …that a memory leak is caused when you use a [`Goto/Lbl`](goto.html) within a [loop](controlflow.html) or [`If`](if.html) conditional (anything that has an [`End`](end.html) command) to jump out of that control structure before the `End` command is reached?
+- …that the TI-83 series of calculators does implicit [multiplication](multiply.html), so there is no need to ever use the * sign?
+- …that it is actually sometimes [better to leave on the closing parentheses](http://tibasicdev.github.io/timings#toc3) on the [`For(`](for.html) loop?
+- …that you can treat strings as always-undefined variables in symbolic math?
+- …that ending a variable name with an underscore _ will make [`68k:solve()`](68k:solve().html) and [`68k:cSolve()`](68k:csolve().html) assume it's complex?
+- …that the © character can be used to enter comments in programs?
+- …that the 26 one-letter variables a-z are much smaller to access?
+- …that the [ok](68k:system-variables.html#ok) system variable checks if a dialog was cancelled?
+- …that strings are the fastest data type to access, given enough elements?
+- …that [`68k:setMode()`](68k:setmode().html) and similar commands have an alternate "programmer's syntax"?
+- …that displaying sprites to column coordinates divisible by 8 is faster than to other coordinates?
+- …that the [`68k:and`](68k:and.html), [`68k:or`](68k:or.html), [`68k:xor`](68k:xor.html), and [`68k:not`](68k:not.html) commands can be used as bitwise operators on integers?
+- …that the [expr(](expr.html) command allows you to store an expression to a [string](strings.html) and then execute the string?
+- …that @1, @2, etc. stand in for arbitrary constants in an expression?
+- …that you can take the n<sup>th</sup> root of x by entering x^(1/n)?
+- …that you can put images in [toolbars](68k:toolbar.html) on the widescreen calculators?
+- …that you can use [`68k:part()`](68k:part().html) to write your own symbolic operations?
+- …that the calculator can do math with integers up to 2<sup>2040</sup>?
+- …that if you have a rather bulky matrix or list, you can store it as a string to one of the [sequence](seq-mode.html) variables, *u,v,w* and halve the size? Then, you can evaluate the expression using said variable and [`Ans`](ans.html)(X) where X equals the list or matrix element you want?
+- …that you can store an empty string into a string variable, but you cannot perform operations on it?
+- …that you can use check `[max(](max.html)N=L₁` to check if N is in L₁, and `1+[sum(](sum.html)[not(](not.html)[cumSum(](cumsum.html)N=L₁` to tell where?
+- …that the color tokens on a TI-84+CSE/CE can be used as number equivalents for math? For example, BLUE*5 equals 50 while DARKGRAY-4 equals 20?
+- …that TI 84+CSE and CE calculators have ten high-resolution image slots that can be used as [backgrounds](http://tibasicdev.github.io/backgroundon) for graphing?
+- …that the [`Horiz`](horiz.html) format will split the screen in half horizontally, with both the graph screen and home screen being shown at the same time?
+- …that the TI-Basic Developer has a complete [TI-Basic Starter Kit](starter-kit.html) filled with important tutorials, guides, and tips for new TI-Basic programmers?
+- …that you can draw different lines for equations by going to the "Y=" menu, pressing left twice, and pressing enter to cycle through the different line types?
+- …that the Nspire can program in TI BASIC, C, Assembly, and Lua?
+- …that the Nspire can program in TI BASIC, C, Assembly, and Lua?
+- …that many of the Windows shortcut key commands work on the Nspire?
+- …that you can compare multiple data sets in the same graphing window?
+- …that you can change the color of the input or output of a math box?
+- …that there are also models aimed for the Chinese market, such as the TI-Nspire CM-C?
+- …that 68k calculators can not only program in TI-Basic, but can program in Assembly and C as well?
+- …that you can access the lowercase letters by using an [assembly](assembly.html) program to turn on the lowercase flag that the calculator uses for enabling lowercase letters?
+- …that you can use [plot sprites](graphics.html#toc2) to make simple, easily movable sprites on the color calculators?
+- …that you can use a combination of real and imaginary numbers to [compress](compression.html) a real list, and use [`imag(`](imag.html) and [`real(`](real.html) to decompress it?
+- …that the [Wait](wait.html) command allows decimals? You can do .5 seconds for a half a second!
+- …that the [key codes](key-codes.html) follow a simple pattern: a key is represented by putting its row and column together?

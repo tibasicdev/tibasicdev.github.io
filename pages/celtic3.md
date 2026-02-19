@@ -1,0 +1,7 @@
+# Celtic 3
+## Introduction
+Celtic III is a Flash Application for the TI-83 Plus, TI-83 Plus Silver Edition, TI-84 Plus, and the TI-84 Plus Silver Edition graphing calculators, designed to extend the functionality of these calculators so that BASIC games and utilities can perform actions that cannot easily be done through the language itself. Celtic III supports its own command set focused more on file handling and manipulation. It also supports a command set used for manipulating image files and screen data. It also supports decent compatibility with the popular xLIB library so you don't have to change anything.[[footnote]] This text was taken directly from the [Celtic3 Readme](http://f.eeems.ca/resources/program-20readmes/celtic-20iii/readme-20celtic-203-20app.txt) [[/footnote]]
+
+## How To Use
+Will add more later; but for now, read the read me.
+http://f.eeems.ca/Resources/program%20readmes/Celtic%20III/ReadME%20Celtic%203%20app.txt

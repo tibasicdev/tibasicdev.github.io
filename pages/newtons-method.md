@@ -1,0 +1,50 @@
+# Newtons Method
+|Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
+|--- |--- |--- |--- |--- |--- |
+|Newton's Method - calculates the value of an equation|Variant 1: Str1, A<br>Variant 2: Str1, Str2<br><br>*Str1 and Str2* - The equation(s) are stored to the string variables.<br>*Y1 and Y2* - The equation(s) are stored to the Y-variables from the string variables, then used for operations.<br>*A* - To store the seed value, and then the final value of the equation.|*A* - The answer is stored to A|A, Y1, Y2|Variant 1:Myles_Zadok<br>Variant 2: Xeda Elnara|http://tibasicdev.github.io/local—files/newtons-method/NEWTON.zip newton.zip|
+
+Newton's Method is a routine for math that calculates the value of the zeroes of an equation, or the intersection point of two equations.
+
+**Variant 1**
+```
+:Input "Y1=",Str1
+:Str1→Y1
+:Input "SEED VALUE=",A
+:For(I,1,10)
+:Tangent(Y1,A)
+:A-((Y1(A))/(nDeriv(Y1,X,A)))→A
+:End
+:Disp "APPROX. ROOT IS ",A
+```
+
+The program asks the user for an equation and the seed value. The seed value is the point from which the calculator approximates the zero of the function, so the seed value needs to be close to the desired zero. The calculator then begins the For( loop, which is run 10 times, each time getting a closer approximation of the zero. The loop draws a tangent line and runs the formula for the zero of the function. The answer, depending on the seed value, should be really close to the zero of the function.
+
+In case you're wondering, you can remove the Tangent( command altogether and make the program run faster. However, you will have no clue as to whether you chose a good seed value or not. The Tangent( command slows down the program, but it lets you see if your chosen seed value will be accurate or not.
+
+**Variant 2**
+```
+Variant 2
+:Input "Y1 ",Str1
+:Str1→Y1
+:Input "Y2 ",Str2
+:Str2→Y2
+:0→I
+:Repeat I=10 or K<20
+:I+1→I
+:0→K
+:10rand→A
+:Ans+1
+:While K<20 and E-10<abs(A-Ans
+:Ans→A
+:K+1→K
+:A-(Y1(A)-Y2(A))/nDeriv((Y1-Y2),X,A
+:End
+:End
+:Disp Ans
+```
+
+The program asks for two equations and runs Repeat and While loops followed by the formula for the X-coordinate of the intersection of the two equations. The answer should be the value of the X-coordinate of the intersection.
+
+## Related Routines
+
+- [Eulers Method](eulers-method.html)

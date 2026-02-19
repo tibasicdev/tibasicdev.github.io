@@ -1,0 +1,24 @@
+# Programs
+[Program Archives](archives.html)[[/size]]
+
+The program archives is a stash of the various programs and games that can be downloaded from the computer onto your calculator.
+
+
+**[The Routines](routines.html)**
+
+This is where most of the helpful code is.  Routines will help you accomplish some tasks that cannot normally be done with a simple command.  If you need help converting numbers to strings or adding the digits in a number, this is the place to go.
+
+[%%link%% Random Routine!]
+[[/module]]
+
+**[Alternate Routines](alternate-routines.html)**
+
+This page will show some alternate ways to do things to either gain a speed advantage, size advantage, or accomplish more than one thing.  Sometimes, a simple routine won't do in a program, and this page will show you some new ways to accomplish the same task.
+
+**[The Programs](programs.html)**
+
+A program will give an opportunity for input and for sure gives some sort of output.  The programs provide examples of certain goals being met.  These will also show you how to create input and output in crafty ways to help you become a more competent programmer.
+
+**[The Games](games.html)**
+
+The games here are very simple ones, but they use all of the design and techniques discussed in this wiki.  These games are an example of what TI-Basic has to offer and how the techniques can be combined to create a full-fledged game.

@@ -1,0 +1,60 @@
+![The P►Ry( Command](p-ry/PTORY.GIF "The P►Ry( Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|P►Ry( calculates the y-value (in Cartesian coordinates) given Polar coordinates.|P►Ry(r,θ)|TI-83/84/+/SE|1 byte|
+
+### Menu Location
+Press:<br># 2nd ANGLE to access the angle menu.<br># 8 to select P►Ry(, or use arrows and ENTER.
+# The P►Ry( Command
+
+P►Ry( (polar to rectangular y-coordinate) calculates the y-coordinate of a polar point.  Polar coordinates are of the form (r,θ), where θ is the counterclockwise angle made with the positive x-axis, and r is the distance away from the origin (the point (0,0)).  The conversion identity y=r*sin(θ) is used to calculate P►Ry(.
+
+The value returned depends on whether the calculator is in [radian](radian-mode.html) or [degree](degree-mode.html) mode. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion from radians to degrees is angle*180/π and from degrees to radians is angle*π/180.  The P►Ry( command also accepts a list of points.
+
+```
+P►Ry(5,π/4)
+	3.535533906
+5*sin(π/4)
+	3.535533906
+P►Ry({1,2},{π/4,π/3})
+	{.7071067812 1.732050808}
+```
+
+## Advanced Uses
+
+You can bypass the mode setting by using the [°](degree-symbol.html) (degree) and <sup>[r](radian-symbol.html)</sup> (radian) symbols.  This next command will return the same values no matter if your calculator is in degrees or radians:
+```
+P►Ry(1,{π/4^^r,60°})
+	{.7071067812 .8660254038}
+```
+
+## Optimization
+
+In most cases P►Ry(r,θ) can be replaced by r*sin(θ) to save a byte:
+
+```
+:P►Ry(5,π/12)
+can be
+:5sin(π/12)
+```
+
+Conversely, complicated expressions multiplied by a sine factor can be simplified by using P►Ry(r,θ) instead.
+
+```
+:(A+BX)sin(π/5)
+can be
+:P►Ry(A+BX,π/5)
+```
+
+## Error Conditions
+
+- **[ERR:DIM MISMATCH](errors.html#dimmismatch)** is thrown if two list arguments have different dimensions.
+- **[ERR:DATA TYPE](errors.html#datatype)** is thrown if you input a complex argument.
+
+## Related Commands
+
+- [P►Rx(](p-rx.html)
+- [R►Pr(](r-pr.html)
+- [R►Pθ(](r-ptheta.html)
+- [sin(](sin.html)

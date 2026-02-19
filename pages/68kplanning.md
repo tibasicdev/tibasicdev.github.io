@@ -1,0 +1,91 @@
+# Planning Programs
+Before writing any of the code for a program, you should carefully plan out the program. This may seem like an unnecessary step, time that could be better spent, but it will pay major dividends in the end. Planning not only results in better quality programs, but it will also cut down the coding time (since you don't have to waste time rewriting the program) — a win-win situation!
+
+The first thing you want to do when planning a program is to decide what the program will do. Beginner programmers often say that they want to create a cool game, but they don't get much farther than that. For them to have a real chance of creating their program, they need to determine what the objective of the program will be, and then build off of that. For program ideas, see the [Project Ideas](68k:projects.html) page.
+
+When coming up with an idea for a program, you should try to be realistic about the [limitations](68k:whytibasic.html) of TI-Basic, and what a program can and can not do. For example, a game that needs lots of speed to be worthwhile for the user to play, such as Phoenix or Mario, really isn't very practical in TI-Basic beyond only moving a few things on the screen at any one time.
+
+Once you have determined what the program will do, you need to decide what features the program will have. This can include potential program options, the interface (on the Program I/O screen, or on the graph screen), main menu, an about screen, user help, and any other things you may want. The more thorough you are with planning your program, the easier the coding will be; it is to your benefit to do a good job.
+
+If you can't come up with any ideas for your program or you are unsure of if the ideas that you have come up with make sense, you should get input from the TI community. The three most friendly, active user forums are:
+
+- [Maxcoderz](http://www.maxcoderz.org)
+- [Revsoft](http://revsoft.tifreakware.net/)
+- [Calcgames](http://www.calcgames.org)
+- [Cemetech](http://www.cemetech.net)
+- [Omnimaga](http://www.omnimaga.org)
+- [CodeWalrus](http://codewalr.us)
+
+Since these are the kind of people that are going to be using your program when it is finished, you want to ask them to evaluate your program ideas and to offer some constructive criticism. They might also be able to give you some new ideas that you never thought of.
+
+Even if you thoroughly plan a program and get community input, it's simply not possible to think of everything up front. While making changes later on when a program is in heavy development can be a lot more work than making those changes at the beginning, there's nothing wrong with changing or modifying your plans if you believe the program will be better with the change(s).
+
+## Translate It Into Pseudocode
+
+The next step in the process is turning the program plans into pseudocode. Pseudocode involves using English (or whatever language you speak) in place of the TI-Basic code to describe what the program will do to perform the desired functions and tasks. This prevents you from getting caught up in the TI-Basic syntax, allowing you to more clearly focus on the program.
+
+You should first start by looking at the big picture of the program and then break it down into smaller and smaller details. Using an outline as the base, this means you would put the most important things first and then gradually add everything else. This allows you to mentally picture what the program is going to look like and to make sure you don't forget anything.
+
+An important part of creating useful pseudocode is adding [comments](68k:comments.html) throughout. It is very easy to get lost in your logic or have problems come up that you don't have any idea on how to resolve. Besides telling you what the code is supposed to do (i.e. making coding easier), it will also force you to slow down and think through the logic of your program. Still, comments are only as good as you make them.
+
+## Use Many Small Programs While Coding
+
+A single large program quickly becomes unwieldy and difficult to manage. While you're still editing the program, it's best to keep it in many small pieces ([68k:subprograms](68k:subprograms.html)). When you're done, you can combine them into one program again.
+
+One of the benefits of this approach is that you can convert pseudocode into a main program almost right away. For example, imagine this pseudocode program:
+
+```
+Setup
+Main Menu - user enters difficulty, etc.
+Initialize variables
+Main Loop:
+ Player movement
+ Draw player
+ Enemy movement
+ Draw enemy
+End Main Loop
+If player won the game
+ Display win message
+Otherwise
+ Display loss message
+Cleanup
+```
+
+You could translate this into a basic program almost directly. Here's how we do it (note that we don't write any code yet):
+
+```:program()
+:Prgm
+:setup() © set up settings, variables, etc.
+:mainmenu() © user enters difficulty, etc.
+:initvars() © initialize variables
+:While status=0 © 0=game still going
+: moveplr() © move the player
+: drawplr() © draw the player
+: movenemy() © move the enemy
+: drwenemy() © draw the enemy
+:EndWhile
+:If status=1 Then © 1=won, 2=lost
+: wingame() © display Win message
+:Else
+: losegame() © display Lose message
+:EndIf
+:cleanup() © clean up settings & variables
+:EndPrgm
+```
+
+As another benefit, the tokenization process is cut down significantly - only the programs you changed need to be tokenized again. Also, you can test each sub-program separately. 
+
+As you progress in writing the actual code, you create and edit each individual program (for example, you would create and edit mainmenu() and write a menu in that program). Of course, if these sub-programs are big enough, you can split them up into their own sub-sub-programs in the same way.
+
+When all the subprograms are finished, the program will work as it is, in 50 or so pieces (so you can test for bugs and tweak the individual programs). However, if you want to release your program, you probably don't want there to be 50 small programs to send. There are two options for combining the programs into one large program:
+- Go through the main program, and replace the subroutines by their code - press 2nd RCL to recall the subroutines into the program, and remove their Prgm and EndPrgm tokens. This is best for subroutines that only get used once.
+- At the beginning of the program, add the line Define subprgm()=, and use 2nd RCL again to recall the subprogram after this line. Then, the subprogram will be created when the main program runs, and you can delete it afterwards (or declare is as [Local](68k:local.html)).
+
+Speaking of Local variables: this is a perfectly valid technique for finished programs. However, it can be inconvenient to use when [debugging](68k:debugging.html), so it's best to avoid it when you're still writing the program.
+
+<center>
+
+|**[<< Releasing Programs](68k:releasing-your-program.html)**|**[Overview](68k:development-overview.html)**|**[Commenting Code >>](68k:comments.html)**|
+| --- | --- | --- |
+
+</center>

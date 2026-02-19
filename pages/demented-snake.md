@@ -1,0 +1,40 @@
+# Demented Snake
+If you have ever played any of the [snake](snake.html), mofrog, nibbles, etc. games, then this game should be familiar to you. The basic premise is to go around eating food and the snake grows longer with each piece of food. However, this snake game has an additional element to it: you need to constantly change directions to keep the snake moving fast. Like with the other games, try out the game and try to understand and think through the code.
+
+
+
+### The Code
+
+```
+:26-2int(2rand→K
+:{4→L1:Ans→L2:1→I
+:ClrHome
+:For(J,1,E2
+:L1(1→L1(J
+:L2(1→L2(J
+:Repeat max(S≠L1 and Ans≠L2
+:randInt(1,8→S
+:randInt(1,16→T
+:End
+:Output(S,Ans,"*
+:Repeat T=Ans and S=L1(I
+:getKey
+:If Ans=45:Goto Q
+:If Ans=34 or 2>abs(Ans-25:Ans→K
+:I+1-J(I=J→I
+:Output(L1(Ans),L2(Ans),"  // 1 space
+:(K=34)-(K=25)+L1(Ans-(Ans>1
+:Ans+8(not(Ans)-(Ans=9→L1(I
+:(K=26)-(K=24)+L2(I-(I>1
+:Ans+16(not(Ans)-(Ans=17→L2(I
+:Output(L1(I),Ans,"O
+:End:End
+:Lbl Q
+:ClrHome:J
+```
+
+### The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+- [Demented Snake](http://tibasicdev.github.io/local--files/demented-snake/dementedsnake.zip)

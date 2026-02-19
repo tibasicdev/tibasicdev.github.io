@@ -1,0 +1,93 @@
+![The Pause Command](pause/PAUSE_ANIMATED.gif "The Pause Command")
+           
+|Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
+|--- |--- |--- |--- |
+|Pauses the program until the user presses ENTER.|Pause [*value-or-text*]|TI-83/84/+/SE/CSE/CE|1 byte|
+
+### Menu Location
+While editing a program, press:<br># PRGM to enter the PRGM menu<br># 8 to choose Pause, or use arrows
+# The Pause Command
+
+The `Pause` command is used for suspending the execution of a program at a certain point. This is useful when you have text or instructions on the home screen that you want the user to read before the program continues on to the next thing. While the program is paused, the pause indicator turns on in the top-right corner of the screen (it is the dotted line that moves around).
+
+After the user is done reading the text or instructions, they must press ENTER to resume program execution. One place the `Pause` command is commonly used is right before clearing the screen with [`ClrHome`](clrhome.html), because otherwise the text on the screen will show up for a split second before it is erased. The `Pause` command gives the user ample time to look at and read the text.
+
+```
+:Pause
+```
+
+An alternative to the `Pause` command that is commonly used is a [`Repeat`](repeat.html) loop with a [`getKey`](getkey.html) command as the condition. This is sometimes more appropriate in a program if you don't want to bring the program to a complete standstill, and you want the user to be able to resume program execution with any key instead of just ENTER (see [usability](usability.html) for more information). 
+
+```
+:Repeat getKey
+:End
+```
+
+## Advanced Uses
+
+The `Pause` command has an optional argument that can either be text, a number, a variable, or an expression. This argument will be displayed on the next available blank line on the home screen while the program is paused, and it can be scrolled if it is larger than the screen. Although the `Pause` command can be used with the graph screen, the argument will still be displayed on the home screen.
+
+**Caution**: Unlike any other text command, or indeed any other command at all, this optional argument will be stored to [`Ans`](ans.html) after the pause! This could be used to your advantage, but most of the time, it's a nuisance, and if you use Ans for optimization, watch out for this side effect.
+
+Displaying text with the `Pause` command follows the same pattern as the [`Disp`](disp.html) command, so text is displayed on the left and everything else is displayed on the right. It also means that if there is already text on the seventh row, it will automatically move everything up one row so it can display its text. In addition, the Pause command is affected by the [`Output(`](output.html) command and its text.
+
+```
+PROGRAM:PAUSE
+:ClrHome
+:"World!
+:Disp " Hello "+Ans
+:Output(2,2,"Goodbye
+:Pause Ans
+```
+
+When the calculator is paused, it is possible for another linked calculator to use the [`GetCalc(`](getcalc.html) command to transfer a variable.
+
+<details style="display: inline;"><summary>show</summary>
+
+The TI-84+CE also introduced an optional second argument to the Pause command. With this argument, you can specify the amount of time you wish to wait for in seconds:
+```
+:Pause "HELLO",2
+```
+Using the empty string "" with the optional second argument will cause the Pause command to wait for the specified amount of time without displaying anything on the screen:
+```
+:Pause "",3.5
+```
+The more recent [`Wait`](wait.html) command can do this as well. Here’s the first example, but using Wait:
+```
+:Disp “HELLO
+:Wait 2
+```
+</details>
+
+## Optimization
+
+When you have a `Disp` command before a `Pause` command, you can take the text or variable from the `Disp` command and place it after the Pause command as its optional argument. This allows you to remove the `Disp` command. If the `Disp` command has multiple arguments, you just take the last one off and put it as the optional argument.
+
+```
+:Disp A
+:Pause
+can be
+:Pause A
+```
+
+When using the optional argument of `Pause`, it is stored to `Ans`, and this can in rare cases be used for optimization. The most common one would probably be using `Pause` to show work for a calculation, as in the following program:
+
+```
+:Disp "A+B=
+:Pause A+B
+:Disp "(A+B)²=
+:Pause Ans²
+:Disp "(A+B)²-C²=
+:Pause Ans-C²
+```
+
+## Error Conditions
+
+- **[ERR:INVALID](errors.html#invalid)** occurs if this statement is used outside a program.
+
+## Related Commands
+
+- [`Disp`](disp.html)
+- [`Output(`](output.html)
+- [`Text(`](text.html)
+- [`Wait`](wait.html)

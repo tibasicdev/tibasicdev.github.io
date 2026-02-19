@@ -1,0 +1,94 @@
+# Piecewise Expressions
+Piecewise expressions are a shortcut to handling conditions in math statements. They can be used for turning an [If](if.html) block or several such blocks into a single line. Although the TI-83 manual recommends them for graphing piecewise functions, they are very important to programmers as well — it would not be an overstatement to say that the use of piecewise expressions revolutionized TI-Basic when it was introduced. On recent operating systems (5.3+) for the TI-84+ CE, the [piecewise(](piecewise.html) command was added, and it lets you see piecewise expressions on the homescreen and y= screen as they would be seen in a math textbook, if mathprint is on.
+
+## The Concept
+
+The general form of a piecewise expression is (expr #1)(condition #1)+(expr #2)(condition #2)+...→result. Usually, condition #1, condition #2, and any other conditions are mutually exclusive — only one of them can be true at a time. In this case, the piecewise expression can be interpreted as follows:
+
+- if condition #1 is true, return the value of expr #1
+- if condition #2 is true, return the value of expr #2
+- ...
+- if condition #*n* is true, return the value of expr #*n*
+
+A classic example of a piecewise function is absolute value, which strips a number of its sign. Forget for a moment that the [abs(](abs.html) command exists, and picture code that would do its job. A possible solution relies on the [If](if.html) command:
+
+```
+:If A≥0
+:Then
+:A→B
+:Else
+:-A→B
+:End
+```
+
+Using piecewise expressions, we can write this as:
+
+```
+:(A)(A≥0)+(-A)(A<0)→B
+```
+
+Most of the parentheses are unnecessary, only here for clarity. If you're comfortable with piecewise expressions, you can strip the extra parentheses to get this version:
+
+```
+:A(A≥0)-A(A<0→B
+```
+
+## Why does this work?
+
+Believe it or not, the calculator does not make special cases for piecewise expressions. Instead, this technique relies on the convention known as Boolean logic. According to Boolean logic the number 1 represents "true" in logical expressions on the TI-83, while 0 represents "false".
+
+In the case of a properly written piecewise expression, only one of the conditions will be true, and the rest will be false. That condition's expression will be multiplied by 1, and the others by 0. When the results are added, this gets rid of the unwanted expressions, leaving only the one with a true condition.
+
+## Optimization
+
+Now that we know how this technique works, we can optimize such expressions while keeping the result the same. For example, here is part of the code for moving a cursor on the screen, as a piecewise expression:
+
+```
+:getKey→K
+:(X-1)(Ans=24)+(X+1)(Ans=26)+(X)(Ans≠24 and Ans≠26)→X
+:(Y-1)(K=34)+(Y+1)(K=25)+(Y)(K≠34 and K≠25)→Y
+```
+
+Notice that all three pieces of the first expression contain X, and all three pieces of the second expression contain Y. In such cases, we can take out the common part of the pieces, without changing the result:
+
+```
+:getKey→K
+:X-(1)(Ans=24)+(1)(Ans=26)+(0)(Ans≠24 and Ans≠26)→X
+:Y-(1)(K=34)+(1)(K=25)+(0)(K≠34 and K≠25)→Y
+```
+
+Finally, we can cancel the unneeded parts. Many of the parentheses are unnecessary, but it's also pointless to multiply something by 1, so we can get rid of the (1) parts entirely. Finally, the parts multiplied by 0 are redundant.
+
+```
+:getKey→K
+:X-(Ans=24)+(Ans=26→X
+:Y-(K=34)+(K=25→Y
+```
+
+The result is the [movement](movement.html) code you may have seen elsewhere in the guide, in its fully optimized form!
+
+## Advantages and Disadvantages
+
+Piecewise expressions are usually a better choice than clunky If statements to accomplish the same thing. They give the following benefits:
+
+- The result is usually faster to compute, and takes less memory in the program.
+- The expression takes less space on the screen to scroll through.
+- Piecewise expressions can be used where If statements can't (for example, equations).
+
+However, there are a few drawbacks you need to be aware of:
+
+- Unlike an If statement, a piecewise expression will compute *all* its parts before returning the result.
+- Complicated logic can make piecewise expressions very messy and hard to understand.
+
+So one situation in which piecewise expressions should be avoided is one in which part of the expression takes a long time to compute. For example:
+
+```
+:If N=1
+:Then
+:irr(I,100,L1→P
+:Else
+:P(1+.01I→P
+:End
+```
+
+In this case, a very complicated calculation is done in the case N=1 (if L1 is large enough, it may take several seconds). But if N is not 1, the calculation is very simple and will finish quickly. If you made this code a piecewise expression, the very complicated calculation would always be calculated, even if it's not going to be necessary.
