@@ -46,6 +46,8 @@ jobs:
           dst: html
           title: TI-Basic Developer
           icon: calculator
+          primary-color: grey
+          secondary-color: light blue
           
       - name: Rename prefixed pages
         run: |
