@@ -1,0 +1,3 @@
+[[include inc:visitor-farewell]]
+
+%%content%%

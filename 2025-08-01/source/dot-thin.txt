@@ -1,0 +1,25 @@
+[[include inc:command
+|picture=Dot-Thin.png
+|summary=Sets all lines to be drawn using a series of individual pixels.
+|syntax=This command is executed with no additional arguments
+|location=Go to Catalog, press [ALPHA][X^-1], and scroll down
+|compatibility=TI-84+CSE/CE
+|size=2 bytes
+]]
+
+
+The {{Dot-Thin}} command sets all lines in the current function type to be drawn using a series of individual pixels at each interval of {{TraceStep}}. The command can be called on the homescreen or within a program.
+
+[[code]]
+:ClrDraw
+:AxesOn
+:Dot-Thin
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown if the command is executed with any additional arguments
+
++ Related Commands
+
+* {{[[[Dot-Thick]]]}}

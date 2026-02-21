@@ -1,0 +1,39 @@
+[[include inc:68k-command
+|picture=func.png
+|summary=Defines a set of lines as executable program code.
+|syntax=Func
+//function code//
+EndFunc
+|location=Press:
+# Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu
+# F to scroll to the F section
+# Use arrows to navigate to Func
+Or type Func using the keyboard
+
+|size=4 bytes
+]]
+
+This command is used at the beginning/end of a function to tell the calculator to interpret it as code. Without these commands at the start and end of a function, the interpreter will pass a syntax error. Note that unlike Programs, functions cannot write to the screen, so there can be no IO commands or Draw commands. In addition, you cannot edit global variables in Functions, so you have to declare a variable as local using [[[68k:Local]]] before initializing them. However, the reason you may want to use functions instead of programs is that unlike programs, you can return a value from a function. You can either use the [[[68k:Return]]] command, or the function will return whatever the last value was before you quit the function.
+
+[[code]]
+:test()
+:Func
+://code to run goes here
+:EndFunc
+[[/code]]
+
++ Advanced Uses
+
+Using the [[[68k:local]]] and [[[68k:define]]] commands, you can create local submethods in your programs. Assuming the following code is inside a program block already, the syntax would be:
+
+[[code]]
+:Local test
+:Define test()=Func
+://function code goes here
+:EndFunc
+[[/code]]
+
++ Related Commands
+
+* [[[68k:Prgm]]] / [[[68k:endprgm]]]
+* [[[68k:expr(]]]

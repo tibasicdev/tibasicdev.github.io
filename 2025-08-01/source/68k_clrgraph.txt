@@ -1,0 +1,28 @@
+------
+
+[[include inc:68k-command
+|picture=sample.png
+|summary=Clears the graph screen
+|syntax=This command does not take any arguments 
+
+|location=This command can be found in the Draw menu on the Graph Screen or from the CATALOG.
+
+|size=X byte(s)
+]]
+
+Clears any functions or expressions that were created using the [[[Graph]]] command or the [[[Table]]] command. Any previously selected Y= functions will be graphed the next time the graph is displayed.
+
+[[code]]
+:ClrGraph        Done
+[[/code]]
+
+
++ Related Commands
+
+* [[[Graph]]]
+* [[[Table]]]
+* [[[ClrTable]]] 
+
++ See Also
+
+Graphing Section

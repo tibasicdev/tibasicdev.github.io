@@ -1,0 +1,8 @@
+Information is sufficient and basic.  Perhaps all the assembly pages should be combined.
+
+[!-- Leave this invisible comment here! --]
+
+====
+http://tibasicdev.wikidot.com/asmshells
+====
+Assembly

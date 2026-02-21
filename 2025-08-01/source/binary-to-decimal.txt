@@ -1,0 +1,30 @@
+[[include inc:routine
+|picture=@@
+|summary=Converts a binary (base 2) number to a decimal (base 10) number.
+|input=//Ans// - The binary number that you want to convert expressed as a list, stored in Ans.
+|output=//Ans// - The decimal representation of the binary number. 
+|variable=Ans, A
+|compatibility=TI-83/84/+/SE
+|author=imcoraline
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:sum(seq(Ans(dim(Ans)-A)2^A,A,0,dim(Ans)-1
+[[/code]]
+
+This routine takes a positive whole binary number (base 2), expressed as a list, and converts it to the equivalent decimal (base 10) representation. To express a binary number in a list, you simply put commas in between each digit, and then surround that with list brackets. For example, the binary number 101101 expressed a list would be {1,0,1,1,0,1}. To learn how to convert a binary number to a decimal number, vice versa, and even see how to convert to and from other bases besides binary and decimal, see the [[[binandhex|Binary and Hexadecimal]]] page.
+
+It also may be important to note that adding 0’s to the front of a binary number will not change the decimal equivalent. For example, both 0110101,,2,, and 110101,,2,, are equivalent to 53,,10,,. 
+
++ Error Conditions
+
+* **[[[errors#datatype|ERR:DATA TYPE]]]** is thrown if the list has an imaginary number in it. 
+* An error will not be thrown the list is not a binary number, or if any element in the list is negative or non-whole. Nonetheless, the conversion will not work correctly.
+
++ Related Routines
+
+* [[[decimal-to-binary|Decimal to Binary]]]
+* [[[binary-data-compression|Binary Data Compression]]]

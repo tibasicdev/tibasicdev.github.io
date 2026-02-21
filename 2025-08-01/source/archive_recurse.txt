@@ -1,0 +1,21 @@
+author: Deoxal
+version: '1.0'
+summary: 'Two programs that recursively calculate the value of a function.'
+description: "RECURSER.8xp and RECURSEV.8xp ask for a function, a seed value, and the number of iterations to calculate and store graph settings to GDB 9. Recuser uses a custom list to store each iteration of the calculation as well as the seed, which caps the iterations at 999. Recursev does not have this limitation.\n\nBoth programs use XTANS.8xp(X to Ans) to replace X with Ans in the equation."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:recurse/Recurse.zip'
+image: 'archiveimage:capture-5/Capture.png'
+fileSize: '875'
+fileSizeUnit: '1'
+dateMade: '1535860800'

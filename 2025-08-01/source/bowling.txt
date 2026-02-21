@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=bowling.gif style="width:200px; height:135px;"
+|summary=A quality version of a bowling game.
+|size=16,384 (is a [http://tibasicdev.wikidot.com/basicbuilder Basic Builder] app)
+|libraries=Yes, [http://tibasicdev.wikidot.com/xlib xLIB]
+|compatibility=TI-83+/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/90/9071.html nitacku]
+|download=[http://tibasicdev.wikidot.com/local--files/bowling/bowling.zip bowling.zip]
+]]
+
+Bowling is a superb TI-Basic game that features quality gameplay and graphics. You start out with $1,000, and you need to make it to the bowling World Championship. You compete against increasingly difficult opponents, although you can purchase items to enhance your skills and abilities. This is a truly fun game.

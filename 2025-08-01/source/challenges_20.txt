@@ -1,0 +1,30 @@
+[[include inc:tablet
+|name=Bomber v1.0
+|author=[http://tibasicdev.wikidot.com/member:seb83 seb83]
+|size=1021 bytes
+|description=
+Bomber v1.0 is an arcade game. The goal is to defuse as many bombs as you can. To defuse a bomb, you press a key from F1 to F5 corresponding to the bomb you want to defuse. When you do defuse a bomb, the counter will start back. To defuse a bomb successfully, you must stop the counter between two given numbers accordingly to the difficulty you're playing.
+
+Features an highscore system, three difficulties, entirely on graphscreen, Clear to quit whenever you want, in-game instructions and no installation.
+|PLEASE REMOVE the following words that do NOT describe your program:
+|Arcade
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=http://tibasicdev.wdfiles.com/local--files/challenges:20/Bomber_v1.0_screenshot.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/challenges:20/Bomber%20v1.0.zip
+|downloadName=Bomber v1.0.zip
+]]
+
+[!--
+INSTRUCTIONS
+
+
+6) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+7) Categorize the page according to the note on the page.  DO NOT erase preexisting tags!!
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

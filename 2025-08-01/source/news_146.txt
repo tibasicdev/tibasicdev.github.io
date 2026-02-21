@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Apr
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=29
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=I am happy to announce, that as of now, we have exactly 75 programs in our archives, 146 news items, and 3 announcements.
+]]

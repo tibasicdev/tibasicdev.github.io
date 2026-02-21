@@ -1,0 +1,16 @@
+[!--
+[[div style="width: 80%; margin: auto; padding: 5px 10px; text-align: center;margin-bottom: 20px; background: #fdfcf6; border: 1px solid #C7C9B8;" class="search-results"]]
+++ Looking for something?
+[[module Search]]
+//Don't see a match? [http://tibasicdev.wikidot.com/forum/t-437432/search-help-2 Post to the community]//
+[[/div]]
+--]
+
+[[module RecentPosts]]
+
+[!-- please do not alter this page if you want to keep your forum working --]
+
+[[module CSS]]
+.search-results input[type="text"] {width: 50%;}
+.content {padding: 0.2em 0.5em;}
+[[/module]]

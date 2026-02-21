@@ -1,0 +1,96 @@
+[!-- Please do not include anything else than links within the bullet lists.
+Do not go deeper than 1 level with nesting.
+--]
+
+* Preparation
+ * [[[thecalcs|The Calculators]]]
+ * [[[whytibasic|Why TI-Basic?]]]
+ * [[[using-this-guide|Using This Guide]]]
+ * [[[starter-kit|TI-Basic Starter Kit]]]
+ * [[[faq|TI-Basic FAQ]]]
+* [[[Commands]]]
+ * [[[homescreen|Home Screen]]]
+ * [[[graphscreen|Graph Screen]]]
+ * [[[math|Math Functions]]]
+ * [[[Variables]]]
+ * [[[userinput|User Input]]]
+ * [[[Operators]]]
+ * [[[linking|Calculator Linking]]]
+ * [[[controlflow|Controlling Flow]]]
+ * [[[settings|User Settings]]]
+ * [[[Memory Management]]]
+ * [[[Time and Date]]]
+* Development
+ * Planning 
+  * [[[plan|Planning]]]
+  * [[[portability|Portability]]]
+  * [[[usability|Usability]]]
+ * Coding
+  * [[[setup|Program Setup]]]
+  * [[[code-conventions|Code Conventions]]]
+  * [[[comments|Commenting Code]]]
+  * [[[subprograms|Subprograms]]]
+  * [[[cleanup|Program Cleanup]]]
+ * Revising
+  * [[[debug|Debugging]]]
+  * [[[optimize|Optimization]]]
+  * [[[timings|Code Timings]]]
+ * Releasing
+  * [[[documentation|Writing Documentation]]]
+  * [[[marketing|Community Marketing]]]
+  * [[[releasing-your-program|Releasing Programs]]]
+  * [[[creating-new-program-versions|New Versions]]]
+* Game Design
+ * [[[saving |Saving]]]
+ * [[[graphics |Graphics]]]
+ * [[[highscores |Highscores]]]
+ * [[[animation |Animation]]]
+ * [[[custommenus |Custom Menus]]]
+ * [[[custominput |Custom Text Input]]]
+ * [[[multiplayer |Multiplayer]]]
+ * [[[maps |Making Maps]]]
+ * [[[movement |Movement in Maps]]]
+* Techniques
+ * [[[piecewise-expressions |Piecewise Expressions]]]
+ * [[[friendly-window |Friendly Windows]]]
+ * [[[subprograms |Subprograms]]]
+ * [[[recursion |Recursion]]]
+ * [[[assembly |Assembly]]]
+ * [[[Cryptography]]]
+ * [[[validation |User Input Validation]]]
+ * [[[selfmodify |Self-Modifying Code]]]
+ * [[[compression |Compression]]]
+ * [[[protection |Program Protection]]]
+ * [[[lookuptables |Look-Up Tables]]]
+ * [[[grouping |Grouping Programs]]]
+* Programs
+ * [[[Archives]]]
+ * [[[Programs]]]
+ * [[[Games]]]
+ * [[[Routines]]]
+* References
+ * [[[Resources]]]
+ * [[[Downloads]]]
+ * [[[Showcases]]]
+ * [[[Sidebar]]]
+ * [[[tokens|Token Size]]]
+ * [[[textsprites|Text Sprites]]]
+ * [[[binandhex|Binary & Hex]]]
+ * [[[83lgfont|TI-83+ Font]]]
+ * [[[errors|Error Conditions]]]
+ * [[[File Extensions]]]
+ * [[[Key Codes]]]
+ * [[[Abbreviations]]]
+ * [[[Glossary]]]
+
+[[div style="display:none;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092; 
+var sc_invisible=0; 
+var sc_partition=22; 
+var sc_security="d8087415"; 
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]

@@ -1,0 +1,21 @@
+author: 12Me21
+version: '2.0'
+summary: 'It''s snake. In spaaceee!'
+description: "Use the up/down arrows to move up and down, and go through the = signs (asteroids) to get points (you get a point when the 2 pixels above and below you are both on)\n\n(sorry about the crappy animation, jsTIfied's animated screenshot tool is glitchy. The real game looks much better (though it's more blurry))\n\nIt is short enough to type into your calculator:\n\n[[code]]\nprgmSPCESNKE\n:0->I%\n:ClrDraw\n:Repeat pxl-Test(31,47\n:Pxl-On(31,47\n:Text(randInt(0,57),91,\"=\n:I%+pxl-Test(30,47)pxl-Test(32,47->I%\n:getKey\n:If Ans=25\n:Asm(prgmDOWN\n:If Ans=34\n:Asm(prgmUP\n:Text(0,1,I%\n:Asm(prgmLEFT\n:End\n:Text(0,0,\"          (10 spaces)\n:If I%>ZnMax\n:I%->ZnMax\n:For(X,1,9\n:Asm(prgmFLASH\n:End\n:Text(51,0,\" SCORE: \",I%\n:Text(57,0,\" HIGHSCORE: \",ZnMax\n:Pause :ClrHome\n\nprgmUP\n:AsmPrgm214C9311409301F402EDB0EB010C00EF304CEF6A48C9\n\nprgmDOWN\n:AsmPrgm213396113F9601F402EDB823010C00EF304CEF6A48C9\n\nprgmLEFT\n:AsmPrgm213F960E40060CB7CB162B10FB0D20F5EF6A48C9\n\nprgmFLASH\n:AsmPrgm210000115F3FEF5F4DC9\n[[/code]]\n\nAlso, it doesn't use any variables! (except for keeping track of the score)"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: cc
+download: 'archivefile:scgm/SCGM.8xg'
+image: 'archiveimage:scr/scr.gif'
+fileSize: '950'
+fileSizeUnit: '1'
+dateMade: '1433736000'

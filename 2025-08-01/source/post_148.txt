@@ -1,0 +1,3 @@
+name: ''
+content: "One small note:\n\"or\" and \"and\" can be replaced with addition and multiplication, respectively\n\nSo\nIf G=72 and Y-L+31\nbecomes\nIf (G=72)(Y-L+31\n\nand\nIf N=1 or N=93\nbecomes\nIf (N=1)+(N=93\n\nThese increase size but also offer a marginal increase in speed\n\nIf max(N={1,93 \ncan also replace\nIf N=1 or N=93\nfor the same size, though I do not know which is faster\n"
+attachment: null

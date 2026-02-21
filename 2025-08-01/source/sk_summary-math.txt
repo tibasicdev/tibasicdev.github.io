@@ -1,0 +1,16 @@
+A thorough understanding of math commands is essential to the mastery of TI-Basic. It is strongly recommended that you practice using these commands in different situations so that you will know which ones to apply when necessary.
+
++ Commands Introduced
+
+* [[[add| +]]],[[[subtract| -]]], [[[multiply| *]]], [[[divide| /]]]
+* [[[power| ^]]], [[size 80%]][[[ten-exponent| 10]]][[/size]]^(, [[size 80%]][[[e-ten| EE]]][[/size]], [[[e-exponent| e^(]]]
+* [[[square-root| √]]], [[[cube-root| ³√(]]], [[[xroot| ×√]]], [[[log(]]], [[[ln(]]]
+* [[[nPr]]], [[[nCr]]], [[[factorial| !]]]
+
+[[include inc:next-prev
+|prevpage = sk:complex
+|prevtitle = Complex Numbers
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:exercises-math
+|nexttitle = Exercises]]

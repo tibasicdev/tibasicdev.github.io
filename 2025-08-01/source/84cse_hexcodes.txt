@@ -1,0 +1,136 @@
+[[div style="float:right; text-align:center; background: #fdfcf6; padding: 3px; border: 1px solid #666; margin-left: 5px;"]]
+[[image asmprgm-example.gif style="border: 1px solid #666; margin-bottom: 2px;"]]
+Example of Inputting Hex Code
+[[/div]]
+
+There are all sorts of small assembly programs that you can create simply using the calculator's built-in assembly commands (specifically, [[[asmprgm#toc1 |AsmPrgm84C]]]), along with the appropriate hexadecimal code. In order to run a program, you need to use the [[[asm-command|Asm(]]] command, where Asm(prgmPROGNAME is the program that contains the hexadecimal code.
+
+As a word of caution, when entering the hexadecimal, you need to be very careful that you type it in exactly as you see it. If there is a single incorrect character, the calculator might crash and reset your RAM when you turn it on again. We have tested the hexadecimal codes to make sure they work, but it's up to you to enter them incorrectly.
+
+These hexcodes only work on the TI-84 Plus CSE. See the following pages for [[[hexcodes|monochrome calcs]]] or the [[[84ce:hexcodes|CE]]].
+
+[[toc]]
+
++ Simulated Key Presses
+++ Alpha Lock
+[[code]]AsmPrgm84C
+:3E51FD7712C9[[/code]]
+This simulates [2nd][Alpha]
+++ Alpha Lock (No disable)
+[[code]]AsmPrgm84C
+:3ED1FD7712C9[[/code]]
+This is the same as the first, but you have to press [2nd][mode] to disable it.
+++ Lowercase Press
+[[code]]AsmPrgm84C
+:3E31FD7712C9[[/code]]
+This works even if lowercase isn't enabled.
+++ Lowercase Lock
+[[code]]AsmPrgm84C
+:3E71FD7712C9[[/code]]
+This simulates [2nd][Alpha][Alpha].
+++ Lowercase Lock (No disable)
+[[code]]AsmPrgm84C
+:3EB1FD7712C9[[/code]]
+This can only be disabled by pressing [2nd][mode]
+++ Alpha Off
+[[code]]AsmPrgm84C
+:3E01FD7712C9[[/code]]
+++ [2nd]
+[[code]]AsmPrgm84C
+:FDCB12DEC9[[/code]]
+An interesting use of these codes can be for prompting user input (If you run Alpha Lock, for example, [[[Input]]] will start with an Alpha press.
+
+If you run the Alpha Lock that can't be disabled at the start of your program and a user presses ON (or an error occurs), you will not be able to select the options, so you are forced to press [2nd][mode].
++ Disabling "Done" Message
+To disable the "Done" message at the end of a Basic program:
+[[code]]AsmPrgm84C
+:FDCB00AEC9[[/code]]
++ Un-Dirty Graph Screen
+[[code]]:AsmPrgm84C
+:FDCB0386C9[[/code]]
+This will mark the Graph Screen as not dirty.  Using [[[ClrDraw]]] will mark the Graph Screen as dirty so the next time it is displayed the screen will be cleared. Many ASM libraries (such as [[[xLIB]]]) modify the graph buffer without displaying the screen which might be unintentionally cleared.
+
++ Turn Calculator Off [**TO DO**]
+++ LCD Off [**TO DO**]
+++ LCD On [**TO DO**]
+++ Toggle LCD Power [**TO DO**]
++ Auto Calc
+
+++ Auto DMS
+[[code]]AsmPrgm84C
+:FD360A06C9[[/code]]
+Auto DMS displays all decimals in Degrees-Minutes-Seconds on the home screen, automatically.
+
+++ Auto Fractions
+[[code]]AsmPrgm84C
+:FD360A0CC9[[/code]]
+Auto Fractions will display decimals as fractions (if it can) on the home screen, automatically.
+
++ Screen Shifting [**TO DO**]
+++ Shift Screen Right 1 [**TO DO**]
+++ Shift Screen Left 1 [**TO DO**]
+++ Shift Screen Up 1 [**TO DO**]
+++ Shift Screen Down 1 [**TO DO**]
+++ Shift Screen Right 4 [**TO DO**]
+++ Shift Screen Left 4 [**TO DO**]
+++ Shift Screen Up 4 [**TO DO**]
+++ Shift Screen Down 4 [**TO DO**]
++ Memory Functions [**TO DO**]
+++ Free RAM [**TO DO**]
+++ Archiving
+
+[[code]]AsmPrgm84C
+:CD500F02D604C0
+:EB010000004E234623
+:11F805D0EDB0
+:12CD0C0502D8CD98
+:1F02C0
+:C3481402[[/code]]
+
+The input is a string in Ans, as detailed [[[hexcodes#toc53 |here]]].
+
+++ Unarchiving
+
+[[code]]AsmPrgm84C
+:CD500F02D604C0
+:EB010000004E234623
+:11F805D0EDB0
+:12CD0C0502D8CD98
+:1F02C8              ;Only difference
+:C3481402[[/code]]
+
+++ ToggleArch [**TO DO**]
+++ Reset Defaults [**TO DO**]
+++ Reset RAM
+[[code]]AsmPrgm84C
+:C7[[/code]]
+++ DelVar [**TO DO**]
++ Miscellaneous
+++ Turn Cursor Off
+[[code]]AsmPrgm84C
+:FDCB0CE6C9[[/code]]
+This is harmless, but it stops displaying that blinking cursor :D Just press [2nd][MODE] to put it back to normal. What, jokes are allowed, right?
+++ Turn Cursor On
+[[code]]AsmPrgm84C
+:FDCB0CA6C9[[/code]]
+
+++ Edit Lock/Unlock Program [**TO DO**]
+++ Battery Check [**TO DO**]
+++ ASCII [**TO DO**]
+
++ Advanced [**TO DO**]
+++ CharLength [**TO DO**]
+++ String Pixel Width [**TO DO**]
+++ ListToVars 1 [**TO DO**]
+++ ListToVars 2 [**TO DO**]
+++ ExecAns [**TO DO**]
+++ RepeatKeys [**TO DO**]
+++ FastKeys [**TO DO**]
+++ MultiKeys 2 [**TO DO**]
+++ Sprite [**TO DO**]
++ References
+
+Most of these are ported from the [http://tibasicdev.wikidot.com/hexcodes TI-83+ Hexcodes] page.
+
++ Note
+Some documentation had been updated for recent updates and functionality.

@@ -1,0 +1,33 @@
+Simply put, optimization is making your game better.  It involves reviewing all of your code and looking for subtle changes that can be made, that as a whole, decrease the size of your program and speed it up.
+[[toc]]
+++ Simple optimizations
+There are many ways you can optimize a program.  This is a common optimization.
+[[code]]
+:Output(1,1,A-(B-C))
+[[/code]]
+can be optimized to
+[[code]]
+:Output(1,1,A-B+C
+[[/code]]
+because subtracting a negative is the same as adding a positive, and because parentheses are not needed at the end of any Output( command or other command where the last token on the line is the parentheses.  Another common optimization is quotation marks, which also can be omitted from the end of the Output command.  For an example, see the following.
+[[code]]
+:Output(1,1,"HELLO WORLD")
+[[/code]]
+can be
+[[code]]
+:Output(1,1,"HELLO WORLD
+[[/code]]
+
+++ Complex optimizations
+Optimizing isn't always easy.  Sometimes, to make programs smaller, one has to scrap previously written code and completely rewrite the program with a different approach.  This would be like saying "hey, my program is getting pretty big.  I wonder what would happen if I used lists instead of matrices for my saved games?" and then writing the game using lists instead of matrices.  This is known as algorithmic optimization, but that's a bit too in depth for a beginner class.  If you do wish to know more about it, you can see it [[[algorithmic-optimization |here]]].
+
+Don't be worried.  Optimizing is usually a fun process, and as you watch that byte count dwindle, you'll see what we're talking about.
+
+
+[[include inc:next-prev
+|prevpage = sk:math-sample
+|prevtitle = Sample Program: Analog Clock
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:displaying-text
+|nexttitle = Displaying Text]]

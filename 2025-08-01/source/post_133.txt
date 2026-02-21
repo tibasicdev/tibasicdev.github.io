@@ -1,0 +1,3 @@
+name: ''
+content: "I believe you want a command to convert decimal to hexadecimal? You can do this, where A is the number to convert:\n[[code]]\n\"0→Str1\nWhile A\nsub(\"0123456789ABCDEF\",1+16fPart(A/16),1)+Str1→Str1\niPart(A/16→A\nEnd\nIf Str1≠\"0\nsub(Str1,2,length(Str1)-1\n[[/code]]\nHopefully that works ^^'"
+attachment: null

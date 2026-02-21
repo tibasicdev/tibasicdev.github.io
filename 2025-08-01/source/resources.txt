@@ -1,0 +1,29 @@
+While we have tried to provide as much TI-Basic information here in this wiki as possible, there really is a whole TI community out there for helping you become a better, more capable programmer. With this thought in mind, the resources listed below provide some useful information of their own and they serve as a continuation after you are done with this site.
+
+[[tabview]]
+[[tab Tutorials]]
+
+[[include resources:include tutorialsBegin=[!-- --] | tutorialsEnd=[!-- --] |utilitiesBegin=[!-- | utilitiesEnd=--] | oncalc-utilitiesBegin=[!-- | oncalc-utilitiesEnd=--] | emulatorsBegin=[!-- | emulatorsEnd=--] | related-sitesBegin=[!-- | related-sitesEnd=--]]]
+
+[[/tab]]
+[[tab Utilities]]
+
+[[include resources:include tutorialsBegin=[!-- | tutorialsEnd=--] |utilitiesBegin=[!-- --] | utilitiesEnd=[!-- --] | oncalc-utilitiesBegin=[!-- | oncalc-utilitiesEnd=--] | emulatorsBegin=[!-- | emulatorsEnd=--] | related-sitesBegin=[!-- | related-sitesEnd=--]]]
+
+[[/tab]]
+[[tab On-Calc Utilities]]
+
+[[include resources:include tutorialsBegin=[!-- | tutorialsEnd=--] |utilitiesBegin=[!-- | utilitiesEnd=--] | oncalc-utilitiesBegin=[!-- --] | oncalc-utilitiesEnd=[!-- --] | emulatorsBegin=[!-- | emulatorsEnd=--] | related-sitesBegin=[!-- | related-sitesEnd=--]]]
+
+[[/tab]]
+[[tab Emulators]]
+
+[[include resources:include tutorialsBegin=[!-- | tutorialsEnd=--] |utilitiesBegin=[!-- | utilitiesEnd=--] | oncalc-utilitiesBegin=[!-- | oncalc-utilitiesEnd=--] | emulatorsBegin=[!-- --] | emulatorsEnd=[!-- --] | related-sitesBegin=[!-- | related-sitesEnd=--]]]
+
+[[/tab]]
+[[tab Related Sites]]
+
+[[include resources:include tutorialsBegin=[!-- | tutorialsEnd=--] |utilitiesBegin=[!-- | utilitiesEnd=--] | oncalc-utilitiesBegin=[!-- | oncalc-utilitiesEnd=--] | emulatorsBegin=[!-- | emulatorsEnd=--] | related-sitesBegin=[!-- --] | related-sitesEnd=[!-- --]]]
+
+[[/tab]]
+[[/tabview]]

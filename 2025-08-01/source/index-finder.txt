@@ -1,0 +1,32 @@
+[[include inc:routine
+|picture=@@
+|summary=Returns the index number of an element searched for within a list
+|input= 
+//X// - Element that it's finding
+//L₁// - List that's being searched
+//N// - The occurrence to search for
+|output=
+//Ans// - Index number of element searched.
+|variables=@@
+|compatibility=TI-83/84/+/SE/CSE/CE
+|author=RogueBantha, CubeBag
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+//Finds first occurrence of X in L₁
+1+sum(not(cumSum(L₁=X
+
+//Finds last occurrence of X in L₁
+max((L₁=X)cumSum(1 or L₁
+
+// Finds the Nth occurrence of X in L₁
+1+sum(N>cumSum(L₁=X
+[[/code]]
+
+Given a value in {{X}}, this code will search {{L₁}} and return the index number of the desired occurrence of {{X}}.
+
++ Error Conditions
+If {{L₁}} does not contain {{X}}, the first and third routines will both return {{1+[[[dim(]]]L₁)}}; the second will return zero.

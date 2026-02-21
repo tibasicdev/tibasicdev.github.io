@@ -1,0 +1,18 @@
+[[include inc:68k-command
+|picture=clrio.png
+|summary=Clears the program IO screen
+|syntax=Use on the homescreen or in a program. Invalid in a function.
+|location=
+|size=2 bytes
+]]
+
+This is used to clear the IO buffer (not the home screen). The IO buffer is where any {{Output()}}, {{Disp}}, {{Pause}}, and any other commands that use the I/O buffer display results.
+[[code]]
+:ClrIO
+:Disp "Hello"
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:ClrDraw]]]}}
+* {{[[[68k:ClrHome]]]}}

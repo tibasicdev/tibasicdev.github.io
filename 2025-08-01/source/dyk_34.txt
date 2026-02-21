@@ -1,0 +1,1 @@
+…that you can get the number of digits of a number N to the left of the decimal point by using the formula {{1+[[[int(]]][[[log(]]]N)}}?

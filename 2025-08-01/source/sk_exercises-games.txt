@@ -1,0 +1,41 @@
++ Review
+# What command will automatically unarchive a list and create it if it doesn't exist?
+# What data type would you use to save a highscore?
+# What is the seed and what is it useful for?
+# What type of loop is appropriate to use for a game like Yahtzee?
+# What is the code for movement?
+# How can you modify the movement code in order to make it so that when you go off the screen, you loop to the other side?
+# Can you use the sub( command to find the element in a matrix?
+# Make a formula using rand as the only random command to yield the same results as randBin( with a given seed of 0.
+# What happens when you take the inverse of a matrix with determinant 0?
+
++ Programming
+Modify the following movement code that is supposed to move two objects simultaneously according to user input.
+[[code]]
+:1→A
+:1→B
+:4→C
+:4→D
+:Repeat K=21
+:getKey→K
+:If Ans
+:Output(A,B,"_")
+:min(8,max(1,A+sum(ΔList(Ans={25,34}))))→A
+:min(16,max(1,B+sum(ΔList(K={24,26}))))→B
+:Output(A,B,"X")
+:End
+[[/code]]
+Explain the usage for this code.
+[[code]]
+:rand→A
+:A→rand
+[[/code]]
+Create a game where the player must make it through a maze when the arrow key movements are jumbled up.
+
+[[include inc:next-prev
+|prevpage = sk:summary-games
+|prevtitle = Summary
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:chase-the-star
+|nexttitle = Sample Program: Chase the Star]]

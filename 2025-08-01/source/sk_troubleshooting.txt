@@ -1,0 +1,11 @@
+[[include errors]]
+
+[[div style="float: left; width: 100%;"]]
+[[include inc:next-prev
+|prevpage = routines
+|prevtitle = Example Routines
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = downloads
+|nexttitle = Downloads]]
+[[/div]]

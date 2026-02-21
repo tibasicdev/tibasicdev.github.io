@@ -1,0 +1,4 @@
+This is the page that allows you to add a did you know to the home page of each section
+
+||~ [[[did-you-know |83 Portal]]] ||~ [[[68k:did-you-know |68k Portal]]] ||~ [[[nspire:did-you-know |Nspire Portal]]]||~ [[[both-did-you-know|83 and 68k Only]]] ||~ [[[all-did-you-know |All Models]]] ||
+|| [http://tibasicdev.wikidot.com/dyk:dyk/edit/true/t/2257136/tags/_dyk%20_83portal Add a DYK] || [http://tibasicdev.wikidot.com/dyk:dyk/edit/true/t/2257136/tags/_dyk%20_68kportal Add a DYK] || [http://tibasicdev.wikidot.com/dyk:dyk/edit/true/t/2257136/tags/_dyk%20_nspireportal Add a DYK] || [http://tibasicdev.wikidot.com/dyk:dyk/edit/true/t/2257136/tags/_dyk%20_both-portals Add a DYK]|| [http://tibasicdev.wikidot.com/dyk:dyk/edit/true/t/2257136/tags/_dyk%20_all-portals Add a DYK] ||

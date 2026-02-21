@@ -1,0 +1,1 @@
+…that pressing alpha in the program editor followed by up or down, you will scroll a whole page of program code?

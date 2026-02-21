@@ -1,0 +1,3 @@
+[[module ListPages category="archives" tags="-_new -_legacy" separate="false" order="@URL|rating desc" perPage="200"]]
+* %%title_linked%%
+[[/module]]

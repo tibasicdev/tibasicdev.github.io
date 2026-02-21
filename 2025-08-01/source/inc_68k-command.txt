@@ -1,0 +1,11 @@
+[[include inc:68k-command-backend
+|picture={$picture} |picture=@@
+|summary={$summary} |summary=@@
+|syntax={$syntax} |syntax=@@
+|location={$location} |location=This command can't be found in any menu besides the command catalog. 
+|flashrom={$flashrom} |flashrom=@@
+|ams2xx={$ams2xx} |ams2xx=@@
+|ams3xx={$ams3xx} |ams3xx=@@
+
+|size={$size} |size=@@
+]]

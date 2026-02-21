@@ -1,0 +1,1 @@
+[[include archive:_include-general |page={$category} |options=_{$category}="1"]]

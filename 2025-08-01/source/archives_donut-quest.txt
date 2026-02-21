@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Donut Quest
+|author=[*http://mpl.unitedti.org/ Mikhail Lavrov] (DarkerLine)
+|size=10,154 Bytes
+|description=Donut Quest is a TI-Basic game of revolutionary quality. It uses no libraries of any kind, in fact, you don't need anything other than the game program to play it. On each of eight levels, you must get to (and eat) all the donuts, then leave through an exit (unless given other instructions).
+
+|picture=donut-quest/donut-quest.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/donut-quest/donutquest.zip
+|downloadName=DonutQuest.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

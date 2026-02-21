@@ -1,0 +1,21 @@
+author: CodingCuber
+version: '1.0'
+summary: 'A moderately advanced clone of minesweeper built on the Ti-84 Plus.'
+description: 'This minesweeper clone is built in the graph and uses the cursor to navigate the board. Programmed entirely in TI-Basic. Runs fast and uses a matrix for mine location storage. Has a button at bottom of the screen ("F") to switch between mine and flag modes. Please post any bugs you find and I will fix them as soon as possible. Only works and Ti 84 devices with a screen size of 94 x 62 pixels due to the use of the graph. More features will be added as they are programmed. Feel free to post suggestions for features'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: dd
+download: 'archivefile:mnesweep/MNESWEEP.8xp'
+image: null
+fileSize: '690'
+fileSizeUnit: '1'
+dateMade: '1540526400'

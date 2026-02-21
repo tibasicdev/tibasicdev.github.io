@@ -1,0 +1,1 @@
+…that there are 256 [[[pictures|picture variables]]] built-in to the TI-83+ calculator, even though the calculator only shows 10 picture variables?

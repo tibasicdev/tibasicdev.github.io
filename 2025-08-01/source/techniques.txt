@@ -1,0 +1,39 @@
+[[include inc:development
+|stage = coding]]
+
+There are various techniques you can use within your program in order to emulate different elements used in games and math.  Here is a list of techniques you can use to accomplish all the elements of a good game and more.
+
+[[module ListPages tags="+techniques" order="titleAsc" separate="false" perPage="1000"]]
+* %%title_linked%%
+[[/module]]
+[!--
+* [[[piecewise-expressions|Piecewise Expr's]]]
+* [[[friendly-window|Friendly Windows]]]
+* [[[animation|Animation]]]
+* [[[custommenus|Custom Menus]]]
+* [[[cryptography|Cryptography (Codes and Ciphers)]]]
+* [[[saving|Saving Games]]]
+* [[[highscores|Highscores]]]
+* [[[compression|Compression]]]
+* [[[maps|Making Maps]]]
+* [[[movement|Movement in Maps]]]
+* [[[custominput|Custom Text Input]]]
+* [[[graphics|Advanced Graphics]]]
+* [[[protection|Program Protection]]]
+* [[[lookuptables|Look-Up Tables]]]
+* [[[selfmodify|Self-Modifying Code]]]
+* [[[grouping|Grouping Programs]]]
+* [[[Subprograms]]]
+* [[[Multiplayer]]]
+* [[[Validation]]]
+* [[[Recursion]]]
+* [[[Assembly]]]
+--]
+
+[[include inc:next-prev
+|prevpage = code-conventions
+|prevtitle = Code Conventions
+|tocpage = development
+|toctitle = Overview
+|nextpage = comments
+|nexttitle = Commenting Code]]

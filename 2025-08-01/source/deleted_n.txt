@@ -1,0 +1,1 @@
+N is a variable, much like A or B or C, etc. Anything you can do with A you can do with N.

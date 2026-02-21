@@ -1,0 +1,15 @@
++ Pending
+
+------
+
+[[module ListPages category="reports" tags="pending" perPage="25"]]
+%%author%% reported %%title_linked%% for %%form_data{reason}%% on %%created_at%%
+[[/module]]
+
++ All
+
+------
+
+[[module ListPages category="reports" perPage="50"]]
+%%author%% reported %%title_linked%% for %%form_data{reason}%% on %%created_at%%
+[[/module]]

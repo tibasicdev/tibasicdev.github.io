@@ -1,0 +1,1 @@
+…that you can [[[compression|compress]]] a list of related numbers by combining them into integer and fraction parts?

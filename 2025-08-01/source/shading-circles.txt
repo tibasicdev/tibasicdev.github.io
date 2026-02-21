@@ -1,0 +1,30 @@
+[[include inc:routine
+|picture=@@
+|summary=Shades in a circle.
+|input=//R// - the radius of the circle
+//A// - the X coordinate of the circle's center
+//B// - the Y coordinate of the circle's center
+|output=None
+|variable=N, R, A, B
+|compatibility=TI-83/84/+/SE
+|author=Jutt
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=2147&view=findpost&p=39015 United TI
+|download=[file shadecircles.zip]
+]]
+
+[[code]]
+:For(N,0,R,ΔX
+:√(R²-N²
+:Line(A+N,B-Ans,A+N,B+Ans
+:Line(A-N,B-Ans,A-N,B+Ans
+:End
+[[/code]]
+
+Although it is possible to shade in a circle using the [[[shade|Shade(]]] command (i.e., Shade(-√(R²-(X-A)²)+B,√(R²-(X-A)²)+B)), that is actually quite impractical in a real program because of its slow speed. Fortunately, you can improve upon that by using your own routine.
+
+When graphing a circle, there are a few main things you need to know: the radius and the (X,Y) coordinates of the center. In our routine, the R variable is the radius, the A variable is the circle's X coordinate and the B variable is the circle's Y coordinate.
+
+Rather than displaying the circle as one big circle, we are going to display it line by line using a [[[For(]]] loop, starting from the center. The √(R²-N² formula is based on the circle formula R^^2^^=(X–H)^^2^^+(Y–K)^^2^^, with the formula rearranged to get the respective part of the circle.
+
+The circle should display pretty quickly, but it all depends on the values that you chose for the variables; smaller values will be faster, and likewise larger values will be slower. In addition, the circle may not display correctly if you don't have the right graph settings, so you should set your calculator to a [[[friendly-window|friendly graphing window]]].

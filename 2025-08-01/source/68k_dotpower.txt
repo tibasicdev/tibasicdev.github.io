@@ -1,0 +1,45 @@
+[[include inc:68k-command
+|picture=dotpower.png
+|summary=Raises a value to a power, doing this element-by-element for matrices.
+|syntax=//base// .^ //exponent//
+|location=
+* Press 2nd MATH to enter the MATH menu.
+* Press 4 to enter the Matrix submenu.
+* Press K to enter the Element ops submenu.
+* Press 1 to select .+.
+...frankly, just typing it is way easier.
+|size=1 byte
+]]
+
+The .^ operator is generally the same as [[[68k:power|^]]], except when dealing with matrices. While ^ does quite a lot of matrix-specific stuff (check out its page for more information), .^ just applies it element-by-element:
+[[code]]
+:[a,b;c,d] .^ 2
+           [a^2  b^2]
+           [c^2  d^2]
+[[/code]]
+
+The command can handle any choice of matrix and scalar as the base and exponent. However, if you're raising a constant number to a matrix power, be careful that the dot in .^ is not confused for a decimal point, by adding extra spaces:
+[[code]]
+:2.^[a,b;c,d]
+           Error: Data type
+:2 .^ [a,b;c,d]
+           [2^a  2^b]
+           [2^c  2^d]
+[[/code]]
+
+Although this doesn't come up often, be aware that .^, like ^, is evaluated from right to left: a.^b.^c is calculated as a.^(b.^c), not as (a.^b).^c.
+
++ Error Conditions
+
+[[include inc:68k-error num=240|error=Dimension mismatch|cause=a matrix is raised to the power of another matrix, with different dimensions]]
+
++ Related Commands
+
+* [[[68k:dotadd|.+]]]
+* [[[68k:dotsubtract|.-]]]
+* [[[68k:dotmultiply|.*]]]
+* [[[68k:dotdivide|./]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

@@ -1,0 +1,3 @@
+"[[[68k:Tokenization]]]" is the process whereby the characters that make up a command are replaced by a token -- a number representing the command.
+
+([[[68k:tokenization|Read more...]]])

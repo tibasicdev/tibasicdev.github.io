@@ -1,0 +1,21 @@
+author: Battlesquid
+version: '1.1'
+summary: 'Sticks(Chopsticks) for the 83/84+!'
+description: "Battle against your opponent in this classic game of strategy! For more info, go to https://en.wikipedia.org/wiki/Chopsticks_(hand_game)#Splitting\nReport any bugs/errors to Timesquid711@gmail.com\nEnjoy!"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:sticks-1/Sticks.8xp'
+image: 'archiveimage:1467017515-1/1467017515.gif'
+fileSize: '931'
+fileSizeUnit: '1'
+dateMade: '1467010800'

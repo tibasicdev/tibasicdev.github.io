@@ -1,0 +1,159 @@
+[[table style="width: 100%; margin-bottom: 20px;"]]
+[[row]]
+[[cell style="width: auto; background: #fdfcf6; border: 1px solid #aaa; padding: 10px; font-size: 125%;"]]
+**//Welcome to TI-Basic Developer (TI|BD), the premier source for TI-Basic information!//** If you are a first-time visitor, please check out the [[[welcome pack]]] to get you up to speed on using the site. We encourage you to [[[system:join|become a member]]] and to [[[contribute|get involved]]] in the community, and to come back often to see what [[[system:recent-changes|changes]]] have occurred. And above all else, enjoy your stay!
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 100%; cell-spacing: 7px;"]]
+[[row]][[cell style="vertical-align: top;"]]
+
+
+[[table class="mainInfobox"]]
+[[row]][[cell class="header"]]
+[[table style="width: 100%;"]]
+[[row]][[cell style="width: 33%; text-align: center;"]]
+[[[news|Recent Site News]]]
+[[/cell]][[cell style="width: 33%; text-align: center;"]]
+[[[forum:recent-posts|Recent Forum Posts]]]
+[[/cell]][[cell style="text-align: center;"]]
+[[[system:recent-changes|Recent Page Edits]]]
+[[/cell]][[/row]][[/table]]
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+[[table style="width: 100%;"]]
+[[row]][[cell style="width: 33%; padding-right: 3px; border-right: 1px solid #AAA; vertical-align: top;"]]
+[[module ListPages category="news" order="name desc" tags="+_news _83portal _both-portals" separate="false" limit="3"]]
+%%content%%
+[[/module]]
+[[/cell]][[cell style="width: 33%; padding-right: 3px; padding-left: 3px; border-right: 1px solid #AAA; vertical-align: top;"]]
+[[module MiniRecentPosts limit="3"]]
+[[/cell]][[cell style="padding-left: 3px; vertical-align: top;"]]
+[[module ListPages separate="false" limit="6" order="updated_at desc"]]
+%%title_linked%%
+[[span style="color: #444; font-size: 85%; margin-left: 15px;"]](by [[user %%updated_by%%]] %%updated_at|%O ago%%)[[/span]]
+[[/module]]
+[[/cell]][[/row]][[/table]]
+[[/cell]][[/row]]
+[[/table]]
+
+[[table class="mainInfobox"]]
+[[row]][[cell class="header"]]
+Search the Site
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+There is a wide range of TI-Basic content available on this site, so we recommend using the search engine or referring to the [[[sitemap]]]. If you can't find what you're looking for, leave a post in the [http://tibasicdev.wikidot.com/forum/t-437432/search-help-2 forums] and somebody will assist you.
+ _
+[[module Search]]
+[[/cell]][[/row]]
+[[/table]]
+
+[[table class="mainInfobox"]]
+[[row]][[cell class="header"]]
+[[table style="width: 100%;"]]
+[[row]][[cell style="width: 33%; text-align: center;"]]
+[[[archives|Featured Program]]]
+[[/cell]][[cell style="width: 33%; text-align: center;"]]
+[[[challenges|Featured Challenge]]]
+[[/cell]][[cell style="text-align: center;"]]
+[[[system:recent-changes|Recent Page Edits]]]
+[[/cell]][[/row]][[/table]]
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+[[table style="width: 100%;"]]
+[[row]][[cell style="width: 33%; padding-right: 3px; border-right: 1px solid #AAA; vertical-align: top;"]]
+[[module ListPages category="featured-program" limit="1" separate="false"]]
+%%content%%
+[[/module]]
+[[/cell]][[cell style="width: 33%; padding-right: 3px; padding-left: 3px; border-right: 1px solid #AAA; vertical-align: top;"]]
+[[module ListPages category="featured-project" limit="1" separate="false"]]
+%%content%%
+[[/module]]
+[[/cell]][[cell style="padding-left: 3px; vertical-align: top;"]]
+You must make a Connect 4 game with an intelligent AI that plays against a human, with the first player to get four in a row winning the game. Your game should follow the standard rules, including using 6 rows by 7 columns for board dimensions.
+
+To determine the best AI, AI's will be played against each other via two calculators, and the champion AI will be declared as the winner program.
+
+([[[challenges#toc9|Participate...]]])
+[[/cell]][[/row]][[/table]]
+[[/cell]][[/row]]
+[[/table]]
+
+[[/cell]][[cell style="vertical-align: top; width: 18em;"]]
+[[table class="mainInfobox"]]
+[[row]][[cell class="header"]]
+New to TI-Basic?
+[[/cell]][[/row]]
+[[row]][[cell class="content newStyle"]]
+These pages provide an overview of TI-Basic, and are designed to help you quickly get started learning and using TI-Basic.
+
+* [[[thecalcs|The Calculators]]]
+ * [[[whytibasic|Why TI-Basic?]]]
+  * [[[Using This Guide]]]
+   * [[[starter-kit|TI-Basic Starter Kit]]]
+    * [[[faq|TI-Basic FAQ]]]
+[[/cell]][[/row]]
+
+[[row]][[cell class="header"]]
+[[[Did You Know...]]]
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+[[module ListPages category="dyk" tags="+_dyk _83portal _both-portals" separate="no" order="random" limit="1" urlAttrPrefix="dyk"]]
+%%content%%
+[[/module]]
+[[/cell]][[/row]]
+
+[[row]][[cell class="header"]]
+[[[Commands]]]
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+[[module ListPages category="excerpt" tags="_excerpt +_83portal +featured-command" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+[[/cell]][[/row]]
+
+[[row]][[cell class="header"]]
+[[[Development]]]
+[[/cell]][[/row]]
+[[row]][[cell class="content"]]
+[[module ListPages category="excerpt" tags="_excerpt +_83portal +featured-article" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+[[/cell]][[/row]]
+[[/table]]
+[[/cell]][[/row]][[/table]]
+
+
+
+[[module CSS]]
+.newStyle ul{
+    list-style: none;
+    padding-left: 18px;
+}
+.newStyle ul li a{
+    padding-bottom: 6px;
+    display: block;
+}
+.mainInfobox{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #666;
+    margin-bottom: 8px;
+}
+.mainInfobox .header{
+    font-size: 140%;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    background: #666;
+    color: #F3F3F3;
+}
+.mainInfobox .header a{    color: #F3F3F3; }
+.mainInfobox .content{
+    padding: 6px;
+    background: #FDFCF6;
+}
+.mainInfobox table td{    padding: 0; }
+.mainInfobox p{    margin-top: 3px; }
+[[/module]]

@@ -1,0 +1,43 @@
+[[include inc:68k-command
+|picture=delvar.png
+|summary=Deletes a variable or variables.
+|syntax=DelVar //var1//[,//var2//,...]
+
+|location=
+Starting in the program editor:
+* Press F4 to enter the Var menu.
+* Press 2 to select DelVar.
+
+|size=3 bytes
+]]
+
+The {{DelVar}} command deletes variables from existence, making them undefined again. This is a good way of [[[68k:setup-and-cleanup|cleaning up]]] at the end of a program, or of making sure that a variable is undefined before you use it in a symbolic expression. 
+
+For {{DelVar}} to work, the variable must not be [[[68k:archive|archived]]] or [[[68k:lock|locked]]]. It also doesn't work on any program that's currently running, or on system variables.
+
+There are two commands which might be a better alternative to {{DelVar}}, however. {{[[[68k:NewProb]]]}} deletes all 26 one-letter variables at once; however, it also clears things like the graph screen that you might want to see preserved. Declaring a variable as {{[[[68k:Local]]]}} at the beginning of a program prevents you from needing to delete it afterward, and it also makes sure you don't overwrite any existing variables.
+
+Newer calculators have a {{[[[68k:DelType]]]}} command to delete all variables of a certain type (provided they're not locked or archived). This is risky: you'll almost certainly delete too much. It's better to use {{DelVar}}, even if you have to list a hundred variables to do it.
+
++ Advanced Uses
+
+Assembly programs might allow you to "hide" programs (or other variables) from the variable menu. This is actually done by marking the variable in question as "in use", the way a currently-running program is marked. As a result, you won't be able to delete a hidden variable, and trying to will give the "Variable or Flash application in use" error.
+
++ Error Conditions
+
+[[include inc:68k-error num=140|error=Argument must be a variable name|cause=trying to delete something that isn't a valid variable name]]
+[[include inc:68k-error num=450|error=Invalid in a function or current expression|cause=DelVar is used in a function]]
+[[include inc:68k-error num=870|error=Reserved name or system variable|cause=trying to delete a system variable]]
+[[include inc:68k-error num=970|error=Variable or Flash application in use|cause=trying to delete a currently running program]]
+[[include inc:68k-error num=980|error=Variable is locked, protected, or archived|cause=trying to delete a locked or archived variable]]
+
++ Related Commands
+
+* {{[[[68k:store|→]]]}}
+* {{[[[68k:Define]]]}}
+* {{[[[68k:DelType]]]}}
+* {{[[[68k:NewProb]]]}}
+
++ See Also
+
+* [[[68k:setup-and-cleanup|]]]

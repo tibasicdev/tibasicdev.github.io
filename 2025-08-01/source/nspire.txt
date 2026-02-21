@@ -1,0 +1,812 @@
+[[module CSS]]
+@import url(http://static.wikidot.com/common--theme/co/css/style.css?0);
+ 
+#header {
+  background: #171412;
+  height: 86px;
+}
+#header h1 {
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: 69px;
+  background: #171412 url('/local--files/nspire:home/Logo10C.png') no-repeat;
+}
+#header h1 a {
+  padding: 0;
+  margin: 0 320px 0 8px;
+  width: 472px;
+  height: 69px;
+  display: block;
+}
+#header h1 span {
+  display: none;
+}
+#header h2 {
+  display: none;
+}
+ 
+#top-bar {
+  top: 69px;
+  height: 21px;
+  min-width: 976px;
+  padding: 0;
+  background-color: #564a43;
+  border-bottom: 2px solid #564a43;
+}
+#top-bar ul{
+  padding: 2px 100px 2px 30%;
+}
+#top-bar  a, #top-bar li ul li a  {
+  background-color: #564a43;
+}
+#top-bar a:hover, #top-bar li ul li a:hover {
+  background-color: #564a43;
+}
+ 
+#side-bar {
+  width: 20%;
+  min-width: 185px;
+  float: left;
+  background-color: #C7C9B8;
+  border-right: 1px solid #BBBEAB;
+  border-bottom: 1px solid #BBBEAB;
+  color: #4E4F43;
+  padding-top: 3px;
+  margin:0;
+}
+.special-collapsible .collapsible-block-unfolded .collapsible-block-link {
+  font-weight: bold;
+  padding-left: 0em;
+}
+.special-collapsible a {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+  padding-left: 1em;
+  border-bottom: 1px solid #BBBEAB;
+  border-top: 1px solid #D2D3C6;
+  color: #1E2B31;
+  text-decoration: none;
+}
+ 
+/* The links on the left side */
+#side-bar ul{
+  display: block;
+  padding: 0;
+  list-style: none;
+}
+#side-bar ul li{
+  margin: 0;
+  display:block;
+}
+#side-bar li a {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+  padding-left: 1em;
+  border-bottom: 1px solid #BBBEAB;
+  border-top: 1px solid #D2D3C6;
+  color: #1E2B31;
+  background-color: default;
+  text-decoration: none;
+}
+#side-bar li a:hover {
+  background-color: #D1D3C3;
+}
+ 
+/* The headings on the left */
+#side-bar h1 {
+  font-size: 140%;
+  margin: 0px;
+  padding-left: 0.5em;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+/* Left paragraph text */
+#side-bar p {
+  padding: 5px;
+  margin: 0px;
+  margin-bottom: 3px;
+  margin: 0px;
+}
+ 
+.infobox {
+  color: #FFFFFF;
+}
+ 
+.infobox a {
+  color: #FFFFFF;
+}
+ 
+#footer {
+  background: #564A43;
+  border-color: #171412;
+}
+[[/module]]
+
+[[table style="border:1px solid #666; width:100%; padding: 5px; margin-top: 10px;"]]
+[[row]]
+[[cell style="width:100%; text-align: center;"]]
+[[image http://tibasicdev.wdfiles.com/local--files/home/toolbar-separator.png style="vertical-align: middle;"]] Note that this page was written in 2009, and much of the content may be outdated.  For now, it is recommended that you visit the **[http://tibasicdev.wikidot.com/forum/c-32785/ti-nspire-programming Nspire forums]** if you have questions. Or see the **[http://www.manualslib.com/download/325947/Ti-Ti-Nspire.html TI Nspire Software Manual]** for full documentation. **UPDATE:** You can now visit the **[http://tibasicdev.wikidot.com/nspire:home Nspire home page]**
+[[/cell]]
+[[/row]]
+[[/table]]
+
+The TI-Nspire is a unique calculator in the BASIC series.  The calculator's programming system is remarkably similar to that of the [[[68k:home|68k's]]] hardware, but because the Nspire's internal core is different, it needs a section on its own.  Unlike all the older TI versions, the Nspire does not have a home screen or a graph screen.  Instead, the calculator runs on a document that has five applications: Calculator, Graph and Geometry, Spreadsheet, Notes, and Statistics.  The programming operates under the Calculator application.  Although the Nspire makes good use of form and screen resolution, the programming is very limited compared to older versions.  This article is meant to give you a brief overview of the programming in the Nspire and how older versions are preferable if you want to program.
+
+[[toc]]
+
++ The Nspire: Introduction
+
+The Texas Instruments Nsipre is an upgraded version of all the other TI models.  It uses very much the same type of formatting as the 89 family but does not have a CAS.  When first observing the calculator, you will notice the keypad.  It is highly different from any other calculator.
+[[div style="float:left; padding: 0 1em;"]]
+[[image http://tibasicdev.wdfiles.com/local--files/thecalcs/tinspire.png alt="Image not Available"]]
+[[/div]]
+It has a very strange layout compared to the other TI graphing calculators.  First, all the letters get their own buttons, making it a little easier to type.  Also, it has a {{ctrl}} key rather than a {{2nd}} key.  It has a clicker key, menu key, catalogs, enter, and even a caps key.  If you observe it long enough, it begins to resemble a keyboard.  This is because the Nspire is designed to be like a computer in a way.  It uses documents to store information.  These documents hold information about anything you did within it, not just programs.  You can choose to save it, or load different documents, a lot like a computer.  Also, the Nspire utilizes a mouse type system.  It replaces the arrow keys with one round button.  It acts as the arrows, and as a way to move a mouse-like pointer across the screen.  The Nspire is a transition of a calculator to a computer, yet held back enough to retain calculator status.
+
+The second thing you would notice is the screen resolution.  Very nice!  The screen is much better than any other calculator in history.  The screen displays curves very well, it graphs cleanly, it uses letters and other characters with different size (much like a computer font style), and it is bigger.  Also, the screen has many different shades of gray.  In using inequalities, the calculator can actually shade in the region instead of drawing lines that represent it, and it darkens regions of overlap.  The screen is very nicely done.
+
+The final most notable thing is you might get lost on where every function is.  The calculator has a very different key layout, and it also has a different internal layout.  You might have trouble finding where some of the functions are.  This article does not discuss how to find different functions, but it discusses the programming attribute, which is the main topic of this site.  For finding various functions, visit the Catalog (the book button) or check your CD manual.  It has loads of information you can use.
+~~~~
++ Pros and Cons
+
+The programming for the Nspire is very similar to the 68k series.  However, the Nspire simply isn't part of it.  For one thing, the Nspire has no graph screen, or even a home screen.  Everything is formed with documents, problems, and pages.  You can have a document, problems within that document, and pages within those problems.  Even though everything within a document is connected in some way, the calculator doesn't seem capable of accessing other pages or problems without manual control.  Because of this limitation, the calculator has no graphing commands.  It lost commands like [[[pt-on| Pt-On(]]] and [[[line| Line(]]].  Anything under the Draw category has been deleted.  The Draw command was the basis of advanced graphics, so that means the Nspire cannot produce any games with any sort of graphics, even though its resolution is so many times better than that of older models.
+
+Furthermore, the calculator has no home screen.  Instead, it uses a very strict line by line layout.  The calculator deals with an operation or command very systematically.  Until the calculator completes an assigned command or operation, it will not let the user interfere.  New inputs are automatically in a new line.  This sounds a lot like other calculators completing operations without interruption.  However, this becomes a huge problem when pertaining to programs.  The Nspire does the same thing to programs; it doesn't allow user interference.  That means that the calculator will not accept user input until the program is finished.  That defeats the purpose of programs.  If you can't input anything, what use is programing?  It happens that the program accepts input before a program is executed, but not during.  So, to make a program with the same effects of programs in 68k or 83 family BASIC, you have to create multiple programs that must each be individually accessed, which becomes incredibly cumbersome.
+
+So, the calculator is terrible at programming.  It can't produce graphics or advanced layouts, and it won't accept input.  So what use is programing on an Nspire?  Truthfully, if you want to program, don't get the Nspire.  Simply put, there is no real way to work around these obstacles.  However, the regular Nspire comes with an 84+ keypad.  It has all the capabilities of a regular TI-84+.  Thing is, even though the calculator has capabilities of using extreme resolution, the 84+ keypad doesn't utilize it.  So it's still not all that good.
+
+So what if I already have an Nspire?  Don't worry.  If it comes with the 84+ keypad, go ahead and use that to program.  In any case, the Nspire is definitely superior in math.  Through sacrifice of programming capabilities, it has gained many useful math tools.  For example, it checks primes, has trigonometric functions like secant and cotangent, a newly optimized numerical solver, point plot er, geometry grapher, spreadsheets, and more.  It even utilizes templates, so instead of writing a math equation like ((3+4)/(5(6+3))^4, the calculator can write it as [[$ \left( {3+4 \over 5(6+3)} \right) ^4 $]] instead.  The Nspire also can hold numbers way higher than 1[[size 80%]]E[[/size]]100.  So, it is superior in math (which can be a real big help on math tests!) but is not a good programming apparatus.
+
+This article will further discuss the topic of programming on an Nspire calculator describing how to create programs, describe all the commands, ways to get input, ways around the major obstacles, and a game example in the end.
+
++ Creating a Program or Function
+To create a program, make sure you are in the Calculator application.  Press **{{Menu}}** and go to 8.  Then, press 1 and 1 again.  A window will pop up prompting the name of the program.  Put in the name, select the type (program or function) and press OK.  Now, you are in the program editor and you can now create your program.
+
+There are differences between programs and functions.  Depending on what you are doing with the program, you will want to select one of them.
+||~ ||~ Program||~ Function||
+||Return a result?||No||Yes||
+||Can be used in an expression?||No||Yes||
+||Can run in applications other than Calculator?||No||Yes||
+||Can use all the commands?||Yes||No||
+||Can use multiple variable types?||Yes||Yes||
+||Can access global variables?||Yes||Yes||
+||Can modify and create global variables?||Yes||No||
+||Can call subprograms?||Yes||No||
+||Can call functions?||Yes||Yes||
+A program is what the other calculators typically use.  The function can be used inline in an expression, such as {{5+**func**(7)-2}}.  However, functions do not support most of the commands on this page.
+
+++* Format
+The format of the TI-Nspire is a little more organized than the 83 series.  The program editor keeps much the same format except it indents for every group of commands.  For example, it indents If...Then blocks, While...EndWhile blocks, and others.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **test**(//a//,//b//)=
+Prgm
+If //a//=1 Then
+...Disp 1
+...//c//:=5
+ElseIf //a//=2 Then
+...Disp 2
+...While //b//>0
+......//b//:=//b//+2//c//
+......Disp //b//
+...EndWhile
+ElseIf //a//=3 Then
+...Disp 3
+EndIf
+EndPgrm
+[[/div]]
+
+Variables on the Nspire function in much the same way as 68k variables.  A variable can be a string of letters.  An undefined variable is italicized.  For example, if the variable {{height}} was undefined, or had nothing stored to it yet, then on the calculator the variable would look like {{//height//}}.  Defined variables are bolded, so if {{height}} was defined, it would appear as {{**height**}}.  Commands are neither bold nor italicized, and you cannot store information into them.
+
+
+++* Execution
+To execute the program, go to the Calculator application.  You must then type out the entire program name.  Then, put parentheses with values that must be defined for the program within them.  The syntax for the above would look like:
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+**test**(2,-3)
+[[/div]]
+You could also select the program from the {{**var**}} button.
+
++ The Commands
+
+Most of the commands on the Nspire are the same or variations of the [[[68k:command-index|68k commands]]].  However, the Nspire lacks most graphical commands, and some variable commands are limited.  Some commands require a Computer Algebra System, or CAS, so if your Nspire doesn't have CAS, many of the commands will not function.
+
+There are a few commands for exclusive use in programming.  These commands help direct how the program works so that it can complete various tasks.  The commands are divided into categories based on their overall function.
+
+++ Define Variables
+
+These commands have to do with the variables.  Commands listed here will affect the way the program treats variables.
+
++++* Local
+Local is a command that tells the calculator how to identify the variable that comes after it.  Local tells the program to make the variable a temporary variable that only functions within the program itself.  So, when you local a variable, that variable is only used within the program, and if that same variable is used anywhere else, you will find that it was not affected.  Here is the syntax.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Local //varname//
+[[/div]]
+The //varname// can be any variable name or type.  This command is useful in the sense that it won't mess with your previous usage of the variable.  If you want to use the variable name, but it is used in other programs and you don't want your program to mess it up, use local.  If there is a case where you want the variable to be altered globally, then don't use local, and the calculator will treat it like any other number.
+
++++* Define
+
+The command Define will allow you to use subroutines within a program.  This command creates a new program or function within the program so that the subroutine can be used again.  For it to work, you must have either Pgrm...EndPgrm or Func...EndFunc for it to work.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **test2**(x,y)
+Pgrm
+Disp //x//,//y//
+EndPgrm
+[[/div]]
+
++++* Delete Variable
+
+This command will delete a variable making it undefined.  This command will not set a number equal to 0, but it instead changes the variable to become unusable until defined later with a store command.
+
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+DelVar **height**
+[[/div]]
+
+This command would be good to use when cleaning up a program.  If you don't want your variables to have values after a program finishes, use DelVar to reset the variables.
+
++++* Func...EndFunc and Pgrm...EndPgrm
+
+These sets can be used to create subroutines when used with Define.  Func...EndFunc will create a function whereas Pgrm...EndPgrm will create a program.  Use these after a Define in order to create the program which can be defined later in the main program.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **test2**(x,y)
+Pgrm
+Disp //x//,//y//
+EndPgrm
+[[/div]]
+
+++ Control
+
+These are the main commands that will be used.  The control commands control the flow of the program affecting what group of commands to activate or how many times to commence a group of commands.
+
++++* If
+This is exactly like the If condition used in other BASIC languages.  You put a condition after the If, and if the condition is true, the next line will be executed.  If it is false, it will be skipped.  Here is the syntax.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **height**>0
+**height**@@*@@**width**→//area//
+[[/div]]
+
+This is very, very useful in programming, if not essential.  The If command makes games possible.  It detects limits, exacts, and special circumstances, which can affect the reality of any program.
+
++++* If...Then...EndIf
+In BASIC, this is the equivalent of the If:Then combination.  A condition goes after the If.  If the condition is true, everything after the Then until the EndIf will be executed.  If it is false, the calculator will begin at the EndIf and execute those commands.  Here is an example.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **h**=3 Then
+...3+3→//a//
+...//a//+**h**→//c//
+...//c///**h**+//a//→**h**
+EndIf
+Disp **h**
+[[/div]]
+In this example, if //h// is 3, then the number displayed will be 9.  If //h// isn't three, then it will display any number that is not three.  Again, this conditional command is highly valued in programming.  This is a must in programming!  This also determines limits and special instances, but this opens a new field of programing.
+
++++* If...Then...Else...EndIf
+We probably don't need to tell you that this is the same as in BASIC.  This command is an If conditional followed by Then and Else.  If the condition after the If is true, then everything after the Then will be executed, but everything after the Else will be skipped.  If the condition is false, then everything after the Then is skipped, and everything after the Else is executed.  Here is an example.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **a**>**b** Then
+...Disp "Yes"
+Else
+...Disp "No"
+EndIf
+[[/div]]
+In this code, if //a// is greater than //b//, the program will say "yes", otherwise, it will say "no".  This command is very useful.  It is an efficient way to test something, and then have the program do one thing or the other depending on its fallacy.  This command control is a very good way to maneuver your program, and it is highly recommended that this be used.
+
++++* ElseIf...Then
+
+This is a special form of the If...Then...Else...EndIf command.  This command allows you to test multiple different options instead of only one.  This command must come after an If...Then, and you may have a lot of ElseIf's.  First, it will test if the first condition is true.  If it is, everything after Then is executed, and the program goes to EndIf at the first ElseIf it encounters.  If it is false, the condition after the next ElseIf is tested.  It does this until all ElseIf conditions are tested or one is true, and the following commands are executed.
+
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **a**=1 Then
+...Disp "a is one"
+...4→//c//
+ElseIf **a**=2 Then
+...Disp "a is two"
+...2→//c//
+ElseIf **a**=3 Then
+...Disp "a is three"
+...8→//c//
+EndIf
+[[/div]]
+
+This code tests the value of **a** three times.  First, it finds if **a**=1.  If it does, the text "a is one" will appear, and //c// will become four.  Then, it proceeds after EndIf.  If **a** is not one, then the next condition a=2 is tested.  If **a** is two, then the text "a is two" is displayed and //c// becomes 2.  This is how the ElseIf works.
+
+The ElseIf is a lot like the If...Then...Else...EndIf.  These two codes are the same.
+[[table]]
+[[row]]
+[[cell style="width:50%; vertical-align:top;"]]
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **a**>6 Then
+...2**h**+3→//c//
+...**a**+2-**h**→//d//
+...Disp "Next move?"
+Else
+...Disp "You Lose"
+...Stop
+EndIf
+[[/div]]
+[[/cell]]
+[[cell style="width:100%; vertical-align:top;"]]
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+If **a**>6 Then
+...2**h**+3→//c//
+...**a**+2-**h**→//d//
+...Disp "Next move?"
+ElseIf **a**≤6 Then
+...Disp "You Lose"
+...Stop
+EndIf
+[[/div]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
++++* For...EndFor
+This is a calculator loop.  This command, when used as For //variable//,//start//,//stop//,//optional increment//, will start with //start//, store that into //variable//, and execute every command until it reaches EndFor.  Then, the program will go back to For, and add //optional increment// to //variable// and does do until it reaches the number //stop//.  After that, it will end the loop and start executing commands after EndFor.  The //optional increment// is an optional input, and the program will assume it is 1 unless stated otherwise.  Here is an example of a For loop in action.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+For //a//,1,11,2
+...Disp //a//^^2^^
+EndFor
+[[/div]]
+This code will display 1, 9, 25, 49, 81, and 121.  This is because it starts with //a// as 1, then //a// as 3, then //a// as 5, and so on.
+
++++* While...EndWhile
+
+This command is another type of loop.  This loop requires a conditional after While.  It loops for as long as that condition is true, and the loop ends when that condition becomes false.  For the loop to be executed, the condition must initially be true.  Also, make sure the variables within the condition change; the loop will become infinite otherwise.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+0→//x//
+While //x//<5
+...Disp //x//
+...//x//+1→//x//
+EndWhile
+Disp //x//
+[[/div]]
+This loop will display 0, 1, 2, 3, 4, and then 5.  The loop ends when **x** becomes 5, and it displays the numbers from 0 to 4 because the starting number is 0.  While loops are essential to game creating or animation.
+
++++* Loop...EndLoop
+
+This command creates an infinite loop.  This type of loop requires no arguments and will not stop unless you insert a Stop, Exit, or Goto.  To exit the loop, it is best to create conditionals within the loop to signify when to jump out of the loop.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+0→//x//
+Loop
+...Disp //x//
+...//x//+1→//x//
+...If //x//>5
+...Exit
+End
+Disp //x//
+[[/div]]
+This code displays the same thing as the While...EndWhile loop above.  The only real difference is that with Loop...EndLoop, you can create a conditional within the loop where the While...EndWhile only checks the conditional at the EndWhile.
+
++++* Try...Else...EndTry
+
+This command allows you to literally "try" a group of commands, and if they error out, the ones after Else are commenced.  If an error occurs in the Try part, then the calculator recovers from the error and picks up at the Else.
+
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+DelVar //b//
+Try
+...6+//b//→//c//  {{@@//@@note that b is undefined}}
+Else
+...6+7→//c//
+End
+Disp //c//
+[[/div]]
+The program displays 13.  The program first needs to try 6+//b//→//c//, but since //b// is undefined, the program errors.  However, since it is in a Try block, it skips to the Else and tries 6+7→//c//, which works.  So, it displays **c**, which is 13.
+
++++* ClrErr
+
+This command clears the current error and sets the error system variable to zero.
+
++++* PassErr
+
+PassErr will pass an error to the next level of a Try...EndTry block.
+
+++ Transfers
+
+The transfer commands direct what a program does without the need of an input.  These commands simply activate when executed and tell the program specifically what to do.
+
++++* Return
+
+This command will exit out of a subroutine and progress directly back to the parent program.
+
++++* Cycle
+
+The Cycle command acts like an early End in the program loop.  When encountered, it immediately shoots back to the beginning of the loop.  When the loop ends, it doesn't go to Cycle, but it instead goes to the correct End.
+
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Local //a//
+0→//a//
+While //a//<10
+...Disp //a//
+...//a//+1→//a//
+...If //a//>5
+...Cycle
+...//a//+1→//a//
+EndWhile
+[[/div]]
+This code displays 0, 2, 4, 6, 7, 8, and 9.  What happens is **a**+1→**a** occurs twice thus making **a**+2→**a**.  However, when **a** becomes greater than five, the second **a**+1→**a** does not occur because the Cycle makes the loop restart.
+
++++* Exit
+
+This command will immediately exit the current loop you are in.  So, it stops the loop and starts where the End is.  This command is used to escape Loop...EndLoop's, but it can be used with For...EndFor and While...EndWhile.  It requires no arguments.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+0→//x//
+Loop
+...Disp //x//
+...//x//+1→//x//
+...If //x//>5
+...Exit
+End
+Disp //x//
+[[/div]]
+
++++* Lbl
+This places a Label in a program.  A label is like a flag or marker in a program that can be used as a location by which a program can go to using Goto.  Labels have a name after them, like {{Lbl here}},  When the program encounters a Goto //name//, it starts looking for the label with that specified name.  When it does, the program resumes at that point.
+
++++* Go to Lbl
+
+This will create a Goto in the program that will send the program out to find the matching label.  This can be used to jump entire sections of the program or be used as a loop.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Local //a//
+randInt(1,2)→//a//
+If //a//=1
+Goto 1
+Disp "Heads"
+Stop
+Lbl 1
+Disp "Tails"
+[[/div]]
+This is a simple coin program that uses Goto.  First, a random number is stored to local variable //a//.  If **a** is 1, then it is tails.  The program encounters Goto 1 and so it goes to Lbl 1.  From there, it finishes the program.  If **a** is 2, then Goto 1 isn't encountered, so it displays "Heads" and stops.
+
++++* Stop
+This command halts the program.  That is all it does.  When the program encounters this command, it will completely end the program wherever it is.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+3:=//a//
+Stop
+Disp "How did you get here?"
+[[/div]]
+This code stores 3 into //a// and ends.  The code will not give any output at all.  This is useful when you reach a point where the user inputs an ending command (other than ON) so you can use an If type statement to end the program immediately.  Then, you can put stuff after it in case the user did not want it to stop.  Stop is redundant at the end of a program.
+
+++ I/O
+
++++* Disp
+This command displays whatever comes after it on the screen.  This is what you see when you run a program; it is what the calculator produces as a result of the internal commands and calculations.  Simply put whatever you want to show after the Disp.  If you use quotations, it will display the literal text.  If there are no quotations, then the calculator will attempt to solve the expression you put.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Disp **ab**+**a**
+Disp "Hello"
+[[/div]]
+This code will display the answer to **ab**+**a** and then display "Hello" after it.  This command is needed unless you aim for the program to not to tell the user anything.  Use this command, because it is the only way to convey a message to the user.
+
++++* Request
+Syntax: Request promptString, var[, DispFlag [, statusVar]] or Request promptString, func(arg1, …argn)[, DispFlag [, statusVar]]
+Request gets numbers from the user. It pops up a dialog box with a message of your programmed choice. For example, a little program snippet:
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define reqprog()=
+Prgm
+Request "Enter a number:",number
+If number=1 Then
+ (code)
+EndIf
+.
+.
+.
+EndPrgm
+[[/div]]
++++* RequestStr
+Syntax: RequestStr promptString, var [, DispFlag [,statusVar]]
+Almost same thing as Request, but requests a string.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define yourname()=
+Pgrm
+RequestStr "What is your name?",name
+Disp "Hello, ",name
+Disp "Your name is ",dim(name)," characters long."
+EndPrgm
+[[/div]]
++++* Text
+Syntax: Text promptString [, DispFlag]
+Pops with a dialog box with a message and an OK button.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define randprgm()=
+Prgm
+For i,1,5
+ strinfo:=”Random number “ & string(rand(i))
+ Text strinfo
+ Next
+EndPrgm
+[[/div]]
+
+++ Mode
+
+The mode commands are the ones that change the overall output and computing system of the calculator.  This includes changing things from degrees to radians, and from rectangular to polar.  Under normal circumstances, these commands would probably not be used unless you are making a math program.
+
++ Gaining Input
+Getting user input on the Nspire is rather difficult and highly limited.  --The main problem is that the only I/O command is Disp--.  Unlike the TI-83 series or 68k, the Nspire doesn't have [[[Input]]], [[[Prompt]]], or [[[getKey]]].  The lack of these three commands makes the programming fairly weak on the calculator even though it has dozens more capabilities.  Rather, what TI has done, they expect the user to input the variables before program execution, and that is typically the one and only way Nspire programs will receive input.  The problem becomes the user not knowing what he/she is inputting.
+With updates to the Nspire OS, Request and RequestStr have been added to the command list, which enables the input of data during program execution. Input is still limited, as you cannot build a menu as in the TI-83/84 series. In internal commands they have I/O message boxes (wizards) with scroll lists and multiple inputs for a command; unfortunately TI has not enabled the programming of such dialog boxes.
+
+There are three ways to receive input.  The first way is to simply have the user store desired values into all the variables before executing the program.  For example, say that a program uses the variables //width// and //height//.  The user can store what he or she wants to be the //width// or the //height// by using the syntax //value//→//height//.  If there is already something in the variable, then it would look more like //value//→**height**.  Then, the user can execute the program.
+
+The second way exists within the reason for the ending parenthesis during execution.  In the program editor, you can go to the top line where the Define **Program()** is.  Then, you put the variables you want defined in the parenthesis separated by commas.  So, still using //width// and //height//, the top line would look like: Define **Program(**//width//,//height//**)**.  Then, the user types out the program name with the parenthesis, but instead of leaving the parenthesis blank, the user would put the values he wants to assign //width// and //height// in the parenthesis separated by commas.
+
+The final way is a way to get input during a main program.  Unfortunately, the only way to receive input mid-execution is to completely stop the program and let the user activate another program (or the same one) with the new values.  This, of course, is not all that user-friendly.  It can also be frustrating having to redefine a program every time.
+
++ Programming
+
+In truth, the only real application for programs is the use of math and probability programs.  Although the thought of making games is conceivable, it would be futile to even attempt making something even like pong or another simple game.  Even creating a guessing game is almost impossible.  Even so, programming does have the application of helping you with your math and giving you an idea of likelihoods.
+
+++ Math Programs
+
+Making a math program can be pretty useful.  These programs are the ones that ask for an input and begin solving.  This can be easy to program because most math programs only require one input at the beginning.  One such program would be a quadratic equation solver.
+
+To make a math program, you must first determine what you are solving for and what variables are being given.  For our quadratic equation solver, we want the two roots, determinant, and vertex when inputting //a//, //b//, and //c// when //ax//^^2^^+//bx//+//c//=0.  The user must input //a//, //b//, and //c// at the beginning of the program.  Since that is the only input, this can be done easily.  Define the program and put the variables within the parentheses.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **quadratic**(//a//,//b//,//c//)
+Pgrm
+
+EndPgrm
+[[/div]]
+The next step is to plug in your formulas.  We want the calculator to solve for the roots with one special condition: For two roots, it must display both roots and "Two Solutions"; for one root, the answer and "One Solution"; when both roots are complex, it will display a solitary "No Solution".  We must first find the determinant which will tell us how many solutions will result.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **quadratic**(//a//,//b//,//c//)
+Pgrm
+//b//^^2^^-4//a//*//c//→//d//
+EndPgrm
+[[/div]]
+Now, we can add our conditionals with If...EndIf blocks.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **quadratic**(//a//,//b//,//c//)
+Pgrm
+//b//^^2^^-4//a//*//c//→//d//
+If //d//>0 Then
+...Disp "Two Solutions"
+...Disp [[$ -b+\sqrt{d} \over 2a $]]
+...Disp [[$ -b-\sqrt{d} \over 2a $]]
+EndIf
+If //d//=0 Then
+...Disp "One Solution"
+...Disp [[$ -b \over 2a $]]
+EndIf
+If //d//<0
+Disp "No Solutions"
+Disp "Determinant"
+Disp //d//
+EndPgrm
+[[/div]]
+That finishes the program.
+
+++ Probability Programs
+
+This is probably the most conceivable type of program you can make on an Nspire.  This would be the type of program where you experiment to define the likelihood of occurrences under certain conditions.  This would be like spinning a spinner 1000 times or flipping a coin 25 times.  These programs are easy to make because all you need is a random command and a For loop.  For this program, we are going to say we need to spin a spinner 100 times where the blue section has a theoretical probability of 0.5, the yellow 0.25, and the red 0.25.  First, define your program.  The user doesn't need any variables defined, so we will just close the parentheses on the first line.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+
+EndPgrm
+[[/div]]
+Now, we want to define our variables within the program, so we need to [#toc9 local] them.  We want our variables to be named //blue, red//, and //yellow//.  Also, initialize them.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+Local //blue//
+Local //red//
+Local //yellow//
+0→//blue//
+0→//red//
+0→//yellow//
+EndPgrm
+[[/div]]
+Next, we need to start the For loop.  Since we want 100 trials, we will start at one and end at 100.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+Local //blue//
+Local //red//
+Local //yellow//
+0→//blue//
+0→//red//
+0→//yellow//
+For //a//,1,100
+...
+EndFor
+EndPgrm
+[[/div]]
+Now, use randInt() to find the color landed on.  Since we are dealing with fourths, use numbers 1 to 4.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+Local //blue//
+Local //red//
+Local //yellow//
+0→//blue//
+0→//red//
+0→//yellow//
+For //a//,1,100
+...randInt(1,4)→//spin//
+EndFor
+EndPgrm
+[[/div]]
+Next, we need to set up each conditional so that if the variable **spin** is 1 or 2, blue goes up one, if it is 3, yellow is incremented, and if it is 4, red is incremented.  We can use the ElseIf commands for this.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+Local //blue//
+Local //red//
+Local //yellow//
+0→//blue//
+0→//red//
+0→//yellow//
+For //a//,1,100
+...randInt(1,4)→//spin//
+...If //spin//<3 Then
+......//blue//+1→//blue//
+...ElseIf //spin//=3 Then
+......//yellow//+1→//yellow//
+...ElseIf //spin//=4 Then
+......//red//+1→//red//
+...EndIf
+EndFor
+EndPgrm
+[[/div]]
+Now, the last step is outputting the results.  Simply create a list of displays to show the number of spins.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **spinner**()
+Pgrm
+Local //blue//
+Local //red//
+Local //yellow//
+0→//blue//
+0→//red//
+0→//yellow//
+For //a//,1,100
+...randInt(1,4)→//spin//
+...If //spin//<3 Then
+......//blue//+1→//blue//
+...ElseIf //spin//=3 Then
+......//yellow//+1→//yellow//
+...ElseIf //spin//=4 Then
+......//red//+1→//red//
+...EndIf
+EndFor
+Disp "Yellow"
+Disp //yellow//
+Disp "Blue"
+Disp //blue//
+Disp "Red"
+Disp //red//
+EndPgrm
+[[/div]]
+++ Game Programs
+
+The game program is very hard to accomplish in Nspire Basic.  These types of programs will usually take more than one program to accomplish in order to accept more user input.  However, a game such as "Guess my Number" can be done in one program.
+
+The general strategy is to create a starter program that sets up the game.  Then, every time user input is required, separate it into another program and leave a display telling what the next program is.  For one program, initially start a global variable with a strange name so the program can recognize if you are starting a new game.
+
+Here is a game where you have to guess a number between 1 and 100 in seven tries.  First, you need to create variable //gmn// as 0.  This variable will be our deciding number that finds what try you are on and whether a new game starts or not.
+
+Create the program.  Variable //a// will be the user guess.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **guess**(//a//)
+Pgrm
+
+EndPgrm
+[[/div]]
+
+Define what happens if **gmn** is 0.  The program stores a random number between 1 and 100 into //b//.  Then, 1 is stored into **gmn** to represent guess 1.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **guess**(//a//)
+Pgrm
+If **gmn**=0 Then
+...Disp "Guess a number between 1 and 100"
+...Disp "Type guess( ) with the guess in the parentheses"
+...randInt(1,100)→//b//
+...1→**gmn**
+...Stop
+EndIf
+EndPgrm
+[[/div]]
+
+This next part says that if your guess, **a**, is larger than **b**, the game will tell you to guess lower, or, if it is smaller, to guess larger.  If **a** is equal to **b**, then it displays "You Win!" and the **gmn** resets to 0.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **guess**(//a//)
+Pgrm
+If **gmn**=0 Then
+...Disp "Guess a number between 1 and 100"
+...Disp "Type guess( ) with the guess in the parentheses"
+...randInt(1,100)→//b//
+...1→**gmn**
+...Stop
+EndIf
+If //a//>//b// Then
+...Disp "Lower"
+ElseIf //a//<//b// Then
+...Disp "Higher"
+ElseIf //a//=//b// Then
+...Disp "You Win!"
+...0→**gmn**
+...Stop
+EndIf
+EndPgrm
+[[/div]]
+
+Finally, the program will check if you won or not.  If the **gmn** variable (our turn keeper) goes higher than 7, the program ends and **gmn** is reset to 0.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **guess**(//a//)
+Pgrm
+If **gmn**=0 Then
+...Disp "Guess a number between 1 and 100"
+...Disp "Type guess( ) with the guess in the parentheses"
+...randInt(1,100)→//b//
+...1→**gmn**
+...Stop
+EndIf
+If //a//>//b// Then
+...Disp "Lower"
+ElseIf //a//<//b// Then
+...Disp "Higher"
+ElseIf //a//=//b// Then
+...Disp "You Win!"
+...0→**gmn**
+...Stop
+EndIf
+**gmn**+1→**gmn**
+If **gmn**>7 Then
+...Disp "You Lose."
+...Disp "Answer was"
+...Disp //b//
+...0→**gmn**
+EndIf
+EndPgrm
+[[/div]]
+
++ A Game Example
+
+This game, called FighterX, is a test against the calculator to see how well of a guesser you are.  It is a relatively simple program where all you do is guess a number from 1 to 3.  If you guess the number the calculator was thinking of, the calculator loses HP.  Otherwise, you lose HP.  Try to understand the code.
+
+Program 1
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **fighterx**()
+Pgrm
+100→//you//
+100→//calc//
+Disp "Are you ready?"
+Disp "Type gs( ) with your guess in the ( ) to begin"
+EndPgrm
+[[/div]]
+
+Program 2
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+Define **gs**(//g//)
+Pgrm
+randInt(1,3)→//gc//
+If //g//=//gc// Then
+...**calc**-randInt(5,13)→**calc**
+Else
+...**you**-randInt(2,7)→**you**
+EndIf
+Disp "You"
+Disp **you**
+Disp "Calc"
+Disp **calc**
+If **you**<1 Then
+...Disp "You Lose"
+...DelVar **you**
+ElseIf **calc**<1 Then
+...Disp "You Win!"
+...DelVar **calc**
+EndIf
+If **you**>0 and **calc**>0
+Disp "Type gs( ) and guess again"
+EndPgrm
+[[/div]]
+
++ Break a Calculation
+
+The Nspire version of the ON-Break is a little different than for the 83/84 series.  For the Nspire, you must press and //hold// the On button and wait until it asks for confirmation.  Then, you can break the calculation.  This is useful in the event that an overly complicated function is being performed and you want the calculator to stop thinking so that you can do something else, without having to reset the calculator or remove batteries.
+
++ Forum
+
+To visit the TI-Nspire forum, click [http://tibasicdev.wikidot.com/forum/c-32785/ti-nspire-programming here].  If you have any questions about the Nspire programming or calculator itself, please ask in the forums, and someone will help you as soon as possible.
+
++ Further Research
+
+You can discover much about the Nspire and its commands through the [[[68k:home| 68k]]] portion of this site since they are quite similar.

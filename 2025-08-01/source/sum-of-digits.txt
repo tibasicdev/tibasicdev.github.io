@@ -1,0 +1,33 @@
+[[include inc:routine
+|picture=@@
+|summary=Returns the sum of digits of a number.
+|input=//X// - the number you want
+|output=//Ans// - the sum of X's digits
+|variable=X, Ans
+|compatibility=TI-83/84/+/SE
+|author=DarkerLine
+|authors=@@
+|url=http://www.unitedti.org/forum/index.php?showtopic=4479&view=findpost&p=70233 United TI
+|download=@@
+]]
+
+[[code]]
+:sum(int(10fPart(Xseq(10^(-I-1),I,0,log(X
+[[/code]]
+
+With our number stored in X, we loop through each of the digits of the number starting from the right using the [[[seq-list|seq(]]] command. We get the respective digit by raising the number to the respective power of 10 and then multiplying the result by 10. The digits are returned separately in a list, and then we take the sum of them using the [[[sum(]]] command.
+
+For example, if the number is 1234, we get a list of {1,2,3,4}, which then returns a sum of 10. You should note, though, that this routine only works with positive and negative whole numbers, and will return incorrect results if you try to use a decimal number. You could fix this problem by using the code below instead:
+
+[[code]]
+:abs(E13(X/10^(int(log(abs(X+not(X→X
+[[/code]]
+
+Here, we obtain the appropriate power of ten by which to divide the number so as to leave only one digit to the left of the decimal point. Because a real variable may contain only 14 digits, the answer is multiplied by 10^13 to guarantee the removal of any fractional part. From taking the absolute value of this new result, our number can be safely entered into the routine above.
+
+Note: It should be understood that this routine is only capable of adding the first 14 digits of a number. An input of π, for instance, would return 69 even though the sum of all digits of π is infinite.
+
++ Related Routines
+
+* [[[Number Concatenation]]]
+* [[[Number Subset]]]

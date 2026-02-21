@@ -1,0 +1,17 @@
+[[include inc:program
+|picture=metroidii.gif
+|summary=A quality version of the classic metroid game.
+|size=123KB (not including most of RAM for in game use)
+|libraries=Yes, [http://tibasicdev.wikidot.com/xlib xLIB]
+|compatibility=TI-83+/84/+/SE
+
+(Because of the size and complexity, this game is only recommended for those with a 83+SE, 84+, or 84+SE)
+|author=[*http://www.ticalc.org/archives/files/authors/78/7864.html Kevin Ouellet] (DJ Omnimaga)
+|download=@@[http://tibasicdev.wikidot.com/local--files/metroidii/metroidii.zip metroidii.zip]
+]]
+
+Metroid II features many items from the original metroid like the morph ball, bombs, wave beam, fake walls, destroyable blocks, full of secrets, awesome graphics, many traps, animations, several areas to explore (over 250 maps) and many things that will make your adrenaline increase to insane proportions while playing.
+
+Of course, none of this is cheap in the memory department. The game literally takes up over 123KB in archive, with it spread out to almost fifty different programs (in particular, each of the maps and bosses are given their own program), and you need to have several of them unarchived in order to actually play the game. Of course, this does not include the actual in game usages that occurs from using all of the real variables, lists, matrices, and strings.
+
+Still, the game is a great achievement in TI-Basic, and surely stretches what people thought is possible.

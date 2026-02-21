@@ -1,0 +1,11 @@
+[[include deleted:inc:news part1begin= [!--
+|part2begin= [!-- --]
+|part3begin= [!-- --]
+|part4begin= [!-- --]
+|part1end= --]
+|part2end= [!-- --]
+|part3end= [!-- --]
+|part4end= [!-- --]
+]]
+
+[!-- This page does not need to be modified. Instead, edit the inc:news page when news need to be updated. --]

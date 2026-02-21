@@ -1,0 +1,31 @@
+[[table]]
+[[row]]
+[[cell]]
+**Reason:**
+[[/cell]]
+[[cell]]
+%%form_data{reason}%%
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+**Proof:**
+[[/cell]]
+[[cell]]
+%%form_data{proof}%%
+[[/cell]]
+[[/row]]
+[[/table]]
+Report made by %%author%%
+=====
+[[form]]
+fields:
+  reason:
+    label: Reason for report
+    type: text
+    height: 2
+  proof:
+    label: What proof do you have?
+    type: text
+    height: 10
+[[/form]]

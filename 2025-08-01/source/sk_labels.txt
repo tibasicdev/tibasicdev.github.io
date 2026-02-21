@@ -1,0 +1,86 @@
+Next up on the "control structure" miniseries, this page will explain the most general such instruction there is: the [[[Goto]]] command. The idea is simple: this instruction tells the calculator to go to another point in the program, and continue running it from there. Combined with the If command we've already mentioned, this is actually enough to define any sort of sequence of steps you like, even if it's not always the simplest way to do so.
+
++ Lbl and Goto
+
+Before telling the calculator to go to another point in the program, we need a way to identify that particular point. There could have been several ways to do this: for example, some ways use the line number. But counting lines in a large program would be a pain, and besides, you'd have to change everything if you inserted an extra line. So TI-Basic uses a different approach, the [[[Lbl]]] command.
+
+Using Lbl is simple: just put it (on a line by itself) at a point in the program you might want to jump to later, and add an identifier. The identifiers TI-Basic allows are one or two characters long, and made up of letters and numbers (so Lbl 0, Lbl XY, Lbl A5, and Lbl 99 are all valid labels). When the program is running normally, the calculator will just skip over a label as though it weren't there. 
+
+But once you've made the label, you can use a [[[Goto]]] command to jump straight to it. Goto commands work the same as labels: you give it the identifier you want, and it will jump to the label with that identifier. For example, Goto 0 will jump to the line immediately after Lbl 0.
+
++ Some Uses
+
+[[div style="float:right; width: 15em; padding: 0 1em; margin: 1em 0 1em 1em; border: solid #888888 1px; background-color: #FFFFFF;"]]
+**Exiting a program**
+
+Exiting earlier programs wasn't a problem. The calculator keeps going forward, so eventually it will get to the end!
+
+With Goto and Lbl, the calculator can jump backward in the program, so there's a danger of an **infinite loop**, when the program keeps repeating with no way to exit.
+
+An easy way to exit any Basic program is to use the [ON] key. This will display an error message (**[[[errors#break|ERR:BREAK]]]**), and the program will finish running.
+
+Another possibility is with Input commands. Whenever you're in those, you can press [2nd][QUIT] to exit a program.
+[[/div]]
+
+The first really new thing that we can do with Lbl and Goto is looping over and over in a program. For example:
+
+[[code]]
+:Lbl 0
+:Disp "HA HA HA"
+:Goto 0
+[[/code]]
+
+This will keep displaying "HA HA HA" repeatedly, and never stop. Without a way to jump around the program, we'd need an infinite number of lines to do this!
+
+You'll often want to pair a Goto with an If statement. Apart from infinite loops, there's not a lot of reasons to always make a jump. But paired with the If command, you can make the calculator go to entirely different parts of the program depending on a condition.
+
+This leads us to an important use of Goto: prematurely exiting a program. When you've written a large program, you might want to stop running it in the middle in certain cases. There are two commands -- [[[Return]]] and [[[Stop]]] -- that do just that, but Goto provides an alternative. Just make a label (for example, Lbl Q) at the end of the program. Then, you can Goto Q at any time to jump to that label, and exit the program from there. This is useful if you want to always do something at the end of the program, such as displaying "GOODBYE!".
+
++ More on the Subject
+
+More info on the Lbl and Goto commands can be found at their respective pages [[[Lbl|here]]] and [[[Goto|here]]].
+
++ The Menu( Command
+
+The [[[Menu(]]] command is one of the coolest uses of labels. It's another form of input: instead of asking the user to type in a value, you're asking the user to make a choice from a menu that looks almost exactly like the built-in menus. After displaying this Menu( and waiting for a choice, the Menu( command will jump to a label that depends on this choice.
+
+The syntax for Menu( is somewhat complicated. First comes a string (in quotes) for the title of the menu. The rest of the parameters come in pairs: a string, in quotes, for a choice in the menu, followed by the label for that choice. For example:
+
+[[code]]
+:Menu("SAMPLE MENU","OPTION 1",1,"OPTION 2",2
+:Lbl 1
+:Disp "OPTION 1!"
+:Stop
+:Lbl 2
+:Disp "OPTION 2!"
+[[/code]]
+
+This sample program displays a menu called "SAMPLE MENU" with two options, "OPTION 1" and "OPTION 2". With either option, it will go to a label that displays the option you chose, and exits the program.
+
+Because of the size of the screen, you're limited to 7 options or less in a Menu( command.
+(NOTE: On the TI-84+ CE, you're allowed up to 9 menu options.)
+
++ Problems with Labels
+
+Despite the tremendous convenience of labels, there are two large problems with using them.
+
+The first is speed: jumping to a label can be a relatively slow task (for the calculator, at least). This is because the calculator needs to search through the entire program to find the label. It starts at the beginning, and keeps reading the program until it gets to the end. So if the program is large, and the label isn't at the very beginning, this could take a long time.
+
+The second is more complicated to explain. There are several commands that require an End to finish a block: we've seen this with the If-Then-End form of the If command. Whenever the calculator comes across one of these in a program, it has to use some memory to "remember" to look for an End. When it reaches the End, that memory is freed again.
+
+So what happens if you use a Goto or a Menu( to jump out of the block? The calculator will never find the End it's waiting for. So the memory it used up will never get freed (until the program ends altogether). In fact, if you end up doing this a lot, or even worse, if this is done repeatedly in a looping situation, the calculator will be using a large part of its memory just to keep track of these Ends (this is called a **memory leak**). Even if this doesn't reach the worst possible conclusion, an **[[[errors#memory|ERR:MEMORY]]]**, it will slow down the program a lot.
+
+These two problems are a motivation for the several commands we'll see in the next lesson, which provide a better way to do loops like the one we used Goto for in this section. In fact, jumping to the end of the program is one of the only reasons to use Goto, ever.
+
+
+++ More on the Subject
+
+More info on the Lbl and Goto commands can be found at their respective pages [[[Lbl|here]]] and [[[Goto|here]]].  You can learn more about the Menu( command [[[Menu(|here]]].
+
+[[include inc:next-prev
+|prevpage = sk:logic
+|prevtitle = Logic and Conditions
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:loops
+|nexttitle = Loops]]

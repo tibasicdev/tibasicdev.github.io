@@ -1,0 +1,21 @@
+author: 'Ramm, Bernd'
+version: '1.0'
+summary: 'Analyses the german plate load test for soil testing. In german it is called "Lastplattendruckversuch".'
+description: "The program consists of three parts (LPlatte, LPlatte1, LPlatte2) and will only work with all parts. The asked inputs are written in german. The results are the deformtionmodule\nEV1 and EV2 and the ratio between the two results."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: bb
+download: 'archivefile:lplatte/LPlatte.zip'
+image: null
+fileSize: '2372'
+fileSizeUnit: '1'
+dateMade: ''

@@ -1,0 +1,11 @@
+[[>]]
+[[[dyk |Add a DYK]]]
+[[/>]]
+
+**Did you know...**
+
+[[module ListPages category="dyk" tags="+_dyk _nspireportal _all-portals"]]
+%%content%% ([[[%%fullname%%|edit]]])
+[[/module]]
+
+[!-- This page never needs to be modified --]

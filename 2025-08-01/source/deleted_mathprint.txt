@@ -1,0 +1,1 @@
+MATHPRINT is a command that simply changes the display mode on the home screen. This command is useful if you want to display a number as a fraction, otherwise it does nothing. Be aware that if you use this and then use an output( command to display a numerical variable , the output command may not display.

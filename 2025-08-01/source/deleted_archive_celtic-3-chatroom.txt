@@ -1,0 +1,21 @@
+author: Bio_Hazard1282
+version: 4.8.3
+summary: 'A Celtic 3 Chatroom for your graphing calculator. The Celtic III library could not be uploaded.'
+description: "A Celtic 3 Chatroom for your graphing calculator. (Celtic 3 **NOT** Included)\n\nEDIT: This link below is the official Celtic 3 Library guide:\nhttp://f.eeems.ca/Resources/program%20readmes/Celtic%20III/ReadME%20Celtic%203%20app.txt"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:chat/CHAT.8xp'
+image: 'archiveimage:chat-1/CHAT.gif'
+fileSize: '3301'
+fileSizeUnit: '1'
+dateMade: '1534572000'

@@ -1,0 +1,21 @@
+author: 12Me21
+version: '1'
+summary: 'Randomly changes the results of calculations'
+description: "Put this on someone else's calculator\nWhen they try to do a math problem, if the answer would be an integer, it randomly changes it to another integer, and if the answer wouldn't be an integer, it changes it to a random number.\nI would also suggest editing their other programs and changing \"Stop\" to whatever you named this program (if you want to be extra evil)\nI actually did this to someone... I'm so mean.\n\nCode: (download is useless because they might get suspicious if their calc. stopped working after you plugged it into your computer.)\n\nWhile 1\nInput \"\",θ\nIf θ=Int(θ\nThen\nDisp θ+RandInt(-θ,θ\nElse\nDisp θ+Rand(-θ,θ\nEnd\nEnd\n\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:me22-1/me22.png'
+image: null
+fileSize: '64'
+fileSizeUnit: '1'
+dateMade: '1417669200'

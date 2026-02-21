@@ -1,0 +1,3 @@
+name: ''
+content: "Right, which is why I said it needs to be negated; try {{2X-θ→A}} instead of the solve line.\n\nBesides that, good work (:\n\nHere's what I came up with, where Ans is the displayed percentage:\n\n[[div class=\"werecode\"]]\n:2Ans-50.5+.01(101-2Ans)abs(Ans-50\n[[/div]]"
+attachment: null

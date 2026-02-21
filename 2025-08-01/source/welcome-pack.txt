@@ -1,0 +1,66 @@
+[[div style="float:right; width: 175px; padding: 5px 10px; text-align: center;margin-left: 10px; margin-bottom: 20px; background: #fdfcf6; border: 1px solid #C7C9B8;"]]
+[[span style="font-size:110%;font-weight:bold;"]]Recent Forum Posts[[/span]]
+[[module MiniRecentPosts limit="3"]]
+[[span style="font-size:110%;font-weight:bold;"]]Recent Forum Threads[[/span]]
+[[module MiniRecentThreads limit="6"]]
+[[/div]]
+
++ We're glad you came by, but you might find what you're looking for elsewhere.
+
+TI-Basic Developer is not the site it once was. While its information on commands and other calculator features remains almost second-to-none, its forum, archives, and even hosting service, Wikidot, have been decaying for years. The calculator community would love to see what you're working on, or help you in your next coding adventure, but TI-Basic Developer is no longer the place to do it.
+
+Instead, you should head over to [https://www.cemetech.net/ Cemetech] (primarily American) or [https://tiplanet.org/forum/portal.php TI-Planet] (primarily international). Both are active, well-established forums with their own archives, chatrooms, reference material, and abundant coding tools and resources. We'll see you there, we hope.
+
+,,(the original content of this page remains below for posterity),,
+
+------
+
+------
+
+We are excited that you have chosen to visit our site, and firmly believe that you will not only leave as a better TI-Basic programmer, but that you will come to see the site as your TI-Basic home!
+
+You will find that this community was designed to be a friendly and welcoming environment, and we are dedicated to providing information and discussion to anyone interested in TI-Basic.
+
+Whether you are just starting out in programming or you are already an accomplished TI-Basic programmer, you are welcome to join our community.
+
+++ Site Features
+
+The site offers a rich assortment of features, and we encourage you to explore it at your own pace:
+
+* Support for the current TI graphing calculators, including the **[[[home|TI-83/84]]]**, **[[[68k:home|68k]]]**, and **[[[nspire:home|TI-Nspire]]]**
+* A comprehensive collection of **[[[using-this-guide|TI-Basic information]]]** from beginner to advanced
+* A **[[[forum:home|forum]]]** where you can ask questions, get help with your programs, or just converse with other programmers
+* **[[[archives|Program archives]]]** where you can post your programs and download other peoples' programs
+* Sourcecode to study and learn from, including **[[[games]]]**, **[[[programs]]]**, and short **[[[routines]]]**
+* References for help on various subjects, such as **[[[tokens]]]**, **[[[83lgfont|fonts]]]**, and **[[[errors|error conditions]]]**
+* A complete **[[[starter-kit|TI-Basic Starter Kit]]]** that provides programming lessons, tutorials, and guides for new users
+
+++ Where to Begin?
+
+When you feel comfortable, we invite you to [http://tibasicdev.wikidot.com/forum/t-437729/getting-involved get involved] on the site. Registration is a simple two-step process and involves creating a [*https://www.wikidot.com/default--flow/login__CreateAccountScreen?originSiteId=405 Wikidot account] and then going to the [[[system:join | join page]]] to join the site. It is quick and painless, and should take no more than a couple minutes. We then encourage you to [[[http://tibasicdev.wikidot.com/forum/c-21134/introduce-yourself|introduce yourself]]] to the community so that we can get to know you better. We also suggest reading the [[[rules]]], as well as the [[[how-to]]] page, as both contain information you will want to know.
+
+The forums are where much of the community activity takes place, so you will want to regularly visit to see what's new. They are conveniently separated into different categories based on the types of discussions they contain, including site discussion, general discussion, programming & design, and projects & contests.
+
+You will also want to enable the watching feature by clicking the "start watching" link in the bottom page options toolbar. This allows you to follow changes on the whole site, just the forum, or a particular page, and you will be notified via email whenever someone alters it or adds a comment to it. Watching can be enabled/disabled in the activities settings of your Wikidot account.
+
+You can navigate the site by using the links in the navigation bar at the top of the page, or by going to the [[[sitemap]]] for a hierarchical view. The home link is accessible on the other pages by clicking the respective link in the top navigation, and you can search the site by using the search box at the top right of the page. You will find the search box to be an invaluable tool to locate information from pages and old posts in the forums.
+
+++ Contact Information
+
+If you wish to contact the [[[system:members#moderators|administrators]]] for any reason, you have a few different routes you can take:
+
+* Create a [[[system:join|Wikidot]]] account and send a private message (PM) to the administrator of your choice. Just click on the arrow at the top right corner and select "private messages".
+* Find the email address of each administrator on their profile page and send them an email with your question. Of course, this only works if the administrator lists their email address.
+* Start a new topic in the [[[forum:home|discussion forums]]]. This method works well if you don't care which administrator responds, but you should know that everyone can see this forum. If you have a personal question you want to ask, sending a PM is the way to go.
+
+We will try to respond in a timely manner, hopefully in a day or two. Please just be patient.
+
+----
+
+We hope that you enjoy using the site and stop by often.
+
+Thanks for visiting!
+
+[[>]]
+-- **The TI-Basic Developer Community**
+[[/>]]

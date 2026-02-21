@@ -1,0 +1,21 @@
+author: Kydapoot
+version: '1.0'
+summary: 'This is a slots game that uses the graph screen.  If you are bored or like slots, it''s really cool, otherwise its fairly amusing. There are three numbers from 1 to 9, and you want to have as many as possible to match. Hope you get lucky!'
+description: 'This is the first decent game I wrote on the graph screen (although I have written more since). I have been tweaking it for a long time, and it is finally ready for release. You start with $100, and spend a dollar every time you spin. The prizes/losses possible are listed in the game. It also keeps track of your longest streak and total times spun. If you go bankrupt, there is an option to get more money for free, but don’t try clicking it if you already have money!'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '1'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:slots/SLOTS.zip'
+image: null
+fileSize: '1287'
+fileSizeUnit: '1'
+dateMade: '1461646800'

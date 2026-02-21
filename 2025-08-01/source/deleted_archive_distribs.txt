@@ -1,0 +1,21 @@
+author: Trenly
+version: '1.0'
+summary: 'A program for doing distributions in probability and statistics.'
+description: "This program is put here for the use of the Prob-Stats class at my school, or anyone else who wishes to use it. It will be continuously updated as I progress through the course. Some features in the program are not fully implemented yet, as this program is still under development. This is not meant to be an optimized program, and I do not plan on optimizing until the end. The methods used in this program may not be the methods used in every prob-stat course. If you find any bugs with the program send me a private message here on the forums\n\nNote: If you enter 0 for Xmax on the normal distribution or the Poisson distribution it will assume it to be infinity. \nNote: If you enter a decimal for Xmin or Xmax in the binomial or Poisson distribution, it will properly round\n[[code]]\nLbl RR\nFix 4\nClrHome\nMenu(\"Distributions\",\"Binomial\",BD,\"Poisson\",PD,\"Normal\",ND,\"χ²\",XD,\"Inverses\",ID,\"Exit\",EX\nLbl BD\nDisp \"prgmBINOMDF\"\nInput \"N:\",N\nInput \"P:\",P\nInput \"Xmin:\",X\nInput \"Xmax:\",Y\nIf not(fPart(P) or iPart(P):Goto RR\nIf fPart(X):iPart(X)+1→X\nIf fPart(Y):iPart(Y)→Y\nIf fPart(N):iPart(N)→N\nIf sum(1>{N,Y}:Goto RR\nIf Y<X:Stop\nIf Y=X:binompdf(N,P,X)\nIf Y>X:binomcdf(N,P,Y)-binomcdf(N,P,X-1)\nGoto DA\nLbl PD\nDisp \"prgmPOISSDF\"\nInput \"λ:\",L\nInput \"Xmin:\",X\nInput \"Xmax:\",Y\nIf fPart(X):iPart(X)+1→X\nIf fPart(Y):iPart(Y)→Y\nIf 0>L:Goto RR\nIf Y=0:999999→Y\nIf X>Y:Goto RR\nIf X=Y:poissonpdf(L,X)\nIf Y>X:poissoncdf(L,Y)-poissoncdf(L,X-1)\nGoto DA\nLbl ND\nDisp \"prgmNORMALDF\"\nInput \"µ:\",M\nInput \"σ:\",S\nInput \"Xmin:\",X\nInput \"Xmax:\",Y\nIf Y=0:999999→Y\nnormalcdf(X,Y,M,S)\nGoto DA\nLbl XD\nLbl ID\nPause \"Coming Soon\nGoto RR\nLbl DA\nPause Ans\nGoto RR\nLbl EX\nFloat\nStop\n[[/code]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:distribs-2/DISTRIBS.8xp'
+image: null
+fileSize: '577'
+fileSizeUnit: '1'
+dateMade: '1490245200'

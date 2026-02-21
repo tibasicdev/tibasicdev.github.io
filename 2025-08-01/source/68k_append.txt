@@ -1,0 +1,42 @@
+[[include inc:68k-command
+|picture=concatenate.png
+|summary=Joins two strings together.
+|syntax=//string//&//string//
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press D to enter the String submenu.
+* Press 4 to select &.
+
+|size=2 bytes
+]]
+
+The & operator joins two strings together, one after the other, returning one large string.
+
+[[code]]
+:"Hello"&"World"
+           "HelloWorld"
+:5→n
+:"The value of n is "&string(n)
+           "The value of n is 5"
+[[/code]]
+
+Appending strings is very useful when you want to display text. If you want to display more than one string on the same line, for instance with the [[[68k:Text]]] command, you'll need to use & to combine the strings.
+
+By default, & doesn't put in any separation between the strings, which can look weird: you can see this in the above example, where joining "Hello" and "World" made "HelloWorld". With multiple uses of &, you can put in any separator you like:
+[[code]]
+:"Hello"&" "&"World"
+           "Hello World"
+[[/code]]
+
+If you want to use & to build up a string from scratch, start with "" -- the empty string.
+
++ Related Commands
+
+* # ([[[68k:indirection]]])
+* [[[68k:string()]]]
+* [[[68k:mid()]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

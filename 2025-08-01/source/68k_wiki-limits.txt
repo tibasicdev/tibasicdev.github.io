@@ -1,0 +1,34 @@
+Unfortunately, the rich vocabulary of wiki syntax doesn't allow to properly display a command in titles and code blocks. When this happens, the offending page will link here so we can properly apologize, clarify what is meant, and give the syntax that displays them correctly where it is possible to do so.
+
+Here are the commands and symbols that suffer from this problem:
+
+* The ^^[[[68k:radian|r]]]^^ command
+ * Use @@^^r^^@@ to render it correctly where possible.
+ * Use @@^^[[[68k:radian|r]]]^^@@ to render it in a link.
+ * Replace it with ^r in code blocks.
+* The ^^[[[68k:gradian|G]]]^^ command
+ * Use @@^^G^^@@ to render it correctly where possible.
+ * Use @@^^[[[68k:gradian|G]]]^^@@ to render it in a link.
+ * Replace it with ^G in code blocks.
+* The //[[[68k:d]]]//[[[68k:d|()]]] command
+ * Use @@//d//()@@ to render it correctly where possible.
+ * Use @@//[[[68k:d]]]//[[[68k:d|()]]]@@ to render it in a link.
+ * Use @@[[span style="font-style:italic;"]][[[68k:d]]][[/span]][[[68k:d|()]]]@@ if the above fails to work properly.
+ * Replace it with d() in code blocks.
+* The [[size 75%]][[[68k:e-ten|E]]][[/size]] command
+ * Use @@[[size 75%]]E[[/size]]@@ to render it correctly where possible.
+ * Use @@[[size 75%]][[[68k:e-ten|E]]][[/size]]@@ to render it in a link.
+ * Replace it with E in code blocks.
+* The ^^[[[68k:transpose|T]]]^^ command
+ * Use @@^^T^^@@ to render it correctly where possible.
+ * Use @@^^[[[68k:transpose|T]]]^^@@ to render it in a link.
+ * Replace it with ^T in code blocks.
+* The [[$ \bar{x} $]] and [[$ \bar{y} $]] symbols.
+ * Use @@[[$ \bar{x} $]]@@ to render [[$ \bar{x} $]] correctly.
+ * Use @@[[$ \bar{y} $]]@@ to render [[$ \bar{y} $]] correctly.
+ * Avoid using these in code blocks, or replace with xbar and ybar.
+
+On a related note, there are two operators that don't have any trouble being displayed, but can't be used in a link, so every page that refers to them has to dance around the issue much like this page does in the next sentence. They are: # ([[[68k:indirection]]]) and | ([[[68k:with]]]).
+
++ See Also
+* The [*http://www.wikidot.com/doc:wiki-syntax wiki syntax description] on www.wikidot.com.

@@ -1,0 +1,17 @@
+author: basickevin
+description: 'A fully optimized, release ready full version of pong.  Includes the ability to spin the ball and also to select a difficulty level, which speeds up the ball and makes the AI smarter on hard.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: '/archives:spin-pong/spinpong.gif'
+download: Spin%20Pong.zip
+size: '523'
+unit: '1'

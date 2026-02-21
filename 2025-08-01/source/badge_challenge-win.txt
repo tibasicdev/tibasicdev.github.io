@@ -1,0 +1,6 @@
+[[include inc:badge
+|image=http://tibasicdev.wikidot.com/local--files/files/challenge.png
+|title=Challenge Winner
+|description=This badge is awarded for winning one of the [http://tibasicdev.wikidot.com/challenges challenges].
+|br=]
+]]

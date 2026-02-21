@@ -1,0 +1,39 @@
+[[include inc:68k-command
+|picture=arccos.png
+|summary=Takes the inverse cosine of a number (usually, an integer or fraction).
+|syntax=cos^^-1^^(//angle//)
+
+|location=Press [2nd] COS button to enter cos^^-1^^(.
+
+|size=1 byte
+]]
+
+
+The {{cos^^-1^^()}} command returns the [https://mathworld.wolfram.com/InverseCosine.html inverse cosine] of an angle measure. Naturally, the result depends on the angle [[[68k:setmode|mode]]] the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the ^^{{[[[68k:radian|r]]]}}^^, {{[[[68k:degree|°]]]}}, ^^{{[[[68k:gradian|G]]]}}^^ marks to specify an angle mode.
+
+For many common angles, {{cos^^-1^^()}} can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in radian [[[68k:mode-settings|mode]]], {{cos^^-1^^()}} can be used with complex numbers as well.
+
+[[code]]
+:cos⁻¹(1/2)
+           π/3
+:cos⁻¹(-1/2)
+           2π/3
+:cos(cos⁻¹(x))
+           x
+[[/code]]
+
+If {{cos^^-1^^()}} is applied to a list, it will take the inverse cosine of every element in the list.
+
++ Advanced Uses
+
+The {{cos^^-1^^()}} of a matrix is not (in general) the same as taking the cosine of every element of the matrix. I hope that someone more qualified to talk about this updates this part of the page.
+
++ Error Conditions
+
+* Please update this part too
+
++ Related Commands
+
+* {{[[[68k:sin()]]]}}
+* {{[[[68k:tan()]]]}}
+* {{[[[68k:cos()]]]}}

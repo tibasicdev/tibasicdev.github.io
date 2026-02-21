@@ -1,0 +1,1 @@
+[[image lightsout.gif width="175px" height="117px" link="lights-out" alt="Lights Out"]]

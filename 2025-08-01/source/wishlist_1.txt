@@ -1,0 +1,4 @@
+[[include inc:wishlist
+|user=Socks
+|comment=A glass of milk (testing the system)
+]]

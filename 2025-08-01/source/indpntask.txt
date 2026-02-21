@@ -1,0 +1,23 @@
+[[include inc:command
+|picture=INDPNTASK.GIF width="192" height="128" style="border: 1px solid black;"
+|summary=Doesn't automatically fill in table values for the independent variable.
+|syntax=IndpntAsk
+|location=Press:
+# 2nd TBLSET to access the table settings menu.
+# Use arrows and ENTER to select Ask in the Indpnt: line.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+With the {{IndpntAsk}} setting, the independent variable (X, T, θ, or //n// depending on [[[graphing mode]]]) will not be calculated automatically in the table. Instead, when looking at the table, you must select an entry in the independent variable column, press ENTER, and enter a value. The values entered will also be stored to the {{[[[system-variables#window|TblInput]]]}} list.
+
+(To access the table, press [2ND][TABLE], or use the {{[[[DispTable]]]}} command in a program)
+
+The alternative, {{[[[IndpntAuto]]]}}, fills in several values starting at {{TblStart}} and increasing by {{ΔTbl}}, and makes the table scrollable (up and down).
+
++ Related Commands
+
+* {{[[[IndpntAuto]]]}}
+* {{[[[DependAuto]]]}}
+* {{[[[DependAsk]]]}}
+* {{[[[DispTable]]]}}

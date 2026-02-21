@@ -1,0 +1,21 @@
+author: Bio_Hazard1282
+version: ''
+summary: 'Tally counter is a program that allows you to count a number forever. You are able to count (obviously), set the counter value, and it''s increment. This version below is the modified version of the alternative. Make sure you understand and think through the code.'
+description: "[[code]]\nClrHome\nCLASSIC           //Ignore this if you do not have the TI-84+ Series, this is added to improve performance. Performance is high already with the normal TI-83+\nSetUpEditor COUNT\nIf 0=dim(⸤COUNT\n{0,1→COUNT          //Many users insert the \"⸤\" in front of the name, we remove it to save a byte\n⸤COUNT(1\nLbl M\nMenu(\"Tally Counter\",sub(\"Start***Continue\",1+8(Ans>0),8),1,\"Reset\",2,\"Set\",3,\"Value\",4,\"Quit\",5  //Replace asterisks with spaces\nLbl 1\n⸤COUNT(1→C\nOutput(1,1,C\nPause\nRepeat getKey\nC+⸤COUNT(2→C\nOutput(1,1,C\nrand(20\nEnd\nPause\nGoto M\nLbl 2\nMenu(\"Reset?\",\"No\",M,\"Yes\",Y\nLbl Y\n{0,1→COUNT\nGoto M\nLbl 3\nClrHome\nMenu(\"Set\",\"Value\",V,\"Increment\",I,\"Cancel\",M\nLbl V\nInput \"Value:\",C          //It does not matter if we still use the C variable, since the main feature of this program changes it anyways\nabs(iPart(C→⸤COUNT(1\nGoto 3\nLbl I\nInput \"Increment:\",C\nabs(iPart(C→⸤COUNT(2\nGoto 3\nLbl 4\nDisp \"You are on:\",⸤COUNT(1\nPause \nGoto M\nLbl 5\nArchive ⸤COUNT\n[[/code]]\n\n* ##red|36## lines of code\n* Available to all graphing calculators TI-Basic friendly\n* Easy to read and understand\n* Fully programed in TI-Basic [[image https://cdn.pbrd.co/images/HbKuTtp.png]]\n\n+ Alternative\nThe only difference between this version and the other one, it just counts. No menus, no \"36 lines of code\". It still has the list, with only the tally counter value.\n\n[[code]]\nClrHome\nSetUpEditor COUNT\n⸤COUNT(1→C\nOutput(1,1,C\nPause\nRepeat getKey\nC+1→C\nOutput(1,1,C\nrand(20\nEnd\nPause\nClrHome\nArchive ⸤COUNT\n[[/code]]\n------\nWell, that wraps up the tally counter program. Enjoy! If you have any questions or comments, please click the discuss button below.\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:tally-counter/Tally-Counter.docx'
+image: 'archiveimage:51qv97b6lpl-sy355/51QV97B6lPL_SY355_.jpg'
+fileSize: '950'
+fileSizeUnit: '1'
+dateMade: ''

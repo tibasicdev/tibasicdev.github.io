@@ -1,0 +1,7 @@
+[[table]][[row]][[cell style="width:26px; vertical-align:top"]]
+**{$month}**
+[[/cell]][[cell style="width:2.5em; vertical-align:top"]]
+**{$day}** —
+[[/cell]][[cell style="vertical-align:top; min-width:160px;"]]
+{$description}
+[[/cell]][[/row]][[/table]]

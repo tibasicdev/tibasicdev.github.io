@@ -1,0 +1,19 @@
+[[include inc:68k-command
+|picture=getfold.png
+|summary=Returns the name of the current folder.
+|syntax=getFold()
+|location=
+|size=
+]]
+
+This command returns the name of the current folder as a string. This will usually return "main", as main is the default folder for your calculator. It is used to check which folder you calculator is in while you are inside a program.
+
+[[code]]
+:getFold()
+:           "main"
+[[/code]]
+
++ Related Commands
+
+* [[[68k:NewFold]]]
+* [[[68k:SetFold]]]

@@ -1,0 +1,13 @@
+[[include inc:program
+|picture=castle-adventure.gif
+|summary=A quality text adventure game.
+|size=6,700 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.club.cc.cmu.edu/~ajo/ Arthur O'Dwyer]
+|download=[http://tibasicdev.wikidot.com/local--files/castle-adventure/castleadventure.zip castleadventure.zip]
+]]
+
+Castle Adventure is a text adventure game in the style of Infocom or "Colossal Cave". Your goal is to enter the castle and make off with the king's treasure. To achieve this goal, you must solve puzzles by interacting with the game using simple English commands.
+
+The game uses full-text interaction, and an innovative input system. When the game is ready to accept input, a caret ">" will appear on the last line of the screen. Press an alphabetic key, and a word beginning with that letter will appear on the input line. For example, your first move might be to go WEST from the castle gate; therefore, you'd press the W key, and see the fully-formed word WEST appear on the input line.

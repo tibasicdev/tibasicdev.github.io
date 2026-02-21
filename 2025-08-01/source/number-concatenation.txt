@@ -1,0 +1,21 @@
+[[include inc:routine
+|picture=@@
+|summary=Concatenates two whole numbers together.
+|input=//M// - the first number
+//N// - the second number
+|output=//O// - the concatenated number
+|variable=M, N, O
+|compatibility=TI-83/84/+/SE
+|author=DarkerLine
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=2664&view=findpost&p=46595 United TI
+|download=[file numberconcatenation.zip]
+]]
+
+[[code]]
+:N+M10^(1+int(log(N→O
+[[/code]]
+
+With our two numbers stored in M and N respectively, we add the first number to the second number by raising it to the 10^^th^^ power, with the exponent being how many digits are in the number. We then store this result to a new variable for later use.
+
+We can figure out how many digits are in a number by using the 1+int(log( trick. This trick works with any positive whole numbers, and if you add [[[abs(]]] after [[[log(]]], it will also work with negative numbers. Unfortunately, it does not work with decimals.

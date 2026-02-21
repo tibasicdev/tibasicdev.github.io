@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: 'Why is it that the Css for the board index and actually displaying the posts (like on this page) use different Css sheets? The board index page looks just like it should (sans avatar images), but the actual thread pages don''t load the css.'
+attachment: null

@@ -1,0 +1,44 @@
+[http://www.ticalc.org/archives/files/authors/101/10137.html Alex Litzau]
+=====
+An efficient OS that lets you run and manage TI-Basic programs and get calculator information. It also has the option to use a USB mouse to control the cursor onscreen.
+=====
+PLEASE REMOVE the following words that do NOT describe your program:
+Utility
+
+[!-- Do NOT edit the next two lines.  Skip directly to the "Program size in bytes"! --]
+=====
+http://tibasicdev.wikidot.com/local--files/challenges:23/IlliniOS.gif
+=====
+IlliniOS.zip
+=====
+2,642 or 2,836 bytes
+=====
+[!--
+INSTRUCTIONS
+
+*Note: Do NOT erase any equal signs.
+
+1) First enter the name of your program as you would like it to appear as the page title. That is, the TITLE of your program, not the name of the file.
+i.e. "Happy Land" instead of "HAPPY.8XP"
+
+2) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+3) Enter the description of the program.  If you have no description, then erase "Program Description".
+
+4) Erase the words that do not describe your program leaving those that do.
+
+5) Enter the size of the program (the actual program, or total size of programs & sub-programs) but not the size of the .ZIP file.
+i.e. 6,000 bytes
+
+6) Click the "save" button beneath this form.
+
+7) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+8) Categorize the page according to the note on the page.  DO NOT erase preexisting tags!!
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

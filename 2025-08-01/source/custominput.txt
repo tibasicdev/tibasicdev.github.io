@@ -1,0 +1,274 @@
+Custom text input is used when you want to get input on the graph screen (or the home screen, if you don't like the look of Input or Prompt). As the Input and Prompt commands only work on the home screen, the only option available is to make your own text input routine.
+
++ The Basic Routine
+
+The core of the text input routine is using the getKey command together with a string of acceptable characters organized to follow the order of the respective key codes, and then extracting one substring character and storing it to the outputted text string:
+
+[[code]]
+:" →Str1  // 1 space
+:Repeat K=105
+:Repeat Ans>40 and Ans<94 or Ans=105
+:getKey→K
+:End
+:Ans-20-5int(.1Ans
+:If 25>length(Str1) and 0<Ans and Ans<29
+:Then
+:Str1+sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZ",Ans,1→Str1
+:Text(10,1,Str1
+:End
+:End
+:If 1<length(Str1
+:sub(Str1,2,length(Str1)-1→Str1   //removes initial space
+[[/code]]
+
+If that sounds confusing, please let me break it down for you. We first need to initialize the string variable that we will be using to hold the text the user inputs. You can use whichever one of the ten string variables (Str0-Str9) you want. The reason we initialize the string with a single character is because the calculator returns an error if you have a null string.
+
+[[code]]
+:" →Str1
+[[/code]]
+
+We now begin the main program loop. The program will loop until the user presses ENTER. After that, we loop until the user presses a letter key (as all letters are assigned key codes from 41 to 93) or ENTER.
+
+[[code]]
+:Repeat K=105
+:Repeat Ans>40 and Ans<94 or Ans=105
+:getKey→K
+:End
+[[/code]]
+
+After the user has pressed one of the necessary keys, we then need to take the respective action in the program. If the user pressed one of the letters of the alphabet, we first check to see that the string is not already at the end of the screen (i.e. its length is 25). If it is less than 25, we add that text to our string variable and display the whole string:
+
+[[code]]
+:Ans-20-5int(.1Ans
+:If 25>length(Str1) and 0<Ans and Ans<29
+:Then
+:Str1+sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZ",Ans,1→Str1
+:Text(10,1,Str1
+:End
+[[/code]]
+
+We finally close the main program loop. This text input routine just has basic functionality, as it was designed to show you how to do custom text input. It's up to you whether you want to extend it to include a larger range of acceptable characters, word wrapping, or whatever feature you want to include.
+
++ Tweaking the Routine
+
+These are advanced features for a custom text input routine. 
+
+++ Backspace functionality
+
+The above routine is very limited: once we type something in, we can't go back and change it. This add-on allows the user to press the DEL (delete) key to delete the last letter typed. To add this functionality, change the first loop code from ":Repeat Ans>40 and Ans<94 or **Ans=105**" to ":Repeat Ans>40 and Ans<94 or **max(Ans={105,23**", and add the following code right before the final End that terminates the outer loop.
+
+If the user pressed the DEL key, we first check that the string variable has at least one character already in it (so an error isn't returned), and then remove the last character at the end of the string and redisplay the string (erasing the three spaces to the right of the last character left behind from the deleted character):
+
+[[code]]
+:If K=23 and 1<length(Str1 //if DEL pressed and some letters have been entered
+:Then
+:sub(Str1,1,length(Str1)-1→Str1
+:Text(10,1,Str1,"   //three spaces after the "
+:End
+[[/code]]
+
+++ Flashing Cursor
+
+A flashing cursor makes it clear that you mean business, or that you mean for the user to type in text. The code for a flashing cursor should replace the ':getKey→K' in the basic routine. You must also replace 'Ans' in ':Repeat Ans>40 and Ans<94 or max(Ans={105,23' with 'K'. 'K' must also be added onto a new line after the second 'End' after the code below. This is because the new variable 'I' messes with 'Ans'.
+
+We start the routine normally: repeat until a key is pressed. The two Text( statements will draw a [ then erase its two tails, effectively drawing a horizontal bar. The For( loop creates an artificial delay between drawing and erasing the cursor. However, we want to end the loop if a key is pressed (so we don't have to wait until the cursor finishes flashing to type in a key). That's what the I+5Ans→I statement does: if K isn't 0, it will make I greater than 30, which will end the loop. We want to erase the cursor if a key was pressed or if I=16 (halfway through the delay loop). Finally, we end both loops.
+
+[[code]]
+:Text(10,4length(Str1)-2,"[
+:Text(10,4length(Str1)-1," //1 space after the quote
+:For(I,1,30
+:getKey→K
+:I+5Ans→I //if K isn't 0, I will go out of bounds, ending the loop.
+:If I=16 or K
+:Text(10,4length(Str1)-2," //1 space after the quote
+:End
+[[/code]]
+
+++ Adding Number Functionality
+
+Although this routine differs from the one above, it accomplishes the same thing.  Again, thanks to DarkerLine for the keypress to letter formula.  Harrierfalcon came up with the formula to convert keypresses to numbers.
+
+[[code]]:ClrDraw
+:DelVar A15→B
+:Text(1,82,"             
+:Text(0,82," LET
+:" →Str1
+:Repeat max(M={45,105,21
+:‾5→C
+:Repeat M=23 or max(Ans={21,45,105}) or (not(A)M>40 and not(A)M<95 and M≠44) or max(AAns={92,93,94,102,82,83,84,72,73,74
+:C+1-10(C>4→C
+:Text(29,B,sub(" [",1+(Ans>0),1
+:Text(29,B+1," 
+:If M=31
+:Then
+:not(A→A
+:Text(0,83,sub("LETNUM",3A+1,3
+:End
+:getKey→M
+:End
+:If min(M≠{21,105,45,23
+:Then
+:If A
+:Then
+:sub("0123456789",27-3int(.1M)+10fPart(.1M)+2(M=102),1
+:Text(29,B,Ans
+:Str1+Ans→Str1
+:B+4→B
+:Else
+:sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZθ",M-5int(.1M)-20,1
+:Text(29,B,Ans
+:Str1+Ans→Str1
+:B+4→B
+:End
+:Else
+:If M=23 and 1<length(Str1
+:Then
+:B-4→B
+:Text(29,Ans,"      
+:sub(Str1,1,length(Str1)-1→Str1
+:End
+:End
+:End
+[[/code]]
+A=1 if NumLock is enabled, and A=0 if AlphaLock is enabled.  Allow me to break it down.
+[[code]]
+:ClrDraw
+:DelVar A15→B
+:Text(1,82,"             
+:Text(0,82," LET
+:" →Str1
+[[/code]]
+I'll let you guess on this one.
+[[code]]
+:Repeat max(M={45,105,21
+:‾5→C
+[[/code]]
+This resets the cursor counter, and initializes the loop that won't quit until [ENTER],[2ND], or [CLEAR] is hit.
+[[code]]
+:Repeat max(Ans={23,21,45,105}) or (not(A)M>40 and not(A)M<95 and M≠44) or max(AAns={92,93,94,102,82,83,84,72,73,74
+[[/code]]
+This initializes the loop which won't quit until proper keys other than [ENTER], [2ND], [CLEAR], or [DEL] is hit.
+The second boolean value is structured so that if A=0, it means AlphaLock is enabled, and if a letter key is pressed, then it will exit the loop.  If A=1, then it won't work, because not(A)M will equate to 0 every time.  If [VARS] is pressed, nothing happens, because there is no letter there.
+The second Boolean value was created in a fashion that tells if A=1, then M is left alone.  If it is not, then it doesn't count.
+[[code]]
+:C+1-10(C>4→C
+:Text(29,B,sub(" [",1+(Ans>0),1
+:Text(29,B+1," 
+:If M=31
+:Then
+:not(A→A
+:Text(0,83,sub("LETNUM",3A+1,3
+:End
+:getKey→M
+:End
+[[/code]]
+The first line increments C, and returns it to -5 if C=5.
+The second line outputs [ or a space, if C<= 0 or C>0, respectively.
+The third line clears the bracket's tails, or does nothing.
+Lines 4-8 toggles AlphaLock and NumLock, and updates the display.
+[[code]]
+:If min(M≠{21,105,45,23
+:Then
+:If A
+:Then
+:sub("0123456789",27-3int(.1M)+10fPart(.1M)+2(M=102),1
+:Text(29,B,Ans
+:Str1+Ans→Str1
+:B+4→B
+:Else
+[[/code]]
+This If-Then is executed only if [2ND],[DEL],[ENTER], and [CLEAR] were NOT pressed.  This prevents garbled numbers with would cause ERR:DOMAIN.  This is executed only if NumLock was on.
+[[code]]:Else
+:sub("ABC  DEFGHIJKLMNOPQRSTUVWXYZθ",M-5int(.1M)-20,1
+:Text(29,B,Ans
+:Str1+Ans→Str1
+:B+4→B
+:End
+[[/code]]
+This is executed if NumLock was NOT on, i.e. if AlphaLock was on.
+The rest shouldn't have to be explained.  Optimizations are out there...can you find them?
+
+++ Advanced Editing Functionality
+
+This routine adds several features that are not in the other versions. It allows for uppercase and lowercase text with switching in between them. It allows the user to move the cursor throughout the text and insert text and delete text where ever they would like. The user can also clear the current text and start over. Unfortunately, the code is a little hard to decipher, but we'll work through it. The main deficit of this program is that it is incompatible with the TI-83. This can be remedied, as explained below.
+[[code]]
+:"ABC  abc  DEFGHdefghIJKLMijklmNOPQRnopqrSTUVWstuvwXYZ(Theta)!xyz(Theta).  :?   :? →Str0
+:"  →Str1   // 2 spaces in quotes
+:DelVar M1→P
+:Repeat K=105 and 2<length(Str1
+:Text(0,0,sub(Str1,1,length(Str1)-P)+"|"+sub(Str1,length(Str1)-P+1,P)+"        // 5 spaces after quote
+:Repeat Ans
+:getKey→K:End
+:P-(K=26 and Z>1)+(K=24 and Z<length(Str1)-1→P
+:M xor K=31→M
+:If K>40 and K<105 and K≠44 and K≠45
+:sub(Str1,1,length(Str1)-P)+sub(Str0,K-40+5M,1)+sub(Str1,length(Str1)-P+1,P→Str1
+:If K=23 and P<length(Str1)-1
+:sub(Str1,1,length(Str1)-P-1)+sub(Str1,length(Str1)-P+1,P→Str1
+:If K=45:Then
+:"  →Str1   // 2 spaces in quotes
+:1→P
+:End
+:End
+:sub(Str1,2,length(Str1)-2→Str1
+[[/code]]
+The first three lines take care of variable initialization. M stores whether capitals are enabled or not. M = 0 if its uppercase, M = 1 lowercase. Str0 contains all the uppercase and lowercase letters, including information for the last row of keys on the calculator. Str1 is the string that the text will be stored in. The information will be between the two space characters so that we can insert information at the beginning and end without having problems. P is the number of places before the end of the string to place the cursor. This is the most crucial variable, this will allow for the painless insertion of text and deleting of text anywhere in the string.
+**TI-83 Compatibility:** Change Str0 to be the string listed above for the basic routine ("ABC  DEFGHIJ...."). This, along with the other change listed below, will make this TI-83 compatible.
+[[code]]
+:Repeat K=105 and 2<length(Str1
+[[/code]]
+This repeats until [ENTER] is pressed and makes sure that text has been entered into the string before exiting.
+[[code]]
+:Text(0,0,sub(Str1,1,length(Str1)-P)+"|"+sub(Str1,length(Str1)-P+1,P)+"        // 5 spaces after quote
+[[/code]]
+This displays the text at 0,0 on the graph screen. This is a difficult line so let's break down what is being outputted onto the screen.
+[[code]]
+sub(Str1,1,length(Str1)-P)+"|"+
+[[/code]]
+This returns all the characters that are before the cursor and then outputs the cursor
+[[code]]
+sub(Str1,length(Str1)-P+1,P)+"        // 5 spaces after quote
+[[/code]]
+This returns all the characters that are after the cursor and then outputs some spaces. The spaces are there because when delete is pressed, the string will get smaller, and some characters will be left over. This is to cover those characters up.
+The next two lines just get the key press and store it into the variable K.
+[[code]]
+:P-(K=26 and Z>1)+(K=24 and Z<length(Str1)-1→P
+:M xor K=31→M
+[[/code]]
+The first of these two lines control the movement of the cursor (stored in P). If the right arrow is pressed then P will decrement, less spaces from the end of the string. If the left arrow is pressed then P will increment, more spaces from the end of the string. The other conditions make sure that the cursor doesn't go too far in either direction.
+The second of these lines controls the current capitalization state. By using the xor command, M will switch back and forth between 1 and 0 (lowercase and uppercase, respectively) every time the [ALPHA] key is pressed.
+[[code]]
+:If K>40 and K<105 and K≠44 and K≠45
+:sub(Str1,1,length(Str1)-P)+sub(Str0,K-40+5M,1)+sub(Str1,length(Str1)-P+1,P→Str1
+[[/code]]
+These lines test to see if the key press is a letter key and then inserts the letter into the string. The second line concatenates three strings together. The first is all the characters before the cursor. The second is the letter that was pressed (found in Str0). The third is all the characters after the cursor. This is all stored back into Str1.
+**TI-83 Compatibility:** In order to make this compatible with the TI-83, change the middle string that is concatenated to sub(Str0,K-20-5int(.1K),1). This, along with the other change, listed above will make this TI-83 compatible.
+[[code]]
+:If K=23 and P<length(Str1)-1
+:sub(Str1,1,length(Str1)-P-1)+sub(Str1,length(Str1)-P+1,P→Str1
+[[/code]]
+These lines test to see if [DEL] was pressed and then deletes a character from the string. Since the character deleted is from behind the location of the cursor, the conditional tests to see if the cursor is at the beginning of the text (where there is no character before the cursor). The second line concatenates two strings together. The first is all the characters before the cursor minus the last one (the character being deleted). The second is all the characters after the cursor. This is all stored back into Str1.
+[[code]]
+:If K=45:Then
+:"  →Str1   // 2 spaces in quotes
+:1→P
+:End
+[[/code]]
+These lines test to see whether [CLEAR] was pressed and then clears the text accordingly. Both Str1 and the location of the cursor are reset to their original values.
+After this line, the main loop ends.
+[[code]]
+:sub(Str1,2,length(Str1)-2→Str1
+[[/code]]
+This line removes the extra space on each end of the string and returns Str1.
+
+If you want to let the user view the current capitalization state, add the following line before the getKey loop.
+[[code]]
+:Text(55,90,sub("Aa",M+1,1
+[[/code]]
+The coordinates can obviously be changed to place this anywhere around the graph screen.
+
++ References
+
+* DarkerLine came up with the formula for translating the letter keys into the short string.
+* Harrierfalcon created the formula to convert number keypresses into a short string.
+* Zaphod Beeblebrox created the advanced editing functionality routine.

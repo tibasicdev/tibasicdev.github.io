@@ -1,0 +1,58 @@
+[[code type="css"]]
+span.pager-no {
+  display: none;
+}
+#main-content .form-table .form-value{  display: inline; }
+#main-content .form-table .row-9 .form-value{
+    display: inline-block;
+    margin-right: 7px;
+}
+.form-table .form-value.field-fileSize{  display: inline-block; }
+#edit-page-form input[type=text],
+#edit-page-form textarea,
+#edit-page-form .form-table{  width: 100%; }
+#edit-page-form .form-labels{  width: 150px; }
+.form-table .form-labels{  vertical-align: top; }
+
+.row-5 .form-values .form-label{
+    display: inline-block;
+    width: 80px;
+}
+
+.do-not-notify{  display: none; }
+
+.archive_Table{  width: 100%; }
+.archive_InfoElementTitle{  width: 120px; }
+.archive_downloadFail{  display: none; }
+.showWhenFail{  display: none; }
+.archive_downloadFail.showWhenFail{  display: block; }
+
+.archive_Image{
+    width: 200px;
+/*  vertical-align: top;  */
+}
+.archive_Image img{
+    border-radius: 4px;
+    box-shadow: 2px 0 3px rgba(0,0,0,.15);
+    width: 192px;
+    height: 128px;
+}
+.archive_ImageFail img{  display: none; }
+
+.alert-danger{
+    border: 1px solid #F66;
+    background: rgba(255, 190, 190, .8);
+    font-size: 125%;
+    padding: 1em;
+    margin: 0 1em 1em 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+.alert-danger p{  margin: 0; }
+
+.genre0, .genre1{
+    display: inline-block;
+    padding: 0 8px 0 0;
+}
+.genre0{  display: none; }
+[[/code]]

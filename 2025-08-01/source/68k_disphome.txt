@@ -1,0 +1,33 @@
+[[include inc:command
+|picture=DispHome.gif
+|summary=Returns the user to the homescreen
+|syntax=Main command, no special syntax
+|location=Press [CATALOG] [D] then scroll down until you see it.
+|compatibility=
+|size=2 bytes
+]]
+The DispHome command returns the user to the homescreen. This is very useful in a program that uses the I/O screen since ending a program with a command like [[[68k:Stop]]] will not automatically return the user to the homescreen. Take this example:
+[[code]]
+Prompt a
+Pause
+DispHome
+[[/code]]
+This code will ask for a value for "a", then go to the homescreen. Had you not put the DispHome command there, you would have stayed at the I/O screen, which in some cases can be confusing.
+
++ Optimization
+
+The DispHome command also combines the functionality of the [[[68k:Stop]]] command. For example
+[[code]]
+DispHome
+Stop
+
+can be
+
+DispHome
+[[/code]]
+
++ Related Commands
+
+* [[[68k:Disp]]]
+* [[[68k:DispG]]]
+* [[[68k:DispTbl]]]

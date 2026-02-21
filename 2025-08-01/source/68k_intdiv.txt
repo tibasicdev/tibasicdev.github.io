@@ -1,0 +1,41 @@
+[[include inc:68k-command
+|picture=intdiv.png
+|summary=Returns the whole number part of a division.
+|syntax=intDiv(//dividend//,//divisor//)
+|size=1 byte 
+]]
+
+The integer division command, intDiv(a,b) returns the whole number portion of a/b: this is equal to [[[68k:ipart|iPart(]]]a/b). Although this operation is most useful for dividing whole numbers, this definition works for any number, whole or decimal, real or complex.
+
+[[code]]
+:intDiv(125,3)
+           41
+:intDiv(-125,3)
+           -41
+:intDiv(125,π)
+           39
+[[/code]]
+
++ Advanced Uses
+
+The intDiv() command also works for [[[68k:lists|lists]]] and [[[68k:matrices|matrices]]]. Used with a list or matrix and a number, intDiv() is applied to the number paired with every element of the list or matrix. Used with two lists or two matrices, which must match in size, intDiv() is applied to matching elements of the list or matrix.
+
+------
+
+Use intDiv() and [[[68k:remain|remain()]]] for the quotient and remainder results of long division, respectively.
+
++ Optimization
+
+Constructions like iPart(a/b) should be replaced with intDiv(a,b): this is smaller and faster. 
+
++ Error Conditions
+
+[[include inc:68k-error num=240|error=Dimension mismatch|cause=two list or matrix arguments don't match in size]]
+
+Division by zero does not throw an error; an undefined value is returned instead.
+
++ Related Commands
+
+* [[[68k:divide|/]]]
+* [[[68k:remain|remain()]]]
+* [[[68k:ipart|iPart()]]]

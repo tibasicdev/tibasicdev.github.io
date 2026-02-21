@@ -1,0 +1,29 @@
+[[include inc:routine
+|picture=@@
+|summary=Creates a virus-like effect which locks up the calculator.
+|input=None
+|output=None
+|variable=None
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=[file bunny_virus.zip]
+]]
+
+[[div style="width: auto;margin-left:-2em;margin-right:17em;"]]
+> **Disclaimer**: We are not responsible for any damage that this routine causes to your calculator or anybody else's calculator. If you decide to try it out on somebody else's calculator, you should give them some warning ahead of time.
+[[/div]]
+
+[[code]]
+:999→dim(∟BUNNY
+:While 1
+:SortA(∟BUNNY
+:End
+[[/code]]
+
+While it isn't possible to create a true virus in TI-Basic, you can create a virus-like effect which locks up the calculator, and forces the user to have to remove the batteries to get out of the program. Removing the batteries causes the calculator to shut off, and when the calculator is turned back on, the RAM will be cleared. This is where the virus aspect comes from.
+
+The idea behind the code is actually pretty simple. The calculator has a few commands (in particular, [[[SortA(]]] and [[[SortD(]]]) which cannot be interrupted by the ON key while they are executing. If you give one of these commands a large list (in the case of SortA( and SortD( ), they will be very time-consuming, which gives the illusion that the calculator has stalled.
+
+Because these commands will eventually finish executing given enough time, an infinite [[[While]]] loop is placed around them so that they will be repeated indefinitely until the person removes their batteries. In addition to these two commands, the [[[Fill(]]] and [[[randBin(]]] commands also work on the older TI-83 and TI-82 calculators, although it doesn't work on the newer TI-83+ and higher calculators.

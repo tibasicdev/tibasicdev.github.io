@@ -1,0 +1,32 @@
+[[div class="top"]]
+* [[[home|TI-83 Basic Home]]]
+* [[[68k:home|68k TI-Basic Home]]]
+* [[[nspire:home|TI-Nspire Home]]]
+* [[[archives|Program Archives]]]
+* **[[[board:_main|Discussion Forums]]]**
+[[/div]]
+
+[[div style="margin-top: 5px;"]]
+* [[[post:13|Introduce Yourself]]]
+* [[[post:47|Getting Involved]]]
+* [[[post:14|Forum Rules]]]
+* [[[post:48|Forum Styling]]]
+[[/div]]
+
+[[size large]][[[board:_recent-posts|Recent Posts]]][[/size]]
+[[module ListPages category="post" tags="-_null" limit="6"]]
+[[iftags -_thread]]Re: [http://tibasicdev.wikidot.com/%%parent_fullname%%#post%%name%% %%parent_title%%][[/iftags]][[iftags +_thread]]%%title_linked%%[[/iftags]]
+[[span style="font-size: 80%; color: #555;"]]By [[span class="defaultHide isName%%form_raw{name}%%"]][[user %%created_by%%]][[/span]][[span class="isName%%form_raw{name}%%"]]%%form_data{name}%%[[/span]] (%%created_at|%O ago%%)[[/span]]
+[[/module]]
+
+[[size large]]Recent Threads[[/size]]
+[[module ListPages category="post" tags="-_null +_thread" limit="6"]]
+%%title_linked%%
+[[span style="font-size: 80%; color: #555;"]]By [[span class="defaultHide isName%%form_raw{name}%%"]][[user %%created_by%%]][[/span]][[span class="isName%%form_raw{name}%%"]]%%form_data{name}%%[[/span]] (%%created_at|%A, %d %b%%, %%children%% replies)[[/span]]
+[[/module]]
+
+[[module CSS]]
+.isName{    display: none; }
+.defaultHide{    display: none; }
+.defaultHide.isName{    display: inline !important; }
+[[/module]]

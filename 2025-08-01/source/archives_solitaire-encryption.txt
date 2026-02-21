@@ -1,0 +1,17 @@
+author: bxsciencer
+description: 'This is the Solitaire Encryption algorithm that Bruce Schneier made for Neal Stephenson''s book Cryptonomicon. Before, only a TI89 version of the program existed. This is for the TI83/84s. Give your calc some time, and eventually something will come out encrypted/decrypted. The outputs are stored in Str1 and the decryption deck is stored in ∟DDECK.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+image: /home/no_image_2.png
+download: SOLITAIRE.ZIP
+size: '2964'
+unit: '1'

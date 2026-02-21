@@ -1,0 +1,2 @@
+content: 'For the curious, I have entered in TI-BASIC (68K and z80) and z80 Assembly. I doubt I will have time for it all, but I do like to participate and join the fun! I will have school to contend with, finishing up my last requirements for my math major among other things and trying to pass French IV :P'
+attachment: null

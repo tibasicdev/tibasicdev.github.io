@@ -1,0 +1,31 @@
+These commands are used to test if experimental data supports some model we have. To do a significance test, we first assume the the null hypothesis - that any deviation from that model occurred by chance alone. Then we calculate the probability of such data occurring if the null hypothesis is correct. If this probability is sufficiently low (usually less than 0.05, or less than 0.01), then because it's so unlikely that the data occurred by chance, we conclude that some external factor did affect the data, rejecting the null hypothesis.
+
+The following commands are avalable for significance testing:
+
+* [[[Z-Test(]]]
+* [[[T-Test]]]
+* [[[2-SampZTest(]]]
+* [[[2-SampTTest]]]
+* [[[1-PropZTest(]]]
+* [[[2-PropZTest(]]]
+* [[[chisquare-test|χ²-Test(]]]
+* [[[2-SampFTest]]]
+* [[[LinRegTTest]]]
+* [[[ANOVA(]]]
+* [[[chisquaregof-test|χ²GOF-Test(]]] (84+/SE only)
+
+How to decide which test to use:
+
+Five of the tests are for fairly specific purposes:
+# If you have many categories, such as days of week, to compare against an expected value, use one of the χ² tests:
+ * The χ²-Test( command is for comparing frequencies of two different categorical variables (e.g. weather vs. month).
+ * The χ²GOF-Test( is for testing a distribution of a single categorical variable.
+# If you want to see the effects of many categories on one variable, use ANOVA.
+# If you're comparing the variance of two variables, use the //F// test.
+# Use LinRegTTest for testing the hypothesis of a linear relation between two variables.
+
+For the remaining six tests:
+# If you're testing for significant difference betwen two data sets, use a command with 2- in it (for obvious reasons).
+# If your variable is a proportion, use 1-PropZTest or 2-PropZTest: proportion tests ALWAYS use z- rather than t-distributions.
+# If you already know the standard deviation, use a ZTest.
+# If you want to determine the standard deviation from the data, use a TTest.

@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Mar
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=27
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user burr]] started a [/did-you-know Did You Know…] page with a list of premade DYK's, along with changing the "Did You Know…" section in the sidebar into an [/deleted:inc:did-you-know include] page.
+]]

@@ -1,0 +1,21 @@
+author: 12Me21
+version: '2'
+summary: '2D building/mining game'
+description: "This is basically the same as TI-CRAFT, but I changed the name because there's no crafting involved, and I think someone else is already using the name.\nControls:\nleft and right arrows: move\nup: jump\nDel and Stat: \"climb\" up/down (move 2 pixels, even if there is 1 in the way)\nVars and Clear: move sideways 2 pixels. (Going through a door)\nNumbers: remove/place blocks\n2ND: Menu\n\nMenu:\nLOAD: Recallpic 8\nNEW: Generate new world\nSave: Storepic 8\nExit: Exit\nResume: Resume (can also load worlds from the graph screen I think)\n\nCompatible with Doors CS (it cost me 72 extra bytes for that 16x16 icon!)\n\nShould work with all calculators, tested on TI-nspire w/ 84+SE keypad.\n\n\n"
+arcade: '0'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:mineti2-1/MINETI2.8xp'
+image: 'archiveimage:picz/PICZ.BMP'
+fileSize: '531'
+fileSizeUnit: '1'
+dateMade: '1432094400'

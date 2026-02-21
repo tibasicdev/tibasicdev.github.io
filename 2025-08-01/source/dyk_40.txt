@@ -1,0 +1,1 @@
+…that you can save memory when displaying text by replacing words such as "If" and "Then" with the [[[if|appropriate commands]]]?

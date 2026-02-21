@@ -1,0 +1,83 @@
+{$tutorialsBegin}
+
+Besides reading the programming information that this wiki provides, there are several additional quality TI-Basic tutorials that other people have created that you might find handy.
+
+||~ Name ||~ Author ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/83trix.zip Complete TI-Basic Optimization Guide] ||= Arthur O'Dwyer ||
+||= [http://www.ticalc.org/archives/files/fileinfo/369/36993.html 1337 Guide to TI-Basic] ||= Jonathan Pezzino & Kerm Martian ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/shellmaking.zip Making TI-Basic Shells] ||= Patrick Stone ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/2dsprites.zip 2D TI-Basic Sprites] ||= Alex Snyder ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/cditutorials.zip Advanced Thinking] ||= Fred Sparks ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/nolibguidespritesmaps.zip No-Lib Guide to Sprites and Maps] ||= Thomas Dickerson ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/basicgreyscale.zip TI-Basic Greyscale] ||= Kevin Ouellet ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/tifreakwaretutorials2.zip TI-Freakware Tutorials] ||= Daniel Thorneycroft ||
+||= [http://www.ticalc.org/archives/files/fileinfo/290/29088.html Complete TI-Basic Tutorial] ||= Kerm Martian ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/basicgurututorials.zip BASIC Guru Tutorials] ||= Ben Ilegbodu ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/mjs2000tutorials.zip MJS 2000 Tutorials] ||= Unknown ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/86roguetutorial.zip Rogue's TI-86 Basic Tutorial] ||= Andrew Matta ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/heaneysofttutorial.zip HeaneySoft BASIC Tutorial] ||= Wayne Heaney ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/83programming.zip TI-83 Programming Tutorials] ||= Lue Her & Andy Becker ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/tibasicfornoobs.zip TI-Basic for Noobs] ||= Matt Lee ||
+
+{$tutorialsEnd}
+
+{$utilitiesBegin}
+
+While the calculator itself is the predominant place to program TI-Basic, another viable option is programming on a computer. There are several computer tools available, which provide a very rich programming environment.
+
+||~ Name ||~ Author ||~ Description ||
+||= [*http://http://www.cemetech.net/sc/ SourceCoder 3] ||= Kerm Martian || This is an online editor that parses TI-Basic code and presents it with the appropriate tokens. It can convert .8xp fies to source code, as well as let you edit and create programs online and export them as .8xp files.  The latest revision adds image tools to parse and create .8xi images, png files, sprites, and more. ||
+||= [*http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder] ||= Martin Warmer || Programs with lots of subroutines get annoying rather quickly. BasicBuilder solves this issue by allowing you to compile all programs, subroutines, and pictures into a Flash Application. It also compresses your programs, saving some memory. ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/calccapture.zip CalcCapture] ||= André Felix Miertschink || Most commonly used in conjunction with [http://tibasicdev.wikidot.com/local--files/downloads/flashdebugger.zip Flash Debugger], CalcCapture allows you to take still or animated screenshots in gif format of any running Windows program. ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/graphlink.zip TI-Graph Link] ||= Texas Instruments || This program is used for programming TI-Basic on the computer. It has an easy-to-use interface, featuring all of the menus and functions of the calculator itself. In addition, it is used for transferring files back and forth between the computer and calculator. ||
+||= [*http://oase.uci.kun.nl/~mientki/data_www/pic/jalcc/help/jalcc_ti84_editor.html JALcc IDE] ||= Stef Mientki || Editing TI-Basic has always been a rather slow, tedious process because of the screen limitations and the fact that distinguishing the code can be difficult. JALcc solves this problem by utilizing code-coloring commands, indenting nested commands, and allowing you to make large multi-line comments. ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/ti83psemanual.zip Manual] ||= Texas Instruments || Even if you have a physical copy of the manual, an electronic copy is still needed. It is much more convenient to just open up the electronic manual, then to have to carry the physical manual around.  ||
+||= [*http://ti.zewaren.net/ Online TI File Converter] ||= ZeWaren || Can create and convert data from many calculators, such as the TI-82, TI-83, and TI-83+/84+. ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/rom8x.zip Rom8x] ||= Andree Chea || With the difficulty of getting ROM images from the newer calculators, this program allows you to bypass that problem. It is most useful for those with a USB cable. ||
+||= [*http://education.ti.com/educationportal/downloadcenter/SoftwareList.do?website=US&tabId=1&paneId=7 TI Connect] ||= Texas Instruments || This program is the updated version of Graph Link. It primarily features faster speed because it works with the USB cable. However, it does have compatibility issues with the newer calculators. ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/vticapture.zip VTI Capture] ||= André Felix Miertschink || Works with [http://tibasicdev.wikidot.com/local--files/downloads/vti.zip VTI] to get screenshots. It allows for both still and animated screenshots and has extra features like contrast adjustment, adding extra borders and some others. ||
+||= [*http://lpg.ticalc.org/prj_tilp/index.html TiLP] ||= Romain Liévin || A linking program for Linux and Windows. It works on Vista 64 bit, while TI-Connect does not.||
+||= [*http://education.ti.com/en/us/products/computer_software/connectivity-software/ti-connect-ce-software/tabs/overview TI-Connect CE] ||= Texas Instruments || A linking program for Windows and Mac. It includes an updated GUI and a simple code editor.||
+
+{$utilitiesEnd}
+
+{$oncalc-utilitiesBegin}
+
+There are many programs that will assist your programming on-calc, such as in the creation of games or sprites.
+
+||~ Name ||~ Author ||~ Description ||
+||= [http://www.ticalc.org/archives/files/fileinfo/404/40478.html ASCII Editor] ||= Robin Peters || This program allows programmers to simply create single and dual layer maps, as well as get tokens that are normally not available on the calculator and easily try different combo's of tokens. The programmer then can use the map for his/her RPG, sidescroller, puzzle or maze game, etc. ||
+||= [http://www.ticalc.org/archives/files/fileinfo/397/39714.html Basic MapMaker] ||= MDR Falcon || This helps programmers create maps in basic, without the hassle of typing in a long string or matrix. ||
+||= [http://www.ticalc.org/archives/files/fileinfo/408/40809.html Lunar IDE] ||= Jonah Scheinerman || This is an on-calc program editor, with many built-in tools to allow more ease when programming. ||
+||= [http://www.ticalc.org/archives/files/fileinfo/370/37066.html Random Maze Generator] ||= James Pruit || This program generates random 9x9 mazes that can be used in your own programs. ||
+||= [http://www.ticalc.org/archives/files/fileinfo/403/40345.html RPGSK2] ||= Daniel Thorneycroft || This helps programmers learn how to use 4 way scrolling ASCII maps. ||
+||= [http://www.ticalc.org/archives/files/fileinfo/384/38404.html Symbols] ||= Daniel Thorneycroft & Kerm Martian || This allows programmers to use any of the 131 symbols normally unavailable in Basic programs. ||
+||= [http://www.unitedti.org/index.php?download=273 Text Sprite Finder] ||= Robert Moy || This helps programmers create text sprites for use in their own programs. ||
+
+{$oncalc-utilitiesEnd}
+
+{$emulatorsBegin}
+
+An emulator allows you to run a virtual form of your calculator on your computer, which is very convenient when you want to make quick changes to programs, or do any debugging or optimizing.
+
+||~ Name ||~ Author ||~ TI-83 ||~ TI-83+ ||~ TI-83+SE ||~ TI-84+ ||~ TI-84+SE ||~ TI-84+CSE ||~ TI-84+CE ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/emu8x.zip Emu8x] ||= Michael Vincent ||= X ||=   ||=   ||=   ||=   ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/flashdebugger.zip Flash Debugger] ||= Texas Instruments ||=   ||= X ||= X ||=   ||=   ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/tilem.zip TilEm] ||= Benjamin Moody & Solignac Julien ||= X ||= X ||= X ||= X ||= X ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/pindurti.zip PindurTI] ||= Patai Gergely ||= X ||= X ||=   ||=   ||=   ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/vtialpha.zip VTI-Alpha] ||= Corey Taylor & Rusty Wagner ||=   ||= X ||= X ||=   ||=   ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/vti.zip VTI-Beta] ||= Rusty Wagner ||= X ||= X ||=   ||=   ||=   ||=   ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/wabbitemu.zip WabbitEmu (WIN)] ||= Spencer Putt & James Montelongo ||= X ||= X ||= X ||= X ||= X ||= X ||=   ||
+||= [http://tibasicdev.wikidot.com/local--files/downloads/WabbitEmu_0.9.3b1(MAC%20OS%20X WabbitEmu (MAC)] ||= Spencer Putt & James Montelongo ||= X ||= X ||= X ||= X ||= X ||= X ||=   ||
+||= [http://www.cemetech.net/projects/jstified/ jsTIfied] ||= Christopher Mitchell ||= X ||= X ||= X ||= X ||= X ||= X ||= O ||
+
+{$emulatorsEnd}
+
+{$related-sitesBegin}
+
+There are many TI sites out there, providing their own set of services and features.
+
+||= [*http://www.ticalc.org Ticalc.org] ||= [*http://www.omnimaga.org Omnimaga] ||= [*http://www.cemetech.net Cemetech] ||= [*http://codewalr.us/ CodeWalrus] ||= [*http://www.tiplanet.org TI-Planet] ||
+||= [*http://www.calcg.org/ CalcGames] ||= [*http://tifreakware.net TI-Freakware] ||= [*http://www.revsoft.org/ RevSoft] ||= [*http://www.maxcoderz.org/ MaxCoderz] ||= [*http://tistory.wikidot.com TI-Story] ||
+
+{$related-sitesEnd}

@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=degree.png
+|summary=Converts an angle to degrees, if necessary.
+|syntax=//angle//°
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 2 to enter the Angle submenu.
+* Press 1 to select °.
+
+|size=2 bytes
+]]
+
+The ° symbol used after an angle makes sure the angle is interpreted as being in degrees. If the calculator is already in degree mode, x° is equal to x; in radian mode, x° is equal to π*x/180; and in gradian mode, x° is equal to 10*x/9.
+
+If you're using degree measure extensively in a program, it's a better idea to use [[[68k:setMode()]]] to switch to degree mode and not worry about this. However, there are two reasons you might want to use °:
+* If you need an angle in degrees only once or twice, don't bother changing the mode setting.
+* In a function, you're forced to use °, since setMode() isn't valid in a function. 
+
+In radian mode:
+[[code]]
+:sin(30)
+           sin(30)
+:sin(30°)
+           1/2
+:180°
+           π
+[[/code]]
+
+In degree mode (no conversion is necessary, so no conversion is done):
+[[code]]
+:sin(30)
+           1/2
+:sin(30°)
+           1/2
+:180°
+           180
+[[/code]]
+
+Another possible use of ° is to write an angle in degrees, minutes, and seconds as x°y'z" (using the usual apostrophe and quote symbols) -- this stands for x degrees, y minutes (equal to 1/60th of a degree) and z seconds (equal to 1/60th of a minute). There's no "degree/minute/second" mode setting, so an angle entered in this form will always be simplified: first to (x+y/60+z/3600)^^2^^ degrees, and then (if necessary) converted to the correct angle measure. However, you can use [[[68k:▶DMS]]] to express output in this form.
+
+
++ Related Commands
+
+* ^^[[[68k:radian|r]]]^^ (radian)
+* ^^[[[68k:gradian|G]]]^^ (gradian)
+* [[[68k:▶DD]]]
+* [[[68k:▶DMS]]]

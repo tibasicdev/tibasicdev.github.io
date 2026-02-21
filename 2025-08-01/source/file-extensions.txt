@@ -1,0 +1,95 @@
+These are all of the different file extensions that you can run across when accessing or transferring files. They are split up into the TI-83 category, the TI-83+ category, the TI-84+ C Silver Edition category, and the TI-84+CE category. You will probably notice that the main difference is that the 83* for the TI-83 was replaced with the 8X* for the TI-83+. The TI-83+ also has Flash ROM, so there are file extensions for that. The TI-84 + C Silver Edition has most of the same extensions, with the major difference being the .8CK (Flash App) and .8CU (OS). The same applies to the TI-84+CE with its extensions being .8EU (OS) and .8EK (Flash App). 
+
+[[table]]
+[[row]]
+[[cell style="border-bottom: 1px solid #666;width: 14em;font-size: 125%;"]]**TI-83**[[/cell]]
+[[cell style="border-bottom: 1px solid #666;width: 14em;font-size: 125%;"]]**TI-83+**[[/cell]]
+[[cell style="border-bottom: 1px solid #666;width: 14em;font-size: 125%;"]]**TI-84+ C Silver Edition**[[/cell]]
+[[cell style="border-bottom: 1px solid #666;width: 14em;font-size: 125%;"]]**TI-84+CE**[[/cell]]
+[[cell style="border-bottom: 1px solid #666;width: 14em;font-size: 125%;"]]**Computer**[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+83B -- Backup
+83C -- Complex Number
+83D -- Debugger File
+83G -- Group
+83I -- Image
+83L -- List
+83M -- Matrix
+83N -- Real Number
+83P -- Calculator Program
+83S -- String
+83T -- Text
+83W -- Window Setup
+83Y -- Y-Variable
+83Z -- Zoom
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+8XB -- Backup
+8XC -- Complex
+8XD -- GDB
+8XE -- Calculator Program
+8XG/8XO[[footnote]] .8XO group files are only read and written by TiLP. [[/footnote]] -- Group
+8XI -- Image
+8XK -- Flash Application
+8XL -- List
+8XM -- Matrix
+8XN -- Real
+8XP -- Calculator Program
+8XQ -- Certificate
+8XS -- String
+8XT -- Text
+8XU -- Operating System
+8XV -- Application Variable
+8XW -- Window Setup
+8XY -- Y-Variable
+8XZ -- Zoom
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+8XB -- Backup memory image
+8XC -- Complex variable or App variable
+8XD -- GDB (graph database)
+8XE -- Expression (numbers, equations, etc.)
+8XF -- Function (Y-Vars, user-defined functions, etc.)
+8XG -- Group
+8XI -- Picture
+8CK -- Applications
+8XL -- List
+8XM -- Matrix
+8XN -- Number
+8XP -- Program
+8XS -- String variable
+8XT -- Table Setup or Text File
+8CU -- Operating System (OS)
+8XV -- App Variable
+8XW -- Window Setup
+8XY -- App variable
+8XZ -- ASM (Assembly line program)
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+b84 -- TI-84 Plus CE Bundle (OS+Apps)
+8ca — TI-84 Plus C Family Image
+8ci — TI-84 Plus C Family Pic
+8ek — Flash Application
+8eu — Operating System
+8xc — Complex number (alike to .8xn)
+8xd — GDB
+8xg — Group object
+8xl — List (and Complex list)
+8xm — Matrix
+8xn — Number (alike to .8xc)
+8xp — Program
+8xs — String
+8xt — TableSet
+8xv — App Variable
+8xw — Window setup
+8xy — Y-Var
+8xz — Zoom
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+csv -- Comma Separated Value (TI-Connect CE feature, used to create Lists (.8xl) or Matrices (.8xm))
+[[/cell]]
+[[/row]]
+[[/table]]

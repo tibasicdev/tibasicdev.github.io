@@ -1,0 +1,59 @@
+> **Note:** The [[[Piecewise Expressions]]] page more clearly spells out the concepts discussed within this page, so please link to that page instead.
+
+Boolean logic is the way that the calculator expresses logical statements. A statement can have either one of two values, true or false, and can be as simple or complex as you want. For example, if we were evaluating a proposition from a sentence, such as "It is cold in Minnesota...", this proposition can only be true or false at any one time -- in this case, it is definitely true :D
+
+While we humans are able to think about a proposition and evaluate its truth-hood rationally, the calculator has its own built-in system based strictly on math for determining whether a logic statement is true or false. In addition, the calculator uses a value of zero (0) to signify false, and one (1) or any other non-zero number (including negative, decimal, and even complex) to signify true.
+
+The primary places where you will see Boolean logic used are in [[[if|conditionals]]] and [[[controlflow#toc7|loops]]], although its application and impact can be felt almost everywhere. A typical conditional in TI-Basic looks something like this:
+
+[[code]]
+:If A=5
+:B+4→B
+[[/code]]
+
+When the calculator evaluates the A=5 statement, it will get back either a value of zero or one. If it gets a one, that means the A variable had a value of five at the time, and it will subsequently go ahead and execute the statement immediately following on the next line (i.e., B+4→B). However, the next statement will be completely skipped over if a zero is returned.
+
+Although the statement in the previous example is already pretty simple, you can in fact go even simpler, and just use 1 or 0 as the statement. Because both of them are absolutes, meaning their value never changes, the statement will essentially be executed or completely skipped over each time indefinitely -- there is no need to do any evaluating because there is nothing to evaluate.
+
+In terms of practical use, you could use a While 1 loop as the main program loop that encompasses the entire program. Because a While loop has no built-in capability to break out of the loop, it would not end until you manually exited it (by pressing the ON key).
+
+[[code]]
+:While 1
+:Disp "Hello World
+:End
+[[/code]]
+
+Similarly, you can use a While 0 loop (or If 0 conditional) for making [[[comments]]] in your programs, as well as creating a special kind of [[[subprograms|subprogram]]] which exists entirely inside a program. Both of these applications are somewhat advanced, but they nonetheless still rely on Boolean logic to work.
+
++ Boolean Conditionals [[# conditionals]]
+
+The most useful, and common, application of Boolean logic is what is known as Boolean conditionals. Boolean conditionals work best when just manipulating one variable, and the way they work is by putting the condition statement inside parentheses, and then placing it right next to the value that you are manipulating the variable by. For example, here is what the original conditional would look like:
+
+[[code]]
+:B+4(A=5→B
+[[/code]]
+
+Because the calculator uses math for determining the value of a statement, it will first evaluate the statement inside the parentheses (which is our A=5 statement), and return 1 or 0, respectively. The calculator then multiplies that value by the value you are adding to the variable (in this case, 4), and stores the result to the variable. A helpful way to look at it is by replacing the statement with the literal 1 and 0 numbers:
+
+[[code]]
+:B+4(1)→B
+[[/code]]
+
+As you can see, the calculator will multiply 4 times 1, and then store that to B (so B will now have a value that is increased by four). If you replace the 1 with 0, the calculator will still multiply and store a value to B, but it will instead turn out to be 0 (because anything multiplied by zero equals zero; it's a basic law of algebra), so the B variable will still have its original value.
+
+Of course, your Boolean conditionals don't have to be that simple -- you can have multiple conditions with almost any combination of commands, functions, and operators, and the calculator will evaluate them like it would anything else. One of the most common Boolean conditionals that you will see involves using the arrow keys to [[[movement|move]]] a character around the screen:
+
+[[code]]
+:getKey→K
+:Y-(Ans=25)+(Ans=34→Y
+:X-(K=24)+(K=26→X
+[[/code]]
+
+In this particular example, there are two conditionals used because you can move in the Y direction (which is represented by the first conditional and uses the up and down arrow keys) and the X direction (which is represented by the second conditional and uses the left and right arrow keys), so you need to keep track of two separate [[[variables]]], and likewise update each variable independently of the other.
+
++ See Also
+
+* [[[controlflow|Controlling Program Flow]]]
+* [[[comments|Commenting Your Code]]]
+* [[[movement|Movement in Maps]]]
+* [[[subprograms|Subprograms]]]

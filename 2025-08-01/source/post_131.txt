@@ -1,0 +1,3 @@
+name: ''
+content: 'Does anyone know how to convert from numeral to hexadecimal? I have a TI-83+ which does not have the ▶Hex command. Please help'
+attachment: null

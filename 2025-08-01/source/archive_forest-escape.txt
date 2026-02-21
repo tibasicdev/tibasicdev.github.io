@@ -1,0 +1,21 @@
+author: Bio_Hazard1282
+version: '1.0'
+summary: 'You are an explorer in a very deep forest, and you need to escape it to civilization. You are on your motorcycle, your only way of transportation. Unless you prefer walking. Can you beat the high score? Good luck!'
+description: "You are an explorer in a very deep forest, and you need to escape it to civilization. You are on your motorcycle, your only way of transportation. Unless you prefer walking. Can you beat the high score? Good luck!\n------\n##blue|Source code:##\n[[code]]\nPROGRAM:FRUN\nClrHome\nClrDraw\nAxesOff\nZStandard\nZInteger\nPlotsOff\nFnOff\nSetUpEditor FRUN\n2→dim(⸤FRUN\nText(44,0,\"FOREST ESCAPE\nText(51,6,\"HIGH DISTANCE: \",⸤FRUN(1),\"m   //meters (metres if your in a different region)\nText(57,2,\"TOTAL DISTANCE: \",⸤FRUN(2),\"m\nPause\nDelvar DDelvarG47→X\nRepeat K=45 or pxl-Test(31,X\ngetKey→K\nPxl-On(31,X\nAsm(prgmDOWN\nD+1→D\nIf max(K={24,26,25\nK→G\nIf K=105:Pause\nX+(G=26)-(G=24→G\nX+95(X=-1)-95(X=95→X\nText(0,randInt(0,94),\"Y\nEnd\nIf D>⸤FRUN(1\nD→⸤FRUN(1\n⸤FRUN(2)+D→⸤FRUN(2\nText(44,2,\"HIGH DISTANCE: \",⸤FRUN(1),\"m\nText(44,2,\"TOTAL DISTANCE: \",⸤FRUN(2),\"m\nPause\nClrDraw\nClrHome\n[[/code]]\n\n[[code]]\nPROGRAM:DOWN\n:AsmPrgm213396113F9601F402EDB823010C00EF304CEF6A48C9  //Shift screen down one pixel level\n[[/code]]"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:forst-escape-1/Forst_Escape.txt'
+image: null
+fileSize: '783'
+fileSizeUnit: '1'
+dateMade: '1524808800'

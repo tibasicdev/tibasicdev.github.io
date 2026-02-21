@@ -1,0 +1,1 @@
+…that the [[[68k:system-variables#ok|ok]]] system variable checks if a dialog was cancelled?

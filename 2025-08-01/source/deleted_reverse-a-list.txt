@@ -1,0 +1,25 @@
+[!-- Delete the following include --]
+
+[[include inc:routine
+|picture=@@
+|summary=Reverses the order of elements in a list.
+|input=L₁
+|output=L₁
+|variable=M,X
+|compatibility=TI-83/84/+/SE/CSE/CE
+|author= [[user kg583]] 
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:dim(L₁→M
+:For(L,1,int(M/2
+:L₁(L→Z
+:L₁(M-L+1→L₁(L
+:Z→L₁(M-L+1
+:End
+[[/code]]
+
+This routine will quickly reverse L₁. It works by swapping pairs of elements that are equidistant from the center of the list, and uses no other lists as dummy variables.

@@ -1,0 +1,47 @@
+[[include inc:68k-command
+|picture=sample.png
+|summary=Returns the forward-difference quotient (average
+rate of change).
+|syntax=avgRC(expression1, var [,h])
+
+|location=This command can only be found in the CATALOG
+
+|size=? byte(s)
+]]
+
+AvgRC() returns an expression equal to the following formula:
+
+[[math]]
+\frac{f(x+h)-f(x)}{h}
+[[/math]]
+
+h is the step value, which defaults to 0.001.
+
+[[code]]
+:avgRC(f(x),x,h)
+           (f(x+h)-f(x))/h
+:avgRC(sin(x),x,h)|x=2
+          sin(h+2)-sin(2)/h
+:avgRC(x^2-x+2,x)
+          2.*(x-.4995)
+:avgRC(x^2-x+2,x,.1)
+          2.*(x-.45)
+:avgRC(x^2-x+2,x,3)
+          2*(x-1)
+[[/code]]
+
+------
+
++ Error Conditions
+
++ Related Commands
+
+* Command 1
+* Command 2
+* Command 3 
+
++ See Also
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1

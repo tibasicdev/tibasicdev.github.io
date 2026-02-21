@@ -1,0 +1,21 @@
+author: Oxiti8
+version: V1.0
+summary: 'A graphical drag racing game for the TI-84+ with 30 cars, 5 different modes, and a custom car creator.'
+description: "The ultimate drag racing game for the 84+ has arrived! Collect, Race and Upgrade 30 different cars, or create your own car from the ground up and share it with the world. Compete in 5 different event types- Climb the rankings in officially sanctioned Ladder races, assert your racing prowess over CSR's best racers in the challenging Crew Battle mode, demonstrate true mastery of your car in Car Specific races, just make some quick cash in Regulation races, or, once you've completed all the other modes, experience the freedom of Custom Spec races. \nThe game's shell compatible, too. Can you conquer the drag strip?"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '1'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: dd
+download: 'archivefile:csracingtibd/CSRACINGTIBD.zip'
+image: 'archiveimage:mid-race-demo/mid-race-demo.png'
+fileSize: '14516'
+fileSizeUnit: '1'
+dateMade: '1632542400'

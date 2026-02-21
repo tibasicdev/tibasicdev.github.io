@@ -1,0 +1,23 @@
+[[[projects| Projects]]] >> %%title%%
+
+[[iftags not-done]]
+[[div style="position:absolute; top:134px;right:2em;"]]
+##990000|Not Finished##
+[[/div]]
+[[/iftags]]
+[[iftags done]]
+[[div style="position:absolute; top:134px; right:2em;"]]
+##009900|Finished!##
+[[/div]]
+[[/iftags]]
+
++ Description
+%%content{1}%%
+
+%%content{2}%%
+
++ Updates
+
+[[include inc:projectupdate |parent=%%fullname%% |project=%%name%%]]
+
+[[module Comments title="Discussion" order="reverse"]]

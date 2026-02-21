@@ -1,0 +1,5 @@
+[[user _Abe_]] is working on a futuristic RPG with several abilities and a unique style of battle called [[[projects:endland|Endland]]].
+
+The game features a dynamic inventory system, a graphical overworld and battle engine, and supports standard RPG stuff.
+
+([[[projects:endland|Read more...]]])

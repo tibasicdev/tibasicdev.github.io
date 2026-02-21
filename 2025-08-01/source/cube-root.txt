@@ -1,0 +1,46 @@
+[[include inc:command
+|picture=CUBEROOT.GIF
+|summary=Take the cube root of a number.
+|syntax=³√(//input//)
+|location=While editing a program, press:
+# MATH to open the [[[math]]] menu
+# 4 or use the arrow keys to select.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+Takes the cube root of a positive or negative number.  It works exactly the same as 3^^×^^√ or ^(1/3) but is smaller and uses an ending parenthesis.  If used on a list, it will return a list with the cube root of each element.
+[[code]]
+³√(8)
+		2
+³√(2)
+		1.25992105
+		
+³√({1,‾8,27})
+		{1 ‾2 3}
+[[/code]]
+
+For complex numbers, the [*http://mathworld.wolfram.com/CubeRoot.html principal cube root] is returned, which may be different from the cube root you'd get for the same real number:
+
+[[code]]
+³√(-8)
+		-2
+³√(-8+0i)
+		1+1.732050808i
+[[/code]]
+
++ Optimization
+
+Never raise something to the one-third power explicitly; use this command instead.
+
+[[code]]
+:X^(1/3)→X
+can be
+:³√(X→X
+[[/code]]
+
++ Related Commands
+
+* [[[power|^]]]
+* [[[xroot|×√]]]
+* [[[square-root|√(]]]

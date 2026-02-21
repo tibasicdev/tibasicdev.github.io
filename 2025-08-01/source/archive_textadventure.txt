@@ -1,0 +1,21 @@
+author: TI123outerme
+version: '1.2'
+summary: 'A semi-text based adventure. You go on an quest to avenge your burned-down home.'
+description: "This game is somewhat text-based, but support for basic pixel graphics may be coming soon.\nThis game includes features such as a tournament, the ability to buy new weapons and HP, a fighting system, and much more!\nThe screenshot shows the game's title screen working and centered on a TI-84+CSE, but there's an option at the beginning to center it on the TI-83+ and up calculators. If you are having trouble with downloading or running any of the programs or subprograms, you can find the individual programs and documentation here: https://www.dropbox.com/sh/h4ruxl1obyjs2qn/AAAJGwiLEfaxheRSuNsz-mUQa"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:terrors/Terrors.zip'
+image: 'archiveimage:terrorstitlescreen/TERRORSTITLESCREEN.GIF'
+fileSize: '5792'
+fileSizeUnit: '1'
+dateMade: '1399521600'

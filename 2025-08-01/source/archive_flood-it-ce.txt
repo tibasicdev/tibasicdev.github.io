@@ -1,0 +1,21 @@
+author: Michael2_3B
+version: '1.0'
+summary: 'Flood the board with a single color in the least amount of moves!'
+description: "Click the blocks to fill the board with a single color. See if you can do it within a specified amount of moves! You should catch on pretty quickly ;) More info in the readme. Original game: http://unixpapa.com/floodit\n\nThe flood algorithm may be a tiny bit slow, but that is due to the limits of TI-Basic."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:floodit/FloodIt.zip'
+image: 'archiveimage:002929/002929.gif'
+fileSize: '4'
+fileSizeUnit: '2'
+dateMade: '1512540000'

@@ -1,0 +1,17 @@
+author: 'TI-Basic Developer'
+description: 'A simple "card" game where you flip over two cards each turn to try to get a matching pair.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /home/no_image_2.png
+download: memory.zip
+size: '389'
+unit: '1'

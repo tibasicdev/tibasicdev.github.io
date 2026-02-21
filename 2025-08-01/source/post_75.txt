@@ -1,0 +1,3 @@
+name: ''
+content: "Welcome to TI-Basic Developer, Burr! Have you checked out our [http://tibasicdev.wikidot.com/starter-kit TI-BASIC Starter Kit]? It has everything you need to get started and if it doesn't have something, you can always ask on the forums!\n :P\n\nActually, it took me quite a while to realise that you were the founder of this site. I think it was three years ago when I realised it, actually."
+attachment: null

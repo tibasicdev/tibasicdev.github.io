@@ -1,0 +1,6 @@
+The abbreviation "asm" is ambiguous and may refer to:
+
+* [[[asm-command|Asm(]]], the command used for running a shell-independent assembly program.
+* [[[Assembly]]], the other programming language available on the TI graphing calculators.
+
+If an internal link led you here, you may wish to change the link to point directly to the intended article.

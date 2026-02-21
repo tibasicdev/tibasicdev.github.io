@@ -1,0 +1,13 @@
+[[include inc:program
+|picture=bangbang.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic scorched earth game.
+|size=3,670 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/32/3223.html Sean Weeks]
+|download=[http://tibasicdev.wikidot.com/local--files/bang-bang/bangbang.zip bangbang.zip]
+]]
+
+Bang Bang is a scorched earth clone that involves two players methodically shooting missiles at each other until one of them blows up the other's base. There are three different missile sizes to choose from -- small, medium, and large -- and each of the missiles has advantages and disadvantages. In addition, there is a wind that affects the missiles, and thus changes which missile you use.
+
+The main feature of this game is that it provides three different modes of gameplay: 1 player, playing against a target; 2 player, playing against another person; and vs. AI, playing against a challenging AI. In addition, the terrain is randomly generated, although you can specify your own custom terrain from the menu as well.

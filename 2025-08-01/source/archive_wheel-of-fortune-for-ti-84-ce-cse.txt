@@ -1,0 +1,21 @@
+author: a_bretherino
+version: 1.0.2
+summary: 'Wheel of fortune, the GAME for 2-3 players with puzzle adder!'
+description: "Completely TI BASIC Wheel of Fortune game show for 2-3 people with expansion pack and puzzle adder program! Independent game: no other software required!\n\nRequires TI-84+CE for 26x10 home screen display and RAM space."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '1'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:wheel-1-0-2/WHEEL-1-0-2.zip'
+image: null
+fileSize: '26639'
+fileSizeUnit: '1'
+dateMade: '1501477200'

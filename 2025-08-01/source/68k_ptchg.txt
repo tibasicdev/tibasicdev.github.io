@@ -1,0 +1,23 @@
+[[include inc:68k-command
+|picture=ptchg.png
+|summary=Inverts a point on the graph screen.
+|syntax=PtChg //x//, //y//
+|size=2 bytes
+]]
+
+The {{PtChg}} command inverts a point on the graph screen -- drawing it if it isn't already there, and erasing it otherwise. It uses point coordinates, which means that the result is determined by [[[68k:system-variables#window|window variables]]]: the x-coordinate must be between xmin and xmax, and the y-coordinate must be between ymin and ymax (with (xmin,ymin) being the bottom left and (xmax,ymax) the top right corner).
+
+Unlike pixel commands such as {{[[[68k:PxlChg]]]}}, however, {{PtChg}} won't give an error if the coordinates happen to be outside these bounds -- it simply won't have any effect.
+
++ Advanced Uses
+
+{{PtChg}} can also be used with two lists of the same size. In that case, it will invert the points for every pair of elements (xlist[n], ylist[n]). This can be used as an alternative to plots (see {{[[[68k:NewPlot]]]}}) to plot a set of points.
+
++ Related Commands
+
+* 
+* {{[[[68k:PtOn]]]}}
+* {{[[[68k:PtOff]]]}}
+* {{[[[68k:PxlOn]]]}}
+* {{[[[68k:PxlOff]]]}}
+* {{[[[68k:PxlChg]]]}}

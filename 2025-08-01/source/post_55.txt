@@ -1,0 +1,2 @@
+content: 'Actually, the rules page just says that the rules aren''t yet available. However, I read the rules on the post [http://www.omnimaga.org/index.php?topic=15673.0 here.]'
+attachment: null

@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=xlib-xlib-revolution.gif
+|summary=A quality DDR clone.
+|size=30KB
+|libraries=Yes, [http://tibasicdev.wikidot.com/xlib xLIB]
+|compatibility=TI-83+/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/78/7864.html Kevin Ouellet] (DJ Omnimaga)
+|download=@@[http://tibasicdev.wikidot.com/local--files/xlib-xlib-revolution/xlibxlibrevolution.zip xlibxlibrevolution.zip]
+]]
+
+xLIB xLIB Revolution is a clone of the Dance Dance Revolution game using the xLIB Flash app. Unlike most other calculator clones, this one features quality graphics and runs pretty fast. It also includes a level editor that will allow infinite possibilities for the game. You can even have background images in songs and animations. This is one of the best TI-Basic DDR clones available.

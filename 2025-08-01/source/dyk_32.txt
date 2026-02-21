@@ -1,0 +1,1 @@
+…that you can use the {{[[[percent|%]]]}} symbol or {{[[[sub(]]]}} with one argument as a smaller replacement for multiplying by .01?

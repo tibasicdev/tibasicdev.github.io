@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282_rPi3]]'
+version: '5.3.1.0058 and higher'
+summary: 'The Asm84CEPrgm command for OS 5.3.1.0058 and higher.'
+description: "The Asm84CEPrgm command for OS 5.3.1.0058 and higher. TI restricted use on on-calculator made assembly programs on the TI-84+CE. But there is a workaround for this problem.\n\n++ How to run assembly programs\nSend this program to your calculator.\nType in the hex code in a blank program, with the assembly command already recalled. Use the [[[AsmComp(]]] command to compress your code into another program. Run the compressed code in the second program with the [[[Asm(]]] command or run it normally like a BASIC program. Running any uncompressed assembly programs will __not__ work."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: ff
+download: 'archivefile:asmprmce/ASMPRMCE.8xp'
+image: null
+fileSize: '1'
+fileSizeUnit: '2'
+dateMade: '1571983200'

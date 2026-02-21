@@ -1,0 +1,66 @@
+Assembly shells are programs that can be loaded onto your calculator and act as an interface for running other programs. They also provide extra functionality like giving access to key-hooks. This page provides you with code you can embed into TI-Basic programs to make them compatible with assembly shells.
+
+[[toc]]
+
++ MirageOS
+
+[*http://detachedsolutions.com/mirageos/ MirageOS] is currently the most common assembly shell. To make a TI-Basic program appear in the MirageOS menu, put a colon (":") as the first line of the program:
+[[code]]
+::
+:<program code...>
+[[/code]]
+
+Optionally, you may include a description for the program:
+[[code]]
+::"<program description>
+:<program code...>
+[[/code]]
+
+As a warning, there have been cases of MirageOS not running TI-Basic programs correctly; after the program finishes, the calculator will crash.
+
++ Doors CS
+
+[*http://dcs.cemetech.net/ Doors CS] by Kerm Martian is the most recent assembly shell released. It offers the same functionality as MirageOS along with several other features, although it utilizes a mouse cursor and a different user interface. You can have Doors CS display a custom icon by adding one of the following to your programs:
+[[code]]
+::DCS
+:"<16 character hex code for 8x8 icon>
+or
+::DCS6
+:"<64 character hex code for 16x16 icon>
+
+or
+
+::"<program description>
+::DCS
+:"<16 character hex code for 8x8 icon>
+or
+::"<program description>
+::DCS6
+:"<64 character hex code for 16x16 icon>
+[[/code]]
+
+You can also have Doors CS //not// display your program (for small subroutines that you don't want users playing with):
+[[code]]
+:Ans
+:<program code>
+[[/code]]
+
+Kerm Martian has also released a version of Doors CS that is compatible with the TI-84+CSE. This shell operates in much the same way and has the same arguments for creating icons and preventing the display of programs. Doors CSE comes with the Celtic and EXLIBC. This shell can be found at [http://www.cemetech.net cemetech.net] or [http://ticalc.org ticalc.org] 
+
+Doors CE is currently undergoing development. The last official update places Doors CE under the debugging stage. It will be similar to Doors CSE, but for the TI-84 CE. You can follow the development thread [[[https://www.cemetech.net/forum/viewtopic.php?t=11997 | here]]].
+
++ Noshell
+
+[*http://www.ticalc.org/archives/files/fileinfo/400/40005.html Noshell] (pronounced 'nosh-ell') is a flash application for running any program that appears in the program menu like you would a TI-Basic program. It will automatically run all programs.
+
++ CrunchyOS
+
+[*http://www.ticalc.org/archives/files/fileinfo/325/32507.html CrunchyOS] is another common assembly shell. To make your TI-Basic program compatible with CrunchyOS, add a colon as its first line:
+[[code]]
+::
+:<program code>
+[[/code]]
+
++ Other Shells
+
+The other assembly shells, especially the older ones, don't have an option to run TI-Basic programs; you just have to use the program menu instead. [*http://www.ticalc.org/archives/files/fileinfo/130/13059.html Ion] is probably the most notable shell that doesn't run TI-Basic programs.

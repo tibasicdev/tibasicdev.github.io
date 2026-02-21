@@ -1,0 +1,9 @@
+++ A
+[[module ListPages category="-68k,-nspire" tags="+command_a" separate="no" order="name"]]
+[[[%%name%%]]]
+[[/module]]
+
+++ B
+[[module ListPages category="-68k,-nspire" tags="+command_b" separate="no" order="name"]]
+[[[%%name%%]]]
+[[/module]]

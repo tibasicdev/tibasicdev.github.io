@@ -1,0 +1,24 @@
+[[include inc:routine
+|picture=@@
+|summary=Displays the Pythagorean triples.
+|input=//C// - how many triples you want to display
+|output=None
+|variable=A, B, C
+|compatibility=TI-83/84/+/SE
+|author=Weregoose
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=4350&view=findpost&p=68050 United TI
+|download=[file pythagoreantriples.zip]
+]]
+
+[[code]]
+:For(A,2,C
+:For(B,1,A-1
+:Disp {A²-B²,2AB,A²+B²
+:If getKey:Pause
+:End:End
+[[/code]]
+
+A [wikipedia:Pythagorean_triple Pythagorean triple] occurs when, while using the [wikipedia:Pythagorean_theorem Pythagorean Theorem] a^^2^^+b^^2^^=c^^2^^ to find the three sides of a right triangle, all three values are whole integers. For example, a common triple is 3,4,5 -- in this case, 9 (3^^2^^) + 16 (4^^2^^) = 25 (5^^2^^). The general formula that can be derived to figure out when a triple occurs is: a=(A^^2^^-B^^2^^) b=(2AB) c=(A^^2^^+B^^2^^).
+
+Now that you know what a Pythagorean triple is, the routine should be pretty clear. We are essentially looping over the range of values that we want to find triples in, and then displaying the triples as a three element [[[lists|list]]] using the above mentioned formula. Because there can be many triples found, and displaying all of them would just be like a blur on the screen, the [[[Pause]]] command allows you to temporarily halt the program so you can see the triples that are currently displayed.

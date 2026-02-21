@@ -1,0 +1,41 @@
+[[include inc:68k-command
+|picture=sin.png
+|summary=Takes the sine of a number (usually, an angle).
+|syntax=sin(//angle//)
+
+|location=Press the SIN button to enter sin(.
+
+|size=1 byte
+]]
+
+
+The sin() command returns the [http://mathworld.wolfram.com/sine.html sine] of an angle measure. Naturally, the result depends on the angle [[[68k:setmode|mode]]] the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the ^^[[[68k:radian|r]]]^^, [[[68k:degree|°]]], ^^[[[68k:gradian|G]]]^^ marks to specify an angle mode.
+
+For many common angles, sin() can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in radian [[[68k:mode-settings|mode]]], sin() can be used with complex numbers as well.
+
+[[code]]
+:sin(30°)
+           1/2
+:sin(x+2π)
+          sin(x)
+:sin(πi/2)
+          sinh(π/2)*i
+[[/code]]
+
+If sin() is applied to a list, it will take the sine of every element in the list.
+
++ Advanced Uses
+
+The sin() of a matrix is not (in general) the same as taking the sine of every element of the matrix. A different definition is used to compute the result; see [[[68k:matrices#toc2|]]]. It requires the matrix to be square and diagonalizable in order to apply.
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=taking sin() of a matrix that isn't square]]
+[[include inc:68k-error num=260|error=Domain error|cause=taking sin() of a complex number in degree or gradian mode]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=taking sin() of a matrix that isn't diagonalizable]]
+
++ Related Commands
+
+* [[[68k:cos()]]]
+* [[[68k:tan()]]]
+* [[[68k:arcsin|sinֿ¹()]]]

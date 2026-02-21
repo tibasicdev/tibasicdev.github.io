@@ -1,0 +1,21 @@
+author: 'Unknown User'
+version: 3.7.66.43.25TI83
+summary: 'A FREE emulator of a TI-83 Plus, use this if you don''t own a TI-Basic Calculator!'
+description: 'A FREE emulator of a TI-83 Plus, use this if you don''t own a TI-Basic Calculator!'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:vti83-20171201t150451z-001/VTI83-20171201T150451Z-001.zip'
+image: null
+fileSize: '777'
+fileSizeUnit: '2'
+dateMade: ''

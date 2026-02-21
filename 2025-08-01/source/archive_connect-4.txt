@@ -1,0 +1,21 @@
+author: Codemaster123
+version: '1.1'
+summary: 'A 2-player connect 4 game.'
+description: 'New Update! Not a big one though. All I added was an intro animation.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:connect4-v-1-1/Connect4-V-1-1.zip'
+image: null
+fileSize: '7857'
+fileSizeUnit: '2'
+dateMade: '1447218000'

@@ -1,0 +1,17 @@
+author: SuperJedi224
+description: 'A simple battle game with single-calculator player-versus-player and player-versus-cpu modes. To install, simply ungroup it. G1P and G2P are the master programs, the other programs provide the nescessary function calls. There seems to be a bug in the ai routine (involving the block command), let me know if you manage to fix it.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /home/no_image_2.png
+download: versusgame.zip
+size: '2576'
+unit: '1'

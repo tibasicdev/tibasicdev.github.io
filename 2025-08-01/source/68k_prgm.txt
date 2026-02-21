@@ -1,0 +1,38 @@
+[[include inc:68k-command
+|picture=prgm.png
+|summary=Defines a set of lines as executable program code.
+|syntax=Prgm
+//program code//
+EndPrgm
+|location=Press:
+# Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu
+# P to scroll to the P section
+# Use arrows to navigate to Prgm
+Or type Prgm using the keyboard
+
+|size=4 bytes
+]]
+
+This command is used at the beginning/end of a program to tell the calculator to interpret it as code. Without these commands at the start and end of a program file, the interpreter will pass a syntax error.
+
+[[code]]
+:test()
+:Prgm
+://code to run goes here
+:EndPrgm
+[[/code]]
+
++ Advanced Uses
+
+Using the [[[68k:local]]] and [[[68k:define]]] commands, you can create local submethods in your programs. This is more often used with functions, as you can return a value, however you can not display to the IO or draw to the graph screen in functions, so using programs in this way is sometimes useful. Assuming the following code is inside a program block already, the syntax would be:
+[[code]]
+:Local test
+:Define test()=Prgm
+://test program code goes here
+:EndPrgm
+[[/code]]
+
++ Related Commands
+
+* [[[68k:func]]] / [[[68k:endfunc]]]
+* [[[68k:expr(]]]

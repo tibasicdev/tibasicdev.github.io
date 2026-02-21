@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Fly The Copter
+|author=Weregoose
+|size=356 Bytes
+|description=You have to navigate a scrolling tunnel for as long as possible.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/fly-the-copter/flythecopter.zip
+|downloadName=FlyTheCopter.zip
+
+|83compatible=DO NOT EDIT
+]]

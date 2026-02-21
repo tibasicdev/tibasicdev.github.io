@@ -1,0 +1,118 @@
+[[module ListPages category="post" tags="-_null" perPage="20"]]
+[[table class="forumPost"]][[row]][[cell]]
+[[table class="postHead"]][[row]]
+[[cell class="postHeadName"]][[span class="defaultHide isName%%form_raw{name}%%"]][[user %%created_by%%]][[/span]][[span class="isName%%form_raw{name}%%"]]%%form_data{name}%%[[/span]][[/cell]]
+[[cell class="postHeadDate"]]%%created_at|%d %b %Y, %R|agohover%%[[/cell]]
+[[/row]][[/table]]
+[[table class="postBody"]][[row]]
+[[cell class="postBodyMember"]]
+[[div class="defaultHide isName%%form_raw{name}%% isAnon%%created_by%%"]]
+[[image http://www.wikidot.com/avatar.php?userid=%%created_by_id%% width="75px" height="75px" alt="%%created_by%%" title="%%created_by%%"]]
+[[include member:%%created_by_unix%%]]
+[[/div]]
+[[div class="isName%%form_raw{name}%% isAnon%%created_by%%"]]
+[[image http://tibasicdev.wikidot.com/local--files/post:_template/tibd_calcAvatar.png width="75px" height="75px" alt="%%form_data{name}%%" title="TI|BD"]]
+Guest
+[[/div]]
+[[/cell]]
+[[cell class="postBodyMessage"]]
+%%form_data{content}%%
+[[div class="file attachment%%form_raw{attachment}%%"]]
+Attachment: %%form_data{attachment}%%
+[[/div]]
+[[/cell]][[/row]]
+[[row]][[cell]][[/cell]]
+[[cell class="postFooter"]]
+[[iftags -_thread]][http://tibasicdev.wikidot.com/%%parent_fullname%%#post%%name%% Goto This Post][[/iftags]][[iftags +_thread]][[[%%fullname%%|Goto This Post]]][[/iftags]]
+[[/cell]][[/row]][[/table]]
+[[/cell]][[/row]][[/table]]
+[[/module]]
+
+[[module CSS]]
+.forumPost,
+.forumPost .postHead,
+.forumPost .postBody{    width: 100%; }
+.forumPost .postHead{    background-color: #C7C9B8; }
+.forumPost .postHeadName{
+    width: 50%;
+    font-size: 105%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1px 5px;
+}
+.forumPost .postHeadName a{    text-decoration: none; }
+.forumPost .postHeadName a:hover{
+    text-decoration: none;
+    color: #111;
+}
+.forumPost .postHeadDate{
+    text-align: right;
+    font-size: 80%;
+    color: #555;
+    padding: 1px 5px;
+}
+.forumPost .postBodyMember{
+    text-align: center;
+    width: 100px;
+    vertical-align: top;
+    padding: 8px 5px 0 5px;
+    font-size: 80%;
+    color: #555;
+}
+.forumPost .postBodyMember p{    margin: 0; }
+.forumPost .postBodyMember .error-block{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #555;
+}
+.forumPost .postBodyMember .error-block p{    display: none; }
+.forumPost .postBodyMember .error-block:after{    content: 'Guest'; }
+.forumPost .postBodyMember img{
+    border-radius: 4px;
+    box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.4);
+}
+.forumPost .postBodyMember .badges img{
+    box-shadow: none;
+    margin: 2px 1px 0;
+}
+.forumPost .postBodyMessage{
+    vertical-align: top;
+    padding: 0 0 0 6px;
+}
+.forumPost .postFooter{
+    text-align: right;
+    font-weight: bold;
+}
+.forumPost .postFooter a:hover{    color: #111; text-decoration: none; }
+.forumPost .attachment{    display: none; }
+.forumPost .file{
+    font-size: 80%;
+    color: #555;
+}
+.forumPost .file a{
+    text-decoration: none;
+}
+.forumPost .file a:hover{
+    color: #111;
+}
+
+div.field-content textarea,
+span.field-attachment input{    opacity: 1 !important; }
+
+.code{
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 9pt;
+    color: #11119C;
+    background: none;
+    border: none;
+    padding-left: 1em;
+}
+.threadHeader p{    margin: 0; }
+.threadHeader td{    vertical-align: bottom; }
+.isName{    display: none; }
+.defaultHide{    display: none; }
+.defaultHide.isName{    display: inline !important; }
+div.defaultHide.isName.isAnonAnonymous{    display: none !important; }
+div.isName.isAnonAnonymous{    display: inline !important; }
+[[/module]]

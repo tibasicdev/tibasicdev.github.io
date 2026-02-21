@@ -1,0 +1,3 @@
+name: ''
+content: "Let me try something... are you able to access and use [*http://timothyfoster.wdfiles.com/local--files/program%3Aradical-simplifier/html_radical-simplifier.html this page]?\n\nMy suspicion is that your filter is blocking the wdfiles domain, but not the wikidot domain, which is sort of strange.  All of Wikidot's CSS runs through the wdfiles domain."
+attachment: null

@@ -1,0 +1,149 @@
+[[table style="width: 900px; margin: 90px auto 0 -1px; background: #fdfcf6; border: 1px solid #eb4034;"]]
+[[row]]
+[[cell style="width: auto; padding: 10px; font-size: 125%;"]]
+We're glad you came by, but you might find what you're looking for elsewhere.
+
+TI-Basic Developer is not the site it once was. While its information on commands and other calculator features remains almost second-to-none, its forum, archives, and even hosting service, Wikidot, have been decaying for years. The calculator community would love to see what you're working on, or help you in your next coding adventure, but TI-Basic Developer is no longer the place to do it.
+
+Instead, you should head over to [https://www.cemetech.net/ Cemetech] (primarily American) or [https://tiplanet.org/forum/portal.php TI-Planet] (primarily international). Both are active, well-established forums with their own archives, chatrooms, reference material, and abundant coding tools and resources. We'll see you there, we hope.
+[[/cell]]
+[[/row]]
+[[/table]]
+[[table style="width: 900px; margin: 10px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="font-size: 125%; padding: 10px;"]]
+**//Welcome to TI-Basic Developer (TI|BD), the TI-Basic information repository!//** If you are a first-time visitor, please check out the [[[welcome pack]]] to get up to speed on using the site. We encourage you to [[[system:join|become a member]]] and to [[[contribute|get involved]]] in the community, and to come back often to see what [[[system:recent-changes|changes]]] have occurred. And above all else, enjoy your stay!
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 900px; margin: 20px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="height: 107px; padding: 0; padding-top: 2px; padding-left: 2px; background: #fdfcf6;"]]
+[[module ListPages category="screenshot" limit="5" perPage="5" urlAttrPrefix="sc" separate="yes" order="random"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 900px; margin: 20px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[forum:recent-posts|Recent Forum Posts]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[forum:home|Recent Forum Threads]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[forum:home|Popular Forum Threads]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; text-align: center;"]]
+[[module MiniRecentPosts limit="3"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; text-align: center;"]]
+[[module MiniRecentThreads limit="6"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; text-align: center;"]]
+[[module MiniActiveThreads limit="6"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[home|TI-83 Basic]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[68k:home|68k TI-Basic]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[nspire:home|TI-Nspire Basic]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; vertical-align: top;"]]
+[[f<image 83_84_series.gif link="home" alt="TI-84 Plus CE"]]
+TI-83 Basic is the most commonly used, because the TI-83/84 series has been heavily marketed by Texas Instruments to high school students needing a graphing calculator for math and science classes.
+
+At the same time, it is the least powerful language, lacking many of the complex commands and programming capabilities.
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; vertical-align: top;"]]
+[[f<image 68k_new.gif link="68k:home" alt="TI-89"]]
+68k TI-Basic is much more powerful than TI-83 Basic, with support for calculus, indirection, local variables and functions, advanced picture manipulation, and several other features that make it a very rich language.
+
+However, it isn't used nearly as much as TI-84 Basic, so it doesn't have as big of a community developed around it.
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; vertical-align: top;"]]
+[[f<image Nspire_series.gif link="http://tibasicdev.wikidot.com/nspire:home" alt="TI-Nspire"]]
+TI-Nspire Basic is quite similar to 68k TI-Basic, but not as programmer friendly: it has poor I/O support, rigid constraints on program execution, and documents are used instead of programs.
+
+In addition, it is still relatively unknown to the TI community, so there isn't much documentation available yet.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div class="footer-links"]]
+[[div class="list1"]]
+Resources
+* [[[Welcome Pack]]]
+* [[[home|TI-83 Basic]]]
+* [[[68k:home|68k TI-Basic]]]
+* [[[nspire:home|TI-Nspire Basic]]]
+[[/div]]
+[[div class="list2"]]
+Contributing
+* [[[guide-to-editing|Guide to Editing]]]
+* [[[conventions|Wiki Conventions]]]
+* [http://www.wikidot.com/doc:wiki-syntax Wiki Syntax]
+* [[[to-do|To-Do List]]]
+[[/div]]
+[[div class="list3"]]
+Community
+* [[[forum:home|Site Forums]]]
+* [[[system:members|Site Members]]]
+* [[[conduct|Code of Conduct]]]
+* [[[system:join|Become a Member]]]
+[[/div]]
+[[div class="list4"]]
+About Us
+* [[[logo|Site Logo]]]
+* [[[about|Site Goals]]]
+* [[[history|Our History]]]
+* [[[all-news|News Archive]]]
+[[/div]]
+[[div class="list5"]]
+Related Sites
+* [*http://www.cemetech.net Cemetech]
+* [*http://codewalr.us CodeWalrus]
+* [*http://www.omnimaga.org Omnimaga]
+* [*http://tiplanet.org TI-Planet]
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+div.footer-links {width:900px;height:135px;margin:25px auto 0 -1px;display:block;position:relative;z-index:10;}
+div.footer-links, div.footer-links * {background:#C7C9B8 !important;}
+div.footer-links div {width:150px;margin-bottom:0;padding:0;position:absolute;top:17px;}
+div.footer-links div, div.footer-links div * {z-index: 100 !important;}
+div.footer-links div p {margin: 0;padding-left: 20px;font-size:120%;font-weight:bold;}
+div.footer-links div p li {padding:4px !important;margin: auto;}
+#footer {z-index: 1000 !important; position: relative;}
+div.list1 {left:25px;}
+div.list2 {left:190px;}
+div.list3 {left:380px;}
+div.list4 {left:565px;}
+div.list5 {left:735px;}
+[[/module]]
+
+[[div style="display: none;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092;
+var sc_invisible=0;
+var sc_partition=22;
+var sc_security="d8087415";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]

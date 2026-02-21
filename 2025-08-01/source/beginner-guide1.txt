@@ -1,0 +1,106 @@
+> **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
+
+[[toc]]
+
+++ The Basics
+
++++ Creating a New Program
+
+To create a new program:
+* Press the PRGM button on your calculator
+* Scroll over to the "NEW" heading
+* Press "ENTER"
+* Enter the name for your program
+* Press "ENTER"
+
++++ Executing a Program
+
+To execute a program:
+* Press the PRGM button on your calculator
+* Scroll down to the program you want to execute
+ * //**NOTE:**// //If the program you want to execute has an asterisk (*) next to it, it is archived, and inaccessible.//
+* Press "ENTER"
+* Press "ENTER" again to begin the program
+
++++ Editing a Program
+
+To edit a program:
+* Press the PRGM button on your calculator
+* Scroll over to the "EDIT" heading
+* Scroll down to the program you want to edit
+ * //**NOTE:**// //If the program you want to execute has an asterisk (*) next to it, it is archived, and inaccessible.//
+* Press "ENTER" to enter the edit screen
+
++ Beginning Programming
+
+In order to see an actual example of what is being discussed, create a program (see above) and call it WIKI. Some parts of the tutorial will ask you to create programs to execute, and this is where you will write them. Also, there is not a description of where commands are found. To find a command, click on the link to it's page, where a complete location description can be found, as well as a more complete description of it's function.
+
+++ ClrHome, Output(, and Pause
+
+To begin your TI-BASIC education, let's begin with two of the simplest and most helpful commands, **ClrHome** (standing for Clear Home) and **Output(**. 
+
++++ [[[ClrHome]]]
+
+On your calculator, press a bunch of numbers (more than 1 line). Now go to prgmWIKI and simply create one line of code: ClrHome. Execute the program.
+
+You should be staring at a blank screen. This is precisely what ClrHome does: It gets rid of any text already on the home screen.
+
++++ [[[Output(]]]
+
+You may or may not have already noticed that on the [[[homescreen|calculator screen]]], all characters (numbers, letters, spaces, punctuation, etc.) take up the same amount of space. Your screen can hold 16 characters across and 8 characters down. When you execute an Output( command, you are telling your calculator at which of these spaces to write a certain piece of text. For example, create the following program:
+
+[[code]]
+Program:WIKI
+:ClrHome
+:Output(3,4,"TI-BASIC
+[[/code]]
+
+If you execute it, you should see TI-BASIC printed on the third line at the fourth space.
+
++++ [[[Pause]]]
+
+Pause is one of the most unique TI-BASIC commands because it can only be used in one way: It will stop the program from executing any code that comes after it until the user presses "ENTER"
+
+To show you how Pause works, create the following program:
+
+[[code]]
+Program:WIKI
+:ClrHome
+:Output(1,1,"PRESS PAUSE
+:Pause
+:Output(3,6,"THANK YOU
+[[/code]]
+
+After the program printed PRESS PAUSE, you should have seen shifting dots in the up right corner of the screen, and the program did not continue to print THANK YOU until you pressed "ENTER".
+
+Pause can also be used to display some text or a variable, such as in this next program.
+
+[[code]]
+Program:WIKI
+:ClrHome
+:Pause "PROGRAM PAUSED"
+:5→X
+:Pause X
+[[/code]]
+
++++ Using ClrHome, Output(, and Pause Together
+
+You have only learned how to execute three TI-BASIC commands thus far, but they are all you need to create many programs on graphing calculators. One of the most common ways is to create a textual cartoon or a joke. For example, you could create the following program:
+
+[[code]]
+Program:JOKE
+:ClrHome
+:Output(1,1,"HOW DOES A 
+:Output(2,1,"MATHEMATICIAN
+:Output(3,1,"LOSE WEIGHT?
+:Pause
+:Output(5,1,"BINOMIALS!
+:Pause
+:Output(6,1,"(BUY NO MEALS)
+[[/code]]
+
+See what programs you can create using ClrHome, Output(, and Pause!
+
+++ Input, Analysis, and Direction
+
+However, using only ClrHome, Output(, and Pause does not allow for a wide arrange of enjoyable games because it lacks three important factors: Input, Analysis, and Direction. To learn how to add these to your program, just **[[[beginner-guide2|Continue]]]**...

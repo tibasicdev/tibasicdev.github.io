@@ -1,0 +1,13 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Apr
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=03
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user GoVegan]] created an all new system on recognition and awards for members of the \
+[[include inc:tibd{$br}]
+[!----] community. (see post [http://tibasicdev.wikidot.com/forum/t-38419/recognition#post-438610 here])
+|br=]
+]]

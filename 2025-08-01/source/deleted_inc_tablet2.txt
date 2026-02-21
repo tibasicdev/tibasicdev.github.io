@@ -1,0 +1,13 @@
+[[include inc:tablet2-backend
+|picture={$picture} |picture=ERROR: NO IMAGE DEFINED
+|{$ifimage}=TRUE
+|name={$name} |name=//No name given//
+|author={$author} |author=//No author given//
+|size={$size} |size=//No size given//
+|downloadUrl={$downloadUrl} |downloadUrl=http://tibasicdev.wikidot.com/local--files/home/no_image_2.png
+|downloadName={$downloadName} |downloadName=Download Unavailable
+|description={$description} |description=//No description given//
+|compatibility={$compatibility} |compatibility=//Parent page not set//
+|1=@@
+|0=@@
+]]

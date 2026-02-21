@@ -1,0 +1,11 @@
+[[include inc:cid]]
+
+In the starter kit, the link to this page has been re-linked to a more thorough, non-starter kit page concerning variable optimization. This page may be deleted.
+
+[[include inc:next-prev
+|prevpage = sk:displaying-text
+|prevtitle = Displaying Text
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:math-operations
+|nexttitle = Math Operations]]

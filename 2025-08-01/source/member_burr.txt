@@ -1,0 +1,14 @@
+Admin
+[[div class="badges"]]
+\
+[[include badge:forum-contributor]]
+[!----]\
+[[include badge:wiki-contributor]]
+[!----]\
+[[include badge:founder]]
+[!----]\
+[[include badge:archive-contributor]]
+[!----]\
+[[include badge:challenge-winner]]
+[!----]
+[[/div]]

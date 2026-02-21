@@ -1,0 +1,21 @@
+author: anonymousfungi
+version: 1.0.0
+summary: 'to be keyed in by hand only'
+description: "lbl Z\nClrhome  \nClrdraw\nmenu(\"CHOOSE MODE\",\"TWO PEOPLE\",1,\"AGAINST CALC\",2)\nlbl 1\ngoto 3\nlbl 2\ndisp \"UNDER\"\ndisp \"CONSTRUCTION\"\npause\ngoto Z\nlbl 3\nmenu(\"P1: READY\",\"ROCK\",4,\"PAPER\",5,\"SCISSORS\",6\nlbl 4\ndisp \"P1: ROCK\n1→C\ngoto 7\nlbl5\ndisp \"P1: PAPER\n2→C\ngoto 7\nlbl 6\ndisp: \"P1: SCISSORS\n3→C\ngoto 7\nlbl 7\nmenu(\"P2: READY!\",\"ROCK\",8,\"PAPER\",9,\"SCISSORS\",a)\nlbl 8\ndisp \"P2: ROCK\"\n1→D\ngoto B\nlbl 9\ndisp \"P2: PAPER\"\n2→D\ngoto B\nlbl A\ndisp \"P2: SCISSORS\"\ngoto B\nlbl B\nif C>D\ndisp \"P1 WIN!\"\nif C<D\ndisp \"P2 WIN!\"\nif C=D\ndisp \"TIE! BOTH LOSE!\"\nstop\nCOPYRIGHT CHARLES RATHMANN 2020"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:ti-83-basic-developer-project/ti-83-basic-developer-project.docx'
+image: null
+fileSize: '371'
+fileSizeUnit: '2'
+dateMade: '1582178400'

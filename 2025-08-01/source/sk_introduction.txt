@@ -1,0 +1,27 @@
+[[div style="float:right; width: 15em; padding: 0 1em; margin: 1em 0 1em 1em; border: 1px solid #888; background: #fff;"]]
+**Programming tips**
+
+Throughout this tutorial, we'll use boxes like this one to give tips that are related to the topic being discussed.
+
+These tips teach you quick ways to improve your programs or the way you use them, or warn against common errors.
+[[/div]]
+
+TI-Basic is the built-in programming language on all of TI's graphing calculators. It is an interpreted, which means that it is converted to machine code as it runs. Conversely, a compiled language does not have to be translated before running, so it generally runs much faster. TI-Basic is called such for the similarity between the dialect of the language and various versions of BASIC. TI does not officially call this language TI-Basic, but it is widely accepted across the Internet.
+
+Although TI-Basic runs slowly, it is very easy to learn and program, and does not require a computer, unlike [[[assembly]]]. In theory, a person could program assembly directly on the calculator, but then that person would need to know all of the hex codes for every command, and debugging would be nearly impossible. When an error is encountered in TI-Basic, the calculator gives the user the option to go to the problem, which makes debugging much easier.
+
++ The Programming Mentality
+
+Computers -- the calculator //is// a computer, albeit a small one. Computers execute code one bit at a time, and go through it in the exact way you programmed it. This means you have to make it so that your programs do things in the order you want; the computer can not decide if it makes more sense to do one piece of code before another. Some would argue this the hardest part of programming, and understanding it makes learning a more complicated language like assembly much easier.
+
+Programming comes more naturally to some people than others. If you enjoy solving problems and puzzles -- you are comfortable with not knowing something, but are dedicated to figuring it out -- you probably would be able to be successful at programming. Programming can be a very demanding task, and it requires that you have the right mental aptitude and are persistent.
+
+Equally important, though, is your passion for learning and growing. Do you spend hours at a time reading and researching in books and documentation? When you see high-quality programs and games, does that make you want to dissect the program to find out how it works? Passion is often what drives you to keep pushing to the next level, and without it, you will almost be guaranteed to just get tired and give up.
+
+[[include inc:next-prev
+|prevpage = starter-kit
+|prevtitle = Table of Contents
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:overview
+|nexttitle = Overview of TI-Basic]]

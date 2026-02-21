@@ -1,0 +1,36 @@
++ [{$forum_url} Challenge {$number} — {$title}]
+
+{$criteria}
+
+Entries judged on the {$day}/{$month}/{$year}
+
+[[collapsible show="+ more details" hide="- less details" hideLocation="bottom"]]
+
+[[size 150%]]Participants[[/size]] ([http://tibasicdev.wikidot.com/challenges:_solutions/tags/_%23{$number} view all solutions])
+
+[[module ListPages category="challenges" tags="_#{$number} +_winner" skipCurrent="true" separate="no"]]
+[[*user %%created_by%%]] — ([%%link%% Winner])
+[[/module]]
+[[module ListPages category="challenges" tags="_#{$number} -_winner" skipCurrent="true" separate="no"]]
+[[*user %%created_by%%]] ([%%link%% View solution])
+[[/module]]
+
+[!-- --]
+
+[!-- --][!--{$reviewer}--][[[@@|]]][[size 150%]]Appraisal[[/size]] reviewed by [[user {$reviewer}]]
+
+{$review}
+
+[!-- --]
+
+[!-- --][!--{$upload}--][[[@@|]]][[size 150%]]Submit your Solution![[/size]]
+
+||||||~ Submit Program File ||
+||~ TI-83 ||~ TI-83 Plus ||~ TI-84 Plus ||~ Submit Program Code ||
+|| [http://tibasicdev.wikidot.com/challenges:solution/edit/true/t/2177409/tags/_new%20_challenge%20_pending%20_%23{$number}/parentPage/archives:_83 Submit TI-83 Program] ||[http://tibasicdev.wikidot.com/challenges:solution/edit/true/t/2177409/tags/_new%20_challenge%20_pending%20_%23{$number}/parentPage/archives:_83p Submit TI-83+/SE Program] ||[http://tibasicdev.wikidot.com/challenges:solution/edit/true/t/2177409/tags/_new%20_challenge%20_pending%20_%23{$number}/parentPage/archives:_84p Submit TI-84+/SE Program] || [http://tibasicdev.wikidot.com/challenges:solution/edit/true/t/2265649/tags/_new%20_code%20_challenge%20_%23{$number} Submit Program Code] ||
+
+[!-- --]
+
+[[/collapsible]]
+
+------

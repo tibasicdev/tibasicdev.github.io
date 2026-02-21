@@ -1,0 +1,8 @@
+Moderator
+[[div class="badges"]]
+\
+[[include badge:forum-contributor]]
+[!----]\
+[[include badge:archive-contributor]]
+[!----]
+[[/div]]

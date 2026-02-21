@@ -1,0 +1,21 @@
+author: Bio_Hazard1282
+version: 1.0.7
+summary: 'http://thevideogamingsite.wikidot.com/program-manager'
+description: "This is a program that is related to Oasis (A shell programmed in pure TI-Basic), and is programmed in pure TI-Basic.\nIt allows you to:\n• Archive and Un-Archive programs\n• Hide/Show programs\n• Lock/Unlock programs\n• Garbage Collect\n• View Data about programs (Shows how many lines of code is in the program, tells if it is archived, hidden, locked, converts name to hexadecimal string, and shows how big that program is.)\n• Delete/Create Programs\n\n++++++ **New Updates**\n• Run programs\n• Download program codes and store them into a string, then recall the string\n• Sort for MirageOS, BASIC, Assembly programs\n• The program source code\n• Important updates\n• More det( and real functions\n• The program will become an app\n------\n++++ **I am thinking...**\n++++++ This could become an OS, I am thinking if calling it ManagerOS..."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:program-manager/Program-Manager.docx'
+image: null
+fileSize: '1783'
+fileSizeUnit: '1'
+dateMade: '1508306400'

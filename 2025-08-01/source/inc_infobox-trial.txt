@@ -1,0 +1,56 @@
+[[div style="float:right; width: 295px; margin: 0 0 1em 1em;"]]
+[[module ListPages category="news" tags="+_announcement -_68kportal" limit="1" date="last 7 days"]]
+          [[table style="background: {$color}; border: 1px solid {$color}; margin-bottom: 10px; width:100%;"]]
+          [[row]][[cell class="infobox blink" style="font-size:140%; text-align:center;"]]
+**[[[announcements| Announcement!!]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding:0 2% 10px;"]]
+%%content%%
+          [[/cell]][[/row]][[/table]]
+[[/module]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[contribute|Getting Involved]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+A site can only grow and thrive through the continual efforts of its [[[system:members]]]. If you have found this site useful, we encourage you to [[[contribute]]] and become part of our community.
+
+[[[system:join|Sign-ups]]] are available, and our [[[forum:home|forums]]] are open to questions, commentary, or anything else that you want to talk about. We hope to see you there!
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[forum:recent-posts|Forum Activity]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module MiniRecentPosts limit="3"]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[Did You Know...]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="dyk" tags="+_dyk _83portal _both-portals" separate="no" order="random" limit="1" urlAttrPrefix="dyk"]]
+%%content%%
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[Top_Rated|Top Rated Programs]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="archives" limit="10" order="ratingDesc"  tags="_83 _83p _84p _84p23" separate="false"]]
+# %%linked_title%% (//%%rating%% votes//)
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[featured-articles|Featured Article]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="excerpt" tags="_excerpt +_83portal +featured-article" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[featured-commands|Featured Command]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="excerpt" tags="_excerpt +_83portal +featured-command" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+[[/div]]

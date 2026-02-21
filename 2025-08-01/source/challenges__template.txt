@@ -1,0 +1,58 @@
+[[include inc:visitor-farewell]]
+
+[[iftags _challenge]]
+[[[Challenges]]] » %%title%%
+[[/iftags]]
+
+[[iftags _pending]]
+> [[span style="font-size: 200%; color: red;"]]**DON'T FORGET**, you must **//[[button files text="upload"]]//** your program![[/span]]
+> [[span style="font-size: 150%;"]]Our expectations are that you upload a compressed zip folder containing your program and all documentation. You may also wish to upload a picture of your program in action (preferably an animated *.gif). A moderator will later add any uploads to this page. If you made a mistake, you can still //**[[button edit text="edit the page"]]**//.[[/span]]
+[[/iftags]]
+
+[[iftags update]]
+> [[span style="font-size: 150%; color: amber;"]]This page has been [[[archives:_to-do|waiting]]] to be updated for %%date_edited|%O%%[[/span]]
+[[/iftags]]
+[[iftags -_new]]
+%%content%%
+[[/iftags]]
+
+[[iftags _new]]
+[[include inc:tablet
+|name=%%title%%
+|author=%%content{1}%%
+|description=%%content{2}%%
+|compatibility=%%parent_title%%
+|picture=%%content{4}%%
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/%%fullname%%/%%content{5}%%
+|downloadName=%%content{5}%%
+|size=%%content{6}%%
+]]
+[[/iftags]]
+
+[[iftags _challenge]]
+[[=]]
+[[module Rate]]
+[[/=]]
+[[module Comments title="What the community thinks:" hideForm="true"]]
+[[/iftags]]
+
+[[iftags _pending]]
+> [[span style="font-size: 150%; color: amber;"]]This page has been on the [[[archives:_to-do|waiting list]]] for %%date|%O%%.[[/span]]
+> [[span style="font-size: 150%; color: amber;"]]To process the page yourself, see the [http://tibasicdev.wikidot.com/guide-to-editing#archives Guide to Editing][[/span]]
+[[/iftags]]
+
+~~~~~
+
+[[iftags _challenge -_code -_pending]]
+> [[span style="font-size: 200%; color: green;"]]Want to update this page?[[/span]]
+> * [[span style="font-size: 200%; color: green;"]]**[[button files text="Upload new files"]]** to provide up-to-date versions of your program;[[/span]]
+> * [[span style="font-size: 200%; color: green;"]]**[[button edit text="or Edit the content"]]** of this page to provide up-to-date information about your program.[[/span]]
+> [[span style="font-size: 200%; color: green;"]]A moderator will only process these changes if you add the word **//update//** to the **[[button tags text="list of tags"]]**[[/span]]
+[[/iftags]]
+
+[[iftags _challenge +_code]]
+> [[span style="font-size: 200%; color: green;"]]Want to update this page?[[/span]]
+> [[span style="font-size: 200%; color: green;"]]You can **[[button edit text="edit the content"]]** of this page to provide up-to-date information about your program, or even update your program (provided the challenge is not yet finished).[[/span]]
+[[/iftags]]
+
+[!-- Template code by James Kanjo--]

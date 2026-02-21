@@ -1,0 +1,189 @@
+[[div class="top"]]
+* [[[home|TI-83 Basic Home]]]
+* **[[[68k:home|68k TI-Basic Home]]]**
+* [[[nspire:home|TI-Nspire Home]]]
+* [[[archives|Program Archives]]]
+* [[[forum:home|Discussion Forums]]]
+* [[[admin-forum|Staff Forum]]]
+[[/div]]
+
+[[size large]]Preparation[[/size]]
+* [[[68k:thecalcs|The Calculators]]]
+* [[[68k:whytibasic|Why 68k-Basic?]]]
+* [[[68k:using-this-guide|Using This Guide]]]
+* [[[68k:starter-kit|68k-Basic Starter Kit]]]
+* [[[68k:83coders|68k for TI-83 Coders]]]
+* [[[68k:faq|68k-Basic FAQ]]]
+
+[[size large]]Main Content[[/size]]
+[[div class="special-collapsible"]]
+[[collapsible show="Commands" hide="Commands" hideLocation="top" folded="yes"]]
+[[module ListPages category="68k" tags="command" separate="no" order="random" limit="1"]]
+* [[[68k:command-index|Command Index]]]
+* [%%link%% Random command!]
+[[/module]]
+Or browse commands for:
+* [[[68k:Graphics]]]
+* [[[68k:Lists]]]
+* [[[68k:Matrices]]]
+* [[[68k:Math]]]
+* [[[68k:Programming]]]
+* [[[68k:Strings]]]
+* [[[68k:Time and Date]]]
+[[/collapsible]]
+
+[[collapsible show="Development" hide="Development" hideLocation="top" folded="yes"]]
+* [[[68k:development-overview|Overview]]]
+* [[[68k:planning|Planning]]]
+* [[[68k:comments|Commenting Code]]]
+* [[[68k:debugging|Debugging]]]
+* [[[68k:setup-and-cleanup|Setup and Cleanup]]]
+* [[[68k:usability|Usability]]]
+* [[[68k:optimization|Optimization]]]
+* [[[68k:timings|Code Timings]]]
+* [[[68k:releasing-your-program|Releasing Programs]]]
+[[/collapsible]]
+
+[[collapsible show="Techniques" hide="Techniques" hideLocation="top" folded="yes"]]
+* [[[68k:techniques-overview|Overview]]]
+* [[[68k:subprograms|Subprograms]]]
+* [[[68k:saving|Saving Data]]]
+* [[[68k:assembly|Assembly]]]
+* [[[68k:dialogs|Dialogs]]]
+* [[[68k:sprites|Sprites]]]
+* [[[68k:animation|Animation]]]
+* [[[68k:compression|Compression]]]
+* [[[68k:cross-compatibility|Cross-Compatibility]]]
+* [[[68k:tokenization|Tokenization]]]
+* [[[68k:system-variables|System Variables]]]
+[[/collapsible]]
+
+[[collapsible show="Resources" hide="Resources" hideLocation="top" folded="yes"]]
+* [[[68k:sample-programs|]]]
+* [[[68k:routines|Routines]]]
+* [[[68k:technique-examples|Technique Examples]]]
+* [[[68k:projects|Project Ideas]]]
+* [[[68k:downloads|Downloads]]]
+[[/collapsible]]
+[[/div]]
+
+[[div style="height: 5px;"]]
+[[/div]]
+
+[[size large]]References[[/size]]
+* [[[68k:errors|Error Conditions]]]
+* [[[68k:key-codes|Key Codes]]]
+* [[[68k:character-codes|Character Codes]]]
+* [[[68k:mode-settings|Mode Settings]]]
+* [[[68k:order-of-operations|Order of Operations]]]
+* [[[68k:glossary|Glossary]]]
+
+[[div style="text-align:center;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092; 
+var sc_invisible=0; 
+var sc_partition=22; 
+var sc_security="d8087415"; 
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]
+
+[[div class="foldable-list-container chars"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+[!--
+[[div class="foldable-list-container chars2"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+--]
+[[div style="position:fixed; top:0;right:0;"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="chars2"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

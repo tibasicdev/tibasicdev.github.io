@@ -1,0 +1,49 @@
+The imag() command returns the imaginary component of a complex number, opposed to real(), which returns the real component.
+
+------
+
+[[include inc:68k-command
+|summary=Returns the imaginary component of a complex number.
+|syntax=imag(//value//)
+
+|location=The command catalog.
+
+|size=1 byte
+]]
+
+
+This command takes a single complex number as an input, and returns the second (imaginary) component.
+
+(Please note that in this example, 𝑖 denotes the **imaginary unit**, //not// the letter i.)
+[[code]]
+:(1.2,3.4𝑖)→z
+:imag(z)
+           3.4
+:𝜋𝑖→c
+:imag(c)
+           𝜋
+[[/code]]
+
++ Advanced Uses
+
+++ Storing two numbers as one variable
+[[code]]
+:2→a
+:7→b
+:(a+b𝑖)→z
+
+:real(z)
+           2
+:imag(z)
+           7
+
+[[/code]]
+
+------
+
+
++ Error Conditions
+
++ Related Commands
+
+* [[[real() |real()]]]

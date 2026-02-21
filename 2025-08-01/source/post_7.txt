@@ -1,0 +1,2 @@
+content: 'I am giving this post an attachment.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus arcu libero, aliquet sit amet, ornare quis, vulputate a, nibh. Aliquam sit amet lectus vitae ligula feugiat condimentum. Proin eu mauris. Suspendisse ac sem. Cras in quam in augue fringilla porttitor. Nulla facilisi. Aliquam erat volutpat.'
+attachment: 'file:dragon-encode/dragon_encode.png'

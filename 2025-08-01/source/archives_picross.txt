@@ -1,0 +1,17 @@
+author: Harrison
+description: "Finally play 5x5 and 8x8 picross puzzles! 4 puzzles are included with the game and a new puzzle pak is coming soon.\nVersion 1.2.0 features-\n*Smaller (compressed) program size\n*Bug fixes\n*Better stability"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /home/no_image_2.png
+download: Picross!%20v1.2.0.zip
+size: '13970'
+unit: '1'

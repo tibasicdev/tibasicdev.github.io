@@ -1,0 +1,3 @@
+[[div style="width: auto;margin-left:-2em;margin-right:17em;"]]
+> **NOTE**: Due to the limitations of the wiki markup language, the {$cmd} command on this page does not appear as it would on the calculator. See [[[68k:wiki-limits|Wiki Markup Limitations]]] for more information.
+[[/div]]

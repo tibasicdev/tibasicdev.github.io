@@ -1,0 +1,1 @@
+I am working on trying to send bytes through the pipes, but I am having difficulty, and have no way of seeing the incoming data, so it is hard to debug.  -- From [[user graphmastur]]

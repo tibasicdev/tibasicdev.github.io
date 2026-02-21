@@ -1,0 +1,128 @@
+[[code type="css"]]
+@import url(http://static.wikidot.com/common--theme/co/css/style.css?0);
+
+#header {
+  background: #171412;
+  height: 86px;
+}
+#header h1 {
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: 69px;
+  background: #171412 url('/local--files/nspire:home/Logo10C.png') no-repeat;
+}
+#header h1 a {
+  padding: 0;
+  margin: 0 320px 0 8px;
+  width: 472px;
+  height: 69px;
+  display: block;
+}
+#header h1 span {
+  display: none;
+}
+#header h2 {
+  display: none;
+}
+
+#top-bar {
+  top: 69px;
+  height: 21px;
+  min-width: 976px;
+  padding: 0;
+  background-color: #564a43;
+  border-bottom: 2px solid #564a43;
+}
+#top-bar ul{
+  padding: 2px 100px 2px 30%;
+}
+#top-bar  a, #top-bar li ul li a  {
+  background-color: #564a43;
+}
+#top-bar a:hover, #top-bar li ul li a:hover {
+  background-color: #564a43;
+}
+
+#side-bar {
+  width: 20%;
+  min-width: 185px;
+  float: left;
+  background-color: #C7C9B8;
+  border-right: 1px solid #BBBEAB;
+  border-bottom: 1px solid #BBBEAB;
+  color: #4E4F43;
+  padding-top: 3px;
+  margin:0;
+}
+.special-collapsible .collapsible-block-unfolded .collapsible-block-link {
+  font-weight: bold;
+  padding-left: 0em;
+}
+.special-collapsible a {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+  padding-left: 1em;
+  border-bottom: 1px solid #BBBEAB;
+  border-top: 1px solid #D2D3C6;
+  color: #1E2B31;
+  text-decoration: none;
+}
+
+/* The links on the left side */
+#side-bar ul{
+  display: block;
+  padding: 0;
+  list-style: none;
+}
+#side-bar ul li{
+  margin: 0;
+  display:block;
+}
+#side-bar li a {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+  padding-left: 1em;
+  border-bottom: 1px solid #BBBEAB;
+  border-top: 1px solid #D2D3C6;
+  color: #1E2B31;
+  background-color: default;
+  text-decoration: none;
+}
+#side-bar li a:hover {
+  background-color: #D1D3C3;
+}
+
+/* The headings on the left */
+#side-bar h1 {
+  font-size: 140%;
+  margin: 0px;
+  padding-left: 0.5em;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+/* Left paragraph text */
+#side-bar p {
+  padding: 5px;
+  margin: 0px;
+  margin-bottom: 3px;
+  margin: 0px;
+}
+
+.infobox {
+  color: #FFFFFF;
+}
+
+.infobox a {
+  color: #FFFFFF;
+}
+
+#footer {
+  background: #564A43;
+  border-color: #171412;
+}
+[[/code]]

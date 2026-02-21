@@ -1,0 +1,60 @@
+Hop Over is a simple game designed to test your mental fortitude. There are two types of pieces, squares and crosshairs, and they can only move left and right respectively. The pieces are allowed to jump over one another, but only if there is a free space available in the given direction. The goal is to get four squares on the right, four crosshairs on the left, and an unoccupied space in the middle. Like with the other games, try out the game and try to understand and think through the code.
+
+(NOTE: This game was created by Weregoose, and originally posted on the UTI forums.)
+
+[[toc]]
+
+++ The Code
+
+[[code]]
+:StoreGDB 1
+:FnOff
+:ClrHome
+:ClrDraw
+:GridOff
+:AxesOff
+:PlotsOff
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:Text(17,32,"HOP-OVER
+:38:Line(23,Ans,71,Ans
+:Line(71,Ans,71,28
+:23:Line(71,28,Ans,28
+:Line(Ans,28,Ans,38
+:For(A,1,9
+:If A≠5
+:Pt-On(5A+22,31,2+(A<5
+:End
+:DelVar B47→A
+:Repeat C=45
+:Repeat C=45 or 42=abs(C-63)pxl-Test(32,Ans
+:If C≠21:Then
+:Pt-Off(B,35,3
+:Line(B-2,36,B+2,36,0
+:Pt-On(A,35,3
+:Line(A-2,36,A+2,36
+:A→B
+:End
+:Repeat Ans
+:getKey→C
+:End
+:A+5((Ans=26)-(Ans=24
+:Ans+45((Ans=22)-(Ans=72→A
+:End
+:If C≠45:Then
+:pxl-Test(31,A
+:5(Ans-not(Ans→D
+:pxl-Test(32,A+Ans
+:Pt-Off(A,31
+:Pt-Off(A,31,2
+:Pt-On(A+Dnot(Ans)(A≠4D+47)+2DAns(A≠3D+47)not(pxl-Test(32,A+2D)),31,2+(D>0
+:End
+:End
+:RecallGDB 1
+[[/code]]
+
+++ The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+* [http://tibasicdev.wikidot.com/local--files/hop-over/hopover.zip Hop Over]

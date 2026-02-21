@@ -1,0 +1,11 @@
+The connection API is a utility to allow you to connect with your TI calculator through the computer.  Can be used with games.
+====
+The general Idea of this, is that the API will be written in java.  The programmer programs their code on the calc, and programs a java program on the computer, to interact with the calculator.  The program could read a variable off of a calc.  The problem is, that it won't read until it reaches a pause or getcalc statement.  (This can be considered a good thing.)
+
+It is a cross platform way to communicate with the Calculator.  It will be programmed in java, and I will release API documentation.  That's right! You can do various things, for example, connecting to a server using java, posting a high score, and then receive a list of the high scores to the computer running your java program, and then your java program would send that data to the calculator.
+
+Not really satisfied?  Another example could be where you are in school, and you want to play a game with a friend. A game that was designed with multiplayer in mind, but will only allow you to connect with that short little cable?  Well, I might introduce a feature, like peer to peer transfer, in which both people will have their calculators connected to different computers, and they will be able to type something as simple as the username of the person you want to connect computers with, and then the network, like a school network, would see if a person by that username is logged on, and if he is running that program.
+
+But wait, there's more!  Imagine an app store, but for the TI, and completely free.  That means, that if you want to download that nice new Zelda game, then you can just press enter, and within a few minutes, your program is on your calc.
+
+But wait, that's not all! Say you made an app, that can run programs from ram, but you want a feature that you can be able to put someone else's program into your program.  (Imagine DCS, only with the programs installed into it.)  You can have you java program read your app, and the target program you want to install, and then the java program will see if the target program has any subprograms, that need to be installed with it, and then it will install it into your app, and the send the app back to your calc.  Great for updates too!

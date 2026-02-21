@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Apr
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=22
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user burr]] started the [/projects Project Challenges] page. After you have gone through the wiki and learned the commands, design theory, and game techniques, you can now test yourself and try your hand at making some programs.
+]]

@@ -1,0 +1,29 @@
+[[include inc:command
+|picture=ASMCOMP.GIF
+|summary=Compresses an assembly program in hexadecimal form into [http://tibasicdev.wikidot.com/binandhex binary] form.
+|syntax=Asm(prgm//ORIGINAL//,prgm//RESULT//)
+|location=This command is only found in the catalog. Press:
+# 2nd CATALOG to access the command catalog.
+# Scroll down to AsmComp( and press enter.
+|compatibility=TI-83+/84+/SE/CSE/CE
+
+(not available on the regular TI-83)
+|size=2 bytes
+]]
+
+This command is used to compress an assembly program written using {{[[[AsmPrgm]]]}} into an "assembled" assembly program. This will make the program about twice as small, and protect it from being edited, in addition to making execution faster.
+
+To use {{AsmComp(}}, give it the ASCII represented assembly program, followed by the name you want the assembled program to have. That name can't be already taken. Since it's not easy to rename an assembled assembly program, if you want to write a program called prgmGAME, you type the ASCII represented code in a program with a different name (e.g. GAMEA) and then do {{AsmComp(}}(prgmGAMEA,prgmGAME).
+
+Assembly programs can be run with {{[[[asm-command|Asm(]]]}}.
+
++ Error Conditions
+
+* **[[[errors#duplicate|ERR:DUPLICATE]]]** is thrown if prgm//RESULT// is an already used program name;
+* **[[[errors#invalid|ERR:INVALID]]]** is thrown if prgm//ORIGINAL// doesn't start with {{[[[AsmPrgm]]]}};
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown if prgm//ORIGINAL// is not an assembly program.
+
++ Related Commands
+
+* {{[[[asm-command|Asm(]]]}}
+* {{[[[AsmPrgm]]]}}

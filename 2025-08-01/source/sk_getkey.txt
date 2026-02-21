@@ -1,0 +1,43 @@
+Once you have been writing programs for a while, you may realize that you can't accomplish everything by entering numbers and strings. In a program such as a game, you often need to accept arbitrary keypresses. That's where [[[getKey]]] comes in.
+
++ How It Works
+
+getKey is the 7th entry in I/O under the PRGM menu. It returns a number corresponding to the key pressed by the user.
+
+But if you put it into a program by itself, it doesn't seem to do much - it immediately gives you a "Done". This is because getKey checks for a key only in the fraction of a second when it executes, and then returns a 0 if it doesn't find one. Commonly, it will be inside some kind of loop so that the program doesn't proceed until a key is actually pressed.
+
+[[code]]
+:Repeat K
+:getKey→K
+:End
+[[/code]]
+
+In this case, getKey is repeatedly stored in K until a key is pressed, at which time getKey returns a positive value, which is accessible in K after the loop exits.
+
+The number returned by getKey is formed from the row and column the key is in on the calculator. The row is from 1 (Y= to GRAPH) to 10 (ON to ENTER), and the column starts from 1 and goes left to right. The arrows left, up, and right are in row 2, and down is in row 3. 101 (ON) is not actually returnable by getKey because pressing ON in a program stops the execution of the program
+
++ Uses
+
+Obviously, there are many ways to use key presses in a program. You can let users select a choice without having to enter a number or go through a menu. Or you can let users input a command such as CLEAR. However, be sure to let the user know what each key actually does, for the sake of [[[usability]]].
+
+Or, in a game, key presses can be used to control a character. For example, the arrow keys move a spaceship, and 2nd fires the laser. In a turn-based game the above loop method is useful, as you can create a loop for the turns and accept a user action on each turn. But in a real-time game you would probably not want to use a loop around getKey, so that the game isn't interrupted by waiting for a key. Instead, you can let the program run continuously and check once for a key once per some (short) interval of time, so user commands are still accepted correctly. For more, see the [[[sk:movement|next section]]].
+
+The reason this works is that even if the key press doesn't line up with getKey exactly, if a key is pressed while the calculator is doing something by itself (the progress bar is going in the top right corner, for example), it carries over to the next getKey. Alternatively, a held-down key will register on the first getKey while it is being held down, and the arrow keys and Del will continue to register with further getKeys until they are released.
+
+By changing the loop around a getKey, only a certain key can be accepted.
+
+[[code]]
+:Repeat K=105
+:getKey→K
+:End
+[[/code]]
+
+This will ignore all key presses until 105 (ENTER) is pressed. In this case, it is probably better to use [[[Pause]]]. But in general, getKey is a very useful tool for accepting a wide range of user input.
+
+[[include inc:next-prev
+|prevpage = sk:homescreen
+|prevtitle = More on the Home Screen
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:movement
+|nexttitle = Movement]]

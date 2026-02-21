@@ -1,0 +1,7 @@
+[[include inc:next-prev
+|prevpage = 68k:animation
+|prevtitle = Animation
+|tocpage = 68k:techniques-overview
+|toctitle = Overview
+|nextpage = 68k:cross-compatibility
+|nexttitle = Cross Compatibility]]

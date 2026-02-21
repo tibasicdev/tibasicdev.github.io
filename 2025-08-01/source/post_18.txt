@@ -1,0 +1,2 @@
+content: "I am liking this style :) And the attachment worked o.o\n∏(1-1/p)^^-s^^\nHave you managed to figure out a way to preview posts?"
+attachment: null

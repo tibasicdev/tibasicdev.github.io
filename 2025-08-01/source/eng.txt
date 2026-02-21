@@ -1,0 +1,28 @@
+[[include inc:command
+|picture=ENG.GIF
+|summary=Puts the calculator in engineering notation mode.
+|syntax=Eng
+|location=While editing a program, press:
+# MODE to access the mode menu.
+# Use arrows and ENTER to select Eng.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The {{Eng}} command puts the calculator in engineering notation mode. This is a variation on scientific notation in which the exponent is restricted to be a multiple of 3 (and the mantissa can range between 1 and 1000, not including 1000 itself)
+
+[[code]]
+Eng
+		Done
+12345
+		12.345e3
+{1,2,3}
+		{1e0 2e0 3e0}
+[[/code]]
+
++ Related Commands
+
+* {{[[[Normal]]]}}
+* {{[[[Sci]]]}}
+* {{[[[Float]]]}}
+* {{[[[Fix]]]}}

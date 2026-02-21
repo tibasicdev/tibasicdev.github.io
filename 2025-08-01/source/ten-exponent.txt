@@ -1,0 +1,51 @@
+[[div style="float:right; width: 16em; padding: 1em 1em 0; margin: 1em 0 1em 1em; border-left: solid #888888 1px; background-color: #FFFFFF;"]]
+
+[[image TENPOWER.PNG]]
+
+**Command Summary**
+
+Raises 10 to a power.
+
+**Command Syntax**
+
+10^(//value//)
+
+**Menu Location**
+
+Press [2nd] [10^^x^^] to paste 10^(.
+
+**Calculator Compatibility**
+
+TI-83/84/+/SE
+
+**Token Size**
+
+[[[tokens|1 byte]]]
+
+[[/div]]
+
+The {{10^(}} command raises 10 to a power. Since it's possible to just type out 1, 0, ^, and (, the reason for having a separate function isn't immediately obvious, but the command is occasionally useful.
+
+{{10^(}} accepts numbers and lists as arguments. It also works for complex numbers.
+
+[[code]]
+10^(2)
+     100
+10^({-1,0,1})
+     {0.1 1 10}
+[[/code]]
+
++ Optimization
+
+Don't type {{10^(}} out, use this command instead. It's three bytes smaller and usually faster as well. However, keep in mind that you might be able to use the {{[[[e-ten|E]]]}} command instead of {{10^(}}, for constant values.
+
++ Command Timings
+
+The command {{10^(}} is faster than typing out {{10^(}} in most cases, except for small integer arguments. Even faster is {{[[[e-ten|E]]]}}, but that only works for raising 10 to a constant power.
+
+
++ Related Commands
+
+* {{[[[e-ten|E]]]}}
+* {{[[[log(]]]}}
+* {{[[[power|^]]]}}

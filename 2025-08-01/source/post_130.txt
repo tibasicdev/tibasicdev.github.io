@@ -1,0 +1,3 @@
+name: ''
+content: "Lat's see...my best program is probably either my own version of snake or a blackjack program I wrote. I became interested in programming originally because I was lazy and did not feel like remembering all of the math and science formulas. And I'm terrible at optimizing because...I'm terrible at optimizing (my programs are all like 10x longer than they would be if they were optimized). An example of what some of my early programs were (like when I had never even heard of optimizing).\n[[code]]\nIf A=1\nthen\ndisp \"1\"\nend\nif A=2\nthen\ndisp \"2\"\nend\nif a=3\nthen\ndisp \"3\"\nif a=4\nthen\ndisp \"4\"\nend\netc.\n[[/code]]"
+attachment: null

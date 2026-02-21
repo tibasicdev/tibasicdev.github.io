@@ -1,0 +1,3 @@
+This page includes all pages within the "Nav" category.
+
+[[module Pages category="nav"]]

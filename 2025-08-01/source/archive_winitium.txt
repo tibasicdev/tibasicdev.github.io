@@ -1,0 +1,21 @@
+author: Winnie33
+version: '1'
+summary: 'A 2D RPG with unique combat mechanisms.'
+description: "In the lands of Winitium, monsters have appeared! Go and defeat all 6 area's to save the country! But beware, monsters are strong and thus you must be too. Grab a set of dice and roll your way to victory!\n\nFeaturing:\n-a unique combat system (inspired by Tiny Dice Dungeon)\n-6 levels with each 8 unique enemies\n-4 different dice, each with its own abilities\n-a shop to spend your money\n-a casino to l̶o̶s̶e̶  multiply your money\n-customizable options\n-a crafting system\n-and lots more!"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:winitium-1/Winitium.zip'
+image: null
+fileSize: '20'
+fileSizeUnit: '2'
+dateMade: '1479164400'

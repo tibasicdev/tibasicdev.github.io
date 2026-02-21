@@ -1,0 +1,1 @@
+#{$prepend}#{$append}" frameborder="0" scrolling="no" width="100%" height="18px"></iframe>[[/embed]]

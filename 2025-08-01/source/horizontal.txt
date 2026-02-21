@@ -1,0 +1,39 @@
+[[include inc:command
+|picture=HORIZONTAL.GIF
+|summary=Draws a horizontal line on the graph screen.
+|syntax=Horizontal //Y//
+|location=In the program editor:
+# 2nd DRAW to enter the draw menu
+# 3 to insert the Horizontal command, or use arrows and ENTER.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+{{Horizontal Y}} draws a vertical line from the left of the graph screen to the right at //Y//. {{Horizontal}} is usually only used to replace a line that stretches the entire length of the graph screen, along with its counterpart {{[[[Vertical]]]}}.
+
+{{Horizontal}} is affected by the window settings, unlike the {{[[[pxl-on|Pxl-]]]}} commands.
+
+[[code]]
+:Horizontal 5
+[[/code]]
+
++ Advanced Uses
+
+One of the fastest ways to make the entire screen black is by drawing horizontal lines from the bottom of the screen to the top. 
+
+[[code]]
+:For(A,Ymin,Ymax,ΔY
+:Horizontal A
+:End
+[[/code]]
+
+If working with TI 84+C version calculators, the {{Horizontal}} command takes an additional color argument, as shown below:
+
+[[code]]
+Horizontal 5,GRAY
+[[/code]]
+
++ Related Commands
+
+* {{[[[Line(]]]}}
+* {{[[[Vertical]]]}}

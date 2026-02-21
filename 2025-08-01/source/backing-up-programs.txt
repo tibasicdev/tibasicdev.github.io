@@ -1,0 +1,43 @@
+[[include inc:cid
+]]
+
+You just completed a project on your calculator you've been working on for quite a while. And you're wondering, "How can I back up my programs in case they get deleted?" This tutorial will teach you how to backup certain programs on your calculator or PC. Backing up is extremely important for keeping projects alive, and to not shoot yourself in the foot when you lose them all. Backing up on your calculator is one of the steps for backing up should you don't have a PC lying around. For starters,
+ let's talk about what specifically what types of files you can back up. You can back up anything; programs, lists, app vars, matrices, strings, all that stuff. But there's a price to pay when backing up. You must back up **2** or more files in your backup, else, it wont work. Another thing is you must have memory available. Backing up files **must** be in RAM, because the OS doesn't mess with files in archive. So without further ado, let's back up your projects!
+
+++ Preparation
+Ensure your files are in **RAM**, if they're in archive, un-archive them. Ensure you have archive space left, because back-ups are written to archive. On the calculator and across the Internet, back-ups are called __groups__. Groups are like "zip folders" containing files that were in RAM, and now in archive. These groups cannot be un-archived, so don't try to un-archive them.
+
+++ Backing Up
+To group your programs, press [2ND], [+], [⬆], then [ENTER]. Type in the name of the group of your back up. Press [ENTER] when you're finished. A menu will be shown indicating what files you can back up. If you are backing up many types of files (i.e., programs, pics, strings), it's best to select **All-**. All+ selects ALL files in RAM, so you want to do the second option to select specific files. Use the arrow keys to move the cursor up and down to scroll through all the files, and hit [ENTER]
+ to select the file you want. A little black square will indicate that file will be backed up. When you have selected all the files you want, hit [➡] and select the option "Done". Your calculator should say or so **"Copying variables to group: //group name//**", then after it will show "Done" when the back up is complete. You're done!
+
+++ Warnings
+Yes, there are some warnings that you need to know. When you backed-up your projects and there are some things you need to add/change, you **do not** need to constantly group your projects when you make small changes. Only do it once you make big changes. Doing so can slow the calculator down, and can sometimes do a __back-up fail__. Back-up fails is when the group fails to write to archive. Meaning, your calculator can simply shut off for no reason or just freeze at the "Grouping" screen. If it freezes, you are forced to remove a battery to escape this. **RAM will be cleared the next time you turn your calculator on.** Not although you lose your groups, you lose your projects as well. Why? Because they were in RAM when you attempted the back-up, and when it crashed, they remained in RAM when you removed the battery. So now, your projects are permanently gone.
+
+++ Keeping those projects alive
+To keep your stuff from being deleted, make **two** groups when you back up for the first time. Then, when you make big changes, you delete the **first** group, then back up your projects. After a while, when you make even more changes, delete and back up to the **second** group. Keep doing this back and forth until you are 100% done with your projects.
+
+But... what if those groups get deleted? Then you have nothing to spare! So what do you do now when you have the groups in archive and don't want them both gone? Back them up to your PC.
+
+++ Backing up to your computer
+Back-ups on your PC are harder to lose compared to your calculator. Files from your calculator are stored to your computer's __hard drive__, so they're not lost when your PC crashes. Cool, huh? So what do you do to back up files to your PC? It's not that simple as you may think it is. You need a special software for your computer to communicate with your calculator. Connecting your calculator won't just show up in Connected Devices. Depending on your calculator model, you may need either software:
+
++++ **//If you have a TI-84 Plus/SE/CSE/CE/T//**
+Download [*https://education.ti.com/eu/software/details/en/CA9C74CAD02440A69FDC7189D7E1B6C2/swticonnectcesoftware TI-Connect CE]. This software is made for the 84+ family, and has a easy-to-use user interface. Requires Admin privileges to install.
+
++++ **//If you have a TI-83/+/SE, 89/Titanium, 85, 86, Voyage 200, etc.//**
+Download [*https://education.ti.com/eu/software/details/en/B59F6C83468C4574ABFEE93D2BC3F807/swticonnectsoftware TI-Connect]. This software is made for any calculator, including the 84+ family. This software can get slow and annoying, but it's old. Expect it to be slow. Requires Admin privileges to install.
+
+Now you have the software. But aren't you forgetting something? Oh yeah! A linking cable. This is another important necessity for backing up to your PC. Most TI models don't have Bluetooth or Wifi on it (Except the newer N-Spire calculators)! There are many different cables made specifically for your model/family. Links to purchase these will be added later, so stay tuned. Connect your calculator to your PC. 
+
+++ Backing up to your PC
+Now make sure your calculator is on and has a good battery charge. Now find the software on your computer and open it. Find the option to send/upload files to your PC.
+
+**More detailed explanation will be explained later.**
+
+++ Wrapping Up
+Now that you know how so send files to your PC and back up on your calculator, you can now not worry about losing anything!
+
+
+
+##gray|//Changes will be made on-the-go, expect more content on this page.//##

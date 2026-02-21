@@ -1,0 +1,37 @@
+[[embed]]<iframe src="http://tibasicdev.wdfiles.com/local--code/inc:page-count-prepend/1#\
+[!--">
+[[code type="html"]]
+<html>
+ <head><title>Page Count</title>
+  <style type="text/css">
+   @import url("http://www.wikidot.com/common--theme/co/css/style.css");
+  </style>
+ </head>
+ <body>
+  <script type="text/javascript">
+ 
+   // (…#) XXXXX... # prepend # append (#…)
+   var params = /^[^#]*#([^#]*)#?([^#]*)#?([^#]*)#?.*$/;
+ 
+   var match = params.exec(unescape(window.location.href)); // #'s may be escaped
+   if (match) {
+    var prepend = '';
+    var append = '';
+ 
+    if (match[2] && match[2] != '{$prepend}')
+     prepend = match[2] + ' ';
+    if (match[3] && match[3] != '{$append}')
+     append = ' ' + match[3];
+ 
+    document.write(prepend + match[1].length + append);
+   }
+   else
+    document.write('<i>(none)</i>');
+  </script>
+  <noscript>
+   <i>(cannot count)</i>
+  </noscript>
+ </body>
+</html>
+[[/code]]
+--]

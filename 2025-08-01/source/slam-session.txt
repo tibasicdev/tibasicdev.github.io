@@ -1,0 +1,15 @@
+[[include inc:program
+|picture=slamsession.gif style="width:200px; height:135px;"
+|summary=A 1 or 2 player basketball dunking game.
+|size=4,200 bytes
+|libraries=No
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/4/495.html Jason Russell]
+|download=[http://tibasicdev.wikidot.com/local--files/slam-session/slamsession.zip slamsession.zip]
+]]
+
+While there aren't many sports games in TI-Basic, this game breaks that mold. The game involves playing against either another player or the calculator, and taking turns trying to make the best dunk possible. Each dunk is given a score from 1-10, and the player with the best cumulative score after three dunks wins.
+
+The most basic dunk is just the standard slam dunk with one hand. You can increase the difficulty, though, by turning your body 180 degrees or doing a two-handed dunk; the more difficult the dunk, the higher the score. The game uses some simple controls: up to jump, right to run, left to stop, and CLEAR to reset.
+
+This game is primarily just a fun time-waster, since once you memorize the best dunk combination, you can always be assured of beating or tying the other player or computer.

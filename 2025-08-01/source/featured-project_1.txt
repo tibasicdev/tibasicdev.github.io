@@ -1,0 +1,5 @@
+[[user builderboy]] is working on an RPG style platform game set in space called [[[projects:serenity|Serenity]]].
+
+The storyline involves you captaining a cargo ship, traveling through space carrying unknown Government cargo, when your ship is attacked by space pirates! Now you will need to explore the bowels of their ship, fight off enemies, and gain special items, so you can finally escape.
+
+([[[projects:serenity|Read more...]]])

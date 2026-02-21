@@ -1,0 +1,21 @@
+Each command, variable, and operation on the TI-83 series calculators is represented by a "token." This means that internally, the calculator does not store a command such as "cos(" as the letters c, o, s, and (. It stores a single number that it will later translate as "cos(" when necessary. In this case, the value is 196, but you most likely don't need to know that.
+
+What you do need to know is that not all tokens are the same size. If there were 256 tokens or less, then you could fit all their values into 1 byte and be happy. Unfortunately, the TI-83 has more than 256 commands and variables. Therefore TI employed some trickery and made some tokens take up 1 byte (usually the most common ones, though they seem to have had a different idea of "common") and some take up 2 bytes.
+
+What this means to you, as the programmer, is that the size of the program is determined by the number of commands, not the number of letters in it: a short line can take up more memory than a longer one if it uses a lot of commands. Furthermore, some commands will take up the memory of two commands rather than one, so a line with a few of these commands may take up as much memory as a line with more commands of the ordinary type.
+
+Lowercase letters are the epitome of memory wasters: at a single character, they each take up 2 bytes of memory. A program that uses a lot of lowercase letters can fill up all of RAM very quickly! This may be avoided by using uppercase letters instead, which only take up 1 byte each. You can also save memory by replacing words such as "If", " or ", " and " with the appropriate commands, when displaying text. Such a command will only take up 1 byte, whereas the text may be much larger memory-wise. Lowercase letters are also not available on the original TI-83, so if you use them, your program will not work on it.
+
++ Token Tables
+
+Below you can find the byte values for all the 83 series tokens, organized by category and two-byte prefix. For up-to-date and machine-readable tables, consider using the [*https://github.com/TI-Toolkit/tokens TI Toolkit token sheets].
+
+* [[[one-byte-tokens|One-byte tokens]]]
+* [[[variable-tokens|Two-byte user variable tokens]]]
+* [[[statistics-tokens|Two-byte statistical variable tokens]]]
+* [[[window-tokens|Two-byte window and finance variable tokens]]]
+* [[[format-tokens|Two-byte graph format tokens]]]
+* [[[miscellaneous-tokens|Miscellaneous two-byte tokens]]]
+* [[[time-tokens|TI-84+(C(S)E) only two-byte tokens]]]
+
+There are several ways to insert a token given its hex value; all of them require an assembly program of some form. One of the easiest is to create an assembly program using [[[AsmPrgm]]] followed by the hex codes you want to convert to tokens, assemble it using [[[AsmComp(]]], and then unlock it (there are many programs that allow you to do this).

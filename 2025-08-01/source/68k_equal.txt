@@ -1,0 +1,41 @@
+[[include inc:68k-command
+|picture=equal.png
+|summary=Tests if two values are equal.
+|syntax=//value1//=//value 2//
+
+|location=
+Press the [=] key to enter =.
+
+|size=1 byte
+]]
+
+The = operator compares two values, returning true if they're equal, and false otherwise. It is a basic building block of the conditions used by commands such as [[[68k:If]]], [[[68k:when()]]], and [[[68k:While]]]. The results of = and the other relational operators ([[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]]) can be combined with the [[[68k:and]]], [[[68k:or]]], [[[68k:xor]]], and [[[68k:not]]] operators to create more complicated conditions.
+
+It returns a single value for most types of data, and returns false if the two sides are mismatched in type: comparing a single number to a list, for instance, or comparing two lists that are of a different size. The only exception is when comparing two [[[68k:lists]]] or two [[[68k:matrices]]] of the same size: in that case, it compares them element-by-element, and returns a list or matrix of true/false values.
+
+[[code]]
+:2+2=4
+           true
+:2+2=5
+           false
+:{1,2,3}={1,4,3}
+           {true  false  true}
+[[/code]]
+
+If either side or both contains undefined variables, = will wait to return a value unless it's something clearly true for any value of the variable (for instance, x=x). You can do math with the resulting equation (most operations will be applied to both sides), and extract the two halves of it with [[[68k:left()]]] and [[[68k:right()]]].
+
++ Optimization
+
+Testing "If x=true" is redundant in most cases; you can shorten that to "If x". Similarly, "If x=false" can be "If not x".
+
++ Related Commands
+
+* [[[68k:not-equal|≠]]] (not equal)
+* [[[68k:greater-than|>]]] (greater than)
+* [[[68k:greater-than-or-equal|≥]]] (greater than or equal)
+* [[[68k:less-than|<]]] (less than)
+* [[[68k:less-than-or-equal|≤]]] (less than or equal)
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

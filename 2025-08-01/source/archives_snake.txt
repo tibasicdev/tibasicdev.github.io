@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Snake
+|author=TI-Basic Developer
+|size=268 Bytes
+|description=Go around eating food, and the snake grows longer and longer with each piece of food.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/snake/snake.zip
+|downloadName=Snake.zip
+
+|83compatible=DO NOT EDIT
+]]

@@ -1,0 +1,45 @@
+[[include inc:routine
+|picture=http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+|summary=Outputs the number corresponding to a keypress.
+|input=//None//
+|output=//Ans// - The number pressed.
+|variable=@@
+|compatibility= TI-83/84/+/SE
+|author= @@
+|authors= Unknown, Toothless the Night Fury
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:Repeat Ans≤9
+:Repeat Ans
+:getKey
+:End
+:Ans(102≠Ans)-13int(Ans/13(2>abs(5-abs(5-abs(Ans-83
+:End
+[[/code]]
+
+The routine waits for a key that corresponds to a number 0-9. All magic is on the lengthy line.
+
+An alternate method to this is an adaptation of the Key Code to Letter routine, written below. Both methods share very extremely fast speeds, but the alternate method uses slightly more bytes. However, it does have the advantage of converting keycodes to strings instead of numbers, has the added period, and can be easily converted to numbers (through expr) if needed (unlike the other way around).
+
+[[code]]
+:Repeat Ans>71 and min(Ans≠{75,81,85,91,95
+:getKey
+:End
+:sub("789  456  123  0.",Ans-36-5int(.1Ans),1
+[[/code]]
+
++ Modifications
+* You can delete the :Repeat Ans<=9 :End loop to not wait
+* Delete the (102≠Ans) if you don't need the 0 number
+* Fixed from "Outputs the letter corresponding to a keypress." to "Outputs the number."
+* Added alternate method and general cleanup.
+
++ Error Conditions
+None known.
+
++ Related Routines
+* [[[key-code-retriever|Key Code Retriever]]]
+* [[[key-code-to-letter|Key Code to Letter]]]

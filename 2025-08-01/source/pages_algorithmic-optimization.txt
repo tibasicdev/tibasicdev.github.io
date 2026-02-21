@@ -1,0 +1,6 @@
+This page is pretty good describing the process of finding better algorithms.
+
+====
+http://tibasicdev.wikidot.com/algorithmic-optimization
+====
+Optimization

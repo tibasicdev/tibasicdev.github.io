@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: "I never noticed that for some reason. \nAnyway, when I click the \"Edit\" button, it takes me to this page:\nhttp://tibasicdev.wikidot.com/post:83/edit/true/noredirect/true\nIt says I'm not the creator of that 'page' since apparently, every single post gets its own page. So apparently, that's how replies get to nest out.\nI kinda miss the old nesting thing of the old layout."
+attachment: null

@@ -1,0 +1,21 @@
+author: Battlesquid
+version: 1.4_Beta
+summary: 'A new update to Battlesquid''s game, inFINITE, which pits you against endless waves of monsters and (soon) bosses! Get your trigger fingers ready...'
+description: "inFINITE | UPDATE 1.3\n___________________\ninFINITE pits you against seemingly endless waves of bosses and enemies. Battle it out as one of five classes for as long as you can. With over 3000 levels of gameplay, an achievement system, and well hidden easter eggs, you won't want to miss downloading this for your 83+. See the README for more info.\nAuthor\tMayowa Esan (timesquid711@gmail.com)"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:infinite/INFINITE.zip'
+image: 'archiveimage:infinite-logo/inFINITE-Logo.gif'
+fileSize: '7121'
+fileSizeUnit: '1'
+dateMade: '1472713200'

@@ -1,0 +1,21 @@
+author: '[[user Trenly]]; Credit to [[user Robert Black]] for the original idea to emulate Flappy Bird on a calculator'
+version: 1.0.2
+summary: 'A remake of the previously uploaded game [[[archive:flappy-bird|Flappy Bird]]].'
+description: "This is a remake of the previously uploaded game [[[archive:flappy-bird|Flappy Bird]]] which features a more intuitive design which allows users to change the speed, and makes the input easier. The code was completely rewritten, and has been tested. It now appears to be bug-free. **If it does not work when you enter it into your calculator, make sure you have entered __everything__ correctly! This code has been proven to work by either the download or the source code.**\n[[collapsible show=\"+ Show\" hide=\"- Hide\"]]\nClick [*https://youtu.be/pqpcVcU0tb4 here] to see a video of me using the download to prove it is functional.\nClick [*https://youtu.be/hphE8dH1UmI here] to see a video of me using the source code to prove it is funtional.\n[[/collapsible]]\n\nTo change the speed, change the first line of the program. A lower number stored into D will make the program faster, higher numbers will make it slower. D must be at least 1. \n\nSource Code: [[footnote]]The character @<\"//\">@ indicates a comment on how to type the code. Do not include the @<\"//\">@ or anything after it when entering code into the calculator.[[/footnote]]\n[[code]]\n15→D\nClrHome\n4→Y\n⁻1→S\nRepeat Y>8\nrandInt(3,7)→H\nS+1→S\nFor(V,16,1,⁻1)\nIf Y>8:Stop\nIf V=2 and (Y≠H and Y≠H-1):Stop\nIf Y≤8:Output(Y,2,\">\"\nFor(E,1,H-2)\nOutput(E,V,\"I\"\nEnd\nFor(E,H+1,8)\nOutput(E,V,\"I\")\nEnd\nFor(E,1,D)\nEnd\nFor(E,1,8)\nOutput(E,V,\" \" //one space\nEnd\nOutput(1,8,S\ngetKey→K\nIf not(K)\nThen\nIf Y≤8:Output(Y,2,\" \" //one space\nY+1→Y\nEnd\nIf K and Y>1\nThen\nIf Y≤8:Output(Y,2,\" \" //one space\nY-1→Y\nEnd\nEnd\nEnd\n[[/code]]"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:flap/FLAP.8xp'
+image: 'archiveimage:flappygif/FlappyGif.gif'
+fileSize: '249'
+fileSizeUnit: '1'
+dateMade: '1489212000'

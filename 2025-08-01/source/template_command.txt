@@ -1,0 +1,89 @@
+This page is a guide to both format and content for pages describing a particular command. Make sure that you follow it when adding a new command, and also remember to add 3-5 page tags describing the command content. It may be useful to copy the code for this page and edit it as necessary, when creating a new command page.
+
+If a section (such as Command Timings) does not contain any information, feel free to omit it.
+
+Screenshots are available for almost all commands ([http://tibasicdev.wikidot.com/local--files/template:command/screenshots.zip click here]).
+
+------
+[!-- Delete the following include --]
+
+[[include inc:command
+|picture=http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+|summary=A short description of what the command does.
+|syntax=The generic syntax calling the command, complete with arguments; similar to what you see in Appendix A of the TI-83+ manual.
+|location=Numbered steps of what keys, specifically, one has to press to choose the command.
+
+Unless the command is found only in the Catalog, don't list the Catalog as one of the ways to access it.
+|compatibility=The calculator(s) that the command works on.
+
+Separate each calculator with a slash when displaying the calculators. For example, the following line means the command works on every calculator.
+
+TI-83/84/+/SE
+|size=1 byte or 2 bytes
+]]
+
+(This disclaimer is usually not present.  See ^^[[[transpose|T]]]^^ for an example)
+[[div style="width: auto;margin-left:-2em;margin-right:17em;"]]
+> **NOTE**: Due to the limitations of the wiki markup language, the xxxxx command on this page does not appear as it would on the calculator. See [[[wiki-limits|Wiki Markup Limitations]]] for more information.
+[[/div]]
+
+[[div class="command-content"]]
+A complete description of the basic uses of the command. All commonly used and documented ways of calling the command should be listed here; inputs, outputs, and anything else important should be mentioned.
+
+[[code]]
+:At least one piece of example code
+:should be included here.
+[[/code]]
+
++ Advanced Uses
+
+Advanced uses include rarely used or undocumented ways of calling the command in question. If there's an unusual but effective way of using the command, that too should be listed. Another type of advanced use is a programming technique to which the command is critical. With each advanced use, you should have a piece of example code to show how it works, as well as an explanation.
+
+If there is already a page on the advanced use of the command, give a short synopsis, then link to that page -- you shouldn't include the entirety of that page here.
+
++ Optimization
+
+This section includes both ways to optimize use of the command, and other common pieces of code that this command can replace in an optimization. Make sure to mention if the optimization improves speed of the program, size, or both. Sample code should be included too, preferably in the following format:
+
+[[code]]
+:unoptimized code
+can be
+:optimized code
+[[/code]]
+
++ Command Timings
+
+(this section is usually not present)
+Command timings can be absolute (such as run indicator pixels), or relative (compare it to another command that performs a similar function). If you are giving time in seconds (or milliseconds), make sure to include the calculator model the test was done on, since different models will be faster or slower. Some of the command timings are already available on the [[[timings| timings page]]].
+
++ Formulas
+
+(this section is usually not present)
+This section is unnecessary for most commands. The only ones that would require it are the ones on the high end of mathematical complexity, such as the [[[statistics]]] commands. Use @@[[math]]...[[/math]]@@ tags to type in a LaTeX formula.
+
++ Error Conditions
+
+(this section is new, and might not be present on older pages - also, some commands may not throw non-generic errors)
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+* **[[[errors#dimmismatch|ERR:DIM MISMATCH]]]** is thrown if the two list arguments have different dimensions.
+* **[[[errors#reserved|ERR:RESERVED]]]** is thrown if ∟RESID is supplied as an argument.
+
++ Related Commands
+
+Several (around 3) commands have a similar function or are used in a similar context to this command. Make a bulleted list of them, with links to the other commands' pages. It will often be the case that several commands all link to each other.
+
+* Command 1
+* Command 2
+* Command 3
+
++ See Also
+
+(this section is usually not present)
+If a command can be used in a particular design concept or technique, you should mention it and provide a link to its respective page. This section should come at the end of the page, and be a bulleted list that contains all of the design or technique related links mentioned throughout the page.
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1
+[[/div]]

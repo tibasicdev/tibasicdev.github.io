@@ -1,0 +1,5 @@
+[[include inc:date
+|month=Nov
+|day=16
+|description= A new routine was made to replace the dayOfWk( command on the TI-83/+/SE
+]]

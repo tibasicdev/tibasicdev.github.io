@@ -1,0 +1,27 @@
+[[module CSS]]
+#header{	
+width: 1348px;
+	background: #003E3E;
+	height: 86px;
+	}
+#header h2{
+	display: none;
+	}
+#header h1{
+color: #003E3E;	
+background: url(http://tibasicdev.wikidot.com/local--files/nspire:sandbox/TIBD_BLUISH-GREEN.png) no-repeat;
+}
+[[/module]]
+
+[!--
+#header h1 {
+    background: transparent url(http://tibasicdev.wikidot.com/local--files/nspire:sandbox/TIBD_BLUISH-GREEN.png) no-repeat;
+    width: 950px;
+    height: 70px;
+    top: 0px;
+}
+--]
+
+[!--For the top bar, use the color #013D3E--]
+
+Testing area for the Nspire home header.

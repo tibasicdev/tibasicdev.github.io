@@ -1,0 +1,7 @@
+[[include inc:next-prev
+|prevpage = sk:text
+|prevtitle = Text and Text Sprites
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:summary-graphics
+|nexttitle = Summary]]

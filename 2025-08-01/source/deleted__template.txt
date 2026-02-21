@@ -1,0 +1,7 @@
+[[include inc:visitor-farewell]]
+
+[[div style="text-align:center; border: 1px dashed #999; margin: 1em; padding: .25em .5em; line-height: 22px;"]]
+[[image http://tibasicdev.wdfiles.com/local--files/home/toolbar-separator.png style="vertical-align: middle;"]] This page has been deleted from the main contents of the wiki, and moved to the deleted: namespace as a record of its contents. Rather than adding content to this page, please put it somewhere where it will actually have a use. In addition, please avoid linking to this page.
+[[/div]]
+
+%%content%%

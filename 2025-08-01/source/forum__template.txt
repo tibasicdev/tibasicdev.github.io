@@ -1,0 +1,11 @@
+[[include inc:visitor-farewell]]
+
+[[>]]
+[[iftags -_category]][[button files text="Forum Attachments"]][[/iftags]]
+[[/>]]
+
+%%content%%
+
+[[>]]
+[[iftags _forumhome]][http://tibasicdev.wikidot.com/forum:home/hidden/show/noredirect/true + show hidden categories][[/iftags]]
+[[/>]]

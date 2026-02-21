@@ -1,0 +1,21 @@
+author: C28
+version: 1.4.2
+summary: 'my first self-made game'
+description: "in the game \"Stonks\", you buy and sell \"stonks\" to make G's (the in-game currency.) you start out with 1000 G, but don't lose it all!\n\nalso this is my first self-made game so please notify me of any problems, with a description of said problems."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:archive/Archive.zip'
+image: null
+fileSize: '1588'
+fileSizeUnit: '1'
+dateMade: '1607317200'

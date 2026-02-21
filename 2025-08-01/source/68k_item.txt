@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=item.png
+|summary=Adds an item to a [[[68k:Custom]]] or [[[68k:ToolBar]]] menu.
+|syntax=Item //text// (with Custom)
+Item //text//,//label// (with ToolBar)
+|location=Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 1 to enter the Dialog submenu.
+* Press 8 to select Item.
+|size=3 bytes
+]]
+
+The Item command is used in [[[68k:Custom]]]..EndCustm and [[[68k:ToolBar]]]..EndTBar blocks (both of which create toolbar menus) to add an option to one of the tabs. See these commands for more details on how to use it.
+
+Inside a Custom..EndCustm menu, the correct syntax is Item //text// (//text// being a string). This will display //text// for the menu option, and also paste //text// every time the option is selected.
+
+Inside a ToolBar..EndTBar menu, the correct syntax is Item //text//,//label//. This will, as in the previous case, display //text// for the menu option; when the option is selected, the program will resume running from [[[68k:Lbl]]] //label//. 
+
++ Error Conditions
+
+[[include inc:68k-error num=130|error=Argument must be a string|cause=the option text isn't a string]]
+[[include inc:68k-error num=500|error=Invalid label|cause=the label doesn't exist (in this program), when the option is selected]]
+
++ Related Commands
+
+* [[[68k:Custom]]]..EndCustm
+* [[[68k:Title]]]
+* [[[68k:ToolBar]]]..EndTBar

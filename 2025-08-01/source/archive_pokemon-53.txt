@@ -1,0 +1,21 @@
+author: 'Steven Luiten'
+version: v0.9.8c.076
+summary: 'Based on the game Pokemon Red.'
+description: "The game is operated with the buttons 2ND, ALPHA, ENTER and the arrow keys. WARNING: Do not press ON.\nIt is recommended to delete the variables List 1~6 and String 1~5 and archive any programs you may have."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: dd
+download: 'archivefile:p53-v0-9-8c-076-4/P53-v0-9-8c-076.rar'
+image: 'archiveimage:p53-preview/P53-Preview.gif'
+fileSize: '6500'
+fileSizeUnit: '1'
+dateMade: '1430690400'

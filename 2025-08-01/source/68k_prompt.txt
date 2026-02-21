@@ -1,0 +1,25 @@
+[[include inc:command
+|picture=Prompt68k.gif
+|summary=Prompts the user to assign a value to a variable
+|syntax=Prompt //var1,var2...//
+|location=In the program editor, press [F3][5]
+|compatibility=TI 89(T)/92
+|size=2 bytes
+]]
+The Prompt command functions much like the [[[68k:Input]]] command. It allows you to type a value to be stored to a variable. You can also prompt multiple values at the same time. For example:
+[[code]]
+Prompt A
+//This will ask the user to type a value for A
+
+Prompt A,B,C
+//This will ask for a value for variables A,B, and C
+[[/code]]
+You can also ask for input in user-made variables
+[[code]]
+Prompt cool
+//This asks for a value for the variable "cool"
+[[/code]]
+
++ Related Commands
+* [[[68k:Input]]]
+* [[[68k:Disp]]]

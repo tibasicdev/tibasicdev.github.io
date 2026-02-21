@@ -1,0 +1,44 @@
+[[module CSS]]
+#input {
+outline: none;
+}
+[[/module]]
+
+[[form]]
+fields:
+  summary:
+    label: Command Summary
+    type: text
+  location:
+    label: Menu Location
+    type: text
+  compatibility:
+    label: Calculator Compatibility
+    type: text
+  tokensize:
+    label: Token Size (number only)
+    type: text
+  information:
+    label: Command Information
+    type: text
+    width: 50
+    height: 3
+  advanced:
+    label: Advanced Information
+    type: text
+    width: 50
+    height: 3
+  errors:
+    label: Error Code Number (see http://tibasicdev.wikidot.com/68k:errors)
+  errorreason:
+    label: Error Cause
+    type: text
+  related:
+    label: Related Commands
+    type: text
+    width: 50
+    height: 3
+  screenshot:
+    label: Command Screenshot
+    type: file
+[[/form]]

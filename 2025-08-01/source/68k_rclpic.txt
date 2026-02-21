@@ -1,0 +1,34 @@
+[[include inc:68k-command
+|picture=rclpic.png
+|summary= Recalls a picture variable and the graph screen at //[row][, column]//
+|syntax=RclPic //picVar//,//[row][, column]//
+|location=
+|size=
+]]
+
+This command is used to recall (open) a picture you have saved on your calculator. This is normally used in programs, because you can open pictures from the graph when you are not running a program. It is very useful for sprites as well, as it can recall a picture variable on top of a background, without deleting any of the background. In a program, however, you can recall a different picture for a different input, as shown below:
+
+[[code]]
+:If a=16
+:RclPic 2
+:Else
+:RclPic 3
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the //[row][,column]// argument is outside the screen range.]]
+[[include inc:68k-error num=960|error=Undefined variable|cause=the picture variable specified does not exist.]]
+
++ Related Commands
+
+* [[[68k:AndPic]]]
+* [[[68k:CyclePic]]]
+* [[[68k:NewPic]]]
+* [[[68k:XorPic]]]
+* [[[68k:RplcPic]]]
+* [[[68k:StoPic]]]
+
++ See Also
+
+* [[[68k:Sprites]]]

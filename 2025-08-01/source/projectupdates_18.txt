@@ -1,0 +1,115 @@
+[[[projectupdates:18|Got the basic naughts and crosses engine going.]]] ||
+To Do:
+* Create the memory setup for the AI
+* Create the Code for the AI to recall the gameboard partial probabilities
+* Create the code for remembering which gameboards were recalled and which moves were played
+* Create the code for adjusting the partial probabilities for each gameboard
+* Create the AI - Created the selection already
+* Implement the AI [!--
+--]
+Main Naughts and Crosses Engine: (Player vs Player)
+[[code]]
+SetUpEditor ʟM,ʟMC
+{0→ʟM
+{0→ʟMC
+StoreGDB GDB1
+AxesOff
+GridOff
+CoordOff
+Full
+LabelOff
+ExprOff
+RectGC
+Normal
+Func
+63→Ymax:0→Ymin
+93→Xmax:0→Xmin
+ClrDraw
+Text(⁻1,2,14,"M.E.N.A.C.E.
+Line(29,49,65,49
+Line(65,49,65,13
+Line(65,13,29,13
+Line(29,13,29,49
+Line(32,47,62,47
+Line(31,46,63,46
+Line(63,46,63,16
+Line(62,47,62,15
+Line(62,15,32,15
+Line(61,15,33,15
+Line(31,16,31,46
+Line(32,15,32,47
+Line(42,45,42,15
+Line(52,45,52,15
+Line(33,25,61,25
+Line(33,36,61,36
+19→H
+35→V
+1→P
+Repeat dim(ʟM)=10
+1→T
+If fPart(dim(ʟM)/2):2→T
+Line(H+14,V+2,H+22,V+2
+Repeat sum(K={45,21,105
+Repeat sum(K={45,21,105,24,25,26,34
+getKey→K
+End
+If K=45:Stop
+If sum(K={24,25,26,34:Then
+Line(H+14,V+2,H+22,V+2,0
+P+(K=26)(P<9)-(K=24)(P>1)+3(K=34)(P≤6)-3(K=25)(P≥4)→P
+P/3
+If Ans≤1:35→V
+If Ans≤2:24→V
+If Ans≤3:14→V
+If sum(P={1,4,7
+19→H
+If sum(P={2,5,8
+29→H
+If sum(P={3,6,9
+39→H
+Line(H+14,V+2,H+22,V+2
+End
+End
+If (K=105)not(sum(P=ʟM:Then
+P→ʟM(1+dim(ʟM
+Line(H+14,V+2,H+22,V+2,0
+P/3
+If Ans≤1:19→G
+If Ans≤2:29→G
+If Ans≤3:39→G
+If sum(P={1,4,7
+35→U
+If sum(P={2,5,8
+46→U
+If sum(P={3,6,9
+56→U
+Text(⁻1,G,U,sub("OX",T,1)
+expr(sub("020305071113171923",2P-1,2))→ʟMC(dim(ʟM
+If dim(ʟMC)≥6:Then
+1→A
+For(E,2,dim(ʟMC),2
+AʟMC(E)→A
+End
+If not(sum(not(fPart(A/{30,1001,7429,238,627,1495,506,935}):Then
+1→A
+For(E,3,dim(ʟMC),2
+AʟMC(E)→A
+End
+End
+sum(not(fPart(A/{30,1001,7429,238,627,1495,506,935})→W
+If W:10→dim(ʟM
+End
+End
+End
+If not(W:Then
+Text(⁻1,52,23,"TIE GAME!
+Pause 
+Else
+If T=2:Text(⁻1,52,15,"CROSSES WIN!
+If T=1:Text(⁻1,52,15,"NAUGHTS WIN!
+If T:Pause 
+End
+RecallGDB GDB1
+ClrDraw
+ClrHome
+[[/code]]

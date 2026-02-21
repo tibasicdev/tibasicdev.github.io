@@ -1,0 +1,31 @@
+[[include inc:command
+|picture=@@@
+|summary=Changes the color of a certain function.
+|syntax=GraphColor(function#,color#)
+|location=Press:
+# 2ND 0 to access catalog.
+# TAN to get to the G index
+# Scroll down to find GraphColor(, then ENTER to paste.
+
+Graph colors can also be changed under Y=.
+|compatibility=TI-84+ CSE/CE
+|size=2 bytes
+]]
+
+The {{GraphColor(}} command will change the color of any function from {{Y,,0,,}} to {{Y,,9,,}}. So, for example, to change the color of {{Y,,3,,}} to NAVY, do:
+[[code]]
+GraphColor(3,NAVY
+[[/code]]
+Notice, you must use the number of the function, rather than the entire function name, which would be {{Y,,3,,}}.
+
+As you may know, you can also use the value of the color, which can be any integer between 10 and 24. So, our last command could also be:
+[[code]]
+GraphColor(3,17
+[[/code]]
+
+
+
++ Related Commands
+
+* {{[[[GraphStyle(]]]}}
+* {{[[[BorderColor ]]]}}

@@ -1,0 +1,13 @@
+[[include inc:program
+|picture=checkers.gif
+|summary=A quality version of the classic checkers game.
+|size=13,249 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/90/9071.html nitacku]
+|download=[http://tibasicdev.wikidot.com/local--files/checkers/checkers.zip checkers.zip]
+]]
+
+Checkers is a one or two player game that follows the standard checker rules for acceptable moves and scoring. The game features several customizable options, including saving and loading, who gets what color pieces, and an ability to change the game rules so that you can jump over your own pieces.
+
+The true highlight of this game, though, is its great AI. It comes with three levels of difficulty, with the strength of the AI being easy, medium, or hard. Unlike other games that just use a simple random number to decide which move the AI will take, this game actually uses sophisticated logic based on the rules of checkers. And to make the AI even better, you can have the AI play against itself.

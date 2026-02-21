@@ -1,0 +1,133 @@
+[[table style="width: 100%; margin: 60px auto 25px;"]]
+[[row]]
+[[cell style="width: auto; background: #fdfcf6; border: 1px solid #4D5C63; padding: 10px; font-size: 125%;"]]
+**//Welcome to the TI-83/84/+/SE section of TI-Basic Developer (TI|BD), the TI-Basic information repository!//** If you are a first-time visitor, please check out the [[[welcome pack]]] to get you up to speed on using the site. We encourage you to [[[system:join|become a member]]] and to [[[contribute|get involved]]] in the community, and to come back often to see what [[[system:recent-changes|changes]]] have occurred. And above all else, enjoy your stay!
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="float:right; width: 18em; margin: 0 0 0 20px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell style="font-size:140%; background: #4D5C63; color: #fff; text-align:center;"]]
+**New to TI-Basic?**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px;"]]
+These pages provide an overview of TI-Basic, and are designed to help you quickly get started learning and using TI-Basic.
+
+* [[[thecalcs|The Calculators]]]
+* [[[whytibasic|Why TI-Basic?]]]
+* [[[Using This Guide]]]
+* [[[starter-kit|TI-Basic Starter Kit]]]
+* [[[faq|TI-Basic FAQ]]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; text-align:center;"]]
+**[[[Did You Know...]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px;"]]
+[[module ListPages category="dyk" tags="+_dyk _83portal _both-portals" separate="no" order="random" limit="1" urlAttrPrefix="dyk"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; text-align:center;"]]
+**[[[Development]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px; border-bottom: 1px solid #4D5C63;"]]
+[[module ListPages category="excerpt" tags="_excerpt +_83portal +featured-article" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/div]]
+
+[[table style="width: auto; margin-right: 18em; margin-bottom: 20px; background: #fdfcf6; border: 1px solid #4D5C63; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #666;"]]
+**[[[news|Recent News]]]**
+[[/cell]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #666;"]]
+**[[[forum:recent-posts|Recent Posts]]]**
+[[/cell]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[system:recent-changes|Recent Edits]]]**
+[[/cell]]
+[[/row]]
+[[row style="border-bottom: 1px solid #4D5C63;"]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63;"]]
+[[module ListPages category="news" order="name desc" tags="+_news _83portal _both-portals +_announcement" limit="1" date="last 7 days"]]
+[[div style="border: 1px dotted #A45; padding: 1px;"]]
+%%content%%
+[[/div]]
+[[/module]]
+[[module ListPages category="news" order="name desc" tags="+_news _83portal _both-portals -_announcement" separate="false" limit="3"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63;"]]
+[[module MiniRecentPosts limit="3"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px;"]]
+[[module ListPages separate="no" limit="6" order="dateEditedDesc"]]
+%%title_linked%%
+[[span style="color: #444; font-size: 85%; margin-left: 15px;"]](by [[user %%updated_by%%]] %%updated_at|%O ago%%)[[/span]]
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: auto; margin-right: 18em; margin-bottom: 20px; background: #fdfcf6; border: 1px solid #4D5C63; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**Search the Site**
+[[/cell]]
+[[/row]]
+[[row style="border-bottom: 1px solid #4D5C63;"]]
+[[cell style="background: #fdfcf6; padding: 5px 10px; border-right: 1px solid #4D5C63;"]]
+[[div style="padding-bottom: 5px;"]]
+There is a wide range of TI-Basic content available on this site, so we recommend using the search engine or referring to the [[[sitemap]]]. If you can't find what you're looking for, leave a post in the [http://tibasicdev.wikidot.com/forum/t-437432/search-help-2 forums] and somebody will assist you.
+[[/div]]
+
+[[module Search]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[module CSS]]
+h1 {text-align: center;}
+#page-title {display: none;}
+.box-title a {color: #fff; font-size: 140%;}
+.align-auto {width: 100%; margin-left: auto; margin-right: auto;}
+.list-pages-item {padding: 0 !important; margin: 0 !important; display: inline !important;}
+.slist-pages-box {padding: 0 !important; margin: 0 !important; background: red !important;}
+[[/module]]
+
+[[div style="display: none; margin: -20px 0; padding: 0; text-indent:-5000px;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092;
+var sc_invisible=0;
+var sc_partition=22;
+var sc_security="d8087415";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]

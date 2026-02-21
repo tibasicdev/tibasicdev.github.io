@@ -1,0 +1,50 @@
+[[include inc:68k-command
+|picture=cosh.png
+|summary=Takes the hyperbolic cosine of a number.
+|syntax=cosh(//value//)
+|location=
+* Press 2nd MATH to enter the MATH menu.
+* Press C to enter the Hyperbolic submenu.
+* Press 2 to select cosh(.
+|size=1 byte
+]]
+
+
+The {{cosh()}} command returns the [http://mathworld.wolfram.com/HyperbolicCosine.html hyperbolic cosine] of a number. 
+
+As long as the calculator is in radian [[[68k:mode-settings|mode]]], {{cosh()}} can be used with complex numbers according to the rule that cosh(**//i//**x)=cos(x) and cos(**//i//**x)=cosh(x). This rule only works in radian mode, and {{cosh()}} of a complex number will return a domain error when working in degrees or gradians.
+
+Occasionally, {{cosh()}} can compute an exact result; most of the time, the calculator will leave an expression with {{cosh()}} alone unless it's in approximate mode (or you [[[68k:approx|force an approximation]]]). When {{cosh()}} is used with symbolic expressions, the calculator can go back and forth between the {{cosh()}} expression and its exponential equivalent.
+
+[[code]]
+:cosh(0)
+           1
+:expand(cosh(x))
+          e^x/2+1/(2*e^x)
+:comDenom(e^x/2+1/(2*e^x))
+          cosh(x)
+[[/code]]
+
+If {{cosh()}} is applied to a list, it will take the hyperbolic cosine of every element in the list.
+
++ Advanced Uses
+
+The {{cosh()}} of a matrix is not (in general) the same as taking the hyperbolic cosine of every element of the matrix. A different definition is used to compute the result; see [[[68k:matrices#toc2|]]]. It requires the matrix to be square and diagonalizable in order to apply.
+
++ Formulas
+
+The definition of hyperbolic cosine is given in terms of exponents:
+
+[[include inc:68k-math eqn=\cosh{x} = \frac{e^x+e^{-x}}{2}]]
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=taking {{cosh()}} of a matrix that isn't square]]
+[[include inc:68k-error num=260|error=Domain error|cause=taking {{cosh()}} of a complex number in degree or gradian mode]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=taking {{cosh()}} of a matrix that isn't diagonalizable]]
+
++ Related Commands
+
+* {{[[[68k:sinh()]]]}}
+* {{[[[68k:tanh()]]]}}
+* {{[[[68k:arccosh|coshֿ¹()]]]}}

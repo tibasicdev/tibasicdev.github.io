@@ -1,0 +1,25 @@
+[[include inc:68k-command
+|picture=unarchiv.png
+|summary=Unarchives a given variable
+|syntax=Unarchiv //variable//
+|location=
+|size=
+]]
+
+The {{Unarchiv}} command removes a variable from the flash ROM.
+[[code]]
+Prgm
+©                                //assuming var1 and var2 are actual variables
+Archive var1,var2
+isArchiv(var1)→check
+Disp check
+Pause
+Unarchive var1,var2
+Disphome
+EndPrgm
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:Archive]]]}}
+* {{[[[68k:isArchiv]]]}}

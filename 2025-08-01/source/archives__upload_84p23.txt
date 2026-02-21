@@ -1,0 +1,25 @@
+[[module Redirect destination="archive:_upload"]]
+
+|| Note To Submitters: This is the only place you can post programs that contain TI-84 OS 2.30+ commands. [[size 150%]]**[[[archives:_upload:84p253mp|Click here]]]** if your program requires OS 2.53MP or above.[[/size]] ||
+
+[[div style="float:left;"]]
+[[table]]
+[[row]]
+[[cell style="text-align: center; width:210px"]]
+++ __TI-84 Plus OS 2.30+__
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center"]]
+[[image http://tibasicdev.wikidot.com/local--files/thecalcs/ti84plus.png alt="TI-84 Plus"]]
+[[/cell]]
+[[cell]]
+Please enter the name of your program.
+
+[[module NewPage button="Create Program Page" parent="archives:_84p23" category="archives" tags="_new _pending" template="template:tablet" format="/^[^_]/"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

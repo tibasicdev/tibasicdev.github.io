@@ -1,0 +1,25 @@
+[[include inc:command
+|picture=Dot-Thick.png
+|summary=Sets all lines to be drawn using a series of thick points
+|syntax=This command is executed with no additional arguments
+|location=Go to Catalog, press [ALPHA][X^-1], and scroll down
+|compatibility=TI-84+CSE/CE
+|size=2 bytes
+]]
+
+
+The {{Dot-Thick}} command sets all lines in the current function type to be drawn using a series of thick points, about the size of a point drawn using {{[[[Pt-On(]]]}}, at each interval of the {{TraceStep}}. This command can be called on the homescreen or within a program.
+
+[[code]]
+:AxesOff
+:RectGC
+:Dot-Thick
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown if any additional arguments are used with the command
+
++ Related Commands
+
+* {{[[[Dot-Thin]]]}}

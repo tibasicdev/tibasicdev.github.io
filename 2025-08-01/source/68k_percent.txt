@@ -1,0 +1,23 @@
+[[include inc:68k-command
+|picture=percent.png
+|summary=Divides a number by 100.
+|syntax=//number//%
+|location=
+* Press 2nd CHAR to enter the CHAR menu.
+* Press 3 to enter the Punctuation submenu.
+* Press 5 to select %.
+|size=1 byte
+]]
+
+The % operator is a cheap shortcut for dividing a number by 100: for instance, 25% = 25/100 = 1/4. When used on a list or matrix, it divides every element by 100.
+
+It's somewhat higher in priority than regular division, so you don't need parentheses as often with it: for instance, 4^50% is equal to 4^(1/2)=2, not to (4^50)%. 
+
++ Related Commands
+
+* [[[68k:divide|/]]] (divide)
+* [[size 75%]][[[68k:e-ten|E]]][[/size]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

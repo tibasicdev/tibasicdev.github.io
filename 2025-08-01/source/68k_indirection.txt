@@ -1,0 +1,57 @@
+[[include inc:68k-command
+|picture=indirection.png
+|summary=Gets a variable given its name as a string.
+|syntax=#//var-name//
+|location=
+On a widescreen calculator, press 2nd # to paste #.
+
+Or, on any calculator model, press:
+* 2nd CHAR to enter the CHAR popup menu.
+* 3 to enter the Punctuation submenu.
+* 3 again to paste #.
+
+|size=2 bytes
+]]
+
+The # operator takes a string containing a variable name, such as "x", and gives you the variable itself. This can be used to get the value of that variable (kind of like a weaker version of [[[68k:expr|expr()]]]), but the # operator really shines when you need to refer to the variable itself: storing to it, for example. 5→expr("var") will give you an error. 5→#"var", however, will work.
+
+[[code]]
+:"x"→str
+:5→#str
+           5
+:x
+           5
+:DelVar #str
+:x
+           x
+[[/code]]
+
+You'll see # called the "indirection" operator (for instance, in the command catalog). This is because using # is an indirect way of accessing a variable's value: you don't have the variable itself to work with, just its name. 
+
++ Advanced Uses
+
+The # command is particularly useful for dealing with picture variables, if you don't know the exact name of the picture ahead of time. For example, you might have two pictures, called 'cat' and 'dog', that you need to display depending on whether x=1 or x=2. This can be done with an [[[68k:If]]] command, but that gets more and more complicated as you add pictures. On the other hand, you can always do this:
+[[code]]
+:{"cat","dog"}→pics
+:RclPic #(pics[x])
+[[/code]]
+
+The # command is necessary here because [[[68k:RclPic]]] and commands like it want the actual picture variable as an argument, not a string with its name; [[[68k:expr()]]] wouldn't work either because it would try to find the value of 'cat', and get an error.
+
+------
+
+Whenever you're dealing with external files created by someone else (such as external levels for a game), you don't know the variable names ahead of time, so you'll need the # operator. For the example of an external level, you would first input the variable name of the level into a string variable (say, the variable 'level'). Then you can use '#level', just as you would a regular variable, to refer to it.
+
++ Optimization
+
+In many cases, both # and [[[68k:expr()]]] will do the same thing. In these cases, it's still better to use #, because it's faster.
+
++ Error Conditions
+
+[[include inc:68k-error num=360|error=Indirection string is not a valid variable name|cause=the string used with # isn't allowed as a variable name (e.g. longer than 8 characters)]]
+
++ Related Commands
+
+* [[[68k:expr()]]]
+* [[[68k:store|→]]]
+* [[[68k:DelVar]]]

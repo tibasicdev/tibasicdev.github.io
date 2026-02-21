@@ -1,0 +1,1 @@
+…that using {{[[[deltalist|ΔList(]]]}} together with {{[[[cumSum(]]]}} will return a list with its first element removed?

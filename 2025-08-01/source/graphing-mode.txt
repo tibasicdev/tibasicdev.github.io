@@ -1,0 +1,41 @@
+The TI-83 series of graphing calculators can graph equations in four modes: function mode, parametric mode, polar mode, and sequential mode.
+
+Since this website is primarily aimed at calculator programmers, rather than all calculator users, this information may not have many immediate applications, since graphing equations isn't often useful in programs. However, math programs may require information such as this, and in general, the better you understand all the features of your calculator, the better you'll be able to program it.
+
+The four graphing modes are enabled with the [[[Func]]], [[[Param]]], [[[polar-mode|Polar]]], and [[[seq-mode|Seq]]] commands.
+
++ [[[func|Function Mode]]] [[# function]]
+
+In function mode, you can graph equations where y (the vertical coordinate) is a function of x (the horizontal coordinate). This mode is most commonly discussed in algebra and single-variable calculus courses. Many curves, such as a parabola, have simple expressions when written in the form y=f(x).
+
+However, in function mode, many expressions cannot be graphed at all. For example, a circle can't be easily graphed in function mode, since for some x-values, there are two y-values. Using two functions, you can achieve a circle, but it will still require a friendly graphing window to display perfectly.
+
+Many calculator features are specifically targeted at function mode graphing. For example, two graphing styles (see [[[GraphStyle(]]]) can be only used with function mode. The [[[DrawF]]] command draws a function on the graph screen.
+
++ [[[param|Parametric Mode]]] [[# parametric]]
+
+Parametric mode is in many ways a generalization of function mode. Instead of writing y as a function of x, both x and y are written as a function of a parameter t (hence the name, parametric mode). You can easily see that equations in function mode are just a special case of equations in parametric mode: if you set x equal to t, then writing y=f(t) is equivalent to writing y=f(x). Of course, graphing a function this way on a calculator will be slightly slower than doing it in function mode directly, because of the overhead.
+
+Parametric mode allows you the greatest freedom of all the possible graphing modes - nearly every curve you could encounter can be expressed in parametric form. 
+
+In mathematics, the parameter t is commonly allowed to take on all values from negative to positive infinity. However, this would be impossible to do on a calculator, since the equation would never stop graphing (unlike function mode, there's no easy way to check for which values of t the equation will go off the screen and there's no need to graph it). Instead, the calculator has [[[system-variables|window variables]]] Tmin, Tmax, and Tstep: it will evaluate the parameter at every value from Tmin to Tmax, increasing by Tstep each time, and 'connect the dots'.
+
+Polar mode, which you'll read about in the next section, is also a special case of parametric mode: To graph r=f(θ), you can instead graph x=f(t)cos(t) and y=f(t)sin(t), with t graphed over the same interval as θ.
+
++ [[[polar-mode|Polar Mode]]] [[# polar]]
+
+Unlike the previous modes, polar mode doesn't use the more common (x,y) coordinates. Instead, the coordinates (r,θ) are used, where θ is the counterclockwise angle made with the positive x-axis, and r is the distance away from the origin (the point (0,0)). Although it's possible to translate from one system to the other, polar coordinates are more useful for some expressions (and, of course, less useful for others). 
+
+In particular, they're very good at graphing anything circle-related. The equation for a circle in polar mode is just r=1 (or any other number, for a circle of different radius). 
+
+Like in parametric mode, the parameter θ uses the window variables θmin, θmax, and θstep to determine which points are graphed. A common situation is θmin=0, θmax=2π: in [[[radian-mode|Radian]]] mode, this corresponds to going all the way around the circle. Of course, you could use [[[degree-mode|Degree]]] mode and set θmax to be 360, but this is uncommon in mathematics.
+
++ [[[seq-mode|Sequential Mode]]] [[# sequential]]
+
+Sequential mode is used for graphing sequences, which can be thought of as functions from the positive (or non-negative) integers. The TI-83 calculators let //n// be the independent variable in this situation, and the three sequences, instead of using subscripts, use the letters u, v, and w.
+
+One of the main advantages of sequential mode is that it allows recursive definitions: u(//n//) can be defined in terms of u(//n//-1) and more generally in terms of u(//n//-k) for any k. For recursive definitions to work, an initial case must be defined: this is done using the variables u(//n//Min), v(//n//Min), and w(//n//Min). The constant //n//Min is the initial case, for which the calculator will use a specific value rather than the formula.
+
+For example, say a bunny population starts out at 100 and doubles each year. We can describe this situation using the recursive definition u(//n//)=2u(//n//-1) (this just says that the //n//th year population is twice the population of the previous year); then we set u(//n//Min)=100. Note that without u(//n//Min), the equation would be meaningless - without the initial population, we have no way to calculate any other population.
+
+When you're using more than one previous value (for example, u(//n//-1) and u(//n//-2)) you need more than one initial value, and then u(//n//Min) becomes a list.

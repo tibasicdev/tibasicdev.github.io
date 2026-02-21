@@ -1,0 +1,21 @@
+author: Bio_Hazard1282
+version: '1.0'
+summary: 'Similar to Chatroom. But SHORTER.'
+description: "Similar to Chatroom. But SHORTER. Less than One K.\nSource Code:\n[[code]]\n:\"C3 Chat Box v1.1\n:DCS6\n\"7FFECB9BB9C9BAABCACDFFFF9FFB9DABAADF9DABFFFF7FFE0FC01F003C007000\nCLASSIC\nClrHome\nIf det([[1:Then\nDisp \"Celtic 3 is\",\"not installed.\nStop\nEnd\nHoriz\nClrDraw\nAxesOff\nGridOff\nPlotsOff \nFnOff \nreal(7,0\nText(0,0,\"Preparing...\nGetCalc(A\nnot(A→A\nidentity(6,6,8,1\nText(0,0,\"Chat Box ready.\n\" →Str1\nAns→Str2\nAns→Str3\nLbl M\nClrHome\nreal(7,0\nreal(13,1\nDisp \" Chat Box \"+sub(\"BA\",1+A,1)+\" \nreal(13,0\nDisp \"₁.Send\",\"₂.Receive\nRepeat max(K={92,93,22,45\ngetKey→K\nEnd\nClrHome\nIf K=92:Goto S\nIf K=93:Goto R\nIf K=45:Goto C\nFull\nreal(13,1\nDisp \" Chat Box \nreal(13,0\nStop\nLbl S\nInput \"Send:\",Str3\nIf A\nStr3→Str1\nIf not(A\nStr3→Str2\nidentity(6,6,8,1\nText(0,0,sub(\"BA\",A+1,1)+\":\"+Str3\nGoto M\nLbl R\nDisp \"Receiving...\nIf A:Then\nGetCalc(Str2\nStr2→Str3\n\" →Str2\nElse\nGetCalc(Str1\nStr1→Str3\n\" →Str1\nEnd\nIf Str3≠\" \":Then\nidentity(6,6,8,1\nText(0,0,sub(\"AB\",A+1,1)+\":\"+Str3\nEnd\nGoto M\nLbl C\nClrDraw\nText(0,0,\"Chat Box cleared.\nGoto M\n[[/code]]\nCompatible for Mirage, DoorsCS6 and 7. Comes with icon for doors."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: bb
+download: 'archivefile:chatbox/CHATBOX.8xp'
+image: 'archiveimage:chat-box/Chat-Box.png'
+fileSize: '711'
+fileSizeUnit: '1'
+dateMade: '1537164000'

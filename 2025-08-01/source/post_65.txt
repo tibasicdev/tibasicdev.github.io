@@ -1,0 +1,2 @@
+content: 'Would it be possibble to have a "n minutes ago" thing with some of the posts? Sometimes wikidot gets my time zone wrong and it''s confusing.'
+attachment: null

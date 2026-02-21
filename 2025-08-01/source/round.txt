@@ -1,0 +1,59 @@
+[[include inc:command
+|picture=ROUND.GIF
+|summary=Truncates a number to a specified number of decimal places.
+|syntax=round(//value//[,//#decimals//])
+|location=Press:
+# MATH to select the [[[math]]] menu.
+# RIGHT to select the NUM submenu.
+# 2 to select round(, or use arrows.
+|compatibility=TI-83/84/+/SE/CE
+|size=1 byte
+]]
+
+{{round(//value//[,//#decimals//])}} returns //value// rounded to //#decimals// decimal places. //#decimals// must be < 10. The default value for //#decimals// is 9. Also works on complex numbers, lists and matrices.
+
+[[code]]
+round(5.45,0)
+     5
+round(5.65,0)
+     6
+round(‾5.65,0)
+     ‾6
+round(π)-π
+     4.102e-10
+round(π,4)
+     3.1416
+round({1.5,2.4,3.8},0)
+     {2,2,4}
+round([[1.8,3.5,120.3][3,‾1,0.2]],0)
+     [[2  4   120]
+     [3  ‾1  0   ]]
+[[/code]]
+
++ Advanced Uses
+
+Sometimes, round-off error will cause the result of an expression to be slightly off of the correct integer value -- for example, a result may be 5.0000000013 instead of 5. If the error is small enough, it will not even be visible if you recall the variable on the home screen. However, this is enough to cause a {{[[[errors#domain|ERR:DOMAIN]]]}} error with commands such as {{[[[sub(]]]}} and {{[[[Output(]]]}}, which require their arguments to be integers.
+
+The easiest way to fix this problem is by wrapping the different arguments in a {{[[[round]]](}} instruction. For example, instead of:
+
+[[code]]
+Output(X,1,">")
+[[/code]]
+
+Try:
+
+[[code]]
+Output(round(X,0),1,">")
+[[/code]]
+
+The {{[[[int(]]]}} command will not work here because the round-off error may be negative, such as 4.9999999986 instead of 5, in which case the number will be rounded down to 4.
+
++ Error Conditions
+
+* **[[[errors#domain|ERR:DOMAIN]]]** if the number of places to round to is not an integer 0 through 9.
+
++ Related Commands
+
+* [[[int(]]]
+* [[[iPart(]]]
+* [[[fPart(]]]

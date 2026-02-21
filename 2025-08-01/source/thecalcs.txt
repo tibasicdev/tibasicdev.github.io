@@ -1,0 +1,163 @@
+This section is concerned with the TI-83 family of graphing calculators, which all use the same base processor chip -- a Zilog Z80. There are five different calculators that are within this group: TI-83, TI-83+, TI-83+SE, TI-84+, TI-84+SE, TI-84+CSE, and TI-84+CE. Each of these calculators has their own features and unique qualities.
+
+[[toc]]
+
++ The TI-83 Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti83.png]]
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+The TI-83 is the oldest calculator in the group, being released back in 1996. It is designed to be an upgrade from the TI-82, featuring a sleeker case design, more memory (27K bytes of RAM), and a faster processor (6MHz). It kept some of the features the same as the TI-82, such as the screen size and being powered by 4 AAA batteries, to allow for backwards compatibility with the TI-82.
+
+This means that while some of the TI-Basic commands on the TI-83 have a different syntax, at the core the TI-83 can execute the TI-82's TI-Basic programs. Some of the differences between TI-Basic for each calculator are how math is interpreted (implied multiplication versus regular multiplication) and commands that have an opening parentheses attached to the end of them (such as the trigonometry commands). When it comes to assembly programs, however, the TI-83 cannot execute the TI-82's assembly programs without some modification because of the processor upgrade.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
++ The TI-83+ Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti83plus.png]]
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+The TI-83+ was released in 1999, and it was meant as an upgrade from the TI-83 with more memory and a faster processor. At the same time, it kept several features of the TI-83 to maintain backwards compatibility: the case design, the screen size (16x8 home screen and 96x64 graph screen), and the link port. There are some major differences, however.
+
+The TI-83+ cannot run assembly programs made for the TI-83 because it uses a different format: there are three built-in commands, {{[[[AsmPrgm]]]}}, {{[[[AsmComp(]]]}} and {{[[[asm-command|Asm(]]]}}, used for running assembly programs, while the TI-83 has no such commands. The TI-83 Plus uses a speedier 8MHz processor which is clocked at the same 6MHz as the TI-83.
+
+The TI-83 comes with 24K bytes of available memory built-in, while the TI-83+ comes with 184K bytes of available memory: 24K bytes are RAM and 160K bytes are archive memory, or more commonly called "Flash" memory. Archive memory allows you to store data, programs, applications, or any other variables to a safe location where they cannot be edited or deleted inadvertently from a RAM crash. This creates a compatibility issue with TI-83 TI-Basic, however, because of the use of the {{[[[Archive]]]}} and {{[[[UnArchive]]]}} commands that are on the TI-83+.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
++ The TI-83+SE Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti83plus_se_new.png]]
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+The TI-83+SE (short for //S//ilver //E//dition) was the next calculator upgrade in the group. When it was released by TI in 2001, it became instantly popular because of its unique look and increased memory and speed. However, TI has since decided to stop production of it and focus on the TI-84+SE calculator instead. The TI-83+SE has now become somewhat of a collector's item.
+
+After seeing the success of the TI-83 calculator series, TI decided to give their next TI-83 series calculator a unique look to set it apart from the other TI-83 calculators. The TI-83+SE calculator look consists of a transparent silver case with silver sparkles sprinkled throughout. What really made the calculator shine, though, was that the transparent case allowed you to see what the internals of the calculator looked like without even having to open up the calculator.
+
+In addition to the unique look, TI also decided to upgrade the memory and speed. While maintaining almost complete backward compatibility, the TI-83+SE features 128K bytes of RAM and 1.5M bytes of archive memory. It should be noted, however, that only 24K bytes of RAM are available to TI-Basic programmers (you need to use assembly to access all 128K bytes). The TI-83+SE uses a 15MHz processor, but it can also be made to run at the 8MHz and 6MHz speeds through assembly.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
++ The TI-84 Plus Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti84plus.png]]
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+The TI-84+ was released in 2004, and it was meant to be an upgrade of the TI-83+. The TI-84+ introduces a couple new things to the TI-83 calculator series: a built-in clock and a mini USB link port. The built-in clock can be used in TI-Basic by using the new [[[time-and-date|clock]]] commands that go with it, while the mini USB link port greatly increases the speed of linking the calculator to a computer.
+
+The TI-84+ also improves upon the TI-83+ in terms of memory and speed: 24K bytes of RAM and 480K bytes of archive memory; and a 15MHz processor (the same one that the TI-83+SE has). The most obvious change that the TI-84+ brings is a completely new case design. Gone are the slightly rounded edges and appearance; in its place is an almost circular look from the front, with the edges smoothly flowing around to the back of the calculator.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
++ The TI-84 Plus Silver Edition Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti84plus_se.png]]
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+The TI-84+SE was released along with the TI-84+ in 2004, kind of like a TI-83 calculator series package upgrade. The TI-84+SE was meant to be an upgrade of the TI-83+SE, and it includes the same upgrades that the TI-84+ got. The two new innovations that the TI-84+SE introduces are: interchangeable faceplates and a kickstand; these things are basically optional add-ons for your calculator.
+
+The interchangeable faceplate can be useful if you want to change the front look of your calculator. You simply purchase a different faceplate and swap it with the current faceplate. The calculator's initial faceplate is a light gray/silver. The kickstand is built into the calculator lid, and it allows you to set the calculator to four different viewing angles. Concerning memory and speed, the TI-84+SE has the same amount of memory and speed as the TI-83+SE.
+[[/cell]]
+[[/row]]
+[[/table]]
+
++ The TI-84 Plus C Silver Edition Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image ti84pluse_cse.png]]
+
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+Initially leaked in 2012, the TI-84+C Silver Edition (84+CSE) was officially announced in early 2013. The calculator was the first in the TI-83/84 series to come with a color screen, hence the name Color Silver Edition. With the advent of color, several commands were added to utilize the new feature.
+
+The calculator has the same body as its predecessor, the TI-84+/TI-84+SE. A rechargeable Li-ion battery powers the battery, which can be charged in a dock or through the USB port. On the back, the calculator no longer has a snap-in removable battery cover, but instead features a reset button and when pressed has the effect of clearing the RAM.
+
+Upon its release, some users noticed the speed difference between the TI-84+CSE and other calculators. Because the calculator is powering the screen, the speed of the TI-84+CSE is less than its predecessors. Still, the TI-84+CSE brought color to the classroom, while remaining familiar to those who had used a calculator on the TI-83/84 line.
+
+The TI-84+CSE also has a larger array with which the {{[[[Output(]]]}} command can be used, a 26(x) x 10(y) grid. There is also a toolbar at the top that shows the basic settings of the calculator. As for changes with the graph screen, TI has created a graph buffer that effectively makes the graph screen much harder to use for games.
+[[/cell]]
+[[/row]]
+[[/table]]
+
++ The TI-84+CE (and TI-83PCE) Calculator
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+[[image 84pce.png]]
+
+[[/cell]]
+[[cell style="vertical-align:top; padding-left:10px;"]]
+Announced and released in early 2015, the TI-84 Plus CE (and TI-84 Plus CE-T in some Europe countries) seeks to improve the qualities of the TI-84+CSE. It is 30% lighter and 30% thinner than the TI-84+CSE. The body of the calculator has been changed to a slimmer design. While the calculator still has the USB port for charging and data transfers, it no longer has the I/O port. The TI-84+CE retains the same key map.
+
+Addressing the concerns of the slow TI-84+CSE, the TI-84+CE is faster. The processor has been upgraded from the usual z80 to the faster eZ80. In addition, it features more RAM and Archive space than any previous TI-83/84 calculator. On the software side, quite a few behind-the-curtains things have been taken from the TI-68k series, making it a better suited (and easier) platform for native development.
+
+In France, the 84+CE is not sold, but is replaced by the better "TI-83 Premium CE", which is exactly the same as the 84 Plus CE, but sold cheaper (around 90 USD) and with an exact math engine built-in (not a CAS, but exact values will be given when possible. For instance, √(90) will give 3√(10), instead of 9.4868...). Due to exams regulations there, it also has a PTT LED on top.
+
+In Europe (except France), the 84+CE is replaced by the "TI-84 Plus CE-T", which is the same, but with the PTT LED on top, like the 83 Premium CE.
+[[/cell]]
+[[/row]]
+[[/table]]
+
++ Calculator Comparison
+
+||~ Model||~ Processor||~ RAM||~ ROM||~ Screen Size||~ Link Port||~ Clock ||~ Release Date||
+||= TI-83||= 6 MHz||= 27 KB||= None||= 96x64||= I/O||= No ||= 1996||
+||= TI-83+||= 6 MHz||= 24 KB||= 160 KB||= 96x64||= I/O||= No ||= 1999||
+||= TI-83+SE||= 15 MHz||= 24 KB (128 KB)||= 1.5 MB||= 96x64||= I/O||= No ||= 2001||
+||= TI-84+||= 15 MHz||= 24 KB||= 480 KB||= 96x64||= I/O+USB||= Yes ||= 2004||
+||= TI-84+SE||= 15 MHz||= 24 KB (128 KB)||= 1.5 MB||= 96x64||= I/O+USB||= Yes ||= 2004||
+||= TI-84+CSE||= 15 MHz||= 21 KB (128 KB)||= 3.5 MB||= 320x240||= I/O+USB||= Yes ||= 2013||
+||= TI-84+CE/83PCE||= ~48 MHz||= 154 KB (256 KB)||= 4.0 MB||= 320x240||= USB||= Yes||= 2015||
+
++ Known ROM Versions
+
+TI occasionally releases updates to the ROM version for each calculator, which either fix existing bugs, improve calculator performance, or add new commands and functionality. You can check the ROM version on your calculator by selecting the About option in the Memory menu, which is accessible by pressing 2nd MEM. See [[[portability]]] for a list of changes in functionality between the OS versions.
+
+||~ Model||~ Known ROM Versions||
+||= TI-83||= 1.02, 1.03, 1.04, 1.06, 1.07, 1.08, 1.10 ||
+||= TI-83+||= 1.03, 1.06, 1.08, 1.10, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 ||
+||= TI-83+SE||= 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 ||
+||= TI-84+||= 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP ||<!--I was sure there was a 2.55 MP for the 84+...-->
+||= TI-84+SE||= 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP[[footnote]]2011-03-27; in addition to MathPrint (MP; e. g. pretty printing matrices and fractions), it offers the STAT-Wizard to simplify functionality e.g. 1-Var Stats.[[/footnote]]||<!--There is no 2.48 for the native 84+SE.-->
+||= TI-Nspire (84+ Emulation)||= 2.42, 2.46, 2.48, 2.54MP, 2.56 MP ||
+||= TI-84+CSE||= 4.0, 4.2||
+||= TI-84+CE/83PCE||= 5.0, 5.0.1, 5.1.0.0110, 5.1.5.0019, 5.2.0.0035, 5.2.1.0042, 5.3.0.0037, 5.3.1.0058, 5.4.0.0034, 5.4.1.0052 (ChromeOS emulator), 5.6.0.0020 ||
+
++ Pre-Loaded Applications
+
+Except for the TI-83 which has no Flash ROM, all of the other TI-83 series of calculators come with some pre-loaded applications for users to use. Since most of the applications are rather limited in use and scope, not to mention that they each take up 16K bytes or more of memory, most people end up deleting them off of their calculator to allow them to fit more programs and games. If you want to put them back on your calculator again, you can find them all on [*http://education.ti.com TI's website].
+
+||~ Model||~ Pre-Loaded Applications||
+||= TI-83+||= Language Localization, Probability Simulation, Science Tools, StudyCards, Vernier EasyData ||
+||= TI-83+SE||= CellSheet, GeoMaster, Language Localization, Organizer, Periodic Table, StudyCards ||
+||= TI-84+||= Cabri Jr., Conic Graphing, Inequality Graphing, Language Localization, LearningCheck, LogIn, Probability Simulation, Science Tools, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData ||
+||= TI-84+SE||= app4math, Area Formulas, Cabri Jr., Catalog Help, CellSheet, Conic Graphing, Fundamental Topics in Science, GeoMaster, Inequality Graphing, Language Localization, LearningCheck, LogIn, NoteFolio, Organizer, Periodic Table, Polynomial Root Finder and Simultaneous Equation Solver, Probability Simulation, Puzzle Pack, Science Tools, Start-Up Customization, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData ||
+||= TI-84+CSE||= App4Math, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData, Language Localization, Probability Simulation||
+||= TI-84+CE||= App4Math, Language Localization, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData ||

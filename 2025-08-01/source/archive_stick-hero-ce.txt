@@ -1,0 +1,21 @@
+author: _iPhoenix_
+version: v1.0
+summary: 'A port of the popular game Stick Hero, ported to the CE in pure TI-Basic!'
+description: 'A port of Stick Hero, for the CE! I took a lot of inspiration from PT_''s CSE port of the game, so check that out, too!'
+arcade: '1'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:stickheroce/StickHeroCE.zip'
+image: 'archiveimage:image/Image.gif'
+fileSize: '1303'
+fileSizeUnit: '1'
+dateMade: ''

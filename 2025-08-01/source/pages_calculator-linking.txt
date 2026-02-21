@@ -1,0 +1,8 @@
+Needs some examples of ways to use linking commands
+
+[!-- Leave this invisible comment here! --]
+
+====
+http://tibasicdev.wikidot.com/linking
+====
+reference

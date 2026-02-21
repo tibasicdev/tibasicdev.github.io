@@ -1,0 +1,38 @@
+[[include inc:68k-command
+|picture=request.png
+|summary=Asks for a string in a dialog box.
+|syntax=Request //promptString//, //var//
+
+|location=Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 1 to enter the Dialog submenu.
+* Press 2 to select Request.
+
+|size=? bytes
+]]
+
+On its own, the Request command asks for a string in a dialog box, while showing the prompt string to its left. It can also be used inside a {{[[[68k:Dialog]]]}}..EndDlog block, to add a line of text to a more advanced dialog.
+
+The text must be a single string, but you can build one out of smaller strings and other data types using the & and string() commands.
+
+{{Request}} will give an error if the string is too long — how long varies from model to model, and depending on if text is being used inside or outside Dialog..EndDlog, but in general anything below 30 characters is safe (otherwise, you should test the dialog first to make sure everything fits). It uses the small, variable-width font on the TI-89 and TI-89 Titanium, and the normal fixed-width font on widescreen calculators.
+
++ Advanced Uses
+
+You can add 0 as a third argument for the calculator to turn off alpha lock when typing text, but all Request commands in a dialog box must have the same alpha-lock setting. The setting can be used to ask for a number, using {{[[[68k:expr]]]()}} as well.
+
++ Error Conditions
+
+[[include inc:68k-error num=130|error=Argument must be a string|cause=Text is used to display other data types without using {{[[[68k:string()]]]}} first]]
+[[include inc:68k-error num=230|error=Dimension|cause=the line of text is too long to fit in a dialog box]]
+
++ Related Commands
+
+* [[[68k:Dialog]]]..EndDlog
+* [[[68k:DropDown]]]
+* [[[68k:Text]]]
+* [[[68k:Title]]]
+
++ See Also
+
+* [[[68k:Dialogs]]]

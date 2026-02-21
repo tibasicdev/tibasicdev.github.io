@@ -1,0 +1,1 @@
+…that you can store an empty string into a string variable, but you cannot perform operations on it?

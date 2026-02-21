@@ -1,0 +1,21 @@
+author: builderboy
+version: '1.0'
+summary: 'You wake up to find yourself trapped in the center of a fiendish maze filled with mystery and enemies that want to eat you. A mysterious friend and long forgotten notes guide you through the maze. Find items, blow up walls, fight logical enemies, and above all, find the machine that will help you escape.'
+description: 'You wake up to find yourself trapped in the center of a fiendish maze filled with mystery and enemies that want to eat you. A mysterious friend and long forgotten notes guide you through the maze. Find items, blow up walls, fight logical enemies, and above all, find the machine that will help you escape.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: cc
+download: 'archivefile:trapped/trapped.zip'
+image: null
+fileSize: '13932'
+fileSizeUnit: '1'
+dateMade: '1222664400'

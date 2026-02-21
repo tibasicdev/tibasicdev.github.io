@@ -1,0 +1,44 @@
+This is a tutorial on how to upload files onto the TI-Basic Developer. It has been requested that a step-by-step guide be created, as the process can be quite complicated to new contributors.
+
+I am going to create a picture file to be uploaded...
+= [[image Screenshot_01.PNG width="1000px"]]
+
+Now I need to save it. Click "File", then "Save As..."
+= [[image Screenshot_02.PNG]]
+
+This next step may seem quite obvious. I feel though, that it is necessary to show everybody how to save in a *.PNG format. Click on the "Save as type:" drop-down box, and select "PNG (*.PNG)".
+= [[image Screenshot_03.PNG]]
+
+The PNG format is a superior one, as it is a lossless format (retains the full quality of the image), it is compressed (the file size is much smaller than a raw image) and it supports transparency (you can have "see-through" backgrounds).
+
+I have saved my image on the desktop:
+= [[image Screenshot_04.PNG width="1000px"]]
+
+The next step is to open up your favourite web-browser, and navigate to the page you want to upload your file on. In my case, it's the [[[home |83 home]]] page:
+= [[image Screenshot_05.PNG width="1000px"]]
+
+Scroll to the bottom of the page, and in the bottom-right hand corner is a selection of buttons. If you can't see these buttons, you may not be logged in (log in by pressing the "log in" link at the very top-right hand corner of the page). Now click on the "files" button (which conveniently appears in red in this image):
+= [[image Screenshot_06.PNG]]
+
+A menu appears just below the buttons. Click on the "upload new file" link, which has also conveniently appeared in red for some reason:
+= [[image Screenshot_07.PNG]]
+
+Another menu appears below. Now click the "Choose File" button:
+= [[image Screenshot_08.PNG]]
+
+Just navigate to where you saved your file -- mine was saved on the desktop. Then click on the file, and click on the "Open" button:
+= [[image Screenshot_09.PNG]]
+
+Notice how your file appears in the "File to upload:" text box. When uploading files on the internet, it is always wise to make the file-name all one word, and all lowercase. We are going to do that now:
+= [[image Screenshot_10.PNG]]
+
+You MUST remember to add the last four characters to the new file name. In this case, we added **.png**. If you don't it will cause problems later.
+
+Now click on the "upload file" button:
+= [[image Screenshot_11.PNG]]
+
+Hooray! Your file is now uploaded to the TI-Basic Developer! You will notice the list of files (arranged automatically in alphabetical order) now contains your file. Click on the "info" link:
+= [[image Screenshot_12.PNG]]
+
+Now comes up a box, including the URL of the file. The URL is important because it means you can access the file simply by clicking (or typing in) the address.
+= [[image Screenshot_13.PNG]]

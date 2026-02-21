@@ -1,0 +1,33 @@
+[[include inc:68k-command
+|picture=isclkon.png
+|summary=Checks if the hardware clock is turned on.
+|syntax=isClkOn()
+|ams2xx=07
+|size=3 bytes
+]]
+
+The isClkOn() command checks if the calculator's clock (which is used by most [[[68k:time and date]]] commands) is running or stopped. The result of isClkOn() is a truth value -- true if the clock is on, and false if the clock is off -- which makes it perfect for a condition in commands such as [[[68k:If]]]:
+[[code]]
+:If isClkOn() Then
+: Disp "Clock is running."
+:Else
+: Disp "Clock is stopped."
+:EndIf
+[[/code]]
+
+The isClkOn() command, though useful, isn't often called for. For instance, there's no need to check if the clock is on if you're planning to turn it on anyway:
+[[code]]
+:If not isClkOn()
+: ClockOn
+
+should just be
+
+:ClockOn
+[[/code]]
+One use for [[[68k:isClkOn()]]] is in functions, which aren't allowed to change the global status of the calculator with commands like [[[68k:ClockOn]]] or [[[68k:ClockOff]]]. Instead, you might do the next best thing, and return an error message if the clock is turned off.
+
++ Related Commands
+
+* [[[68k:ClockOn]]]
+* [[[68k:ClockOff]]]
+* [[[68k:startTmr()]]]

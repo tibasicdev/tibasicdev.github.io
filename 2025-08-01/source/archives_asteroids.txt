@@ -1,0 +1,17 @@
+author: SuperchuFrostbite
+description: "The Classic arcade game..... now for Ti! \nnot sure how to upload pictures, if it runs on 83, how to fix all the bugs... etc. please comment and/xor rate!"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+image: '/archives:asteroids/PIC3.JPG'
+download: ASTEROIDS.zip
+size: '3809'
+unit: '1'

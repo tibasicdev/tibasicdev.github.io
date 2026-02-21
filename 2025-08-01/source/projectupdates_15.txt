@@ -1,0 +1,1 @@
+We have optimised the two games to a good point. They both work. the next step is to publish them on a new page titled "Mancala" under the games page.

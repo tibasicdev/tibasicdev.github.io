@@ -1,0 +1,226 @@
+Now that you know how to adapt the screen to your needs, store pictures and graph databases, and turn points on and off, you need to create more. TI-Basic has no preloaded tool for creating squares or triangles. You can only draw using lines, circles, and functions, but with these you will be able to draw a vast array of shapes.
+[[toc]]
+
+
++ Lines
+
+All of the commands which draw lines and circles depend on the Xmin, Xmax, Ymin, and Ymax of the graph screen. For most of the examples on this page, the following will be used:
+||~ Variable ||~ Value ||
+|| Xmin || 0 ||
+|| Xmax || 10 ||
+|| Ymin || 0 ||
+|| Ymax || 10 ||
+
+++ Horizontal
+
+The [[[Horizontal]]] command is used to draw a line from left to right on the Graph Screen. Press 2nd, Draw then scroll until you find "Horizontal". This command takes a single input as the value for the Y value of the line. For the horizontal command, the Xmin and Xmax do not matter, since the line extends indefinitely in both directions, and is parallel to the X-axis.
+
+As an example, the following would draw a line in the middle of the screen given the graph settings above.
+[[code]]Horizontal 5[[/code]]
+This code would draw a line in the middle of the screen given any graph settings.
+[[code]]Horizontal (Ymax-Ymin)/2[[/code]]
+
+++ Vertical
+
+The [[[Vertical]]] command is used to draw a line from top to bottom on the Graph Screen. Press 2nd, Draw then scroll until you find "Vertical". This time, you need to enter the X coordinate of the line. This command is the opposite of Horizontal, so the Ymin and Ymax settings don't matter.
+
+As an example, the following would draw a line in the middle of the screen given the graph settings above.
+[[code]]:Vertical 5[[/code]]
+This code would draw a line in the middle of the screen given any graph settings.
+[[code]]Vertical (Xmax-Xmin)/2[[/code]]
+
+++ Line(
+
+If you don't want your line to go to the end of the screen but to stop at a coordinate, you will need to use [[[Line(]]].The [[[Line(]]] command draws a line from a coordinate to another. To use the command, press 2nd, Draw then scroll down to "Line(" The syntax goes like this: Line(X,,1,,,Y,,1,,,X,,2,,,Y,,2,,). A fifth argument is optional.[[footnote]]This fifth argument can only be "0" on the 83/84/+ and will erase the line. On the CSE, putting a color code as the fifth argument will change the color of the line.[[/footnote]]
+
+Drawing a square would have this code:
+[[code]]
+Line(2,2,2,8
+Line(2,8,8,8
+Line(8,8,8,2
+Line(8,2,2,2[[/code]]
+[[image http://tibasicdev.wdfiles.com/local--files/sk:more-shapes/square.gif width="200"]]
+
++ Circle 
+
+The [[[Circle(]]] command draws a circle with a radius "r" at a given point. Press 2nd, Draw then scroll down to Circle(. For the syntax, enter the X coordinate, the Y coordinate, and then the radius.[[footnote]]A fourth argument is optional and will draw the circle faster. To do this, add "{[[$i$]]" as the fourth argument.[[/footnote]]
+
+As an example, try the following using the graph settings above:
+[[code]]
+Circle(5,5,3
+Circle(5,5,5,{i[[/code]]
+
++ Functions 
+
+The following are commands that draw lines or curves according to a function. You most likely will not use them frequently, but they are available if you need them. [[footnote]]For all of the commands which draw or shade functions, the Y,,n,, variables can be used as the argument, provided they contain a function.[[/footnote]]
+
+++ DrawF
+
+Use the [[[DrawF]]] command to draw a function. This command is useful because it's output is erased with the rest of the Graph Screen when you use the [[[ClrDraw]]] command, which is not the case of a function entered into the "Y,,n,," variables.
+
+As an example:
+[[code]]DrawF X²+2x-4[[/code]]
+would draw something like this:
+[[image http://tibasicdev.wdfiles.com/local--files/sk:more-shapes/DrawF_command.png width="200"]]
+
+++ DrawInv
+
+As with DrawF, [[[DrawInv]]] draws a function. This command, however, draws the inverse of the function you enter. The syntax is the same and again, it will also be erased with the rest of the graph screen when [[[ClrDraw]]] is used.
+
+As an example of DrawInv, we will draw the same function as before, then draw the inverse:
+[[code]]DrawF X²+2x-4
+DrawInv X²+2x-4[[/code]]
+[[image http://tibasicdev.wdfiles.com/local--files/sk:more-shapes/DrawInv_command.png width="200"]]
+
+++ Tangent(
+
+The [[[Tangent(]]] command draws a function and it's tangent. This command is used very infrequently, but can be useful in certain applications such as Newton's Method. The syntax for this command takes two arguments; It requires a function, and a point at which to draw the tangent line.
+
+As an example, we will use the same function and have our tangent line positioned at some point "A" along the curve. Try this for yourself with different values of "A"!
+[[code]]Tangent(X²+2x-4,A[[/code]]
+
+++ Shade(
+
+The [[[Shade(]]] function can be quite useful. This function darkens the window from one horizontal line to another, or from one function to another. When using Shade( , the order of the arguments does matter. This command will only shade points where the first argument is less than the second argument, and not those where the first argument is greater than the second argument; see the second picture below for an example of this.
+
+As an example, with the graph settings above, let's assume we want to shade the entire screen. We have two options on how to do this, both are below.
+[[code]]
+Shade(0,10)
+ // or
+Shade(Ymin,Ymax)
+[[/code]]
+As an example of functions being used, we can do the following.
+[[code]]Shade(-6,X/3+2
+Pause
+ClrDraw
+Shade(-X+1,X/2[[/code]]
+You may have noticed the use of a [[[Pause]]] command on the Graph Screen. This is possible and is used quite commonly in some types of programs. It works the same as it does on the Home Screen, so to continue the program simply press Enter.
+[[image http://tibasicdev.wdfiles.com/local--files/sk:more-shapes/Shade_picture1.png width="200"]]  [[image http://tibasicdev.wdfiles.com/local--files/sk:more-shapes/Shade_picture2.png width="200"]]
+
++ Game:Dice
+
+Using everything that we've learned so far, let's create a little game. To make sure you understand the concepts so far, we will create a game that rolls 5 dice and then displays them on the Graph Screen.
+
+As with anything on the graph screen, we first need to adjust the window for what we will be doing. The Xmin, Xmax, Ymin and Ymax variables can be found in Vars, Window, and then scrolling down to them.
+[[code]]
+ClrDraw
+FnOff 
+AxesOff
+0→Xmin
+0→Ymin
+94→Xmax
+62→Ymax
+[[/code]]
+Notice how we selected the dimensions to be the same size as the number of pixels on the graph screen. This will make it easier when we go to do the drawing. Now, there's nothing in this code that we haven't seen. We'll go step by step through it. First we'll draw the dice. Yes, we could draw each line individually, but optimized code is always preferred. To optimize this code right away, we will use loops to draw the outlines of the dice. Try to understand this code before continuing and typing it into your own calculator.
+[[code]]For(I,4,76,18
+Line(I,21,I,35
+Line(I,21,I+14,21
+Line(I,35,I+14,35
+Line(I+14,21,I+14,35
+End
+[[/code]]
+Now that we have the dice, we need to roll them. Since there will be more than one result, we should use a list to store the values to so that we overwrite as few variables as possible; Let's use L₁. Try to create your own code here! When you think you have it working, take a look at how I would do it before moving to the next section.
+[[collapsible show="+ Show How I would do it" hide="- Hide"]]
+[[code]]randInt(1,6,5)→L₁[[/code]]
+[[/collapsible]]
+
+That was simple! Next, we need to create a loop to let the user roll the dice as long as they want and stop when they hit a key. We'll use the [[[getkey]]] and the [[[While]]] command. Again, try and create your own code as it will help you learn the routines better!
+[[collapsible show="+ Show How I would do it" hide="- Hide"]]
+[[code]]
+0→K
+While not(K
+getKey→K
+End
+[[/code]]
+[[/collapsible]]
+
+Now here's the "tricky part". I'll let you try to code your own output for the dots on the dice but you'll probably want to look at this example.
+[[collapsible show="+ Show How I would do it" hide="- Hide"]]
+[[code]]
+For(I,1,5
+18I-7→X
+If fPart(L₁(I)/2)=.5
+Pt-On(X,28,2)
+If L₁(I)≠1:Then
+Pt-On(X-4,32,2
+Pt-On(X+4,24,2
+End
+If L₁(I)>3:Then
+Pt-On(X-4,24,2
+Pt-On(X+4,32,2
+End
+If L₁(I)=6:Then
+Pt-On(X-4,28,2
+Pt-On(X+4,28,2
+End
+End
+Pause
+[[/code]]
+[[/collapsible]]
+
+Try to understand what I did before continuing. First, only the odd numbers have a dot in the center. With [[[fPart(]]], I was able to know if the [[$I$]]th number of my list was odd or even. If it is odd, I automatically put a dot in the center. Now, only a value of one has no dots at the top left and at the bottom right of the dice; so if the value is not 1, we draw those in. If the value is greater than three, the other two corners get filled in. Finally, if the value is six, we draw in the middle two dots.
+
+You may be wondering why I chose to use the variable X. Notice that the variable is the output of an algorithm. We do this frequently when programming because it greatly simplifies the code. I could have said "18I-7" multiple times in place of X, but using X reduces the complexity. Quite often there will be situations where you will need to create algorithm.
+
+Let's finish by cleaning up the graph screen. This is always a good practice so that nothing is messed up after the program is run. It also allows us to give this program to our friends without having to explain how to get back the normal Graph Screen.
+[[code]]
+ClrDraw
+AxesOn
+FnOn
+ZStandard
+Output(1,1,"
+[[/code]]
+
+And here is the whole game:
+
+[[code]]
+ClrDraw
+FnOff 
+AxesOff
+0→Xmin
+0→Ymin
+94→Xmax
+62→Ymax
+For(I,4,76,18
+Line(I,21,I,35
+Line(I,21,I+14,21
+Line(I,35,I+14,35
+Line(I+14,21,I+14,35
+End
+randInt(1,6,5→L₁
+0→K
+While not(K
+getKey→K
+End
+For(I,1,5
+18I-7→X
+If fPart(L₁(I)/2)=.5
+Pt-On(X,28,2
+If L₁(I)≠1:Then
+Pt-On(X-4,32,2
+Pt-On(X+4,24,2
+End
+If L₁(I)>3:Then
+Pt-On(X-4,24,2
+Pt-On(X+4,32,2
+End
+If L₁(I)=6:Then
+Pt-On(X-4,28,2
+Pt-On(X+4,28,2
+End
+End
+Pause
+ClrDraw
+AxesOn
+FnOn
+ZStandard
+Output(1,1,"
+[[/code]]
+
+[[include inc:next-prev
+|prevpage = sk:graph-settings
+|prevtitle = Graph Format Settings
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:text
+|nexttitle = Text and Text Sprites]]

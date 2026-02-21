@@ -1,0 +1,36 @@
+This page is a collection of short routines that can be used as subroutines in larger programs. By contrast, the [[[68k:sample-programs|]]] page links to entire games (that may use some of these routines). [[[68k:technique-examples|]]] contains yet a third type of program -- short programs that may be of some value by themselves, but are present here mainly to demonstrate the use of some programming technique in an actual program.
+
+When contributing routines, please follow these guidelines:
+
+# A routine should be self-contained, and relatively short in length.
+# A routine should be thoroughly tested to make sure it works correctly.
+# Include [[[inc:routine|inc:routine]]] as the starting point for pages.
+# When the routine page is finished, link to it from here.
+
+----
+[[tabview]]
+[[tab List & Matrix Routines]]
+
+* **[[[68k:firstnz|First Non-Zero Element]]]** -- Finds the first nonzero element in a list.
+* **[[[68k:List Search]]]** -- Returns the first occurrence of an element in a list, or 0 if it wasn't found.
+* **[[[68k:List Frequency]]]** -- Finds the frequency of values in a list.
+[[/tab]]
+[[tab String Routines]]
+
+* **[[[68k:Reverse String]]]** -- Reverses a string.
+* **[[[68k:Pad String]]]** -- Pads the end of a string with spaces to be a specified length.
+[[/tab]]
+[[tab Text Manipulation]]
+
+* **[[[68k:Highlight Text]]]** -- Displays inverted, black-on-white text.
+* **[[[68k:Large Textbox]]]** -- Displays a dialog with an arbitrary amount of text.
+[[/tab]]
+[[tab Graphics Routines]]
+
+* **[[[68k:Invert Screen]]]** -- Inverts the entire graph screen.
+[[/tab]]
+[[tab Miscellaneous Routines]]
+
+* **[[[68k:High Scores]]]** -- Displays and stores a high score table.
+[[/tab]]
+[[/tabview]]

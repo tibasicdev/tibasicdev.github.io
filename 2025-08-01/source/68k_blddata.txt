@@ -1,0 +1,30 @@
+[[include inc:68k-command
+|picture=sample.png
+|summary=Creates data variable dataVar based on the information used to plot the current graph. 
+|syntax=BldData [//dataVar//]
+
+|location=This command is only available from the CATALOG
+
+|size=? byte(s)
+]]
+
+Creates data variable //dataVar// based on the information used to plot the current graph. If dataVar is omitted, the data is stored in the
+system variable sysData.
+
+the increment for the independent value (ex. x for function or θ for polar graphs) is calculated based off the window settings. 
+
+for 3D graphs, x remains constant until y increments through its range, this continues until x increments through its range.
+
+When the Data/Matrix editor is started for the first time after BldData is run, //dataVar// or //sysData// will be the active variable.
+
++ Related Commands
+
+* Command 1
+* Command 2
+* Command 3 
+
++ See Also
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1

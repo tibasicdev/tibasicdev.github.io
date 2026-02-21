@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Little Man Computer Emulator LMC v1.0
+|author=Rick Skrbina
+|size=1,144 Bytes
+|description=The Little Man Computer was designed to teach students how computers work and about assembly language.  This is a Little Man Computer emulator for your TI 83.  It runs pure LMC machine code with 100% accuracy and full speed.  The only difference form this emulator from the real LMC is that this emulator only has 99 mailboxes instead of 100.  This is a great program for you if you ever want to learn assembly language.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:little-man-computer-emulator-lmc-v1-0/LMC%20Emulator.zip
+|downloadName=LMC Emulator.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

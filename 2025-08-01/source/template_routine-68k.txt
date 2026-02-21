@@ -1,0 +1,76 @@
+This page is a guide to both format and content for pages describing a particular routine. Make sure that you follow it when adding a new routine, and also remember to add 3-5 page tags describing the routine content. It may be useful to copy the code for this page and edit it as necessary, when creating a new routine page.
+
+If a section (such as Error Conditions) does not contain any information, feel free to omit it.
+
+------
+
+[[div style="float:right; width: 16em; padding: 1em 1em 0; margin: 1em 0 1em 1em; border-left: solid #888888 1px; background-color: #FFFFFF;"]]
+
+= [[image template:command/samplescreenshot.gif]]
+
+**Routine Summary**
+
+A short description of what the routine does.
+
+**Inputs**
+
+The variable(s) that you need to setup to to use the routine.
+
+//Variable 1// - What it is used for
+//Variable 2// - What it is used for
+
+**Outputs**
+
+The variable(s) that the routine stores to at the end.
+
+//Variable 1// - What it contains
+//Variable 2// - What it contains
+
+**Variables Used**
+
+The variables used in the routine.
+
+List the variables one after another, separating each with a comma.
+
+**Calculator Compatibility**
+
+The calculator(s) that the routine works on.
+
+Separate each calculator with a slash when displaying the calculators. For example, the following line means the routine works on every calculator.
+
+TI-89/92/+/V200
+
+**Author(s)**
+
+The person(s) who wrote the routine, and if available, a link to the routine.
+
+**Download**
+
+Upload the routine in a zip file to the page, and post a link to it for people to download.
+
+([http://tibasicdev.wikidot.com/local--files/routine-page/routine.zip routine.zip])
+
+[[/div]]
+
+[[code]]
+:The code of the routine
+:should be included here
+[[/code]]
+
+An explanation of the routine, including how it works, how you can modify it, what variables it uses, and anything else that is important to know when using the routine. The explanation should be thorough enough so that a person can use the routine without requiring help from somebody else.
+
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+
+* **[[[68k:errors#e260|260 - Domain error]]]** -- Thrown if the argument is not in the range 1 through 99.
+* **[[[68k:errors#e780|780 - No solution found]]]** -- Thrown if the equation doesn't have a solution.
+
++ Related Routines
+
+There are several routines that are similar in functionality or are used in a similar context. Make a bulleted list of them, with links to the other routines' pages. It will often be the case that several routines all link to each other.
+
+* Routine 1
+* Routine 2
+* Routine 3

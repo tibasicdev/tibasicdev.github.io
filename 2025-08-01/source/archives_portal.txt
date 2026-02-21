@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Portal
+|author=Builderboy
+|size=9,405 Bytes
+|description=In Portal, you are a test subject at The Aperture Science Enrichment Program and are testing The recent invention of the Portal Gun! Yay! It allows you to shoot portals and move between them. Those who have played the official version will remember GlaDos... And she's back in the calculator version! GlaDOS is your narrator and guide and is the one that will monitor all your tests. But when the tests are over... Watch out! the game isn't over yet...
+
+|picture=http://tibasicdev.wikidot.com/local--files/archives:portal/SCREENSHOT2.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:portal/portal.zip
+|downloadName=Portal.zip
+
+|84pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

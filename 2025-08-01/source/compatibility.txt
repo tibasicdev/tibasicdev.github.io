@@ -1,0 +1,57 @@
+When writing TI-Basic programs, it is ideal to have the program universally compatible with the entire [[[thecalcs |TI range]]]. However, that is not always possible. For example, while there are no lowercase letters on the TI-83, excluding the statistical variables, all of the other calculators have them. Keep in mind that although the actual command may not exist on a calculator, it may be possible to transfer a program with the command to that calculator. Here is a table showing the TI-Basic commands that may provide compatibility issues between different calculator versions:
+
+||~ ||||||||||||||||||||~ Calculator Models ||
+||~ Command ||~ TI-83 ||~ TI-83+ ||~ TI-83+ OS 1.15 ||~ TI-84+ ||~ TI-84+ OS 2.30 ||~ TI-84+CSE ||~ TI-84+CE/83PCE ||~ TI-Nspire ||~ TI-Nspire CX ||~ TI-Nspire CX/CAS ||
+|| [[[percent|%]]] [[footnote]]This command is only accessible in a hex editor[[/footnote]] ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Archive]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[asm-command|Asm(]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[AsmComp(]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Asm84CPrgm]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✘[[footnote]] Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program. [[/footnote]] ||
+|| [[[Asm84CEPrgm]]][[footnote]]Or "Asm83CEPrgm" on the TI-83 Premium CE[[/footnote]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||
+|| [[[AsmPrgm]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✘ ||= ✘ [[footnote]] Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program. [[/footnote]]||
+|| [[[BackgroundOff]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[BackgroundOn]]] [[footnote]]And all of the Image tokens[[/footnote]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[chisquaregof-test|χ²GOF-Test(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[checkTmr(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Circle(]]] ||= ✓[[footnote]]Using a fourth argument will render a [http://tibasicdev.wikidot.com/errors#syntax syntax error][[/footnote]] ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ [[footnote]]This command can take five arguments, but cannot use {i} as an optimization.[[/footnote]]||= ✓ [[footnote]]This command can take five arguments, but cannot use {i} as an optimization.[[/footnote]]||
+|| [[[ClockOff]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[ClockOn]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[dayOfWk(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[DetectAsymOff]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[DetectAsymOn]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[Dot-Thick]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[Dot-Thin]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[eval(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||
+|| [[[ExecLib]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[GarbageCollect]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Get(]]] ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓[[footnote]]Requires OS 5.1.5 or later[[/footnote]] ||
+|| [[[getDate]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[getDtFmt]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[getDtStr(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[getTime]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[getTmFmt]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[getTmStr(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[GraphColor(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[invT(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[isClockOn]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[LinRegTInt]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Manual-Fit]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[OpenLib(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[piecewise(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓[[footnote]]Requires OS 5.3 or later[[/footnote]] ||
+|| [[[Send(]]] ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓[[footnote]]Requires OS 5.1.5 or later[[/footnote]] ||
+|| [[[setDate(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[setDtFmt(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[setTime(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[setTmFmt(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[startTmr]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[sub(]]] ||= ✓[[footnote]]Using a single argument will render a [http://tibasicdev.wikidot.com/errors#syntax syntax error][[/footnote]] ||= ✓[[footnote]]Using a single argument will render a [http://tibasicdev.wikidot.com/errors#syntax syntax error][[/footnote]] ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Text(]]] ||= ✓[[footnote]]Using ‾1 as the first argument will render a [http://tibasicdev.wikidot.com/errors#syntax syntax error][[/footnote]] ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[TextColor(]]] [[footnote]]And all of the color tokens[[/footnote]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[Thick]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[Thin]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||
+|| [[[timeCnv(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[toString(]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||
+|| [[[UnArchive]]] ||= ✘ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||= ✓ ||
+|| [[[Wait]]] ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✘ ||= ✓ ||
+
+[[footnoteblock title="Exceptions:"]]

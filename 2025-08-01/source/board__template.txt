@@ -1,0 +1,101 @@
+[[table style="width: 100%;"]]
+[[row]][[cell style="text-align: right; background-image: url(http://tibasicdev.wikidot.com/local--files/board:_template/tibd_newThread.png); background-position: center right; background-repeat: no-repeat;"]]
+[[module NewPage category="post" tags="_thread cat:%%name%%" parent="%%fullname%%" button="Create Thread"]]
+[[/cell]][[/row]][[/table]]
+
+[[module ListPages category="post" tags="+cat:%%name%% +_thread -_null +_pinn3d" order="created_at desc" separate="false" prependLine="[[include inc:board-table]]" appendLine="[[/table]]" perPage="20"]]
+[[row]]
+[[cell class="threadTitle"]][[image http://tibasicdev.wikidot.com/local--files/board:_template/pinned.png alt="(Pinned)" title="Pinned"]]%%title_linked%%[[/cell]]
+[[cell class="threadCreated"]]
+[[user %%created_by%%]]
+[[span style="font-size: 80%; color: #555;"]]%%created_at|%d %b %Y, %R|agohover%%[[/span]]
+[[/cell]]
+[[cell class="threadPosts"]]%%children%%[[/cell]]
+[[cell class="threadRecent"]]
+[[include :csi:include:listpages body=@<[[>@user @<%%>@created_by@<%%>@@<]]>@\n@<[[>@span style=\"font-size: 80%; color: #555;\"@<]]>@@<%%>@created_at@<&#124;>@%d %b %Y, %R@<&#124;>@agohover@<%%>@ ([/@<%%>@parent_fullname@<%%>@#post@<%%>@name@<%%>@ Goto])@<[[>@/span@<]]>@|tags=-_thread +post:%%name%% -_null|category=post|limit=1]]
+[[/cell]]
+[[/row]]
+[[/module]]
+
+[[module ListPages category="post" tags="+cat:%%name%% +_thread -_null -_pinn3d" order="created_at desc" separate="false" prependLine="[[include inc:board-table-2]]" appendLine="[[/table]]" perPage="20"]]
+[[row]]
+[[cell class="threadTitle"]]%%title_linked%%[[/cell]]
+[[cell class="threadCreated"]]
+[[user %%created_by%%]]
+[[span style="font-size: 80%; color: #555;"]]%%created_at|%d %b %Y, %R|agohover%%[[/span]]
+[[/cell]]
+[[cell class="threadPosts"]]%%children%%[[/cell]]
+[[cell class="threadRecent"]]
+[[include :csi:include:listpages body=@<[[>@user @<%%>@created_by@<%%>@@<]]>@\n@<[[>@span style=\"font-size: 80%; color: #555;\"@<]]>@@<%%>@created_at@<&#124;>@%d %b %Y, %R@<&#124;>@agohover@<%%>@ ([/@<%%>@parent_fullname@<%%>@#post@<%%>@name@<%%>@ Goto])@<[[>@/span@<]]>@|tags=-_thread +post:%%name%% -_null|category=post|limit=1]]
+[[/cell]]
+[[/row]]
+[[/module]]
+
+[[module CSS]]
+.threadTable{    width: 100%; }
+.threadTable tr{    background-color: #E2E1DC; }
+.threadTable tr:nth-child(odd){    background-color: #F8F8F8; }
+.threadTable .threadTitle{
+    font-weight: bold;
+    padding: 0 0 0 6px;
+}
+.threadTable .threadTitle img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.threadTable .threadCreated,
+.threadTable .threadRecent{
+    padding: 2px 0 2px 6px;
+}
+.threadTable .threadPosts{
+    text-align: center;
+    width: 73px;
+}
+.threadTable .header{
+    background-color: #C7C9B8;
+    padding: 2px 0 2px 6px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+}
+/* .threadTable .header.threadTitle{    width: 50%; }/* */
+.threadTable .header.threadPosts{
+    text-align: center;
+    width: 75px;
+    padding-left: 0;
+}
+.threadTable a{    text-decoration: none; }
+.threadTable a:hover{    color: #111; }
+
+.new-page-box{
+    display: inline-block;
+    width: 215px;
+    text-align: right !important;
+}
+.new-page-box .button{    display: none; }
+.new-page-box .text{
+    width: 0px;
+    border-radius: 4px;
+    opacity: 0;
+    border: 1px solid #AAA;
+    height: 18px;
+    transition: width 750ms, opacity 750ms;
+    -moz-transition: width 750ms, opacity 750ms;
+    -webkit-transition: width 750ms, opacity 750ms;
+    -o-transition: width 750ms, opacity 750ms;
+}
+.new-page-box:hover .text,
+.new-page-box .text:focus{
+    width: 200px;
+    opacity: 1;
+}
+.threadTitle,
+.threadPosts,
+.threadCreated,
+.threadRecent{    border: 1px solid #CCC; }
+.threadTable .threadCreated,
+.threadTable .threadRecent{    width: 15%; }
+.threadTable .threadRecent p{    margin: 0; }
+
+.threadTable .wikidot-hybrid-module-loading{    display: none; }
+[[/module]]

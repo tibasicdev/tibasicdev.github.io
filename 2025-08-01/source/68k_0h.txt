@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=0h.png
+|summary=Indicates that a number is written in hexadecimal.
+|syntax=0h//digits//
+|size=2 bytes
+]]
+
+The calculator can work with numbers written in three bases: decimal (the usual), binary, and hexadecimal. The 0h command indicates that a number is written in [[[68k:glossary#hexadecimal|hexadecimal]]]:
+[[code]]
+:0h10
+           16
+:0h2F6
+           758
+[[/code]]
+
+When written in hexadecimal, numbers are expressed as signed 32-bit integers (32 bits correspond to 8 hexadecimal digits), which means that only the integers between -2^^31^^ and 2^^31^^-1 can be expressed in hexadecimal. With other hexadecimal-related commands, numbers are simply truncated to fit in this range. Not so with 0h: if you enter more than 8 hexadecimal digits after the 0b, the result is a domain error.
+
+Even if the calculator is in hexadecimal mode, you still have to write 0h for an integer to be interpreted as hexadecimal: the mode setting only affects output. If the calculator is in decimal mode, which is the default, you have to use [[[68k:▶Hex]]] to get output in hexadecimal. 
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=0h is used with more than 8 hexadecimal digits after it]]
+
++ Related Commands
+
+* [[[68k:0b]]]
+* [[[68k:▶Bin]]]
+* [[[68k:▶Hex]]]

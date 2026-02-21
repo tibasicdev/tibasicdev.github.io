@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Mine Field
+|author=TI-Basic Developer
+|size=239 Bytes
+|description=Like the classic game minesweeper, the goal is to avoid hitting the mines.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/mine-field/minefield.zip
+|downloadName=Minefield.zip
+
+|83compatible=DO NOT EDIT
+]]

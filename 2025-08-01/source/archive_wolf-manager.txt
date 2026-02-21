@@ -1,0 +1,21 @@
+author: naga_serpentis
+version: '0.90'
+summary: 'The new Wolfman Shell is here! Introducing a stunning user interface and new features that don''t exist in other Shells, Wolf Manager gets the job done with better file management and program execution.'
+description: "The new Wolfman Shell is here! Introducing a stunning user interface and new features that don't exist in other Shells, Wolf Manager gets the job done with better file management and program execution. It includes features such as group extraction, bulk file selection, code snipping, improved security, debugging collection, sending and receiving files, token retriever, \"trash bin\", better group support, and more! Inspired by Slimshell, Wolfman has a new user interface that is simple, gets the point across, and easy to read. Thanks to the amazing work of Michael2_3B, the user interface introduces a fancy color gradient render and the program creates a theme based off the colors! You can also customize the theme to your liking as well if you want something more personalized. Wolf Manager has better file handling and stability so less errors and bugs are prone to happen. Give the program a shot today and let me know what you think! - \n**THIS VERSION IS A BETA RELEASE. Not all features such as bulk selection, trash bin, recent files, and the secret Easter egg game are not implemeted or finished yet. By running this program you agree to this statement.**\n------\n\nSince AJAX keeps failing, please visit Cemetech here to download:\n\nhttps://www.cemetech.net/downloads/files/2597/x3310"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: ff
+download: null
+image: 'archiveimage:demo-0-90/Demo-0-90.gif'
+fileSize: '2'
+fileSizeUnit: '3'
+dateMade: '1739430000'

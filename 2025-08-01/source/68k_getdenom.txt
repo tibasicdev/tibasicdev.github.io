@@ -1,0 +1,27 @@
+[[include inc:68k-command
+|picture=getdenom.png
+|summary=Returns the denominator of a fraction or given expression
+|syntax=getDenom(//expression1//)
+|location=[MATH][9][B][2]
+|size=X byte(s)
+]]
+
+The {{getDenom()}} command return the value of a given expression (an expression being a number or an algebraic expression). 
+
+[[code]]
+getDenom(3/5)
+   5
+getDenom((x+1)/(x-1))
+   x-1
+[[/code]]
+[!--
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+--]
++ Related Commands
+
+* [[[68k:getNum()]]]
+* [[[68k:left()]]]
+* [[[68k:right()]]]

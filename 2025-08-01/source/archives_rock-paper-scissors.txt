@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Rock Paper Scissors
+|author=TI-Basic Developer
+|size=296 Bytes
+|description=You have three different hand gestures to choose from, but can you choose the best hand…
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/rock-paper-scissors/rockpaperscissors.zip
+|downloadName=RockPaperScissors.zip
+
+|83compatible=DO NOT EDIT
+]]

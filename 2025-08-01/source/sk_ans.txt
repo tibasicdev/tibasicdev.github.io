@@ -1,0 +1,76 @@
++ The Ans token
+
+++ What is Ans?
+Ans is a special variable that holds the value returned by the last expression or command. To understand the concept of the Ans we'll go to the main calculator screen and type a number:
+
+[[code]]
+:8
+		8
+:Ans
+		8
+[[/code]]
+
+Whenever an object (a variable or a list or a string ...) appears in the right side of the Main screen it is assigned to Ans. Take a look at the next example:
+
+[[code]]
+:8
+		8
+:Ans
+		8
+:10
+		10
+:Ans
+		10
+:"HELLO"
+	HELLO
+:Ans
+	HELLO
+:{1,2,3}
+		{1,2,3}
+:Ans
+		{1,2,3}
+And so on...
+[[/code]]
+
+As you can see the Ans can be everything. Now look at the next example:
+
+[[code]]
+:4→A
+		4
+:Ans
+		4
+[[/code]]
+
+So when you set a variable its value becomes the Ans, and in a program it works the same way.
+
+++ Why should I use Ans?
+Basically the Ans command works like some kind of calculator cache. It is the last value assigned and because of how it is built it is faster to use the Ans (just like a computer gets data from the cache faster than from the main memory). So if I use an Ans command (when possible) instead, the program will process that information faster, and the user will be happier. Also, it takes less storage to update and use Ans, so it will make the program smaller. This will allow you and the user to do more elsewhere.
+
+++ Some uses of the Ans:
+Lets see the next example:
+
+[[code]]
+:Repeat Ans=21
+:getkey
+:If Ans
+:Disp "A KEY WAS PRESSED
+:If not(Ans
+:Disp "NO KEY PRESSED
+:End
+[[/code]]
+
+In this example, the calculator tells the user whether a key is pressed or not. Let's have a closer look: The Repeat D=21 will execute the instructions underneath it until the Ans is equal to 21. The getKey command (we'll expand on that later) will check the key you are pressing and return the number equivalent to the key (if you are not pressing any it returns 0). Because the getKey value is stored in Ans, we do not need to use any other variables. So if Ans is different from 0, we display "A KEY WAS PRESSED." If it isn't different, we display "NO KEY PRESSED." Easy, huh?
+
+Please note that Disp, along with some other functions, won't affect the value of the Ans command.
+
+++ More on the Subject
+
+An in depth look at the Ans variable can be found [[[ans|here]]].
+
+[[include inc:next-prev
+|prevpage = sk:loops
+|prevtitle = Loops
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:summary-basics
+|nexttitle = Chapter Summary]]

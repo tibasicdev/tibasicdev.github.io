@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=minesweeper.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic minesweeper game.
+|size=3,339 bytes
+|libraries=Yes, [http://tibasicdev.wikidot.com/xlib xLIB]
+|compatibility=TI-83+/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/94/9445.html Fred Sparks] (CDI)
+|download=[http://tibasicdev.wikidot.com/local--files/minesweeper/minesweeper.zip minesweeper.zip]
+]]
+
+Minesweeper is another minesweeper clone programmed in TI-Basic. The main feature of this game is its grayscale graphics, which make it one of the best looking minesweeper games available. The game uses the standard controls: arrow keys move the cursor, 2nd uncovers a spot, and ALPHA flags a spot.

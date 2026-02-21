@@ -1,0 +1,1 @@
+…that the Nspire can program in TI BASIC, C, Assembly, and Lua?

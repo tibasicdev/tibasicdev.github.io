@@ -1,0 +1,37 @@
+If you have any suggestions whatsoever on content, feel free to add them here.
+[[tabview]]
+[[tab Pages to Do]]
+[[module SimpleToDo id="To Do TI|BD 68k"]]
+[[/tab]]
+[[tab Missing Pages]]
+Missing pages are indicated by a red link.
+[[include 68k:sitemap]]
+[[/tab]]
+[[tab Incomplete Pages]]
+* All of the pages over at Code Examples are virtually content-less. If someone has any particular requests for routines and such, add them here.
+* [[[68k:timings|]]] needs more comparisons: any requests?
+* [[[68k:variable-names|]]] is finished, but it needs to be put somewhere for people to find.
+* Add more pages similar to [[[68k:list-optimization|]]] and link to them from [[[68k:optimization|]]].
+[[/tab]]
+[[tab Commands Needed]]
+
+Here's a step-by-step process for writing a command page if you'd like to help. Skip any step you don't understand rather than struggling with it -- some info is better than none.
+
+# Title of the page should be "The ---- Command"
+# Start with the 68k command stub.
+# Change the picture name to the name of the page, in lowercase, followed by .png -- this will find the screenshot.
+# To easily find the location, check the third tab of the command index.
+# To easily find the command size, go to http://tigcc.ticalc.org/doc/estack.html and find the command.
+ * Start with 1 byte since all commands take at least that.
+ * If it's under the ExtTags or InstructionTags heading, add a byte.
+ * If the syntax on the left has [ ] brackets at all (which usually means optional arguments) add a byte.
+ * There are exceptions to this, but I think I've already documented them all.
+# If you don't know what to write, check similar commands. Actually, check them anyway.
+# If you don't know everything about the command, writing something still is better than no page at all.
+# To figure out the errors a command can cause, scroll down [[[68k:errors|the list]]] and see if any apply.
+# Add the category (command index, second tab) of the command as a parent. If it's in several, pick one.
+# Tag it with 'command', every category it belongs to, and anything else that seems important.
+
+A bunch of commands have a screenshot attached to that command's page. These don't serve any purpose, since the screenshots the page actually uses are attached to [[[68k:command-index]]]. These ought to be deleted sometime, although this isn't urgent: if you do it, you'll get snaps from me, but I'm personally holding out for an update to the wiki software that will let me delete them all at once.
+[[/tab]]
+[[/tabview]]

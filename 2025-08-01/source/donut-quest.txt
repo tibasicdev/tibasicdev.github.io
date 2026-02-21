@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=donut-quest.gif
+|summary=A quality puzzle game with donuts.
+|size=10,276 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://mpl.unitedti.org/ Mikhail Lavrov] (DarkerLine)
+|download=[http://tibasicdev.wikidot.com/local--files/donut-quest/donutquest.zip donutquest.zip]
+]]
+
+A world where the rich hoard donuts in heavily secured mansions, and the poor are left with nothing. A perfect world for a donut thief. Donut Quest is a TI-Basic game of revolutionary quality. It uses no libraries of any kind, in fact, you don't need anything other than the game program to play it. On each of eight levels, you must get to (and eat) all the donuts, then leave through an exit (unless given other instructions). There will be dangerous obstacles ahead of you, and the path will not be easy... but you can always triumph.

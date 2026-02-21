@@ -1,0 +1,21 @@
+author: 'Rubius Studios'
+version: '2.1'
+summary: ''
+description: ''
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: null
+image: null
+fileSize: '1'
+fileSizeUnit: '2'
+dateMade: '1581829200'

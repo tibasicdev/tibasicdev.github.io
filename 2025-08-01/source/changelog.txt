@@ -1,0 +1,42 @@
+This page contains tables detailing which features were added with each operating system release. Taking this information into account can help you maintain a level of backwards compatibility. Commands that are --crossed out-- were removed in that version.
+
++ TI-83+/SE
+||~ OS Version||~ Notable Changes||
+||= 1.03||= Initial version ||
+||= 1.10||= ||
+||= 1.12||= ||
+||= 1.13||= ||
+||= 1.14||= ||
+||= 1.15||= ||
+||= 1.16||= ||
+||= 1.17||= ||
+||= 1.18||= ||
+||= 1.19||= ||
+
++ TI-84+/SE
+||~ OS Version||~ Notable Changes||
+||= 2.21||= [[[setDate(]]], [[[setTime(]]], [[[setDtFmt]]], [[[SetTmFmt(]]], [[[timeCnv(]]], [[[dayOfWk(]]], [[[getDtStr(]]], [[[getDate]]], [[[getTime]]], [[[getDtFmt]]], [[[getTmFmt]]], [[[isClockOn]]], [[[ClockOff]]], [[[ClockOn]]], [[[OpenLib(]]], [[[ExecLib]]], [[[checkTmr|checkTmr(]]], [[[startTmr]]] ||
+||= 2.22||= ||
+||= 2.30||= [[[Manual-Fit]]], [[[chisquaregof-test|χ²GOF-Test(]]], [[[invT(]]], [[[LinRegTInt]]] ||
+||= 2.40||= ||
+||= 2.41||= ||
+||= 2.43||= ||
+||= 2.53MP||= [[[mathprint-mode|MATHPRINT]]], [[[classic-mode|CLASSIC]]], [[[dec-answer|DEC Answer]]], [[[frac-answer|FRAC Answer]]], [[[randIntNoRep(]]], [[[f-d|►F◄►D]]], [[[logBASE(]]], [[[summationsigma|summation Σ(]]], [[[un-d|Un/d]]], [[[zfrac|ZFracX]]], [[[remainder(]]]||
+||= 2.55MP||= [[[statwizard-off]]], [[[statwizard-on]]] ||
+
++ TI-84+CSE
+||~ OS Version||~ Notable Changes||
+||= 4.0||= Added support for the color screen (although it is really just the BW OS with some color commands) ||
+||= 4.2||= ||
+
++ TI-84+CE
+||~ OS Version||~ Notable Changes||
+||= 5.0||= --Get(--, --Send(--||
+||= 5.0.1||= ||
+||= 5.1.0.0110||=  ||
+||= 5.1.5.0019||= [[[Get(]]], [[[Send(]]], timed [[[Pause]]]||
+||= 5.3.0.0037||= ||
+||= 5.4.0.0034||= ||
+||= 5.4.1.0052||= ||
+||= 5.5.0||= ||
+||= 5.6.0.0020||= --Asm--||

@@ -1,0 +1,27 @@
+[[module ListPages order="titleAsc" perPage="1000" skipCurrent="true" categories="*" tags="-redirect +_preparation1"]]
+[[include inc:heading heading=%%title%%]]
+%%content%%
+~~~~
+[[size 80%]]For the most up-to-date version of this command, see [*%%link%% %%link%%][[/size]]
+[[/module]]
+
+[[module ListPages order="titleAsc" perPage="1000" skipCurrent="true" categories="*" tags="-redirect +_preparation2"]]
+[[include inc:heading heading=%%title%%]]
+%%content%%
+~~~~
+[[size 80%]]For the most up-to-date version of this command, see [*%%link%% %%link%%][[/size]]
+[[/module]] 
+
+[[module ListPages order="titleAsc" perPage="1000" skipCurrent="true" categories="*" tags="-redirect +_preparation3"]]
+[[include inc:heading heading=%%title%%]]
+%%content%%
+~~~~
+[[size 80%]]For the most up-to-date version of this command, see [*%%link%% %%link%%][[/size]]
+[[/module]] 
+
+[[module ListPages order="titleAsc" perPage="1000" skipCurrent="true" categories="*" tags="-redirect +_preparation4"]]
+[[include inc:heading heading=%%title%%]]
+%%content%%
+~~~~
+[[size 80%]]For the most up-to-date version of this command, see [*%%link%% %%link%%][[/size]]
+[[/module]]

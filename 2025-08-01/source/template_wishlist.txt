@@ -1,0 +1,4 @@
+[[include inc:wishlist
+|user=
+|comment=
+]]

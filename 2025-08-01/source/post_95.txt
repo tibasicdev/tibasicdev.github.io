@@ -1,0 +1,3 @@
+name: ''
+content: "I tried making it so you couldn't make an empty post, but only certain field types have that option, and unfortunately, the 'wiki' field type is not one of those.\n\nYou can \"delete\" (where delete means it still exists, but it is not listed in anything) a post; I just made it very hard to do so.  You just have to add the {{_null}} tag to the post, which means typing in \"post:#/noredirect/true\" in the url and clicking on the Categorize button.  Current permissions are set so that only post owners can delete a post or thread; of course, moderators and admins can do anything."
+attachment: null

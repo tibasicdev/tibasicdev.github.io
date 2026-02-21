@@ -1,0 +1,82 @@
+> **Note:** This page was originally created by IProgrammer on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
+
+We will be learning about the [[[getKey]]] command, and how to create a controlled movement in this program.
+
+++ Starting Out
+
+There are a few steps to ensure that your program will run smoothly:
+
++++ Check if you have the RAM to hold a program
+
+Click on 2nd then MEM above the + sign. Make Sure that you have at least 500 RAM too use. If you don't, I suggest you archive something by pressing 2 then 1, then press ENTER on anything that doesn't have a star next to it.
+
++++ Creating the program
+
+Click the PRGM key then use the right arrow until NEW is highlighted. You should get a screen like this:
+
+[[code]]
+PROGRAM
+NAME=
+[[/code]]
+
+Go ahead and enter any name you want. Must be only A-Z, no numbers.
+
++++ Now for the commands
+
+Lets go ahead and put in some commands. By now you should have a general understanding so I'll go through this pretty fast:
+
+[[code]]
+PROGRAM:MOVER    // Title
+:ClrHome         // Clears screen
+:1→Y       // Sets 1 to Y
+:1→X       // Sets 1 to X
+:Lbl 1             // Program Divider #1
+:Output(X,Y,"O"  // Displays the character
+:getKey→G  // Gets the key that the user is pressing
+:If G=0  // IF G=0 then...
+:Goto 1  // Go to top (looper)
+:If G≠0  // If G≠0 then...
+:ClrHome  // Clears the screen
+:If G=25  // If G=Up then...
+:Y-1→Y  // Y-1 to Y when up is pressed
+:If G=34  // If G=Down then...
+:Y+1→Y  // Y+1 to Y when down is pressed
+:If G=24  // If G=Left then...
+:X-1→X  // X-1 to X when left is pressed
+:If G=26  // If G=Right then...
+:X+1→X  // X+1 to X when right is pressed
+:If X=0  // If X is less than the screen then...
+:X+1→X  // X+1 to X to stop ERROR:DOMAIN
+:If Y=0  // IF Y is less than the screen then...
+:Y+1→Y  // Y+1 to Y to stop ERROR:DOMAIN
+:If X=17  // IF X is greater than the screen then...
+:X-1→X  // X-1 to X to stop ERROR:DOMAIN
+:If Y=9  // IF Y is greater than the screen then...
+:Y-1→Y  // Y-1 to Y to stop ERROR:DOMAIN
+:Goto 1  // Goes up to the top (looper)
+[[/code]]
+
+++ Result
+
+The user will be able to move a little circle around the screen.
+ 
+++ Conclusion
+
+Way to go you made your first getKey program!
+
+++ Optionals
+
+You can make your circle teleport to the other side of the screen if you change this part of the program.
+
+[[code]]
+...
+:If X=0  // If X is less than the screen then...
+:X+16→X  // Move X to right side of the screen
+:If Y=0  // IF Y is less than the screen then...
+:Y+8→Y  // Move Y to bottom of the screen
+:If X=17  // If X is greater than the screen then...
+:X-16→X  // Move X to left side of the screen
+:If Y=9  // If Y is greater than the screen then...
+:Y-8→Y  // Move Y to top of the screen
+:Goto 1  // Goes up to the top (looper)
+[[/code]]

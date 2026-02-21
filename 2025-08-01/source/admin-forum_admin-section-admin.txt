@@ -1,0 +1,34 @@
+[[div style="overflow: hidden"]]
+[[div style="overflow: hidden; float: left; clear: left"]]
+To add a section, you need to:
+# Enter the name of the section in the input box below and click **Ok**.
+# [/admin-section:_start/edit/true Edit the main list of sections] to add your new section.
+[!-- # [/nav:admin-section-side/edit/true Edit sidebar list of sections] to add your new section.
+--]
+[[/div]]
+[[div style="overflow: hidden; float: right"]]
+|| Forum management: _
+ _
+- [[[admin-forum:forum-guide | Forum guide]]]  _
+- [[[admin-forum:list-pages | Important pages]]] _
+- [[[admin-forum:open-tasks | Open Tasks]]] _
+ _
+|| Thread management: _
+ _
+ - To make a thread sticky, tag it '_sticky'. _
+- To close a thread, tag it '_closed'. _
+- To create a task, tag it '_task'. _
+**Open tasks**: ([/admin-forum:open-tasks More...]) ||
+[[/div]]
+[[/div]]
+
+[[table style="width:100%; border: 1px solid silver; font-weight:bold"]]
+  [[row]]
+    [[cell style="width:60%"]]
+[[module NewPage category="admin-section" parent="main:start" button="Ok" size="40"]]
+    [[/cell]]
+    [[cell style="width:40%"]] Create a new forum section [[/cell]]
+  [[/row]]
+[[/table]]
+
+[[include admin-section:_start]]

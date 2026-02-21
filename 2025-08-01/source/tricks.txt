@@ -1,0 +1,22 @@
+[[module Redirect destination="http://tibasicdev.wikidot.com/home"]]
+Tricks on the calculator. We've all been guilty of thinking, "Wow, it would be cool to screw up his calc." What? Only me?
+
+Anyways, the only thing stopping you is knowledge. More specifically, the knowledge of how to do it.
+
+The most basic trick is an infinite loop. Create a new program, call it whatever you want, and use the following code (Substitute the program's name for A):
+
+[[code]]
+:prgmA
+[[/code]]
+
+But this is boring. Let's screw up their math.
+
+[[code]]
+:Input "",A
+:Disp ArandInt(2,5
+:prgmA
+[[/code]]
+
+Note that both of these programs can be broken by pressing ON.
+
+This page is for knowledge's sake only. We don't encourage you to try any of this, and we are not responsible if you do.

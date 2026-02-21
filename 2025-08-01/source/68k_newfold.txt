@@ -1,0 +1,26 @@
+[[include inc:command
+|picture=http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+|summary=Creates a folder with a specified name
+|syntax=NewFold //folder name//
+|location=Catalog
+|compatibility=89/92/T/+/V200
+|size=1 byte or 2 bytes
+]]
+The NewFold command allows the user to create a new folder. It can be run like this:
+[[code]]
+NewFold Hello
+//This would make a folder name "hello"
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=270|error=Duplicate variable name|cause=you attempt to create an already made folder]]
+
+
++ Related Commands
+
+Several (around 3) commands have a similar function or are used in a similar context to this command. Make a bulleted list of them, with links to the other commands' pages. It will often be the case that several commands all link to each other.
+
+* [[[68k:NewData]]]
+* [[[68k:NewPic]]]
+* [[[68k:NewProb]]]

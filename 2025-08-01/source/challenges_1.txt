@@ -1,0 +1,35 @@
+[[include inc:code
+|author=[*http://www.wikidot.com/user:info/james-kanjo James Kanjo]
+|size=
+|description=Asks for the number of sides on the die, then for the amount of throws. It includes validation too.
+
+|code=:ClrHome
+:Repeat S>1 and not(fPart(S
+:Input "NO. OF SIDES:",S
+:End
+:Repeat N>1 and not(fPart(N
+:Input "NO. OF THROWS:",N
+:End
+:DelVar L₁For(T,1,N
+:randInt(1,S→L₁(T
+:End
+:L₁
+
+]]
+
+[!--
+INSTRUCTIONS
+
+1) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+2) Enter the size of the program (if it were to be loaded onto a calculator). Don't worry if you don't know the size.
+i.e. 6,000 bytes
+
+3) Enter the description of the program.
+
+4) Enter the code of the program.
+
+5) Click the "save" button beneath this form.
+
+--]

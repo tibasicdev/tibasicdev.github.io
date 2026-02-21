@@ -1,0 +1,24 @@
+[[module Redirect destination="archive:_upload"]]
+|| **Note To Submitters**: The programs you submit here cannot contain functions that are not supported on the TI-83+/TI-83+SE, such as the clock functions. See the [[[portability]]] page for a complete list. ||
+
+[[div style="float:left;"]]
+[[table]]
+[[row]]
+[[cell style="text-align: center; width:210px"]]
+++ __TI-83 Plus__
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center"]]
+[[image http://tibasicdev.wikidot.com/local--files/thecalcs/ti83plus.png alt="TI-83 Plus"]]
+[[/cell]]
+[[cell]]
+Please enter the name of your program.
+
+[[module NewPage button="Create Program Page" parent="archives:_83p" category="archives" tags="_new _pending" template="template:tablet" format="/^[^_]/"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

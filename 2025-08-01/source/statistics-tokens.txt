@@ -1,0 +1,77 @@
+The byte 0x62 signifies the beginning of a two-byte statistics variable token (all the valid ones are given below; the remaining ones are unused). The last six tokens on the list (Factor df through Error MS) are for display purposes only, with the [[[ANOVA(]]] command -- but if you access them through a hex editor, you can use them to refer to the values of the respective variables. On the other hand, RegEq is only meant to be displayed in the menu, and pastes the contents of the regression equation when selected -- it's invalid as a token.
+
+All token values here (and elsewhere in this guide) are in hexadecimal.
+
+[[div style="float:left; width: 20%; padding: 0 1%"]]
+
+* **//62 00//** -- internal use only
+* **//62 01//** -- RegEq 
+* **62 02** -- n
+* **62 03** -- [[$ \overline{\textrm{x}} $]]
+* **62 04** -- Σx
+* **62 05** -- Σx²
+* **62 06** -- Sx
+* **62 07** -- σx
+* **62 08** -- minX
+* **62 09** -- maxX
+* **62 0A** -- minY
+* **62 0B** -- maxY
+* **62 0C** -- [[$ \overline{\textrm{y}} $]]
+* **62 0D** -- Σy
+* **62 0E** -- Σy²
+* **62 0F** -- Sy
+[[/div]]
+
+[[div style="float:left; width: 20%; padding: 0 1%"]]
+* **62 10** -- σy
+* **62 11** -- Σxy
+* **62 12** -- r
+* **62 13** -- Med
+* **62 14** -- Q1
+* **62 15** -- Q3
+* **62 16** -- a
+* **62 17** -- b
+* **62 18** -- c
+* **62 19** -- d
+* **62 1A** -- e
+* **62 1B** -- x,,1,,
+* **62 1C** -- x,,2,,
+* **62 1D** --x,,3,,
+* **62 1E** -- y,,1,,
+* **62 1F** -- y,,2,,
+[[/div]]
+
+[[div style="float:left; width: 20%; padding: 0 1%"]]
+* **62 20** --y,,3,,
+* **62 21** -- //n//
+* **62 22** -- p
+* **62 23** -- z
+* **62 24** -- t
+* **62 25** -- χ²
+* **62 26** -- **F**
+* **62 27** -- df
+* **62 28** -- [[$ \hat{\textrm{p}} $]]
+* **62 29** -- [[$ \hat{\textrm{p}}_1 $]]
+* **62 2A** -- [[$ \hat{\textrm{p}}_2 $]]
+* **62 2B** -- [[$ \overline{\textrm{x}}_1 $]]
+* **62 2C** -- Sx,,1,,
+* **62 2D** -- n,,1,,
+* **62 2E** -- [[$ \overline{\textrm{x}}_2 $]]
+* **62 2F** -- Sx,,2,,
+[[/div]]
+
+[[div style="float:left; width: 20%; padding: 0 1%"]]
+* **62 30** -- n,,2,,
+* **62 31** -- Sxp
+* **62 32** -- lower
+* **62 33** -- upper
+* **62 34** -- s
+* **62 35** -- r^^2^^
+* **62 36** -- R^^2^^
+* **62 37** -- Factor df
+* **62 38** -- Factor SS
+* **62 39** -- Factor MS
+* **62 3A** -- Error df
+* **62 3B** -- Error SS
+* **62 3C** -- Error MS
+[[/div]]

@@ -1,0 +1,13 @@
+[[image http://www.wikidot.com/userkarma.php?u=260544&onlyKarma=true]][[image http://www.wikidot.com/common--images/avatars/100/100183/a48.png height="16px"]] __Recipito__ ([[[member:recipito|profile]]])
+
+Joined **Mar 23**
+
+[[include inc:member2
+|timezone=
+|birthday=
+|aboutme=
+|howifoundtibd=
+|howibeganpgrming=
+|hobbies=
+|mybestprogram=
+]]

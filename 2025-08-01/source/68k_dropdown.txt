@@ -1,0 +1,26 @@
+[[include inc:68k-command
+|picture=dropdown.png
+|summary=Creates a custom menu
+|syntax=
+|location=Describe how to get the command from a menu.
+|size=2 bytes
+]]
+Similar to the Menu( command, the DropDown is used in a dialog box to make body text that includes a dropdown menu, with multiple options. This is good for use in text RPGs or game menus where a dialog box already exists and there isn't a need for another box. Look at this code for example:
+[[code]] 
+:Dialog
+:DropDown "Do you like food?", {"Yes", "No"}, t
+:EndDlog
+[[/code]]
+This will create a window with the title as "Do you like food" and the options as "Yes" and "No". "T" corresponds to the choice you selected For example, if you chose "Yes", the "T" would be equal to 1. However, if you pressed "No", then "T" would be equal to 2. Basically, the value of your chosen variable will correspond to the choice you made in the window.
+
++ Error Conditions
+
+[[include inc:68k-error num=730|error=Missing start or end of block syntax|cause=the command isn't put between a Dialogue/EndDlog block]]
+
++ Related Commands
+
+* [[[68k:Custom]]]
+* [[[68k:Dialog]]]
+
++ Credits
+Credits to an unknown user (who's account got deleted). He/she created the code and the first paragraph of the explanation.

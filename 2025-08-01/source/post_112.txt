@@ -1,0 +1,3 @@
+name: ''
+content: "I know I'm a little late, as I have been seen lurking around the forum for a month or so, but I would like to introduce myself. AriMB is my actual name. I am 14. I am fairly decent at programming, but am terrible at optimizing. I currently know a little of Java, C++, Objective C, and a fair amount of TI BASIC. I'm not sure what else to say, so I'm gonna stop here.\n\n\nOh wait, I almost forgot...\n...hi!"
+attachment: null

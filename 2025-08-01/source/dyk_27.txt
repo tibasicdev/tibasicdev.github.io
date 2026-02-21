@@ -1,0 +1,1 @@
+…that the [[[system-variables#finance|finance variables]]] are the fastest variables to use, even faster than [[[Ans]]]?

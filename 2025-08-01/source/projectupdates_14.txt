@@ -1,0 +1,2 @@
+So, We have decided to work on Mancala first.
+Since there are so many rules to this game, we are developing two mancala games. Both need to be optimised for size and speed though! If you are good at optimisation, please come help us. Also, If you are interested in Helping us program a different board game please post about it, and we can move on to that one after mancala is finished. As far as I can tell, we only have a few participants in this project at the moment.

@@ -1,0 +1,39 @@
+[[include inc:tablet
+|name=Peggle
+|author=Builderboy2005
+|size=7300 Bytes
+|description=Peggle is a fun and addicting physics based game.  The game consists of 9 levels composed of several different types of blocks.  You are given 9 balls to shoot into the arena to try to hit as many blocks as possible, resulting in them being erased at the end of a turn.  If all blocks are erased, you proceed to the next level.  Sophisticated scoring also allows for highscores to be made even if a level is not beaten.  You can choose to play as one of 4 characters, each character having there own powerup accessible by hitting a special block. With challenging gameplay, stunning graphics, and great replayability, Peggle is a must for all calculator gamers!
+|PLEASE REMOVE the following words that do NOT describe your program:
+|Arcade Graphics Board
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=http://tibasicdev.wikidot.com/local--files/archives:peggle/SCREEN01.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:peggle/Peggle.zip
+|downloadName=Peggle.zip
+]]
+
+[!--
+INSTRUCTIONS
+
+1) First enter the name of your program as you would like it to appear. That is, the TITLE of your program, not the name of the file.
+i.e. "Happy Land" instead of "HAPPY.8XP"
+
+2) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+3) Enter the size of the program (the actual program, or total size of programs & sub-programs) but not the size of the .ZIP file.
+i.e. 6,000 bytes
+
+4) Enter the description of the program.
+
+5) Click the "save" button beneath this form.
+
+6) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+7) Categorize the page according to the note on the page.  DO NOT erase preexisting tags!!
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

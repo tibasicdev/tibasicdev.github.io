@@ -1,0 +1,24 @@
+[[include inc:routine
+|picture=@@
+|summary=Returns the sum of the elements of a matrix.
+|input=//[A]// - the matrix whose elements you want to sum
+|output=//Ans// - the sum of the matrix elements
+|variable=[A], L₁, Ans
+|compatibility=TI-83/84/+/SE
+|author=zada
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=7475&view=findpost&p=117106 United TI
+|download=[file sumofmatrix.zip]
+]]
+
+[[include inc:prgm-code
+|code=:dim([A]
+:Matr►list(cumSum([A])^^T^^,Ans(1),L₁
+:sum(L₁
+]]
+
+The [[[cumSum(]]] command gets the cumulative sum of each column in the [[[matrices|matrix]]], adding the value of the previous element to the next element, and repeating this for each consecutive element in the column. When the cumSum( command is finished, the last element in each column will contain the sum of that column. Taking the ^^[[[transpose|T]]]^^ (transpose) of the resulting matrix switches columns and rows.
+
+Then, using the [[[Matr►list(]]] command, the last column of this result is stored to L₁. This column was originally the last row of cumSum('s output, so it contains all the column sums. Finally, by calculating the sum of that list, we get the total of the matrix elements. L₁ is no longer necessary, and can be deleted.
+
+If you want to use the sum for future use, you can store it to a more permanent variable, such as A or X. When you are done using [A], you should [[[cleanup|clean it up]]] at the end of your program.

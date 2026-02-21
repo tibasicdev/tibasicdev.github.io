@@ -1,0 +1,25 @@
+# Creating graphics is done on the __graph screen__, not the home screen.
+# On the graph screen, locations are given either as __point__ or __pixel__ coordinates.
+# Pixel coordinates start with (0,0) at the top left corner, like on the homescreen, but increment in individual pixels.
+# Point coordinates depend on the __window__ dimensions.
+# You can adjust the window dimensions by manipulating the __window variables__ and/or by using the __zoom__ commands.
+# You can also use the __format__ commands to turn the axes off and other related things.
+# You can save the window dimensions, format options, and other related things in a __GBD__. (Graph Database)
+# Once you have the graph screen set up, you can draw on it using the __draw__ commands.
+# You can erase the graph screen with the __ClrDraw__ command, and you can save what is on the graph screen in a __Pic__.(Picture)
+# Unfortunately Pics can only store the __entire screen__.  They also don't force pixels that are already black to become white; sometimes this can be a good thing.
+# One particularly creative and effective way to create sprites is known as the __text sprite__ method.This involves __overlapping__ text to create sprites quickly.
+
++ Commands Introduced
+* [[[StorePic]]], [[[RecallPic]]], [[[StoreGDB]]], [[[RecallGDB]]]
+* [[[Pxl-On(]]], [[[Pxl-Off(]]], [[[Pxl-Change(]]], [[[Pxl-Test(]]], [[[Pt-On(]]], [[[Pt-Off(]]], [[[Pt-Change(]]]
+* [[[ZStandard]]], [[[ZInteger]]], [[[FnOff]]], [[[FnOn]]], [[[AxesOn]]], [[[AxesOff]]]
+* [[[Horizontal]]], [[[Vertical]]], [[[Line(]]], [[[Circle]]], [[[DrawF]]], [[[DrawInv]]], [[[Tangent(]]], [[[Shade(]]], [[[Text(]]]
+
+[[include inc:next-prev
+|prevpage = sk:pictures
+|prevtitle = Using Pictures
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:exercises-graphics
+|nexttitle = Chapter Exercises]]

@@ -1,0 +1,28 @@
+[[include inc:code
+|author=[*http://www.wikidot.com/user:info/xphoenix Xphoenix]
+|size=
+|description=Asks for the number of sides, then the number of rolls, then displays the outcomes.
+
+|code=:ClrHome
+:Input "SIDES:",A
+:Input "ROLLS:",B
+:int(1+Arand(B→L1
+
+]]
+
+[!--
+INSTRUCTIONS
+
+1) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+2) Enter the size of the program (if it were to be loaded onto a calculator). Don't worry if you don't know the size.
+i.e. 6,000 bytes
+
+3) Enter the description of the program.
+
+4) Enter the code of the program.
+
+5) Click the "save" button beneath this form.
+
+--]

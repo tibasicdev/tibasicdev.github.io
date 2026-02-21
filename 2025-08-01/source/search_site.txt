@@ -1,0 +1,9 @@
+[[div style="width: 80%; margin: auto; padding: 5px 10px; text-align: center;margin-bottom: 20px; background: #fdfcf6; border: 1px solid #C7C9B8;" class="search-results"]]
++++ Can't find what you're looking for? //[http://tibasicdev.wikidot.com/forum/t-437432/search-help-2 Ask the community]//
+[[/div]]
+
+[[div style="margin: auto;"]]
+[[include :csi:include:adv-search]]
+[[/div]]
+
+[!-- please do not remove or change this page if you want to keep the search function working --]

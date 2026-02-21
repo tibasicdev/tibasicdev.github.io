@@ -1,0 +1,21 @@
+author: RebStrike
+version: 'Dev. Build 132'
+summary: ''
+description: "This is an RPG-text-adventure game where its April Fools Day and you get a call from your friend who asks, \"Thinking of doing any pranks?\". You can choose to do the airhorn+seat prank, put a thumbtack on the teacher's seat, put a funny picture on the world map, or not do one at all. And when the pressure's on you can choose to blame your friend, take the blame, or keep quiet. This is a game all about choice.\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:prankday-1/PrankDay.zip'
+image: null
+fileSize: '15'
+fileSizeUnit: '2'
+dateMade: '1455858000'

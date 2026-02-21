@@ -1,0 +1,13 @@
+[[div style="margin-bottom:35px;"]]
+
+Page tags are yet another way you can navigate the site, and they consist of usually 3-5 keywords that describe a page. More frequently used keywords appear larger and in a darker color, while unique or uncommon keywords appear smaller and in a lighter color. Many pages already have tags, but several of them don't -- most noticeably the [[[command-index|command]]] pages.
+
+When you see a page that doesn't have any tags, or a page's existing tags don't seem appropriate, please update them. Just click on the tags button at the bottom of the page, and an input field will appear. You can then type the tags one after another, separating each one with a space. If you find a page that could use some work, such as correcting errors or adding missing information, add a cleanup tag to the page. This helps alert other contributors to the page.
+
+[[/div]]
+
+[[module TagCloud maxColor="42,52,61" minColor="72,92,99" target="system:page-tags" limit="100"]]
+[[module PagesByTag]]
+
+[!-- You can edit parameters of the TagCloud module as described in http://www.wikidot.com/doc:tagcloud-module 
+But if you want to keep the tag functionality working - do not remove these modules. --]

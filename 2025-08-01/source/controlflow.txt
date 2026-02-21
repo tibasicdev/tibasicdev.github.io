@@ -1,0 +1,455 @@
+Controlling flow defines the order in which a program runs, what line of code will be executed next; to repeat or skip a group of commands. There are three main parts of controlling flow: conditionals, loops, and branching. Each of these parts is used in different situations and to serve different functions. Together they are an integral part of all programs.
+
+When dealing with conditionals and loops, the decision whether the conditional or loop will be executed is based on Boolean Logic -- the principle that something can only be true or false at any given time. While any nonzero value is evaluated to true (i.e. it will be executed), a zero value is evaluated to false (i.e. it will be skipped over, not executed).
+
+[[toc]]
+
++ Conditionals
+
+Conditionals are used to make decisions in programs. The program can carry out different actions, depending on if certain conditions occur -- directing the flow of program execution. Conditionals determine if code will be executed or not.
+
+There are three different types of conditionals: If, If-Then, and If-Then-Else. There are certain advantages and disadvantages to each conditional, and there are also certain situations where each conditional should be used.
+
+++ If Conditional
+
+The first, and simplest, type of conditional is the If. It is used when you only want to execute one command. The If conditional needs the If command to work. The command that is immediately following the If conditional will be executed if the condition is true, but it won't be executed if the condition is false.
+
+[[code]]
+Format
+:If condition
+:Command
+[[/code]]
+
+Because If conditionals are generally slow, you should replace them with Boolean conditionals when you are just changing a variable. You take the condition that is in the conditional, put parentheses around it, and multiply it by the value that you are changing the variable (the value should be left off when it is one since it is unnecessary).
+
+[[code]]
+:If X=3
+:Y+2→Y
+Use Boolean Conditional
+:Y+2(X=3→Y
+[[/code]]
+
+The reason that this works is the condition will evaluate to one if it is true and zero if it is false. Since this value is then multiplied by the value that you are changing the variable, the changing value will stay the same if the value is one but it will become zero if the value is zero. So, the Boolean conditional is faster than an If conditional when the condition is true, but it will be slower when the condition is false because zero is still stored to the variable.
+
+Boolean conditionals also have another advantage over If conditionals. When you have several Boolean conditionals that deal with the same variable, you can combine them into one Boolean conditional. Boolean conditionals can have multiple conditions that change the variable by different values. If you change the variable by the same value in two or more conditions, you can factor the value out by multiplication. This works best with large values.
+
+[[code]]
+:A+5(K=26→A
+:A-5(K=24→A
+Combine Conditionals
+:A+5((K=26)-(K=24→A
+[[/code]]
+
+++ If-Then Conditional
+
+The second type of conditional is the If-Then. It is used when you want to execute more than one command. Besides the If command, the If-Then conditional needs the Then and End commands to work. The Then command tells the calculator that there are multiple commands in the conditional to execute, while the End command signifies the end of the command block.
+
+[[code]]
+Format
+:If condition
+:Then
+:Command(s)
+:End
+[[/code]]
+
+The commands immediately following the Then will be executed if the condition is true, but the commands won't be executed if the condition is false. Instead, program execution will continue after the End. Because If-then conditionals are twice as fast as If conditionals (they are larger, though, because of the added commands needed to use them), you might want to replace an If conditional with an If-Then conditional when speed is the top priority.
+
+[[code]]
+:If A=1
+:Disp "Hello
+Replace With If-Then Conditional
+:If A=1:Then
+:Disp "Hello
+:End
+[[/code]]
+
+With the If-Then and If-Then-Else conditionals, you can put conditionals inside of each other (known as nesting). You can also put loops inside conditionals. When you have two or more If conditionals that have a common condition (i.e. a compound condition made using the logic operators), you should take the common condition out, make it into an If-Then conditional, and nest the If conditionals inside it.
+
+[[code]]
+:If A=1 and B=1
+:C+2→C
+:If A=1 and B=2
+:D+1→D
+Take Out Common Condition
+:If A=1:Then
+:C+2(B=1→C
+:D+(B=2→D
+:End
+[[/code]]
+
+This will speed up the program execution when the If-Then conditional is false. Instead of testing each If conditional and its conditions, the If-Then conditional (and the nested If conditionals) will be skipped over if the first condition is false. Remember to put the closing End command for the If-Then conditional, otherwise you will get an error.
+
+++ If-Then-Else Conditional
+
+The third, and last, type of conditional is the If-Then-Else. It is used when you want to execute one or more commands if a condition is true and one or more other commands if the condition is false. This is equivalent to two separate If-Then conditionals with opposite conditions, but it is faster because there is only one condition test (since only one of the conditions can be true at one time). Besides the If command, the If-Then-Else conditional needs the Then, Else, and End commands to work.
+
+[[code]]
+Format
+:If condition
+:Then
+:Command(s)
+:Else
+:Command(s)
+:End
+[[/code]]
+
+The commands between the Then and Else will be executed if the condition is true, while the commands between the Else and End will be executed if the condition is false. This is an important part of If-Then-Else conditionals because it determines what order you put the commands, whether they should go in the true or false part of the conditional.
+
+When using an If-Then-Else conditional and only one command is executed if the condition is true or false, you can replace the If-Then-Else conditional with a simple If conditional. You switch the order of the commands so the false command comes first (because that command will be executed by default), and place the If conditional between the two commands. This primarily works when the commands are store commands, but it also can be used when you are building a string of text that you display.
+
+[[code]]
+:If B:Then
+:"Hello→Str1
+:Else
+:"Goodbye→Str1
+:End
+Replace with If conditional
+:"Goodbye→Str1
+:If B
+:"Hello→Str1
+[[/code]]
+
+To put the conditional commands in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. The If, Then, and Else commands are in the first three spots (respectively), while the End command is in the seventh spot. You press ENTER to put the commands in your program.
+
+++ Operators
+
+Operators are used if you want to make compound conditions that are true depending on two or more conditions. When using operators, the left side is being compared to the right side. The operators can be used with any of the three different types of conditionals, as well as the Repeat and While loops.
+
+There are two kinds of operators: conditional and logic. The six different conditional operators are: =, ≠, >, <, ≥, and ≤. The four different logic operators are: and, or, xor, and not. Conditional operators can be used (joined) with logic operators.
+
+The =, ≠, >, <, ≥, and ≤ operators all compare and test two conditions. = returns true if the conditions are equal. ≠ returns true if the conditions are not equal. > returns true if the first condition is greater than the second condition. < returns true if the first condition is less than the second condition. ≥ returns true if the first condition is greater than or equal to the second condition. ≤ returns true if the first condition is less than or equal to the second condition.
+
+[[code]]
+Format
+:If condition = condition
+:If condition ≠ condition
+:If condition > condition
+:If condition < condition
+:If condition ≥ condition
+:If condition ≤ condition
+[[/code]]
+
+The one instance where you don't need the ≠ conditional operator is when comparing a variable to zero. Because every nonzero value is treated as true, you don't need to compare if the variable's value is nonzero since any value will work. Instead, you can just put the variable by itself.
+
+[[code]]
+:If C≠0
+Remove ≠ Operator
+:If C
+[[/code]]
+
+There is a simple truth table that is used to show how the logic operators work. The truth table is based on Boolean Logic, the principle that a condition can only be true or false. A true value is represented by one or any nonzero number. A false value is represented by zero. A and B are just conditions.
+
+||~ A ||~ B ||~ and ||~ or ||~ xor ||~ not(A) ||
+|| 1 || 1 || 1 || 1 || 0 || 0 ||
+|| 0 || 1 || 0 || 1 || 1 || 1 ||
+|| 1 || 0 || 0 || 1 || 1 ||  ||
+|| 0 || 0 || 0 || 0 || 0 ||  ||
+
+
+The and, or, and xor operators compare and test two conditions, while the not operator only tests one. and returns true if both conditions are true. or returns true if one or both conditions are true. xor returns true if either condition is true (but not both). not returns true if the condition is false.
+
+[[code]]
+Format
+:If condition and condition
+:If condition or condition
+:If condition xor condition
+:If not(condition)
+[[/code]]
+
+One way that the not operator can be used is for switching something from true to false or on to off, and vice versa. When dealing with a variable, not inverts the variable's value; so you should use not instead of comparing a variable to zero because not returns true when the variable is zero. At the same time, don't try to use not in every condition because there are many ways of writing a condition.
+
+[[code]]
+:If A=0
+Use not Operator
+:If not(A
+[[/code]]
+
+The not operator is also used when applying DeMorgan's Law. DeMorgan's Law can be used for conditions in which there is an individual not operator around two separate unary conditions (i.e. they don't have conditional operators) joined by the and or or operators. It allows you to remove the second not operator and then change the and to or, and vice versa.
+
+[[code]]
+:If not(A) and not(B
+Use DeMorgan's Law
+:If not(A or B
+[[/code]]
+
+The and and or operators can be replaced using math logic. Since and is only true when all the conditions are true, you can multiply the conditions together for the same effect (you can leave off the multiplication sign). Only one condition has to be true for or to be true, so adding the conditions together works as well. For conditions that have operators attached to them, you just put parentheses around them so they are treated as Boolean values. However, math logic is somewhat slower compared to the logic operators.
+
+[[code]]
+:If A and B
+:If A or not(B
+Replace Operators
+:If AB
+:If A+not(B
+[[/code]]
+
+When using the and operator, if the first condition is false, the second condition will not be tested. The and and not operators have the highest importance (precedence) of the logical operators, so they are evaluated first. This is useful when you have a condition that combines the and and or operators (where the and operator comes first), because you don't need to include parentheses around the and operator. However, parentheses are sometimes needed simply to provide clarity.
+
+[[code]]
+:If (A=1 and B=2) or (A=2 and B=1)
+Remove Parentheses
+:If A=1 and B=2 or A=2 and B=1
+[[/code]]
+
+To put the operators in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press 2nd and MATH. The conditional operators are in the TEST menu, while the logic operators are in the LOGIC menu. You press ENTER to put the commands in your program.
+
+++ IS>( and DS<(
+
+Two specialized conditional commands are available: IS>( and DS<(. These commands are equivalent to If conditionals, except the next command will be skipped when the condition is true. They have the variable update built-in, so they are smaller than using regular If conditionals.
+
+The IS>( and DS<( commands each take two arguments, but they differ in functionality. The first argument is the variable, and it can be a real variable (A-Z or θ). The second argument is the value, and it can be either a number, variable, or expression.
+
+IS>( adds one to the variable (increments it by one), and compares it to the value. The next command will be skipped if the variable is greater than the value, while the next command will be executed if the variable is less than or equal to the value.
+
+[[code]]
+Format
+:IS>(variable,value)
+:Command
+[[/code]]
+
+DS<( subtracts one from the variable (decrements it by one), and compares it to the value. The next command will be skipped if the variable is less than the value, while the next command will be executed if the variable is greater than or equal to the value.
+
+[[code]]
+Format
+:DS<(variable,value)
+:Command
+[[/code]]
+
+These commands are not without problems, however. Because the skipping feature is usually not needed, you will have to make sure that the value is always greater than (or less than) the variable, so that the next command is executed. This is not always possible to do. An undefined error will occur if the variable doesn't exist before the command is used, which happens when the DelVar command is used. Finally, these are not looping commands, so they shouldn't be used in that manner.
+
+To put the IS>( and DS<( commands in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll down the CTL menu until you find the commands. You press ENTER to put the commands in your program.
+
++ Loops
+
+Loops cause a segment of code to repeat until a stated condition is met. Instead of having to write out something or do an action several times, you just do it once and put it inside a loop.
+
+There are three different kinds of loops: For, While, and Repeat. There are certain advantages and disadvantages to each loop, and there are also certain situations where each loop should be used. For loops should be used when you know how many times the loop will be executed, whereas Repeat and While loops are the converse. The For loop is the fastest of the three loops.
+
+++ For Loops
+
+The For loop takes four arguments: the variable (A-Z or theta), the starting value, the ending value, and the increment. It counts from the starting value to the ending value at the specified increment.
+
+The variable is used to keep track of how many times the For loop has been executed. Because it is set to the starting value when the For loop begins, you don't need to initialize the variable before. The ending value is the value that the variable ends at. The increment determines how much the variable's value will be increased each time through the loop. The default increment is 1, so the increment can be left off when it is 1 (it is optional). The increment can be positive or negative.
+
+After each time the For loop is executed, the variable is checked to see if it is equal to or greater than the ending value. If the variable is, then the loop is exited and program execution continues after the End command. (The End command determines the boundaries of the loop.) If the variable isn't, the variable is incremented by the increment and the loop is executed again.
+
+[[code]]
+Format
+:For(variable,start,end[,increment])
+:Command(s)
+:End
+[[/code]]
+
+One of the common uses of For loops is making delays. Although you can use the Pause command, this brings the program to a halt and the user has to press ENTER to get out of it. With a For loop, you can make a small delay that will only last as long as you want it to last and it doesn't require the user to do anything. You just use an empty For loop (no commands inside of it). The larger the difference between the starting and ending values, the bigger the delay.
+
+[[code]]
+:For(X,1,200)
+:End
+[[/code]]
+
+Sometimes you might want to prematurely exit out of a For loop (stop it before it is completely finished). You can do this by changing the variable inside the loop. You just need to make the variable larger than the ending value.
+
+[[code]]
+:For(A,5,100)
+:110→A
+:End
+[[/code]]
+
+To put the For loop command in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. You then scroll down to For (or press the 4 key) and press ENTER. The End command can be found in the same menu, just lower at the seventh spot on the menu (press the 7 key).
+
+++ While Loops
+
+A While loop executes a block of commands between the While and End commands while the specified condition is true. The condition is tested at the beginning of the loop (when the While command is encountered), so the loop will be skipped entirely if the condition is false when the loop is first entered. To ensure that the loop will be executed, you need to declare the values of the variables in the condition before the loop.
+
+After each time the While loop is executed, the condition is checked to see if it is false. If it is false, then the loop is exited and program execution continues after the End command. If the condition is true, the loop is executed again.
+
+[[code]]
+Format
+:While condition
+:Command(s)
+:End
+[[/code]]
+
+When using While loops, you have to provide the code to break out of the loop (it isn't built into the loop). If there is no code that ends the loop, then you will have an infinite loop. An infinite loop just keeps executing, until you have to manually exit the loop (by pressing the ON key). In the case that you actually want an infinite loop, you can just use 1 as the condition. Because 1 is always true (based on Boolean Logic), the loop will never end.
+
+[[code]]
+Format
+:While 1
+:Command(s)
+:End
+[[/code]]
+
+To put the While loop command in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. You then scroll down to While (or press the 5 key) and press ENTER. The End command can be found in the same menu, just lower at the seventh spot on the menu (press the 7 key).
+
+++ Repeat Loops
+
+A Repeat loop executes a block of commands between the Repeat and End commands until the specified condition is true. The condition is tested at the end of the loop (when the End command is encountered), so the loop will always be executed at least once. This means that you sometimes don't have to declare or initialize the variables in the condition before the loop.
+
+After each time the Repeat loop is executed, the condition is checked to see if it is true. If it is true, then the loop is exited and program execution continues after the End command. If the condition is false, the loop is executed again.
+
+[[code]]
+Format
+:Repeat condition
+:Command(s)
+:End
+[[/code]]
+
+When using Repeat loops, you have to provide the code to break out of the loop (it isn't built into the loop). If there is no code that ends the loop, then you will have an infinite loop. An infinite loop just keeps executing, until you have to manually exit the loop (by pressing the ON key). In the case that you actually want an infinite loop, you can just use 0 as the condition. Because 0 is always false (based on Boolean Logic), the loop will never end.
+
+[[code]]
+Format
+:Repeat 0
+:Command(s)
+:End
+[[/code]]
+
+To put the Repeat loop command in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. You then scroll down to Repeat (or press the 6 key) and press ENTER. The End command can be found in the same menu, just lower at the seventh spot on the menu (press the 7 key).
+
+++ Nesting Loops
+
+One important aspect of loops is putting them inside other loops (known as nesting). Besides nesting any of the different kinds of loops inside each other, you can also nest loops inside conditionals. When nesting loops, you need to remember to put the appropriate number of End commands to close the loops.
+
+The easiest way to keep track of lots of nested loops is to code the first part, add an End immediately after the conditional, and then hit [2ND][DEL] on the line with the End, then hit [ENTER] a lot of times.
+
++ Branching
+
+Branching allows the calculator to jump from one point in a program to another. Sometimes you don't want every part of the program to be executed. You may want to skip over a certain part of a program if a certain condition occurs.
+
+Branching uses the Lbl and Goto commands. Lbl and Goto work in pairs; you need to have both for branching to work. The Lbl command specifies a location in a program. The label can be any one or two alphanumeric character combination (from A-Z, 0-9, and θ), but ideally you want it to be only character to save memory. The Goto command causes program execution to jump to the specified label with the same character combination, and then continue from there.
+
+[[code]]
+Format
+:Lbl character1[character2]
+:Goto character1[character2]
+[[/code]]
+
+When using branching, you have to provide the break-out code (it isn't built-in). If there is no code that ends the branching, then program execution will continue indefinitely, until you manually exit it (by pressing the ON key). If conditionals are commonly used, but in the case you want infinite branching, you should instead use a While or Repeat loop.
+
+[[code]]
+:Lbl A
+:Goto A
+Replace with Loop
+:Repeat 0
+:End
+[[/code]]
+
+To put the Lbl and Goto commands in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. You then scroll down to Lbl (or press the 9 key) and press ENTER. The Goto command can be found in the same menu, just lower at the tenth spot (press the 0 key).
+
+++ Disadvantages of Branching
+
+Although branching may seem like a good alternative to loops, it should be used sparingly. Branching should only be used when a loop isn't practical and when something only happens once or twice. This is because branching has several disadvantages associated with it.
+
+The biggest disadvantage of branching is that it's slow. When the calculator reaches a Goto command, it stores the label name in memory and goes to the beginning of the program. It then searches through the program until it finds the Lbl command with the matching label name. If the label is deep within the program and you have a large program, this can bring the program to a crawl.
+
+Another disadvantage of branching is that it can lead to memory leaks when used to exit conditionals or loops (anything that uses an End command). The calculator stores the End command in memory, and it is only released when the calculator reaches it.
+
+If the conditional or loop is exited with branching, however, the End command is never released from memory, and the calculator will continue using that memory. If this is done enough times, the calculator will eventually run out of memory, causing a memory leak. When there's less memory, the program also runs more slowly. Memory leaks don't have any real affect on the calculator, as the memory is released when the program exits.
+
+The last disadvantage of branching is that it makes program code difficult to read and maintain. While loops are straightforward, following a set pattern, branching can lead to anywhere in a program. Trying to figure out how branching affects the program code can cause some serious headaches.
+[[# memleaks]]
+++ Reworking Branching to Remove Memory Leaks
+
+One of the simplest memory leaks that occurs is using branching to exit out of a loop when a certain condition of an If conditional is true. If the loop is an infinite loop (i.e. Repeat 0 or While 1), you should take the condition from the If conditional and place it as the condition of the loop. This allows you to remove the branching, since it is now unnecessary.
+
+[[code]]
+:Repeat 0
+:getKey→B
+:If B:Goto A
+:End:Lbl A
+Place Condition in Loop
+:Repeat B
+:getKey→B
+:End
+[[/code]]
+
+Of course, the only reason that this memory leak fix is possible is because of the If conditional (since the If conditional doesn't need a closing End command). When dealing with an If-Then or If-Then-Else conditional, you will have to rework the conditionals so the branching has its own If conditional. Depending on how many commands there are in the conditionals, you might be able to just use an If conditional or you might need to use an If-Then conditional.
+
+[[code]]
+:If B:Then
+:Disp "Hello
+:Goto A
+:End
+Use Separate If Conditionals
+:If B
+:Disp "Hello
+:If B
+:Goto A
+[[/code]]
+
+This memory leak fix will work most of the time, but it isn't applicable when one of the values of the variables in the condition is changed by one of the commands inside the condition. The way to get around this is by using another variable for the If conditional that the branching uses. You initialize the variable to zero, assign the variable whatever value you want in the conditional, and then check to see if the variable is equal to that value in the branching conditional.
+
+[[code]]
+:If A=1:Then
+:3→A:4→B
+:Goto A
+:End
+Use Another Variable
+:Delvar CIf A=1:Then
+:3→A:4→B:π→C
+:End
+:If C=π
+:Goto A
+[[/code]]
+
+++ So What Is Branching Good For?
+
+Despite its many disadvantages, Lbl and Goto statements actually have their uses. For example, you may want to have a label at the end of the program that you Goto everywhere you want to exit the program. This is useful if you have a lot of clean-up (such as deleting large temporary variables) every time the program exits.
+[[code]]If K=45:Goto Q
+...
+Lbl Q
+DelVar [A]DelVar L1
+ClrHome[[/code]]
+
+Goto statements are also good in programs that call themselves very many times. Every time a Repeat or While statement is encountered, the program has to set aside a portion of memory to remember about that statement. In recursive programs, this can add up (a good example is a recursive program to fill in an arbitrary shape). Gotos require no such overhead, and if the program is small, they're not as slow as they are in larger programs.
+
+Just remember that since Goto-Lbl constructs are slow when the label is far from the beginning of the program, and you shouldn't use them in speed-critical situations. Also, they make your program hard to read for when you or anyone else edits it, especially if they jump backwards.
+
++ Subprograms
+
+Subprograms are programs called from inside other programs (at any time while the program is running). Although they are listed in the program menu and can be executed independently like any other program, subprograms are primarily designed to do a particular task for the other program.
+
+The [[[prgm]]] command is used to execute another program as a subprogram. You insert the prgm command into the program where you want the subprogram to run, and then type (with the alpha-lock on) the program name. You can also go to the program menu to choose a program, pressing ENTER to paste the program name into your program.
+
+[[code]]
+Format
+:prgmname
+[[/code]]
+
+To create a subprogram, you take the code from the parent program and put it in a new program. When naming your subprograms, you should try to name them Zparentn or θparentn, where parent is the name of the parent program and n is the number (if you have more than one). Because subprograms are relatively unimportant by themselves, you want them to appear at the bottom of the program menu.
+
+When the subprogram name is encountered during a program, the program will be put on hold and program execution will transfer to the subprogram. Once the subprogram is finished, program execution will go back to the program, continuing right after the subprogram name.
+
+Although subprograms can call themselves or other subprograms, this should be done sparingly because it can cause memory leaks if done too much or if the subprogram doesn't return to the parent program. Branching is local to each program, so you can’t use Goto in one program to jump to a Lbl in another program. All variables are global, so changing a variable in one program affects the variable everywhere else.
+
+To put the prgm command in your program, you need to first be in the Program editor. You press PRGM and then scroll over to EDIT. Once in your program, you press PRGM again and scroll over to CTL. You then scroll down until you get to the prgm command, and press ENTER to put the command in your program.
+
+++ Advantages & Disadvantages of Subprograms
+
+There are several advantages of using subprograms. First, and foremost, subprograms reduce program size by eliminating redundant code. Instead of having to type the code multiple times for a task that occurs more than once in a program, you just type it once and put it in a subprogram. You then call the subprogram whenever you want to perform the task in your program.
+
+Second, subprograms increase program speed by making programs as compact as possible. You separate conditional tasks from the program (they either happen every time or they are skipped over), and put them in a subprogram; you then call the subprogram instead. This improves program speed because the calculator doesn't have to go through all of the conditional code anymore.
+
+Third, subprograms make editing, debugging, and optimizing easier. Instead of going through the entire program, looking for the code you want to change, you can focus on one subprogram at a time. This makes the code more manageable, allowing you to more thoroughly look at each subprogram and to better keep track of which subprograms you have looked at.
+
+Lastly, subprograms are reusable, allowing multiple programs to share and use the same code. Breaking a program into smaller, individual subprograms, which each do a basic function or task, allows other programs to use those subprograms. Consequently, this reduces program size.
+
+The primary disadvantage of subprograms is that there are additional programs that the user needs to use your program. If you give someone your program, you will have to also give them your subprograms. Your program won't work properly anymore if somebody deletes your subprograms or forgets to include them with your program. Although this is mostly out of your hands, users will think your program is at fault.
+
+The simple solution to this problem is to put the subprogram back in your program when you finish it. This should only be done if the subprogram was just used once or twice and it won't slow the program down. All you have to do is paste the code from the subprogram in place of the program call.  You could also put all of the programs used into a group and distribute it as so.
+
++ Exiting Programs
+
+Exiting programs (terminating the execution of a program) is done with the Return and Stop commands. The two commands are different and each have advantages.
+
+In most cases, Return and Stop both stop program execution and return to the homescreen (even from inside loops). Return and Stop function differently, however, when used in subprograms. The Return command will stop the subprogram, and program execution will resume in the calling program after the line where the subprogram was called. In contrast, Stop will stop both the subprogram and any calling programs and go to the homescreen. Return should generally be used instead of Stop because old versions of some utilities such as DCS cannot safely run programs with the Stop command.
+
+[[code]]
+:ClrHome
+:Input "Guess:",A
+:Stop
+Replace Stop with Return
+:ClrHome
+:Input "Guess:",A
+:Return
+[[/code]]
+
+When the calculator reaches the end of a program, it will automatically stop executing as if it had encountered a Return; therefore, Return is unnecessary on the last line of a program.

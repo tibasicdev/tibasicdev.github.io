@@ -1,0 +1,42 @@
+[[include inc:68k-command
+|picture=title.png
+|summary=Supplies the title text in one of several types of menus.
+|syntax=Title //text//
+
+or (with [[[68k:ToolBar]]] only)
+
+Title //text-or-icon//[,//label//]
+|location=Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 1 to enter the Dialog submenu.
+* Press 7 to select Title.
+|size=3 bytes
+]]
+
+The Title command is used in different ways with several types of menus:
+* Inside a [[[68k:Dialog]]]..EndDlog block, it gives the title text for the dialog.
+* Inside a [[[68k:ToolBar]]]..EndTBar or [[[68k:Custom]]]..EndCustm block, it gives a title for a tab.
+
+Usually, all that the Title command wants is a string that will be used for the title (the [[[68k:string()]]] command might be useful for other data types). The exception is ToolBar: then, if the tab has no options under it, Title should also have a label to jump to when that tab is selected.
+
++ Advanced Uses
+
+On the widescreen calculators (the TI-92, TI-92 Plus, and Voyage 200), a [[[68k:Toolbar]]] tab can have a picture for a title (the result will look like the F1 tab of the default toolbar menu). To do so, create a 17x17 picture to be used as the icon, and use the picture variable in place of the tab's title string. If this syntax is used on a TI-89 or TI-89 Titanium calculator, the name of the variable will be displayed instead of the icon (the check for the picture size is still done, and will cause an error if it's the wrong size).
+
++ Error Conditions
+
+[[include inc:68k-error num=120|error=Argument must be a Pic or string|cause=the title text is the wrong data type (in a toolbar)]]
+[[include inc:68k-error num=130|error=Argument must be a string|cause=the title text is the wrong data type (in a dialog)]]
+[[include inc:68k-error num=230|error=Dimension|cause=the icon (in a toolbar) is the wrong size]]
+[[include inc:68k-error num=530|error=Invalid outside Dialog..EndDlog, Custom..EndCustom, or Toolbar..EndTBar blocks|cause=Title is used by itself, outside a menu declaration]]
+
++ Related Commands
+
+* [[[68k:Custom]]]..EndCustm
+* [[[68k:Dialog]]]..EndDlog
+* [[[68k:Text]]]
+* [[[68k:ToolBar]]]..EndTBar
+
++ See Also
+
+* [[[68k:dialogs|]]]

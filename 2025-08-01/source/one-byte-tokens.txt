@@ -1,0 +1,54 @@
+The two tables below show all the one-byte tokens by their hexadecimal value - the column is the first hex-digit, and the row is the second, so something in the 2 column and the F row would correspond to the hexadecimal number 0x2F. **2-byte** means that this byte signifies the beginning of a 2-byte token (with a link to the appropriate table); **unused** means that this token isn't used for any actual command.
+
+||||||||||||||||||~ One-byte tokens by hex code (0x00 - 0x7F) ||
+|| ||~ 0 ||~ 1 ||~ 2 ||~ 3 ||~ 4 ||~ 5 ||~ 6 ||~ 7 ||
+||~ 0 || **unused** || ( || [[[randM(]]] || 0 || [[[and]]] || P || **[[[variable-tokens#toc3|2-byte]]]** || [[[add|+]]] ||
+||~ 1 || [[[►DMS]]] || ) || [[[mean(]]] || 1 || A || Q || **[[[variable-tokens#toc4|2-byte]]]** || [[[subtract|-]]] (sub.) ||
+||~ 2 || [[[►Dec]]] || [[[round(]]] || [[[solve(]]] || 2 || B || R || **[[[statistics-tokens|2-byte]]]** || [[[Ans]]] ||
+||~ 3 || [[[►Frac]]] || [[[pxl-Test(]]] || [[[seq-list|seq(]]] || 3 || C || S || **[[[window-tokens|2-byte]]]** || [[[Fix]]] ||
+||~ 4 || [[[store|→]]] || [[[augment(]]] || [[[fnInt(]]] || 4 || D || T || [[[radian-mode|Radian]]] || [[[Horiz]]] ||
+||~ 5 || [[[plotn#boxplot|Boxplot]]] || [[[rowSwap(]]] || [[[nDeriv(]]] || 5 || E || U || [[[degree-mode|Degree]]] || [[[Full]]] ||
+||~ 6 || [ || [[[rowplus|row+(]]] || **unused** || 6 || F || V || [[[Normal]]] || [[[Func]]] ||
+||~ 7 || ] || [[[timesrow|*row(]]] || [[[fMin(]]] || 7 || G || W || [[[Sci]]] || [[[Param]]] ||
+||~ 8 || { || [[[timesrowplus|*row+(]]] || [[[fMax(]]] || 8 || H || X || [[[Eng]]] || [[[polar-mode|Polar]]] ||
+||~ 9 || } || [[[max(]]] || (space) || 9 || I || Y || [[[Float]]] || [[[seq-mode|Seq]]] ||
+||~ A || ^^[[[radian-symbol|r]]]^^ || [[[min(]]] || [[[characters|"]]] || [[[characters|.]]] || J || Z || [[[equal|=]]] || [[[IndpntAuto]]] ||
+||~ B || [[[degree-symbol|°]]] || [[[R►Pr(]]] || [[[characters|,]]] || [[[e-ten|E]]] || K || θ || [[[lessthan|<]]] || [[[IndpntAsk]]] ||
+||~ C || [[[inverse|ֿ¹]]] || [[[r-ptheta|R►Pθ(]]] || //[[[i]]]// || [[[or]]] || L || **[[[variable-tokens#toc0|2-byte]]]** || [[[greaterthan|>]]] || [[[DependAuto]]] ||
+||~ D || [[[2|²]]] || [[[P►Rx(]]] || [[[factorial|!]]] || [[[xor]]] || M || **[[[variable-tokens#toc1|2-byte]]]** || [[[lessthanequal|≤]]] || [[[DependAsk]]] ||
+||~ E || ^^[[[transpose|T]]]^^ || [[[P►Ry]]] || [[[CubicReg]]] || [[[characters|:]]] || N || **[[[variable-tokens#toc2|2-byte]]]** || [[[greaterthanequal|≥]]] || **[[[format-tokens|2-byte]]]** ||
+||~ F ||  [[[3|³]]] || [[[median(]]] || [[[QuartReg]]] || newline || O || [[[prgm]]] || [[[notequal|≠]]] || [[image 83lgfont/0Ah_LboxIcon.gif]] mark ||
+
+||||||||||||||||||~ One-byte tokens by hex code (0x80 - 0xFF) ||
+|| ||~ 8 ||~ 9 ||~ A ||~ B ||~ C ||~ D ||~ E ||~ F ||
+||~ 0 || [[image 83lgfont/0Bh_LcrossIcon.gif]] mark || [[[ZoomRcl]]] || [[[Pt-Change(]]] || [[[negative|-]]] (neg.) || [[[log(]]] || [[[if|Else]]] || [[[Output(]]] || [[[power|^]]] ||
+||~ 1 || [[image 83lgfont/0Ch_LdotIcon.gif]] mark || [[[PrintScreen]]] || [[[Pxl-On(]]] || [[[int(]]] || [[[ten-exponent|10^(]]] || [[[While]]] || [[[ClrHome]]] || [[[xroot|×√]]] ||
+||~ 2 || [[[multiply|*]]] || [[[ZoomSto]]] || [[[Pxl-Off(]]] || [[[abs(]]] || [[[sin(]]] || [[[Repeat]]] || [[[Fill(]]] || [[[1-Var Stats]]] ||
+||~ 3 || [[[divide|/]]] || [[[Text(]]] || [[[Pxl-Change(]]] || [[[det(]]] || [[[arcsin|sinֿ¹(]]] || [[[For(]]] || [[[SortA(]]] || [[[2-Var Stats]]] ||
+||~ 4 || [[[Trace]]] || [[[nPr]]] || [[[Shade(]]] || [[[identity(]]] || [[[cos(]]] || [[[End]]] || [[[SortD(]]] || [[[LinReg(a+bx)]]] ||
+||~ 5 || [[[ClrDraw]]] || [[[nCr]]] || [[[Circle(]]] || [[[dim(]]] || [[[arccos|cosֿ¹(]]] || [[[Return]]] || [[[DispTable]]] || [[[ExpReg]]] ||
+||~ 6 || [[[ZStandard]]] || [[[FnOn]]] || [[[Horizontal]]] || [[[sum(]]] || [[[tan(]]] || [[[goto|Lbl]]] || [[[Menu(]]] || [[[LnReg]]] ||
+||~ 7 || [[[ZTrig]]] || [[[FnOff]]] || [[[Tangent(]]] || [[[prod(]]] || [[[arctan|tanֿ¹(]]] || [[[Goto]]] || [[[Send(]]] || [[[PwrReg]]] ||
+||~ 8 || [[[ZBox]]] || [[[StorePic]]] || [[[DrawInv]]] || [[[not(]]] || [[[sinh(]]] || [[[Pause]]] || [[[Get(]]] || [[[Med-Med]]] ||
+||~ 9 || [[[Zoom In]]] || [[[RecallPic]]] || [[[DrawF]]] || [[[iPart(]]] || [[[arsinh|sinhֿ¹(]]] || [[[Stop]]] || [[[PlotsOn]]] || [[[QuadReg]]] ||
+||~ A || [[[Zoom Out]]] || [[[StoreGDB]]] || **[[[variable-tokens#toc5|2-byte]]]** || [[[fPart(]]] || [[[cosh(]]] || [[[IS>(]]] || [[[PlotsOff]]] || [[[ClrList]]] ||
+||~ B || [[[ZSquare]]] || [[[RecallGDB]]] || [[[rand]]] || **[[[miscellaneous-tokens|2-byte]]]** || [[[arcosh|coshֿ¹(]]] || [[[DS<(]]] || [[[lists|∟]]] || [[[ClrTable]]] ||
+||~ C || [[[ZInteger]]] || [[[Line(]]] || [[[pi|π]]] || [[[square-root|√(]]] || [[[tanh(]]] || [[[Input]]] || [[[plotn|Plot1(]]] || [[[plotn#histogram|Histogram]]] ||
+||~ D || [[[ZPrevious]]] || [[[Vertical]]] || [[[getKey]]] || [[[cube-root|³√(]]] || [[[artanh|tanhֿ¹(]]] || [[[Prompt]]] || [[[plotn|Plot2(]]] || [[[plotn#xyline|xyLine]]] ||
+||~ E || [[[ZDecimal]]] || [[[Pt-On(]]] || [[[characters|']]] || [[[ln(]]] || [[[If]]] || [[[Disp]]] || [[[plotn|Plot3(]]] || [[[plotn#scatter|Scatter]]] ||
+||~ F || [[[ZoomStat]]] || [[[Pt-Off(]]] || [[[characters|?]]] || //[[[e-exponent|e^(]]]// || [[[if|Then]]] || [[[DispGraph]]] || **[[[time-tokens|TI-84+(C(S)E)]]]** || [[[LinReg(ax+b)]]] ||
+
++ Comments
+
+* [[[PrintScreen]]] is an unimplemented command that nevertheless has a token associated with it. It doesn't do anything, least of all print the screen. Sorry to get your hopes up.
+* The following commands are 2-byte commands even though other similar commands are only one byte:
+ * [[[SinReg]]] and [[[Logistic]]]
+ * [[[G-T]]]
+ * [[[randInt(]]], [[[randNorm(]]], and [[[randBin(]]]
+ * [[[GetCalc(]]] 
+ * the //[[[e-value|e]]]// constant
+ * [[[ZoomFit]]]
+ * [[[plotn#modboxplot|ModBoxplot]]] and [[[plotn#normprobplot|NormProbPlot]]]
+ * [[[ClrAllLists]]]
+* The [[image 83lgfont/0Ah_LboxIcon.gif]], [[image 83lgfont/0Bh_LcrossIcon.gif]], and [[image 83lgfont/0Ch_LdotIcon.gif]] marks are for the [[[plotn|Plot1(]]], [[[plotn|Plot2(]]], and [[[plotn|Plot3(]]] commands.
+* 0xEF is the first half of a 2-byte token on the TI-84+ and TI-84+ SE, and is unused on other models.

@@ -1,0 +1,24 @@
+[[include inc:routine
+|picture=@@
+|summary=Determines whether an input is a number or list.
+|input=//Ans// - the number or list to examine
+|output=//Ans// - 1 if the input is a number, 0 if it is a list
+|variable=A [,∟A if input is a string]
+|compatibility= TI-83/84/+/SE
+|author=Deep Thought
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:For(A,465230.61649186,465230.61649186
+:Ans->A
+:A=Ans(1
+[[/code]]
+
+You can replace 465230.61649186 with any obscure and nearly impossible number.
+
+If Ans is a list, it is stored to ∟A. A remains whatever that number is, and A=Ans(1 (assuming that Ans as a list has at least one value) returns false. If Ans is a number, it is stored into A, thus A=Ans(1 (Ans times 1) returns true.
+
+The For( command is used to avoid updating Ans. End should be added to the end if this routine is used inside a larger program.

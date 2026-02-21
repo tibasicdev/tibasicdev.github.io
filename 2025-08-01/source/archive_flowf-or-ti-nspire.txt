@@ -1,0 +1,21 @@
+author: doodledill21
+version: '1.0'
+summary: 'this is the classic iPhone game flow now available for the ti-nspire cx and cas family of calculators original credit goes to Andrew Krapivin and jonbush from cemetech. the object of flow is to connect the like colored dots together and fill all of the squares in the grid. there are 50 levels each for 5×5,8x8,10x10,12x1214x14 grids as well as 50 in the variety pack. hope you have fun!'
+description: 'for the controls, you move the rectangle with the arrow keys and click on a circle to select it''s color. Then you maneuver it to the other color circle. The object of the game flow is to fill the grid and connect all the circles with its matching color. When you win the grid you can press enter to advance to the next level. Hope that made sense for everyone:)'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '1'
+compatibility: kk
+download: null
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: ''

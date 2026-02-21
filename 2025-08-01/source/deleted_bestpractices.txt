@@ -1,0 +1,48 @@
+TI-Basic has been around for several years now, starting with the first TI graphing calculators that came out. Since these calculators were released, programmers have learned that there are different ways to accomplish common problems and techniques. As programmers and programs have become more sophisticated, some of these different ways have become general accepted standards -- best practices.
+
+A best practice refers to the process of developing and following the most effective way of doing something that multiple programs use. While the different ways each have their own place and time, you should use the preferred way in your programs when applicable.
+
++ Program Structure
+
+Program structure refers to the organization of a program, and it is at the heart of a quality program. If a program does not have good structure, many times the speed and size will be excessive as well as making updates increasingly difficult.
+
+There are two different ways that you can structure a program: loops and branching. Within loops, there is For loops, While loops, and Repeat loops. The general accepted policy is that you should always use loops, unless branching would be more practical (these situations do arise occasionally).
+
+When deciding which loop to use, you need to look at what its functionality will be. For loops are a specialized form of a While loop, looping a set number of times over a certain range of numbers. While and Repeat loops both loop the same way, but they do have a couple differences.
+
+Repeat loops repeat the loop until the specified condition is true, whereas While loops repeat the loop while the specified condition is true. This means that the condition in a Repeat loop is false and the condition in a While loop is true. Related to the condition, Repeat loops check the condition at the End of the loop and While loops check the condition at the beginning. Consequently, Repeat loops will always loop at least once, whereas While loops will not loop at all if the condition is false.
+
+Branching uses two commands: Goto and Lbl. When Goto is encountered, it notes the label and proceeds to search for it from top to bottom in the code. This can really be slow if the label is deep within the program. It also has the tendency to make your code harder to follow and maintain. And, if you use a Goto to exit a loop or a conditional that uses an End, it can lead to memory leaks.
+
++ Appropriate Variables
+
+Variables are used to keep track of important values within a program, and they are what makes programs possible. While there different kinds of variables, you should always strive to use the most appropriate variable in the respective situation and circumstances.
+
+The first kind of variable is a real. There are 27 real variables (A-theta) and they are used for keeping track of one value. Because they are both small and fast, you should use real variables before using other variables.
+
+The second kind of variable is a list. There are six built-in lists (L1-L6) and unlimited user-defined lists, and they are used for keeping track of multiple one-dimensional related values. You should use the built-in lists for unimportant things during the program, and use user-defined lists for things that you want to save after the program is finished.
+
+Related to lists, the third kind of variable is a matrix. There are ten built-in matrices ([A]-[J]) and they are used for keeping track of multiple two-dimensional related values. While matrices can be used like lists (they only have one dimension), they are larger than lists.
+
+The fourth kind of variable is a string. There are ten built-in strings (Str0-Str9) and they are used for keeping track of multiple related characters. Strings can hold numbers, text, commands, and even functions.
+
+The fifth type of variable is the Finance variables.  These are found by pressing Apps,1,(right).  These are faster then real variables, but always require an initialization (i.e. 0→**N**).
++ Being Consistent
+
+Consistency is important in programs because it helps users to get used to the program, and it helps you come back to the program later to change or update it, if needed. You don't have to figure out what variables correspond to what in the program, as you already know. There are two parts to being consistent: variables and user interface.
+
+After programming for a while, you typically start getting into a habit with what variables you use. For example, many people use the X and Y variables primarily for For loops, and then reuse them elsewhere in the program for other secondary purposes. Regardless of which variables you use, once you start using them for a purpose continue using them for that purpose.  By far, the most commonly used variable for getKey is K.
+
+As a program can be displayed on either the homescreen or graphscreen, programmers sometimes decide to use both because of ease of coding (such as user input on the homescreen). This confuses users, however, because they have to readjust from one screen to the other. The better approach is to use the same screen throughout the program.
+
++ Research Before Coding
+
+Before doing any coding, you should do some research to determine what the best algorithms are for use in your program. One of the most common problems is a subpar algorithm, where the algorithm was not fully thought out or it doesn't work together with the other parts of the program the way it should.
+
+When you do research you ensure that the algorithm is appropriate and that it will work effectively. This helps eliminate flaws in your algorithm, which can cause a multitude of errors if left undone. If you think your program through before you actually do any of the coding, you can save yourself lots of time because you don't have to do several rounds of testing and debugging to get your program to work the way it should.
+
+One of the ways to test an algorithm and how effective it will be in your program is to take a very small problem and trace by hand how your chosen algorithm would work in that situation. This allows you to see if the algorithm will actually work in the given situation.
+
+If the algorithm doesn't work, you can immediately start looking for another algorithm. This saves you lots of potential time because you would have to come up with another algorithm had you just started coding it. Only when you are confident with the algorithm should you start the coding.
+
+If you're looking for super-advanced-math routines, check out Goose Commons, where Weregoose rules in the land of routines.

@@ -1,0 +1,18 @@
+[[iftags _in-development _incomplete -_extra]]
+[[include inc:cid]]
+[[/iftags]]
+
+%%content%%
+
+[[iftags +feature]]
+[[div class="menu" style="position:absolute; top:108px; right:2.5em;"]]
+[[image http://tibasicdev.wdfiles.com/local--files/home/toolbar-separator.png link="http://tibasicdev.wikidot.com/featured-articles"]]
+[[div class="show" style="background:#FFE; padding:0 1em 0 1em; border: 1px solid #777; position:absolute; right:2px; width:auto; text-align:center;"]]
+Featured Article
+[[/div]]
+[[/div]]
+[[/iftags]]
+
+[[div style="display : none;"]]
+.
+[[/div]]

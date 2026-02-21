@@ -1,0 +1,38 @@
+[[tabview]]
+[[tab Tools & Utilities]]
+//These tools will help you to interact more with your 68k calculator.//
+
+**Linking**
+[http://education.ti.com/educationportal/appsdelivery/download/save_download.jsp?cid=us&countryid=US&isocode=EN&contentpaneid=7&applicationid=183&softwareid=6599&inputpage=I TI-Connect]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/tilp.zip TI Linking Program (TiLP)]
+**Emulators**
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/calccapture.zip CalcCapture]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/tiemu.zip TiEmu]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/vti.zip Virtual TI]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/vticapture.zip VTI Capture]
+[[/tab]]
+[[tab Documentation]]
+**These are important pages that have a lot of information. If you need more elaboration on something, you'll probably find it here.**
+
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Basic%20Guide.zip 89 Basic Guide]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Basic%20Libraries.zip 89 Basic Libraries]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Beginning%20Basic.zip 89 Beginning Basic]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Optimize.zip 89 Optimize]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Programming%20Manual.zip 89 Programming Manual]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Text%20Formatting%20Tips.zip 89 Text Formatting Tips]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Tutorial.zip 89 Tutorial]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/92%20Advanced%20Basic.zip 92 Advanced Basic]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/92%20Beginner%20Basic.zip 92 Beginner Basic]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/92%20Inverting%20Text.zip 92 Inverting Text]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/92%20More%20Optimizing.zip 92 More Optimizing]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/92%20vs%2092p%20Speed%20Comparison.zip 92 vs 92p Speed Comparison]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/adddoublequotes.zip Add Double Quotes]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/cross68k.zip 68k Cross Compatibility]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/Optimizing%20Tips.zip Optimizing Tips]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/programaciontibasic.zip Programacion TI-Basic]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/Random%20Number%20Generation.zip Random Number Generation]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/tigraphlink89vistasetup.zip TI Graphlink 89 Vista Setup]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/89%20Advanced%20Programming%20Manual.zip 89 Advanced Programming Manual]
+[http://tibasicdev.wikidot.com/local--files/68k:downloads/TI89TitaniumGuidebook_Part2_EN.pdf TI-89 Titanium Guidebook]
+[[/tab]]
+[[/tabview]]

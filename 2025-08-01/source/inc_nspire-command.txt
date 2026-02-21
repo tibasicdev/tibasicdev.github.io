@@ -1,0 +1,34 @@
+[[div style="float:right; width: 16em; padding: .25em 1em 0; margin: 1em 0 1em 1em; border-left: 1px solid #888; background: #fff;"]]
+
+[!--{$picture}--][[[@@|]]][[image {$picture} style="max-width:16em;"]]
+
+[!-- --]
+
+[!--{$summary}--][[[@@|]]]**Command Summary**
+
+{$summary}
+
+[!-- --]
+
+[!-- --][!--{$syntax}--][[[@@|]]]**Command Syntax**
+
+{$syntax}
+
+[!-- --]
+
+[!-- --][!--{$location}--][[[@@|]]]**Menu Location**
+
+{$location}
+
+[!-- --]
+
+[!-- --][!--{$compatibility}--][[[@@|]]]**[[[compatibility |Calculator Compatibility]]]**
+
+{$compatibility}
+
+[!-- --]
+
+
+[[/div]]
+
+[!-- Code thanks to James Kanjo --]

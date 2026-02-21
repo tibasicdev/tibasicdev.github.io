@@ -1,0 +1,20 @@
+[[include inc:68k-command
+|picture=ncr.png
+|summary=Performs the operation "n choose r" using n and r.
+|syntax=nCr(//expr1,expr2//)
+|location= [Math][Probability][3]
+|size= @@
+]]
+
+This performs the operation "n choose r" where //expr1// is n and //expr2// is r.
+[[code]]
+:nCr(3,0)
+[[/code]]
++ Formulas
+
+The formula used to obtain the result is:
+[[include inc:68k-math eqn = \frac{n!}{r!(n-r)!}]]
+This is often referenced with Pascal's Triangle and binomial expansion as well as many areas of mathematics.
+ 
++ Related Commands
+* [[[68k:nPr()]]]

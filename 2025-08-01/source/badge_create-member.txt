@@ -1,0 +1,6 @@
+[[include inc:badge
+|image=http://tibasicdev.wikidot.com/local--files/files/membercreate.gif
+|title=Create Member Page
+|description=This badge is awarded for creating a member page for a new member
+|br=]
+]]

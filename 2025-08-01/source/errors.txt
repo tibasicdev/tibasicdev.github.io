@@ -1,0 +1,424 @@
+[[div style="font-size:105%; font-weight:bold;margin-bottom:30px;"]]
+[#A A] | [#B B] | [#D D] | [#E E] | [#I I] | [#L L] | [#M M] | [#N N] | [#O O] | [#R R] | [#S S] | [#T T] | [#U U] | [#V V] | [#W W] | [#Z Z]
+[[/div]]
+
+
+[[# note]]
+[[div style="border: 1px dashed #999;padding: 0 1em;background: #f4f4f4;margin: 35px 0 30px"]]
+In the Error Conditions section on a command page, descriptions will be given of the errors that can result when using a command. These do not include errors that can occur with virtually any command, such as **[#argument ERR:ARGUMENT]** or **[#syntax ERR:SYNTAX]**. However, if one of these errors is triggered in an unusual way, it will be listed.
+
+Be aware that certain errors don't occur when graphing or using one of the commands [[[DrawF]]], [[[DrawInv]]], [[[Tangent(]]], or [[[Shade(]]]. Instead, the graph point is skipped and treated as an undefined value. Tangent( is a minor exception, actually: if there's an error at the tangent point, it will be treated normally. The errors that are ignored in graphs are:
+* **[#datatype ERR:DATA TYPE]**
+* **[#divideby0 ERR:DIVIDE BY 0]**
+* **[#domain ERR:DOMAIN]**
+* **[#increment ERR:INCREMENT]**
+* **[#nonrealans ERR:NONREAL ANS]**
+* **[#overflow ERR:OVERFLOW]**
+* **[#singularmat ERR:SINGULAR MAT]**
+
+There are are also several error messages that don't actually occur (as far as anyone knows) from normal use of the calculator -- however, the messages are stored in the OS along with the normal messages. It's conceivable that an assembly program, especially an official TI application, would use these error messages for its own purposes. These messages are ERR:SOLVER, ERR:SCALE, ERR:NO MODE, ERR:LENGTH, and ERR:APPLICATION. 
+[[/div]]
+
++ A[[# A]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# archived]]
+++ ARCHIVED
+
+* You have attempted to use, edit, or delete an archived variable. For example, dim(L1) is an error if L1 is archived. 
+* Use [[[UnArchive]]] //variable name// to unarchive the variable before using it. For lists, [[[SetUpEditor]]] is recommended instead since it does the same thing, but works on the TI-83 (which has no archive) as well, and does not crash when the list is undefined.
+* There is no way to archive or unarchive programs using pure Basic, although several [[[assembly]]] utilities are available for doing so.
+* When you attempt to edit a archived Matrix,List,Variable, or program, the option 2:GOTO doesn't show up.
+* Use Unarchive or the memory manager to unarchive a variable,matrix,list, program, etc.
+
+[[# archivefull]] 
+++ ARCHIVE FULL
+
+* You have attempted to archive a variable and there is not enough space in archive to receive it.
+* Sometimes, if the calculator displays a message from memory management saying "Garbage Collect?", choosing the option No gives this error.
+
+[[# argument]]
+++ ARGUMENT
+
+* A function or instruction does not have the correct number of arguments. See the appropriate [[[command-index|command]]] page.
+* A function or instruction that can have any number of arguments has 256 or more.
+* In general, if a function has more than one non-SYNTAX error in it, this is the error that will be generated first (if it applies, of course). 
+* Generally, on graphing calculators and such, most functions ex: [[[randInt(]]] require that you use commas to make a list.
+[[/div]]
+
++ B[[# B]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# badaddress]]
+++ BAD ADDRESS
+
+* You have attempted to send or receive an application and an error (e.g., electrical interference) has occurred in the transmission.
+
+[[# badguess]]
+++ BAD GUESS
+
+* With the [[[solve(]]] function, the equation solver, or an operation from the CALC menu, your guess wasn't within the lower and upper bound, or else the function is undefined at that point. Change the guess.
+
+[[# bound]]
+++ BOUND
+
+* In a CALC operation or with [[[Select(]]], you defined Left Bound > Right Bound.
+* In [[[fMin(]]], [[[fMax(]]], [[[solve(]]], or the equation solver, the lower bound must be less than the upper bound.
+
+[[# break]]
+++ BREAK
+
+* You pressed the [ON] key to break execution of a program, to halt a DRAW instruction, or to stop evaluation of an expression.
+
+[[/div]]
+
++ D[[# D]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# datatype]]
+++ DATA TYPE
+
+* You entered a value or variable that is the wrong data type.
+* For a function (including implied multiplication) or an instruction, you entered an argument that is an invalid data type, such as a complex number where a real number is required.
+* In an editor, you entered a type that is not allowed, such as a matrix entered as an element in the stat list editor.
+* You attempted to store an incorrect data type, such as a matrix to a list.
+* You attempted to divide matrices, which should be done by matrix inversion and multiplication instead.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[# date]]
+++ DATE
+
+* Only on the TI-84+ or TI-84+ SE, this error occurs when an invalid date is entered.
+* Below the error menu, an explanation of what's wrong is given: e.g., "Invalid day for month selected."
+
+[[# dimmismatch]]
+++ DIM MISMATCH
+
+* You attempted to perform an operation that references more than one list or matrix, but the dimensions do not match.
+* In most cases, the dimensions are required to be equal, with the following exceptions:
+ * When multiplying two matrices, the number of columns of the first must match the number of rows of the second.
+ * When using [[[augment(]]] to combine two matrices, only the number of rows must match.
+ * With the [[[List►matr(]]] command, the lists don't have to match sizes - shorter lists will be padded with zeroes.
+
+[[# divideby0]]
+++ DIVIDE BY 0
+
+* You attempted to divide by zero. 
+* You attempted a linear regression on data that fit a vertical line.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[# domain]]
+++ DOMAIN
+
+* You specified an argument to a function or instruction outside the valid range. This error is not returned during graphing. The TI-83+ allows for undefined values on a graph.
+* You attempted a logarithmic or power regression with a negative X or an exponential or power regression with a negative Y.
+* You attempted to compute [[[sigmaprn|ΣPrn(]]] or [[[sigmaint|ΣInt(]]] with pmt2 < pmt1.
+* You've assigned a value to //n// (the sequential graph variable), //n//Min or //n//Max that isn't an integer, or that is less than 0.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[# duplicate]]
+++ DUPLICATE
+
+* You attempted to create a duplicate group name.
+* You attempted to create a duplicate program using [[[AsmComp(]]].
+
+[[# duplicatename]]
+++ Duplicate Name
+
+* A variable you attempted to transmit cannot be transmitted because a variable with that name already exists in the receiving unit.
+* Also appears when you unpack a group and a variable in the group is already defined. In both cases, it will give you several options for correcting the error, including Omit, Rename, and Overwrite.
+
+[[/div]]
+
++ E[[# E]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# expired]]
+++ EXPIRED
+
+* You have attempted to run a Flash application with a limited trial period which has expired.
+
+[[# errorinxmit]]
+++ Error in Xmit
+
+* The TI-83+ was unable to transmit an item. Check to see that the cable is firmly connected to both units and that the receiving unit is in receive mode.
+* You pressed [ON] to break during transmission.
+* You attempted to perform a backup from a TI-82 to a TI-83+.
+* You attempted to transfer data (other than L1 through L6) from a TI-83+ to a TI-82.
+* You attempted to transfer L1 through L6 from a TI-83+ to a TI-82 without using 5:Lists to TI-82 on the LINK SEND menu.
+* You attempted to use SendOS with no other calculator connected. 
+* When this error occurs, the option 2:Goto doesn't show up, but will redirect you to the LINK screen instead of the main screen.
+
+[[/div]]
+
++ I[[# I]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# idnotfound]]
+++ ID NOT FOUND
+
+* This error occurs when the SendID command is executed, but the proper calculator ID cannot be found.
+* When this error occurs, the option 2:Goto does not show up.
+[[# illegalnest]]
+++ ILLEGAL NEST
+
+* You attempted to use an invalid function in an argument to a function.
+* This happens when using [[[seq-list|seq(]]] in the expression for seq(, [[[fnInt(]]] within the first argument of fnInt(, [[[expr(]]] inside the string argument of expr(, or [[[summationsigma|Σ(]]] within the argument for Σ(.
+
+[[# increment]]
+++ INCREMENT
+
+* The increment in [[[seq-list|seq(]]] is 0 or has the wrong sign.
+* The increment in a [[[For(]]] loop is 0.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[# invalid]]
+++ INVALID
+
+* You attempted to reference a variable or use a function where it is not valid. For example, Yn cannot reference Y, Xmin, ΔX, or TblStart.
+* You attempted to reference a variable or function that was transferred from the TI-82 and is not valid for the TI-83+. For example, you may have transferred UnN1 to the TI-83+ from the TI-82 and then tried to reference it.
+* In Seq mode, you attempted to graph a phase plot ([[[uvAxes]]], [[[uwAxes]]], or [[[vwAxes]]]) without defining both equations of the phase plot.
+* In Seq mode, you attempted to graph a recursive sequence without having input the correct number of initial conditions.
+* In Seq mode, you attempted to reference terms other than (n-1) or (n-2).
+* You attempted to designate a graph style that is invalid within the current graph mode.
+* You attempted to use [[[Select(]]] without having selected (turned on) at least one xyLine or scatter plot.
+* You attempted to use certain functions (e.g. [[[If]]], [[[Then]]], [[[Else]]]) outside a program.
+
+[[# invaliddim]]
+++ INVALID DIM
+
+* You tried to access an element past the end of a list or matrix (there is an exception: it's allowed to store to the element one past the end of a list, adding the element).
+* You specified dimensions for an argument that are not appropriate for the operation.
+* You specified a [[[lists|list]]] dimension as something other than an integer between 1 and 999.
+* You specified a [[[matrices|matrix]]] dimension as something other than an integer between 1 and 99.
+* You attempted to invert a matrix that is not square.
+
+[[# iterations]]
+++ ITERATIONS
+
+* The [[[solve(]]] function or the equation solver has exceeded the maximum number of permitted iterations. Examine a graph of the function. If the equation has a solution, change the bounds, or the initial guess, or both.
+* [[[irr(]]] has exceeded the maximum number of permitted iterations.
+* When computing I%, the maximum number of iterations was exceeded.
+
+[[/div]]
+
++ L[[# L]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# label]]
+++ LABEL
+
+* The label in the [[[Goto]]] instruction is not defined with a [[[Lbl]]] instruction in the program.
+* When this error occurs, the option 2:Goto doesn't show up.
+
+[[# link]]
+++ Link
+* Something in the flash application was invalid while running.
+* When this error occurs, the option 2:Goto doesn't show up.
+
+[[/div]]
+
++ M[[# M]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# memory]]
+++ MEMORY
+
+* Memory is insufficient to perform the instruction or function. You must delete items from memory before executing the instruction or function.
+* You might also want to try archiving some variables,matrixes,lists,etc if you have nothing in RAM that you don't need.
+* Recursive problems return this error; for example, graphing the equation Y1=Y1. (but Y1=X, Y2=Y1, for example, will NOT cause an error.)
+* Branching out of an [[[if|If:Then]]], [[[For(]]], [[[While]]], or [[[Repeat]]] loop with a [[[Goto]]] will waste memory until the program finishes running, because the [[[End]]] statement that terminates the loop is never reached. Unless a program is very large, this is one of the likeliest causes of ERR:MEMORY.  Refer to [[[memory-leaks]]].
+
+[[# memoryfull]]
+++ MemoryFull
+
+* You are unable to transmit an item because the receiving unit’s available memory is insufficient. You may skip the item or exit receive mode.
+* During a memory backup, the receiving unit’s available memory is insufficient to receive all items in the sending unit’s memory. A message indicates the number of bytes the sending unit must delete to do the memory backup. Delete items and try again.
+* You may also try to archive some variables to free up some memory that you do not plan to transmit.
+
+[[# mode]]
+++ MODE
+
+* You attempted to store to a [[[system-variables#window|window variable]]] in another graphing mode or to perform an instruction while in the wrong mode; for example, [[[DrawInv]]] in a graphing mode other than [[[Func]]].
+
+[[/div]]
+
++ N[[# N]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# nosignchng]]
+++ NO SIGN CHNG
+
+* The [[[solve(]]] function or the equation solver did not detect a sign change.
+* You attempted to compute I% when FV, (N*PMT), and PV all share the same sign.
+* You attempted to compute [[[irr(]]] when CFList and CFO share the same sign.
+
+[[# nonrealans]]
+++ NONREAL ANS
+
+* In [[[real-mode|Real]]] mode, the result of a calculation yielded a complex result.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+* This error can appear if you use a negative number for some operations, such as [[[ln]]]
+
+[[/div]]
+
++ O[[# O]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# overflow]]
+++ OVERFLOW
+
+* You attempted to enter, or you have calculated, a number that is beyond the range of the calculator (-1,,E,,100 to 1,,E,,100, non-inclusive). 
+* Sometimes you can fix this error by re-ordering operations. For example, 60!*30!/20! will return an overflow error, but 60!/20!*30! will not.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[/div]]
+
++ R[[# R]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# reserved]]
+++ RESERVED
+
+* You attempted to use a [[[system-variables|system variable]]] inappropriately (for example, performing [[[1-Var Stats]]] on the reserved list ∟RESID).
+
+[[/div]]
+
++ S[[# S]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# singularmat]]
+++ SINGULAR MAT
+
+* A singular matrix (determinant = 0) is not valid as the argument for ^^-1^^.
+* A [[[regression-models |regression]]] generated a singular matrix (determinant = 0) because it could not find a solution, or a solution does not exist.
+* This error is not returned when graphing (see the [#note note] at the top of the page).
+
+[[# singularity]]
+++ SINGULARTY
+
+* The expression in the [[[solve(]]] function or the equation solver contains a singularity (a point at which the function is not defined). Examine a graph of the function. If the equation has a solution, change the bounds or the initial guess or both.
+* Although the correct spelling is "singularity", the error message shown has "singularty" on all calculators and OS versions.
+
+[[# stat]]
+++ STAT
+
+* You attempted a stat calculation with lists that are not appropriate.
+* Statistical analyses must have at least two data points.
+* Med-Med must have at least three points in each partition.
+* When you use a frequency list, its elements must be at least 0.
+* (Xmax - Xmin) / Xscl must equal 47 for a histogram.
+
+[[# statplot]]
+++ STAT PLOT
+
+* You attempted to display a graph when a stat plot that uses an undefined list is turned on.
+* To fix this error, use the command [[[PlotsOff]]] to turn off plots when you're using the graph screen.
+
+[[# syntax]]
+++ SYNTAX
+
+* The command contains a syntax error. Look for misplaced functions, arguments, parentheses, or commas. See the appropriate [[[command-index|command]]] page.
+* This error will also occur in place of a DATA TYPE error if the variable type in question is a variable name (with [[[seq(]]], [[[solve(]]], [[[For(]]], and other commands)
+* The command was attempting to get [[[expr(]]] of a non-value string, i.e., trying to evaluate a space, equals sign, etc.
+
+[[/div]]
+
++ T[[# T]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# tolnotmet]]
+++ TOL NOT MET
+
+* You requested a tolerance to which the algorithm cannot return an accurate result.
+
+[[/div]]
+
++ U[[# U]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# undefined]]
+++ UNDEFINED
+
+* You referenced a variable that is not currently defined. This error doesn't occur with number variables (A-Z,θ), which have a default value of 0.
+* Lists, matrices,strings,pictures, and GDBs have to be stored to first, in order to be used.
+* Most [[[system variables]]] always have a value, so this error doesn't apply to them.
+* However, [[[statistics|statistical]]] variables are undefined except for those used by the last relevant command.
+* Undefined equation variables (such as Parametric and Polar variables) return ERR:INVALID instead of ERR:UNDEFINED.
+[[/div]]
+
++ V[[# V]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# validation]]
+++ VALIDATION
+
+* Electrical interference caused a link to fail or this calculator is not authorized to run the application and/or Operating System.
+
+[[# variable]]
+++ VARIABLE
+
+* You have tried to archive a variable that cannot be archived or you have have tried to unarchive an application or group.
+* Variables that cannot be archived include:
+ * The number variables R, T, X, Y, and θ (because they are used for graphing)
+ * The list ∟RESID (because it's reserved for residuals from [[[regression models]]])
+ * [[[System variables]]] (including [[[statistics|statistical]]] variables, [[[finance]]] variables, equations, plots, and window variables)
+ * The AppIdList.
+
+[[# version]]
+++ VERSION
+
+* You have attempted to receive an incompatible variable version from another calculator.
+* You have attempted to use or display certain corrupted tokens that the calculator will not allow.
+
+[[/div]]
+
++ W[[# W]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# windowrange]]
+++ WINDOW RANGE
+
+* A problem exists with the window variables.
+ * You defined Xmin>Xmax or Ymin>Ymax.
+ * Xmin and Xmax (or Ymin and Ymax) are equal or so close that numerical precision can't allow for enough values between them.
+ * The values for θmin, θmax, and θstep create an empty or never-ending loop for θ.
+ * The values for Tmin, Tmax, and Tstep create an empty or never-ending loop for T.
+* When this error occurs, the option 2:Goto doesn't show up.
+[[/div]]
+
++ Z[[# Z]]
+
+[[div style="margin-left: 35px;"]]
+
+[[# zoom]]
+++ ZOOM
+
+* A point or a line, instead of a box, is defined in ZBox.
+* A ZOOM operation returned a math error.
+* When this error occurs, the option 2:Goto doesn't show up.
+[[/div]]
+
++ Other
+
+[[div style="margin-left: 35px;"]]
+
+++ ?
+
+* An unknown error has occurred. 
+[[/div]]

@@ -1,0 +1,31 @@
+[[include inc:routine
+|picture=@@
+|summary=Returns a list of the frequency of values in another list.
+|input=//L₁// - the list you want to find the frequency of
+|output=//L₂// - the values of L₁ without repetition
+//L₃// - the frequencies of the values in the list L₂
+|variable=L₁, L₂, L₃, I 
+|compatibility=TI-83/84/+/SE
+|author=DarkerLine
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=6007&view=findpost&p=91682 United TI
+|download=[file listfrequency.zip]
+]]
+
+[[code]]
+:{L₁(1→L₂
+:{1→L₃
+:For(I,2,dim(L₁
+:If max(L₂=L₁(I:Then
+:L₃+(L₂=L₁(I→L₂
+:Else
+:augment(L₂,{L₁(I→L₂
+:augment(L₂,{1→L₃
+:End:End
+[[/code]]
+
+With our list of values stored in L₁, we store the first element of L₁ to L₂ to initialize it, and store a value of one to L₃ because that value has appeared once in the list (by default it is the first value and thus we know it appeared). We then begin looping in the second element to avoid an extra increment and then through all of the elements of L₁.
+
+When determining the frequency of a value, we need to check to see if the particular element (in this case, L₁(I)) has already appeared in L₂. If it has, we increment (add one) to its respective frequency in L₂. However, if the value has never appeared in L₁, we add that value as a new element to the end of L₂ and also set its frequency to one. We repeat this until we have the frequency of all of the values in L₁ stored in L₂.
+
+When you are done using L₁, L₂, and L₃, you should [[[cleanup|clean them up]]] at the end of your program.

@@ -1,0 +1,17 @@
+author: 'Superchu Frostbite'
+description: 'A simple reflex game where a key code is generated on the screen. Push the correct key before you run out of time. A great way to learn the key codes.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+image: /home/no_image_2.png
+download: KEYGAME.zip
+size: '268'
+unit: '1'

@@ -1,0 +1,3 @@
+name: ''
+content: "That who I am...\n\nEdit: I have done some basic testing and it seems:\n* You can post a completely empty post, with no text/characters at all.\n* You can't delete a post, unless you manually delete the page\n\nIs there a way to \"fix\" these issues?"
+attachment: null

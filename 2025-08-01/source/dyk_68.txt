@@ -1,0 +1,1 @@
+…that the color tokens on a TI-84+CSE/CE can be used as number equivalents for math? For example, BLUE*5 equals 50 while DARKGRAY-4 equals 20?

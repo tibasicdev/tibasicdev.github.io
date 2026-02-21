@@ -1,0 +1,15 @@
+[[include inc:program
+|picture=dstar.gif
+|summary=A quality version of the classic dstar game.
+|size=4,800 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.basiclimits.tk/ Scott Davis]
+|download=[http://tibasicdev.wikidot.com/local--files/dstar/dstar.zip dstar.zip]
+]]
+
+DStar is a fun puzzle game that involves moving around a + sign and a box to collect all five of the pieces in the fewest moves possible. While that sounds easy, the + sign always moves until it gets to a wall, so you have to be very methodical in planning how to collect the pieces (i.e., you need to use the box to get the necessary positioning). Also note that you can swap the + sign and the box, but that counts as a move as well.
+
+The game features several built-in levels that you can play, but it also has support for a level editor and external levels. Using the level editor is a breeze -- you just press the appropriate F# keys to add or remove the walls, + sign, box, and pieces, and then press ENTER when you are done to save it. In addition, the game also allows you to save and load, which means you can save your progress without worrying about it being deleted.
+
+Like most of the other dstar clones, this version runs strictly on the graph screen, and features a nice graphical interface. The game uses the standard controls: the arrow keys move the + around, ALPHA starts the level over again, TRACE saves the game, GRAPH loads the game, and DEL exits the game.

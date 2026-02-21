@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=blizz.gif style="width:200px; height:135px;"
+|summary=You have to shoot down the buildings before you crash into them.
+|size=1,863 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/35/3575.html Martin Johansson] (Smoother)
+|download=[http://tibasicdev.wikidot.com/local--files/blizz/blizz.zip blizz.zip]
+]]
+
+You have to shoot down the buildings before you crash into them.

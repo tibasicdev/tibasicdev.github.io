@@ -1,0 +1,6 @@
+Member
+[[div class="badges"]]
+\
+[[include badge:challenge-winner]]
+[!----]
+[[/div]]

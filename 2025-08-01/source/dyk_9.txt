@@ -1,0 +1,1 @@
+…that the [[[key codes]]] follow a simple pattern: a key is represented by putting its row and column together?

@@ -1,0 +1,166 @@
+[[div style="float:right; text-align:center; background: #fdfcf6; padding: 3px; border: 1px solid #666; margin-left: 5px;"]]
+[[image asmprgm-example.gif style="border: 1px solid #666; margin-bottom: 2px;"]]
+Example of Inputting Hex Code
+[[/div]]
+
+**IMPORTANT: DO NOT UPGRADE TO TI-OS 5.6. For more information please click [https://www.cemetech.net/news/2020/5/950/_/ti-83-premium-ceti-84-plus-ce-asmc-removal-updates here.]** Asm Programming was completely removed in TI-OS 5.6, and once upgraded, you cannot downgrade.
+
+**NOTICE:** If you have upgraded to TI84+CE OS 5.4, you cannot use any of these programs because TI said so. If you try to run any of them, the calc will throw an "INVALID" error. You need to use {{AsmComp(prgmSOURCE,prgmNEW}} to run assembly programs.
+
+**DOWNGRADE NOTE:** If you have upgraded to 5.6, a [*https://www.youtube.com/watch?v=DKs9jmiOLX0 tutorial is located here to downgrade from OS 5.5+.] This will work with any boot code up to 5.3.1.
+
+------
+
+There are all sorts of small assembly programs that you can create simply using the calculator's built-in assembly commands (specifically, [[[asmprgm#toc1 |Asm84CEPrgm]]]) along with the appropriate hexadecimal code. In order to run a program, you need to use the [[[asm-command|Asm(]]] command, where Asm(prgmPROGNAME is the program that contains the hexadecimal code.
+
+As a word of caution, when entering in the hexadecimal, you need to be very careful that you type it in exactly as you see it. If there is a single incorrect character, the calculator might crash and reset your RAM when you turn it on again. We have tested the hexadecimal codes to make sure they work, but it's up to you to enter them in correctly.
+
+These hexcodes only work on the TI-84 Plus CE. See the following pages for [[[hexcodes|monochrome calcs]]] or the [[[84cse:hexcodes|CSE]]].
+
+[[toc]]
+
++ Turn Off LCD
+[[code]]
+:AsmPrgm84CE
+:3E01321900E3C9
+[[/code]]
+
++ Turn On LCD
+[[code]]
+:AsmPrgm84CE
+:3E09321900E3C9
+[[/code]]
+This is the same as the code for turning off the LCD, except that the 01 is a 09 instead.
+
++ Set LCD Brightness
+[[code]]
+:Asm84CEPrgm
+:CD500F02CD700F02322400F6C9
+[[/code]]
+Set the brightness to a value between 0 and 255 stored in Ans, 255 is low, 0 is high.
+
++ Enable Lowercase Letters
+[[code]]
+:Asm84CEPrgm
+:FDCB24DEC9
+[[/code]]
+
+
++ High-Contrast Screen
+[[code]]:Asm84CEPrgm211808F874364436216C3601C9[[/code]]
+This will inverse the whole screen to high-contrast mode. This will make it easier to look at the screen during the night.
+Credit: MateoConLechuga
+
++ Toggle Program Mode
+[[code]]
+:Asm84CEPrgm
+:FD7E08EE02FD7708C9
+[[/code]]
+When used in a program, it allows you to use [[[Archive]]] and [[[UnArchive]]] on other programs. **warning:** Make sure to switch back to "program mode" when you're done by running the program again.
+
++ Screen to Graph [**TO DO**]
+
++ Quick Key
+
+[[code]]:Asm84CEPrgm
+:3A8705D0CD080B02CD300F02C9[[/code]]
+
++ Text Inverse
+[[code]]:Asm84CEPrgm
+:FD7E05EE08FD7705C9[[/code]]
+This will switch from normal text mode to inverse (white text on black background) and vice versa.
+
++ Lowercase
+++ Lowercase On
+[[code]]Asm84CEPrgm
+:FDCB24DEC9[[/code]]
+
+++ Lowercase Off
+[[code]]Asm84CEPrgm
+:FDCB249EC9[[/code]]
+
+++ Lowercase Toggle
+[[code]]Asm84CEPrgm
+:FD7E24EE08FD7724C9[[/code]]
+This will toggle lowercase on or off
+
++ Fill Screen [**TO DO**]
+++ LCD Clear
+[[code]]Asm84CEPrgm
+:CD101A02C9[[/code]]
+Clears the LCD.
+
+++ LCD Clear and redraw Status Bar
+[[code]]Asm84CEPrgm
+:CD101A02CD3C1A02C9[[/code]]
+Same as LCD Clear, but redraws the Status bar.
+
+++ White
+[[code]]Asm84CEPrgm
+:210000D436FFE5D11301FF5702EDB0C9[[/code]]
+++ Black
+[[code]]Asm84CEPrgm
+:210000D43600E5D11301FF5702EDB0C9[[/code]]
+++ Fill Screen with color value in Ans (0-255, from xLibC palette)
+[[code]]Asm84CEPrgm
+:CD500F02CD700F02320000D4210000D4E5D11301FF5702EDB0C9[[/code]]
+
+
+++ Border [**TO DO**]
+++ White Border [**TO DO**]
+++ Black Border, Clear Inside [**TO DO**]
+++ Invert Screen [**TO DO**]
++ Change brightness level
+++ Set Brightness
+[[code]]Asm84CEPrgm
+:CD500F02CD700F02322400F6C9[[/code]]
+Set the brightness to a value between 0 and 255 stored in Ans, 255 is low, 0 is high.
+++ Decrease Brightness
+[[code]]Asm84CEPrgm
+:3A2400F63C322400F6C9[[/code]]
+Decrease the brightness by 1. Run many times to see a noticeable difference.
+++ Increase Brightness
+[[code]]Asm84CEPrgm
+:3A2400F63D322400F6C9[[/code]]
+Increase the brightness by 1. Run many times to see a noticeable difference.
++ Run Indicator
+++ Run Indicator Off
+[[code]]Asm84CEPrgm
+:CD480802C9[[/code]]
+++ Run Indicator On
+[[code]]Asm84CEPrgm
+:CD440802C9
+[[/code]]
+++ Toggle Run Indicator
+[[code]]Asm84CEPrgm
+:FD7E12EE01FD7712C9[[/code]]
+Note that when this routine turns the run indicator off, it doesn't erase the run indicator, it simply stops it.
++ APD
+++ Disable APD
+[[code]]Asm84CEPrgm
+:CD341102C9[[/code]]
+Disables Automatic Power Down on the TI-84 Plus CE.
+++ Enable APD
+[[code]]Asm84CEPrgm
+:CD381102C9[[/code]]
+Enables Automatic Power Down on the TI-84 Plus CE.
++ Miscellaneous
+++ Turn Cursor Off
+[[code]]Asm84CEPrgm
+:FDCB0CE6C9[[/code]]
+This is harmless, but it stops displaying that blinking cursor :D Just press [2nd][MODE] to put it back to normal. What, jokes are allowed, right?
+++ Turn Cursor On
+[[code]]Asm84CEPrgm
+:FDCB0CA6C9[[/code]]
+++ Draw Ti Logo
+[[code]]Asm84CEPrgm
+:CD001B02C9[[/code]]
+Draws the TI logo
+++ Dark Mode
+[[code]]Asm84CEPrgm
+:3E21B7211808F8CD9EA8D16C36012E0D7EE6F020FB2DCB5620FC6C77C906031717177710FAC9[[/code]]
+Sets the program to "dark mode" where all colors are inverted until the next power off.
+++ Error
+[[code]]Asm84CEPrgm
+:CD500F02CD700F02CD900702C9[[/code]]
+This code will cause an error to be thrown, based on the value in Ans. The values correspond to the ones found [http://www.brandonw.net/calcstuff/ti84pce.inc here]. Use your browser's search tool to look for "E_Overflow" which is Error 1. If you are using a Windows or Chromebook, pressing Control+F will bring up the search tool. On a Mac, pressing Command+F will bring up the search tool. By default, there is no Goto option unless you add 128 to the values. So for example, for a divide by zero error with a goto option, use 130 as the error code.

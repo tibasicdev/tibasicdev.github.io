@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Hop Over
+|author=Weregoose
+|size=400 Bytes
+|description=You have to move the pieces around until you get the four squares on the left and the four crosshairs on the right.
+
+|picture=http://tibasicdev.wikidot.com/local--files/hop-over/hopover.png
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/hop-over/hopover.zip
+|downloadName=HopOver.zip
+
+|83compatible=DO NOT EDIT
+]]

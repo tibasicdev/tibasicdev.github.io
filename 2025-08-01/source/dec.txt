@@ -1,0 +1,30 @@
+[[include inc:command
+|picture=DEC.GIF
+|summary=Displays the decimal form of a fraction.
+|syntax=//<fraction>//►Dec
+|location=While editing a program, press:
+# MATH to enter the [[[MATH]]] menu
+# 2 or use the arrow keys to select
+|compatibility=TI-83/84/+/SE/CE
+|size=1 byte
+]]
+
+This command is generally useless.  Its supposed use is to convert numbers into decimal form, but any typed fractions are displayed as decimals anyway.
+[[code]]1/3
+     .3333333333
+1/3►Dec
+     .3333333333[[/code]]
+
+In 2.53 MP or higher, typed fractions are displayed in fraction form. Therefore, the {{►Dec}} command is useful in this case.
+[!-- + Error Conditions
+
+(this section is new, and might not be present on older pages - also, some commands may not throw non-generic errors)
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+* **[[[errors#D|ERR:DIM MISMATCH]]]** is thrown if the two list arguments have different dimensions.
+* **[[[errors#R|ERR:RESERVED]]]** is thrown if L_RESID is supplied as an argument. --]
+
++ Related Commands
+
+* {{[[[frac|►Frac]]]}}

@@ -1,0 +1,1 @@
+…that strings are the fastest data type to access, given enough elements?

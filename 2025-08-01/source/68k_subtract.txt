@@ -1,0 +1,32 @@
+[[include inc:68k-command
+|picture=subtract.png
+|summary=Returns the difference of two numbers.
+|syntax=//value1// - //value2//
+|location=Press the [-] key to paste -.
+|size=1 byte
+]]
+
+The - operator subtracts two numbers, variables, or expressions. Order of operations dictates that it's calculated after [[[68k:multiply|*]]] and [[[68k:divide|/]]], and at the same time as [[[68k:add|+]]].
+
+The - operator can also be used on lists and matrices. For the most part, it behaves in the intuitive way, distributing the operation over each element. However, subtracting a number from a matrix (or a matrix from a number) behaves differently: the number is only subtracted along the main diagonal of the matrix. For "normal" subtraction that applies to every element of the matrix, see [[[68k:dotsubtract|.-]]].
+
+[[code]]
+:1-1
+           0
+:5→x
+:2-3x
+           -13
+:[1,2;3,4]-100
+           [-99  2]
+           [3  -96]
+[[/code]]
+
++ Related Commands
+
+* [[[68k:add|+]]] (add)
+* [[[68k:multiply|*]]] (multiply)
+* [[[68k:divide|/]]] (divide)
+
++ See Also
+
+* [[[68k:Order of Operations]]]

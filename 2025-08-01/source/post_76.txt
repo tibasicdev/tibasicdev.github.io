@@ -1,0 +1,3 @@
+name: ''
+content: 'I think there are a few things that would be nice if it were possible to add, but I like it how it is :) I especially like the ability to attach files to posts. I think it will help keep things much more organised. I wonder, is it possible to edit an attachment?'
+attachment: null

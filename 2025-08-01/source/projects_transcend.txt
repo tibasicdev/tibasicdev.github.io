@@ -1,0 +1,5 @@
+[!-- Fill in a short description here --]
+This game is based roughly on games like Labyrinth of Touhou, however instead of 16 characters, you will be using two active characters who synergize well to fight bosses.
+====
+[!-- Continue one from the previous line, DO NOT REWRITE IT!!! --]
+It is currently a TI-Basic game which runs with xLib, and is in early development. Planned future updates include a boss tower, more characters, and hidden bosses.

@@ -1,0 +1,34 @@
+[[include inc:68k-command
+|picture=lock.png
+|summary=Locks the specified variables
+|syntax=Lock //var1, var2, etc//
+|location=
+|size=X byte(s)
+]]
+The {{lock}} command prevents a variable's value from changing. In programs and functions, {{lock}} is usually used to stop a variable from undesirably changing. If a variable is universally defined (like files in folders), the {{lock}} command has a popular purpose of making the variable constant (unchanging) throughout use in sets of programs.
+
+[[code]]
+input "Input var1 here: ",var1
+lock var1
+text "You can no longer change var1."
+© var1 can now be used as a constant variable.
+©... <program statements that require the value of var1>
+prgm2() ©var1 may not change in any other programs.
+unlock var1
+[[/code]]
+Note: the © command will turn any code written until the next ':' into comments. (neat-freaks love this.)
+Comments are very helpful for people who forget, especially when dealing with tricky commands and code. Using comments for the //lock// command will help you remember to //unlock// the variable when the time comes to delete it.
+
+[!--
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+--]
++ Related Commands
+
+* [[[68k:unlock|Unlock]]]
+* [[[68k:archive|Archive]]]
+* [[[68k:unarchiv|Unarchiv]]]

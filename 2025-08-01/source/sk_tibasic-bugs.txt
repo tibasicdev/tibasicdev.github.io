@@ -1,0 +1,100 @@
+This is a list of the bugs that have been discovered in TI-Basic when using the different commands. These bugs appear on their respective command pages as well, but are placed here together for sake of completeness (that way you don't have to go hunting around the site).
+
+++ Using String►Equ(
+
+The [[[string-equ|String►Equ(]]] command is supposed to store the contents of a string to an equation variable (such as Y,,1,, or X,,1T,,). In practice, however, this command is completely useless. This is because the [[[store|→]]] (store) operation can be used for the same purpose:
+
+[[code]]
+:String►Equ(Str1,Y1
+can be
+:Str1→Y1
+[[/code]]
+
+This replacement is universal, takes the same time to run (because it actually uses the same routines), is more convenient to type since you don't have to go through the command catalog, and is several bytes smaller.
+
+++ Using DelVar
+
+If [[[DelVar]]] is used in a [[[for|For(]]] loop to delete the counter variable, or used to delete the variable and/or value in the [[[is|IS>(]]] or [[[ds|DS<(]]] commands before using them, it will cause an [[[errors#undefined|ERR:UNDEFINED]]] error.
+
+Another bug when using DelVar is with its chaining of variables functionality: the DelVar command also allows you to take the command from the next line and put it immediately after the DelVar command.
+
+[[code]]
+:DelVar A
+:Disp "Hello
+can be
+:DelVar ADisp "Hello
+[[/code]]
+
+There are two cases in which the following statement will be ignored, so you should add a newline instead:
+* The [[[End]]] from an [[[If]]] statement.
+* A [[[Lbl]]] command.
+
+++ For( Loops
+
+When a [[[For(]]] loop doesn't have a closing parentheses after it, it will actually slow down [[[If]]] statements with a false condition inside the loop that immediately follow the For( line. This doesn't affect the speed of any other commands (except [[[IS>(]]] and [[[DS<(]]] which are rarely used), nor does this effect occur with a true condition or If-Then-End blocks (just with a single If and a command following it).
+
+[[table style="width:50%"]]
+[[row]]
+[[cell]]
+[[code]]
+:For(I,1,100
+:If 0:
+:End
+[[/code]]
+[[/cell]]
+[[cell]]
+[[code]]
+:For(I,1,100)
+:If 0:
+:End
+[[/code]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+These two pieces of code, for instance, are nearly 20 times different in speed, which is a major speed hit in TI-Basic. As a general rule, if there is any chance at all that the condition is false (which is always the case, or else why are you testing for it in the first place?) result, then you should leave on the parentheses on the For( loop.
+
+However, this bug does not occur when there is a line or code between the For( line and the If statement.
+[[table style="width:50%"]]
+[[row]]
+[[cell]]
+[[code]]
+:For(I,1,100
+:1
+:If 0:
+:End
+[[/code]]
+[[/cell]]
+[[cell]]
+[[code]]
+:For(I,1,100)
+:1
+:If 0:
+:End
+[[/code]]
+[[/cell]]
+[[/row]]
+[[/table]]
+These two pieces of code execute at the same speed. However, the left example is one byte shorter. As an optimization, omit the closing parenthesis of the For( loop if there is an extra line or code that occurs between the two statements.
+
+
+++ Rounding Errors
+
+Because of the way that TI designed the TI-Basic language, each number has a limited amount of precision. As a result, any math calculations that involve extremely small or large numbers (ranging from -,,E,,99 to ,,E,,99) will produce rounding errors that don't return the right number. There are a couple different ways you can deal with this problem.
+
+The [[[round(]]] command will round a floating-point number so that it has the specified number of decimal digits. While you can hypothetically set it so that it has 25 digits, the calculator only allows a number to have up to 14 digits, which means the range is 0-14 digits.
+
+[[code]]
+:Output(Y,round(X,0),"X
+:If E‾9>Ans(2
+[[/code]]
+
+Another way to deal with the problem is by multiplying the number by a smaller number (for example, ,,[[[e-ten|E]]],,-9). The calculator will automatically treat the number in a similar fashion to the smaller number, which allows it to make the math expression work. Truthfully, neither of these methods is fool-proof, so you should just be aware of the problem.
+
+[[include inc:next-prev
+|prevpage = sk:coding-pitfalls
+|prevtitle = Coding Pitfalls
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:programmer-indicators
+|nexttitle = Programmer Indicators]]

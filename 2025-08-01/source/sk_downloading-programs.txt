@@ -1,0 +1,45 @@
+> **Note:** Downloading programs is only necessary if you are looking for programs to use on your calculator. If you are just interested in TI-Basic programming, please skip this page and move on to the [[[sk:variables|Variables]]] page.
+
+Before downloading any programs, you should create a folder to store the programs. Where you decide to store this folder is up to you, but the two most common places are the desktop or hard drive (typically the C: drive). Storing folders on the desktop is very convenient, allowing you to quickly access a program without having to hunt and search for it, but the desktop can easily become cluttered with programs and other files.
+
+Within the folder itself, you should give each program its own folder and also create a downloads folder to contain the .zip files that the programs are contained in when you download them (see below for more information about .zip files). Although you could put each .zip file with its respective program, it is better to separate them in case you want to delete the program folder but still keep the program for later use.
+
+When naming the program folders, you should use the full program name and include the version number of the program. This is important because there might be several similar programs -- for example, snake games are a dime a dozen -- and there might be more than one version of the program. Having the version number in the program folder name allows you to easily determine if you have the latest version of the program.
+
++ What to Download
+
+While there are several calculator sites on the Internet that have programs, the sites with the largest program archives are [*http://www.ticalc.org ticalc.org], [*http://www.calcg.org calcg.org], and [*http://www.unitedti.org unitedti.org]. Each of these websites has many different kinds of programs available, including math, science, utilities, graphics, and games, and you can generally find whatever it is that you are looking for. There is a wide range of quality among the programs, however.
+
+Most programs are hit and miss -- you don't know if the program will be any good until you download and try it out. There are some simple indicators that you can use to gauge a program's quality: the number of downloads, the rating (if available), the reviews (if available), and the screenshots (if available). None of these is really foolproof, however, because they can be manipulated by the program author.
+
+Generally speaking, assembly programs are of higher quality than TI-Basic programs. This is due to the fact that assembly programs are programmed in the calculator's own machine language, which is more difficult to learn, but allows for much greater speed and functionality. Consequently, most people programming in assembly are fairly decent programmers, and thus most assembly programs that you will find are good quality.
+
+TI-Basic, on the other hand, is simple enough that almost anybody can make programs using it, so there are lots of programs available; the large sites listed above are literally flooded with TI-Basic programs. This is good if you like variety, but most of the programs are of subpar quality, featuring crappy coding, gameplay, and graphics. If you are looking for quality TI-Basic programs, your best bet is to check out the programs on the [[[showcases]]] page.
+
++ Opening a Zip File
+
+When downloading a program, it will typically be packaged inside of a .zip file. A .zip file is used to group one or more individual files together for easier downloading, while compressing them to reduce their size. An average program, for example, includes the main program itself, some subprograms, screenshots of the program, and a readme document describing the program and how to use it.
+
+In order to use the contents of a .zip file, you need to "unzip" it using a zip utility program. There are several different zip utility programs available, but which program you are able to use depends on your operating system. The most popular zip program for Windows is [*http://www.winzip.com WinZip], while the most popular zip program for MacOS is [*http://www.stuffit.com StuffIt Expander]. After you download a zip program, you need to run the executable (i.e., the .exe file) to install it.
+
+Once you have your zip program installed, you can begin unzipping your programs. This is actually quite simple, and just involves right clicking a .zip file, arrowing down to the zip program that you installed, and clicking on an extract option. There will generally be a few options for where you can extract the .zip file: the same location as the .zip file, to a specific folder, or to anywhere you want. Of course, since you have your programs folder, you should unzip your programs to that folder.
+
++ Using a Program
+
+Although there are usually several files inside of a .zip file, calculator files are the only ones that you can actually use and send to your calculator. There are several different calculator file types available, including programs, groups, images, lists, matrices, strings, Flash applications, and even operating systems, but not all of those are available on every calculator.
+
+Each TI calculator has their own set of file extensions that they work with: the pattern that file extensions follow is the first two characters are the calculator, and the third character is the file type. The regular calculators (such as the TI-83) use the calculator number for the first two characters, while the plus calculators (such as the TI-83+) use the first number and a letter. For example, a file extension of .8xp means that the file is for a TI-83+ or TI-84+, and it is a program.
+
+Besides having the calculator files for the program, you should also read through the readme document that came with the .zip file (if there is one). Although most TI-Basic programs do not require any additional programs to run, some do require assembly libraries (such as [[[xLIB]]]). The majority of assembly programs require a [[[asmshells|shell]]], such as MirageOS or Ion. You should check to see what requirements the program has, and download the appropriate files.
+
+Once you have all of the required files to use the program, you can send them to your calculator. This requires a TI-Basic editor (either Graph Link or TI Connect) and a calculator-to-computer link cable (either TI-Graph Link or USB Link). If you are using Graph Link, you just open it up, click the Send menu option, select your files, and click Send. Using TI Connect is similar, except you drag and drop the files to the desired location.
+
+If you don't have a calculator-to-computer link cable, another option is to type the files into your calculator manually. You just open a TI-Basic editor (or use SourceCoder), find the program files in the appropriate directory, and then type in the individual commands. Depending on the size of a program, this can take anywhere from a couple minutes to several hours. This option does not work with assembly programs, however, since they are written in machine code and compiled.
+
+[[include inc:next-prev
+|prevpage = sk:computer-setup
+|prevtitle = Computer Setup
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:variables
+|nexttitle = Variables]]

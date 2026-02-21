@@ -1,0 +1,1 @@
+…that it is actually sometimes [[[http://tibasicdev.wikidot.com/timings#toc3|better to leave on the closing parentheses]]] on the {{[[[For(]]]}} loop?

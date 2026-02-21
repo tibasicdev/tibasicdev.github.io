@@ -1,0 +1,8 @@
+To create a task tag any thread with _task.
+
+to close a task tag any thread with _closed.
+
+[[module ListPages category="admin-thread" tags="_task -_closed" limit="no"]]
+**%%title_linked%% by %%created_by%%**
+%%summary%%
+[[/module]]

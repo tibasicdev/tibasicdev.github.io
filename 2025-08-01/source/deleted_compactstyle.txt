@@ -1,0 +1,28 @@
+When most people write a program in the Program Editor, they place each command or statement on a line by itself. However, a lot of the commands and statements don't even go to the end of the line (i.e., less than 16 characters in length), so there ends up being a considerable amount of program lines even for a rather short program.
+
+The better approach is to write the program with a compact style, packing the commands and statements together. A colon (:) not only denotes the beginning of each new line, but can be used to place multiple commands on a line by putting it between each command. Because multiple commands put together is typically wider than the screen, this can cause the line to wrap around to the next line.
+
+[[code]]
+:If A=2
+:Disp AB
+can be
+:If A=2:Disp AB
+[[/code]]
+
+At the same time, there is no difference in size between using a newline or colon, but there are some advantages and disadvantages of putting multiple commands on the same line:
+
+++ Advantages
+* It makes scrolling through code faster/easier (especially with large programs since scrolling is slow)
+* It makes sense to have a group of related commands on a single line (such as an If conditional)
+* It is sometimes smaller (related to [[[optimize| optimizing]]]).
+* It can allow for 16 (15 and colon) characters on each line, instead of having the next line blank.
+
+++ Disadvantages
+* It can hinder readability (make the code harder to read)
+* It is not as easy to add code between commands on the same line (you have to use 2nd [INS])
+* It is easier to accidentally erase a line with multiple commands on it by pressing CLEAR
+* It can sometimes prevent you from taking off closing characters. For example, a colon is counted as a character in a string, and not a newline. This means that when using colons to combine lines, strings must be ended with a quote.
+* The Lbl function can only be used on a newline.
+* It is slightly slower.
+
+Because there are both advantages and disadvantages, the decision to use compact style is ultimately the individual programmer's. In addition, there is no one correct way to style code, as it's really part of the learning process of programming.

@@ -1,0 +1,17 @@
+author: Wolfgang47
+description: "Battery Level Indicator\nChecks Your Batteries\nIndicator program is in TI-BASIC\nBattery Check program is in Assembly\nCombined size of both programs (when the assembly program had been compressed) is 262 bytes."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: /home/no_image_2.png
+download: Battery-Icon
+size: '3560'
+unit: '1'

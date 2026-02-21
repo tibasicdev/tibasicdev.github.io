@@ -1,0 +1,26 @@
+----
+**Time Zone**: {$timezone}
+
+[!-- {$birthday} --][[[@@|]]] {$birthday}
+
+[!-- --]
+
+[!-- {$aboutme} --][[[@@|]]] {$aboutme}
+
+[!-- --]
+
+[!-- {$howifoundtibd} --][[[@@|]]] {$howifoundtibd}
+
+[!-- --]
+
+[!-- {$howibeganpgrming} --][[[@@|]]] {$howibeganpgrming}
+
+[!-- --]
+
+[!-- {$hobbies} --][[[@@|]]] {$hobbies}
+
+[!-- --]
+
+[!-- {$mybestprogram} --][[[@@|]]] {$mybestprogram}
+
+[!-- --]

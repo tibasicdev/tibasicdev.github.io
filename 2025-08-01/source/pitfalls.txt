@@ -1,0 +1,63 @@
+When you are coding, there are several different pitfalls that you have to be aware of. A pitfall is simply code that is syntactically correct, but does not produce the correct or desired results. This list is not meant to be exhaustive, but rather a general collection of things to look out for.
+
+++ Arrow Keys
+
+One of the most simplest pitfalls that people make is forgetting to use the proper values for the arrow keys. This is especially prevalent with beginners, since they are still learning the ins and outs of the calculator. For example, when the user is making [[[movement]]], and wants to update the player position on the board, you will see something like this:
+
+[[code]]
+:A+(K=25)-(K=34→A  // Y coordinate
+:B+(K=24)-(K=26→B  // X coordinate
+[[/code]]
+
+While this code looks right, it actually has the arrow directions flipped around (25 should be swapped with 34, and vice versa for 24 and 26). This code will not generate any errors by the calculator, since it is syntactically correct, but figuring out the logic problem can be challenging if you don't recognize the mistake.
+
+++ Boolean Expressions
+
+Another common pitfall that people make is messing up their Boolean expressions. A big part of this is simply people not taking the time to learn and understand how the calculator reads Boolean expressions and deals with operator precedence.
+
+A Boolean expression is based on Boolean Logic, the principle that something can be either true or false. A true value is represented as 1 or any nonzero value, while a false value is represented as 0. In addition to the four math operators (*,/,+,-), there are six conditional operators (=,≠,>,<,≥,≤) and four logic operators (and,or,xor,not).
+
+The operator precedence that the calculator follows is math operators are executed first, then the conditional operators and finally the logic operators. Of course, if there are parentheses, the calculator executes what's inside the parentheses first, which can include any one of the three different kinds of operators. Here is an example to illustrate:
+
+[[code]]
+:If B=A and CD:Disp "B=A and C*D≠0
+:If 5X=2Y+(Y/X≠5:Output(2,2,"Hello
+[[/code]]
+
+++ Memory Leaks
+
+Another pitfall to avoid is causing memory leaks with branching out of [[[controlflow|loops]]] and [[[controlflow|conditionals]]] and overusing [[[subprograms]]]. This is especially important because memory leaks not only take up more and more memory, but also slow the calculator down (depending on the size of the memory leak, it can be to a halt).
+
+To prevent memory leaks from occurring, you should always make sure that any loops and conditionals (anything with an End command) are executed to their completion. The reason is that the calculator keeps track of the End commands for loops and conditionals, so if one of them isn't completed, the calculator isn't able to remove it from its list.
+
+While it is possible to correct a memory leak problem in your pre-existing code, the best time to make those changes is when you are actually planning a program. This is because a properly planned program can be made to not only have no memory leaks, but also be as fast and small as possible. Of course, if you don't feel like rewriting your code again, a simple fix will suffice.
+
+[[code]]
+:If A=5:Then
+:Disp "A=5
+:Goto A
+:End
+should be
+:If A=5:Disp "A=5
+:If A=5:Goto A
+[[/code]]
+
+++ Portability
+
+One of the most common pitfalls that people make is forgetting about program portability. With all of the Assembly libraries available, and there being several different TI-83 based calculators available, it is easy to see how portability becomes an issue.
+
+In addition to the Assembly libraries, there are also several new commands that TI has added to the TI-Basic language for the newer TI-84+/SE calculators. While you can use these commands in your programs, they will crash your programs if somebody tries to execute the program on a TI-83/+/SE calculator.
+
+Unfortunately, the only thing you can do if you want your program to be TI-83/+/SE compatible is to not use these libraries and commands. This means you won't be able to include that functionality in your program, which can be a big selling point of your program.
+
+If you don't care about your program working on the TI-83/+/SE calculators, then portability isn't an issue for you and you don't have to worry about it. However, you should still tell the user at the beginning of the program that the program is designed to work on the TI-84+/SE, and in fact will crash if used on a TI-83/+/SE.
+
+The same goes for using Archive/UnArchive if you care about portability to the TI-83 calculator. Additionally, while programs with lowercase letters will **work** on the TI-83, they can't be sent from a TI-83+ or higher to a TI-83 via the link cable.
+
+++ Math Errors
+
+Because of the way the calculator is designed, it has limited precision when doing math. Any math calculations that involve extremely small or large numbers (ranging from -,,E,,99 to ,,E,,99) will produce rounding errors that don't return the right number. There are a couple different ways you can deal with this problem.
+
+The round( command will round a floating-point number so that it has the specified number of decimal digits. While you can hypothetically set it so that it has 25 digits, the calculator only allows a number to have up to 14 digits, which means the range is 0-14 digits.
+
+Another way to deal with the problem is by multiplying the number by a smaller number. The calculator will automatically treat the number in a similar fashion to the smaller number, which allows it to make the math expression work. Truthfully, neither of these methods is fool-proof, so you should just be aware of the problem.

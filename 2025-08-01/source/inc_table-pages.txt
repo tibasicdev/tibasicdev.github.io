@@ -1,0 +1,21 @@
+[[table style="{$style}"]]
+[[row]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Page Name
+[[/cell]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Discussions
+[[/cell]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Comments
+[[/cell]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Link
+[[/cell]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Recommendations
+[[/cell]]
+[[cell style="border:1px solid #555; background:#EEE; font-weight:bold; text-align:center;"]]
+Categorization
+[[/cell]]
+[[/row]]

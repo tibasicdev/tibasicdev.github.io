@@ -1,0 +1,5 @@
+[[image archives:bunny-gotchi/BUNNYGOTCHI.gif link="http://tibasicdev.wikidot.com/local--files/archives:bunny-gotchi/bunnygotchi_1-7.zip" style="border: 1px solid #aaa;"]]
+
+[http://tibasicdev.wikidot.com/local--files/archives:bunny-gotchi/bunnygotchi_1-7.zip Bunny Gotchi] by [[user James Kanjo]]
+
+This is a virtual pet on your calculator. It will challenge your efforts to keep it alive, healthy and happy!

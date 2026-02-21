@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Guess the Number
+|author=TI-Basic Developer
+|size=215 Bytes
+|description=Try to guess the number, and see how many tries it takes you.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/guess-the-number/guessthenumber.zip
+|downloadName=NumberGuess.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

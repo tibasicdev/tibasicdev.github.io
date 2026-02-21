@@ -1,0 +1,2 @@
+content: 'I don''t know if you guys noticed, but I changed the TI-Basic characters above the reply box to just one line. Does that look any better?'
+attachment: null

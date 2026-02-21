@@ -1,0 +1,41 @@
+Two-byte tokens beginning with the byte 0xBB are miscellaneous tokens, used for various commands that didn't fit in the one-byte range. With later OS versions, various symbols were also added to the 0xBB tokens.
+
+The two tables on this page are split by calculator type, which means that (among other things) the tokens in the second table can't be sent to a TI-83 calculator from a TI-83+ calculator. Further version differences: tokens CF through DA are available with OS 1.15 or higher. Tokens DB through F5 are available with OS 1.16 or higher.
+
+||||||||||||||||~ Miscellaneous 2-Byte Tokens (0x00 - 0x67) ||
+|| ||~ 0 ||~ 1 ||~ 2 ||~ 3 ||~ 4 ||~ 5 ||~ 6||
+||~ 0 || [[[npv(]]] || [[[normalcdf(]]] || [[[tvm|tvm_Pmt]]] || [[[polar-display|►Polar]]] || [[[chisquare-test|χ²-Test(]]] || [[[ExprOn]]] || **unused** ||
+||~ 1 || [[[irr(]]] || [[[invNorm(]]] || [[[tvm|tvm_I%]]] || [[[e-value|e]]] || [[[ZInterval]]] || [[[ExprOff]]] || **unused** ||
+||~ 2 || [[[bal(]]] || [[[tcdf(]]] || [[[tvm|tvm_PV]]] || [[[SinReg]]] || [[[2-SampZInt(]]] || [[[ClrAllLists]]] || **unused** ||
+||~ 3 || [[[sigmaprn|Σprn(]]] || [[[chisquarecdf|χ²cdf(]]] || [[[tvm|tvm_N]]] || [[[Logistic]]] || [[[1-PropZInt(]]] || [[[GetCalc(]]] || **unused** ||
+||~ 4 || [[[sigmaint|ΣInt(]]] || [[[Fcdf(]]] || [[[tvm|tvm_FV]]] || [[[LinRegTTest]]] || [[[2-PropZInt(]]] || [[[DelVar]]] || [[[G-T]]] ||
+||~ 5 || [[[►Nom(]]] || [[[binompdf(]]] || [[[conj(]]] || [[[ShadeNorm(]]] || [[[GraphStyle(]]] || [[[Equ►String(]]] || [[[ZoomFit]]] ||
+||~ 6 || [[[►Eff(]]] || [[[binomcdf(]]] || [[[real-func|real(]]] || [[[Shade_t(]]] || [[[2-SampTTest]]] || [[[String►Equ(]]] || [[[DiagnosticOn]]] ||
+||~ 7 || [[[dbd(]]] || [[[poissonpdf(]]] || [[[imag(]]] || [[[shadechisquare|Shadeχ²]]] || [[[2-SampFTest]]] || [[[Clear Entries]]] || [[[DiagnosticOff]]] ||
+||~ 8 || [[[lcm(]]] || [[[poissoncdf(]]] || [[[angle(]]] || [[[ShadeF(]]] || [[[TInterval]]] || [[[Select(]]] || (next table) ||
+||~ 9 || [[[gcd(]]] || [[[geometpdf(]]] || [[[cumSum(]]] || [[[Matr►list(]]] || [[[2-SampTInt]]] || [[[ANOVA(]]] || (next table) ||
+||~ A || [[[randInt(]]] || [[[geometcdf(]]] || [[[expr(]]] || [[[List►matr(]]] || [[[SetUpEditor]]] || [[[plotn#modboxplot|ModBoxplot]]] || (next table) ||
+||~ B || [[[randBin(]]] || [[[normalpdf(]]] || [[[length(]]] || [[[Z-Test(]]] || [[[pmt-end|Pmt_End]]] || [[[plotn#normprobplot|NormProbPlot]]] || (next table) ||
+||~ C || [[[sub(]]] || [[[tpdf(]]] || [[[deltalist|ΔList(]]] || [[[T-Test]]] || [[[pmt-bgn|Pmt_Bgn]]] || **unused** || (next table) ||
+||~ D || [[[stdDev(]]] || [[[chisquarepdf|χ²pdf(]]] || [[[ref(]]] || [[[2-SampZTest(]]] || [[[real-mode|Real]]] || **unused** || (next table) ||
+||~ E || [[[variance(]]] || [[[Fpdf(]]] || [[[rref(]]] || [[[1-PropZTest(]]] || [[[re-thetai|re^θi]]] || **unused** || (next table) ||
+||~ F ||  [[[inString(]]] || [[[randNorm(]]] || [[[►Rect]]] || [[[2-PropZTest(]]] || [[[a+bi]]] || **unused** || (next table) ||
+
+||||||||||||||||||||||~ Miscellaneous 2-Byte Tokens (0x68 - 0xF5) ||
+|| ||~ 6 ||~ 7 ||~ 8 ||~ 9 ||~ A ||~ B ||~ C ||~ D ||~ E ||~ F ||
+||~ 0 || (prev. table) || Â || Î || Û || β || a || p || reserved || ,,0,, || x ||
+||~ 1 || (prev. table) || Ä || Ï || Ü || γ || b || q || @ || ,,1,, || ∫ ||
+||~ 2 || (prev. table) || á || í || ú || Δ || c || r || # || ,,2,, ||[[image 83lgfont/EFh_LUpBlk.gif]]||
+||~ 3 || (prev. table) || à || ì || ù || δ || d || s || $ || ,,3,, || [[image 83lgfont/F0h_LDnBlk.gif]] ||
+||~ 4 || (prev. table) || â || î || û || ε || e || t || & || ,,4,, || √ ||
+||~ 5 || (prev. table) || ä || ï || ü || λ || f || u || ` || ,,5,, || [[image 83lgfont/7Fh_LinvEQ.gif]] ||
+||~ 6 || (prev. table) || É || Ó || Ç || μ || g || v || ; || ,,6,, || ||
+||~ 7 || (prev. table) || È || Ò || ç || π || h || w || \ || ,,7,, || ||
+||~ 8 || [[[Archive]]] || Ê || Ô || Ñ || ρ || i || x || | || ,,8,, || ||
+||~ 9 || [[[UnArchive]]] || Ë || Ö || ñ || Σ || j || y || _ || ,,9,, || ||
+||~ A || [[[asm-command|Asm(]]] || é || ó || ´ || **unused** || k || z || [[[percent|%]]] || ,,10,, || ||
+||~ B || [[[AsmComp(]]] || è || ò || ` || φ || **unused** || σ || ... || ← || ||
+||~ C || [[[AsmPrgm]]] || ê || ô || ¨ || Ω || l || τ || ∠ || → || ||
+||~ D || compiled asm || ë || ö || ¿ || [[$ \hat{p} $]] || m || Í || ß || ↑ || ||
+||~ E || Á || **unused** || Ú || ¡ || χ || n || [[[GarbageCollect]]] || ^^x^^ || ↓ || ||
+||~ F || À || Ì || Ù || α || **F** || o || ~ || ,,T,, || **unused** || ||

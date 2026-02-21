@@ -1,0 +1,99 @@
+[[table style="width: auto; margin: auto auto 25px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="font-size: 125%; padding: 10px;"]]
+**//Welcome to the TI-Basic Developer (TI|BD) Starter Kit!//** This tutorial is designed to help new TI-83 and TI-84 TI-Basic programmers get their feet off the ground. The tutorial is divided into chapters that each have their own focus, and is meant to be read in sequential order. If you have questions or get stuck, leave a post on the [[[forum:home|forums]]] and somebody will assist you. **//Happy coding!//**
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width:90%; margin: 0;"]]
+[[row]]
+[[cell style="width:35%; vertical-align: top;"]]
+
+**1. Getting Started**
+# [[[sk:introduction|Introduction to TI-Basic]]]
+# [[[sk:overview|Overview of TI-Basic]]]
+# [[[sk:first-program|Your First Program]]]
+# [[[sk:using-your-calc|Using Your Calculator]]]
+# [[[sk:computer-setup|Computer Setup]]] (optional)
+# [[[sk:downloading-programs|Downloading Programs]]] (optional)
+**2. The Basics of TI-Basic**
+# [[[sk:variables|Variables]]]
+# [[[sk:input-and-output|Input and Output]]]
+# [[[sk:logic|Logic and Conditions]]]
+# [[[sk:labels|Labels]]]
+# [[[sk:loops|Loops]]]
+# [[[sk:ans|Ans]]]
+# [[[sk:summary-basics|Summary]]]
+# [[[sk:exercises-basics|Exercises]]]
+# //[[[sk:guessing-game|Sample Program: Guessing Game]]]//
+**3. Creating Games**
+# [[[sk:homescreen|More on the Home Screen]]]
+# [[[sk:getkey|Using getKey]]]
+# [[[sk:movement|Movement]]]
+# [[[sk:game-loop|The Game Loop]]]
+# [[[sk:data-types|Data Types (Intro)]]]
+# [[[sk:lists|Data Types (Lists)]]]
+# [[[sk:matrices|Data Types (Matrices)]]]
+# [[[sk:strings|Data Types (Strings)]]]
+# [[[sk:random|Random Numbers]]]
+# [[[sk:summary-games|Summary]]]
+# [[[sk:exercises-games|Exercises]]]
+# //[[[sk:chase-the-star|Sample Program: Chase the Star]]]//
+
+[[/cell]]
+[[cell style="width:35%; vertical-align: top;"]]
+
+**4. Advanced Graphics**
+# [[[sk:graphscreen|Introduction to the Graph Screen]]]
+# [[[sk:points|Drawing Points and Pixels]]]
+# [[[sk:graph-settings|Graph Format Settings]]]
+# [[[sk:more-shapes|Drawing More Shapes]]]
+# [[[sk:text|Text and Text Sprites]]]
+# [[[sk:pictures|Using Pictures]]]
+# [[[sk:summary-graphics|Summary]]]
+# [[[sk:exercises-graphics|Exercises]]]
+# //[[[sk:pong|Sample Program: Pong]]]//
+**5. Math Functions**
+# [[[sk:math-intro|Introduction to Math]]]
+# [[[sk:operators|Operators]]]
+# [[[sk:numbers|Numbers Menu]]]
+# [[[sk:powers-exponentials|Powers and Exponentials]]]
+# [[[sk:probability|Probability]]]
+# [[[sk:trigonometry|Trigonometry]]]
+# [[[sk:complex|Complex Numbers]]]
+# [[[sk:summary-math|Summary]]]
+# [[[sk:exercises-math|Exercises]]]
+# //[[[sk:math-sample|Sample Program: Analog Clock]]]//
+
+[[/cell]]
+[[cell style="width= 35%; vertical-align: top;"]]
+**6. Optimization**
+# [[[sk:what-is-optimization| What is Optimization?]]]
+# [[[sk:Displaying Text]]]
+# [[[optimize-variables| Variables]]]
+# [[[sk:Math Operations]]]
+# [[[sk:Logic Operations]]]
+# [[[sk:Conditionals]]]
+# [[[sk:loops-optimize| Loops]]]
+# [[[optimize-graph| Optimization: The Graph Screen]]]
+# [[[sk:optimize-summary| Summary]]]
+# [[[sk:exercises-optimize| Exercises]]]
+**7. Putting It All Together**
+# [[[sk:review|Review]]]
+# [[[sk:what-next|What next?]]]
+# [[[sk:project-ideas|Project Ideas]]]
+# [[[sk:cheat-sheet|Command Cheat Sheet]]]
+# [[[routines|Example Routines]]]
+# [[[sk:troubleshooting|Troubleshooting]]]
+# [[[downloads|Downloads]]]
+**8. Miscellaneous**
+# [[[sk:tips-tricks|Tips & Tricks]]]
+# [[[sk:variable-tips|Variable Tips]]]
+# [[[sk:productivity-tips|Productivity Tips]]]
+# [[[sk:coding-pitfalls|Coding Pitfalls]]]
+# [[[sk:tibasic-bugs|TI-Basic Bugs]]]
+# [[[sk:programmer-indicators|Programmer Indicators]]]
+[[/cell]]
+[[/row]]
+[[/table]]

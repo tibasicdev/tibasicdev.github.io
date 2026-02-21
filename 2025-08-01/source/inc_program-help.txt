@@ -1,0 +1,30 @@
+> @@[[@@include inc:program
+> |picture=@@
+> |summary=@@
+> |size=@@
+> |libraries=@@
+> |compatibility=@@
+> |author=@@
+> |download=@@
+> ]]
+
+++ |picture=
+If the image is embedded on the same page, then only the full name of the image is to be written here. Otherwise, simply paste the full URL of the image.
+
+++ |summary=
+Just type in a brief description of the program
+
+++ |size=
+Just type in a brief description of the program size
+
+++ |libraries=
+Just type in a brief description of what libraries are required to run the program
+
+++ |compatibility=
+Enter the calculators compatible with a syntax similar to the example used for all calculators: TI-83/84/+/SE
+
+++ |author=
+Enter the name of the author of the program
+
+++ |download=
+Type in the URL to the program in accordance with the [http://www.wikidot.com/doc:wiki-syntax wiki syntax], and any other details if required

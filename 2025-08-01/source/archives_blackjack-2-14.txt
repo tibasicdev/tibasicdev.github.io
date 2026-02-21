@@ -1,0 +1,35 @@
+[[include inc:tablet
+|name=Blackjack 2.14
+|author=Ray Wang
+|size=5361 bytes
+|description=This originally started out as a simple text-based version of Blackjack that I made, until I figured out how to get graphics working BASIC programs. Now includes betting and an auto-money-saver-type-thing.
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=http://i228.photobucket.com/albums/ee24/I_am_Omnipotent/INGAME.jpg
+|downloadUrl=http://download282.mediafire.com/1p9ujj14mdyg/2tjijucgi2i/blackjack_v2.zip
+|downloadName=blackjack_v2.zip
+]]
+
+[!--
+INSTRUCTIONS
+
+1) First enter the name of your program as you would like it to appear. That is, the TITLE of your program, not the name of the file.
+i.e. "Happy Land" instead of "HAPPY.8XP"
+
+2) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+3) Enter the size of the program (the actual program, or total size of programs & sub-programs) but not the size of the .ZIP file.
+i.e. 6,000 bytes
+
+4) Enter the description of the program.
+
+5) Click the "save" button beneath this form.
+
+6) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

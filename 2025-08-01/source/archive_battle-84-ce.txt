@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282_rPi3]]'
+version: '0.94'
+summary: 'Read more for the game description.'
+description: "A turn-based game where two players fight and hope to defeat the other player.\nThe objective is to last in battle longer than your opponent.\n\nFun for monochrome and color calculators! The demo came out kind of funny, will re-upload it later.\n\n##red|**The archive refuses to let me upload, even on Windows or macOS. Please click the Files button below and download the file there. Won't work above.**##"
+arcade: '1'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: dd
+download: null
+image: 'archiveimage:demo-83-se/Demo-83-SE.gif'
+fileSize: '518'
+fileSizeUnit: '2'
+dateMade: '1580281200'

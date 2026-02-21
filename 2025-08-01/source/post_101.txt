@@ -1,0 +1,3 @@
+name: ''
+content: "Thanks! Hopefully I will get some more time in the near future to work on it :) I started adding in a menu, but you currently cannot select anything. It just draws the menu and you can move the selector thing. I need to add in scrolling for menus that are too large for one screen and I need to add in the ability to open sub-menus and then I can start going through the catalog and making tutorials XD\n\nAnother neat idea that I thought of doing was maybe if you are in a menu (like the Math menu) and you want to see how a command works, you can press ON and it starts the appropriate tutorial."
+attachment: null

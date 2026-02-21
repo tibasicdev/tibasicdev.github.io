@@ -1,0 +1,148 @@
+[[table style="width: 1000px; margin: 95px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="font-size: 125%; padding: 10px;"]]
+**//Welcome to TI-Basic Developer (TI|BD), the TI-Basic information repository!//** If you are a first-time visitor, please check out the [[[welcome pack]]] to get you up to speed on using the site. We encourage you to [[[system:join|become a member]]] and to [http://tibasicdev.wikidot.com/forum/t-437729/getting-involved get involved] in the community, and to come back often to see what [[[system:recent-changes|changes]]] have occurred. And above all else, enjoy your stay!
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 1000px; margin: 25px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="height: 107px; padding: 0; padding-top: 2px; padding-left: 2px; background: #fdfcf6;"]]
+[[module ListPages category="screenshot" limit="5" perPage="5" urlAttrPrefix="sc" separate="yes" order="random"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 1000px; margin: 25px auto 0 -1px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[forum:recent-posts|Recent Forum Posts]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[forum:home|Recent Forum Threads]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[forum:home|Popular Forum Threads]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; text-align: center;"]]
+[[module MiniRecentPosts limit="3"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; text-align: center;"]]
+[[module MiniRecentThreads limit="6"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; text-align: center;"]]
+[[module MiniActiveThreads limit="6"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[home|TI-83 Basic]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #4D5C63;"]]
+**[[[68k:home|68k TI-Basic]]]**
+[[/cell]]
+[[cell class="box-title" style="background: #4D5C63; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[nspire|TI-Nspire Basic]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; vertical-align: top;"]]
+[[f<image thecalcs/ti83.png link="home" alt="TI-83"]]
+TI-83 Basic is the most commonly used, because the TI-83/84 series has been heavily marketed by Texas Instruments to high school students needing a graphing calculator for math and science classes.
+
+At the same time, it is the least powerful language, lacking many of the complex commands and programming capabilities.
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #4D5C63; vertical-align: top;"]]
+[[f<image 68k:thecalcs/ti89.png link="68k:home" alt="TI-89"]]
+68k TI-Basic is much more powerful than TI-83 Basic, with support for calculus, indirection, local variables and functions, advanced picture manipulation, and several other features that make it a very rich language.
+
+However, it isn't used nearly as much as TI-83 Basic, so it doesn't have as big of a community developed around it.
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; vertical-align: top;"]]
+[[f<image thecalcs/tinspire.png link="http://tibasicdev.wikidot.com/nspire" alt="TI-Nspire"]]
+TI-Nspire Basic is quite similar to 68k TI-Basic, but not as programmer friendly: it has poor I/O support, rigid constraints on program execution, and documents are used instead of programs.
+
+In addition, it is still relatively unknown to the TI community, so there isn't much documentation available yet.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div class="footer-links"]]
+[[div class="list1"]]
+New Here?
+* [[[Welcome Pack]]]
+* [[[system:join|Become a Member]]]
+* [http://tibasicdev.wikidot.com/forum/c-21134/community-introductions Introduce Yourself]
+* [[[forum:recent-posts|Recent Forum Posts]]]
+* [http://tibasicdev.wikidot.com/forum/t-437432/search-help-2 Help with Searching]
+[[/div]]
+[[div class="list2"]]
+Contributing
+* [[[guide-to-editing|Guide to Editing]]]
+* [[[conventions|Wiki Conventions]]]
+* [[[system:recent-changes|Recent Changes]]]
+* [http://www.wikidot.com/doc:wiki-syntax Wiki Syntax]
+* [[[to-do|To-Do List]]]
+[[/div]]
+[[div class="list3"]]
+Community
+* [[[forum:home|Discussion Forums]]]
+* [http://tibasicdev.wikidot.com/forum/t-437729/getting-involved Getting Involved]
+* [[[conduct|Code of Conduct]]]
+* [[[system:invite|Invite a Friend]]]
+* [[[system:members|Site Members]]]
+[[/div]]
+[[div class="list4"]]
+About Us
+* [[[logo|Site Logo]]]
+* [[[about|Site Goals]]]
+* [[[history|Our History]]]
+* [[[all-news|News Archive]]]
+* [[[Announcements]]]
+[[/div]]
+[[div class="list5"]]
+Related Sites
+* [*http://www.ticalc.org Ticalc.org]
+* [*http://www.omnimaga.org Omnimaga]
+* [*http://www.cemetech.net Cemetech]
+* [*http://codewalr.us CodeWalrus]
+* [*http://tiplanet.org TI-Planet]
+* [*http://tistory.wikidot.com TI-Story]
+[[/div]]
+[[div class="list6"]]
+Did You Know...
+[[module ListPages category="dyk" limit="1" perPage="1" urlAttrPrefix="dyk" separate="yes" order="random"]]
+[[span style="font-weight:normal; font-size: 80%; display: block; width: 200px; background: #F3F3F3 !important; padding: 0 !important; margin-top: -30px !important; margin-bottom: -15px !important;"]]
+%%preview%%
+[[/span]]
+[[span style="font-weight:normal; font-style: italic; font-size: 80%; margin: 0; padding: 0; position: absolute; right: 0;"]]
+[[iftags _68kportal]](68k only)[[/iftags]]
+[[/span]]
+[[/module]]
+[[/div]]
+[[/div]]
+
+[[module CSS]]
+div.footer-links {width:1000px;height:164px;margin:25px auto 0 -1px;display:block;position:relative;z-index:10;}
+div.footer-links, div.footer-links * {background:#C7C9B8;}
+div.footer-links div {margin-bottom:0;padding:0;position:absolute;top:25px;}
+div.footer-links div, div.footer-links div * {z-index: 100 !important;}
+div.footer-links div ul {padding-left: 0;list-style-type: none;}
+div.footer-links div p {margin: 0; margin-bottom: 5px; padding: 0;font-size:120%;font-weight:bold;}
+div.footer-links div li {padding-left:2px;margin: auto;}
+#footer {z-index: 1000 !important; position: relative;}
+div.list1 {left:35px;}
+div.list2 {left:192px;}
+div.list3 {left:329px;}
+div.list4 {left:478px;}
+div.list5 {left:609px;}
+div.footer-links div.list6 {left:745px; top: 20px; padding: 5px 5px 0 5px; background: #F3F3F3 !important; width: 200px; height: 124px;}
+div.footer-links div.list6 * {background: #F3F3F3 !important;}
+#side-bar {display: none !important;}
+#main-content {margin-lesft: 0 !important; width: 1000px; margin: auto !important;}
+[[/module]]

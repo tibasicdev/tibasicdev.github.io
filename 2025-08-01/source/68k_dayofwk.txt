@@ -1,0 +1,34 @@
+[[include inc:68k-command
+|picture=dayofwk.png
+|summary=Returns an integer from 1-7 that shows what day of week it is for a specific date.
+|syntax=dayOfWk(//year, month, day//)
+|ams2xx=07
+|location=
+|size=
+]]
+
+The {{dayOfWk}} command returns an integer from 1 through 7 which shows what day of the week it was on a certain date. The Ti-89 Titanium manual says that this function may not give accurate results for years prior to 1583 (pre-Gregorian calendar).
+
+||~ Integer value: ||~ Day of the week: ||
+|| 1 || Sunday ||
+|| 2 || Monday ||
+|| 3 || Tuesday ||
+|| 4 || Wednesday||
+|| 5 || Thursday||
+|| 6 || Friday ||
+|| 7 || Saturday ||
+
+[[code]]
+:dayOfWk(1948,9,6)
+:      2
+:dayOfWk(1600,1,15)
+:      7
+[[/code]]
+
+The above examples find that September 6^^th^^,1948 was a Monday and that January 15^^th^^, 1600 was a Saturday. It also works with future dates, in case you want to use that in a program.
+
++ Related Commands
+
+* {{[[[68k:getDate()]]]}}
+* {{[[[68k:setDate()]]]}}
+* {{[[[68k:timeCnv()]]]}}

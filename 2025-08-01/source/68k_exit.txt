@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=exit.png
+|summary=Exits a loop.
+|syntax=:Exit
+
+|location=Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 8 to enter the Transfers submenu.
+* Press 5 to select Exit.
+
+|size=4 bytes
+]]
+
+The Exit command immediately exits from a [[[68k:For]]]..EndFor, [[[68k:Loop]]]..EndLoop, or [[[68k:While]]]..EndWhile loop. The program continues running from the instruction after the EndFor, EndLoop, or EndWhile.
+
+Exit is especially useful for Loop..EndLoop, because the loop won't ever end if you don't give it a reason to. For example:
+
+[[code]]
+:Loop
+: Input "Number 1-100",num
+: If 1≤num and num≤100
+:  Exit
+: Disp "Number out of range!"
+:EndLoop
+[[/code]]
+
+Often, a Loop..EndLoop block with an Exit inside it isn't a very good idea, because it can be replaced by a While..EndWhile block. However, in the example above, there is a difference: the condition for exiting the loop is not checked at the beginning. A While..EndWhile loop that did the same thing would have to initialize the num variable first.
+
+If there are multiple loops, one nested inside the other, the Exit command only exits out of the innermost one. 
+
+The Exit command can also be used to exit a sub-routine (very helpful when using subroutines on a 'skeleton' during development)
+
++ Optimization
+
+Although [[[68k:Goto]]] can also be used to exit out of a loop, the Exit command is faster: it knows where the end of the loop is, but a Goto command has to search through the entire program to find its label.
+
+However, the Goto command is more versatile, since it can jump anywhere in the program, not just immediately after the loop. In particular, Goto can be used to exit multiple loops at once.
+
++ Error Conditions
+
+[[include inc:68k-error num=560|error=Invalid outside Loop..EndLoop, For..EndFor, or While..EndWhile blocks|cause=the Exit command is not inside a loop]]
+
++ Related Commands
+
+* [[[68k:Cycle]]]
+* [[[68k:For]]]..EndFor
+* [[[68k:Loop]]]..EndLoop
+* [[[68k:While]]]..EndWhile

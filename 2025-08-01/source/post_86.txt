@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: "YES I CAN POST LINKS THANK GOD\nEventually, will the reply thing not be in an iframe? Some browsers can't scroll thos, and it gets annoying"
+attachment: null

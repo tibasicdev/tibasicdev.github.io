@@ -1,0 +1,21 @@
+author: Zachatoo
+version: V1.3.7
+summary: 'Dungeon Crawler compatible with --TI-83 and up--TI-84CSE! Hope you guys enjoy! '
+description: 'Classic dungeon crawler on the home-screen (for portability). Further work on project is based on ''fanbase'' and time available. Game is based on you being a snake trying to escape a cave that you found yourself lost in. Can you use your intellect and the objects around you in order to get out?'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '1'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:cave/cave.zip'
+image: 'archiveimage:screen-image-cave/SCREEN_IMAGE_CAVE.PNG'
+fileSize: '1119'
+fileSizeUnit: '1'
+dateMade: '1399874400'

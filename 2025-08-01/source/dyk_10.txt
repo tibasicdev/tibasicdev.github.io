@@ -1,0 +1,1 @@
+…that the arrow and DEL keys can actually be held down, which will cause the key to keep being repeated until it is released?

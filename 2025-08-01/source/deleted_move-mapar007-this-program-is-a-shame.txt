@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Move
+|author=[http://www.wikidot.com/user:info/mapar007 Mapar007]
+|size=2,674 Bytes
+|description=Game in which you must collect O's with an X without stepping the *'s
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:move/move.zip
+|downloadName=Move.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

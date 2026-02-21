@@ -1,0 +1,24 @@
+[[include inc:command
+|picture=Thick.png
+|summary=Converts all lines to Thick (2-3 pixel wide) lines
+|syntax=The command is called by itself with no additional arguments
+|location=Go to the Catalog, press [ALPHA][4], and scroll down.
+|compatibility=TI-84+CSE/CE
+|size=2 bytes
+]]
+
+The Thick command converts all lines in the current function type to be drawn using a 2-3 pixel wide line (hence "Thick"). This mode is the default line drawing mode. It can be called on the homescreen or in a program. 
+
+[[code]]
+:AxesOff
+:GridOff
+:Thick
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown if any character is included in the same line as the Thick command.
+
++ Related Commands
+
+* [http://www.tibasicdev.wikidot.com/thin Thin]

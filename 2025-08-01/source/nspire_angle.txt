@@ -1,0 +1,45 @@
+[[include inc:nspire-command
+|picture=@@
+|summary=Computes the angle of a complex number or a set of complex numbers.
+|syntax=**angle(**//Expr1//**)** → //expression//
+**angle(**//List1//**)** → //list//
+**angle(**//Matrix1//**)** → //matrix//
+
+|location=@@
+
+|compatibility = @@If this is only available on certain versions of the nspire
+|size=X byte(s)
+]]
+
+The **angle(** command computes the angle of a complex number, which corresponds to the rotation of a vector whose length is equivalent to the **[[[nspire:abs|abs(]]]** of the number. The angle is returned in degrees, gradians, or radians, depending on the mode the calculator is in.
+
+[[code]]
+Degree mode
+:angle(1+i) = 45
+Radian mode
+:angle(1+i) = π/4
+[[/code]]
+
+**angle(** can also return the angles for a list or matrix of complex numbers, returning the outputs in a list or matrix respectively. **angle(** will attempt to return a closed-form expression for the value rather than a decimal expression when utilizing the CAS, and can also return a symbolic evaluation of an angle.
+
+[[code]]
+:angle(z) = π(sign(z)-1)/2
+[[/code]]
+
++ Formulas
+
+The general formula for the angle of complex number //x+iy// is given by
+
+[[include inc:nspire-math eqn = \mathrm{angle}(x+iy) = \dfrac{\pi \times \mathrm{sign}(y)}{2} - \tan^{-1}\bigg(\dfrac{x}{y}\bigg)]]
+
+Often denoted as θ, the angle of a complex number is used in its polar representation
+
+[[include inc:nspire-math eqn = x+iy = re^{i\theta}]]
+
+where //r// is the absolute value of the number.
+
++ Related Commands
+
+* **[[[nspire:abs(]]]**
+* **[[[nspire:sign(]]]**
+* **[[[nspire:imag(]]]**

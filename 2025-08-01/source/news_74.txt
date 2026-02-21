@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Apr
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=02
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user DarkerLine]] and [[user GoVegan]] worked together to upgrade the implemented "include template" sections of the site. Result: Site automatically retrieves the required parts of the "Did You Know" and "Featured Article" sections for the [/home 83] [/68k:home 68k] home pages.
+]]

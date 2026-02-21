@@ -1,0 +1,66 @@
+A lookup table consists of a [[[variables|list]]] (or matrix, depending on the situation) that is used to store calculations, for which the time to look them up in the list is smaller than having to calculate them (hence the name). Lookup tables are commonly created at or near the beginning of a program for later use in the program.
+
+The primary advantage of lookup tables is their speed. Simply getting a number from a list is much faster than calculating the number with an algorithm or using a trigonometric function. The primary disadvantage of lookup tables is their memory usage. Not only do you need to use an extra variable to keep track of all the numbers, but it is very possible that you can end up storing numbers that you won't even use.
+
++ Examples
+
+For an example, let's look at using the trigonometric functions. Say we want to draw a circle using lines. We want to draw a line every 10 degrees, and because the circle has 360 degrees, that means we would do 36 calculations. Without using lookup tables, the approach would be to simply use the {{[[[cos(]]]}} and {{[[[sin(]]]}} functions:
+
+[[code]]
+:ClrDraw
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:90→A:30→B
+:For(X,0,360,10
+:70+20cos(X→C
+:30+20sin(X→D
+:Line(A,B,C,D
+:C→A:D→B
+:End
+[[/code]]
+
+Although this code draws pretty fast already, it could be made faster using lookup tables. Every time through the loop we are calculating the {{cos(}} and {{sin(}} functions, which is quite time-consuming. Speed is especially important in this particular example because we want to have the circle draw as fast as possible (it should be faster than the {{[[[circle| Circle(]]]}} command). Here's what the example would look like using lookup tables:
+
+[[code]]
+:ClrDraw
+:0→Xmin:1→ΔX
+:0→Ymin:1→ΔY
+:90→A:30→B
+:seq(20cos(X),X,0,360,10→L1
+:seq(20sin(X),X,0,360,10→L2
+:For(X,1,37
+:70+L1(X→C
+:30+L2(X→D
+:Line(A,B,C,D
+:C→A:D→B
+:End
+[[/code]]
+
+Another example that should help you more fully understand lookup tables is getting user input. More specifically, combining the {{[[[getKey]]]}} command with a lookup table. Say you want to display a text character based on which key was pressed. A common way to do this is to check to see what the individual keycodes are and then display the respective character:
+
+[[code]]
+:getKey→K
+:If K=41
+:Output(4,X,"A
+:If K=42
+:Output(4,X,"B
+[[/code]]
+
+What you could do instead is place all the acceptable characters (in this case the alphabet) in a string, and then put all the keycodes in a list, organized to follow the alphabet keycodes. When you want to display a character, you simply search the list for the keycode that the user pressed:
+
+[[code]]
+:getKey→K
+:{41,42,43,51,52,53,54,55,61,62,63,64,65,71,72,73,74,75,81,82,83,84,85,91,92,93
+:If K>42 and K<94 and K≠45
+:Output(4,X,sub("ABCDEFGHIJKLMNOPQRSTUVWXYZ",max(K=Ans and seq(B,B,1,dim(Ans))),1
+[[/code]]
+
+(See [[[custominput | Custom Text Input]]] page for a smaller and faster way to get the keycodes.)
+
++ Conclusion
+
+These are rather simple examples, but they should be enough for you to understand how lookup tables work and what you can use them for. Just remember that the battle of speed vs. size is left up to you to decide which route you take. The two main factors to consider are the playability of the program (if the game is slow, the calculations should go) and the number of times the lookup table will be used (if the use is one, consider it none).
+
++ References
+
+* The example trigonometric code was borrowed from David Martin's tutorial, which is not available on the Internet anymore.

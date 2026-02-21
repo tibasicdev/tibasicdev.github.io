@@ -1,0 +1,15 @@
+[[include inc:program
+|picture=pipes.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic pipes game.
+|size=5,276 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/48/4833.html Sean Sartell] (staind234)
+|download=[http://tibasicdev.wikidot.com/local--files/pipes/pipes.zip pipes.zip]
+]]
+
+Pipes is an action / puzzle game that involves connecting pieces of pipe to the single piece of pipe that you start out with, with the goal of trying to make one continuous pipe so that the water doesn't reach the end. You are given a set amount of time to assemble the pipe before the water is unleashed, and because the pipe pieces are randomly generated, you need to use that time wisely.
+
+Each round you have a set number of points that you need to reach with the water flowing in the pipe, and if you don't reach that point total, the game is over. If you were able to survive long enough, you might have qualified for a high score.
+
+The game runs strictly on the graph screen, and features a nice graphical interface, title screen, and menu, as well keeping track of the top five high scores. Of course, the main feature of the game is that it provides almost unlimited gameplay, since the pieces are randomly generated and the rounds keep going until you lose. The standard controls are used: 2nd to make a selection and arrow keys to move.

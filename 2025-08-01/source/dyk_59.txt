@@ -1,0 +1,1 @@
+…that the {{[[[68k:and]]]}}, {{[[[68k:or]]]}}, {{[[[68k:xor]]]}}, and {{[[[68k:not]]]}} commands can be used as bitwise operators on integers?

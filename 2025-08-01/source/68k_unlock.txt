@@ -1,0 +1,32 @@
+[[include inc:68k-command
+|picture=unlock.png
+|summary=Locks a given variable
+|syntax=Unlock //variable1//
+
+|location=
+
+|size=2 byte(s)
+]]
+
+The {{[[[68k:Unlock]]]}} command unlocks locked variables. It is paired with the {{[[[68k:Lock]]]}} command.
+
+[[code]]
+lock var1,var2
+unlock var1,var2
+[[/code]]
+
+[!--
+
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+--]
+
++ Related Commands
+
+* {{[[[68k:Lock]]]}}
+* {{[[[68k:Unarchiv]]]}}
+* {{[[[68k:Archive]]]}}

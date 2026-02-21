@@ -1,0 +1,1 @@
+…that the 26 one-letter variables a-z are much smaller to access?

@@ -1,0 +1,60 @@
+[[include inc:68k-command
+|picture=getmode.png
+|summary=Checks the current mode settings.
+|syntax=getMode(//setting//)
+|size=2 bytes
+]]
+
+The getMode() command checks any one current mode setting. Just give it the name of the mode setting to check, as a string, and it will give you the current value. For example:
+
+[[code]]
+:getMode("Angle")
+           "RADIAN"
+:getMode("Complex Format")
+           "REAL"
+[[/code]]
+
+The name of the setting is not case-sensitive, but is very typo-sensitive.
+
+In practice, getMode() is almost entirely superseded by [[[68k:setMode()]]] -- usually, you don't care about a setting unless you want to change it if it's wrong. In particular, it is silly to do the following:
+
+[[code]]
+:If getMode("Angle")≠"RADIAN"
+:  setMode("Angle","RADIAN")
+[[/code]]
+
+In this case, just the setMode() command instruction by itself would have been fine, since changing the mode from radian to radian would've done nothing anyway. 
+
+It is //also// silly to do the following:
+[[code]]
+:getMode("Angle")→oldmode
+:setMode("Angle","RADIAN")
+...
+:setMode("Angle",oldmode)
+[[/code]]
+It is a noble impulse to try to preserve the old setting and restore it later. However, the same is accomplished more elegantly with (note the { } brackets):
+[[code]]
+:setMode({"Angle","RADIAN"})→oldmode
+...
+:setMode(oldmode)
+[[/code]]
+
++ Optimization
+
+Every string like "Angle" or "FLOAT 12" can be replaced by a numerical equivalent (one that is, for some reason, still given as a string, e.g. "3" or "26"). Using these is shorter, and it has the benefit of being international. 
+
+See the [[[68k:mode-settings|Table of Mode Settings]]] to look up these numbers, as well as read about what the various mode settings do.
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=a mode setting or value doesn't exist, at least not with this spelling]]
+
++ Related Commands
+
+* [[[68k:setMode()]]]
+* [[[68k:setGraph()]]]
+* [[[68k:setTable()]]]
+
++ See Also
+
+* [[[68k:mode-settings|Table of Mode Settings]]]

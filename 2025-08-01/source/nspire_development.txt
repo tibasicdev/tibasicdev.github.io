@@ -1,0 +1,1 @@
+Development articles for the Nspire are still very much underway. However, you can look at the [[[http://tibasicdev.wikidot.com/nspire |beginners guide]]] to gain some knowledge on Nspire Basic.

@@ -1,0 +1,11 @@
+[[include deleted:inc:68k-news part1begin= [!--
+|part2begin= [!-- --]
+|part3begin= [!-- --]
+|part4begin= [!-- --]
+|part1end= --]
+|part2end= [!-- --]
+|part3end= [!-- --]
+|part4end= [!-- --]
+]]
+
+[!-- This page never needs to be modified. Update news over at inc:68k-news instead. --]

@@ -1,0 +1,75 @@
++ Instructions
+
+First, write the name and model of your calculator in the table below, then use this code **with an empty line in the "test code here" space** to measure your loop overhead.
+
+Add the number of iterations you used to the "iterations" column, and [time taken]/[iterations] to the "average" column. Then subtract your loop overhead from the result and list it in the "time" column.
+
+[[code]]
+FnOff
+PlotsOff
+0→Xmin
+94→Xmax
+-62→Ymin
+0→Ymax
+DispGraph //if it is a graphing command
+startTmr→θ
+Repeat checkTmr(θ
+End
+For(𝑛,1,[iterations])    //sequence variable 𝑛; note the closing parenthesis.
+  //test code here
+End
+checkTmr(θ+1
+[[/code]]
+
+
+[[toc]]
+
+
+++ Math Commands
+
+++ Home Screen Commands
+||~ Command ||~ Iterations ||~ Average (ms) ||~ Loop overhead (ms) ||~ Time (ms)||~ Username ||
+|| ClrHome || 1000 || 29 || 1.2 || 28 || kgmstwo ||
+|| Disp " || 1000 || 51 || 1.2 || 50 || kgmstwo ||
+|| Output(1,1," || 10000 || 3.8 || 1.2 || 2.6 || kgmstwo ||
+|| Output(1,1,"A || 10000 || 4.4 || 1.2 || 3.2 || kgmstwo ||
+|| Output(1,1,"AB || 10000 || 5.0 || 1.2 || 3.8 || kgmstwo ||
+|| Output(1,1,"ABC || 10000 || 5.6 || 1.2 || 4.4 || kgmstwo ||
+|| ClrHome || 1000 || 27 ||  .68 || 26 || kgmstwo ||
+
+++ Graphics Commands
+||~ Command ||~ Iterations ||~ Average (ms) ||~ Loop overhead (ms) ||~ Time (ms)||~ Username ||
+|| Pxl-On(0,0 || 10000 || 2.9 || 1.2 || 1.7 || kgmstwo ||
+|| Pxl-Off(0,0 || 10000 || 2.9 || 1.2 || 1.7 || kgmstwo ||
+|| Pxl-Change(0,0 || 10000 || 2.9 || 1.2 || 1.7 || kgmstwo ||
+|| Horizontal -5 || 1000 || 36 || 1.2 || 35 || kgmstwo ||
+|| Horizontal -5 || 1000 || 35 || .68 || 34 || kgmstwo ||
+|| Vertical 5 || 1000 || 25 || 1.2 || 24 || kgmstwo ||
+|| ClrDraw || 1000 || 101 || 1.2 || 100 || kgmstwo ||
+|| StoPic Pic1 || 10000 || 4.7 || 1.2 || 3.5 || kgmstwo ||
+|| StoPic Pic1 || 10000 || 4.2 || .68 || 3.5 || kgmstwo ||
+|| RclPic Pic1 || 1000 || 28 || 1.2 || 27 || kgmstwo ||
+|| Pt-On(10,-10 || 10000 || 4.1 || 1.2 || 2.9 || kgmstwo ||
+|| Pt-On(10,-10 || 10000 || 4.5 || 1.2 || 3.3 || kgmstwo ||
+|| Pt-On(10,-10 || 10000 || 4.0 || .68 || 3.3 || kgmstwo ||
+|| :ZStandard:84→Xmin:72→Ymax:ZInteger || 100 || 220 || .68 || 220 || kgmstwo ||
+|| 0->Xmin:1->DeltaX:0->Ymin:1->DeltaY || 1000 || 14 || .68 || 13 || kgmstwo ||
+|| 0->Xmin:94->Xmax:-63->Ymin:0->Ymax || 1000 || 18 || .68 || 17 || kgmstwo ||
+|| Line(5,0,5,-62 || 1000 || 27 || .68 || 26 || kgmstwo ||
+|| Line(5,0,5,-62,0 || 1000 || 27 || .68 || 26 || kgmstwo ||
+|| Line(0,-5,94,-5 || 1000 || 37 || .68 || 36 || kgmstwo ||
+|| Line(0,-5,94,-5,0 || 1000 || 37 || .68 || 36 || kgmstwo ||
+|| Line(10,-10,10,-10 || 10000 || 7.2 || .68 || 6.5 || kgmstwo ||
+|| Line(10,-10,10,-10,0 || 10000 || 7.4 || .68 || 6.7 || kgmstwo ||
+
+note: multiple commands always on their own line.
+
+++ Loop Overheads
+||~ Command ||~ Average (ms) ||~ Username ||
+|| For(//n//,1,100000) || .83  || kgmstwo ||
+|| For(//n//,1,100000 || .69  || kgmstwo ||
+
++ Calculators Used
+||~ Username ||~ Model ||~ OS version ||
+|| kgmstwo || 84+SE || 2.43 ||
+|| lirtosiast || 84+ || 2.55MP  ||

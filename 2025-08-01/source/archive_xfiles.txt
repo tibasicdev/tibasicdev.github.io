@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282_rPi3]]'
+version: '1.03'
+summary: 'An advanced version of File Manager.'
+description: "xFiles is a program that is built on top of File Manager. This program is intended to replace the past generations of this program. xFiles contains more features that aren't included in past versions. Read the {{Read Me.txt}} file in {{xFiles/Text Documents}}.\n\n+ ##red|Note##\n##red|Please let me know if there are errors or bugs. Please fill out the form below if you experience problems in the program. The data collected helps me improve this program! Thank you.##\n\n##red|https://forms.gle/jnzSX2r6LehEsaGJA##\nThe form has been updated and Fixed!\n\n##orange|Updated: 04.07.20 @ 12:02PM##\n\n+ GitHub commits\nCommitting to this file on GitHub can available for anyone. Just visit [*https://github.com/BioHazard1282/xFiles here] to commit to xFiles!\n\n+ ##red|Bugs##\nBelow are known bugs/glitches in the current version of xFiles:\n\n* ##red|**When you try to update xFiles within the program if the Update program is missing, it should return you to the main menu but doesn't. Instead, it continues with the update process as if the program were existing. But the program will exit with an UNDEFINED error.** ## ##blue|How to fix: **Add the {{\".P:NT:FN}} after the {{getKey:Repeat max{getkey={21:05:End}} line in the {{If}} conditional.**##\n\nIf there are more bugs, please leave them in the Error Form above."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:xfiles/xFiles.zip'
+image: null
+fileSize: '5'
+fileSizeUnit: '3'
+dateMade: '1586239200'

@@ -1,0 +1,24 @@
+The programs linked from this page are complete (if simple) games, presented with source code and an explanation. They are meant as a way of putting everything that is on this guide together into an example of what TI-Basic programmers like you can do. For readers who learn better by example than by explanation, these games are also a great way to learn the techniques explained in this guide.
+
+------
+
+* **[[[Pong]]]** -- You have to keep the ball in play by bouncing it back and forth against the walls, without letting it get by your paddle.
+* **[[[mine-field|Mine Field]]]** -- Like the classic game minesweeper, the goal is to avoid hitting the mines.
+* **[[[guess-the-number|Guess The Number]]]** -- Try to guess the number, and see how many tries it takes you.
+* **[[[Darts]]]** -- Hit the target with your dart, while avoiding the obstacles in your way.
+* **[[[Tic-Tac-To]]]** -- Alternate turns placing pieces on the 3x3 game board until somebody gets 3-in-a-row or all nine spots on the game board are filled.
+* **[[[Mastermind]]]** (//[[[mastermind2|alternative]]]//) -- Try to break a random code of five numbers in fifteen guesses or less.
+* **[[[Avalanche]]]** -- Avoid the falling spikes by moving to the left or right, trying to see how long you can hold out for.
+* **[[[Snake]]]** -- Go around eating food, and the snake grows longer and longer with each piece of food.
+* **[[[Memory]]]** -- A simple "card" game where you flip over two cards each turn to try to get a matching pair.
+* **[[[Hangman]]]** -- Alternate turns trying to guess a word by selecting the letters that make up the word until the word is correctly guessed or you run out of chances.
+* **[[[Rock Paper Scissors]]]** -- You have three different hand gestures to choose from, but can you choose the best hand...
+* **[[[Demented Snake]]]** -- Just like snake, except you need to constantly change directions to keep the snake moving fast.
+* **[[[hop-over|Hop Over]]]** -- You have to move the pieces around until you get the four squares on the left and the four cross-hairs on the right.
+* **[[[fly-the-copter|Fly The Copter]]]** -- You have to navigate a scrolling tunnel for as long as possible.
+* **[[[simon-says|Simon Says]]]** -- You must repeat a pattern which gets longer and longer.
+* **[[[maze-walkthrough|Maze Walkthrough]]]** -- You have to make your way through the maze without touching any of the walls.
+* **[[[Chase]]]** -- You have to chase down the randomly moving target.
+* **[[[Light Cycles]]]** -- Control your continuous cycle and out last the AI.
+* **[[[Connect 4, 2 player]]]** -- take turns dropping checkers into a grid to make 4 in a row Horizontally, vertically, or diagonally
+* **[[[Mancala]]]** -- drop seeds or stones into houses to either clear your side first or to get the most stones in your end house, depending on your rule set.

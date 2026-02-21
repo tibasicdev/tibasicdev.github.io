@@ -1,0 +1,31 @@
+[[include inc:68k-command
+|picture=negative.png
+|summary=Negates an expression.
+|syntax=‾//expression//
+|location=Press the ‾ key to enter ‾.
+|size=1 byte
+]]
+
+The ‾ operator gives the negative of the value immediately following it. It's not to be confused with the [[[68k:subtract|-]]] operator, which subtracts two numbers -- while on paper you'd generally use the same symbol for -2 and 4-2, the calculator has two different symbols, and negation is represented by the slightly shorter and higher dash.
+
+You can also use ‾ to negate lists and matrices, which will negate each element, as expected.
+[[code]]
+:1+‾1
+           0
+:‾(x-1)
+           ‾x+1
+:‾[1,2;3,4]
+           [‾1  ‾2]
+           [‾3  ‾4]
+[[/code]]
+
+Other pages on this site will use - to mean both subtraction and negation, where it isn't confusing.
+
++ Related Commands
+
+* [[[68k:add|+]]] (add)
+* [[[68k:subtract|-]]] (subtract)
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

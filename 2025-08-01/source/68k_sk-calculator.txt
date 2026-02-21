@@ -1,0 +1,7 @@
+[[include inc:next-prev
+|prevpage = 68k:sk-practices
+|prevtitle = Good Programming Practices
+|tocpage = 68k:starter-kit
+|toctitle = Table of Contents
+|nextpage = 68k:sk-computer
+|nexttitle = Computer Setup]]

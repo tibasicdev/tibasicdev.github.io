@@ -1,0 +1,47 @@
+[[include inc:68k-command
+|picture=not.png
+|summary=Reverses a condition.
+Can also be used as a bitwise "not" on integers.
+|syntax=not //condition//
+not //integer//
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 8 to enter the Test submenu.
+* Press 7 to select not.
+
+|size=1 byte
+]]
+
+The "not" operator reverses a condition, making it true if it had been false, and false if it had been true. You can create these conditions with the relational operators [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]], with functions such as [[[68k:isPrime()]]], [[[68k:pxlTest()]]], and [[[68k:ptTest()]]], or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [[[68k:and]]], [[[68k:or]]], and [[[68k:xor]]].
+
+In output, it can also appear as ~, and if you type the ~ character, it will be interpreted as "not". 
+
+[[code]]
+:not 2+2=4
+           false
+:not x
+           ~x
+[[/code]]
+
+The operator can also be applied to an integer, treating it as a 32-bit signed integer (larger integers will be truncated to fit) expressed in binary. In this case, it gives the 1's complement, flipping all the bits.
+[[code]]
+:(not 0b1111)▶Bin
+           0b11111111111111111111111111110000
+:not 1000
+           -1001
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=60|error=Argument must be a Boolean expression or integer|cause=the data type is incorrect]]
+
++ Related Commands
+
+* [[[68k:and]]]
+* [[[68k:or]]]
+* [[[68k:xor]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

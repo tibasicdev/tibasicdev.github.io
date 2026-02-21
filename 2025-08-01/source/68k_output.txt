@@ -1,0 +1,27 @@
+[[include inc:68k-command
+|picture=output.png
+|summary=Output is used to display text to pixel coordinates on the Program I/O screen.
+|syntax=Output //row//,//col//,//text//
+
+|location=
+Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 6 to paste Output.
+
+|size=2 bytes
+]]
+
+The Output command is the most basic command for displaying text. It can display any type of expression on the Program I/O screen in the large font, using "Pretty Print" if it is enabled. It uses (row, column) pixel coordinates to determine the top left corner from which it displays the expression. By far the most common use of Output is for displaying strings.
+
+[[code]]
+:Output 20,20,"Hello, world"
+[[/code]]
+
++ Advanced Uses
+
+Both the row and the column coordinates for displaying text can be arbitrary integers -- they can be negative, and they can go off-screen. The portion of the text that fits on the screen (if any) is drawn, and the rest is omitted: there is no wrapping of any kind.
+
++ Related Commands
+
+* [[[68k:Disp|Disp]]]
+* [[[68k:Dialog|Dialog]]]

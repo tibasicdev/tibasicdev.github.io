@@ -1,0 +1,83 @@
+This is the end of the first part of the tutorial! To review, here is a sample program that includes the ideas you've learned about in the previous few pages: the traditional guessing game. It will ask you to guess a number between 1 and 1000 in 10 guesses; every time you guess, it will tell you if the number is lower or higher.
+
++ The Program
+
+[[code]]
+:ClrHome
+:randInt(1,1000)→N
+:Disp "Guess a number"
+:For(I,1,10)
+:Input "Guess?",G
+:If N=G:Then
+:Disp "You've got it!","Guesses:",I
+:Pause
+:Stop
+:Else
+:If N>G:Then
+:Disp "Higher..."
+:Else
+:Disp "Lower..."
+:End
+:End
+:End
+:Disp "You lose!","The number was:",N
+[[/code]]
+
++ An Explanation
+
+[[code]]
+:ClrHome
+:randInt(1,1000)→N
+:Disp "Guess a number"
+[[/code]]
+
+The program starts off with a bit of a curve ball: two commands, [[[ClrHome]]] and [[[randInt(]]], that we haven't really covered yet. ClrHome clears the home screen, and randInt( gives a random number. These will be covered later on, in the second part of this tutorial, so don't worry if you don't quite understand them. In any case, the command randInt(1,1000)→N makes N a random number between 1 and 1000.
+
+Finally, we display "Guess a number" to start off the game.
+
+[[code]]
+:For(I,1,10)
+:Input "Guess?",G
+	...
+:End
+[[/code]]
+
+To give the player 10 guesses, we use a For( loop that goes from 1 to 10. The variable I is the number of the guess we're on.
+
+The Input command simply asks for a guess, and stores it to G. Remember that N is the number the player's trying to guess.
+
+[[code]]
+:If N=G:Then
+  :Disp "You've got it!","Guesses:",I
+  :Pause
+  :Stop
+:Else
+  :If N>G:Then
+    :Disp "Higher..."
+  :Else
+    :Disp "Lower..."
+  :End
+:End
+[[/code]]
+
+This is the most complicated part of the code. To make the nesting of the If commands clearer, it's been indented above, although it wouldn't be on a calculator.
+
+The first check is if N=G: if the guess is correct. If it is, we go to the Then part of the first If. Here we display "You've got it!", and how many guesses it took. We pause the program with [[[Pause]]], so that the user can read the info we'll provide. Then with the [[[Stop]]] command, we exit the program.
+
+If the guess wasn't correct, we go to the Else part of the first If. Now we need to display a hint - higher or lower. This is accomplished by the second If statement. If N>G, it goes to the Then part, and displays "Higher..." Otherwise, it goes to the Else part, and displays "Lower..." There is no Stop here, so the program continues from there, and does the next cycle of the loop.
+
+[[code]]
+:Disp "You lose!","The number was:",N
+[[/code]]
+
+I'm sure that this code is easy to understand -- but why it's here might not be. Think about it, though: this code is right after the End of the For( loop. The For( loop repeated 10 times (once for each guess) without getting here -- once it does, that means that 10 guesses have passed; and the player still hasn't guessed the number, or otherwise the program would have stopped.
+
+So once we're here, the player has lost the game. The thing to do now is to display the appropriate message, along with telling him what the right number was.
+
+[[include inc:next-prev
+|prevpage = sk:exercises-basics
+|prevtitle = Chapter Exercises
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:homescreen
+|nexttitle = More on the Home Screen]]

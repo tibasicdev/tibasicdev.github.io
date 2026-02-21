@@ -1,0 +1,600 @@
+> This table lists all the possible error messages that can occur. The error number to the left is not displayed, but is stored to the [[[68k:system-variables#errornum|errornum]]] system variable, which can be used in a [[[68k:Try]]]..EndTry block. Some error messages are very explicit (like # 810), but others are less so. Where the error message itself gave too little information, this table explains the error more thoroughly.
+
+> A large part of the information here was taken from Appendix B of the TI-89 manual.
+
+[[table style="border-collapse: collapse;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #666;width: 10em;font-size: 125%;"]]**Error Number**[[/cell]]
+[[cell style="border-bottom: 1px solid #666;font-size: 125%;"]]**Error Description**[[/cell]]
+[[/row]]
+
+[[include inc:68k-error1 |number=10 |description=A function did not return a value |moreinfo=@@]]
+[[include inc:68k-error2 |number=20 |description=A test did not resolve to TRUE or FALSE |moreinfo=This error usually occurs when comparing an undefined variable, in a statement such as If.]]
+[[include inc:68k-error1 |number=30 |description=Argument cannot be a folder name |moreinfo=@@]]
+[[include inc:68k-error2 |number=40 |description=Argument error |moreinfo=@@]]
+[[include inc:68k-error1 |number=50 |description=Argument mismatch |moreinfo=Two of the arguments must be of the same type.
+For example, PtOn can be used with two numbers, or two lists. But a number and a list can't be used together.]]
+[[include inc:68k-error2 |number=60 |description=Argument must be a Boolean expression or integer |moreinfo=For use with logic commands such as or
+They can be applied to two truth values, or bitwise to two integers.]]
+[[include inc:68k-error1 |number=70 |description=Argument must be a decimal number |moreinfo=@@]]
+[[include inc:68k-error2 |number=80 |description=Argument must be a label name |moreinfo=@@]]
+[[include inc:68k-error1 |number=90 |description=Argument must be a list |moreinfo=@@]]
+[[include inc:68k-error2 |number=100 |description=Argument must be a matrix |moreinfo=@@]]
+[[include inc:68k-error1 |number=110 |description=Argument must be a Pic |moreinfo=@@]]
+[[include inc:68k-error2 |number=120 |description=Argument must be a Pic or string |moreinfo= Happens with a Title used in a toolbar.
+The "Pic" part only applies to the widescreen calculators, not the 89 or 89 Titanium]]
+
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**130**[[# e130]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Argument must be a string**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**140**[[# e140]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Argument must be a variable name**
+This can also indicate an invalid variable name such as 1xy.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**150**[[# e150]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Argument must be an empty folder name**
+Folders can't be deleted if they're not empty.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**160**[[# e160]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Argument must be an expression**
+For example, [[[68k:zeros|zeros(]]]2x+3=0,x) is not valid because 2x+3=0 is an equation.
+Use zeros(2x+3,x) instead -- the =0 is implied with this command.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**161**[[# e161]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**ASAP or Exec string too long**
+This error is caused by the assembly program RAM limit. 
+The limit is not present on HW1 calculators; on others, it's 8k with AMS 2.03 or lower, and 24k with AMS 2.04 or higher.
+If you try to run an assembly program that exceeds the limit, you'll get this error.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**163**[[# e163]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Attribute (8-digit number) of object (8-digit number) not found**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**165**[[# e165]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Batteries too low for sending/receiving product code**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**170**[[# e170]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Bound**
+The lower bound must be less than the upper bound.
+This error can happen, for example, with the zero finder on the graph.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**180**[[# e180]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Break**
+The ON key was pressed during a calculation or while running a program.
+This error usually can't be caught by [[[68k:try|Try]]]..EndTry blocks, unless it happens in a text prompt.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**185**[[# e185]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Checksum error**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**190**[[# e190]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Circular definition**
+Circular definitions of a variable are caught: for example, a+1→a (if a is undefined).
+But circular definitions of a function are handled by a limit on recursion depth.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**200**[[# e200]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Constraint expression invalid**
+See the page for the | ([[[68k:with|with]]]) operator for more details.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**210**[[# e210]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Data type**
+An argument is of the wrong data type.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**220**[[# e220]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Dependent limit**
+The same variable can't be used as both an integration variable and a bound.
+For example, [[[68k:integral|∫(]]]sin(x),x,0,x) wouldn't be allowed.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**225**[[# e225]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Diff Eq setup**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**230**[[# e230]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Dimension**
+An index went out of the bounds of a list or matrix.
+For example, list[5] when list is equal to {1,2,3,4}.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**240**[[# e240]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Dimension mismatch**
+Some commands require their list or matrix arguments to match in size.
+For example, you can't add the lists {1,2} and {1,2,3}.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**250**[[# e250]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Divide by zero**
+Take that, James Anderson!
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**260**[[# e260]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Domain error**
+Some commands only accept numbers within a certain range.
+For example, [[[68k:ans|ans()]]] only works with numbers 1-99.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**270**[[# e270]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Duplicate variable name**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**280**[[# e280]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**[[[68k:Else]]] and [[[68k:ElseIf]]] invalid outside [[[68k:If]]]..Then block**
+Well, actually, [[[68k:try|Try]]]..EndTry blocks also use Else.
+But you didn't hear me say that.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**290**[[# e290]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**[[[68k:try|EndTry]]] is missing the matching Else statement**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**295**[[# e295]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Excessive iteration**
+Happens when an iterative solver runs for too long without finding a solution.
+This usually means there isn't one, except in truly horrible cases.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**300**[[# e300]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Expected 2 or 3-element list or matrix**
+This happens with commands that deal with 2 or 3-dimensional vectors.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**307**[[# e307]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Flash application extension (function or program) not found**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**308**[[# e308]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Flash application not found**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**310**[[# e310]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**First argument of [[[68k:nsolve|nSolve]]] must be a univariate expression**
+English translation: the only undefined variable that can be in nSolve()'s expression is the one you're solving for.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**320**[[# e320]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**First argument of [[[68k:solve|solve]]] or [[[68k:csolve|cSolve]]] must be an equation or inequality**
+For example, solve(2x+3,x) is invalid because 2x+3 isn't an equation.
+Of course, [[[68k:zeros|zeros()]]] has exactly the opposite problem.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**330**[[# e330]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Folder**
+Sometimes the calculator likes being laconic.
+This error happens in the VAR-LINK menu if a variable is stored to a folder that doesn't exist.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**335**[[# e335]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Graph functions [[[68k:system-variables#equation|y1(x)..y99(x)]]] not available in Diff Equations mode**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**345**[[# e345]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Inconsistent units**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**350**[[# e350]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Index out of range**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**360**[[# e360]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**[[[68k:Indirection]]] string is not a valid variable name**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**380**[[# e380]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid [[[68k:ans()]]]**
+That is, that many answers haven't been stored yet.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**390**[[# e390]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid assignment**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**400**[[# e400]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid assignment value**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**405**[[# e405]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid axes**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**410**[[# e410]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid command**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**420**[[# e420]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid folder name**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**430**[[# e430]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid for the current mode settings**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**440**[[# e440]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid implied multiply**
+The syntax a(b) is only used for function calls, not for multiplying a and b.
+If a is not a defined function, the calculator assumes you tried to multiply, and gives this error.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**450**[[# e450]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid in a function or current expression**
+A user-defined function can't change global variables, or use certain commands.
+This also happens in prompts, such as the Data/Matrix Editor. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**460**[[# e460]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid in [[[68k:custom|Custom]]]..EndCustm block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**470**[[# e470]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid in [[[68k:dialog|Dialog]]]..EndDlog block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**480**[[# e480]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid in [[[68k:toolbar|Toolbar]]]..EndTBar block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;vertical-align:top; text-align: center;"]]**490**[[# e490]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid in [[[68k:try|Try]]]..EndTry block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**500**[[# e500]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid label**
+Label names have the same limitations as variable names.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**510**[[# e510]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid list or matrix**
+Lists can only be 1-dimensional (lists) or 2-dimensional (lists of lists).
+Lists of lists are matrices, and any non-rectangular stuff (e.g. {1,{2,3}}) is not allowed.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**520**[[# e520]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid outside [[[68k:custom|Custom]]]..EndCustm or [[[68k:toolbar|Toolbar]]]..EndTBar blocks**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**530**[[# e530]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid outside [[[68k:dialog|Dialog]]]..EndDlog, [[[68k:custom|Custom]]]..EndCustom, or [[[68k:toolbar|Toolbar]]]..EndTBar blocks**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**540**[[# e540]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid outside [[[68k:dialog|Dialog]]]..EndDlog block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**550**[[# e550]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid outside function or program**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**560**[[# e560]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid outside [[[68k:loop|Loop]]]..EndLoop, [[[68k:for|For]]]..EndFor, or [[[68k:while|While]]]..EndWhile blocks**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**570**[[# e570]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid pathname**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**580**[[# e580]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid polar complex**
+You might think that this is a prohibition against building military bases on the North Pole.
+Actually, this is used with the [[[68k:angle-symbol|∠]]] command.
+For example, (**//i//**∠2) is invalid.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**590**[[# e590]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid syntax block**
+For the miscellaneous errors with [[[68k:dialog|Dialog]]]..EndDlog, [[[68k:custom|Custom]]]..EndCustm, and [[[68k:toolbar|Toolbar]]]..EndTBar blocks.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**600**[[# e600]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid table**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**605**[[# e605]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid use of units**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**610**[[# e610]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid variable name in a [[[68k:local|Local]]] statement**
+Reserved variables, for example, can't be made local.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**620**[[# e620]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid variable or function name**
+The variable name is being used for a built-in function.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**630**[[# e630]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Invalid variable reference**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**640**[[# e640]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Invalid vector syntax**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**650**[[# e650]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Link transmission**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**665**[[# e665]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Matrix not diagonalizable**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**670 or 673**[[# e670]][[# e673]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Memory**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**680**[[# e680]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Missing (**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**690**[[# e690]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Missing )**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**700**[[# e700]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Missing "**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**710**[[# e710]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Missing ]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**720**[[# e720]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Missing }**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**730**[[# e730]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Missing start or end of block syntax**
+For example, an [[[68k:if|If]]] without an EndIf to go with it.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**740**[[# e740]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Missing Then in the [[[68k:if|If]]]..EndIf block**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**750**[[# e750]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Name is not a function or program**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**765**[[# e765]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**No functions selected**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**780**[[# e780]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**No solution found**
+Most commands usually think of something clever to return, instead.
+So this error only occurs with the interactive graph tools.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**790**[[# e790]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Non-algebraic variable in expression**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**800**[[# e800]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Non-real result**
+Only happens if the calculator is in real number mode.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**810**[[# e810]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Not enough memory to save current variable. Please delete unneeded variables on the Var-Link screen and re-open editor as current OR re-open editor and use F1 8 to clear editor.**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**830**[[# e830]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Overflow**
+The possible range of a floating point number is between -10^^1000^^ and 10^^1000^^ (not inclusive).
+However, sometimes an overflow is replaced by infinity instead.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**840**[[# e840]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Plot setup**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**850**[[# e850]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Program not found**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**860**[[# e860]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Recursion is limited to 255 calls deep**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**870**[[# e870]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Reserved name or system variable**
+System variables cannot be deleted, for example.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**875**[[# e875]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**ROM-resident routine not available**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**880**[[# e880]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Sequence setup**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**885**[[# e885]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Signature error**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**890**[[# e890]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Singular matrix**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**895**[[# e895]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Slope fields need one selected function and are used for 1st-order equations only**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**900**[[# e900]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Stat**
+Statistics.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**910**[[# e910]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Syntax**
+An expression or entry just doesn't make sense. For example, 2+2+.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**930**[[# e930]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Too few arguments**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**940**[[# e940]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Too many arguments**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**950**[[# e950]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Too many subscripts**
+"Too many" is more than two.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**955**[[# e955]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Too many undefined variables**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px;text-align: center;"]]**960**[[# e960]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Undefined variable**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px; text-align: center;"]]**965**[[# e965]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Unlicensed product software or Flash application**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px; text-align: center;"]]**970**[[# e970]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Variable or Flash application in use**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;text-align: center;"]]**980**[[# e980]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Variable is locked, protected, or archived**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px; text-align: center;"]]**990**[[# e990]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Variable name is limited to 8 characters**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;text-align: center;"]]**1000**[[# e1000]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**[[[68k:system-variables#window|Window variables]]] domain**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px; text-align: center;"]]**1010**[[# e1010]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Zoom**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;text-align: center;"]]**1020**[[# e1020]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**Internal Error**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px 10px; text-align: center;"]]**1030**[[# e1030]][[/cell]]
+[[cell style="padding: 5px 10px;"]]**Protected memory violation**
+[[/cell]]
+[[/row]]
+[[/table]]

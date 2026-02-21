@@ -1,0 +1,2 @@
+content: 'What happened to the different tools above the text box?'
+attachment: null

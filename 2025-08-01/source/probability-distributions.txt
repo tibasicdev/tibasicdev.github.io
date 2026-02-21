@@ -1,0 +1,43 @@
+A probability distribution is a formula describing the way a random variable behaves, or our assumptions about the potential values of an unknown parameter. The TI-83 series calculators include a variety of commands that describe very common distributions (although you can calculate the probabilities directly, they often have complicated formulas, and it is faster to use these commands instead).
+
+For the continuous distributions, …pdf( gives the probability density function (mainly useful for graphing), and …cdf( gives the actual probability of a result occurring in an interval. For the discrete distributions, ...pdf( gives the probability for a single value, and ...cdf( gives the probability for all values up to some limit. 
+
+
+When calculating [[[confidence intervals]]] and [[[significance tests]]], using these functions approaches the "using a table" experience more closely, and gives you a better idea of what's going on; however, the appropriate Test or Interval command, if available, will be easier and faster (as well as smaller, if in a program) to use.
+
+There are also four "shade" commands available: rather than just calculating a value, they also draw the curve of the probability density function on the graph screen, and shade in the area that corresponds to the desired probability.
+
+The following probability distribution commands are available:
+
+[[div style="float:left; width: 35%; padding: 0 2%"]]
+
+* [[[normalpdf(]]] (Normal distribution)
+* [[[normalcdf(]]]
+* [[[invNorm(]]]
+* [[[ShadeNorm(]]]
+* [[[tpdf(]]] (Student t distribution)
+* [[[tcdf(]]]
+* [[[invT(]]] -- TI-84+/SE only
+* [[[shade_t|Shade_t(]]]
+* [[[chisquarepdf|χ²pdf(]]] (χ² distribution)
+* [[[chisquarecdf|χ²cdf(]]]
+* [[[shadechisquare|Shadeχ²(]]]
+
+[[/div]]
+
+[[div style="float:left; width: 35%; padding: 0 2%"]]
+
+* [[[Fpdf(]]] (//F//-distribution)
+* [[[Fcdf(]]]
+* [[[ShadeF(]]]
+* [[[binompdf(]]] (binomial distribution)
+* [[[binomcdf(]]]
+* [[[poissonpdf(]]] (Poisson distribution)
+* [[[poissoncdf(]]]
+* [[[geometpdf(]]] (geometrical distribution)
+* [[[geometcdf(]]]
+
+[[/div]]
+
+[[div style="clear:both;"]]
+[[/div]]

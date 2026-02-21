@@ -1,0 +1,20 @@
+[[include inc:command
+|picture=AXESON.GIF
+|summary=Enables the X- and Y- axes on the graph screen.
+|syntax=AxesOn
+|location=Press:
+# 2nd FORMAT to access the format menu.
+# Use arrows and ENTER to select AxesOn.
+|compatibility=TI-83/84/+/SE
+|size=2 bytes
+]]
+
+The {{AxesOn}} command enables the X and Y axes on the graph screen, so that they are drawn. They can be disabled with the {{[[[AxesOff]]]}} command.
+
+(the y=x line that is drawn when both {{[[[seq-mode|Seq]]]}} and {{[[[Web]]]}} modes are enabled is also controlled by this command)
+
++ Related Commands
+
+* {{[[[AxesOff]]]}}
+* {{[[[LabelOn]]]}}
+* {{[[[LabelOff]]]}}

@@ -1,0 +1,18 @@
+[[include inc:member2-backend
+|timezone={$timezone} |timezone=//Not given//
+|birthday=**Birthday:** {$birthday} |birthday=@@
+|aboutme=
+**[[size 150%]]About Me[[/size]]**
+
+{$aboutme} |aboutme=@@
+|howifoundtibd=
+**[[size 150%]]How I Found TI-Basic Developer[[/size]]**
+
+{$howifoundtibd} |howifoundtibd=@@
+|howibeganpgrming=
+**[[size 150%]]How I Began Programming[[/size]]**
+
+{$howibeganpgrming} |howibeganpgrming=@@
+|hobbies=**Hobbies**: {$hobbies} |hobbies=@@
+|mybestprogram=**Best Program**: {$mybestprogram} |mybestprogram=@@
+]]

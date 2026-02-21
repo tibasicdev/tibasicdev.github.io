@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '0.1'
+summary: '2-dimensional Minecraft!'
+description: "I've finished!\n2-dimensional Minecraft on a calculator!\nPress arrow keys to move, press 4,2,6, and 8 to move your selector thing around (the thing you use to place and destroy blocks), Mode to switch between place and destroy modes.\nThere is gravity, but you have infinite blocks.  This program is not slow like most of my other ones.\nThis program doesn't include blocks that have any function, but I will add it as soon as I remove the letter graphics.\nCan someone show me how to convert this program from the Home Screen to the graph? I know a way, but it takes over 5 minutes for the program to redraw the screen.\nIf you have played this, please comment, I want to see how many people have used this.\n\n[[code]]\n:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]→[A]\n:5→X\n:1→Y\n:5→L\n:1→M\n:5→A\n:5→B\n:5→N\n:5→O\n:1→P\n:1→H\n:1→R\n:While 1\n:getKey→K\n:X-(K=24 and [A](Y,X-1)=0)+(K=26 and [A](Y,X+1)=0)→X\n:If K=25 and not([A](Y+1,X) = 0)\n:Then\n:For(W,1,3\n:If Y>1\n:Then\n:If [A](Y,X)=0\n:Y-1→Y\n:End\n:End\n:End\n:If Y<8 and [A](Y+1,X)=0\n:Y+1→Y\n:If K=22\n:Then\n:If P=1\n:Then\n:0→P\n:Else\n:1→P\n:End\n:End\n:If K=83\n:Then\n:If P=0\n:Then\n:0→[A](B,A\n:Output(B,A,\" \"\n:End\n:If P=1\n:Then\n:H→[A](B,A //Sorry for the earlier mistake, fixed now\n:Output(B,A,H\n:End\n:End\n:If R=1\n:Then\n:0→R\n:ClrHome\n:For(V,1,16\n:For(W,1,8\n:If not([A](W,V)=0)\n:Output(W,V,[A](W,V\n:End\n:End\n:End\n:If [A](M,L)=0\n:Then\n:Output(M,L,\" \"\n:Else\n:Output(M,L,[A](M,L\n:End\n:X→L\n:Y→M\n:If [A](O,N)=0\n:Then\n:Output(O,N,\" \"\n:Else\n:Output(O,N,[A](M,L\n:End\n:X→N\n:Y→O\n:If (K=82 and A>1) or (K=84 and A<16) or (K=73 and B>1) or (K=93 and B<8)\n:Then\n:If [A](B,A)=0\n:Then\n:Output(B,A,\" \"\n:Else\n:Output(B,A,[A](B,A\n:End\n:If K=82\n:A-1→A\n:If K=84\n:A+1→A\n:If K=73\n:B-1→B\n:If K=93\n:B+1→B\n:Output(B,A,\"O\n:End\n:Output(Y,X,\"*\n:End\n[[/code]]"
+arcade: '1'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:readme-11/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1412136000'

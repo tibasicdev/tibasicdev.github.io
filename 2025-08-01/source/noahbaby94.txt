@@ -1,0 +1,15 @@
+[[include inc:member
+|month=Sep
+|day=07
+|username=noahbaby94
+]]
+
+[[include inc:member2
+|timezone=-6 GMT
+|birthday=09/02/1994
+|aboutme=
+|howifoundtibd=Looking for a way to convert numbers to strings.
+|howibeganpgrming=Math class needed to know how to program.
+|hobbies=
+|mybestprogram=[http://tibasicdev.wikidot.com/archives:quadratic Quadratic]
+]]

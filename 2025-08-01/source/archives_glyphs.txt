@@ -1,0 +1,17 @@
+author: symaxian
+description: 'A collection of most of the characters available on the TI, sorted by hex code and stored into Str0. Unavailable characters are represented by a "?". See http://tibasicdev.wikidot.com/83lgfont for more info.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+image: 'archives:glyphs/glyphs.png'
+download: GLYPHS.8xp
+size: '399'
+unit: '1'

@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282_rPi3]]'
+version: 4.88.2
+summary: 'File Manager is a Celtic 3 program that allows you to run and manage files. You can manage BASIC programs, Application variables, and groups. Please read more for more information.'
+description: "File Manager is special program for managing programs. In this program, you can archive, hide, lock, and run programs like a lot of other utilities. But this utility specifically is special in some ways. Manager can download the contents of programs or app variables, view the files inside any group file, prevent unlocking protected z80 assembly programs, parse for different program types (Any program, MirageOS, z80 assembly, and Ion), and converting programs to app variables and back to programs. THIS IS AN UPDATED VERSION 4.87.5, so feel free to explore the new updates implemented in the program. To view what updates that were specifically installed, click the Files To Send/Ver 4.88.2/New Updates.txt. This program is still compatible with the TI-83+/SE, but NOT recommended with the original TI-83. Please leave me a review and rate my file to help improve this program in the future! This program works on older operating systems, but has a catch. On the 84+/SE, the OS MUST be upgraded from 2.20 or later, 0.46 WILL NOT work. On the 83+/SE, the OS MUST be upgraded from 1.13 or later, 1.10 WILL NOT work. New Gifs have been made.\n\n[[code]]\n _    _           _       _            \n| |  | |         | |     | |           \n| |  | |_ __   __| | __ _| |_ ___  ___ \n| |  | | '_ \\ / _` |/ _` | __/ _ \\/ __|\n| |__| | |_) | (_| | (_| | ||  __/\\__ \\\n \\____/| .__/ \\__,_|\\__,_|\\__\\___||___/\n       | |                             \n       |_|       (Updates)\n\nNew updates for File Manager:\n\n    Info\n\nVersion: 4.88.2\nSize: 6783 (301 bytes less from previous)\nLines of code: 632 (50 lines less from previous)\nCapability: TI-83+/84+/SE\nTotal Updates: Probably 5\n\n    Implemented/Removed Functions\n        A - Added\n        R - Removed\n        C - Changed\n\n* Changed the Loading programs screen.\n* Changed program to selection single program display instead of a list...\n\nBefore:\n\n[PROG 1]\n PROG 2\n PROG 3\n PROG 4\n\nNow:\n[    PROG 1    ]\n\n* Reverted download method back to line-by-line.\n* Changed \"Download\" option names to \"Copy\".\n\nWhen programs are downloaded, the code is stored into a program called\n\"DOWNLOAD\". This has been changed so the name has the first four letters of the\nfile name and has \"COPY\" added to the name.\n\nIf BasicOS was downloaded, the name would be changed to this:\n\n\"BASICOS\" -> \"BASICOPY\"\n\n* When returning to the program selection menu, the selection is restored where\nyou left off.\n\nNeat and convientent way for finding downloaded programs.\nPlease note that any app vars downloaded that does not have the chars A-Z and theta,\nthose characters will be used as the first four characters of the download file.\nThese downloads cannot be executed, as they will cause errors.\n\n\nIf you do not like the new features implemented in this program, you can always\nrevert to the older versions of FILE MANAGER.\n[[/code]]\nNew Miscellaneous files have been added!\n\n##B22832|**Updated Wednesday; November 13 , 2019 at 10:12AM.**##\n##green|**This is the last and final update to File Manager, no more updates will be implemented. Contributions will no longer be accepted.**##\n------\n+ ##gold|**xFiles coming later!**##\nxFiles is a new version of File Manager coming later this year. This version will include new features that weren't implemented in File Manager:\n\n* Group Extraction - Extract to RAM or ROM\n* Program Line Editor - Edit single lines of code\n* Error Handler - Test program for errors\n* Auto sort - Pick Existing Programs, App Vars, and Groups. No more typing!\n* Simpler UI - Better UI that is smaller in memory\n* And more!\n\nStay tuned for these updates!"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:filemanager/filemanager.zip'
+image: 'archiveimage:manager/Manager.gif'
+fileSize: '9'
+fileSizeUnit: '3'
+dateMade: '1573628400'

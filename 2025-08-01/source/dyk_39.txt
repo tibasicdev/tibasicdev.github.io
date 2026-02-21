@@ -1,0 +1,1 @@
+…that "0<X<10" will actually compare "0<X" first, and compares the result (0 or 1) to 10, so "0<X and X<10" should be used instead?

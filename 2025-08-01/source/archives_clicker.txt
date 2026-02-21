@@ -1,0 +1,17 @@
+author: smaldragon979
+description: 'A simple addicting game about clicking on the right key before time runs out that takes advantage of the position of the functions keys relative to the screen, displaying arrows and other symbols in the bottom of the screen that point directly to the key that must be pressed. \nIncludes 3 difficulty levels, high scores and instructions on the program itself.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: 'archives:clicker/clicker.gif'
+download: clicker.zip
+size: '2873'
+unit: '1'

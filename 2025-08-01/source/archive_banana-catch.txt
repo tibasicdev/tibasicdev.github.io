@@ -1,0 +1,21 @@
+author: Yousername
+version: '0.1'
+summary: 'A simple game made in TI-Basic where you are a monkey and have to collect bananas. Don''t collect X''s! Includes power-ups, upgrades, and more!'
+description: "Banana Catch is a game in TI-Basic where you are a monkey and have to collect bananas, but not X's. The goal is to get as many points as you can before the timer (60 sec) gets to 0. Bananas give you 1 point and X's take away 1 point. If you don't collect a banana, you will lose 1 point. Along with bananas and X's, power-ups also fall from the sky. There are four power-ups: {{✱}}, which slows the falling objects down, {{/}}, which gets rid of X's, {{+}}, which adds time to the timer, and {{2}}, which doubles the effect of bananas and X's. The effect of power-ups depends on the upgrades you have, which can be bought in the shop using the points you earned.\n**Banana Catch is only playable on the TI-84+ and TI-84+SE. Other calculators will not run the game correctly.**\nTo play the game, extract the {{.zip}} file, send  {{Banana_Catch_v0.1.8xp}} to your calculator, and run {{prgmBANANAC}}.\nProvide suggestions in the comments below."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: dd
+download: 'archivefile:banana-catch-v0-1/Banana-Catch-v0-1.zip'
+image: 'archiveimage:download-7/download-7.png'
+fileSize: '988'
+fileSizeUnit: '1'
+dateMade: ''

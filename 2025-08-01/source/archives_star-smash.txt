@@ -1,0 +1,17 @@
+author: Programmingfreak
+description: 'A simple game related to the old Galaga, played all on the home screen.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /home/no_image_2.png
+download: StarSmash.zip
+size: '8'
+unit: '2'

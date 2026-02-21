@@ -1,0 +1,5 @@
+[[code type="html"]]
+<script language="JavaScript" src="http://tibasicdev.wikidot.com/local--files/chat/lingr.js"></script>
+[[/code]]
+
+[[iframe http://tibasicdev.wikidot.com/chat-test3/code/1 frameborder="0" scrolling="no" width="210px" height="210px"]]

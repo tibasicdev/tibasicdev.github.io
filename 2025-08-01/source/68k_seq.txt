@@ -1,0 +1,66 @@
+[[include inc:68k-command
+|picture=seq.png
+|summary=Creates a list by evaluating a formula over a range of values.
+|syntax=seq(//formula//,//variable//,//start//,//end//[,//step-size//]
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 3 to enter the List submenu.
+* Press 1 to select seq(.
+
+|size=2 bytes
+]]
+
+The seq() command creates a [[[68k:lists|list]]] of terms of a sequence: seq(//formula//,//variable//,//start//,//end//) evaluates //formula// for every value of //variable// from //start// to //end//. Optionally, a fifth argument, //step-size//, is included: this increases the value of //variable// by //step-size// for each element, instead of 1.
+
+seq() is similar to a [[[68k:For]]]..EndFor loop, but instead of repeating a block of commands every time, it only evaluates a formula.
+
+[[code]]
+:seq(f(x),x,1,5)
+           {f(1)  f(2)  f(3)  f(4)  f(5)}
+:seq(x,x,3,9,2)
+           {3  5  7  9}
+:seq(x^2,x,5,1,-1)
+           {25  16  9  4  1}
+[[/code]]
+
+The variable used in seq(), x in the examples, is not actually modified.
+
++ Advanced Uses
+
+Because a [[[68k:matrices|matrix]]] is just a list of lists, you can use seq() to create matrices as well as lists. The simplest way to do it is to make the formula a list:
+[[code]]
+:seq({x,2x,3x},x,1,4)
+           [1  2  3 ]
+           [2  4  6 ]
+           [3  6  9 ]
+           [4  8  12]
+[[/code]]
+You can also create a matrix by nesting a seq() command inside another seq() command:
+[[code]]
+:seq(seq(row+col,col,1,4),row,1,3)
+           [2  3  4  5]
+           [3  4  5  6]
+           [4  5  6  7]
+[[/code]]
+
++ Optimization
+
+If all you need to do in a loop is create a list, it's probably better to use seq() than [[[68k:For]]]..EndFor.
+
+------
+
+You can often use [[[68k:newList()]]] instead of seq() to create an expression that gets evaluated much faster (see [[[68k:list-optimization|]]] for details).
+
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+[[include inc:68k-error num=260|error=Domain error|cause=the //step-size// argument is 0]]
+[[include inc:68k-error num=510|error=Invalid list or matrix|cause=the formula of seq() is a matrix, or a list that varies in size]]
+
++ Related Commands
+
+* [[[68k:For]]]..EndFor
+* [[[68k:newList()]]]
+* [[[68k:newMat()]]]

@@ -1,0 +1,24 @@
+> @@[[@@include inc:nspire-command-help
+> |picture=@@
+> |summary=@@
+> |syntax=@@
+> |compatibility@@
+> ]]
+
+In general, omitting all the variables for a section is the way to go if you don't want the section to be displayed. The exception is "calculator compatibility" - omitting the variables for that section will display the default message (compatible with all calculators).
+
+++ |picture=
+If the image is embedded on the same page, then only the full name of the image is to be written here. Otherwise, simply paste the full URL of the image.
+
+++ |summary=
+Just type in a brief description of the command.
+
+++ |syntax=
+Enter the general syntax of the command.
+
+
+++ |compatibility
+
+If the command works on all calculators, simply say "All calculators." Otherwise, specify which calculator(s) the command is compatible with.
+
+Only one option can be applied (and they are exclusive of each other), otherwise unpredictable results may occur.

@@ -1,0 +1,55 @@
+[[include inc:unfinished]]
+
+[[div style="float:right; width: 16em; padding: 1em 1em 0; margin: 1em 0 1em 1em; border-left: solid #999 1px;"]]
+
+[[image product-screenshot.png]]
+
+**Filename**
+
+**Summary**
+
+**Authors**
+
+**Site URL**
+
+[!-- if URL is inactive, put @@ around it --]
+
+**Ticalc.org URL**
+
+[!-- if URL is inactive, put @@ around it --]
+
+**Release Date**
+
+**Compatibility**
+
+**Language**
+
+[[/div]]
+
++ Product Intro
+
+++ Product Screenshot
+
+[[div style="text-align:center; width: 60%; padding: 0 2%"]]
+[[image product-screenshot.jpg]]
+(//Screenshot of Product//)
+[[/div]]
+
++ Significance of Product
+
+* Why product was important to TI community
+* Any controversy or interesting circumstances surrounding product
+* Awards won, fond memories that people have
+
++ Documentation
+
+* How to use the product
+* Can copy the author's readme file (if available)
+
++ Development History
+
+* A chronological overview of the product's development
+
++ Miscellaneous
+
++ Related Products

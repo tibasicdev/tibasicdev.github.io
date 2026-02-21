@@ -1,0 +1,50 @@
+[[div style="float:right; width: 16em; padding: 1em 1em 0; margin: 1em 0 1em 1em; border-left: solid #888888 1px; background-color: #FFFFFF;"]]
+
+= [!--{$picture}--][[[@@|]]][[image /68k:command-index/{$picture}]]
+
+[!-- --]
+[!--{$summary}--][[[@@|]]]**Command Summary**
+
+{$summary}
+
+[!-- --]
+
+[!-- --][!--{$syntax}--][[[@@|]]]**Command Syntax**
+
+{$syntax}
+
+[!-- --]
+
+**Menu Location**
+
+{$location}
+
+[!-- --]
+
+[!-- --][!-- @@ {$flashrom} {$ams2xx} {$ams3xx} --][[[@@|]]]**[[[68k:cross-compatibility|Calculator Compatibility]]]**
+
+This command works on all calculators.
+
+[!-- --][!--{$flashrom}--][[[@@|]]]**[[[68k:cross-compatibility|Calculator Compatibility]]]**
+
+This command requires a calculator with Flash memory (that is, it will not work on a TI-92).
+
+[!-- --][!--{$ams2xx}--][[[@@|]]]**[[[68k:cross-compatibility|Calculator Compatibility]]]**
+
+This command requires a calculator with AMS version 2.{$ams2xx} or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)
+
+[!-- --][!--{$ams3xx}--][[[@@|]]]**[[[68k:cross-compatibility|Calculator Compatibility]]]**
+
+This command requires a TI-89 Titanium or Voyage 200 calculator with AMS version 3.{$ams3xx} or higher.
+
+[!-- --]
+
+[!-- --][!--{$size}--][[[@@|]]]**[[[68k:tokenization|Token Size]]]**
+
+{$size}
+
+[!-- --]
+
+[[/div]]
+
+[!-- Code thanks to James Kanjo --]

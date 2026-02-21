@@ -1,0 +1,42 @@
+> @@[[@@include inc:routine
+> |picture=@@
+> |summary=@@
+> |input=@@
+> |output=@@
+> |variable=@@
+> |compatibility=@@
+> |author=@@
+> |authors=@@
+> |url=@@
+> |download=@@
+> ]]
+
+++ |picture=
+If the image is embedded on the same page, then only the full name of the image is to be written here. Otherwise, simply paste the full URL of the image.
+
+++ |summary=
+Just type in a brief description of the routine
+
+++ |input=
+Enter all inputs required for the routine to work, and include a brief description of what they are
+
+++ |output=
+Enter all outputs the routine generates, and include a brief description of what they are
+
+++ |variable=
+Just give a brief description of all variables the routine uses
+
+++ |compatibility=
+Enter the calculators compatible with a syntax similar to the example used for all calculators: TI-83/84/+/SE
+
+++ |author=
+Enter the author of the routine, if only one person created it
+
+++ |authors=
+Enter a list of authors of the routine, if more than one person created it
+
+++ |url=
+Enter a URL to any relevant or related websites, followed by a space, and what you want to display. For example: **|url=//http://www.unitedti.org Routine's Derivative//**
+
+++ |download=
+Enter the URL to a downloadable version of the routine, followed by a space, and what you want to display. For example: **|url=//http://tibasicdev.wikidot.com/routine.zip routine.zip//**

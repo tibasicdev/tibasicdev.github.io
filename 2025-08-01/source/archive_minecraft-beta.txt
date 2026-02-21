@@ -1,0 +1,21 @@
+author: FoxxTrott
+version: '0.1'
+summary: 'Minecraft clone for TI calculators!'
+description: " The controls are as follows:\n- Up arrow: Move Steve up\n- Down arrow: Move Steve down\n- Left arrow: Move Steve left\n- Right arrow: Move Steve right\n- MODE: Break/place block above you\n- ALPHA: Break/place block to the left of you\n- STAT: Break/place block to the right of you\n- APPS: Break/place block below you\n- X,T,θ,n: Toggle break/place\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:mcbeta/MCBETA.zip'
+image: 'archiveimage:shot/SHOT.png'
+fileSize: '948'
+fileSizeUnit: '1'
+dateMade: '1617426000'

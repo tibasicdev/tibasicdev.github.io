@@ -1,0 +1,1 @@
+…that you can get the [[[homescreen|home screen]]] font on the [[[graphscreen|graph screen]]] (except on the regular TI-83) by placing a '-1' at the beginning of the {{[[[Text(]]]}} command?

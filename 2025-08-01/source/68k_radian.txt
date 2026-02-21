@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=radian.png
+|summary=Converts an angle to radians, if necessary.
+|syntax=//angle// ^^r^^
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 2 to enter the Angle submenu.
+* Press 2 to select ^^r^^.
+
+|size=1 byte
+]]
+
+[[include inc:68k-markup cmd=^^r^^]]
+
+The ^^r^^ symbol used after an angle makes sure the angle is interpreted as being in radians. If the calculator is already in radian mode, x^^r^^ is equal to x; in degree mode, x^^r^^ is equal to 180*x/π; and in gradian mode, x^^r^^ is equal to 200*x/π.
+
+If you're using radian angle measures extensively in a program, it's a better idea to use [[[68k:setMode()]]] to switch to radian mode and not worry about this. However, there are two reasons you might want to use ^^r^^:
+* If you need an angle in radians only once or twice, don't bother changing the mode setting.
+* In a function, you're forced to use ^^r^^, since setMode() isn't valid in a function. 
+
+Make sure to use parentheses around an expression like (π/3)^^r^^, since π/3^^r^^ will be interpreted as π/(3^^r^^), and the conversion will be done incorrectly.
+
+In radian mode (no conversion is necessary, so no conversion is done):
+[[code]]
+:sin(π/6)
+           1/2
+:sin((π/6)^r)
+           1/2
+:π^r
+           π
+[[/code]]
+
+In degree mode:
+[[code]]
+:sin(π/6)
+           sin(π/6)
+:sin((π/6)^r)
+           1/2
+:π^r
+           180
+[[/code]]
+
++ Related Commands
+
+* [[[68k:degree|°]]] (degree)
+* ^^[[[68k:gradian|G]]]^^ (gradian)
+* [[[68k:▶Rad]]]

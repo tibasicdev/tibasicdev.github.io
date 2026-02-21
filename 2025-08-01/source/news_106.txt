@@ -1,0 +1,5 @@
+[[include inc:date
+|month=Oct
+|day=30
+|description=[[user Timothy Foster]] continues work on the [[[starter kit]]] after many days of no development.
+]]

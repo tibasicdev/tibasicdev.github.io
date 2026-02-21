@@ -1,0 +1,3 @@
+name: ''
+content: "[[code]]\n\" →  Str0\n.2length(Str1→B\nFor(A,1,B\n0\nFor(C,-4,0\n2Ans+expr(sub(Str1,5A+C,1\nEnd\nStr0+sub(\"ZYXWVUTSRQPONMLKJIHGFEDCBA\",Ans-5,1→Str0\nEnd\n[[/code]]\n\nIt stores it to Str0."
+attachment: null

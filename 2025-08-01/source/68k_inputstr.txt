@@ -1,0 +1,25 @@
+[[include inc:command
+|picture=http://tibasicdev.wikidot.com/local--files/68k:inputstr/InputStr68K.gif
+|summary=Stores a string to a variable
+|syntax=InputStr //variable//
+|location=In the program editor, press [F3][4]
+|compatibility=TI 89(T)/92
+|size=1 byte or 2 bytes
+]]
+The InputStr command allows you to input a string to a variable. Since [[[68k:Input]]] doesn't support the storing of strings into variables, you have to use this command to do that. Keep in mind that the inputted variable cannot be the name of a preexisting variable or flash application that is locked, protected, or archived. For example, if you had a program named "a" or "hello", the command wouldn't work because it is already in use.
+[[code]]
+InputStr A
+//Here, you would a string to be stored to the variable A
+
+InputStr hello
+//This would store the string into the variable "hello".
+[[/code]]
++ Related Commands
+* [[[68k:Input]]]
+* [[[68k:Prompt]]]
+* [[[68k:Disp]]]
+* [[[68k:Request]]]
++ Error Conditions
+[[include inc:68k-error num=980|error=Variable is locked, protected, or archived|cause=the user attempted to redefine/modify an already defined variable]]
++ Also See
+* [[[http://tibasicdev.wikidot.com/68k:programming |Programming Commands]]]

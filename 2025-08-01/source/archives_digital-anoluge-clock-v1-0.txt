@@ -1,0 +1,17 @@
+author: dan769
+description: "A very compact (610 bytes) clock with accurate hands and a day indicator.\n\nAdding Soon:\n-Moon Phase Calc "
+arcade: '0'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+image: 'archives:digital-anoluge-clock-v1-0/ClockScreenshot.gif'
+download: CLOCK.zip
+size: '610'
+unit: '1'

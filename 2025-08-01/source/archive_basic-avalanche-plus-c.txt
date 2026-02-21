@@ -1,0 +1,21 @@
+author: 'Myles_Zadok; adapted the very addicting program made by Michael2_3B for color calculators'
+version: '1.0'
+summary: 'An avalanche spin-off for color calculators.'
+description: "From [[[archive:basic-avalanche-plus| Basic Avalanche Plus]]]: \"This is one of my most basic games, however it is still kind of addicting :P You must collect the falling \"+\" signs and avoid the falling \"-\" signs. Failure to do so will result in Game Over. High score included.\n\nCONTROLS: Left and Right Arrow keys to move, CLEAR to quit at any time.\""
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:baplusc/BAPLUSC.zip'
+image: null
+fileSize: '458'
+fileSizeUnit: '1'
+dateMade: '1501995600'

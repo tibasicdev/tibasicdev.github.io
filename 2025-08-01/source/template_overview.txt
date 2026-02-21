@@ -1,0 +1,4 @@
+This page is a guide to the template pages.
+
+* [[[template:command|Command]]] for command pages.
+* [[[template:routine|Routine]]] for routine pages.

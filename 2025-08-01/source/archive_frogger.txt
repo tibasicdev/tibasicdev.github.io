@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: 0.9.0
+summary: 'A frogger clone'
+description: "Hi\nI decided to make a frogger clone.\nI don't know how to allow people to download, so you'll have to type in the coding yourself.\nPretend <= is less than or equal to .\nSadly, I won't be able to contribute to this website during the summer, because my dad makes me work in my garden all day(hey, not every programmer has to be an adult).\n\n:8→X\n:0→Z\n:8→Y\n:{14,12,7,2,3,9,4,11,6,13,1,15}→⌊1\n:{2,2,3,3,4,4,5,5,6,6,7,7}→⌊2\n:0→W\n:While Z=0\nWhile not(W=16\n:W+1→W\n:If ⌊1(W)>16\n:1→⌊1(W)\n:randInt(2,7)→⌊2(W)\n:If ⌊1(W)<1\n:16→⌊1(W\n:randInt(2,7)→⌊2(W\n:End\n:If ⌊1(W)<=1\n:Then\n:1→⌊1(W\n:randInt(2,7)→⌊2(W\n:End\n:End\n:0→W\n:While not(W=12\n:W+1→W\n:If ⌊2(W)=2 or ⌊2(W)=4 or ⌊2(W)=6\n:Then\n:⌊1(W)+1→⌊1(W\n:End\n:If ⌊2(W)=3 or ⌊2(W)=5 or ⌊2(W)=7\n:Then\n:⌊1(W)-1→⌊1(W\n:End\n:End\n:getKey→K\n:If K=24\n:Then\n:X-1→X\n:End\n:If K=34\n:Then\n:Y=1→Y\n:End\n:If K=26\n:Then\n:X+1→X\n:End\n:If K=25\n:Then\n:Y-1→Y\n:End\n:0→W\n:ClrHome\n:While not(W=12\n:W+1→W\n:If ⌊1(W)>=1 and ⌊1(W)<=16\n:Then\n:Output(⌊2(W),⌊1(W),\"====\n:End\n:End\n:0→W\n:Output(Y,X,\".\n:While not(W=12\n:W+1→W\n:If X=⌊1(W) or X=⌊1(W)+1 or X=⌊1(W)+2 or X=⌊1(W)+3\n:Then\n:If Y=⌊2(W\n:Then\n:If not(⌊2(W)=2 and ⌊2(W)=7\n:Then\n:While 1\n:Disp C\n:End\n:End\n:End\n:End\n:End\n:0→W\n:If Y=1\n:Then\n:If D=1\n:Then\n:C+1→C\n:2→D\n:End\n:End\n:If Y=8\n:Then\n:If D=2\n:Then\n:C+1→C\n:1→D\n:End\n:End\n:End\n\n\nI know it is insanely slow, does anyone know how to make this program faster?"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:readme-4/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1401688800'

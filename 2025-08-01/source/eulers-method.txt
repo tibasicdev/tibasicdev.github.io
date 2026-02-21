@@ -1,0 +1,52 @@
+[[include inc:routine
+|picture=http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+|summary=Approximates a future value of a given function.
+|input=
+
+//X// - Initial X-Value
+//Y// - Initial Y-Value
+//Str1// - The equation
+//D// - X-value at which the Y-value is approximated
+|output=
+//U// - X-value approximation
+//V// - Y -value approximation
+|variable=
+
+E, C, H, X, U, Y, Y1, V
+
+|compatibility=TI-83/84/+/SE/CSE/CE
+
+
+
+|author=Xeda Elnara, who optimized Myles_Zadok's optimization of the routine linked to below:
+
+|authors=The Mathematics Department at the University of Arizona
+|url=http://math.arizona.edu/~krawczyk/Calculator/TI83PLUS/TI83PNEul.html
+|download=http://tibasicdev.wikidot.com/local--files/routine-page/routine.zip routine.zip
+]]
+Please note that there may be a graphical bug that displays the token ^^-1^^ as ^^1^^.
+[[code]]
+:"INITIAL-
+:Input Ans+"X=",X
+:Input Ans+"Y=",Y
+:Input "EQN=",Str1
+:Str1→Y1
+:Input "FINAL-X=",D
+:Input "NO. OF ITERATIONS=",E
+:Eֿ¹(D-X→H
+:For(I,1,E
+:ClrHome
+:Y+Y1H→Y
+:X+H→X
+:ClrHome
+:Disp "STEP",I,"X=",X,"Y=
+:Pause Y
+:End
+[[/code]]
+
+
+Euler's method is used to predict the value of a function at a higher value than the initial value. The initial x- and y-values are used to find the y- value at the desired x-coordinate of the given function. Multiple iterations are done to reach a better approximation.
+
++ Related Routines
+
+* [[[Newtons Method]]]

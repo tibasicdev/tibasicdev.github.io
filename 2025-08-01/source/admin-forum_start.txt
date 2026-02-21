@@ -1,0 +1,66 @@
+[[module CSS]]
+.add-button {
+border-radius: 5px;
+border: 1px solid #D1D3C3;
+background-image: linear-gradient(#EEEEDD, #D1D3C3);
+text-align: center;
+}
+div.collapsible-block-folded {
+display: none;
+}
+.section-link {
+padding: 30px;
+}
+div.sectionLink p a {
+padding: 20px;
+text-align: center;
+transition-duration: 0.4s;
+}
+div.sectionLink p a:hover {
+background-color: #CFCCBC;
+}
+table.forumNav tbody tr td {
+text-align: center;
+}
+[[/module]]
+
+This is the admin forum.  Here you can search for existing threads, start a new thread, and take part in active threads.  You can bookmark this site and visit for updates, or you can watch the site, sections, or threads via email notifications. The description of this admin-forum setup is stored on **[*http://community-playground.wikidot.com/admin-forum admin-forum]**
+
+//To make a forum just like this, please use the [http://forum-template.wikidot.com forum template].//
+[[table style="width: 100%;border:1px solid #D8D6C7;" class="forumNav"]]
+[[row]]
+[[cell]]
+**Forum management:**
+
+- [[[admin-forum:forum-guide | Forum guide]]] 
+- [[[admin-forum:list-pages | Important pages]]]
+- [[[admin-forum:open-tasks | Open Tasks]]]
+ _
+[[/cell]]
+[[cell]]
+**Thread management:**
+
+- To make a thread sticky, tag it '_sticky'.
+- To close a thread, tag it '_closed'.
+- To create a task, tag it '_task'.
+**Open tasks**: ([/admin-forum:open-tasks More...])
+[[/cell]]
+[[cell]]
+[[div class="sectionLink"]]
+[/admin-section:_admin Click here to add more sections]
+[[/div]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[include admin-section:_start]]
+[!--
+[[html]]
+<script id="cid0020000165663033005" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 1200px;height: 600px;">{"handle":"tibasicdev","arch":"js","styles":{"a":"EEEEDD","b":100,"c":"000000","d":"000000","k":"EEEEDD","l":"EEEEDD","m":"EEEEDD","p":"10","q":"EEEEDD","r":100,"t":0,"ab":false,"usricon":0,"surl":0,"allowpm":0}}</script>
+[[/html]]
+--]
+[[html]]
+<iframe src="https://battlesquid.github.io/bDiscuss/public/" style="border:0; width:1000px; height:530px;" name="TI-Basic Developer Chat" id="myiframe" scrolling="no"></iframe>
+<br>
+<a style="font-family: sans-serif;" href="https://battlesquid.github.io/bDiscuss/public/" target="_blank">Pop out.</a>
+[[/html]]

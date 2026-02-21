@@ -1,0 +1,72 @@
+[[include inc:command
+|picture=LINE.GIF
+|summary=Draws a line at any angle.
+|syntax=Line(X,,1,,,Y,,1,,,X,,2,,,Y,,2,,//[,erase,color,style]//)
+|location=Press:
+# 2nd DRAW to enter the draw menu
+# 2 to insert the Line( token, or use arrows and ENTER.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The Line( command is used to draw lines at any angle, as opposed to only drawing [[[vertical]]] or [[[horizontal]]] lines. Line(X,,1,,,Y,,1,,,X,,2,,,Y,,2,,) will draw a line from (X,,1,,,Y,,1,,) to (X,,2,,,Y,,2,,). Line( is affected by the window settings, although you can use a [[[friendly-window|friendly window]]] so there is no impact on the command.
+
+[[code]]
+:Line(5,5,20,3) 
+[[/code]]
+
++ Advanced Uses
+
+Line has an optional fifth argument. It can be any real number, but the default is one. If the fifth argument, //erase//, is something other than 0, then it will simply draw the line. If //erase// is 0, then it will erase the line.
+
+[[code]]
+:Line(5,5,20,3,0)
+[[/code]]
+
+Leave off the ending argument if you are just drawing the line.
+
+[[code]]
+:Line(5,5,20,3,1)
+can be
+:Line(5,5,20,3)
+[[/code]]
+
+The ending argument can be a formula, which is useful for [[[movement|movement applications]]] and other things such as health bars where the lines drawn are constantly different. The following draws or erases a line depending on whether a key is pressed.
+
+[[code]]
+:getKey
+:Line(5,5,20,3,not(Ans
+[[/code]]
+
+If working on a TI 84+CSE or TI 84+CE, then the fifth argument of the Line( command can be a color name or ID number:
+
+[[code]]
+:Line(5,5,20,3,BROWN
+[[/code]]
+
+
+The last argument, line style, is an optional argument that chooses what style of line to draw on the color calculators.
+
+[[code]]
+1 pixel wide line
+:Line(5,5,20,3,RED,1
+2 pixel wide line
+:Line(5,5,20,3,RED,2
+shaded above
+:Line(5,5,20,3,RED,3
+shaded below
+:Line(5,5,20,3,RED,4
+[[/code]]
+
++ Command Timings
+
+If you are drawing horizontal or vertical lines that stretch the entire graph screen, such as a border, it is better to use [[[Vertical]]] or [[[Horizontal]]]. These are smaller and are usually faster as well.
+
++ Related Commands
+
+* [[[vertical|Vertical]]]
+* [[[horizontal|Horizontal]]]
+
++ See Also
+
+* [[[friendly-window|Friendly Graphing Window]]]

@@ -1,0 +1,13 @@
+[[include inc:tablet
+|name=Bunny Gotchi
+|author=[http://www.wikidot.com/user:info/james-kanjo James Kanjo]
+|size=6,637 Bytes
+|description=Bunny Gotchi is a virtual pet (a bunny rabbit) on your calculator. Bunny Gotchi is one of the few "Tamagotchi" programs available to the TI-83plus, and fewer still containing animations. It will challenge your efforts to keep it alive, healthy and happy! 
+
+//Version 1.7// is architecturally identical to //version 1.6//, but is 483 bytes smaller.
+|picture=http://tibasicdev.wikidot.com/local--files/archives:bunny-gotchi/BUNNYGOTCHI.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:bunny-gotchi/bunnygotchi_1-7.zip
+|downloadName=BunnyGotchi_1-7.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

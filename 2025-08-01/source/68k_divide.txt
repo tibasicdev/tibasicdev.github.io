@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=divide.png
+|summary=Divides one number by another.
+|syntax=value1 / value2
+|location=Press the [/] key to paste /.
+|size=1 byte
+]]
+
+
+The / operator divides two numbers, variables, or expressions. It  has higher priority than [[[68k:add|+]]] and [[[68k:subtract|-]]], so it will be done before them; it has the same priority as [[[68k:multiply|*]]].
+
+[[code]]
+:x/y
+		x/y
+:2/2
+		1
+[[/code]]
+
+Though division by zero isn't allowed, it will not cause an error; instead it returns the value undef -- short for "undefined." Dividing by a variable that hasn't been defined yet will cancel it if it occurs on both sides: 5*x/x will equal 5; a short warning will be given to the effect that this isn't valid for x=0.
+
++ Related Commands
+* [[[68k:subtract|-]]] (subtract)
+* [[[68k:multiply|*]]] (multiply)
+* [[[68k:Add|+]]] (add)
+
++ See Also
+
+* [[[68k:Order of Operations]]]

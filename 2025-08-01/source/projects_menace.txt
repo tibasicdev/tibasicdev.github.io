@@ -1,0 +1,4 @@
+[!-- Fill in a short description here --]
+This project is an attempt to recreate MENACE. [*http://chalkdustmagazine.com/features/menace-machine-educable-noughts-crosses-engine/ This article] describes MENACE in its entirety
+====
+[!-- Continue one from the previous line, DO NOT REWRITE IT!!! --]

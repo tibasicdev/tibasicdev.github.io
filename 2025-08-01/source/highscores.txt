@@ -1,0 +1,101 @@
+High scores typically involve [[[saving]]] a combination of strings (for names) and numbers (for the scores themselves) after the program is finished. The simplest high score system will only have a single score, while a complicated one might have a series of names with corresponding scores.
+
++ Managing High Scores
+
+If there is only one high score, managing it is simple. All you have to do is check if your score is greater than the high score, and if so, change it.
+[[code]]
+:If S>∟HIGH(1
+:Then
+:Disp "NEW HIGH SCORE!
+:S→∟HIGH(1
+:End
+[[/code]]
+
+
+Managing a table of multiple high scores and names would be more complicated. Here is an example routine for managing a high score table with 7 scores in ``∟HIGH`` and 10-symbol-long names
+[[code]]
+:If max(S>∟HIGH:Then
+:Disp "NEW HIGH SCORE!
+:Input "YOUR NAME? ",Str1
+:sub(Str1+" (9 spaces) ",1,10→Str1
+:1+sum(S<∟HIGH
+:sub(Str0,1,10Ans-9)+Str1+sub(Str0,10Ans-8,81-10Ans→Str0
+:S→∟HIGH(8:SortD(∟HIGH
+:7→dim(∟HIGH
+:End
+[[/code]]
+
+First, we should check if our score is even good enough to be in the high scores table. We're assuming that our high score table is kept in order, because we presumably initialized it that way (which will be discussed later), and we're going to keep it that way when we're done with this routine. So all we need to do is see if the score is greater than an element in our list:
+[[code]]If max(S>∟HIGH:Then[[/code]]
+
+Next, we should input the high scorer's name. You can make this as easy or as hard as you want to, in this example I used Input for simplicity. We also pad this by appending spaces to the end then truncating the string to 10 letters, because we want it to be exactly 10 letters long.
+[[code]]Disp "NEW HIGH SCORE!
+Input "YOUR NAME?",Str1
+sub(Str1+" (9 spaces) ",1,10→Str1[[/code]]
+
+Now, we find the place that the high score ``S`` got in the table.  This line adds up the number of scores higher than the new one, and by adding one you get the new rank.
+[[code]]1+sum(S<∟HIGH[[/code]]
+
+Now we insert Str1 into Str0 at the correct place. First we use sub( to find all the characters before the place we're sticking it in.  Str1 is added onto this, and then we use sub( again to get all the characters that go after the new name.
+[[code]]sub(Str0,1,10Ans-9)+Str1+sub(Str0,10Ans-8,81-10Ans[[/code]]
+
+We could do the same for lists, but there's an easier way. Since the list of scores is sorted, inserting an element into its correct place is the same as adding it to the end, then sorting the list. Finally, we remove the last score that was "bumped out" of the high score table.
+[[code]]S→LHIGH(8
+SortA(LHIGH
+7→dim(LHIGH[[/code]]
+
+We're done!
+[[code]]End[[/code]]
+
++ Initializing the High Scores
+
+Being able to add scores and names into the table would be useless without a table or names to begin with, so at the start of your program you should put in a block of code to do this.
+[[code]]:SetUpEditor HIGH
+:If 7≠dim(∟HIGH:Then
+:" (6 spaces)
+:Ans+Ans
+:Ans+Ans
+:Ans+Ans+Ans→Str0
+:0binomcdf(6,0→HIGH
+:End[[/code]]
+
+All SetUpEditor does is initialize the list.  If ∟HIGH doesn't exist, it will create one with dimensions of 0.  If the list does exist, nothing will be changed.  As an extra check, you want to make sure that the list has 7 elements in it.  If the list didn't already exist or didn't have 7 elements, the next block of code will execute.
+
+Since the list not being there is a sign of the game being played for the first time, or that somebody tampered with the high scores, you should reset Str0 as well.  We need Str0 to be 70 characters long for the names, but also add a space to the beginning and end for our computations when the person is ranked first or last.
+
++ Saving High Scores
+
+We usually use a named list to store the high scores, due to the versatility of lists, and the fact that a named list probably won't get used by a different program (for more information, see [[[Saving]]]). 
+
+If we just have a score to deal with, it's simple to store it: just make it the first element of the list! However, with a complicated high score table, we'll have to store the names of the high scorers as well as their scores. So we have to find a way to convert a string to a list (and back).
+
+This is simplest if you limit the variety of characters to be used for names (for example, uppercase letters and spaces). Then, you can store all the possible characters to a string, and use ``inString()`` to convert each character into a number - an index in that string. You would do this for all the characters, and append to the high scores. The following code is split up for clarity, but it could actually be combined into one line:
+[[code]]:" ABCDEFGHIJKLMNOPQRSTUVWXYZ
+:seq(inString(Ans,sub(Str0,I,1)),I,1,70
+:augment(∟HIGH,Ans→∟HIGH[[/code]]
+
+Going the other way is equally simple. Unfortunately, there is no ``seq()`` command for strings, so you have to use a For loop instead, but other than that it's similar to the above code:
+[[code]]
+:" // 1 space
+:For(I,8,77
+:Ans+sub(" ABCDEFGHIJKLMNOPQRSTUVWXYZ",∟HIGH(I),1
+:End
+:Ans→Str0
+:7→dim(∟HIGH[[/code]]
+
++ High Score Security
+
+This is an optional side to high score saving. It's impossible to to make high scores completely tamper-proof, since someone could just look in the source code of your program and find out how you secure your high scores. However, you can use the random number generator to stop most casual cheaters (this is just one of many methods).
+
+To do this, we first compute some number that depends on the entirety of the high score list. The most obvious is the sum of the elements. However, to obfuscate the process a bit more, you use the sum as the random number seed and save the first random number generated to the end of your list.
+[[code]]:sum(∟HIGH→rand
+:rand→∟HIGH(78[[/code]]
+
+To check if the high scores have been tampered with, you compute the sum of all the elements, and check if the first random number generated is the same as the one you saved. If it's not, somebody changed the scores, and the best way to punish the rascal is to reset them.
+[[code]]
+:sum(∟HIGH,1,77→rand
+:If rand=∟HIGH(78:Then
+(high scores are okay)
+:Else
+(the cheater has done his dirty work)
+:End[[/code]]

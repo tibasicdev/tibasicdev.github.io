@@ -1,0 +1,44 @@
+[!--
+This page is a guide to both format and content for pages describing a particular command. Make sure that you follow it when adding a new command, and also remember to add 3-5 page tags describing the command content. 
+
+If a section (such as Advanced Uses) does not contain any information, feel free to omit it.
+
+Make the |picture parameter the page name followed by .png and it will find the screenshot file, which is uploaded on the command index page, or will be shortly.
+
+
+See [[[inc:nspire-command-help|inc:nspire-command-help]]] for a description of the command sidebar template.
+
+------]
+
+[[include inc:nspire-command
+|picture=sample.png
+|summary=Exclusive or statement. Returns the truth value of value1 or value2, but not both, being true.
+|syntax= value1 xor value2
+
+|location=@@Describe how to get the command from a menu.
+
+|compatibility = @@If this is only available on certain versions of the nspire
+|size=1 byte(s)
+]]
+
+ **xor** takes two numbers of expressions and checks to see if //exactly one// is True.  If both are True or both are False, it returns 0.
+[[code]]1 xor 0
+           1
+
+:2 xor (3 xor 0)    (after evaluating 3 xor 0, it simplifies into True xor True.)
+           0
+
+:0 xor (1-1)^2
+           0[[/code]]
+++ Table of Results
+For reference, the following true/false table shows what gets returned when you use different combinations of 1 (true) and 0 (false):
+
+||~ xor ||~ 1 (true) ||~ 0 (false) ||
+||~ 1 (true) || 0 (false) || 1 (true) ||
+||~ 0 (false) || 1 (true) || 0 (false) ||
+
++ Related Commands
+
+* [[[nspire:and]]]
+* [[[nspire:or]]]
+* [[[nspire:not(]]]

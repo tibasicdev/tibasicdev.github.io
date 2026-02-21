@@ -1,0 +1,84 @@
+[[div style="float:right; width: 15em; padding: 0 1em; margin: 0 0 1em 1em; border-left: 1px solid #888; background: #FFF;"]]
+**Getting Additional Help**
+
+Most of the members of this wiki can be found on the [[[forum:home|forum]]], so you can post there with questions and get help with whatever you are working on or trying to learn.
+
+In order to post on the forum, however, you need to [[[system:join|create]]] an account. This is an easy process, and should take no more than a couple minutes.
+[[/div]]
+
+It is the goal of this site to eventually cover all information on TI-Basic programming for the TI-83 series of calculators. However, an excess of information can be overwhelming, so this page gives a suggested reading order (as well as necessary tidbits) so you don't get lost.
+
+There are two alternatives for those who have just ventured into programming for these calculators. While you might want to just jump in, we have a tutorial that explains the basics of TI-Basic and another that answers basic TI-Basic questions.
+
+The first, the [[[starter-kit|TI-Basic Starter Kit]]], teaches TI-Basic without assuming any previous programming experience. In fact, the very first section explains how to create your first program. After reading this tutorial carefully, you should be more than ready to handle the rest of this site.
+
+The second tutorial is the [[[faq|TI-Basic FAQ]]]. As the name suggests, it is an attempt to answer the common TI-Basic questions that people ask. Many of the questions are related to each other, so it is recommended that you read through the whole list. If you have any questions that aren't mentioned on the list, or an answer doesn't help, please leave a post in the [[[forum:home|forums]]] and somebody will try to help you.
+
++ Further Reading
+
+At this point, you should be familiar with more than a few TI-Basic commands. It might be a good idea to just jump into the [[[command index]]] and click on commands that sound interesting -- you can really improve your TI-Basic knowledge that way. Or, select a category from the Commands menu in the top navigation, and read about commands in a more general way.
+
+Looking at code examples is also a good way to learn. [[[Games]]] and [[[Programs]]] are a good place to find such example code. See the [[[Routines]]] page for several short routines to get simple things done in the best possible way.
+
+Use the [[[glossary]]] whenever you come across a term you're not familiar with. If it's not there or the entry doesn't help, drop a note in the [[[forum:home|forums]]] and (usually within a day) helpful people will explain it and hopefully improve the glossary as well, so no one else has the same trouble.
+
+The pages in the Reference section of the top menu are probably not ones you'd read for fun. Take a look at them at any time to see what they're all about, and then check back when you need to know more.
+
+You can find even more information, documentation, and tutorials on external sites; many of the best have been collected in the [*https://github.com/TI-Toolkit/awesome-ti-docs TI-Toolkit Awesome TI Docs].
+
++ Writing a Program
+
+Of course, the best way to learn these topics is to come up with a project of yourself (check the [[[project-ideas]]] page if you have no ideas), and go through the steps as you're doing it:
+
+# Look at [[[plan|Planning]]] when you're thinking about how to approach the problem.
+# Consider [[[comments|Commenting Code]]] and [[[code-conventions|Code Conventions]]] when you're writing it.
+# If bugs arise (and they most likely will), see the section on [[[debug|Debugging]]].
+# When the program works, add [[[Setup]]] and [[[Cleanup]]] to it, and check the sections on [[[Usability]]] and [[[Portability]]].
+# If the program is too slow (and maybe even when it's not), see [[[optimize|Optimization]]] and [[[timings|Code Timings]]] for ways to improve it.
+# Finally, see [[[Releasing Your Program]]] for how to earn TI-Basic programming fame by making the program public.
+
+These are listed in the Design section of the side navigation menu.
+
++ Advanced Topics
+
+The Techniques section in the side navigation menu discusses some advanced issues in TI-83 programming. You should probably have a good grasp of programming before venturing into these pages, but they are worth reading. Give them a glance to see how much you can understand.
+
+Each technique is mostly a stand-alone page. Here are the relative difficulties of the pages:
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="width: 33%;vertical-align: top;"]]
+
++++ Easy
+
+* **[[[friendly-window|Friendly Windows]]]** -- makes using the graph screen commands much easier.
+* **[[[piecewise-expressions|Piecewise Expressions]]]** -- very important to programmers.
+* **[[[saving|Saving Games]]]** -- almost as easy as just storing to a variable.
+* **[[[Highscores]]]** -- an extension of saving, using a string for names and a list for scores.
+* **[[[Animation]]]** -- adds some visual pop or pizazz to your programs.
+
+[[/cell]]
+[[cell style="width: 33%;vertical-align: top;"]]
+
++++ Intermediate
+
+* **[[[Validation]]]** -- how to ensure user input satisfies your requirements.
+* **[[[maps|Making Maps]]]** -- how you store the contents of the screen to a variable.
+* **[[[movement|Movement in Maps]]]** -- adds user interaction to programs.
+* **[[[custominput|Custom Text Input]]]** -- useful when you want to get input on the graph screen.
+* **[[[custommenus|Custom Menus]]]** -- allows the user to choose among different options.
+
+[[/cell]]
+[[cell style="width: 33%;vertical-align: top;"]]
+
++++ Hard
+
+* **[[[Graphics]]]** -- different ways to make graphics and sprites.
+* **[[[Compression]]]** -- if you wanted, you could get into some heavy theory with this.
+* **[[[selfmodify|Self-Modifying Code]]]** -- code that changes itself while it is executing.
+* **[[[Subprograms]]]** -- calling one program from another, including external and internal programs.
+* **[[[Assembly]]]** -- you can make much better programs, but they are larger and more complicated.
+
+[[/cell]]
+[[/row]]
+[[/table]]

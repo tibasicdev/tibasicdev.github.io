@@ -1,0 +1,1 @@
+[[image connect4.gif width="175px" height="117px" link="connect4" alt="Connect 4"]]

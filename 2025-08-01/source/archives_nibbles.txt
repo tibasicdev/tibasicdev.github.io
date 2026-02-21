@@ -1,0 +1,13 @@
+[[include inc:tablet
+|name=Nibbles (Snake)
+|author=[http://www.wikidot.com/user:info/edward-h Edward H]
+|size=580 Bytes
+|description=Nibbles is a version of snake, which is very graphical and very fast. This version of snake is unique because it doesn't use any list variables to control the movement of the snake.
+
+|picture=http://tibasicdev.wikidot.com/local--files/archives:nibbles/nibbles.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:nibbles/NIBBLES.8xp
+|downloadName=Nibbles.8xp
+
+|83compatible=DO NOT EDIT
+]]
+[[module Redirect destination="http://tibasicdev.wikidot.com/archive:nibbles"]]

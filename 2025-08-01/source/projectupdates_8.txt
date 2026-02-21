@@ -1,0 +1,1 @@
+I have been busy with things, but this projects is not dead.  I am trying to see the variable data from a transfer.  If you have a program that can do that, would you just do the variable A as 267193, recieve it from your calc, then send it back, and send me what bytes were sent to/received from the calc.  This is for USB btw.

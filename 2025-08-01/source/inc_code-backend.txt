@@ -1,0 +1,30 @@
+[[table]]
+[[row]]
+
+[[cell style="padding-right: 6em;"]]
+**Author:** {$author}
+
+**File Size:** {$size}
+[[/cell]]
+[[cell style="padding-right: 6em;"]]
+
+[[collapsible show="+ show code" hide="- hide code" hideLocation="both" folded="yes"]]
+[[div style="height: 10px;"]]
+[[/div]]
+[[code]]
+{$code}
+[[/code]]
+[[div style="height: 10px;"]]
+[[/div]]
+[[/collapsible]]
+
+[[/cell]]
+
+[[cell]]
+{$description}
+
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[!-- Include code thanks to James Kanjo --]

@@ -1,0 +1,17 @@
+author: 'Mohammad Adib'
+description: "Beta 4. A DoodleJump Clone made with Axe Parser. Latest Talk:\nhttp://www.omnimaga.org/index.php?board=158.0"
+arcade: '1'
+graphics: '1'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+image: '/archives:doodlejump/beta%204.gif'
+download: DoodleJumpBeta4.8xk
+size: '20560'
+unit: '1'

@@ -1,0 +1,45 @@
+[[include inc:68k-command
+|picture=rand.png
+|summary=Generates a random number.
+|syntax=rand() or rand(//n//)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 7 to enter the Probability submenu.
+* Press 4 to paste rand(.
+
+|size=2 bytes
+]]
+
+The rand() command generates a random number. It can be used in one of two ways:
+* rand() gives a random real number between 0 and 1.
+* rand(//n//) gives a random integer between 1 and //n//.
+
+By adding or multiplying appropriately, you can change these bounds. For example, 10rand() gives a random real number between 0 and 10, and rand(9)-5 gives a random number between -4 and 4.
+
+[http://portal.acm.org/citation.cfm?doid=62959.62969 L'Ecuyer's algorithm] is used by TI calculators to generate pseudorandom numbers.
+
+[[code]]
+:RandSeed 0
+:rand()
+           .943597402492
+:rand()
+           .908318860975
+:rand(10)
+           2
+[[/code]]
+
++ Advanced Uses
+
+Using the [[[68k:RandSeed]]] command makes the random numbers entirely predictable: after setting the random seed to some value, the same random numbers will be returned every time.
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the maximum number is 10^^14^^ or greater]]
+
++ Related Commands
+
+* [[[68k:RandSeed]]]
+* [[[68k:randNorm()]]]
+* [[[68k:randMat()]]]
+* [[[68k:randPoly()]]]

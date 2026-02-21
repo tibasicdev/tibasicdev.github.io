@@ -1,0 +1,17 @@
+author: Mapar007
+description: 'A simple, but fun mastermind game, running entirely on the graph screen.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '0'
+image: '/archives:mastermind-1-0/mastermind_img.JPG'
+download: mastermind10.zip
+size: '1115'
+unit: '1'

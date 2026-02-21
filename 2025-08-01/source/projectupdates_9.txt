@@ -1,0 +1,1 @@
+So I finally found a free USB logger, and could see the data sent/received.  Yay!!!  This project continues!!!

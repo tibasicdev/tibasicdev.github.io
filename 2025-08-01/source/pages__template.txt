@@ -1,0 +1,9 @@
+This is the discussion related to the page [%%content{2}%% %%title%%].
+
+||This page has been currently categorized as||
+||~ %%content{3}%%||
+
+**Current Recommendations**
+%%content{1}%%
+
+[[module Comments hideForm="true" order="reverse"]]

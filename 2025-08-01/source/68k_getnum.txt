@@ -1,0 +1,27 @@
+[[include inc:68k-command
+|picture=getnum.png
+|summary=Returns the numerator of a fraction or given expression
+|syntax=getNum(//expression1//)
+|location=[MATH][9][B][1]
+|size=X byte(s)
+]]
+
+The {{getNum()}} command return the value of a given expression (an expression being a number or an algebraic expression). 
+
+[[code]]
+getNum(3/5)
+   3
+getNum((x+1)/(x-1))
+   x+1
+[[/code]]
+[!--
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+--]
++ Related Commands
+
+* [[[68k:getDenom()]]]
+* [[[68k:left()]]]
+* [[[68k:right()]]]

@@ -1,0 +1,10 @@
+[[html]]
+<span id="Span1"></span>
+<iframe src="http://tibasicdev.wikidot.com" style="display:block;" id="hiddenframe"></iframe>
+<script>
+document.getElementById("Span1").innerHTML = "name";
+name = document.getElementById("hiddenframe").contentDocument;
+console.log(name);
+//alert(name);
+</script>
+[[/html]]

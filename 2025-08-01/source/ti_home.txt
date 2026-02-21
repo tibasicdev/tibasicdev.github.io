@@ -1,0 +1,3 @@
+> TI Story has moved to its own wiki located at http://tistory.wikidot.com -- please change your links accordingly.
+
+[[module Redirect destination="http://tistory.wikidot.com"]]

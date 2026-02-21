@@ -1,0 +1,5 @@
+[[image archives:nibbles/nibbles.gif link="archives:nibbles/NIBBLES.8xp"]]
+
+[http://tibasicdev.wikidot.com/local--files/archives:nibbles/NIBBLES.8xp Nibbles] (Snake) by [[user Edward H]]
+
+This version of snake is extremely fast and efficient, and is unique because it doesn't use any list variables to control the movement of the snake.

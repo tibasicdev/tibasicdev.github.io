@@ -1,0 +1,21 @@
+author: 'Conor O''Brien'
+version: v.1.0
+summary: 'Guess a number from 1 to 8!'
+description: "Guess a number from 1 to 8! This program takes a keyed-in input from the user.\n\nINSTRUCTIONS\n===========\nUse the left and right arrow keys to navigate between the numbers; once the asterisk is beneath the user's choice, they may press [ENTER] to select said number. They may choose to select the same number multiple times.\n\nOTHER INFO\n=========\nUses 880 RAM. Uses variables D,A,U,L,R,T,G, and Str5"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:guess-1/GUESS.zip'
+image: null
+fileSize: '942'
+fileSizeUnit: '1'
+dateMade: ''

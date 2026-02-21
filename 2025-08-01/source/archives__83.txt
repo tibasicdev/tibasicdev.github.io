@@ -1,0 +1,26 @@
+[[include inc:archives]]
+
+[[module ListPages category="archives" parent="archives:_83" perPage="50" tags="-_pending" order="random"]]
+[[iftags -_new]]
+%%content%%
+[[>]]
+**Rating: %%rating%%** ([[[%%fullname%% |click here]]] to rate this program!)
+[[/>]]
+[[/iftags]]
+[[iftags _new]]
+[[include inc:tablet
+|name=[%%link%% %%title%%]
+|author=%%content{1}%%
+|description=%%content{2}%%
+|compatibility=%%parent_title%%
+|picture=%%content{4}%%
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/%%fullname%%/%%content{5}%%
+|downloadName=%%content{5}%%
+|size=%%content{6}%%
+]]
+[[>]]
+**Rating: %%rating%%**
+[[/>]]
+[[/iftags]]
+------
+[[/module]]

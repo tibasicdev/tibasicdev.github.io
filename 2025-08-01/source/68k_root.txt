@@ -1,0 +1,45 @@
+[[include inc:68k-command
+|picture=root.png
+|summary=Takes the //n//^^th^^ root of a value.
+|syntax=root(//value//,//n//)
+|ams3xx=10
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 1 to enter the Number submenu.
+* Press D to select root(.
+
+|size=2 bytes
+]]
+
+The root() command takes //n//^^th^^ roots: root(x,2) is the square root of x, root(x,3) is the cubic root, etc. (//n// doesn't have to be a whole number, or even real). Since root(x,n) is equivalent to x^(1/n), there was never any real need for this command, but it was added in the last AMS update for the Voyage 200 and TI-89 Titanium because users complained about not being able to do this calculation.
+
+As far as complex roots are concerned: if taking a root of a real number, root() will return the real branch if there is one. If taking the root of a complex number, it will always return the principal branch.
+
+[[code]]
+:root(x,2)
+           √(x)
+:root(1024,10)
+           2
+[[/code]]
+
++ Advanced Uses
+
+The command uses the same routines as the [[[68k:power|^]]] operator, so it works in all the same ways. This means it can be applied to lists (element-wise), and to matrices either through repeated multiplication (e.g. if taking the 1/100^^th^^ root of a matrix, which ends up being its 100^^th^^ power) or by diagonalizing the matrix first (see [[[68k:matrices#toc2|]]] for mor information about this method). If you want to take the //n//^^th^^ root of every element of a matrix, use the [[[68k:dotpower|.^]]] command.
+
++ Optimization
+
+You can save a few bytes of space by using root(x,n) instead of x^(1/n); however, this optimization is a bit dodgy. It requires AMS 3.10 to use, so if you're planning on releasing the program anywhere, it will only work on the TI-89 Titanium and the Voyage 200, and even then it might require updating the OS. It's probably not worth it, unless the program is for personal use only.
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=non-square matrices are used with root()]]
+[[include inc:68k-error num=230|error=Domain error|cause=a matrix is raised to an integer power not in the range -32768..32767]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=diagonalization (used to compute most uses of root() with matrices) fails]]
+[[include inc:68k-error num=800|error=Non-real result|cause=there is no real result to return, and the calculator is in real number mode]]
+[[include inc:68k-error num=890|error=Singular matrix|cause=raising a matrix with no inverse to a negative power]]
+
++ Related Commands
+
+* [[[68k:power|^]]] (exponentiation)
+* [[[68k:solve()]]]
+* [[[68k:square-root|√()]]]

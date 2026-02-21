@@ -1,0 +1,5 @@
+[[table class="catTable"]]
+[[row]][[cell class="header catTitle"]]Category[[/cell]]
+[[cell class="header catThreads"]]Threads[[/cell]]
+[[cell class="header catRecent"]]Last Thread[[/cell]]
+[[/row]][[/table]]

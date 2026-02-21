@@ -1,0 +1,39 @@
+Although commands and expressions on the TI-89 can be typed in character by character, that is not how they are stored internally. The first time you run a function or program, they are encoded in a different, more concise format. This encoding is called "tokenization" because the characters making up a command are replaced by a "token" -- a number representing the command.
+
+Since the size of the program, when you release it, is determined by its tokenized size, understanding this process is key to [[[68k:optimization|optimization]]], at least for size. If your goal is to make the program as small as possible, which is usually a good thing to strive for, this article will give you an idea of what to avoid, as well as what doesn't matter.
+
++ Format of Tokenized Expressions
+
+Each line of the program is internally converted to a postfix expression during tokenization. Postfix notation is an alternate system of writing mathematical expressions, in which operations are written after the operands they refer to: for example "2+2" is written as "2 2 +". The calculator uses postfix notation because it's easier to evaluate, and does not require parentheses to determine the order of operations. As a result, parentheses (and commas) take up no additional space when the program is tokenized.
+
+Each command is stored using a one- or two- byte token; usually, the more frequent commands are chosen to have the one-byte tokens, to save on space. However, some commands (e.g. [[[68k:line|Line]]]) have optional arguments; such commands need an extra byte to mark "no more arguments." For some reason, several commands (e.g. [[[68k:getkey|getKey()]]]) use this extra byte even though there are no optional arguments. So in effect, the size of a tokenized command ranges from 1 byte to 3 bytes.
+
+Each time a variable is used, it takes up as much space at is has letters, plus a two-byte header (so an 8-character variable would take up 10 bytes of space total). The exception here is one-letter variables (a, b, c, and so on) - these only take 1 byte each. As a result, there is a strong incentive to use very short variable names in a released program (similarly to [[[68k:comments|commenting your code]]], though, you shouldn't let this stop you from using long variable names when you're still working on the program). If a variable is a function, 2 more bytes are added.
+
+The way constants are stored depends on if they're integers or floating-point numbers. An integer is stored with a two-byte header, and as many bytes as are needed to fit it (so numbers less than 256 take up 3 bytes total, numbers less than 65536 (256^^2^^) take up 4 bytes total, numbers less than 16777216 (256^^3^^) take up 5 bytes, and so on). Only numbers less than 256^^255^^ can be encoded (that is, an integer constant can take up at most 256 bytes total). Floating-point numbers, on the other hand, always take up exactly 10 bytes.
+
+Lists and matrices are simple -- they are treated as expressions. Joining a bunch of elements into a list takes an additional 2 bytes. A matrix is considered a list of lists. 
+
+Strings, on the other hand, are not tokenized; they are stored character by character. Also, 3 bytes are used to mark the start of the string, the end of the string, and to identify it as a string. This means you should avoid using [[[68k:expr|expr(]]] to keep long pieces of code in strings: characters nearly always take more space than their tokenized versions.
+
++ What Tokenization Ignores
+
+When a program is tokenized, upper- and lowercase is ignored. This means you don't have to type out commands the way they are spelled in the catalog: Getkey() or even gEtKeY() will work as well as getKey(). Extra spaces (almost always) and unnecessary parentheses are ignored, so typing ( ( ( x ) ) ) is no different than just x. But this also means that once you run a program and it's tokenized, these spaces and parentheses will be lost. Of course, any necessary parentheses are kept.
+
+The one exception to the rule is extra spaces at the beginning of a line. The data stored for a new line in a program actually includes a counter for the number of spaces at the beginning of that line. So these extra spaces won't make the program larger, but they will be preserved when the program is tokenized and edited again. You might use these spaces, for example, to indent the contents of a loop or code block.
+
++ When Tokenization Happens
+
+A program or function is tokenized the first time it's run, or evaluated in an expression. Afterwards, the first time you edit it, it will be de-tokenized. The exception is [[[68k:lock|locked]]] or [[[68k:archive|archived]]] functions or programs. Their state stays the same way it was when they were locked or archived. So if you archive a program immediately after editing, it will always be tokenized when it's run, since archived variables can't be altered. Since tokenization takes several seconds for large programs, this should be avoided, especially when you release a program. Always run a program before locking or archiving it.
+
++ External Links
+
+* **[http://tigcc.ticalc.org/doc/estack.html TIGCC Documentation of <estack.h>]**. This page lists the exact syntax of tokenized expressions on the TI-68k calculators (however, the syntax for programs and functions is slightly different).
+
+[[include inc:next-prev
+|prevpage = 68k:cross-compatibility
+|prevtitle = Cross Compatibility
+|tocpage = 68k:techniques-overview
+|toctitle = Overview
+|nextpage = 68k:sys-variables
+|nexttitle = System Variables]]

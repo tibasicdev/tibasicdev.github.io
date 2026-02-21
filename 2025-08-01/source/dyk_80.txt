@@ -1,0 +1,1 @@
+…that you can use [[[graphics#toc2 | plot sprites]]] to make simple, easily movable sprites on the color calculators?

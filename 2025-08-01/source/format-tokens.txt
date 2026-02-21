@@ -1,0 +1,24 @@
+The token 0x7E signifies the beginning of a two-byte graph format token. By and large, these are the settings from the [[[settings|graph format menu]]] (2nd FORMAT), with some from the mode menu (2nd MODE) thrown in for good measure.
+
+All token values here (and elsewhere in this guide) are in hexadecimal.
+
+* **7E 00** -- [[[Sequential]]]
+* **7E 01** -- [[[Simul]]]
+* **7E 02** -- [[[PolarGC]]]
+* **7E 03** -- [[[RectGC]]]
+* **7E 04** -- [[[CoordOn]]]
+* **7E 05** -- [[[CoordOff]]]
+* **7E 06** -- [[[Connected]]]
+* **7E 07** -- [[[Dot]]]
+* **7E 08** -- [[[AxesOn]]]
+* **7E 09** -- [[[AxesOff]]]
+* **7E 0A** -- [[[GridOn]]]
+* **7E 0B** -- [[[GridOff]]]
+* **7E 0C** -- [[[LabelOn]]]
+* **7E 0D** -- [[[LabelOff]]]
+* **7E 0E** -- [[[Web]]]
+* **7E 0F** -- [[[Time]]]
+
+* **7E 10** -- [[[uvAxes]]]
+* **7E 11** -- [[[vwAxes]]]
+* **7E 12** -- [[[uwAxes]]]

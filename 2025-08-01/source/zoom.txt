@@ -1,0 +1,48 @@
+The Zoom commands are found in the menu you get by pressing ZOOM. They are used to manipulate the [[[system-variables#window|window variables]]] to change the bounds of the graphing window. With the exception of [[[ZStandard]]], [[[ZoomSto]]], and [[[ZoomRcl]]], these commands only affect the variables universal to all [[[graphing-mode|graphing modes]]]: Xmin, Xmax, Xscl, Ymin, Ymax, and Yscl. They ignore the variables specific to a single graphing mode:
+* Xres (only used in [[[Func]]] mode)
+* Tmin, Tmax, and Tstep (only used in [[[Param]]] mode)
+* θmin, θmax, and θstep (only used in [[[polar-mode|Polar]]] mode)
+* //n//Min, //n//Max, PlotStart, and PlotStep (only used in [[[seq-mode|Seq]]] mode)
+
++ Zoom Variables
+
+Virtually every window variable has a z-equivalent (ZXmin for Xmin, ZPlotStart for PlotStart, etc.) that are found under VARS|2:Zoom... -- these are used by [[[ZoomSto]]] and [[[ZoomRcl]]]. Also, the variables XFact and YFact (found under VARS|1:Window...) are used by [[[Zoom In]]] and [[[Zoom Out]]].
+
++ Commands
+
+The commands themselves are only available in programs. Outside it, you can only choose the equivalent menu option (which doesn't leave an entry on the homescreen, and sometimes slightly differs in effect) -- this happens, even if you choose the command from the catalog. Of course, with a bit of trickery, you can get the command token itself on the homescreen, but then [[[errors#invalid|ERR:INVALID]]] will be thrown if you try to use it. The [[[Trace]]] command also works this way.
+
+The following zoom commands are available:
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+
+* [[[ZBox]]]
+* [[[Zoom In]]]
+* [[[Zoom Out]]]
+* [[[ZDecimal]]]
+* [[[ZSquare]]]
+
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+
+* [[[ZStandard]]]
+* [[[ZTrig]]]
+* [[[ZInteger]]]
+* [[[ZoomStat]]]
+* [[[ZoomFit]]]
+
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+
+* [[[ZPrevious]]]
+* [[[ZoomSto]]]
+* [[[ZoomRcl]]]
+* [[[zfrac|ZFracX]]][[footnote]]Available only for OS 2.53MP+[[/footnote]]
+
+[[/div]]
+
+[[div style="display : none;"]]
+[[footnoteblock]]
+[[/div]]

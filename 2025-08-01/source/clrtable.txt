@@ -1,0 +1,27 @@
+[[include inc:command
+|picture=CLRTABLE.GIF
+|summary=Clears saved calculations for the table screen.
+|syntax=ClrTable
+|location=While editing a program, press:
+# PRGM to access the program menu.
+# RIGHT to access the I/O submenu.
+# 9 to select ClrTable.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The {{ClrTable}} command clears all calculations for the table screen shown if you press 2nd TABLE. That is, all already-calculated values in the table are cleared, and [[[system-variables#window|TblInput]]] is deleted. In {{[[[IndpntAuto]]]}} and {{[[[DependAuto]]]}} mode, this usually isn't noticeable because the table will be recalculated almost immediately when you next look at it (unless one of the entered functions is so complicated it takes a while to calculate). This mainly has an effect in {{[[[IndpntAsk]]]}} or {{[[[DependAsk]]]}} mode, where the corresponding parts of the table will be cleared entirely.
+
++ Advanced Uses
+
+As a side effect, {{ClrTable}} seems to have all the effects of {{[[[ClrDraw]]]}} -- it clears the graph screen, and any equations or plots will be regraphed the next time the graph screen is displayed.
+
++ Command Timings
+
+{{ClrTable}} and {{ClrDraw}} take the same amount of time to clear the screen.
+
++ Related Commands
+
+* {{[[[ClrDraw]]]}}
+* {{[[[DispGraph]]]}}
+* {{[[[DispTable]]]}}

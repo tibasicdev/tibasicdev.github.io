@@ -1,0 +1,7 @@
+The term "e" is ambiguous and may refer to:
+
+* [[[e-value|e]]], the mathematical natural logarithmic base constant.
+* [[[e-exponent|e^(]]], the exponent command raising an expression to the e constant.
+* [[size 75%]][[[e-ten|E]]][[/size]], the scientific notation command for expressing very large or small numbers.
+
+If an internal link led you here, you may wish to change the link to point directly to the intended article.

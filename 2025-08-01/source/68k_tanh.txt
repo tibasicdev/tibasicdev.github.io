@@ -1,0 +1,50 @@
+[[include inc:68k-command
+|picture=tanh.png
+|summary=Takes the hyperbolic tangent of a number.
+|syntax=tanh(//value//)
+|location=
+* Press 2nd MATH to enter the MATH menu.
+* Press C to enter the Hyperbolic submenu.
+* Press 3 to select tanh(.
+|size=1 byte
+]]
+
+
+The tanh() command returns the [http://mathworld.wolfram.com/HyperbolicTangent.html hyperbolic tangent] of a number.
+
+As long as the calculator is in radian [[[68k:mode-settings|mode]]], tanh() can be used with complex numbers according to the rule that tanh(**//i//**x)=tan(x)***//i//** and tan(**//i//**x)=tanh(x)***//i//**. This rule only works in radian mode, and tanh() of a complex number will return a domain error when working in degrees or gradians.
+
+Occasionally, tanh() can compute an exact result; most of the time, the calculator will leave an expression with tanh() alone unless it's in approximate mode (or you [[[68k:approx|force an approximation]]]). When tanh() is used with symbolic expressions, the calculator can go back and forth between the tanh() expression and its exponential equivalent.
+
+[[code]]
+:tanh(0)
+           0
+:expand(tanh(x))
+          1-2/((e^x)^2+1)
+:comDenom(1-2/((e^x)^2+1))
+          tanh(x)
+[[/code]]
+
+If tanh() is applied to a list, it will take the hyperbolic tangent of every element in the list.
+
++ Advanced Uses
+
+The tanh() of a matrix is not (in general) the same as taking the hyperbolic tangent of every element of the matrix. A different definition is used to compute the result; see [[[68k:matrices#toc2|]]]. It requires the matrix to be square and diagonalizable in order to apply.
+
++ Formulas
+
+The definition of hyperbolic cotangent is, by analogy with [[[68k:tan()]]], the ratio of [[[68k:sinh()]]] and [[[68k:cosh()]]]:
+
+[[include inc:68k-math eqn=\tanh{x}=\frac{\sinh{x}}{\cosh{x}} = \frac{e^x-e^{-x}}{e^x+e^{-x}} = \frac{e^{2x}-1}{e^{2x}+1}]]
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=taking tanh() of a matrix that isn't square]]
+[[include inc:68k-error num=260|error=Domain error|cause=taking tanh() of a complex number in degree or gradian mode]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=taking tanh() of a matrix that isn't diagonalizable]]
+
++ Related Commands
+
+* [[[68k:sinh()]]]
+* [[[68k:cosh()]]]
+* [[[68k:arctanh|tanhֿ¹()]]]

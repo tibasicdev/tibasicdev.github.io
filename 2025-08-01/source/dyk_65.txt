@@ -1,0 +1,1 @@
+…that if you have a rather bulky matrix or list, you can store it as a string to one of the [[[seq-mode|sequence]]] variables, //u,v,w// and halve the size? Then, you can evaluate the expression using said variable and {{[[[Ans]]](X)}} where X equals the list or matrix element you want?

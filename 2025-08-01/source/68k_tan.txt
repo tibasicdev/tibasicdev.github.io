@@ -1,0 +1,42 @@
+[[include inc:68k-command
+|picture=tan.png
+|summary=Takes the tangent of a number (usually, an angle).
+|syntax=tan(//angle//)
+
+|location=Press the TAN button to enter tan(.
+
+|size=1 byte
+]]
+
+
+The {{tan()}} command returns the [http://mathworld.wolfram.com/Tangent.html tangent] of an angle measure. Naturally, the result depends on the angle {{[[[68k:setmode|mode]]]}} the calculator is in: {{radian}}, {{degree}}, or (in AMS version 3.10) {{gradian}}. You can also use one of the {{^^[[[68k:radian|r]]]^^}}, {{[[[68k:degree|°]]]}}, {{^^[[[68k:gradian|G]]]^^}} marks to specify an angle mode.
+
+For many common angles, {{tan()}} can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in {{radian}} [[[68k:mode-settings|mode]]], {{tan()}} can be used with complex numbers as well.
+
+
+[[code]]
+:tan(60°)
+           √3
+:tan(x+π)
+          tan(x)
+:tan(ix)
+          tanh(x)*i
+[[/code]]
+
+If {{tan()}} is applied to a list, it will take the tangent of every element in the list.
+
++ Advanced Uses
+
+The {{tan()}} of a matrix is not (in general) the same as taking the tangent of every element of the matrix. A different definition is used to compute the result; see [[[68k:matrices#toc2|]]]. It requires the matrix to be square and diagonalizable in order to apply.
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=taking {{tan()}} of a matrix that isn't square]]
+[[include inc:68k-error num=260|error=Domain error|cause=taking {{tan()}} of a complex number in degree or gradian mode]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=taking {{tan()}} of a matrix that isn't diagonalizable]]
+
++ Related Commands
+
+* {{[[[68k:sin()]]]}}
+* {{[[[68k:cos()]]]}}
+* {{[[[68k:arctan|tanֿ¹()]]]}}

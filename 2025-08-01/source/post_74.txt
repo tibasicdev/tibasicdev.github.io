@@ -1,0 +1,3 @@
+name: ''
+content: 'And, it seems as if anonymous users will be able to post with a name!'
+attachment: null

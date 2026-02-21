@@ -1,0 +1,15 @@
+[[include inc:program
+|picture=sudoku.gif
+|summary=A quality version of the classic sudoku game.
+|size=4,051 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/98/9849.html Harrierfalcon]
+|download=[http://tibasicdev.wikidot.com/local--files/sudoku/sudoku.zip sudoku.zip]
+]]
+
+Sudoku is a puzzle game that involves filling a 9x9 grid so that each column, each row, and each of the nine 3x3 boxes contains the digits 1 to 9 only one time. You start out with a partially filled grid with each 3x3 box containing anywhere from one to five numbers, and you then have to fill in the rest.
+
+This sudoku games comes not only with five pre-solved sudokus, but it also has support for creating randomly generated sudokus. Unlike some other sudoku games that simply change the arrangement of the numbers, which isn't really random at all, this game actually creates totally new sudokus by swapping the rows of existing sudokus.
+
+The game features a good graphical interface, with easy to use controls. It does, however, use a considerable number of variables, including five matrices, the majority of the real variables, all six of the built-in lists, and a string. This means you have to make sure you don't have anything in those variables, since it will be erased.

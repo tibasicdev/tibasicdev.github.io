@@ -1,0 +1,130 @@
+[[include inc:visitor-farewell]]
+
+[!-- Code by James Kanjo--]
+
+[[iftags _new]]
+[[include inc:tags tags=\
+#%%form_data{arcade}%%#%%form_label{arcade}%%\
+#%%form_data{graphics}%%#%%form_label{graphics}%%\
+#%%form_data{platform}%%#%%form_label{platform}%%\
+#%%form_data{puzzle}%%#%%form_label{puzzle}%%\
+#%%form_data{rpg}%%#%%form_label{rpg}%%\
+#%%form_data{strategy}%%#%%form_label{strategy}%%\
+#%%form_data{sports}%%#%%form_label{sports}%%\
+#%%form_data{casino}%%#%%form_label{casino}%%\
+#%%form_data{board}%%#%%form_label{board}%%\
+#%%form_data{utility}%%#%%form_label{utility}%%\
+#%%form_data{misc}%%#%%form_label{misc}%%
+]]
+[[/iftags]]
+
+[[iftags _pending]]
+> [[span style="font-size: 200%; color: red;"]]**DON'T FORGET**, you must **//[[button files text="upload"]]//** your program![[/span]]
+> [[span style="font-size: 150%;"]]Our expectations are that you upload a compressed zip folder containing your program and all documentation. You may also wish to upload a picture of your program in action (preferably an animated *.gif). A moderator will later add any uploads to this page. If you made a mistake, you can still //**[[button edit text="edit the page"]]**//.[[/span]]
+[[/iftags]]
+
+[[iftags update]]
+> [[span style="font-size: 150%; color: amber;"]]This page has been [[[archives:_to-do|waiting]]] to be updated for %%date_edited|%O%%[[/span]]
+[[/iftags]]
+
+[[iftags -_new]]
+%%content%%
+[[/iftags]]
+
+[[iftags _new]]
+[[include inc:tablet
+|name=%%title%%
+|author=
+%%form_data{author}%%
+|description=%%form_data{description}%%
+|compatibility=%%parent_title%%
+|picture=http://tibasicdev.wdfiles.com/local--files/%%form_data{image}%%
+|downloadUrl=http://tibasicdev.wdfiles.com/local--files/%%fullname%%/%%form_data{download}%%
+|downloadName=%%form_data{download}%%
+|size=%%form_data{size}%% %%form_data{unit}%%
+]]
+[[/iftags]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[module Comments title="What the community thinks:" hideForm="true"]]
+
+[[iftags _pending]]
+> [[span style="font-size: 150%; color: amber;"]]This page has been on the [[[archives:_to-do|waiting list]]] for %%date|%O%%.[[/span]]
+> [[span style="font-size: 150%; color: amber;"]]To process the page yourself, see the [http://tibasicdev.wikidot.com/guide-to-editing#archives Guide to Editing][[/span]]
+[[/iftags]]
+
+~~~~~
+
+[[iftags -_pending]]
+> [[span style="font-size: 200%; color: green;"]]Want to update this page?[[/span]]
+> * [[span style="font-size: 200%; color: green;"]]**[[button files text="Upload new files"]]** to provide up-to-date versions of your program;[[/span]]
+> * [[span style="font-size: 200%; color: green;"]]**[[button edit text="or Edit the content"]]** of this page to provide up-to-date information about your program.[[/span]]
+> [[span style="font-size: 200%; color: green;"]]A moderator will only process these changes if you add the word **//update//** to the **[[button tags text="list of tags"]]**[[/span]]
+[[/iftags]]
+
+====
+
+[[form]]
+fields:
+  author:
+    label: Author
+  description:
+    label: Description
+    height: 4
+  arcade:
+    label: Arcade
+    type: checkbox
+  graphics:
+    label: Graphics
+    type: checkbox
+  platform:
+    label: Platform
+    type: checkbox
+  puzzle:
+    label: Puzzle
+    type: checkbox
+  rpg:
+    label: RPG
+    type: checkbox
+  strategy:
+    label: Strategy
+    type: checkbox
+  sports:
+    label: Sports
+    type: checkbox
+  casino:
+    label: Casino
+    type: checkbox
+  board:
+    label: Board
+    type: checkbox
+  utility:
+    label: Utility
+    type: checkbox
+  misc:
+    label: Misc
+    type: checkbox
+  image:
+    label: Image
+    default: /home/no_image_2.png
+    match: /.+/
+    match-error: If no image, use /home/no_image_2.png
+  download:
+    label: Download
+    default: Unavailable
+  size:
+    label: Size
+    width: 10
+    match: /^\d+$/
+  unit:
+    type: select
+    join: true
+    default: 1
+    values:
+      1: Bytes
+      2: Kilobytes
+      3: Megabytes
+[[/form]]

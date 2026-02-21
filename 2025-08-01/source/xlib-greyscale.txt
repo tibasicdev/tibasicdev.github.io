@@ -1,0 +1,48 @@
+With xLib grayscale is very easy and good. You might think now: Basic? Grayscale? I couldn't find a xLib command that does that? Then your right: there is not such a command. You'll have to trick a bit for it with recalling a pic very often in XOR-logic, so inversion.
+So you have a normal screen and a other image that is recalled in XOR often.
+
+For example, your screen is like this:
+[[image http://desmond.imageshack.us/Himg803/scaled.php?server=803&filename=screenp.jpg&res=medium]]
+This is in pic 1:
+[[image http://desmond.imageshack.us/Himg16/scaled.php?server=16&filename=grauinvert.jpg&res=medium]]
+
+Then you have this code:
+[[code]]
+:DelVar A
+:Repeat A
+:real(3,1,3,1,1
+:getKey->A
+:End
+[[/code]]
+And till you press a key the screen will be like this:
+[[image http://desmond.imageshack.us/Himg94/scaled.php?server=94&filename=screenfertig.png&res=medium]]
+
+Ok, as you may notice the image in pic 1 is very often recalled in XOR-logic, and that seems then as grey scale.
+
+Now some training:
+Try to make this sprite:
+[[image http://desmond.imageshack.us/Himg27/scaled.php?server=27&filename=spritebesipielgrau.jpg&res=medium]]
+
+Ok, the image that inverts everything is obvious, because it is just everywhere where it is supposed to be grey:
+[[image http://desmond.imageshack.us/Himg848/scaled.php?server=848&filename=spritebesipielinvert.jpg&res=medium]]
+
+More complicated is the image that should be displayed a the beginning. You might think of this:
+[[image http://desmond.imageshack.us/Himg17/scaled.php?server=17&filename=spritebesipieldispfalsc.jpg&res=medium]]
+It would work out, but the grey wouldn't look to good.
+
+Better is this:
+[[image http://desmond.imageshack.us/Himg43/scaled.php?server=43&filename=spritebesipieldispricht.jpg&res=medium]]
+because of the checked tiles it seems better to the eye, it is a optical solution.
+So if you have dcs the code to display that in grey till a key is pressed would be:
+
+[[code]]
+:real(0,0  //clears the screen
+:identity(5,"00003C3C3C3C0000",0,0,1,8,0,0,0  //draws the sprite that will invert the screen
+:identity(1,1,1  //saves it in pic 1
+:real(0,0  //clears the screen
+:identity(5,"FF81A995A99581FF",0,0,1,8,0,0,0  //the sprite, the grey thing is checked
+:Repeat Ans  //repeats till something is in Ans
+:real(3,1,3,1,1  //inverts the screen with pic 1
+:getKey  //puts the Key in Ans
+:End
+[[/code]]

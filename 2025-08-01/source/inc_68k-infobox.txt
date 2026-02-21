@@ -1,0 +1,41 @@
+[[div style="float:right; width: 295px; margin: 0 0 1em 1em;"]]
+[[module ListPages category="news" tags="+_announcement -_83portal -_null" limit="1" date="last 1 week"]]
+          [[table style="background: #B40000; border: 1px solid black; margin-bottom: 10px; width:100%;"]]
+          [[row]][[cell class="infobox blink" style="font-size:140%; text-align:center;"]]
+**[[[announcements| Announcement!!]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding:0 2% 10px;"]]
+%%content%%
+          [[/cell]][[/row]][[/table]]
+[[/module]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[contribute|Getting Involved]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+A site can only grow and thrive through the continual efforts of its [[[system:members]]]. If you have found this site useful, we encourage you to [[[contribute]]] and become part of our community.
+
+[[[system:join|Sign-ups]]] are available, and our [[[forum:home|forums]]] are open to questions, commentary, or anything else that you want to talk about. We hope to see you there!
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[forum:recent-posts|Forum Activity]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module MiniRecentPosts limit="3"]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[68k:did-you-know |Did You Know...]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="dyk" tags="+_dyk _68kportal _both-portals" separate="no" order="random" limit="1" urlAttrPrefix="dyk"]]
+%%content%%
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+
+          [[table style="background: {$color}; border: 1px solid {$color}; width: 100%;"]][[row]][[cell class="infobox" style="font-size:140%; text-align:center;"]]
+**[[[68k:featured-articles |Featured Article]]]**
+          [[/cell]][[/row]][[row]][[cell style="background: #FFF; padding: 0 2% 10px;"]]
+[[module ListPages category="excerpt" tags="_excerpt +_68kportal +featured-article" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+          [[/cell]][[/row]][[/table]]
+
+[[/div]]

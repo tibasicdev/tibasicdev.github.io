@@ -1,0 +1,32 @@
+[!--
+This list is maintained by hand.
+If you add pages and you find this list useful, update it.
+We've not included content pages: no section , threads, docs, or wiki articles.
+--]
+
+Click any page to edit it:
+* [/admin-forum:start admin-forum:start] - Start page
+* [/admin-forum:list-pages admin-forum:list-pages] - Important pages - this page
+* [/admin-forum:forum-guide admin-forum:forum-guide] - Forum Guide page
+* [/admin-forum:open-tasks admin-forum:open-tasks] -  Open Task Oveview
+* [/admin-forum:admin-section-admin admin-forum:admin-section-admin] - Included page  
+* [/admin-forum:admin-section-summary admin-forum:admin-section-summary] - Included page  
+* [/admin-forum:_template admin-forum:_template] - live template for admin-forum: category
+
+* [/admin-section:_start admin-section:_start] - list of sections
+* [/admin-section:_template admin-section:_template] - Section template page
+* [/admin-section:_admin admin-section:_admin] - manage forum page
+
+* [/admin-section:design admin-section:design] -Design  section page
+* [/admin-section:general-test admin-section:general-test] - General test ection page
+
+* [/admin-thread:_start admin-thread:_start] - list of Threads
+* [/admin-thread:_template admin-thread:_template] - Threads template page
+
+* [/nav:top nav:top] - top menu
+* [/admin-nav:side admin-nav:side] - side menu for Admin... area
+
+* [/admin:_public admin:_public] - Landing page for unauthorized visitors 
+* [/admin-section:_public admin-section:_public] - Landing page for unauthorized visitors 
+* [/admin-thread:_public  admin-thread:_public] - Landing page for unauthorized visitors 
+* [/admin-forum:_public admin-forum:_public] - Landing page for unauthorized visitors

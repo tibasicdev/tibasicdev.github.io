@@ -1,0 +1,1 @@
+…that the [[[Wait]]] command allows decimals? You can do .5 seconds for a half a second!

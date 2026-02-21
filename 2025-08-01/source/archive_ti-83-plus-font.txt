@@ -1,0 +1,21 @@
+author: 'Jon Sturm'
+version: Unknown
+summary: 'Ever wanted the TI-83 Plus Font on your PC? Here it is!'
+description: "Ever wanted the TI-83 Plus Font on your PC? Here it is!\n\n**Requires administrative privilages to install.**"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:ti-83p-font/TI-83P-Font.ttf'
+image: null
+fileSize: '19'
+fileSizeUnit: '2'
+dateMade: '1217829600'

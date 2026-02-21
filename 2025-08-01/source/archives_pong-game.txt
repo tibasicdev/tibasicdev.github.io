@@ -1,0 +1,40 @@
+[[include inc:tablet
+|name=Pong
+|author=SpaceManiac
+|size=950
+|description=This is a small game for the TI-83/84 series with basic pong physics and AI using the graph screen for graphics. It only supports human vs. calc modes however. I don't know if it includes any errors or stack leaks, and I know it could probably be optimized some more, so feel free to make modifications. It includes a pause menu and a secret cheat code.
+
+|PLEASE REMOVE the following words that do NOT describe your program:
+|Arcade
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:pong-game/pong.TIProgram
+|downloadName=pong
+]]
+
+[!--
+INSTRUCTIONS
+
+1) First enter the name of your program as you would like it to appear. That is, the TITLE of your program, not the name of the file.
+i.e. "Happy Land" instead of "HAPPY.8XP"
+
+2) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+3) Enter the size of the program (the actual program, or total size of programs & sub-programs) but not the size of the .ZIP file.
+i.e. 6,000 bytes
+
+4) Enter the description of the program.
+
+5) Click the "save" button beneath this form.
+
+6) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+7) Categorize the page according to the note on the page.  DO NOT erase preexisting tags!!
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '0.9'
+summary: 'Five Nights at Freddy''s clone!'
+description: "Moderators, please delete this page.  It was a beautiful piece of coding, but it was deleted by a friend who got into the nasty habit of clearing the memory whenever he wanted to clear the screen.\n\nIt pretty depressing."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:readme-12/README.txt'
+image: null
+fileSize: '5680'
+fileSizeUnit: '1'
+dateMade: '1420700400'

@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '1.0'
+summary: 'Calculator etch-a-sketch'
+description: "Hello, back from my garden.\nI made a simple etch-a-sketch program.\nPress the arrows to move.\nPress Delete to clear screen.\n\n\n:8→X\n:4→Y\n:While 1\n:getKey→K\n:If K=24\n:Then\n:Output(Y,X,\"O\n:X-1→X\n:Output(Y,X,\"*\n:End\n:If K=25\n:Then\n:Output(Y,X,\"O\n:Y-1→Y\n:Output(Y,X,\"*\n:End\n:If K=26\n:Then\n:Output(Y,X,\"O\n:X+1→X\n:Output(Y,X,\"*\n:End\n:If K=34\n:Then\n:Output(Y,X,\"O\n:Y+1→Y\n:Output(Y,X,\"*\n:End\n:End"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:readme-7/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1409724000'

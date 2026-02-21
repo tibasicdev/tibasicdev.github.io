@@ -1,0 +1,59 @@
+[[include inc:cid]]
+
+[[toc]]
+
++ Introduction to Pictures
+
+Previously, we have discussed Picture files simply as a fast way of displaying a screenshot that has the peculiar quality of not "erasing" black pixels.  Title screens and things of the sort seem to be the only reasonable application since pictures are limited to the whole screen.  Even then, you need to use a ClrDraw before it because pictures only add black pixels, they don't erase white ones.
+
+But pictures are so much more powerful than that, and are at the heart of most graphic games.  Pictures have 2 qualities that make them so useful to the creative programmer.
+
+1.  They are fast.  Really fast.  Like instantaneous fast.  There is no draw command can compare to RecallPic's speed.
+
+2.  They don't erase black pixels.  While at first glance this may not seem like much, this is key to utilizing Pictures to their full extent.
+
+..
+Here's another way to think of the second point above:
+
+The screen is like a white sheet of paper, which you can draw on.  Pictures are like sheets of transparencies that you lay on top of it.  You can color the transparencies black, but you have to rely on the piece of paper for the white.
+
+Seem a bit more useful?  This property of pictures combined with their speed is what makes them so powerful.
+----
++ Pictures and Sprites
+
+So, you designed a little image, labored over the code to draw it on the screen, and now you've finally got yourself a neat little sprite.  Now it's time to put it to use and move it around the screen and hopefully incorporate it into a cool game.
+
+This is where Pictures really come in handy.  You can store the background into a picture, then display it instantaneously.
+
+[[code]]
+ClrDraw
+ //Draw your sprite(s) here
+RecallPic 1 // display the background that the sprite is on
+[[/code]]
+
+If you don't use pictures, then you will need to go though the process of erasing only the sprite while not erasing the background.  Things will also get much tougher for you if you overlap the background and the sprites, in short, pictures make the whole process a lot easier.  You can also use multiple pictures for even greater effect!
+----
++ Backgrounds and Images on TI 84+CSE and TI 84+ CE
+
+Note: These methods and commands are only available on TI 84+CSE and TI 84+CE calculators.
+
+If you are working on TI 84+CSE version calculators, then there are a few extra commands that can be utilized when drawing backgrounds. Due to these versions' ability to display color and high-resolution images, detailed backgrounds and images can be used over the conventional TI 83 and TI 84 pictures
+
+The [http://tibasicdev.wikidot.com/backgroundon BackgroundOn] and [http://tibasicdev.wikidot.com/backgroundoff BackgroundOff] commands can be used to draw backgrounds on the screen. These backgrounds can be any solid color, as shown below, or one of ten images. Five images come pre-loaded on TI 84+CSE versions. Other images can be loaded using the cable(Supported file types are .bmp, .gif, .jpg, .png, and .tif).
+
+[[code]]
+ClrDraw
+BackgroundOn BLUE //Can be any Color or Image name
+//Stuff
+BackgroundOff
+[[/code]]
+
+Backgrounds, like Pictures, can be changed, added, or removed without disrupting anything that is drawn or graphed. Regular pictures can still be used on the color calculators, making it possible to layer a Background, a Picture, and a sprite for more detail. 
+
+[[include inc:next-prev
+|prevpage = sk:text
+|prevtitle = Text and Text Sprites
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:summary-graphics
+|nexttitle = Summary]]

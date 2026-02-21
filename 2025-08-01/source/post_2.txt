@@ -1,0 +1,2 @@
+content: "Some code.\n\n[[div class=\"werecode\"]]\n:{0,1→L₁\n:{0,N→L₂\n:LinReg(ax+b) Y₁\n:Equ►String(Y₁,Str1\n:sub(Str1,1,length(Str1)-3→Str1\n[[/div]]"
+attachment: null

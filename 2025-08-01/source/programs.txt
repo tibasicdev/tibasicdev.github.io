@@ -1,0 +1,24 @@
+When contributing programs, please follow these guidelines:
+
+# A program should be self-contained, and relatively short in length.
+# A program should be thoroughly tested to make sure it works correctly.
+# Use the [[[template:routine|Routine Template]]] as the starting point for program pages.
+# When the program page is finished, link to it from here.
+
+------
+
+* **[[[Chatbot]]]** — Simulates a simple conversation AI using random chance.
+* **[[[langton-ant|Langton's Ant]]]** — Displays Langton's Ant on the screen.
+* **[[[game-of-life|Conway's Game of Life]]]** — Displays Conway's Game of Life on the screen.
+* **[[[petals-around-the-rose|Petals Around the Rose]]]** — Simple version of petals around the rose.
+* **[[[temperature-conversion|Temperature Conversion]]]** — Converts temperature to Fahrenheit, Celsius, or Kelvin.
+* **[[[fake-home-screen|Fake Home Screen]]]** — Fakes the home screen to mess with people.
+* **[[[random-lines|Random Lines]]]** — Displays random lines on the screen.
+* **[[[Radar]]]** — Simulates the radar animation with the lines moving around a circle.
+* **[[[UPC]]]** — Finds the check digit for a user-inputted UPC.
+* **[[[bunny-virus|Bunny Virus]]]** — Creates a virus-like effect which locks up the calculator.
+* **[[[instant-messenger|Instant Messenger]]]** — A simple instant messaging program between two linked calculators.
+* **[[[Timers]]]** -- A couple of timers that either count up or count down.
+* **[[[text-wrapper | Custom Text Wrapper]]]** — A program that will wrap input text wherever you want.
+* **[[[factor-quadratics | Factoring Quadratics]]]** — A program that factors a quadratic into the product of two binomials.
+* **[[[Estimated Time Remaining | Estimated Time Remaining]]]** — A program that calculates the ETA of a For( loop.

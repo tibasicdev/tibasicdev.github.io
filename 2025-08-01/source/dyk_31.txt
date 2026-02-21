@@ -1,0 +1,1 @@
+…that you can get rid of the run indicator on the TI-83/84/+/SE by using {{Text(-1,0,90,"  "}} on the [[[graphscreen|graph screen]]] and {{Output(1,16,"  "}} on the [[[homescreen|home screen]]]?

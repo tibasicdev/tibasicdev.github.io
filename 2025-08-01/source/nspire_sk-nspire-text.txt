@@ -1,0 +1,18 @@
+++ Program Editor: 
+Before you start by making your first code, you must learn how to create a program(Make sure you are in the Calculator application). Press Menu and go to 8. Then, press 1 and 1 again. A window will pop up prompting the name of the program. Put in the name, then select the type (program or function) and press OK. Now, you are in the program editor, you can now move to the tutorials underneath.
+
+++ Introduction:
+Well hello and welcome to your first tutorial! Let's start with the title "How to print text on a TI-Nspire", Well to simply answer your question it's Disp or text. Let's look at the two examples underneath.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+
+Text "HELLO, WORLD!"
+[[/div]]
+
+
+
+If you want to include more functionality to displaying text, you can use Disp which will display your text as well.
+[[div style="background: #FFF; border: 1px dashed #DDD; padding-left:1em; margin: 1em 0 1em 0; font-family:Arial Unicode MS; color: #000; letter-spacing:1.2pt;"]]
+
+
+Disp "HELLO, WORLD!"
+[[/div]]

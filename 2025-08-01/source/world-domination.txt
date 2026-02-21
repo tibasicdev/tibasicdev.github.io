@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=world-domination.gif
+|summary=A quality version of the classic risk game.
+|size=10KB
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.cemetech.net/ Kerm Martian]
+|download=[http://tibasicdev.wikidot.com/local--files/world-domination/worlddomination.zip worlddomination.zip]
+]]
+
+World Domination is a real-time strategy game based on games such as Risk; you battle the calculator AI for control of the world. Each player starts with several units to place around the map of the world, then take turns moving, attacking, and redeploying. If you or the calculator gains control of a continent, you get a number of bonus units. Defeat all enemy troops to win the game.

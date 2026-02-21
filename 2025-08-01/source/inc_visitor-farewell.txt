@@ -1,0 +1,11 @@
+[[table style="width: 100%; margin: auto auto 1rem auto; background: #fdfcf6; border: 1px solid #eb4034;"]]
+[[row]]
+[[cell style="width: auto; padding: 10px; font-size: 125%;"]]
+We're glad you came by, but you might find what you're looking for elsewhere.
+
+TI-Basic Developer is not the site it once was. While its information on commands and other calculator features remains almost second-to-none, its forum, archives, and even hosting service, Wikidot, have been decaying for years. The calculator community would love to see what you're working on, or help you in your next coding adventure, but TI-Basic Developer is no longer the place to do it.
+
+Instead, you should head over to [https://www.cemetech.net/ Cemetech] (primarily American) or [https://tiplanet.org/forum/portal.php TI-Planet] (primarily international). Both are active, well-established forums with their own archives, chatrooms, reference material, and abundant coding tools and resources. We'll see you there, we hope.
+[[/cell]]
+[[/row]]
+[[/table]]

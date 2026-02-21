@@ -1,0 +1,3 @@
+This is the page with a list of screenshots displayed on the homepage.
+
+[[module ListPages category="screenshot" limit="100" perPage="10" order="created_at" urlAttrPrefix="sc" separate="yes" order="name"]]

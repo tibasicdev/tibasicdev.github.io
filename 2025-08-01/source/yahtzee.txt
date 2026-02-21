@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=yahtzee.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic yahtzee game.
+|size=6,329 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/50/5043.html Brad Wentz]
+|download=[http://tibasicdev.wikidot.com/local--files/yahtzee/yahtzee.zip yahtzee.zip]
+]]
+
+Yahtzee is the classic dice game everyone knows. This game is completely graphical, has support for up to 4 players, a save game option, saves high score, displays which categories you qualify for, and runs really fast. This game has all of the rules from the real game, including using the yahtzee as a joker.

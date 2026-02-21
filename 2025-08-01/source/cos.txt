@@ -1,0 +1,54 @@
+[[include inc:command
+|picture=COS.GIF
+|summary=Returns the cosine of a real number.
+|syntax=cos(//angle//)
+|location=Press [COS]
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+{{cos(θ)}} returns the [http://mathworld.wolfram.com/Cosine.html cosine] of θ, which is defined as the x-value of the point of intersection of the unit circle and a line containing the origin that makes an angle θ with the positive x-axis
+
+The value returned depends on whether the calculator is in {{[[[radian-mode|Radian]]]}} or {{[[[degree-mode|Degree]]]}} mode. A full rotation around a circle is 2π radians, which is equal to 360°. The conversion from radians to degrees is angle*180/π and from degrees to radians is angle*π/180. The {{cos(}} command also works on a list of real numbers.
+
+In radians:
+[[code]]
+cos(π/3)
+    .5
+[[/code]]
+
+In degrees:
+[[code]]
+cos(60)
+    .5
+[[/code]]
+
++ Advanced Uses
+
+You can bypass the mode setting by using the {{[[[degree-symbol|°]]]}} (degree) and {{^^[[[radian-symbol|r]]]^^}} (radian) symbols.  These next two commands will return the same values no matter if your calculator is in degrees or radians:
+[[code]]
+cos(60°)
+    .5
+[[/code]]
+[[code]]
+cos(π/3ֿ¹ )
+    .5
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#datatype|ERR:DATA TYPE]]]** is thrown if you supply a matrix or a complex argument.
+* **[[[errors#argument|ERR:ARGUMENT]]]** is thrown if you use more than one number.
+* **[[[errors#domain|ERR:DOMAIN]]]** is thrown if you supply an input ≥1E12.
+
++ Related Commands
+
+* {{[[[sin(]]]}}
+* {{[[[arcsin|sin‾¹(]]]}}
+* {{[[[arccos|cos‾¹(]]]}}
+* {{[[[tan(]]]}}
+* {{[[[arctan|tan‾¹(]]]}}
+
++ See Also
+
+* [[[lookuptables |Look-Up Tables]]]

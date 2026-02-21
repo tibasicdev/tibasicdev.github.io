@@ -1,0 +1,26 @@
+[[include inc:68k-command
+|picture=approx.png
+|summary=Gives a decimal approximation of an expression.
+|syntax=approx(//expression//)
+
+|location=
+While on the home screen:
+* Press F2 to enter the Algebra menu.
+* Press 5 to paste approx(.
+
+|size=7 bytes
+]]
+
+The {{approx()}} command forces an expression to be evaluated in approximate mode, temporarily ignoring the mode setting. It's equivalent to pressing ♦ and ENTER when performing a calculation on the home screen.
+
+[[code]]
+:approx(π)
+           3.14159265359
+[[/code]]
+
+When applied to a complicated expression, matrix, or list, it approximates every number that occurs there.
+
++ Related Commands
+
+* {{[[[68k:exact()]]]}}
+* {{[[[68k:round()]]]}}

@@ -1,0 +1,9 @@
+This is the page that allows you to notify the TI-Basic Developer community of any news related to the site.
+
+||~ [[[news |83 Portal]]] ||~ [[[68k:news |68k Portal]]] ||~ [[[nspire:news |Nspire Portal]]] ||~ [[[all-news |All Portals]]] ||
+|| [http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_83portal Add news] ||[http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_68kportal Add news] ||[http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_nspireportal Add news] ||[http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_all-portals Add news] ||
+
+If you have an announcement that needs to be heard, then please select the appropriate portal.
+
+||~ [[[news |83 Portal]]] ||~ [[[68k:news |68k Portal]]] ||~ [[[nspire:news |Nspire Portal]]] ||~ [[[all-news |All Portals]]] ||
+|| [http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_announcement%20_83portal Add Announcement] || [http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_announcement%20_68kportal Add Announcement] || [http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_announcement%20_nspireportal Add Announcement] ||[http://tibasicdev.wikidot.com/news:news/edit/true/t/2262207/tags/_news%20_announcement%20_all-portals Add Announcement] ||

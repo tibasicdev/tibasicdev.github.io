@@ -1,0 +1,80 @@
+[[code type="css"]]
+#header,
+#side-bar,
+#top-bar,
+#footer,
+#license-area,
+#page-title,
+#navi-bar,
+#navi-bar-shadow,
+#breadcrumbs,
+.page-tags,
+#page-info,
+.page-watch-options,
+.page-options-bottom,
+#footer-bar,
+#login-status,
+.search-top-box,
+.note-block,
+#edit-cancel-button{
+    display: none !important;
+}
+
+#action-area h1, #edit-page-form tbody tr:first-child{
+    display: none !important;
+}
+ 
+#main-content, #container-wrap, #container{
+    margin: 0;
+}
+
+table.form-table,
+div.field-content,
+textarea.field-content{    width: 100%; }
+td.form-labels{    width: 50px; }
+
+tr.form-row p{    margin: 0; }
+div.field-charOne,
+div.field-charTwo{
+    margin-left: 92px; //30px;
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 9pt;
+    color: #11119C;
+}
+
+div.field-content textarea{
+    border-radius: 4px;
+    opacity: .4;
+    transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity: 500ms;
+}
+div.field-content textarea:focus{
+    opacity: 1;
+}
+span.field-attachment input,
+span.field-name input{
+    opacity: .4;
+    transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity: 500ms;
+}
+span.field-attachment input:focus,
+span.field-name input:focus{    opacity: 1; }
+
+#edit-save-button{
+    border-radius: 4px;
+    box-shadow: 0 0 2px -2px rgba(0,0,0,.3);
+    margin-left: 58px;
+}
+.page-tags{    visibility: hidden; }
+
+.werecode{
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 9pt;
+    color: #11119C;
+}
+div.werecode{    padding-left: 1em; }
+[[/code]]

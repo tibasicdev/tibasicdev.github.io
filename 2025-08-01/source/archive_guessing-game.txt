@@ -1,0 +1,21 @@
+author: VersePerMile
+version: 4.2.5
+summary: ''
+description: 'This game allows the player to chose what range they would like, and also make a custom one. it even asked (after a couple of tries) if the player wants a hint. please report any bugs to me Thx!!'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:guess-4-3-5/GUESS-4-3-5.8xp'
+image: null
+fileSize: '790'
+fileSizeUnit: '1'
+dateMade: ''

@@ -1,0 +1,8 @@
+[[include inc:badge
+|image=http://tibasicdev.wikidot.com/local--files/files/regular.png
+|title=Regular Contributor
+|description=This badge is awarded for being a regular contributor to the [/ \
+[[include inc:tibd{$br}]
+[!----] ]
+|br=]
+]]

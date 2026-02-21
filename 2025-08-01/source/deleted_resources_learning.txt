@@ -1,0 +1,18 @@
+Besides reading the programming information that the wiki provides, there are several additional TI-Basic tutorials and guides that other people have created that you might find handy. As quality tutorials and guides are hard to come by for TI-Basic and Assembly, some of the tutorials and guides listed here are not that great (they are unfinished or have holes in their content). Still, having the information to read and learn from is better than the converse.
+||~ Name ||~ Author ||
+|| [http://library.thinkquest.org/25018/english/text/pro/tibasic/ UCS TI-Basic Tutorial] ||= ? ||
+|| [http://ti.8k.com/basic.html TI Source - TI-83+ Basic Programming] ||= ? ||
+|| [http://tifreakware.net/tutorials/83p/b/tifw/ TI-Freakware BASIC Tutorial] ||= Daniel Thorneycroft ||
+|| [http://www.cemetech.net/projects/btutor/ Kerm Martian's Complete TI-83/+/SE BASIC Tutorials] ||= Kerm Martian ||
+|| [http://www.bgo.netfirms.com/ BASIC Guru Online Tutorials] ||= Ben Ilegbodu ||
+|| [http://tatay.kenosha.wi.us/TiBasic/ TI 83 BASIC Tutorial] ||= Jacob W. Tatay ||
+|| [http://www.ticalc.org/archives/files/fileinfo/362/36246.html TI-83 BASIC Tutorial (Portuguese)] ||= Sérgio Santos ||
+|| [http://www.ticalc.org/archives/files/fileinfo/297/29712.html Basic on TI-82-83+SE] ||= Yannick Wrtal ||
+|| [http://www.ticalc.org/archives/files/fileinfo/122/12249.html Programming On The TI-82] ||= Andy Gelzleichter ||
+|| [http://www.ticalc.org/archives/files/fileinfo/113/11334.html BASIC Tutor] ||= Hieu-Trung Le ||
+|| [http://www.goldfiles.com/downloads/251/GoldFiles_TI83_Tutorial.pdf Programming with the TI-83] ||= Chris Neugebauer ||
+|| [http://odin.prohosting.com/mjs2k/tutorials/index.htm mjs2000 inc. Tutorials] ||= ? ||
+|| [http://ti86world.tripod.com/programming.htm Rogue's TI-86 Basic Tutorial] ||= ? ||
+|| [http://www.geocities.com/heaneysoft/Tutorial/index.html HeaneySoft BASIC Tutorial] ||= ? ||
+|| [http://www.geocities.com/Rujitaku/index.htm TI-83 Programming Tutorials] ||= Lue Her and Andy Becker ||
+|| [http://matt.lee3491.googlepages.com/tutorial1 TI-BASIC for noobs] ||= ? ||

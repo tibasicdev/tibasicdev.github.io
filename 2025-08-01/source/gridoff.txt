@@ -1,0 +1,18 @@
+[[include inc:command
+|picture=GRIDOFF.GIF
+|summary=Disables the grid on the graph screen.
+|syntax=GridOff
+|location=Press:
+# 2nd FORMAT to access the graph format menu.
+# Use arrows and ENTER to select GridOff.
+|compatibility=TI-83/84/+/SE
+|size=2 bytes
+]]
+
+The {{GridOff}} command disables the grid on the graph screen. This is the default setting. Use {{[[[GridOn]]]}} to enable the grid.
+
++ Related Commands
+
+* {{[[[GridOn]]]}}
+* {{[[[AxesOn]]]}}
+* {{[[[AxesOff]]]}}

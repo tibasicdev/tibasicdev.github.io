@@ -1,0 +1,43 @@
+[[module ListPages category="archive-categories" tags="@URL"]]
+[[include inc:heading heading=%%title%%]]
+> %%content%%
+> 
+> We accept any program that you wrote and would like to [[[archives:_upload| add to our archives]]].  To see a list of all programs, check [[[archives| here]]].
+>
+> If you have questions about any of the programs, please contact the respective author (if there is a link) or leave a post in the [[[forum:home|forum]]]. You may also want to view the [[[archives:_FAQ|FAQ]]]. Enjoy!
+[[/module]]
+
+[[include inc:archivesdropbar]]
+
+[[module ListPages category="archives" tags="@URL" limit="@URL|20" perPage="@URL" order="@URL|random" range="others"]]
+[[iftags -_new]]
+%%content%%
+[[>]]
+**Rating: %%rating%%** ([[[%%fullname%% |click here]]] to rate this program!)
+[[/>]]
+[[/iftags]]
+[[iftags _new]]
+[[include inc:tablet
+|name=%%title%%
+|author=%%form_data{author}%%
+|description=%%form_data{description}%%
+|compatibility=%%parent_title%%
+|picture=http://tibasicdev.wdfiles.com/local--files/%%form_data{image}%%
+|downloadUrl=http://tibasicdev.wdfiles.com/local--files/%%fullname%%/%%form_data{download}%%
+|downloadName=%%form_data{download}%%
+|size=%%form_data{size}%% %%form_data{unit}%%
+]]
+[[>]]
+**Rating: %%rating%%**
+[[/>]]
+[[/iftags]]
+------
+[[/module]]
+
+[[module ListPages category="archive-categories" tags="@URL" limit="1"]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/tags/%%tags%%/perPage/999/limit/999 View ALL programs of this category in random order...]
+[[/module]]
+
+[[div style="display : none;"]]
+[[module Redirect destination="http://tibasicdev.wikidot.com/archives"]]
+[[/div]]

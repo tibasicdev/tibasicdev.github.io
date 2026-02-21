@@ -1,0 +1,31 @@
+[[table style="border:1px solid #666; margin-right:auto;margin-left:auto; width: 610px; padding: 5px; margin-top: 10px; background:#fff;"]]
+[[row]]
+[[cell style="text-align: center;"]]
+**[[[archives|All]]]**
+[[/cell]]
+[[cell style="border-left: 2px solid #666; text-align: center;"]]
+**View Programs:**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_83|TI-83]]]**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_83p|TI-83 Plus]]]**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_84p|TI-84 Plus]]]**
+[[/cell]]
+[[cell style="border-left: 2px solid #666; text-align: center;"]]
+**Upload Program:**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_upload:83|TI-83]]]**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_upload:83p|TI-83 Plus]]]**
+[[/cell]]
+[[cell style="text-align: center;"]]
+**[[[archives:_upload:84p|TI-84 Plus]]]**
+[[/cell]]
+[[/row]]
+[[/table]]

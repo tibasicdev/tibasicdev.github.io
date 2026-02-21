@@ -1,0 +1,1 @@
+…that you can use check {{[[[max(]]]N=L₁}} to check if N is in L₁, and {{1+[[[sum(]]][[[not(]]][[[cumSum(]]]N=L₁}} to tell where?

@@ -1,0 +1,30 @@
+[[include inc:command
+|picture=SINHINVERSE.GIF
+|summary=Calculates the inverse hyperbolic sine of a value.
+|syntax=sinhֿ¹(//value//)
+|location=The sinhֿ¹( command is only found in the catalog. Press:
+# 2nd CATALOG to access the command catalog.
+# S to skip to commands starting with S.
+# Scroll down and select sinhֿ¹(
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The sinhֿ¹( command calculates the inverse hyperbolic sine of a value. sinhֿ¹(x) is the number y such that x = sinh(y). Unlike for the standard trig functions, this uniquely determines the inverse hyperbolic sine of any real number.
+
+The sinhֿ¹( command also works for lists.
+
+[[code]]
+sinhֿ¹(0)
+	0
+sinhֿ¹({1,2,3})
+	{.881373587 1.443635475 1.818446459}
+[[/code]]
+
++ Related Commands
+
+* [[[sinh(]]]
+* [[[cosh(]]]
+* [[[arcosh|coshֿ¹(]]]
+* [[[tanh(]]]
+* [[[artanh|tanhֿ¹(]]]

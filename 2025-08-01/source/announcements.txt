@@ -1,0 +1,5 @@
+[[module ListPages category="news" tags="+_announcement" perPage="50"]]
+%%content%%
+[[/module]]
+
+[[[add-news| Add Announcement]]]>>

@@ -1,0 +1,17 @@
+author: kdnooij
+description: 'The most addictive game is now made for the TI-84 Plus Calculator with nice graphics! Enjoy playing for a while! (maybe a bit longer than that)'
+arcade: '1'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: 'archives:cookie-clicker-2/CookieClicker2.gif'
+download: CookieClicker2.zip
+size: '4107'
+unit: '1'

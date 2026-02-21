@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Mar
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=04
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user GoVegan]] uploaded the first [/portable Portable Guide] in [http://tibasicdev.wikidot.com/local--files/portable/TI%7CBD_portable_guide.pdf PDF form] (4.05mb). It is not a spectacular refined and polished version, and has many flaws. But at least we can see how the site renders when expanded to 150% on A4 sized paper. We will need to make some changes to some pages for better printability. Hooray! A milestone has been reached!
+]]

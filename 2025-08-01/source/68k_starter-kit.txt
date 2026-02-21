@@ -1,0 +1,43 @@
+[[table style="width: auto; margin: auto auto 25px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="font-size: 125%; padding: 10px;"]]
+**//Welcome to the TI-Basic Developer (TI|BD) 68k Basic Starter Kit!//** This tutorial is designed to help new 68k programmers get their feet off the ground. The tutorial is divided into chapters that each have their own focus, and is meant to be read in sequential order. If you have questions or get stuck, leave a post on the [http://tibasicdev.wikidot.com/forum/c-32784/68k-programming forums] and somebody will assist you. **//Happy coding!//**
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width:90%; margin: 0;"]]
+[[row]]
+[[cell style="width:35%; vertical-align: top;"]]
+
+**1. Getting Started**
+# [[[68k:sk-intro|Introduction to 68k Basic]]]
+# [[[68k:sk-overview|Overview of 68k Basic]]]
+# [[[68k:sk-firstprog|Your First Program]]]
+# [[[68k:sk-practices|Good Programming Practices]]]
+# [[[68k:sk-calculator|How to use your 68k Calculator]]]
+# [[[68k:sk-computer|Computer Setup]]]
+**2. The Basics of 68k Basic**
+# [[[68k:sk-functions|Intro to Functions in 68k Basic]]]
+# [[[68k:sk-counting|How to Make a Simple Counting Code in 68k Basic]]]
+# [[[68k:sk-comment|Overview of Variables and Comments]]]
+# [[[68k:sk-recursion|Intro to Recursion in 68k Basic]]]
+**3. Creating Games**
+# [[[68k:sk-arcade|How to make a Arcade Game]]]
+# [[[68k:sk-RPG|How to Make a RPG Game]]]
+# [[[68k:sk-mathgame|How to Make a Math Game]]]
+# [[[68k:sk-sports|How to Make a Sports Game]]]
+**4. Advanced Graphics**
+
+**5. Math Functions**
+
+**6. Optimization**
+
+**7. Putting It All Together**
+# [[[68k:sk-piat1|Putting It All Together Part 1]]]
+# [[[68k:sk-piat2|Putting It All Together Part 2]]]
+**8. Miscellaneous**
+
+[[/cell]]
+[[/row]]
+[[/table]]

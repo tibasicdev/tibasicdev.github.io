@@ -1,0 +1,61 @@
+[[include inc:cid]]
+
+You already know the Graph Screen is 95 pixels wide and 63 pixels high. You may want to change these settings a little bit. The dimensions of the window will directly affect all your commands in the Draw menu except for the [[[Pxl-On(]]], [[[Pxl-Off(]]] and the [[[Text(]]] commands.
+
+[[toc]]
+
+++ Window
+
+You can change the size of the Graph Screen. This is very useful when dealing with [[[Pt-On(]]] or [[[Pt-Off(]]] because you need to have a window that contains the coordinate you're using in Pt-On( and Pt-Off(. If the user already has a screen set to [[[ZStandard]]] and you write Pt-On(30,45) it won't work. 
+
+So, you can change Xmin, Xmax, Ymin or Ymax. They can be found by pressing Vars then 1:Window
+[[code]]:#→Xmin:#→Xmax
+:#→Ymin:#→Ymax[[/code]]
+
+Or you can change the zoom: [[[ZStandard]]] , [[[ZInteger]]]. They can be found in the Zoom menu near the "Y=" key
+
+[[code]]:ZStandard[[/code]]
+or
+[[code]]:ZInteger[[/code]]
+
+
+++ Functions
+
+You may want to turn off functions. The user may accidentally write Y=2X in his "Y=" window before using your program. To turn off all functions, simply use: [[[FnOff]]] (using the Vars menu, click right to go in Y-Vars then in 4:On/Off.)
+
+To have them back on: [[[FnOn]]]
+**When you turn the functions on, they'll draw in the screen so you may want to use this code wisely.
+
+++ Axes
+
+Another thing that may be annoying when you create a program and you use the Graph Screen is axes. You can turn them off by using [[[AxesOff]]] and [[[AxesOn]]] to have them back. These can be found by pressing 2nd function then Format
+
+++ Resetting
+
+When creating a program, you don't want the user to manually get back his settings. For this, you can simply but all back on at the end of the program.
+
+With this you can have all these settings back. To use the ClrDraw, go in 2nd, Draw then 1:ClrDraw
+[[code]]:ZStandard:AxesOn:FnOn:ClrDraw[[/code]]
+
+++ Example
+
+You can also input these variables and let the user choose the size of the screen:
+
+[[code]]:Input "Left: ",Xmin
+:Input "Right: ",Xmax
+:Input "Bottom: ",Ymin
+:Input "Top: ",Ymax
+:Input "Axes On ?[y,n]",Str1
+:If Str1="Y"
+:AxesOn
+:If Str1="N"
+:AxesOff[[/code]]
+
+
+[[include inc:next-prev
+|prevpage = sk:points
+|prevtitle = Drawing Points and Pixels
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:more-shapes
+|nexttitle = Drawing More Shapes]]

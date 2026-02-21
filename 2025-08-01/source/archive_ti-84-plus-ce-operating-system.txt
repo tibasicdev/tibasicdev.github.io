@@ -1,0 +1,21 @@
+author: 'Texas Instruments Incorporated, Uploader: [[*user Bio_Hazard1282_rPi3]]'
+version: 5.4.0.0034
+summary: 'Get the latest features for your TI-84 Plus CE graphing calculator by updating to the newest version using the new bundle file – includes apps!'
+description: "The version 5.4 upgrade is available for:\n\n* TI-84 CE graphing calculator\n* TI-84 CE apps\n\nUsing version 5.4 enhances the usability of your graphing calculator and ensures you have access to the latest features and functionality, including:\n\n* Graphing piecewise functions in a familiar form\n* TI-Basic editor improvements including cut/copy/paste and syntax improvements\n* OS/APPS/Images Bundle file — one file to update everything\n* Preset TI-SmartView™ CE emulator with different settings for your algebra, geometry and calculus classes\n* Rover Support\n\n**Copied from https://education.ti.com/en/product-resources/whats-new-84-ce**\n© Copyright 1995-2019 Texas Instruments Incorporated. All rights reserved.\n------\n+++ Disclaimer\nThe TI-84 Plus CE OS® is made by Texas Instruments® and protected by Copyright. Do not distribute the OS without written consent, share any of it's contents to other users, claim it as your own, or produce fraud versions of this operating system to the Internet. By downloading this OS you agree to TI's [*http://www.ti.com/corp/docs/legal/termsofuse.shtml?ref_url=https%3a%2f%2feducation.ti.com%2fen%2fproduct-resources%2fwhats-new-84-ce Terms and Conditions]. You also agree that you are not a bot.\n\n------\n##red|A new version (5.6) for the TI-84 Plus CE is available. The newer OS discontinues assembly permanently, most games (assembly ones) will no longer work anymore. Think __**very**__ carefully on upgrading! Basic games will continue to function as normal.## \n\n5.6 will never be added because nobody cares about it."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: ff
+download: 'archivefile:ti-84-plus-ce-5-4/TI-84-Plus-CE-5-4.zip'
+image: null
+fileSize: '4'
+fileSizeUnit: '3'
+dateMade: '1564034400'

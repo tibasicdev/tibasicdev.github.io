@@ -1,0 +1,1 @@
+[[module Pages category="archivefile" perPage="28" separate="no"]]

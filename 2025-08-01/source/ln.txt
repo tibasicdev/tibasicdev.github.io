@@ -1,0 +1,41 @@
+[[include inc:command
+|picture=LN.GIF
+|summary=Computes the (principal branch of the) natural logarithm.
+|syntax=ln(//value//)
+|location=Press the LN key to paste ln(.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The ln( command computes the natural logarithm of a value -- the exponent to which the constant //[[[e-value|e]]]// must be raised, to get that value. This makes it the inverse of the //[[[e-exponent|e^(]]]// command.
+
+ln( is a real number for all positive real values. For negative numbers, ln( is an imaginary number (so taking ln( of a negative number will cause [[[errors#nonrealans|ERR:NONREAL ANS]]] to be thrown in [[[real-mode|Real]]] mode), and of course it's a complex number for complex values. ln( is not defined at 0, even if you're in a complex mode.
+
++ Advanced Uses
+
+Using either the ln( or the [[[log(]]] command, logarithms of any base can be calculated, using the identity:
+[[math]] 
+\log_b{x} = \frac{\ln{x}}{\ln{b}} = \frac{\log{x}}{\log{b}} 
+[[/math]]
+
+So, to take the base B log of a number X, you could use either of the following equivalent ways:
+[[code]]
+:log(X)/log(B)
+[[/code]]
+[[code]]
+:ln(X)/ln(B)
+[[/code]]
+
+This is the exponent to which B must be raised, to get X.
+
++ Error Conditions
+
+* **[[[errors#domain|ERR:DOMAIN]]]** when calculating ln(0).
+* **[[[errors#nonrealans|ERR:NONREAL ANS]]]** if taking ln( of a negative number in [[[real-mode|Real]]] mode.
+
++ Related Commands
+
+* //[[[e-value|e]]]//
+* //[[[e-exponent|e^(]]]//
+* [[[log(]]]
+* [[[logBASE(]]]

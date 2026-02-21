@@ -1,0 +1,1 @@
+…that you can treat strings as always-undefined variables in symbolic math?

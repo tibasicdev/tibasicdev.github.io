@@ -1,0 +1,1 @@
+…that you can scroll the {{[[[Pause]]]}} command's optional argument to see it in its entirety?

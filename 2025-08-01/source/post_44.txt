@@ -1,0 +1,2 @@
+content: "Find the next number in the following sequence.  To date, no one has been able to find it.\n\n[[div style=\"font-size: 120%;\"]]\n* 9, 0, 2, 6, 94, 10, 42, __?__\n[[/div]]"
+attachment: null

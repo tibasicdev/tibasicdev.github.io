@@ -1,0 +1,34 @@
+{$part1begin}
+
+> To add any news, move the fifth news item from {$part3} to {$part4}, and add a new news item to {$part3}. The date format is day/month.
+> 
+> See the [[[deleted:68k:oldnews|News Archive]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
++ 2008
+
+{$part2end}
+{$part3begin}
+**04/09** — [[user burr]], the founder of the site, has finished contributing to the site, and moved on to other projects. (see his goodbye [http://tibasicdev.wikidot.com/forum/t-86243/the-time-has-come here])
+**01/09** — TI-Basic Developer has now existed for approximately two years. Thanks to all that made it a great year, and may the next year be even more successful and exciting.
+**11/06** — [[user GoVegan]] created a "New Members" section on the [[[68k:home]]] page
+**18/05** — The development of the TI|BD [[[logo|site logo]]] is complete, and has now replaced the previous site header.
+**15/05** — [[user GoVegan]] has set up a new framework for infoboxes.
+{$part3end}
+{$part4begin}
+**04/05** — [[user krazyness]] initiated the development of the TI|BD [[[logo|site logo]]], to replace the current header.
+**02/04** — The [[[68k:home]]] page has been updated to automatically retrieve text for news, "did-you-know" tips, and featured articles.
+**02/04** — [[user GoVegan]] made the [[[68k:home|Start]]] page automatically retrieve the first 5 news items from the [[[deleted:68k:oldnews|old news]]] section.
+**30/03** — [[user burr]] started the [[[68k:downloads|downloads]]] page, and added all of the 68k tutorials that he found on the Internet.
+**13/03** — [[user DarkerLine]] added [[[inc:overview|include]]] pages which make adding a new command page much easier. Go for it!
+**08/02** — [[user DarkerLine]] started a [[[68k:tokenization|tokenization]]] page, detailing what tokenization is and how it impacts program size and optimization.
+**02/02** — [[user DarkerLine]] put together a [[[68k:thecalcs|calculators]]] page, which provides a brief, but detailed look at the different calculators and their specifications.
+**01/02** — [[user DarkerLine]] started the [[[68k:key-codes|key codes]]] page, as well as the [[[68k:character-codes|character codes]]] page.
+**31/01** — [[user burr]] created 68k versions of all of the relevant system pages, which will hopefully minimize any ambiguity or uncertainty about where you are on the site.
+**31/01** — [[user DarkerLine]] added an [[[68k:errors|errors]]] page that lists all of the possible error messages that can occur, including the error numbers and their descriptions.
+**29/01** — [[user DarkerLine]] begins work on this section of the site, creating the [[[68k:home|homepage]]], [[[nav:68k-top|top navigation]]], [[[template:command-68k|command stub]]] and the [[[68k:command-index|command index]]].
+{$part4end}
+
+[!-- Code thanks to GoVegan --]

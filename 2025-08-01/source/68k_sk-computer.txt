@@ -1,0 +1,7 @@
+[[include inc:next-prev
+|prevpage = 68k:sk-calculator
+|prevtitle = Setting up your 68k calculator
+|tocpage = 68k:starter-kit
+|toctitle = Table of Contents
+|nextpage = 68k:sk-functions
+|nexttitle = Functions in 68k Basic]]

@@ -1,0 +1,3 @@
+name: Zeda
+content: "Yes, I like that it is on one line :) As well, what happens if one is signed in, but enters a name in the box?\n\n**EDIT:** Cool, so it uses a default icon and posts basically as if you aren't logged in."
+attachment: null

@@ -1,0 +1,28 @@
+> @@[[@@include inc:command
+> |picture=@@
+> |summary=@@
+> |syntax=@@
+> |location=@@
+> |compatibility=@@
+> |size=@@
+> ]]
+
+++ |picture=
+If the image is embedded on the same page, then only the full name of the image is to be written here. Otherwise, simply paste the full URL of the image.
+
+++ |summary=
+Just type in a brief description of the command
+
+++ |syntax=
+Enter the general syntax of the command
+
+++ |location=
+Give step by step instructions of how to paste the command into the program. Separate each step with a new line, beginning each line with a # and a space following it. For example:
+@@# @@//Step One//
+@@# @@//Step Two//
+
+++ |compatibility=
+Enter the calculators compatible with a syntax similar to the example used for all calculators: TI-83/84/+/SE
+
+++ |size=
+Just enter the number of bytes the token takes up, and the word byte or bytes. For example, **|size=1 byte** or **|size=2 bytes**

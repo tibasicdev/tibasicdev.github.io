@@ -1,0 +1,21 @@
+author: Myles_Zadok
+version: '1.0'
+summary: 'Calculates the four roots of a quartic equation.'
+description: 'Asks the user for the coefficients of the five quartic terms and calculates the value of each of the four roots.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:quartic/QUARTIC.8xp'
+image: null
+fileSize: '333'
+fileSizeUnit: '1'
+dateMade: '1491886800'

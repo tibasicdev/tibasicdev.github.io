@@ -1,0 +1,6 @@
+[[module ListPages order="titleAsc" perPage="1000" skipCurrent="true" categories="*" tags="-redirect +optimization"]]
+[[include inc:heading heading=%%title%%]]
+%%content%%
+~~~~
+[[size 80%]]For the most up-to-date version of this command, see [*%%link%% %%link%%][[/size]]
+[[/module]]

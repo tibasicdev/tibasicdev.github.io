@@ -1,0 +1,21 @@
+author: 'John Hoffmann'
+version: '1.0'
+summary: "Spend each day trying to keep your dog alive and happy. \n"
+description: 'Your dog starts out fine, but as time goes on, many terrible things will stop you from being able to properly take care of your dog. Find the strategy that will keep them alive and happy! '
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: null
+image: null
+fileSize: '12655'
+fileSizeUnit: '1'
+dateMade: '1644735600'

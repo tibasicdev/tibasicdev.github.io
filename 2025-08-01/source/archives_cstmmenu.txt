@@ -1,0 +1,17 @@
+author: 42maelstrom
+description: "A fully customizable, scrolling menu created for Codebender's custom menu contest. \nFeatures a side scroll bar and supports however many options as you want! To use, store a string as Ans like so:\n:\"Title,option 1,option 2, option 3, option 4\n\nFor however many options you want, each seperated by a comma. \n\nUses variables LQ, Str1, GDB 0,\n\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: '/archives:cstmmenu/SCREENMENU.png'
+download: MENU42(1).8xp
+size: '970'
+unit: '1'

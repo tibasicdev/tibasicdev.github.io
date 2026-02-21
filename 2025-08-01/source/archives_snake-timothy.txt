@@ -1,0 +1,25 @@
+[[include inc:tablet
+|name=Snake
+|author=[http://tibasicdev.wikidot.com/member:timothy-foster Timothy Foster]
+|size=994 bytes
+
+|description=
+This Snake game is not like the normal snake game.  In this game, you are trying to outlive your opponent, a basic AI, by not running into any walls or plus signs.  The longer you last, the more points you earn.  You also earn points by collecting donut like squares.  The moment you collide with a wall, a plus sign, your tail, or your opponent's tail, you lose and the game ends.
+
+As you move, you create a wall behind you which permanently remains there.  You continue in a straight path until you change direction with the press of one of the arrow keys.  If the AI runs into a wall, you progress to the next level.
+
+This game features a title screen, quick and addictive game play, and a highscore system.  Have fun!
+
+If you need to quit while in the middle of program operation, press {{CLEAR}}.
+
+This program was my entry for [/challenges#8 Challenge 8].
+
+
+|PLEASE REMOVE the following words that do NOT describe your program:
+|Arcade
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=http://tibasicdev.wikidot.com/local--files/challenges:19/SNAKE.BMP
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/challenges:19/CHLG8.zip
+|downloadName=CHLG8.zip
+]]

@@ -1,0 +1,172 @@
+When using [[[while|loops]]] you want to make them as compact as possible. This starts with moving invariant code outside the loops. You only want loops to contain expressions whose values change within the loops. If something only happens once, it should be outside the loop.
+
+[[code]]
+:For(X,1,5
+:5→Y
+:Disp X
+:End
+can be
+:5→Y
+:For(X,1,5
+:Disp X
+:End
+[[/code]]
+
+You also want to minimize the calculations inside loops. This not only includes cutting down on the number of storages, but how often variables are used and what they are used for. This can increase the size, however.
+
+[[code]]
+:For(X,1,10
+:A+length(Str1→A
+:End
+can be
+:length(Str1→B
+:For(X,1,10
+:A+B→A
+:End
+[[/code]]
+
+Another way to minimize calculations inside loops is to use constant increments. This makes the loop faster, but it also makes it larger.
+
+[[code]]
+:For(X,0,10
+:Disp 10X
+:End
+can be
+:For(X,0,100,10
+:Disp X
+:End
+[[/code]]
+
+You should combine two or more loops that are in close proximity if they use the same number of iterations and don't affect each other. Combining loops may take some ingenuity.
+
+[[code]]
+:For(X,1,10
+:B+X→B
+:End
+:For(Y,1,10
+:A+A/Y→A
+:End
+can be
+:For(X,1,10
+:B+X→B
+:A+A/X→A
+:End
+[[/code]]
+
+Loop unrolling reduces the number of times you check the condition in a loop, with two or more of the same statements being executed for each iteration. If the loop is small enough, you can even unroll the whole loop. This will usually increase the size but also make it faster.
+
+[[code]]
+:5→dim(L1
+:For(X,1,5
+:2A→L1(X
+:End
+can be
+:5→dim(L1
+:2A→L1(1
+:2A→L1(2
+:2A→L1(3
+:2A→L1(4
+:2A→L1(5
+[[/code]]
+
+[[[For(]]] loops are best used when you know how many times the loop will be executed. Because the fourth argument is optional (one is the default), you should always try to leave it off.
+
+[[code]]
+:For(X,1,8,1
+:End
+can be
+:For(X,1,8
+:End
+[[/code]]
+
+You can sometimes rewrite For( loops and the commands inside them so you can remove the fourth argument.
+
+[[code]]
+:For(X,8,0,-1
+:Disp X
+:End
+can be
+:For(X,0,8
+:Disp 8-X
+:End
+[[/code]]
+
+If you have an [[[If]]] conditional around the outside of a For( loop, you should see if there is a way to combine it with the For( loop using Boolean logic.
+
+[[code]]
+:If A>10:Then
+:For(X,1,50
+:End:End
+can be
+:For(X,1,50(A>10
+:End
+[[/code]]
+
+One of the common uses of [[[For(]]] loops is to slow programs down. Instead of For( loops, you should use [[[rand|rand(]]]# or If dim(rand(#. Both of these create lists of random numbers, with a larger number meaning a larger delay; the second one preserves the [[[Ans]]] variable as well.
+
+[[code]]
+:For(X,1,75
+:End
+can be
+:rand(25
+[[/code]]
+
+This method generally works well for small delays, but it is better to use For( loops for large delays. This is because the rand(# technique is limited by the RAM storage availability, and has a maximum delay of 999 (being a list variable).
+
+[[code]]
+:rand(200
+can be
+:For(X,1,600
+:End
+[[/code]]
+
+[[[Repeat]]] loops will loop until the expression is true, and [[[While]]] loops will loop while the expression is true. Repeat loops are tested at the end of the loop which means they will be executed at least once. This allows you to not always have to set the variables in the expressions, which is the case with While loops. If the expression in a While loop is false before it is tested, the loop will be skipped over. This is sometimes desired if the expression fits that format.
+
+[[code]]
+:DelVar A
+:While not(A
+:getKey→A
+:End
+can be
+:Repeat A
+:getKey→A
+:End
+[[/code]]
+
+If you need a loop that loops forever (i.e., an infinite loop), use Repeat 0 or While 1 instead of Goto/Lbl.
+
+[[code]]
+:Lbl A
+:Disp "Hello
+:Goto A
+can be
+:Repeat 0
+:Disp "Hello
+:End
+[[/code]]
+
+Goto/Lbl loops should be used sparingly. When [[[Goto]]] is encountered, it notes the [[[Lbl]]] and proceeds to search for it from top to bottom in the code. This can really be slow if the Lbl is deep within the program. It also has the tendency to make your code harder to follow and maintain. And, if you use a Goto to exit a loop or a conditional that uses an [[[End]]] command, it can lead to [[[memory leaks]]] (causing your program to crash).
+
+[[code]]
+:Repeat 0
+:getKey→B
+:If B
+:Goto A
+:End
+:Lbl A
+can be
+:Repeat B
+:getKey→B
+:End
+[[/code]]
+
+When all a For( loop does is store expressions to a list, you can replace it with a [[[seq-list|seq(]]] (sequence) command. The sequence command can also be used with other variables.
+
+[[code]]
+:5→dim(L1
+:For(X,1,5
+:2A→L1(X
+:End
+can be
+:seq(2A,X,1,5→L1
+[[/code]]

@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: "Man, now I know what I'm missing. I though I was just missing the background and some styling.\nOnce this is finished, will the css sheets be able to be hosted on this subdomain in place of the original stuff? That would be awesome :D"
+attachment: null

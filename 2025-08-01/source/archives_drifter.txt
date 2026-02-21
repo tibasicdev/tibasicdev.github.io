@@ -1,0 +1,17 @@
+author: ztrumpet
+description: "Drifter is a game in which you slide until you hit an object.\nThere are many pieces that you will come in contact with that change the direction you're going.\nCollect all the +s and/or numbers 1-9 then reach the flag to win.\nDrifter includes 16 levels and a custom level editor for endless hours of fun."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: '/archives:drifter/drifter-video.gif'
+download: drifter.zip
+size: '11056'
+unit: '1'

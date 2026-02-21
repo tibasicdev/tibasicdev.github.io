@@ -1,0 +1,41 @@
+[[include inc:68k-command
+|picture=cos.png
+|summary=Takes the cosine of a number (usually, an angle).
+|syntax=cos(//angle//)
+
+|location=Press the COS button to enter cos(.
+
+|size=1 byte
+]]
+
+
+The {{cos()}} command returns the [http://mathworld.wolfram.com/Cosine.html cosine] of an angle measure. Naturally, the result depends on the angle [[[68k:setmode|mode]]] the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the ^^{{[[[68k:radian|r]]]}}^^, {{[[[68k:degree|°]]]}}, ^^{{[[[68k:gradian|G]]]}}^^ marks to specify an angle mode.
+
+For many common angles, {{cos()}} can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in radian [[[68k:mode-settings|mode]]], {{cos()}} can be used with complex numbers as well.
+
+[[code]]
+:cos(60°)
+           1/2
+:cos(x+2π)
+          cos(x)
+:cos(πi/2)
+          cosh(π/2)
+[[/code]]
+
+If {{cos()}} is applied to a list, it will take the cosine of every element in the list.
+
++ Advanced Uses
+
+The {{cos()}} of a matrix is not (in general) the same as taking the cosine of every element of the matrix. A different definition is used to compute the result; see [[[68k:matrices#toc2|]]]. It requires the matrix to be square and diagonalizable in order to apply.
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=taking {{cos()}} of a matrix that isn't square]]
+[[include inc:68k-error num=260|error=Domain error|cause=taking {{cos()}} of a complex number in degree or gradian mode]]
+[[include inc:68k-error num=665|error=Matrix not diagonalizable|cause=taking {{cos()}} of a matrix that isn't diagonalizable]]
+
++ Related Commands
+
+* {{[[[68k:sin()]]]}}
+* {{[[[68k:tan()]]]}}
+* {{[[[68k:arccos|cosֿ¹()]]]}}

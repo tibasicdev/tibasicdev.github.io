@@ -1,0 +1,1 @@
+If you start a variable transfer while in a program, it will end the program.  I believe, that the calc can do getcalc to the computer.  I will test it on Monday.

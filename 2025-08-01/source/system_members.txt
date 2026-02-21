@@ -1,0 +1,6 @@
+[!-- The member page makes this page redundant.
+
+I would delete this page and create a redirect to the member page, however; there are many forum links that link directly to headings in this page directly: [http://tibasicdev.wikidot.com/system:members#administrators admins]
+
+Creating a redirect wouldn't direct them to the heading on the member page. --]
+[[include member]]

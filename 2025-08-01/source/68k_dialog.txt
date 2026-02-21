@@ -1,0 +1,59 @@
+[[include inc:68k-command
+|picture=dialog.png
+|summary=Displays a dialog box for input or output.
+|syntax=:Dialog
+//(dialog elements)//
+:EndDlog
+
+|location=
+Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 1 to enter the Dialog submenu.
+* Press 5 to paste Dialog..EndDlog.
+
+|size=2 bytes for Dialog;
+2 bytes for EndDlog.
+]]
+
+A {{Dialog}}..{{EndDlog}} block is used to display a [wikipedia:Dialog_box dialog box] that can be used for input, output, or both. There are several commands that can be used inside {{Dialog}}..{{EndDlog}} to determine its content:
+
+* At most one {{[[[68k:Title]]]}} instruction (to add a title).
+* {{[[[68k:Text]]]}} (to add a line of text).
+* {{[[[68k:Request]]]}} (to add a text entry box).
+* {{[[[68k:DropDown]]]}} (to add a drop-down menu).
+
+Except for the {{Title}} instruction, you can mix and match any number of these (as many as will fit on the screen), and their order will determine the order they are displayed. Finally, two "buttons" labeled Enter=OK and ESC=CANCEL will be displayed at the bottom of the dialog box.
+
+Here is a typical dialog box to input a variable name:
+[[code]]
+:Dialog
+: Title "Load file"
+: Request "File name", name
+: Text "(include folder name if not ""main"")"
+:EndDlog
+[[/code]]
+
++ Advanced Uses
+
+The [[[68k:system-variables|system variable]]] "ok" will detect if Enter or ESC was used to exit the dialog: it will have a value of 1 if Enter was used, and 0 for ESC. 
+
+This is particularly important when you're looking for input. If ESC is used, then the variables used in {{Request}} or {{DropDown}} will not be changed from what they were before (if they were undefined, they will remain undefined). It's probably a good idea to detect that sort of thing.
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=the dialog would be too wide or too tall to fit on the screen]]
+[[include inc:68k-error num=470|error=Invalid in Dialog..EndDlog block|cause=instructions other than {{[[[68k:Title]]]}}, {{[[[68k:Text]]]}}, {{[[[68k:Request]]]}}, {{[[[68k:DropDown]]]}} are used]]
+[[include inc:68k-error num=590|error=Invalid syntax block|cause=something miscellaneous goes wrong, e.g. there is more than one {{[[[68k:Title]]]}}]]
+[[include inc:68k-error num=730|error=Missing start or end of block syntax|cause=the {{Dialog}} is missing its {{EndDlog}}, or vice versa]]
+
++ Related Commands
+
+* {{[[[68k:ToolBar]]]}}..{{EndTBar}}
+* {{[[[68k:Text]]]}}
+* {{[[[68k:Request]]]}}
+* {{[[[68k:DropDown]]]}}
+* {{[[[68k:PopUp]]]}}
+
++ See Also
+
+* [[[68k:Dialogs]]]

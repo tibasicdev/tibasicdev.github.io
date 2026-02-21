@@ -1,0 +1,70 @@
+[[include inc:command
+|picture=DEGREE%20(SYMBOL).GIF
+|summary=If the calculator is in radian mode, the ° (degree) symbol converts an angle to radians.
+|syntax=//angle//°
+|location=Press:
+# [2nd]
+# [Angle]
+# [Enter] or [1]
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+Normally, when the calculator is in radian mode, the trigonometric functions only return values calculated  in radians. With the ° symbol you can have the angle evaluated as if in degree mode because it converts the angle into radians.
+
+You can insert the degree symbol by pressing [2ND] [ANGLE] [ENTER].
+
+One full rotation around a circle is 2π radians, which is equal to 360°. To convert an angle in radians to degrees you multiply by 180/π, and to convert from degrees to radians multiply by π/180.
+
+In radian mode:
+[[code]]
+sin(45)		\\ actually calculating sin(2578.31)
+	.8509035245
+sin(45°)
+	.7071067812
+[[/code]]
+
+In degree mode:
+
+[[code]]
+sin(45)
+	.7071067812
+sin(45°)
+	.7071067812	\\ There's no difference when in degrees
+[[/code]]
+
++ Converting Degrees, Minutes & Seconds
+
+The degree symbol also allows you to convert degrees, minutes and seconds into decimal degrees. For example:
+
+[[code]]
+90°30'
+       90.5
+90°30'09"
+       90.5025
+[[/code]]
+
+The minute symbol is inserted by pressing [2ND] [ANGLE] [2]. The seconds symbol is inserted via [ALPHA] [+].
+
+To convert back the other way (decimal to degrees-minutes-seconds) use the {{[[[dms|►DMS]]]}} command, accessed via [2ND] [ANGLE] [4]:
+
+[[code]]
+90.5025►DMS
+       90°30'09"
+[[/code]]
+
++ Optimization
+
+When you only call the trig function once in a program and want it calculated in degrees, instead of changing the mode you can just use ° to save one-byte (the newline from using the command Degree)
+
+[[code]]
+:Degree
+:sin(X)
+can be
+:sin(X°)
+[[/code]]
+
++ Related Commands
+
+* ^^[[[radian-symbol|r]]]^^ (radian symbol)
+* [[[dms|►DMS]]]

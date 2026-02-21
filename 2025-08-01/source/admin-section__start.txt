@@ -1,0 +1,30 @@
+[[collapsible show="+ Show layout" hide="- Hide layout"]]
+[[module PageTree showRoot="false"]]
+[[/collapsible]]
+
+[[table style="width:100%; border: 1px solid silver; font-weight:bold; margin-top:1em; padding-left:0.5em"]]
+  [[row class="header"]]
+    [[cell style="width:76%; font-size:110%"]] Section [[/cell]]
+    [[cell style="width:12%; text-align:center"]] Last edit [[/cell]]
+    [[cell style="width:12%; text-align:center"]] open / closed[[/cell]]
+  [[/row]]
+[[/table]]
+
+[!--
+    name = page name
+    label = what it should appear as on this page
+    shade = shade colour for the section
+--]
+[[include admin-forum:admin-section-summary | name=Design | label=Design | shade=#eeeeee]]
+[!--[[include admin-forum:admin-section-summary | name=General-Test | label=General-test | shade=#dfeed6]]
+
+ [[include :forum-template:include:section-summary | name=Designs | label=Wikidot design project | shade=#dfeed6]]
+ [[include :forum-template:include:section-summary | name=Iron-Giant | label=Iron Giant template sites project | shade=#ded6ee]]
+ [[include :forum-template:include:section-summary | name=Applications | label=Applications | shade=#e4d6ee]]
+ [[include :forum-template:include:section-summary | name=Themes | label=External themes project | shade=#d6d8ee]]
+ [[include :forum-template:include:section-summary | name=Packages | label=Wikidot packages project | shade=#eed6d6]]
+ [[include :forum-template:include:section-summary | name=Unclassified | label=Unclassified | shade=#d6eee8]]
+
+ Other shades you might like 
+#eee3d6
+--]

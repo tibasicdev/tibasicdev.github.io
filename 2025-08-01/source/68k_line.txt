@@ -1,0 +1,29 @@
+[[include inc:68k-command
+|picture=line.png
+|summary=Draws a line between a set of two coordinates.
+|syntax=Line xStart, yStart, xEnd, yEnd, drawmode
+
+|location=
+
+|size=X byte(s)
+]]
+
+The {{line}} command draws a line between two points. By default, the drawing mode is set to 1, which draws the line normally, so it doesn't have to be included if drawing a regular line.
+[[code]]
+Line 0, 3, 0, 9
+[[/code]]
++ Advanced Uses
+The drawmode can be set to 0 to draw a "white" line, which will remove the pixels on the path of the line.
+[[code]]
+Line 0, 3, 0, 9, 0 //removes the line
+[[/code]]
+You can also invert pixels on the line using -1 as the number argument.
+[[code]]
+Line 0, 3, 0, 9, -1
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:PtOn]]]}}
+* {{[[[68k:LineVert]]]}}
+* {{[[[68k:LineHoriz]]]}}

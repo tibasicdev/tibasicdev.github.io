@@ -1,0 +1,1 @@
+…that {{[[[iPart(]]]}} and {{[[[int(]]]}} will return the same answers for positive numbers, but {{int(}} will return an answer 1 less than {{iPart(}} for (non-integer) negative numbers?

@@ -1,0 +1,17 @@
+author: Zaetsi
+description: 'Take on your next door neighbor Ned in the water balloon war of the century. Change the angle and power of your throws to hit Ned and  collect points. More Power = More Points. The one with more points after 11 volleys shall be hailed Master of the Universe.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: '/archives:yard-wars/yard_wars.jpg'
+download: YARDWARS.8xp
+size: '4161'
+unit: '1'

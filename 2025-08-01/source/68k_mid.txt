@@ -1,0 +1,60 @@
+[[include inc:68k-command
+|picture=mid.png
+|summary=Selects a substring from a string, or a sublist from a list.
+|syntax=mid(//string-or-list//,//start//[,//count//])
+
+|location =
+* Press 2nd MATH to enter the MATH popup menu.
+* Press D to enter the String submenu.
+* Press 5 to paste mid(.
+
+|size=2 bytes
+]]
+
+The mid() command can be used in two ways: to select a sublist from a list, or a substring from a string. In both cases, the syntax is similar:
+* the first argument is the list or string to start with.
+* the second argument is the number of the first element or character to include, 
+* the third argument is how long the sublist or substring should be.
+
+That is, mid(//list//,//x//,//y//) will give a list of the //x//^^th^^ element, (//x//+1)^^th^^ element, and so on up to the (//x//+//y//-1)^^th^^ element of //list//. If //x//=2 and //y//=3, this will give a 3-element list starting from the 2^^nd^^ element.
+[[code]]
+:mid({1,2,3,4,5},2,3)
+	{2 3 4}
+[[/code]]
+For strings, mid(//string//,//x//,//y//) will give a //y//-character-long string starting from the //x//^^th^^ character of //string//:
+[[code]]
+:mid("TI-Basic",2,5)
+	"I-Bas"
+[[/code]]
+
+In practice, the mid() command is rarely useful for lists, although it might occasionally come in handy. It really shines with strings, since there is no other way to select a character from within a string. Whereas you might use list[5] to select the 5^^th^^ element of a list, with a string you have to write mid(string,5,1) to get that single character.
+
+A noteworthy feature of mid() is that out-of-bounds indices don't cause an error. If the length you give for the substring or sublist is more than the number of remaining characters or elements, then it will give you as many as there are, instead. If the value of //start//  happens to be past the end, then the output will be a null value: the empty list {} for a list, and the empty string "" for a string.
+
++ Optimization
+
+The third argument -- the length of the sublist or substring -- is optional if you want to include everything past the first element or character. For example:
+[[code]]
+:mid({1,2,3,4,5},3)
+	{3 4 5}
+:mid("TI-Basic",4)
+	"Basic"
+[[/code]]
+In this case, the result is the same as the result of [[[68k:right()]]], but the input is different.
+
+Furthermore, if you're always going to start at the beginning of the string, [[[68k:left()]]] is a better alternative to mid(): left(var,x) is equivalent to mid(var,1,x), and saves you a total of 3 bytes.
+[[code]]
+:mid(str,1,5)
+	can be
+:left(str,5)
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=//start// isn't positive, or //count// is negative]]
+
++ Related Commands
+
+* [[[68k:left()]]]
+* [[[68k:right()]]]
+* [[[68k:inString()]]]

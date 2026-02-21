@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=exact.png
+|summary=Gives the exact value of an expression.
+|syntax=exact(//expression//)
+
+|location=
+* Press [2nd] [MATH] to enter the [[[68k:math]]] menu.
+* Press 1 to open the Number submenu, or use arrows
+* Press [ENTER] to past exact(
+
+Alternativly, for ti-92/+/v200, type "exact(" using the keyboard.
+
+|size=6 bytes
+]]
+
+The {{exact()}} command forces an expression to be evaluated in exact mode, temporarily ignoring the mode setting.
+
+[[code]]
+:exact(15.376)
+           1922/125
+[[/code]]
+
+When applied to a complicated expression, matrix, or list, it forces every number that occurs there to be in exact form.
+
++ Related Commands
+
+* {{[[[68k:approx()]]]}}
+* {{[[[68k:round()]]]}}

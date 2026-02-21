@@ -1,0 +1,1 @@
+…that the {{[[[String►Equ(]]]}} command is completely useless, and you can store a string into one of the [[[system-variables#equation|equation variables]]] just using the → ([[[store]]]) operator?

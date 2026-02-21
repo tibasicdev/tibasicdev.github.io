@@ -1,0 +1,27 @@
+[[include inc:command
+|picture=VWAXES.GIF
+|summary=Sets the v and w sequence equations to be graphed against each other.
+|syntax=vwAxes
+|location=When [http://tibasicdev.wikidot.com/seq-mode Seq] mode is enabled, press:
+# 2nd FORMAT to access the format menu.
+# Use arrows to select vwAxes.
+|compatibility=TI-83/84/+/SE
+|size=2 bytes
+]]
+
+When vwAxes is enabled, and the calculator is in [[[seq-mode|Seq]]] mode, the equations v and w will be graphed against each other (that is, the points (v(//n//),w(//n//)) are graphed for the values of //n// between //n//Min and //n//Max). With this setting, sequence mode graphs are a bit like [[[param|parametric]]] mode, except the parameter //n// is always an integer, and recursive definitions are possible.
+
+The equation u is ignored when in vwAxes mode.
+
+See "Related Commands" for other possibilities of graphing sequences.
+
++ Error Conditions
+
+* **[[[errors#invalid|ERR:INVALID]]]** is thrown if either v or w is undefined.
+
++ Related Commands
+
+* [[[Time]]]
+* [[[Web]]]
+* [[[uvAxes]]]
+* [[[uwAxes]]]

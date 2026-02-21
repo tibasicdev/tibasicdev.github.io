@@ -1,0 +1,128 @@
+[[include inc:routine
+|picture=http://tibasicdev.wikidot.com/local--files/custom-menu-graph-screen/GraphMenu.png
+|summary=This routine is used for creating complex graphical menus. It can have hundreds of sub-menus, and works quite similarly to a menu on the home screen.
+|input=
+
+//Str1// - A list of menu options, each being of length L
+//L// - The length of the sub-strings for the current menu
+//N// - The number of options in the current menu
+//O// - The menu identifier
+//S// - The current item/row selected
+
+|output=The variable(s) that the routine stores to at the end.
+//O// - The menu identifier
+//S// - The current item/row selected
+
+|variable=
+//Str1// - A list of menu options, each being of length L
+//L// - The length of the sub-strings for the current menu
+//N// - The number of options in the current menu
+//O// - The menu identifier
+//S// - The current item/row selected
+//K// - A keystroke identifier
+//Xmin// - Graph Settings
+//Xmax// - Graph Settings
+//Ymin// - Graph Settings
+//Ymax// - Graph Settings
+//Theta// - For Loop Counter
+//Z// - For Loop Counter
+//GDB1// - Cleanup Variable
+
+|compatibility=
+TI-83/84/+/SE
+|author=Trenly
+
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+StoreGDB 1
+Lbl M0
+ClrDraw
+AxesOff
+GridOff
+ClrHome
+62→Ymax:0→Ymin
+94→Xmax:0→Xmin
+"1:Option 2:Option3:Option "→Str1
+0→O:1→S:8→L:3→N
+Lbl M
+Text(0,0,"Custom Menu Beta 0.1"
+Horizontal Ymax-7
+For(θ,0,N-1
+Text(8+7θ,0,sub(Str1,1+Lθ,L)
+End
+Horizontal Ymax-9-7N
+For(θ,6,1,⁻1
+For(Z,0,4
+Pxl-Change(8+7S-θ,Z
+End
+End
+Repeat sum(K={23,45,105
+Repeat sum(K={23,45,105,34,25,72,73,74,82,83,84,92,93,94
+getKey→K
+End
+If K=34(S<N) or K=25(S>1
+Then
+For(θ,6,1,⁻1
+For(Z,0,4
+Pxl-Change(8+7S-θ,Z
+End
+End
+S+(K=34)-(K=25)→S
+For(θ,1,6
+For(Z,0,4
+Pxl-Change(8+7S-θ,Z
+End
+End
+End
+If sum(K={72,73,74,82,83,84,92,93,94
+Then
+K-13int(K/13(2>abs(5-abs(5-abs(K-83
+If Ans≤N and Ans>0
+Then
+Ans→S
+105→K
+End
+End
+End
+ClrDraw
+ClrHome
+If (K=23)O:Goto M0
+If (K=23)not(O:Goto E
+If K=45:Goto E
+If (O=0)(S=1:Goto M1
+If (O=0)(S=2:Goto M2
+
+--Add an if statement here for each option you have--
+-- O defines which menu you are currently in --
+-- S defines the option they selected --
+
+Lbl E
+ClrDraw
+RecallGDB 1
+ClrHome
+Return
+[[/code]]
+
+This menu is made for the graphscreen on monochrome calculators. It functions similarly to the [[[Menu(]]] command, in that it highlights the current menu option, and uses labels. To create your own menus, each menu needs a menu id, a string containing entries of the same length, the number of entries, the length of the entries, and the starting selection. What makes this code functional is that each menu option is referenced by a menu ID, and the number of the selection. Because of this, the same code can be used to display multiple menus.
+
+In addition to the up and down arrows and enter, a user can use the numberpad to select an option. The clear key will exit the program from any menu, and the delete key will return to the main menu from inside any menu. If the delete key is used on the main menu, the program will end.
+
+The main menu has an ID of 0 by default, and can be shown at any time using "Goto M0". Any sub-menus you wish to add should be in the following format. You will need to change O, L, and N for each menu. In the code below, O is set to 1. This is what gets referenced in the If statements in the main code. S is set to 1 since I want the first option to be selected when we load the menu. L is set to 22 in this example because each menu option is 22 characters long. You will notice there are spaces included to make sure each item is the same length. Finally, there are 6 options in this example, so N is set to 6. We then Goto M to display the menu
+[[code]]
+Lbl M1
+"1:Kilograms◄ ►Lbs     2:Meters◄ ►Feet       3:ElectronVolt◄ ►Joule4:Joule◄ ►Calorie     5:Horsepower◄ ►Watt   6:Back                →Str1
+1→O:1→S:22→L:6→N
+Goto M
+[[/code]]
+
++ Error Conditions
+* **[[[errors#invaliddim|ERR:INVALID DIM]]]** is thrown if N*L is greater than the length of Str1
+* **[[[errors#domain|ERR:DOMAIN]]]** is thrown if N is greater than 8
+
++ Related Routines
+* [[[custom-menu-multi-page|Multi-Page Custom Menu]]]
+* [[[custom-menu-single-page|Single-Page Custom Menu]]]

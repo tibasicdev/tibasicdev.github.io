@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Avalanche
+|author=TI-Basic Developer
+|size=301 Bytes
+|description=Avoid the falling spikes by moving to the left or right, trying to see how long you can hold out for.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/avalanche/avalanche.zip
+|downloadName=Avalanche.zip
+
+|83compatible=DO NOT EDIT
+]]

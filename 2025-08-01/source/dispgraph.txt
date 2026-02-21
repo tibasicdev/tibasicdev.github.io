@@ -1,0 +1,54 @@
+[[include inc:command
+|picture=DISPGRAPH.GIF
+|summary=Displays the graph screen.
+|syntax=DispGraph
+|location=While editing a program, press:
+# PRGM to access the program menu.
+# RIGHT to access the I/O submenu.
+# 4 to select DispGraph, or use arrows and ENTER.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The {{DispGraph}} command displays the graph screen, along with everything drawn or graphed on it.
+
+In many cases, this doesn't need to be done explicitly: commands from the 2nd DRAW menu, as well as many other graph screen commands, will display the graph screen automatically when they are used. Mainly, it's used for displaying the graphs of equations or plots in a program -- you would define the variable in question, then use {{DispGraph}} to graph it. For example:
+
+[[code]]
+:"sin(X)"→Y1
+:DispGraph
+[[/code]]
+
++ Advanced Uses
+
+{{DispGraph}} can also be used to update the graph screen, even if it's already being displayed. For example, changing the value of a plot or equation variable doesn't update the graph immediately. Consider this program:
+
+[[code]]
+:0→I
+:"Isin(X)"→Y1
+:DispGraph
+:For(I,1,10)
+:End
+[[/code]]
+
+At first, it graphs the equation Y=Isin(X) with I=0. After this, I is cycled from 1 to 10. However, though the parameter I changes, the graph screen isn't updated, and only the initial graph of Y=0sin(X) and final graph of Y=10sin(X) are displayed. If, on the other hand, we change the program:
+
+[[code]]
+:0→I
+:"Isin(X)"→Y1
+:DispGraph
+:For(I,1,10)
+:DispGraph
+:End
+[[/code]]
+
+Now the {{DispGraph}} inside the loop ensures that the graph screen is updated every time, and the program will correctly display all eleven graphs.
+
++ Error Conditions
+
+* **[[[errors#invalid|ERR:INVALID]]]** occurs if this statement is used outside a program.
+
++ Related Commands
+
+* {{[[[Disp]]]}}
+* {{[[[DispTable]]]}}

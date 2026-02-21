@@ -1,0 +1,3 @@
+Serenity is a RPG style platform game, set in space.
+====
+ You are the captain of a simple cargo ship, traveling through space carrying unknown Government cargo, when your ship is attacked by space pirates!  Now you will need to explore the bowels of their ship, fight off enemies, and gain special items, so you can finally escape.

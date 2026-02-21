@@ -1,0 +1,119 @@
+{$part1begin}
+
+> To add any news, move the fifth news item from {$part3} to {$part4}, and add a new news item to {$part3}. The date format is day/month.
+> 
+> See the [[[deleted:oldnews|News Archive]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
++ 2008
+
+{$part2end}
+{$part3begin}
+**03/10** — [[user GoVegan]] made a new [[[Did You Know…]]] system, where each DYK has it's own page in the [http://tibasicdev.wikidot.com/dyk/noredirect/true dyk] category. Now the DYK on the [[[home]]] page sidebar displays a randomly selected DYK.
+**01/10** — [[user GoVegan]] added a choose a "random command" link to the sidebar…COOL!
+**27/09** — [[user Timothy Foster]] created the page [[[nspire| TI-Nspire Programming]]].
+**15/09** — [[user GoVegan]] upgraded the framework of the TI|BD [[[archives]]]. Now it is even easier to add, update, rate and moderate programs!
+**04/09** — [[user burr]], the founder of the site, has finished contributing to the site, and moved on to other projects. (see his goodbye [http://tibasicdev.wikidot.com/forum/t-86243/the-time-has-come here])
+{$part3end}
+{$part4begin}
+**04/09** — [[user GoVegan]] tagged the 25 remaining untagged "redirect" pages
+**04/09** — [[user basickevin]] created the page [[[artificial intelligence]]]
+**03/09** — [[user RandomProductions]] created the page [[[howcalcworks |How the Calculator Works.]]]
+**01/09** — TI-Basic Developer has now existed for approximately two years. Thanks to all that made it a great year, and may the next year be even more successful and exciting.
+**28/07** — [[user burr]] did some reorganization and cleanup to the [[[resources]]] page.
+**14/07** — [[user Zaphod Beeblebrox]] created the page [[[textsprites|Text Sprites Reference]]]
+**08/07** — [[user basickevin]] created the page [[[alternate-routines|alternate routines]]] to promote the creation of new optimizations
+**03/07** — [[user burr]] and [[user GoVegan]] set up the framework for the new TI|BD [[[archives]]]
+**01/07** — [[user Mapar007]] created the page [[[binandhex |Binary and Hexadecimal number system]]]
+**20/06** — [[user Zaphod Beeblebrox]] changed the [[[resources]]] page to use the tabview
+**13/06** — [[user GoVegan]] added an "Instant Messenger" routine to the [[[programs]]] page
+**11/06** — [[user GoVegan]] created a "New Members" section on the [[[home]]] page
+**06/06** — [[user GoVegan]] finished integrating the new infobox framework into all 324 command pages
+**02/06** — [[user burr]] updated the [[[showcases]]] page separating the programs by genre and using the tabview.
+**24/05** — [[user RandomProductions]] spruced up the [[[userinput|user input]]] page to be a bit more recent.
+**18/05** — The development of the TI|BD [[[logo|site logo]]] is complete, and has now replaced the previous site header.
+**10/05** — [[user GoVegan]] has set up a new framework for infoboxes.
+**04/05** — [[user krazyness]] initiated the development of the TI|BD [[[logo|site logo]]], to replace the current header.
+**24/04** — [[user DarkerLine]] has finished the first chapter of the [[[Starter Kit]]], a tutorial for beginner programmers.
+**23/04** — [[user burr]] created a [[[validation]]] tutorial that covers how to approach validating user input.
+**16/04** — [[user burr]] added a file download to all of the routines and programs.
+**12/04** — [[user burr]] created a [[[sidebar|TI-Basic Sidebar]]] for Mozilla Firefox for quick reference of the TI-83 commands when you are away from the site.
+**02/04** — [[user DarkerLine]], [[user Socks]] and [[user GoVegan]] worked together to upgrade the implemented "include template" sections of the site. Result: Site automatically retrieves the required parts of the "Recent News", "Did You Know" and "Featured Article" sections for the [[[home]]] page.
+**02/04** — [[user GoVegan]] made the [[[home|Start]]] page automatically retrieve the first 5 news items from the [[[deleted:oldnews|old news]]] section.
+**30/03** — [[user burr]] started the [[[Featured Articles]]] page that lists the best articles available on the wiki, along with changing the "Featured Article" section in the sidebar on the homepage into an [[[deleted:inc:featured-article|include]]] page.
+**27/03** — [[user burr]] started a [[[did-you-know|Did You Know...]]] page with a list of premade DYK's, along with changing the "Did You Know..." section in the sidebar into an [[[deleted:inc:did-you-know|include]]] page.
+**25/03** — [[user GoVegan]] added a warning to the [[[grouping|grouping section]]], which the TI-Basic community may have previously been unaware of.
+**16/03** — [[user Weregoose]] created two pages on the calculator's [[[83lgfont|internal fonts]]]. [[user DarkerLine]] has already found these images useful on other pages.
+**08/03** — [[user Socks]] started working on the [[[starter-kit|TI-Basic Starter Kit]]]. Feel free to contribute.
+**23/02** — [[user RandomProductions]] put screenshots on all of the date and time command pages.
+**09/02** — [[user burr]] created a [[[portal:home|portal]]] page, which acts as a bridge between the TI-83 and 68k sections of the site, and is now the new homepage for the site.
+**29/01** — [[user DarkerLine]] begins work on the 68k section of the site.
+**29/01** — All commands have now been documented! Woo!
+**26/01** — [[user burr]] added an [[[optimization walkthrough]]] tutorial which takes a person through the literal process of optimizing a game.
+**24/01** — [[user DarkerLine]] broke up the text manipulation page into a few routine pages: [[[highlighting text]]], [[[wordwrap-text|wordwrapping text]]] and [[[marquee]]].
+**09/01** — The [[[zoom]]] commands have been documented, finishing up all commands except for the finance ones.
+
++ 2007
+
+**16/12** — The xLIB Guru has merged with this wiki, and its [[[xlib|content]]] has been added.
+**13/12** — The page about [[[settings|user settings]]], along with its various subpages, is now complete.
+**11/12** — [[user burr]] created a [[[deleted:boolean|Boolean logic]]] page detailing what Boolean logic is and how you can use it in your programs.
+**27/11** — [[user DarkerLine]] finished writing the pages about the various [[[variables|variable types]]], and started on the [[[settings]]] commands.
+**24/11** — [[user simplethinker]] started creating pages for the trigonometry and [[[math |polar]]] functions.
+**22/11** — [[user burr]] added [[[system:page-tags|tags]]] to the majority of the pages; only the [[[command-index|command]]] pages are left.
+**18/11** — [[user DarkerLine]] started creating pages for the different [[[variables|variable]]] commands.
+**16/11** — [[user DarkerLine]] finished creating pages for the individual [[[math]]] commands.
+**06/11** — [[user burr]] created a [[[selfmodify|self-modifying code]]] page explaining what self-modifying code is and how you can use it.
+**18/10** — [[user burr]] began to create individual [[[routines]]] pages, using the new [[[template:routine|routine template]]]
+**15/10** — [[user Alexrudd]] began to split up the [[[math]]] page into separate command pages.
+**14/10** — [[user burr]] created a [[[downloads]]] page with over 100 zip files to download.
+**01/09** — TI-Basic Developer has now existed for approximately a year. May the next year be even more successful and exciting.
+**26/07** — [[user burr]] put together a [[[faq|Frequently Asked Questions (FAQ)]]] list of common TI-Basic related questions that people ask.
+**24/07** — [[user burr]] made a [[[Sitemap]]] that has a hierarchical breakdown of the site for easy viewing.
+**22/07** — [[user burr]] started a [[[pitfalls|Common Coding Pitfalls]]] page, which lists several different examples of code that are syntactically correct, but do not produce the correct or desired results.
+**01/07** — [[user burr]] started a [[[conduct|Code of Conduct]]] page, which lays down some general conduct rules to follow when contributing to the wiki.
+**27/06** — [[user burr]] started a [[[Glossary]]] page, which has general definitions for several of the words that are used throughout the wiki.
+**26/06** — [[user burr]] created a [[[comments|Code Commenting]]] page, which is extremely useful for those people who are working on multiple projects at the same time, and want to be able to come back to a project without all the stress of figuring out what everything is again.
+**23/06** — [[user burr]] finished updating the [[[Subprograms]]] page, so now the external and internal subprograms are explained in comprehensive detail.
+**22/06** — [[user xphoenix]] added a general section to the [[[setup|Program Setup]]] page, and also created two pages: [[[asmshells|Assembly Shells]]] and [[[basicbuilder|Basic Builder]]].
+**22/06** — [[user burr]] started a [[[setup|Program Setup]]] page in the same fashion as the [[[cleanup|Program Cleanup]]] page. Program setup includes getting the home screen, graph screen, and variables ready so your program can use them.
+**18/06** — [[user DarkerLine]] finally finished the [[[Statistics]]] pages. He's going to go back and add complicated formulas no one understands sometime later.
+**13/06** — [[user DarkerLine]] started working on the [[[Statistics]]] pages like he said he was going to a month ago...
+**03/06** — [[user xphoenix]] created pages for some of the [[[graphscreen|Graph Screen]]] commands.
+**05/05** — [[user Harrierfalcon]] optimized one of the examples on the [[[compression|Compression Techniques]]] page by using the [[[seq-list|seq(]]] command.
+**30/04** — [[user Alexrudd]] added the xor and not( operators to the [[[operators|Logical Operators]]] page.
+**22/04** — [[user burr]] started the [[[project-ideas|Project Challenges]]] page. After you have gone through the wiki and learned the commands, design theory, and game techniques, you can now test yourself and try your hand at making some programs.
+**21/04** — [[user burr]] started the [[[deleted:oldnews|Old News]]] page, which is the archive place for all the old news and is kept for posterity sake.
+**19/04** — A few more games have been added to the [[[Programs]]] page, including: Avalanche, Maze Walkthrough, Pong, and Tic-Tac-To. The programs are all available for download in case anyone wants to try them out on their calculator.
+**15/04** — [[user burr]] added a [[[conventions|Wiki Conventions]]] page that lays down some general guidelines about how to format page content. There's a similar [[[template:command|Command Stub]]] page for command pages.
+**13/04** — [[user thornahawk]] and [[user xphoenix]] added some more information about the [[[Math]]] commands.
+**08/04** — [[user burr]] started the [[[review|Review Exercises]]] page, which allows readers to test their comprehension and understanding of the information on the wiki.
+**30/03** — The [[[deleted:tour|Wiki Tour]]] was started, providing a general overview of the wiki and giving beginners some direction about using the wiki.
+**26/03** — [[user Alexrudd]] began experimenting with internal page anchors, and has decided that we should try to integrate them into more pages.
+**25/03** — [[user DarkerLine]] started working on the [[[statistics|Statistics Commands]]]. These commands are extremely useful for anybody who has to take a statistics class.
+**23/03** — [[user burr]] updated the [[[Contribute]]] page with some guidelines to help beginners better use the wiki.
+**15/03** — [[user Harrierfalcon]] added [[[custominput|Number Functionality]]] to Custom Text Input.
+**03/03** — [[user burr]] started the [[[recursion|Recursion]]] page. Recursion is related to using subprograms to optimize a program, except the program calls itself instead of other programs.
+**21/02** — [[user DarkerLine]] decided we should give each command its own individual page, so that all the relevant information about that command can be put on one page. Be sure to check out the [[[template:command|Command Stub]]] to see how the information is organized.
+**19/02** — [[user burr]] started the [[[usability|Usability]]] page. It offers some ideas to think about when designing a program, including preventing the user from hurting themselves and following the KISS principle.
+**16/02** — [[user Alexrudd]] started a [[[Deck of Cards]]] page that should be helpful to anyone who is wanting to learn how to manage the cards in a card game (such as Blackjack).
+
++ 2006
+
+**08/11** — [[user Alexrudd]] and [[user DarkerLine]] are promoted to admins, so they are now able to do all of the admin-related things for the wiki.
+**14/10** — [[user burr]] started the [[[marketing|Marketing]]] page. It offers some solid suggestions on ways to market your programs to the community.
+**10/10** — [[user burr]] started the [[[documentation|Writing Program Documentation]]] page. Check it out if you are wondering why documentation is important and what things your program documentation should include.
+**07/10** — Talks of merging the wiki with the Function Library forum occur, but they ultimately fall through because it is decided that the wiki already covers much of the same content and the forum quality isn't very good.
+**06/10** — [[user burr]] started the [[[lookuptables|Look-Up Tables]]] page. Look-up tables are commonly used to increase the speed of programs when speed is the primary need in the program. This is especially true if graphics or user input are involved.
+**24/09** — [[user burr]] started the [[[custominput|Custom Text Input]]] page. It shows a simple input routine, briefly explaining how custom text input works and how you can expand the functionality to suit your own purposes and needs.
+**23/09** — [[user Alexrudd]] updated the [[[protection|Program Protection]]] page, further refining the different ways to protect a program. In addition, some good discussion about program protection and whether it is appropriate occurred over at the [http://www.unitedti.org/index.php?showforum=4 UTI TI-Basic forum].
+**23/09** — [[user burr]] started the [[[cleanup|Program Clean Up]]] page. After a program finishes running, it should clean up after itself. This involves restoring the respective screens, deleting variables, and some other things.
+**22/09** — [[user burr]] started the [[[optimize|Optimizations]]] page. The page details the many different optimizations that you can do to a program, organizing them into relevant and related categories.
+**06/09** — The wiki is moved from [http://www.wikispaces.com Wikispaces] to [http://www.wikidot.com Wikidot] for hosting because the look of the pages and editor is better, and it offers a lot more space for the wiki to grow and mature.
+**01/09** — TI-Basic Developer wiki is started by [[user burr]] using the content from his TI-Basic Developer guide as the foundation for the wiki.
+
+{$part4end}
+
+[!-- Code thanks to GoVegan --]

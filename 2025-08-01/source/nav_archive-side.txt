@@ -1,0 +1,247 @@
+[[div class="top"]]
+* [[[home|TI-83 Basic Home]]]
+* [[[68k:home|68k TI-Basic Home]]]
+* [[[nspire:home|TI-Nspire Home]]]
+* **[[[archives|Program Archives]]]**
+* [[[forum:home|Discussion Forums]]]
+* [[[admin-forum|Staff Forum]]]
+[[/div]]
+
+[[size large]]Preparation[[/size]]
+* [[[thecalcs|The Calculators]]]
+* [[[whytibasic|Why TI-Basic?]]]
+* [[[using-this-guide|Using This Guide]]]
+* [[[starter-kit|TI-Basic Starter Kit]]]
+* [[[faq|TI-Basic FAQ]]]
+
+[[size large]]Main Content[[/size]]
+[[div class="special-collapsible"]]
+[[collapsible show="Commands" hide="Commands" hideLocation="top" folded="yes"]]
+[[module ListPages category="* -68k" tags="command" separate="false" order="random" limit="1"]]
+* [[[commands |Overview]]]
+* [[[Command Index]]]
+* [%%link%% Random command!]
+[[/module]]
+* [[[homescreen|Home Screen]]]
+* [[[graphscreen|Graph Screen]]]
+* [[[math|Math Functions]]]
+* [[[Variables]]]
+* [[[userinput|User Input]]]
+* [[[Operators]]]
+* [[[linking|Calculator Linking]]]
+* [[[controlflow|Controlling Flow]]]
+* [[[settings|User Settings]]]
+* [[[Memory Management]]]
+* [[[Time and Date]]]
+[[/collapsible]]
+
+[[collapsible show="Development" hide="Development" hideLocation="top" folded="yes"]]
+* [[[development |Overview]]]
+* [[[plan|Planning]]]
+* [[[portability|Portability]]]
+* [[[usability|Usability]]]
+* [[[setup|Program Setup]]]
+* [[[code-conventions|Code Conventions]]]
+* [[[techniques|Techniques]]]
+* [[[comments|Commenting Code]]]
+* [[[subprograms|Subprograms]]]
+* [[[cleanup|Program Cleanup]]]
+* [[[debug|Debugging]]]
+* [[[optimize|Optimization]]]
+* [[[timings|Code Timings]]]
+* [[[documentation|Writing Program Documentation]]]
+* [[[marketing|Marketing]]]
+* [[[releasing-your-program|Releasing Programs]]]
+* [[[creating-new-program-versions|Creating New Program Versions]]]
+[[/collapsible]]
+
+[[collapsible show="Techniques" hide="Techniques" hideLocation="top" folded="yes"]]
+* [[[techniques |Overview]]]
+* [[[animation |Animation]]]
+* [[[assembly |Assembly]]]
+* [[[compression |Compression Techniques]]]
+* [[[Cryptography]]]
+* [[[custommenus |Custom Menus]]]
+* [[[custominput |Custom Text Input]]]
+* [[[easy-map-making |Easy Map Making]]]
+* [[[friendly-window |Friendly Graphing Window]]]
+* [[[graphics |Graphics]]]
+* [[[grouping |Grouping A Program]]]
+* [[[highscores |Highscores]]]
+* [[[lookuptables |Look-Up Tables]]]
+* [[[maps |Making Maps]]]
+* [[[movement |Movement in Maps]]]
+* [[[multiplayer |Multiplayer]]]
+* [[[piecewise-expressions |Piecewise Expressions]]]
+* [[[protection |Program Protection]]]
+* [[[recursion |Recursion]]]
+* [[[saving |Saving]]]
+* [[[selfmodify |Self-Modifying Code (SMC)]]]
+* [[[subprograms |Subprograms]]]
+* [[[validation |Validation of User Input]]]
+[[/collapsible]]
+
+[[collapsible show="Miscellaneous" hide="Miscellaneous" hideLocation="top" folded="yes"]]
+* [[[Experiment]]]
+* [[[programs-h|Programs]]]
+* [[[Sitemap]]]
+[[/collapsible]]
+[[/div]]
+
+[[div style="height: 5px;"]]
+[[/div]]
+
+[[size large]]References[[/size]]
+* [[[Resources]]]
+* [[[Downloads]]]
+* [[[Showcases]]]
+* [[[Sidebar]]]
+* [[[tokens|Token Size]]]
+* [[[textsprites|Text Sprites]]]
+* [[[binandhex|Binary & Hex]]]
+* [[[83lgfont|TI-83+ Font]]]
+* [[[errors|Error Conditions]]]
+* [[[File Extensions]]]
+* [[[Key Codes]]]
+* [[[Abbreviations]]]
+* [[[Glossary]]]
+
+[[div style="text-align:center;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092; 
+var sc_invisible=0; 
+var sc_partition=22; 
+var sc_security="d8087415"; 
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]
+
+[[div class="foldable-list-container chars"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+[!--
+[[div class="foldable-list-container chars2"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+--]
+[[div style="position:fixed; top:0;right:0;"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="chars2"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[!-- 330px for KiwiIRC --]
+[[div class="chat" style="width:200px;display:none;"]]
+[[collapsible show="+ show chat          " hide="- hide chat          " folded="no"]]
+[[html]]
+    <!-- iframe src="https://kiwiirc.com/client/irc.efnet.org/?&theme=mini#tibasicdev" style="border:3; width:330px; height:400px;" name="TI-Basic Developer Chat"></iframe -->
+<iframe width="200px" height="400px" title="Shoutbox" src="https://shoutbox.widget.me/start.html?uid=q0fqbruh" frameborder="0" scrolling="auto"></iframe>
+[[/html]]
+[*http://tibasicdev.wdfiles.com/local--files/chat/tibd_chat.html pop out]
+[[/collapsible]]
+[[/div]]
+
+[[module css]]
+#main-content2 {
+    padding-right: 200px !important;
+}
+.chat2 {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    width: 200px;
+    background-color: #c7c9b8;
+}
+.chat2 .collapsible-block-content {
+    padding: 0 !important;
+}
+.chat2 .collapsible-block-unfolded-link {
+    padding: 0.5em !important;
+}
+[[/module]]

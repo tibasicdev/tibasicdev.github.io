@@ -1,0 +1,42 @@
+[[include inc:68k-command
+|picture=cot.png
+|summary=Takes the cotangent of a number (usually, an angle).
+|syntax=cot(//angle//)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press A to enter the Trig submenu.
+* Press 6 to select cot(.
+
+|ams2xx=07
+
+|size=1 byte
+]]
+
+The {{cot()}} command returns the cotangent (the reciprocal of the {{[[[68k:tan|tangent]]]}}) of an angle measure. Naturally, the result depends on the angle [[[68k:setmode|mode]]] the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the {{^^[[[68k:radian|r]]]^^}}, {{[[[68k:degree|°]]]}}, {{^^[[[68k:gradian|G]]]^^}} marks to specify an angle mode.
+
+The {{cot()}} command, along with 11 other trig and hyperbolic functions, was added with AMS version 2.07. It can be easily replaced on earlier versions with {{1/tan(x)}}, which is what it simplifies to anyway.
+
+For many common angles, {{cot()}} can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in radian [[[68k:mode-settings|mode]]], {{cot()}} can be used with complex numbers as well.
+
+
+[[code]]
+:cot(60°)
+           √3/3
+:cot(x)
+          1/tan(x)
+:cot(0)
+          undef
+[[/code]]
+
+If {{cot()}} is applied to a list, it will take the cotangent of every element in the list. However, it can't be applied to matrices the way {{cos()}} can (this is probably an oversight; all the trig and hyperbolic functions that were present in all AMS versions work with matrices, but the ones added in version 2.07 do not).
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=taking {{cot()}} of a complex number in degree or gradian mode]]
+
++ Related Commands
+
+* {{[[[68k:sec()]]]}}
+* {{[[[68k:csc()]]]}}
+* {{[[[68k:arccot|cotֿ¹()]]]}}

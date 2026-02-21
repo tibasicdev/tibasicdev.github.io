@@ -1,0 +1,2 @@
+reason: 'Alternate account of a banned account'
+proof: 'The "2" in his username, for one. Also, his most recent post. For further reasons, see my original report.'

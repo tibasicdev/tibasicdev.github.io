@@ -1,0 +1,3 @@
+name: ''
+content: "Wikidot community,\nI have an idea to make a program that takes a string of 1's and 0's in sets of five and translates them into letters so that A is 11111, B is 11110, C is 11101, D is 11100, all the way to Z. Then output this string of letters as a string. Please paste the text as a reply.\n\nGoodluck!"
+attachment: null

@@ -1,0 +1,1 @@
+…that while using {{[[[seq-list|seq(]]]}}, the calculator can still interpret keypresses and store them to {{[[[getKey]]]}}?

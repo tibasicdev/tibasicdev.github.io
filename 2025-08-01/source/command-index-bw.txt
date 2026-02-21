@@ -1,0 +1,444 @@
+[[# top]]
+[[div style="font-size:105%; font-weight:bold;"]]
+[#Ops Ops] | [#Num #] | [#A A] | [#B B] | [#C C] | [#D D] | [#E E] | [#F F] | [#G G] | [#H H] | [#I I] | [#L L] | [#M M] | [#N N] | [#O O] | [#P P] | [#Q Q] | [#R R] | [#S S] | [#T T] | [#U U] | [#V V] | [#W W] | [#X X] | [#Z Z]
+[[/div]]
+
+**This page lists all of the commands for the TI-83/84/SE/+ models. If you have a newer TI-84 Plus C Silver Edition or TI-84 Plus CE with a color display, please visit the [[[command-index|Color Command Index]]].**
+
+To access more information about the command, click on the command to go to the dedicated page for that command. To view the commands divided into sections, go to the [[[commands |Command Overview]]]. To view most of the commands as they would on the calculator itself through the menus, go to the [[[command-map-bw |Command Menu Map]]].
+
+[[div style="border: 1px dashed #999;padding: 0 1em;background: #f4f4f4;margin: 35px 0 15px"]]
+Some commands have a superscript next to them that indicates compatibility:
+* ^^83+^^ indicates that the command requires a TI-83+, TI-83+SE, TI-84+, TI-84+SE, or TI-84+CSE calculator.
+* ^^84+^^ indicates that the command requires a TI-84+,TI-84+SE, or TI-84+CSE calculator.
+* ^^84+2.30^^ indicates that the command requires a TI-84+, TI-84+SE, or TI-84+CSE calculator with OS 2.30 or higher.
+* ^^84+2.53MP^^ indicates that the command requires a TI-84+, TI-84+SE, or TI-84+CSE calculator with OS 2.53MP or higher.
+
+See [[[compatibility |Compatibility]]] for a chart of only the commands that require certain calculators or operating systems.
+[[/div]]
+
+[[div style="float:left; margin: 0 1em 1em; padding: 0 50px 0 0;"]]
++ Ops[[# Ops]]
+
+* [[[add|+]]], [[[subtract|-]]], [[[multiply|*]]], [[[divide|/]]], [[[negative|‾]]], [[[power|^]]], [[[xroot|×√]]]
+* [[[equal|=]]], [[[notequal|≠]]], [[[greaterthan|>]]], [[[greaterthanequal|≥]]], [[[lessthan|<]]], [[[lessthanequal|≤]]]
+* [[[store|→]]], [[[factorial|!]]], [[[pi|π]]], [[[percent|%]]], ^^[[[radian-symbol|r]]]^^, [[[degree-symbol|°]]]
+
++ #[[# Num]]
+
+* [[[inverse|ֿ¹]]], [[[2|²]]], [[[3|³]]]
+* [[[square-root|√(]]], [[[cube-root|³√(]]]
+* [[[1-PropZInt(]]]
+* [[[2-PropZInt(]]]
+* [[[1-PropZTest(]]]
+* [[[2-PropZTest(]]]
+* [[[2-SampFTest]]]
+* [[[2-SampTInt]]]
+* [[[2-SampTTest]]]
+* [[[2-SampZInt(]]]
+* [[[2-SampZTest(]]]
+* [[[1-Var Stats]]]
+* [[[2-Var Stats]]]
+
++ A[[# A]]
+
+* [[[abs(]]]
+* [[[and]]]
+* [[[angle(]]]
+* [[[ANOVA(]]]
+* [[[Ans]]]
+* [[[Archive]]] ^^83+^^
+* [[[asm-command|Asm(]]] ^^83+^^
+* [[[AsmComp(]]] ^^83+^^
+* [[[AsmPrgm]]] ^^83+^^
+* [[[augment(]]]
+* [[[AUTO Answer]]]^^84+2.53MP^^
+* [[[AxesOff]]]
+* [[[AxesOn]]]
+* [[[a+bi]]]
+
++ B[[# B]]
+
+* [[[bal(]]]
+* [[[binomcdf(]]]
+* [[[binompdf(]]]
+* [[[plotn#boxplot|Boxplot]]]
+
++ C[[# C]]
+
+* [[[checkTmr(]]] ^^84+^^
+* [[[chisquarecdf|χ²cdf(]]]
+* [[[chisquarepdf|χ²pdf(]]]
+* [[[chisquare-test|χ²-Test(]]]
+* [[[chisquaregof-test|χ²GOF-Test(]]] ^^84+2.30^^
+* [[[Circle(]]]
+* [[[classic-mode|CLASSIC]]]^^84+2.53MP^^
+* [[[Clear Entries]]]
+* [[[ClockOff]]] ^^84+^^
+* [[[ClockOn]]] ^^84+^^
+* [[[ClrAllLists]]]
+* [[[ClrDraw]]]
+* [[[ClrHome]]]
+* [[[ClrList]]]
+* [[[ClrTable]]]
+* [[[conj(]]]
+* [[[Connected]]]
+* [[[CoordOff]]]
+* [[[CoordOn]]]
+* [[[cos(]]]
+* [[[arccos|cosֿ¹(]]]
+* [[[cosh(]]]
+* [[[arcosh|coshֿ¹(]]]
+* [[[CubicReg]]]
+* [[[cumSum(]]]
+
++ D[[# D]]
+
+* [[[dayOfWk(]]] ^^84+^^
+* [[[dbd(]]]
+* [[[DEC Answer]]]^^84+2.53MP^^
+* [[[►Dec]]]
+* [[[degree-mode|Degree]]]
+* [[[DelVar]]]
+* [[[DependAsk]]]
+* [[[DependAuto]]]
+* [[[det(]]]
+* [[[DiagnosticOff]]]
+* [[[DiagnosticOn]]]
+* [[[dim(]]]
+* [[[Disp]]]
+* [[[DispGraph]]]
+* [[[DispTable]]]
+* [[[►DMS]]]
+* [[[Dot]]]
+* [[[DrawF]]]
+* [[[DrawInv]]]
+* [[[DS<(]]]
+
++ E[[# E]]
+
+* [[[e-value|e]]]
+* [[[e-exponent|e^(]]]
+* [[[e-ten|E]]]
+* [[[►Eff(]]]
+* [[[Else]]]
+* [[[End]]]
+* [[[Eng]]]
+* [[[Equ►String(]]]
+* [[[ExecLib]]] ^^84+^^
+* [[[expr(]]]
+* [[[ExpReg]]]
+* [[[ExprOff]]]
+* [[[ExprOn]]]
+
++ F[[# F]]
+
+* [[[Fcdf(]]]
+* [[[►F◄►D]]]^^84+2.53MP^^
+* [[[Fill(]]]
+* [[[Fix]]]
+* [[[Float]]]
+* [[[fMax(]]]
+* [[[fMin(]]]
+* [[[fnInt(]]]
+* [[[FnOff]]]
+* [[[FnOn]]]
+* [[[For(]]]
+* [[[fPart(]]]
+* [[[Fpdf(]]]
+* [[[FRAC Answer]]]^^84+2.53MP^^
+* [[[►Frac]]]
+* [[[Full]]]
+* [[[Func]]]
+
+[[/div]]
+
+[[div style="float:left; margin: 0 1em 1em; padding: 0 50px;"]]
+
++ G[[# G]]
+
+* [[[GarbageCollect]]] ^^83+^^
+* [[[gcd(]]]
+* [[[geometcdf(]]]
+* [[[geometpdf(]]]
+* [[[Get(]]]
+* [[[GetCalc(]]]
+* [[[getDate]]] ^^84+^^
+* [[[getDtFmt]]] ^^84+^^
+* [[[getDtStr(]]] ^^84+^^
+* [[[getKey]]]
+* [[[getTime]]] ^^84+^^
+* [[[getTmFmt]]] ^^84+^^
+* [[[getTmStr(]]] ^^84+^^
+* [[[Goto]]]
+* [[[GraphStyle(]]]
+* [[[GridOff]]]
+* [[[GridOn]]]
+* [[[G-T]]]
+
++ H[[# H]]
+
+* [[[plotn#histogram|Histogram]]]
+* [[[Horiz]]]
+* [[[Horizontal]]]
+
++ I[[# I]]
+
+* //[[[i]]]//
+* [[[identity(]]]
+* [[[If]]]
+* [[[imag(]]]
+* [[[IndpntAsk]]]
+* [[[IndpntAuto]]]
+* [[[Input]]]
+* [[[inString(]]]
+* [[[int(]]]
+* [[[sigmaint|ΣInt(]]]
+* [[[invNorm(]]]
+* [[[invT(]]] ^^84+2.30^^
+* [[[iPart(]]]
+* [[[irr(]]]
+* [[[IS>(]]]
+* [[[IsClockOn]]] ^^84+^^
+
++ L[[# L]]
+
+* [[[l|∟]]]
+* [[[LabelOff]]]
+* [[[LabelOn]]]
+* [[[Lbl]]]
+* [[[lcm(]]]
+* [[[length(]]]
+* [[[Line(]]]
+* [[[LinReg(a+bx)]]]
+* [[[LinReg(ax+b)]]]
+* [[[LinRegTInt]]] ^^84+2.30^^
+* [[[LinRegTTest]]]
+* [[[deltalist|ΔList(]]]
+* [[[List►matr(]]]
+* [[[ln(]]]
+* [[[LnReg]]]
+* [[[log(]]]
+* [[[logBASE(]]]^^84+2.53MP^^
+* [[[Logistic]]]
+
++ M[[# M]]
+
+* [[[Manual-Fit]]] ^^84+2.30^^
+* [[[mathprint-mode|MATHPRINT]]]^^84+2.53MP^^
+* [[[Matr►list(]]]
+* [[[max(]]]
+* [[[mean(]]]
+* [[[median(]]]
+* [[[Med-Med]]]
+* [[[Menu(]]]
+* [[[min(]]]
+* [[[plotn#modboxplot|ModBoxplot]]]
+
++ N[[# N]]
+
+* //[[[n]]]//
+* [[[nCr]]]
+* [[[n/d]]]^^84+2.53MP^^
+* [[[nDeriv(]]]
+* [[[►n/d◄►Un/d]]]^^84+2.53MP^^
+* [[[►Nom(]]]
+* [[[Normal]]]
+* [[[normalcdf(]]]
+* [[[normalpdf(]]]
+* [[[plotn#normprobplot|NormProbPlot]]]
+* [[[not(]]]
+* [[[nPr]]]
+* [[[npv(]]]
+
++ O[[# O]]
+
+* [[[OpenLib(]]] ^^84+^^
+* [[[or]]]
+* [[[Output(]]]
+
++ P[[# P]]
+
+* [[[Param]]]
+* [[[Pause]]]
+* [[[plotn|Plot1(]]]
+* [[[plotn|Plot2(]]]
+* [[[plotn|Plot3(]]]
+* [[[PlotsOff]]]
+* [[[PlotsOn]]]
+* [[[Pmt_Bgn]]]
+* [[[Pmt_End]]]
+* [[[poissoncdf(]]]
+* [[[poissonpdf(]]]
+* [[[polar-mode|Polar]]]
+* [[[polar-display|►Polar]]]
+* [[[PolarGC]]]
+* [[[prgm]]]
+* [[[sigmaprn|ΣPrn(]]]
+* [[[prod(]]]
+* [[[Prompt]]]
+* [[[Pt-Change(]]]
+* [[[Pt-Off(]]]
+* [[[Pt-On(]]]
+* [[[PwrReg]]]
+* [[[Pxl-Change(]]]
+* [[[Pxl-Off(]]]
+* [[[Pxl-On(]]]
+* [[[pxl-Test(]]]
+* [[[P►Rx(]]]
+* [[[P►Ry(]]]
+
++ Q[[# Q]]
+
+* [[[QuadReg]]]
+* [[[QuartReg]]]
+
+[[/div]]
+
+[[div style="float:left; margin: 0 1em 1em; padding: 0 50px;"]]
+
++ R[[# R]]
+
+* [[[radian-mode|Radian]]]
+* [[[rand]]]
+* [[[randBin(]]]
+* [[[randInt(]]]
+* [[[randIntNoRep|randIntNoRep(]]]^^84+2.53MP^^
+* [[[randM(]]]
+* [[[randNorm(]]]
+* [[[Rcl]]]
+* [[[re-thetai|re^θi]]]
+* [[[real-mode|Real]]]
+* [[[real-func|real(]]]
+* [[[RecallGDB]]]
+* [[[RecallPic]]]
+* [[[►Rect]]]
+* [[[RectGC]]]
+* [[[ref(]]]
+* [[[remainder(]]]^^84+2.53MP^^
+* [[[Repeat]]]
+* [[[Return]]]
+* [[[round(]]]
+* [[[timesrow|*row(]]]
+* [[[rowplus|row+(]]]
+* [[[timesrowplus|*row+(]]]
+* [[[rowSwap(]]]
+* [[[rref(]]]
+* [[[R►Pr(]]]
+* [[[r-ptheta|R►Pθ(]]]
+
++ S[[# S]]
+
+* [[[plotn#scatter|Scatter]]]
+* [[[Sci]]]
+* [[[Select(]]]
+* [[[Send(]]]
+* [[[seq-list|seq(]]]
+* [[[seq-mode|Seq]]]
+* [[[Sequential]]]
+* [[[setDate(]]] ^^84+^^
+* [[[setDtFmt(]]] ^^84+^^
+* [[[setTime(]]] ^^84+^^
+* [[[setTmFmt(]]] ^^84+^^
+* [[[SetUpEditor]]]
+* [[[Shade(]]]
+* [[[shadechisquare|Shadeχ²(]]]
+* [[[ShadeF(]]]
+* [[[ShadeNorm(]]]
+* [[[Shade_t(]]]
+* [[[Simul]]]
+* [[[sin(]]]
+* [[[arcsin|sinֿ¹(]]]
+* [[[sinh(]]]
+* [[[arsinh|sinhֿ¹(]]]
+* [[[SinReg]]]
+* [[[solve(]]]
+* [[[SortA(]]]
+* [[[SortD(]]]
+* [[[startTmr]]] ^^84+^^
+* [[[statwizard-off]]] ^^84+2.55MP^^
+* [[[statwizard-on]]] ^^84+2.55MP^^
+* [[[stdDev(]]]
+* [[[Stop]]]
+* [[[StoreGDB]]]
+* [[[StorePic]]]
+* [[[String►Equ(]]]
+* [[[sub(]]]
+* [[[sum(]]]
+* [[[summationsigma|summation Σ(]]]^^84+2.53MP^^
+
++ T[[# T]]
+
+* [[[tan(]]]
+* [[[arctan|tanֿ¹(]]]
+* [[[Tangent(]]]
+* [[[tanh(]]]
+* [[[artanh|tanhֿ¹(]]]
+* [[[tcdf(]]]
+* [[[Text(]]]
+* [[[Then]]]
+* [[[Time]]]
+* [[[timeCnv(]]] ^^84+^^
+* [[[TInterval]]]
+* [[[tpdf(]]]
+* [[[Trace]]]
+* [[[T-Test]]]
+* [[[tvm|tvm_FV]]]
+* [[[tvm|tvm_I%]]]
+* [[[tvm|tvm_N]]]
+* [[[tvm|tvm_Pmt]]]
+* [[[tvm|tvm_PV]]]
+
++ U[[# U]]
+
+* [[[UnArchive]]] ^^83+^^
+* [[[Un/d]]]^^84+2.53MP^^
+* [[[uvAxes]]]
+* [[[uwAxes]]]
+
++ V[[# V]]
+
+* [[[variance(]]]
+* [[[Vertical]]]
+* [[[vwAxes]]]
+
++ W[[# W]]
+
+* [[[Web]]]
+* [[[While]]]
+
++ X[[# X]]
+
+* [[[xor]]]
+* [[[plotn#xyline|xyLine]]]
+
++ Z[[# Z]]
+
+* [[[ZBox]]]
+* [[[ZDecimal]]]
+* [[[zfrac|ZFrac1/2]]]^^84+2.53MP^^
+* [[[zfrac|ZFrac1/3]]]^^84+2.53MP^^
+* [[[zfrac|ZFrac1/4]]]^^84+2.53MP^^
+* [[[zfrac|ZFrac1/5]]]^^84+2.53MP^^
+* [[[zfrac|ZFrac1/8]]]^^84+2.53MP^^
+* [[[zfrac|ZFrac1/10]]]^^84+2.53MP^^
+* [[[ZInteger]]]
+* [[[ZInterval]]]
+* [[[Zoom In]]]
+* [[[Zoom Out]]]
+* [[[ZoomFit]]]
+* [[[ZoomRcl]]]
+* [[[ZoomStat]]]
+* [[[ZoomSto]]]
+* [[[ZPrevious]]]
+* [[[ZQuadrant1]]]^^84+2.53MP^^
+* [[[ZSquare]]]
+* [[[ZStandard]]]
+* [[[Z-Test(]]]
+* [[[ZTrig]]]
+
+[[/div]]
+
+[[div style="position:fixed; bottom: 0; right: 0; background: white; border: #999 solid 1px; height: 24px; text-align: center;"]]
+[[image http://www.wikidot.com/common--theme/base/images/editor/bullist.png link="command-index#top" style="padding: 1px;" alt="Command Index" height="22px" width="22px"]] [[span style="position: relative; bottom: .625em; right: .25em"]][#top Command Index][[/span]]
+[[/div]]

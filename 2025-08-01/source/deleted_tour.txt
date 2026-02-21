@@ -1,0 +1,42 @@
+The TI-Basic Developer wiki has a large quantity of content available, which can be very overwhelming to the person just starting out learning TI-Basic while using the site, so we have decided to help you out by giving you a very simple and quick introduction to the content that you should read first. If you already feel confident in your TI-Basic abilities, you can skip this tour and go read whatever it is that interests you.
+
++ Before You Begin
+
+The first page that you should check out is [[[sk:first-program|your first program]]]. Before you can begin programming your calculator, you need to know how to make programs: creating, editing, and executing a program. These three steps are the basis for any program that you make, no matter how large or small it is.
+
+You should then read through the [[[sk:using-your-calc|using your calc]]] page. It is good to be able to operate your calculator more fully because it makes it easier to program, and just generally improves your calculator know-how. Be sure to read through the memory management section very thoroughly because the information will come in handy once you really start using your calculator, and come across situations where that information is extremely valuable.
+
++ The Commands
+
+After learning how to make a program and use your calculator, now you should move on to learning the different commands. Because there are literally hundreds of TI-Basic commands, you should start with the basic commands first to establish a solid foundation, and then move on to the more complex commands when you need to use them.
+
+Here are the easiest commands to use:
+
+* [[[ClrHome]]], [[[Disp]]], [[[Output(]]], [[[Pause]]]
+* [[[ClrDraw]]], [[[text|Text(]]], [[[pxl-on|Pxl-On(]]], [[[pxl-off|Pxl-Off(]]], [[[pxl-change|Pxl-Change(]]], [[[pxl-test|Pxl-Test(]]]
+* [[[Prompt]]], [[[Input]]], [[[getKey]]]
+
+You, of course, can read about any of the other commands if you want to, but it helps to see and try out the basic commands first before making the jump. Also, try using the commands together to start making simple programs and then work your way up to larger programs (at which point you should start using the more complex commands).
+
++ Design Theory
+
+When you are able to put together large programs, it is time to start learning and applying design theory to your programs. Design theory teaches you how to improve your program's design. In particular, the two main areas of program design that you should learn are:
+
+* [[[plan|Planning]]] -- Planning a program consists of thinking out what your program should do and how it should do it. This includes things like structuring a program and deciding which variables to use.
+* [[[optimize|Optimizing]]] -- Optimization involves making your program as efficient as possible. There are all sorts of optimizations you can do, both simple and complex.
+
++ Programming Techniques
+
+There are several short pieces of code (known as routines) that are commonly used by most people in their programs. These routines are not usually stand-alone programs themselves, but instead meant to be used as a helper to the program. The most common techniques that people use are:
+
+* [[[Animation]]] -- Animation is displaying text/graphics and then moving them to a new location after a short delay has occurred.
+* [[[custommenus|Menus]]] -- Menus provide the user with a list of options to choose from.
+* [[[Movement]]] -- Movement allows the user to interact with the program.
+
++ Getting More Help
+
+Most of the members of this wiki can be found on the [[[forum:home|forum]]], so you can post there with questions and get help with whatever you are working on or trying to learn. In order to post on the forum, however, you need to [[[system:join|create]]] an account. This is an easy process, and should take no more than a couple minutes. You just need a valid email address to validate your account, and then you are good to go.
+
+We've also provided a comprehensive [[[resources]]] page on the wiki that has lots of useful information and links to other TI-Basic tutorials and guides on the Internet. If you see something that interests you, please check it out. Also, if you have made a quality tutorial or program, or know of one not listed, please consider adding a link to it on the page.
+
+The TI-Basic Developer wiki is part of the larger TI-Basic community, and that means staying connected to what is happening elsewhere around the community. As you grow and learn, you too will become part of the community. We look forward to seeing you progress as a programmer, and this wiki is our contribution to your continued growth.

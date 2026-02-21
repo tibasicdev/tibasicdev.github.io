@@ -1,0 +1,21 @@
+author: william756
+version: '1.02'
+summary: 'No game over here'
+description: "This is a game with multiple endings!\nSo far there is only a measly 2 endings...\nAnd they are hard to find...\n(Hints!)\nOne ending is in the menu...\nand one is a wall \"glitch\"...\nPlease report any bugs! :)\n- William"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: null
+image: null
+fileSize: '4498'
+fileSizeUnit: '1'
+dateMade: '1595394000'

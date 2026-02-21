@@ -1,0 +1,44 @@
+[[include inc:68k-command
+|picture=ord.png
+|summary=Gives the ASCII code of a character.
+|syntax=ord(//string//)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press D to enter the string submenu.
+* Press B to select ord(.
+
+|size=2 bytes
+]]
+
+The ord() command gives the ASCII code of a character (that is, its [[[68k:character-codes|character code]]], which is a modification of standard ASCII). The input is meant to be a single character, but the command doesn't actually check for that -- so in practice, it gives the ASCII code of the first character in a string. You can convert multiple characters at once by giving ord() a list (or matrix) of characters.
+
+The inverse of ord() is [[[68k:char()]]], which converts a character code to a character.
+
+[[code]]
+:ord("America")
+           65
+:ord({"A","b","c"})
+           {65  98  99}
+:ord("")
+           0
+[[/code]]
+
++ Optimization
+
+Code such as
+[[code]]
+:inString("ABCDEFGHIJKLMNOPQRSTUVWXYZ",str)
+[[/code]]
+should be replaced by appropriate use of ord(); in this case,
+[[code]]
+:ord(str)-64
+[[/code]]
+
++ Related Commands
+
+* [[[68k:char()]]]
+
++ See Also
+
+* [[[68k:character-codes|]]]

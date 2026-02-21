@@ -1,0 +1,3 @@
+[[module ListPages category="*" separate="false" perPage="100" tags="+redirect"]]
+**%%title%%** -- [[[%%page_unix_name%%|%%page_unix_name%%]]] -- [http://tibasicdev.wikidot.com/%%page_unix_name%%/noredirect/true No Redirect]
+[[/module]]

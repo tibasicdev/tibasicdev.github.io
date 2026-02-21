@@ -1,0 +1,2 @@
+content: 'This is (you guess it) a pilot thread.'
+attachment: null

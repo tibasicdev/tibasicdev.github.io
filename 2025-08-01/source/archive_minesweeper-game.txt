@@ -1,0 +1,21 @@
+author: CalcNerd
+version: '1.0'
+summary: 'This is just like the classic game of Minesweeper. I made this a while ago, and I had help optimizing it from people here at TIBD. It runs very well, and it is really fun to play. Use the arrow keys to move your cursor, DEL to place/Pick up a flag, nad clear to end/check to see if you have won the game. '
+description: "[[code]]\nDelVar [A]{8,16→dim([A]\n[A]→[B]\nDelVar A\nRepeat A=10\n  randInt(2,7→Y\n  randInt(2,15→X\n  If [A](Y,X)≠9:Then\n    9→[A](Y,X\n    A+1→A\n  End\nEnd\nClrHome\n1→X:10→J\nFor(I,1,12\n  Output(4,3,sub(\"MINE*SWEEPER\",1,I\n  X+(X≠5→X\n  Output(5,6,sub(\"V 1.1\",1,X\nEnd\nRepeat K=105\n  getKey→K\n  min(8,max(7,Y+(K=34)-(K=25→Y\n  Output(7,7,\"PLAY\n  Output(8,7,\"EXIT\n  If Y=8:Output(Y-1,6,\" \"\n  If Y=7:Output(Y+1,6,\" \"\n  Output(Y,6,\">\nEnd\nFor(I,1,38\n  Output(randInt(1,8),randInt(1,16),\"*\nEnd\nClrHome\nIf Y=8:Return\n4→Y:8→X\nOutput(1,1,\" -MINE*SWEEPER- \"\nOutput(8,5,\"FLAGS:\nOutput(8,11,J\nFor(A,2,7\n  Output(A,1,\"I\n  Output(A,16,\"I\n  For(B,2,15\n    Output(A,B,\"x\n  End\nEnd\nOutput(Y,X,\"+\nRepeat K=45 or K=1\n  getKey→K\n  If sum(K={24,25,26,34,45,105,23:Then\n    If sum(K={24,25,26,34:Then\n      Output(Y,X,\" \"\n      Y→A:X→B\n      max(2,min(15,X+(K=26)-(K=24→X\n      max(2,min(7,Y+(K=34)-(K=25→Y\n      Output(Y,X,\"+\n      If [B](A,B)=2:Output(A,B,\"/\n      If [B](A,B)=0:Output(A,B,\"x\n      If [B](A,B)=1:Then\n        DelVar E\n        For(I,A-1,A+1\n          For(H,B-1,B+1\n            If [A](I,H)=9:E+1→E\n          End\n        End\n        Output(A,B,E\n      End\n    End\n    If (K=23)(([B](Y,X)=2)+Jnot([B](Y,X):Then\n      J-1+2([B](Y,X)=2→J\n      abs([B](Y,X)-2→[B](Y,X\n      Output(8,11,\"  \"\n      Output(8,11,J\n    End\n    If (K=105)not([B](Y,X))not([A](Y,X:1→[B](Y,X\n    If (K=105)[A](Y,X)=9:1→K\n  End\nEnd\n0→F\nFor(A,2,7\n  For(B,2,15\n    If [A](A,B)=9 and [B](A,B)=2:F+1→F\n  End\nEnd\nClrHome\nIf K=1:Disp \"YOU HIT A MINE!\nDisp \"YOU CLEARED\nIf F=10:Disp \"ALL\nDisp F,\"OF THE MINES\n[[/code]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: null
+image: null
+fileSize: '983'
+fileSizeUnit: '1'
+dateMade: ''

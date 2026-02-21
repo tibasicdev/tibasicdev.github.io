@@ -1,0 +1,59 @@
+[[include inc:development
+|stage = revising]]
+
+A dictionary would define //optimization// as the process of making something better. In the field of TI calculator programming, it refers to improving code to use less memory, whether as program size or in the size of variables used, or to run faster. It should be your goal, in virtually all cases, to make your programs as optimized as possible.
+
++ Line-by-Line Optimization
+
+Optimization techniques fall naturally into two classes. The first, which we'll call "line-by-line optimization", refers to ways of rewriting a line of code, or several lines, so that it does basically the same thing, but is smaller or faster. Typically, each such optimization doesn't have a huge effect. But since many lines can be improved this way, these optimizations add up over the entire program to produce a smaller and faster result.
+
+Read the [[[optimize-general|basic techniques]]] of line-by-line optimization. Then, consult the following pages to see techniques for specific topics:
+
+[[table]]
+[[row]]
+[[cell style="vertical-align: top;"]]
+
+* [[[optimize-text|Displaying Text]]]
+* [[[optimize-variables|Storing Variables]]]
+* [[[optimize-deleting|Deleting Variables]]]
+* [[[optimize-input|User Input]]]
+
+[[/cell]]
+[[cell style="vertical-align: top;"]]
+
+* [[[optimize-exiting|Exiting Programs]]]
+* [[[optimize-logic|Logic Operations]]]
+* [[[optimize-conditions|Conditionals]]]
+* [[[optimize-loops|Loops & Branching]]]
+
+[[/cell]]
+[[cell style="vertical-align: top;"]]
+
+* [[[optimize-math|Math Operations]]]
+* [[[optimize-ans|Using the Ans variable]]]
+* [[[optimize-graph|The Graph Screen]]]
+* [[[optimize-finance|Using Finance Variables]]]
+
+[[/cell]]
+[[/row]]
+[[/table]]
+
+Alternatively, you can read the [[[optimization-walkthrough|optimization walkthrough]]] for a look at applying the optimizations in a real program.
+
++ Algorithmic Optimization
+
+An algorithm refers to your method of solving a problem. Algorithmic optimization, then, relies on choosing the best method to solve a particular problem. Unlike line-by-line optimization, even a single optimization of this type can have drastic results -- but it also requires critical thinking and a case-by-case approach. 
+
+Most programmers, after thinking about the methods they will use for a while, never spend much time on this kind of optimization. It becomes important when you're pushed in a corner: your program has become so large that it doesn't have enough memory to run, or takes half a minute to load each screen.
+
+Identify the bottleneck in your program -- what is it that takes up all the memory, or that the program spends so much time doing? Then consider several fundamentally different approaches to solving that particular problem (be it the problem of storing a large matrix or of displaying a tilemap). Write routines implementing each approach, fully optimize all of them, and compare the results. And make sure that you're not missing an approach too radical to think of. Virtually all of the techniques you find in this guide have been discovered by frustrated programmers doing exactly this kind of thinking.
+
+Read the [[[algorithmic-optimization|algorithmic optimization]]] tutorial for a demonstration of the process of algorithmic optimization in a real programming situation.
+
+[[include inc:next-prev
+|prevpage = debug
+|prevtitle = Debugging
+|tocpage = development
+|toctitle = Overview
+|nextpage = timings
+|nexttitle = Code Timings]]

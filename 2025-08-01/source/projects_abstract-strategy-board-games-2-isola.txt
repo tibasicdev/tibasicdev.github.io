@@ -1,0 +1,101 @@
+ISOLA
+
+This is a continuation of Abstract strategy board games in which we programmed Mancala.
+====
+the same rules apply to this community project-
+
+" In publication on the games page, credit will be given to the original contributor(s) of the code, and to those who helped optimise it. If there are many small optimisations, credits for the optimisations will be given to the Ti-Community, with a link to this page for clarification."
+
+This project is dedicated to Isola, since Pedro, a guest, posted his code for Isola on the first Abstract strategy board games. 
+
+Here I will put the code that Pedro posted:
+
+[[code]]
+Lbl 2
+
+ClrHome
+DelVar [A]{10,16→dim([A]       // [A] represents the map, 1 is a wall, 0 is a free space
+11→X:2→Y:10→I:9→J             //X and Y are the coordinates of player 1, I and J for the player 2
+
+For(A,1,10                         //i put walls on the sides of the map
+1→[A](A,1
+1→[A](A,16
+End
+For(A,2,15
+1→[A](1,A
+1→[A](10,A
+End
+
+For(A,1,6
+Output(A,1,sub("Joueur",A,1
+End
+
+Output(Y-1,X-1,"O        //i display the position of players  O=player 1   and θ=player 2
+Output(J-1,I-1,"θ            // the -1 is because there is a space between the screen and the matrix, to hide the sides of the map
+1→[A](2,11         //put the positions of players in the matrix
+1→[A](9,10
+
+While 1
+
+X→M:Y→L                              //to test if the player moved
+Repeat X≠M or Y≠L
+
+Output(8,1,"1                               //for player 1
+
+Repeat Ans=24 or Ans=25 or Ans=26 or Ans=34   //asking for move
+getKey→K
+End
+
+Output(Y-1,X-1,"X                //X is a wall on the screen
+
+X+(K=26)(0=[A](Y,X+1))-(K=24)(0=[A](Y,X-1→X         //moves of the players
+Y-(K=25)(0=[A](Y-1,X))+(K=34)(0=[A](Y+1,X→Y
+
+Output(Y-1,X-1,"O
+1→[A](Y,X
+
+End
+
+1→C                                                                              //test if the other player can move
+For(A,⁻1,1,2
+If not(min(seq([A](J+A,I),A,⁻1,1,2))) or not(min(seq([A](J,I+A),A,⁻1,1,2:DelVar C
+End
+If C:Goto 1                 //memory leaks but it happens only one time at each game
+
+I→M:J→L                                    //same thing for player 2
+Repeat I≠M or J≠L
+
+Output(8,1,"2
+Repeat Ans=24 or Ans=25 or Ans=26 or Ans=34
+getKey→K
+End
+Output(J-1,I-1,"X
+I+(K=26)(0=[A](J,I+1))-(K=24)(0=[A](J,I-1→I
+J-(K=25)(0=[A](J-1,I))+(K=34)(0=[A](J+1,I→J
+Output(J-1,I-1,"θ
+1→[A](J,I
+End
+
+1→C
+For(A,⁻1,1,2
+If not(min(seq([A](Y+A,X),A,⁻1,1,2))) or not(min(seq([A](Y,X+A),A,⁻1,1,2:DelVar C
+End
+If C:Goto 1
+
+End
+Lbl 1
+For(A,1,3
+Output(A+3,2,sub("Win",A,1
+End
+Pause 
+Goto 2
+[[/code]]
+
+This is a repost of the code, because it is more organised to have a separate project for Isola.
+
+Here is the page describing Isola: [http://www.cs.umb.edu/~yunxu/isola/rules.html Isola (isolation)]
+
+
+Lets see what we can do to optimise this!
+
+Link to the original Posts: [http://tibasicdev.wikidot.com/projects:abstract-strategy-board-games#post-2394504 Here]

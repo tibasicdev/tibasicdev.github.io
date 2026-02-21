@@ -1,0 +1,35 @@
+[[include inc:68k-command
+|picture=angle-symbol.png
+|summary=Used in entering a vector in polar, cylindrical, or spherical format, or a complex number in polar form.
+|syntax=[//r//,∠//θ//]
+[//r//,∠//θ//,//z//]
+[//r//,∠//θ//,∠//φ//]
+(//r//∠//θ//)
+|location=
+* Press 2nd MATH to enter the MATH menu.
+* Press 2 to enter the Angle submenu.
+* Press 7 to select ∠.
+|size=1 byte
+]]
+
+The ∠ operator is used for alternate forms of entering vectors or complex numbers. It will be used for output depending on the Complex Format and Vector Format [[[68k:mode settings]]], but you can always use it in an expression.
+
+For vectors (which are just 1x2 or 1x3 matrices, as far as ∠ is concerned):
+* [r,∠θ] is equivalent to [r*cos(θ),r*sin(θ)]
+* [r,∠θ,z] is equivalent to [r*cos(θ),r*sin(θ),z]
+* [r,∠θ,∠φ] is equivalent to [r*cos(θ)*sin(φ),r*sin(θ)*sin(φ),r*cos(φ)]
+These have to be row vectors -- you can't use column vectors with ∠.
+
+For complex numbers, (r∠θ) is equivalent to r*(cos(θ)+//**i**//*sin(θ)). You have to have the parentheses there, and both r and θ must be real numbers or expressions.
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=complex numbers are used in the vector notation]]
+[[include inc:68k-error num=580|error=Invalid polar complex|cause=the values of r and θ in the complex number notation are invalid]]
+[[include inc:68k-error num=640|error=Invalid vector syntax|cause=the ∠ mark is misplaced in the vector notation]]
+
++ Related Commands
+
+* [[[68k:angle()]]]
+* [[[68k:abs()]]]
+* [[[68k:norm()]]]

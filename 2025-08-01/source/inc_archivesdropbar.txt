@@ -1,0 +1,46 @@
+[[div style="background: #FFF; border: 1px solid #555; height: 24px; text-align:center; padding:.5em .3em 0 .5em; width: 30%; margin:auto;"]]
+[[span style="position: relitive; bottom: 0em; right: .25em;"]]
+[[collapsible show="Choose Sort Method" hide="Cancel" hideLocation="bottom" folded="yes"]]
+[[div style="position:absolute; left:51%; background: #FFF; border: 1px solid #999; text-align:left; padding:0 0 0 .9em;margin-top: 26px; width: 20%"]]
+[[span style="position: relative; bottom: .758em; right: .25em"]]
+**Order displayed:**
+
+[[module ListPages category="archive-categories" tags="@URL"]]
+          [[table]][[row]][[cell]]
+Date submited
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/created_at%20desc/tags/%%tags%% Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/created_at/tags/%%tags%% Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Last updated
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/updated_at%20desc/tags/%%tags%% Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/updated_at/tags/%%tags%% Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Title
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/title%20desc/tags/%%tags%% Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/title/tags/%%tags%% Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Popularity
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/rating%20desc/tags/%%tags%% Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/rating/tags/%%tags%% Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+[http://tibasicdev.wikidot.com/archives:_category/noredirect/true/order/random/perPage/999/tags/%%tags%% Random]
+          [[/cell]][[cell]]
+          [[/cell]][[cell]]
+          [[/cell]][[/row]][[/table]]
+
+Ascending = Low to High (old to new)
+Descending = High to Low (new to old)
+[[/module]]
+[[/span]]
+[[/div]]
+[[/collapsible]]
+[[/span]]
+[[/div]]

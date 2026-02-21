@@ -1,0 +1,17 @@
+[[include inc:program
+|picture=lode_runner.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic lode runner game.
+|size=3,000 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://sicode.ticalc.org SiCoDe] (Brandon Green & Tim Parkin)
+|download=[http://tibasicdev.wikidot.com/local--files/lode-runner/loderunner.zip loderunner.zip]
+]]
+
+Lode Runner is a classic puzzle game that involves collecting all of the coins a level by navigating through the ladders and platforms, as well as avoiding the enemies. This is the only TI-83 Basic lode runner game available, but it is a quality game nonetheless.
+
+Like with some of the other popular SiCoDe games, this game utilizes the home screen scrolling made possible by the Output( command to display the levels. The Output( command has wordwrapping functionality built-in, in which any text that goes over the 16 characters of a row will be wrapped to the next row (and likewise with that row), and subsequently you can use a single Output( command to display an entire screen of text.
+
+This functionality not only allows the text to be displayed very quickly — in fact, there is no faster way to display text in TI-Basic — but also very efficiently. What people were doing previously was actually just using several Output( commands, and then displaying each row of the screen separately. Obviously, this approach does not lend itself to making fast games, and so most games were rather slow.
+
+The game uses the standard controls: arrow keys to move, CLEAR to quit, 2nd/ENTER to pause, along with MODE to make a hole in the ground to the left of the player and DEL to make a hole to the right. There are ten built-in levels, but the game also has support for external levels (what SiCoDe refers to as expansion sets).

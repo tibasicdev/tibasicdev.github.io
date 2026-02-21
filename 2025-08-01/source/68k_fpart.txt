@@ -1,0 +1,42 @@
+[[include inc:command
+|picture=fpart.png
+|summary=Returns the fractional part of a value.
+|syntax=fPart(//value//)
+|location=Press:
+# [2nd] + [MATH] to access the [[[68k:math]]] menu.
+# [RIGHT] to access the Number submenu.
+# 5 to select fPart(, or use arrows.
+Alternativly, type "fPart(" with the keyboard
+|compatibility=TI-89/92/+/V200
+|size=6 bytes
+]]
+
+fPart(//value//) returns the fractional part of //value//. Also works on complex numbers/expressions, lists and matrices.
+[[code]]
+fPart(5.32)
+             .32
+fPart([[‾1.5,3.2][6.8,‾7.9]])
+             [‾.5,.2]
+             [.8,‾.9]
+fPart({‾1.5,3.2,6.8,‾7.9})
+              {‾.5,.2,.8,‾.9}
+fPart(3.26+4.3i)
+              .26+.3i
+[[/code]]
+
++ Advanced Uses
+
+To check if a number x is a whole number, you can simply check if the fPart(x)=0:
+[[code]]
+:If fPart(x)=0 Then
+:©X is an integer
+:Else
+:©X is not an integer
+:End
+[[/code]]
+
++ Related Commands
+
+* [[[68k:int(]]]
+* [[[68k:iPart(]]]
+* [[[68k:round(]]]

@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Tic Tac To
+|author=TI-Basic Developer
+|size=277 Bytes
+|description=Alternate turns placing pieces on the 3x3 game board until somebody gets 3-in-a-row or all nine spots on the game board are filled.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/tic-tac-to/tictacto.zip
+|downloadName=TicTacTo.zip
+
+|83compatible=DO NOT EDIT
+]]

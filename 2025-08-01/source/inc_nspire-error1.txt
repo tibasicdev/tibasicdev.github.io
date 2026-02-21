@@ -1,0 +1,7 @@
+[[row]]
+[[cell style="text-align: center;background: #f4f4f4;padding: 5px 10px;"]]**{$number}**[[# {$number}]][[/cell]]
+[[cell style="text-align: left;background: #f4f4f4;padding: 5px 10px;"]]**{$name}**[[# {$reference}]][[/cell]]
+[[cell style="background: #f4f4f4;padding: 5px 10px;"]]**{$description}**
+ [!--{$moreinfo}--][[[@@|]]]{$moreinfo} [!-- --]
+[[/cell]]
+[[/row]]

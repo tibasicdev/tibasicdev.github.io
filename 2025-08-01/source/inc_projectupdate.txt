@@ -1,0 +1,6 @@
+[http://tibasicdev.wikidot.com/projectupdates:update/edit/true/parentPage/{$parent}/tags/update%20{$project} Add an update!]
+
+
+[[module ListPages category="projectupdates" order="created_at desc" limit="5" tags="+update +{$project}" prependLine="||~ **Who Updated?** ||~ **Date** ||~ **Update** ||" separate="false"]]
+|| %%author%% || %%created_at|%b/%d/%Y %I:%M %p %% || %%summary%% ||
+[[/module]]

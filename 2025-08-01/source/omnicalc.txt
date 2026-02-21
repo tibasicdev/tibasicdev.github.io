@@ -1,0 +1,19 @@
+[*http://www.ticalc.org/archives/files/fileinfo/226/22626.html Omnicalc] is a TI-83+/84+/SE assembly application created by [*http://www.ticalc.org/archives/files/authors/26/2675.html Michael Vincent] of Detached Solutions, and it modifies your calculator to provide additional TI-Basic functions. It works by installing a parser hook which will intercept any [[[real-func|real(]]] command requests (although originally it actually had its own set of custom commands that it created and used). This is the same thing that [[[xLIB]]] does, which means that the applications could conflict when both are installed.
+
+Some of Omnicalc's TI-Basic features include:
+
+* Base conversion for a variety of number bases
+* Built-in support for several common math constants
+* Factoring a number into its prime parts
+* Improved linking support sending/receiving bytes
+* Sprites using parts of the picture variables
+
+Besides the TI-Basic related features, Omnicalc also includes several other valuable features: a custom menu for placing common commands and functions, parentheses assistant for help entering in math expressions, protection for preventing people from messing with your calculator's memory, a thousands separators that inserts commas after every 3 digits of a number (for example, 1000000 would appear as 1,000,000), and a virtual calculator that allows you to switch back and forth between two calculators.
+
++ Documentation
+
+Unfortunately, there isn't a whole lot of documentation that has been created for Omnicalc. The main piece of documentation thas has been created so far is the [http://tibasicdev.wikidot.com/local--files/downloads/basicgreyscale.zip TI-Basic Greyscale] tutorial by Kevin Ouellet (DJ Omnimaga). This tutorial explains how to use Omnicalc together with [[[xLIB]]] to create greyscale sprites for use in games, although the version of xLIB that is referenced in the tutorial was just a regular assembly program. We hopefully can create some more documentation at some point in the future.
+
++ Discussions
+
+To discuss Omnicalc, give comments, suggestion and feedback, or talk about Omnicalc tricks, you can check out the [*http://www.detachedsolutions.com/forum/f/58/ Omnicalc forum] hosted at Detached Solutions or use the [[[forum:home|forum]]] available here at this wiki.

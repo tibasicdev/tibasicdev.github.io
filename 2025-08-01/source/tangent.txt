@@ -1,0 +1,55 @@
+[[include inc:command
+|picture=TANGENT.GIF
+|summary=Draws a line tangent to an expression at the specified value.
+|syntax=Tangent(//expression//,//value//)
+|location=Press:
+# 2nd PRGM to access the draw menu.
+# 5 to select Tangent(, or use arrows and ENTER.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The Tangent( command draws a graph of an expression and then draws a line tangent to that expression, with the line touching the graph at the point of the specified value. You can either use a [[[system-variables#equation|equation variable]]] (such as Y,,1,,) or an expression in terms of X (such as X²). Though you can use equation variables from any [[[graphing mode]]], they will be treated as functions in terms of X. Tangent( also ignores the graphing mode currently selected.
+
+Here is a simple example, where we are graphing the [wikipedia:parabola parabola] X^^2^^ and then drawing a tangent line at the value X=2.
+
+[[code]]
+:"X²→Y₁
+:Tangent(Y₁,2
+[[/code]]
+or
+[[code]]
+:Tangent(X²,2
+[[/code]]
+
++ Advanced Uses
+
+Whether the graph shows up or not is dependent on the window dimensions of the graph screen, and you should use a [[[friendly-window|friendly window]]] to ensure it shows up as you intended.
+
+------
+
+Tangent( will update X and Y for each coordinate drawn (like [[[DrawF]]] and [[[DrawInv]]]), and exit with the last coordinate still stored.
+
+------
+
+When evaluating the expression using Tangent(, the calculator will ignore the following errors: [[[errors#datatype|ERR:DATA TYPE]]], [[[errors#divideby0|ERR:DIVIDE BY 0]]], [[[errors#domain|ERR:DOMAIN]]], [[[errors#increment|ERR:INCREMENT]]], [[[errors#nonrealans|ERR:NONREAL ANS]]], [[[errors#overflow|ERR:OVERFLOW]]], and [[[errors#singularmat|ERR:SINGULAR MAT]]]. If one of these errors occurs, the data point will be omitted. However, the errors will still be thrown if they occur when evaluating the function //at// the point of tangency.
+
+------
+
+Using [[[Ans]]] as an optimization for storing to an equation will not work. For example, the following code returns [[[errors#datatype|ERR:DATA TYPE]]] because Ans is a string, not an equation variable.
+
+[[code]]
+:"X²
+:Tangent(Ans,2
+[[/code]]
+
+Of course, you //can// use Ans in the equation, if it's a real number, but that's usually not as useful.
+
++ Error Conditions
+
+* **[[[errors#invalid|ERR:INVALID]]]** is thrown if you try to use an equation variable that is undefined.
+
++ Related Commands
+
+* [[[DrawF]]]
+* [[[DrawInv]]]

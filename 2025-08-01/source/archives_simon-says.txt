@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Simon Says
+|author=TI-Basic Developer
+|size=214 Bytes
+|description=You must repeat a pattern which gets longer and longer.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/simon-says/simonsays.zip
+|downloadName=SimonSays.zip
+
+|83compatible=DO NOT EDIT
+]]

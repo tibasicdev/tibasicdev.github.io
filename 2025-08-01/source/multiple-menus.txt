@@ -1,0 +1,62 @@
+What is interesting about today is that [[span class="hover"]]James[[span]]Kanjo[[/span]][[/span]] has returned to his hovering project.
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.
+
+[[div class="menu" style="color: #000; background-color: #F00; width: 100px; position: absolute; top: 350px; left: 400px;"]]
+Red
+[[div class="show" style="background-color: #F00; width: 400px; height: 200px; position: absolute; top: -200px;"]]
+**Menu 1**
+
+Wow, This is actually working using only CSS!!
+[[/div]]
+[[/div]]
+
+[[div class="menu" style="color: #000; background-color: #0F0; width: 100px; position: absolute; top: 350px; left: 550px;"]]
+Green
+[[div class="show" style="background-color: #0F0; width: 400px; height: 200px; position: absolute; left: -150px; top: -200px;"]]
+**How exciting, there is no need for the FrontSpecial module!**
+[[/div]]
+[[/div]]
+
+[[div class="menu" style="color: #000; background-color: #00F; width: 100px; position: absolute; top: 350px; left: 700px;"]]
+Blue
+[[div class="show" style="background-color: #00F; width: 400px; height: 200px; position: absolute; left: -300px; top: -200px;"]]
+Although, They only display on mouseover. Return to [[[home |Site home]]]
+[[/div]]
+[[/div]]
+
+[[div class="menu" style="color: #000; background-color: #F00; width: 100px; position: absolute; top: 750px; left: 400px;"]]
+Red
+[[div class="show" style="background-color: #F00; width: 400px; height: 200px; position: absolute; top: -200px;"]]
+**Menu 1**
+
+Wow, This is actually working using only CSS!!
+[[/div]]
+[[/div]]
+
+[[div class="default menu" style="color: #000; background-color: #0F0; width: 100px; position: absolute; top: 750px; left: 550px;"]]
+Green
+[[div class="show" style="background-color: #0F0; width: 400px; height: 200px; position: absolute; left: -150px; top: -200px;"]]
+**How exciting, there is no need for the FrontSpecial module!**
+[[/div]]
+[[/div]]
+
+[[div class="menu" style="color: #000; background-color: #00F; width: 100px; position: absolute; top: 750px; left: 700px;"]]
+Blue
+[[div class="show" style="background-color: #00F; width: 400px; height: 200px; position: absolute; left: -300px; top: -200px;"]]
+Although, They only display on mouseover. Return to [[[home |Site home]]]
+[[/div]]
+[[/div]]
+
+[[div class="menu" style="color: #000; background: #FFF; width: 100px; position: absolute; top: 1100px; left: 550px;"]]
+White
+[[div class="show" style="background: #FFF; width: 400px; height: 200px; position: absolute; left: -150px; top: -200px;"]]
+This is another test
+[[div class="menu" style="color: #FFF; background: #000; width: 100px;"]]
+Black
+[[div class="show" style="color: #FFF; background: #000; width: 200px; height:50px;"]]
+Does it work?
+[[/div]]
+[[/div]]
+It doesn't seem to nest well.
+[[/div]]
+[[/div]]

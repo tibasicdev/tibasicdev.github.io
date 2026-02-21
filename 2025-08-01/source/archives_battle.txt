@@ -1,0 +1,17 @@
+author: 'MasterDonut09(Tanner Hollis)'
+description: 'Battle against the computer with lasers across a field.  Aim right against the unpredictable AI, or you might just get fried...'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /home/no_image_2.png
+download: Battle.zip
+size: '579'
+unit: '1'

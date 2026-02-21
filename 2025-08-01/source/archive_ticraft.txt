@@ -1,0 +1,21 @@
+author: 12Me21
+version: '8.1'
+summary: 'Fast 2D Minecraft-ish game.'
+description: "I wanted to make a game that would be fast enough to be fun to play, and I mostly succeeded.\n\nFeatures:\nSaving/Loading levels \nGravity\nMovement\nPlacing/Removing Blocks\nPlayer Location Saves\nRandomly Generated Terrain\nSeed Input\nNEW:\nTerrain Generator Customization\nHelp Menu\n\n\nControls:\nArrow keys:       Move left/right and jump\nDEL:                 Climb up (move 2 pixels up)\nSTAT:               Climb down (move 2 pixels down)\n1,2,3,4,6,7,8,9: Place/Remove \"Blocks\" (ex: 8 places/removes the block directly above the player.)\nSTO->:             Pause Menu\nON:                  Quit without saving\n\nNotes:\nPlayer coordinates are saved in List \"TC\"\nIf you fall off the screen, the game will crash.\nYou can fly by holding the up button or by tapping the up and DEL buttons.\nTrying to load files that don't exist will cause the game to crash (Duh)\n\n\n"
+arcade: '0'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:ticraft/TICRAFT.8xp'
+image: null
+fileSize: '1191'
+fileSizeUnit: '1'
+dateMade: '1417150800'

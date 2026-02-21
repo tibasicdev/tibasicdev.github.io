@@ -1,0 +1,58 @@
+This page is a guide to the includable pages with their parameters. See the [*http://www.wikidot.com/doc:wiki-syntax#toc34 wiki syntax description] for an explanation of including pages.
+
++ Includes for home pages
+* [[[inc:members |Members]]] for the list of when members joined
+**TI-83 Section:**
+* [[[news |83 News]]] for new and old news.
+* [[[inc:infobox |Infobox]]] containing useful information.
+ * [[[inc: Announcement]]]
+ * [[[did-you-know |83 Did You Know]]] for Did you know… items.
+ * [[[featured-commands |83 Featured Command]]] for the featured command.
+ * [[[featured-articles |83 Featured Article]]] for the featured article.
+**TI-68k Section:**
+* [[[68k:news |68k News]]] for new and old news.
+* [[[inc:68k-infobox|Infobox]]] containing useful information.
+ * [[[inc: Announcement]]]
+ * [[[68k:did-you-know |68k Did You Know]]] for Did you know… items.
+ * [[[68k:featured-commands |68k Featured Command]]] for the featured command.
+ * [[[68k:featured-articles |68k Featured Article]]] for the featured article.
+
++ Includes for command, routine and program pages
+**TI-83 Section:**
+* [[[inc:command|83 Command Infobox]]]
+ * [[[inc:command-help|83 Command Infobox HELP]]] for instructions on how to use the infobox.
+* [[[inc:routine|83 Routine Infobox]]]
+ * [[[inc:routine-help|83 Routine Infobox HELP]]] for instructions on how to use the infobox.
+* [[[inc:program|83 Program Infobox]]]
+ * [[[inc:program-help|83 Program Infobox HELP]]] for instructions on how to use the infobox.
+**TI-68k Section:**
+* [[[inc:68k-command|68k Command Infobox]]]
+ * [[[inc:68k-command-help|68k Command Infobox HELP]]] for instructions on how to use the infobox.
+ * You probably don't need to worry about the [[[inc:68k-command-backend|Backend]]].
+* Error Conditions
+ * [[[inc:68k-error]]]
+  * num = error number (e.g. "260")
+  * error = error description (e.g. "Domain Error")
+  * cause = error cause (e.g. "the argument is not in the range 1-99")
+
++ Miscellaneous Includes
+* [[[inc:Tablet]]] for the programs in the [[[archives]]]
+ * [[[inc:tablet-help|Tablet HELP]]] for instructions on how to use the infobox.
+ * You probably don't need to worry about the [[[inc:tablet-backend|Backend]]].
+* [[[inc:math]]] or [[[inc:68k-math]]] for math formulas in the right background color.
+ * eqn = LaTeX equation
+* [[[inc:markup]]] or [[[inc:68k-markup]]] for a markup limitations warning.
+ * cmd = command to issue a warning about
+* [[[inc:next-prev]]] for linking to next/previous pages of a tutorial.
+ * prevpage = linkable name of previous page
+ * prevtitle = title of previous page
+ * tocpage = linkable name of table of contents page
+ * toctitle = title of table of contents
+ * nextpage = linkable name of next page
+ * nexttitle = title of next page
+* [[[inc:stub]]] for a page with minimal content.
+* [[[inc:cleanup]]] for a page that needs to be cleaned up.
+* [[[inc:cid]]] for a page that is currently in development
+ * extra = extra information that will be displayed;
+ * You probably don't need to worry about the [[[inc:cid-backend]]].
+* [[[inc:development]]] for a page that is a member of the development cycle.

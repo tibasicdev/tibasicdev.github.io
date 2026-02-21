@@ -1,0 +1,44 @@
+When you are in the process of writing a program, everything about the program (i.e., variables, program structure, branching labels, etc.) is fresh in your mind and it's easy to remember. But what would happen if you stopped working on the program for a year, and then decided to start working on the program again?
+
+All or most of your previous knowledge of the program would be gone, and you would have to spend some time (or lots of time, depending on the program) to figure out how the program works again. While this is only a hypothetical example, this problem is a real concern for lots of people who have multiple projects going at any one time.
+
+Thankfully, this problem can be easily prevented by simply adding comments to your code. A comment is a brief note that describes some functionality or feature of your code. You don't need to comment everything, but the two main things that you should comment are:
+
+* **Program Structure** -- Loops and branching with appropriate label names
+* **Variables** -- What their purpose is and any possible values used throughout the program
+
+The amount of free RAM is the only limit on comment size, but you should generally try to keep your comments clear and concise. In addition, if your comment is more than a couple lines in length, you should split it up into multiple lines. This makes it easier to read and update, if needed.
+
+A common theme you'll see in this section is adding extra formatting while the program is being written (to make it readable), and taking it out before releasing the program (to make it as small as possible). This is common practice in TI-68k programming. You might also consider keeping a backup copy of the commented version of the program even after it's released, in case you need to fix bugs or decide to make an updated version.
+
++ Adding Comments
+
+TI-68k calculators support a built-in way to add comments. When you type the copyright character [[[68k:comment|©]]] in a program line or expression, the rest of the line will be considered a comment, not code.
+
+However, comments do increase the size of the program considerably. Consequently, you should remove all the comments from your program before you release it to the public, to ensure that it is as small as possible. In addition, you don't want your users accidentally seeing something they shouldn't be seeing.
+
++ Making Code Stand Out
+
+If a section or block of code needs to be graphically separated from the rest of the code an easy way to do this is to add extra spaces at the beginning of each line:
+
+[[code]]
+:Loop
+: Text "Hello!"
+:EndLoop
+[[/code]]
+
+This is a built-in way to indent code, and in fact the number of indentations is stored automatically with each line of code. This means that (unlike most other formatting) the indentations won't disappear after the program is [[[68k:tokenization|tokenized]]], and also don't increase the program size. 
+
++ Using Descriptive Variable Names
+
+Yet another way to help indicate what a code block is doing is to use good variable names that reflect what is stored to them. It's true that one-letter variable names are much smaller and slightly faster, so you should use them as much as possible in the released version of a program. However, while programming, descriptive variable names are very helpful. Using the Find feature of the program editor, it should be easy to change the name of a variable whenever needed.
+
+When choosing variable names, you might want to add a way to indicate the variable type, since it's otherwise hard to tell in some cases. Except in rare cases such as [[[68k:For]]] loop indices, avoid using the same variable for different purposes. Finally, it's a good idea to add a comment at the beginning of the program explaining the purpose of the variables.
+
+[[include inc:next-prev
+|prevpage = 68k:planning
+|prevtitle = Planning Programs
+|tocpage = 68k:development-overview
+|toctitle = Overview
+|nextpage = 68k:debugging
+|nexttitle = Debugging Programs]]

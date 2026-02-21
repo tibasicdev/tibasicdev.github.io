@@ -1,0 +1,14 @@
+[[include inc:tablet
+|name=Mnemon
+|author=[http://www.wikidot.com/user:info/mapar007 Mapar007]
+|size=1,073 Bytes
+|description=This is a program to create data sheets and read them. You must input a random code of 6 letters/numbers which form your personal ID. It will mace secure that nobody else can read your data sheets on their calculator!
+
+(note:do not pick MNEMON as a code, unless you want everyone to be able to read your files!)
+
+|picture=http://tibasicdev.wikidot.com/local--files/archives:mnemon/CHT1.BMP
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:mnemon/mnemon.zip
+|downloadName=Mnemon.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

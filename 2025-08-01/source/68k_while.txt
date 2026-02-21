@@ -1,0 +1,72 @@
+[[include inc:68k-command
+|picture=while.png
+|summary=Repeats a block of code as long as a condition is met
+|syntax=:While //condition//
+//(block of code)//
+:EndWhile
+
+|location=
+Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 5 to paste While..EndWhile.
+
+|size=
+2 bytes for While;
+4 bytes for EndWhile.
+]]
+
+A While..EndWhile block is used to repeat a block of code as long as some true-or-false condition is met. This condition is checked before entering the loop (if it's false to begin with, the loop is skipped), and checked again every time the loop ends. For example:
+[[code]]
+:1→x
+:While x<5
+: x+1→x
+: Disp x
+:EndWhile
+           1
+           2
+           3
+           4
+[[/code]]
+The condition is //not// checked anywhere in the middle of the loop. If the condition becomes temporarily false, but then becomes true again before the end, the loop keeps going.
+
+What kind of conditions are possible? Any command that returns a logical value -- true or false -- is acceptable. This includes the results of:
+* Relational operators: [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]]
+* Logical operators: [[[68k:and|and]]], [[[68k:or|or]]], [[[68k:xor|xor]]], [[[68k:not|not]]]
+* Any advanced test command: [[[68k:pxltest|pxlTest()]]], [[[68k:isprime|isPrime()]]], and others.
+* A variable that contains one of the values true or false, or a function that returns them.
+Of course, these can also be combined: for example, isPrime(x) and x≠2 is a valid condition.
+
+One common use of a While loop is to wait for a key to be pressed:
+[[code]]
+:0→key
+:While key=0
+: getKey()→key
+:EndWhile
+[[/code]]
+
++ Optimization
+
+In most programming languages a loop that always keeps repeating would be created using a While loop with a condition that's always true. You can do this in TI-Basic too, but it's simpler to use [[[68k:Loop]]]..EndLoop which does the same thing.
+[[code]]
+:While true
+: © do something
+:EndWhile
+
+can be
+
+:Loop
+: © do something
+:EndLoop
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=20|error=A test did not resolve to TRUE or FALSE|cause=the condition is indeterminate, or the wrong data type]]
+[[include inc:68k-error num=730|error=Missing start or end of block syntax|cause=a While is missing an EndWhile, or vice versa]]
+
++ Related Commands
+
+* [[[68k:Cycle]]]
+* [[[68k:Exit]]]
+* [[[68k:For]]]..EndFor
+* [[[68k:Loop]]]..EndLoop

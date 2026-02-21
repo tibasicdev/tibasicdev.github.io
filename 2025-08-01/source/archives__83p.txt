@@ -1,0 +1,28 @@
+> This page shows the programs which can only function on the TI-83 Plus or above. To see a list of completely compatible programs, [[[archives:83p-all|click here]]]
+
+[[include inc:archives]]
+
+[[module ListPages category="archives" parent="archives:_83p" perPage="50" tags="-_pending" order="random" separate="true"]]
+[[iftags -_new]]
+%%content%%
+[[>]]
+**Rating: %%rating%%** ([[[%%fullname%% |click here]]] to rate this program!)
+[[/>]]
+[[/iftags]]
+[[iftags _new]]
+[[include inc:tablet
+|name=[%%link%% %%title%%]
+|author=%%content{1}%%
+|description=%%content{2}%%
+|compatibility=%%parent_title%%
+|picture=%%content{4}%%
+|downloadUrl=http://tibasicdev.wdfiles.com/local--files/%%fullname%%/%%content{5}%%
+|downloadName=%%content{5}%%
+|size=%%content{6}%%
+]]
+[[>]]
+**Rating: %%rating%%**
+[[/>]]
+[[/iftags]]
+------
+[[/module]]

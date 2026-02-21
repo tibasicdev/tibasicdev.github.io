@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: "[[code]]\n:Input \"Prob? (0-100) \",X\n:Clrhome:Output(1,1,\"Working\n:For(θ,1,100\n:solve((X-(θ-A)/2),A,{-200,200}\n:Ans→A\n:If abs(A>100\n:100(A>0)→A\n:A→L₁(θ\n:Output(2,1,θ\n:End\n:100→dim(L₁\n:sum(L₁\n:Clrhome:Output(1,1,Ans\n:Output(2,1,\"/10000\n[[/code]]"
+attachment: null

@@ -1,0 +1,27 @@
+The development of a program is essential to its ability to succeed and be good. The development is a cycle that can be repeated as many times as desired, each time making a new version. This cycle will allow you to make your program usable, efficient and clean. Here is a list of the parts of the development cycle and the parts of each.
+
+**Planning**
+* [[[plan|Planning]]]
+* [[[portability|Portability]]]
+* [[[usability|Usability]]]
+
+**Coding**
+* [[[setup|Program Setup]]]
+* [[[code-conventions|Code Conventions]]]
+* [[[techniques|Techniques]]]
+* [[[comments|Commenting Code]]]
+* [[[subprograms|Subprograms]]]
+* [[[cleanup|Program Cleanup]]]
+
+**Revising**
+* [[[debug|Debugging]]]
+* [[[optimize|Optimization]]]
+* [[[timings|Code Timings]]]
+
+**Releasing**
+* [[[documentation|Writing Program Documentation]]]
+* [[[marketing|Marketing]]]
+* [[[releasing-your-program|Releasing Programs]]]
+ 
+**Refreshing**
+* [[[creating-new-program-versions|Creating New Program Versions]]]

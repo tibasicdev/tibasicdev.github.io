@@ -1,0 +1,20 @@
+[[include inc:68k-command
+|picture=gcd.png
+|summary=Finds the **G**reatest **C**ommon **D**enominator
+|syntax=gcd(//int1//,//int2//)
+]]
+
+The gcd( command is used, as its name implies, to find the greatest common divisor of two numbers.
+
+[[code]]
+:gcd(351,65)
+              returns 13
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=an argument is not real]]
+
++ Related Commands
+
+* [[[68k:lcm(]]]

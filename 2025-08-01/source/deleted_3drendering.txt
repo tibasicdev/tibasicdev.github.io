@@ -1,0 +1,81 @@
+Hey! I just created an account to ask for some optimizations for my 3D rendering program for a TI-84 Plus CE. I know matrices are slow to work with, so optimizations regarding that is the main goal for this. I've been coding in TI-BASIC for quite some time, so I have sufficient knowledge of the language. This code was translated from [https://youtu.be/p4Iz0XJY-Qk The Coding Train] (java) to BASIC, so the original code is not mine, all I did was port it over.
+
+Feel free to drop by and contribute what you may, all help is accepted, including constructive criticism.
+
+Here's my code:
+
+[[code]]
+: //Setup
+: ClrHome
+: TextColor(BLACK
+: 2→L
+: 
+: //Matrix Setup
+: {8,2→dim([D]
+: {8,3→dim([A]
+: Fill(.5,[A]
+: For(A,2,8,2
+: -.5→[A](A,3
+: End
+: For(B,0,4,4
+: For(A,3,4
+: -.5→[A](A+B,2
+: End
+: End
+: For(A,5,8
+: -.5→[A](A,1
+: End
+: 
+: //Graph Setup
+: 16.5→Xmax
+: -Ans→Xmin
+: 10.25→Ymax
+: -Ans→Ymin
+: ClrDraw
+: GridOff
+: AxesOff
+: PlotsOff 
+: FnOff 
+: 
+: //Main Loop
+: 0→θ
+: Repeat getKey=45
+: //Calcualations
+: startTmr→W
+: For(A,1,8
+: Matr▶list([A]^^T^^,A,L₁ //"^^T^^" is the superscript transpose token
+: List▶matr(L₁,[B]
+: [[cos(θ),-sin(θ),0][sin(θ),cos(θ),0][0,0,1→[J]
+: [[1,0,0][0,cos(θ),-sin(θ)][0,sin(θ),cos(θ→[I]
+: [[cos(θ),0,-sin(θ)][0,1,0][sin(θ),0,cos(θ→[H]
+: [J][B]
+: [I]Ans
+: [H]Ans→[B]
+: 1/(L-[B](3,1
+: [[Ans,0,0][0,Ans,0
+: 20Ans[B]→[B]
+: [B](1,1→[D](A,1
+: [B](2,1→[D](A,2
+: End
+: 
+: //Drawing Edges
+: ClrDraw
+: For(A,1,4
+: For(B,0,4,4
+: [D](A+B-(A=4),1→N
+: [D](A+B-(A=4),2→O
+: [D](A+B+1+(A=2)-4(A=4),1→S
+: [D](A+B+1+(A=2)-4(A=4),2→T
+: Line(N,O,S,T,BLACK,1
+: End
+: [D](A,1→N
+: [D](A,2→O
+: [D](A+4,1→S
+: [D](A+4,2→T
+: Line(N,O,S,T,BLACK,1
+: End
+: 
+: Text(0,0,"SPF: ",checkTmr(W //SPF is seconds per frame
+: θ+π/16→θ
+: End
+[[/code]]

@@ -1,0 +1,25 @@
+[[include inc:command
+|picture=Thin.png
+|summary=Sets all graphing lines to be 1 pixel wide.
+|syntax=This command is executed by itself with no additional arguments
+|location=Go to Catalog, press [ALPHA][4], and scroll down.
+|compatibility=TI-84+CSE/CE
+|size=2 bytes
+]]
+
+
+The Thin command will set all lines in the current function type to be only 1 pixel wide (hence "Thin"). The command can be run on the homescreen or within a program.
+
+[[code]]
+:AxesOff
+:GridOff
+:Thin
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown if additional arguments are put on the command.
+
++ Related Commands
+
+* [http://www.tibasicdev.wikidot.com/thick Thick]

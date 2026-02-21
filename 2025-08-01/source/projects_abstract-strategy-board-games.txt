@@ -1,0 +1,10 @@
+Our games page is already quite long, but it could be better. Lets program some board games 
+====
+ For anyone who is interested, there are several games that could be programmed. We would need to do them one at a time, posting code, optimising it, changing it, and then publishing it on the games page. here are some examples-
+
+1. peg solitare
+2. Go
+3. Isola (Isolation)
+4. Mancala
+
+... there are many possible others. If you're interested in participating in this community project, please post about your interest and which game you'd like to start on first, so we can get started. In publication on the games page, credit will be given to the original contributor(s) of the code, and to those who helped optimise it. If there are many small optimisations, credits for the optimisations will be given to the Ti-Community, with a link to this page for clarification.

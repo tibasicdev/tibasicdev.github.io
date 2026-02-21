@@ -1,0 +1,7 @@
+The term "graph" is ambiguous and may refer to:
+
+* [[[graphscreen|Graph Screen]]], the screen where equations are graphed and graphics are displayed.
+* [[[Graphstyle(]]], sets the graphing style of a graphing equation in the current mode.
+* [[[graphing-mode|Graph Mode]]], the mode the calculator uses when graphing equations.
+
+If an internal link led you here, you may wish to change the link to point directly to the intended article.

@@ -1,0 +1,19 @@
+[[include inc:program
+|picture=contra.gif
+|summary=A remake of the classic contra game.
+|size=10,000 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.unitedti.org/index.php?showuser=4 Bryan Thomas]
+|download=[http://tibasicdev.wikidot.com/local--files/contra/contra.zip contra.zip]
+]]
+
+When Contra was released, it was heralded as one of the greatest achievements in TI-Basic history. Up until that time, most people did not believe it was possible to create a platform game. It wasn't that people couldn't make a platform game, but that they couldn't make it fast enough to be fun to play: loading and drawing graphics is rather time-consuming, and when you add in having to control the player and enemies on the screen, the gameplay gets even slower.
+
+The way that Contra got around the issue of loading and drawing the graphics is actually fairly commonplace now, but it consisted of [[[compression|compressing]]] all of the lines that make up a level, storing the four coordinates of a line in one list element. You then store the lines in a list, and loop over the entire list to display the level.
+
+Likewise with controlling the player and enemies, Contra placed those functions in a separate [[[subprograms|subprogram]]]. Using the subprogram allowed the main program to run much faster, since the program is more compact and it doesn't need to check for those things every time through the main game loop.
+
+In terms of gameplay, Contra provides a fairly consistent experience. You control a player that can shoot and jump, and your goal is to get through all of the levels, with a boss every few levels. The game uses the standar controls: ENTER to make a selection in the menu, 2nd to shoot in the game, ALPHA to switch directions, CLEAR to quit, and the arrow keys move you in the respective direction. Since it is TI-Basic, the controls aren't instant, and it does take some getting used to, to get the timing down when you should jump.
+
+The AI for the enemies is decent, with the enemies changing direction to look at where you are on the screen (i.e., if you are on the left, they will look to the left). Each of the enemies have their own range of fire, and when you get within that range of fire, they will shoot at you. You yourself can pickup powerups along the way that will increase your range of fire.

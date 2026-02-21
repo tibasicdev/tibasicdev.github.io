@@ -1,0 +1,21 @@
+author: TI
+version: 2.55MP
+summary: "ROM of the TI-84 Plus Silver Edition ROM.\n"
+description: "ROM of the TI-84 Plus Silver Edition ROM.\nIf you would like to delete this archive, send me a message WHY you wanted to do this."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: null
+image: null
+fileSize: '2048'
+fileSizeUnit: '2'
+dateMade: '1515567600'

@@ -1,0 +1,44 @@
+[[div style="background: #FFF; border: 1px solid #555; height: 24px; text-align:center; padding:.5em .3em 0 .5em; width: 30%; margin:auto;"]]
+[[span style="position: relitive; bottom: 0em; right: .25em;"]]
+[[collapsible show="Choose Sort Method" hide="Cancel" hideLocation="bottom" folded="yes"]]
+[[div style="position:absolute; left:53%; background: #FFF; border: 1px solid #999; text-align:left; padding:0 0 0 .9em;margin-top: 26px;"]]
+[[span style="position: relative; bottom: .758em; right: .25em"]]
+**Order displayed:**
+
+          [[table]][[row]][[cell]]
+Date submited
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/dateCreatedDesc Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/dateCreatedAsc Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Last updated
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/dateEditedDesc Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/dateEditedAsc Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Title
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/titleDesc Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/titleAsc Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+Popularity
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/ratingDesc Des]
+          [[/cell]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/ratingAsc Asc]
+          [[/cell]][[/row]][[row]][[cell]]
+[http://tibasicdev.wikidot.com/archives/noredirect/true/order/random/perPage/999 Random]
+          [[/cell]][[cell]]
+          [[/cell]][[cell]]
+          [[/cell]][[/row]][[/table]]
+
+Ascending = Low to High (old to new)
+Descending = High to Low (new to old)
+[[/span]]
+[[/div]]
+[[/collapsible]]
+[[/span]]
+[[/div]]

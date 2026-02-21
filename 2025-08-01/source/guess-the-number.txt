@@ -1,0 +1,84 @@
+Guess the Number has been a classic program for most beginner programmers to start out with. This is because it features a rather simple concept and it is fairly easy to program. Because of this, we felt like it made sense to show you how it would translate into TI-Basic.
+
+[[toc]]
+
+++ The Code
+
+This Guess the Number program features a guess tracker that keeps track of how many tries it took you to guess the number. The range for the numbers is 1 to 100. This can easily be altered by you if you want a larger range. In addition, you can have the user input their own desired range. If you go that route, though, you need to do some error checking to make sure that the user actually inputs a valid number within the allotted range.
+
+[[code]]
+:ClrHome
+:Disp "Guess The Number
+:Disp "Range is 1-100
+:DelVar TrandInt(1,E2→A
+:Repeat A=B
+:Input "Guess?",B
+:T+1→T
+:If A≠B
+:Disp "Too "+sub("HighLow ",1+4(A>B),4
+:End
+:Disp "Good Guess!
+:Disp "Number of tries:
+:Pause T
+:ClrHome:"
+[[/code]]
+
+++ The Explanation
+
+We first start the program out by clearing the home screen and then displaying the program name and the range that the user has to guess the number from. We are using Disp commands to display the program name and range because the Input command follows the same pattern as the Disp command when displaying text: text on the left and everything else on the right. We want to keep everything uniform and provide some continuity, so the Disp command made more sense than the Output command.
+
+After displaying the program name and range, we next need to setup the game variables. We will be using the T real variable to keep track of how many guesses the user takes, while the A real variable is the random number that the user will have to guess. The T variable starts out at zero because the user hasn't made any guesses at this point, so we were able to set it to zero by using the DelVar command. As the DelVar command doesn't need a colon after it, we can then place the randInt( command immediately after it. Note also that we used the small 'E' from scientific notation to get the number 100 instead of the number itself.
+
+[[code]]
+:ClrHome
+:Disp "Guess The Number
+:Disp "Range is 1-100
+:DelVar TrandInt(1,E2→A
+[[/code]]
+
+Next we initialize the main program loop, where all the code inside the loop will be repeated until the user guesses the number. While we could have used any one of the three different loops available in TI-Basic (i.e. While, Repeat, or For), we are using a Repeat loop because it loops at least once. Consequently, this allowed us to not have to set the B variable before the loop started.
+
+[[code]]
+:Repeat A=B
+[[/code]]
+
+We now ask the user to input a guess for what they think the number is. We are using the Input command here because it has an optional text argument, which is more user-friendly than simply displaying what variable it is like with the Prompt command. After the user guesses a number, we then store that number into the B variable.
+
+[[code]]
+:Input "Guess?",B
+[[/code]]
+
+Next we increment the guess count by one. This is rather simple to understand and see, so there is no point in explaining it any further.
+
+[[code]]
+:T+1→T
+[[/code]]
+
+Now we get to the heart of the loop. After the user has guessed a number, we need to tell them whether their guess was too high or too low, so they can adjust it the next time around. As we don't want to display the message if the user has guessed the number, we put a conditional before the Disp command to check if the user guess is equal to the random number.
+
+When displaying the message, we first display the "Too" part that is common to both too high and too low and then concatenate the high or low part to it. We place the "High" and "Low" in the sub command as a string, and then get either part of the string as a substring depending on whether the guess is higher or lower than the random number. The "High" part will be displayed by default, while the "Low" part will be displayed if 'A>B' is true.
+
+As we don't have any more things to do inside the main program loop, we need to close the loop. When the End command of the Repeat loop is reached, the loop will check whether the condition is true or not. If 'A=B' is true, then the loop will end and program execution will continue after the loop.
+
+[[code]]
+:If A≠B
+:Disp "Too "+sub("HighLow ",1+4(A>B),4
+:End
+[[/code]]
+
+Once the user has guessed the number, we display the congratulatory message "Good Guess!" and tell them how many tries it took them to guess the number. As the Disp command gives each argument its own line and the Pause command has an optional argument, we display the guess variable 'T' with the Pause command to save space.
+
+After that we then exit the program by clearing the screen and removing the "Done" message using a double quote. This part is important because the user doesn't want to have to clear the screen themselves, and it also makes the program look more professional if it cleans up after itself.
+
+[[code]]
+:Disp "Good Guess!
+:Disp "Number of tries:
+:Pause T
+:ClrHome:"
+[[/code]]
+
+++ The Download
+
+In case you want to try the program on your calculator, you can download the program in .8xp format.
+
+* [http://tibasicdev.wikidot.com/local--files/guess-the-number/guessthenumber.zip Guess the Number]

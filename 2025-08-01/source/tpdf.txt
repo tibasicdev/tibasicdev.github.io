@@ -1,0 +1,43 @@
+[[include inc:command
+|picture=TPDF.GIF
+|summary=Evaluates the Student's //t// probability density function with degrees of freedom ν.
+|syntax=tpdf(//t//, //ν//)
+|location=Press:
+# 2ND DISTR to access the distribution menu
+# 4 to select tpdf(, or use arrows.
+Press 5 instead of 4 on a TI-84+/SE with OS 2.30 or higher.
+|compatibility=TI-83/84/+/SE
+|size=2 bytes
+]]
+
+{{tpdf(}} is the Student's //t// probability density function. 
+
+Since the //t// distribution is continuous, the value of {{tpdf(}} doesn't represent an actual probability -- in fact, one of the few uses for this command is to draw a graph of the bell curve. You could also use it for various calculus purposes, such as finding inflection points. 
+
+The command takes two arguments: the first is the value where the PDF is to be evaluated, and the second is the number of degrees of freedom (so the calculator knows which //t// distribution to use). As the degrees of freedom increases without bound, {{tpdf(}} approaches {{[[[normalpdf(]]]}}; i.e.
+
+[[math]]
+\lim_{\nu\rightarrow\infty}\operatorname{tpdf}(x,\nu)=\operatorname{normalpdf}(x)
+[[/math]]
+
++ Formulas
+
+The value of {{tpdf(}} is given by
+
+[[include inc:math
+|eqn= \operatorname{tpdf}(t,\nu) = \frac{\Gamma((\nu+1)/2)}{\sqrt{\nu\pi}\,\Gamma(\nu/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)}
+]]
+
+(where Γ is the [wikipedia:Gamma_function gamma function]), or alternatively
+
+[[include inc:math
+|eqn= \operatorname{tpdf}(t,\nu) = \frac1{\sqrt{\nu}B(\nu/2,1/2)}\,\left(1+\frac{t^2}{\nu}\right)^{-\frac1{2}(\nu+1)}
+]]
+
+(where B is the [wikipedia:Beta_function beta function])
+
++ Related Commands
+
+* {{[[[tcdf(]]]}}
+* {{[[[invT(]]]}}
+* {{[[[Shade_t(]]]}}

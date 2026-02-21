@@ -1,0 +1,1 @@
+…that the smallest way to implement the distance formula is by using the {{[[[R►Pr(]]]}} command?

@@ -1,0 +1,5 @@
+[[image donut-quest/donut-quest.gif link="donut-quest/donutquest.zip"]]
+
+[http://tibasicdev.wikidot.com/local--files/donut-quest/donutquest.zip Donut Quest] by [[user DarkerLine]]
+
+On each of eight levels, you must get to and eat all the donuts, then leave through an exit.

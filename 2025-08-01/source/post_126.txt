@@ -1,0 +1,3 @@
+name: 'Boba Foxx'
+content: "Oh, that's what had me confused. Before, you said\n> θ-2x→A\nbut you meant \n> 2X-θ→A\nWhich is basically the solve() line simplified.\n\nI probably would've done that if I'd optimized it much; I'd just woken up from a move in history and was still kinda sleepy, but I was more concerned with getting it to work, rather than getting it to work quickly."
+attachment: null

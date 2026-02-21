@@ -1,0 +1,34 @@
+------
+
+[[include inc:68k-command
+|picture=sample.png
+|summary=Clears table values
+|syntax=This command takes no arguments
+
+|location=This command can be found under F1 (Tools) and then selecting 8:Clear Table
+
+|size=X byte(s)
+]]
+
+Clears all table values, applies only to ASK setting on the Table Setup dialog box.  
+
+[[code]]
+:ClrTable          Done
+[[/code]]
+
++ Related Commands
+
+Several (around 3) commands have a similar function or are used in a similar context to this command. Make a bulleted list of them, with links to the other commands' pages. It will often be the case that several commands all link to each other.
+
+* Command 1
+* Command 2
+* Command 3 
+
++ See Also
+
+(this section is usually not present)
+If a command can be used in a particular design concept or technique, you should mention it and provide a link to its respective page. This section should come at the end of the page, and be a bulleted list that contains all of the design or technique related links mentioned throughout the page.
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1

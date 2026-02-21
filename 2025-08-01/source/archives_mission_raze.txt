@@ -1,0 +1,17 @@
+author: Sleight
+description: "A highly graphical side-scrolling, game in which you play a UFO shooting up buildings.  Unique in that it redraws the WHOLE SCREEN for every frame, thanks to statplots and pics.\n----\nInstructions:\n\nControls: up/down moves, 2nd/del fires beam, alpha/stat fires super beam, graph boosts to top of screen.\n\nScoring: taller buildings= less points, shorter buildings= more points, extra life every 250 points.\n\nEnergy: super beam takes 2 energy, boost takes 3 energy, extra energy every 50 points\n----\nTi-83+ not recommended for speed."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: 'archives:mission:raze/Screenshot.jpg'
+download: MSSNRAZE.8xp
+size: '2357'
+unit: '1'

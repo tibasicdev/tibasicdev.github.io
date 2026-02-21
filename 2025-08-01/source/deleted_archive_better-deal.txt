@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282]]'
+version: '1.1'
+summary: 'A very simple program to find out which product/brand deals is better to find. No need to do the math yourself!'
+description: "A very simple program to find out which product/brand deals is better to find. No need to do the math yourself!\nSource Code:\n[[code]]\nClrHome\nFor(I,1,2\nDisp \"Product/Brand \"+sub(\"12\",I,1)+\"?\nInput \"Price: $\",P\nInput \"Amount: \",A\nP/A\nIf I=1:Ans→B\nIf I=2:Ans→C\nClrHome\nEnd\n\"1\nIf B<C:\"2\nDisp \"Deal \"+Ans+\" is\n\"a better buy.\n[[/code]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:deal/DEAL.8xp'
+image: null
+fileSize: '172'
+fileSizeUnit: '1'
+dateMade: '1546930800'

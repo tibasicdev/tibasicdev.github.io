@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Demented Snake
+|author=TI-Basic Developer
+|size=289 Bytes
+|description=Just like snake, except you need to constantly change directions to keep the snake moving fast.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/demented-snake/dementedsnake.zip
+|downloadName=DementedSnake.zip
+
+|83compatible=DO NOT EDIT
+]]

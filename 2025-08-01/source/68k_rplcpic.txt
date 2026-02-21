@@ -1,0 +1,27 @@
+[[include inc:68k-command
+|picture=rplcpic.png
+|summary= Replaces whatever is on the graphscreen with a picture variable  at //[row][, column]//
+|syntax=RplcPic //picVar//,//[row][, column]//
+|location=
+|size=
+]]
+
+This command replaces whatever is on the screen at a specific spot (//[row][,column]//). If no row or column is specified, the default is the upper left corner (0,0). If the picture is less than the full screen, only the spot at which the picture is placed will be removed. If you do not want anything replaced, use [[[68k:RclPic]]] instead...
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the //[row,column]// argument is outside the screen range.]]
+[[include inc:68k-error num=960|error=Undefined variable|cause=the picture variable specified does not exist.]]
+
++ Related Commands
+
+* [[[68k:CyclePic]]]
+* [[[68k:XorPic]]]
+* [[[68k:NewPic]]]
+* [[[68k:RclPic]]]
+* [[[68k:AndPic]]]
+* [[[68k:StoPic]]]
+
++ See Also
+
+* [[[68k:Sprites]]]

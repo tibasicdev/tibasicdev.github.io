@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=gradian.png
+|summary=Converts an angle to gradians, if necessary.
+|syntax=//angle// ^^G^^
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 2 to enter the Angle submenu.
+* Press C to select ^^G^^.
+
+|ams3xx=10
+
+|size=1 byte
+]]
+
+[[include inc:68k-markup cmd=^^G^^]]
+
+The ^^G^^ symbol used after an angle makes sure the angle is interpreted as being in gradians (an obscure angle measure in which a full circle is equal to 400 gradians); this functionality is present only on TI-89 Titanium or Voyage 200 calculators with AMS version 3.10. If the calculator is already in gradian mode, x^^G^^ is equal to x; in degree mode, x^^G^^ is equal to 9*x/10; and in radian mode, x^^G^^ is equal to π*x/200.
+
+If you're using gradian angle measures extensively in a program, it's a better idea to use [[[68k:setMode()]]] to switch to gradian mode and not worry about this. However, there are two reasons you might want to use ^^G^^:
+* If you need an angle in gradians only once or twice, don't bother changing the mode setting.
+* In a function, you're forced to use ^^G^^, since setMode() isn't valid in a function. 
+
+In gradian mode (no conversion is necessary, so no conversion is done):
+[[code]]
+:cos(100)
+           1
+:cos(100^G)
+           1
+:100^G
+           100
+[[/code]]
+
+In degree mode:
+[[code]]
+:cos(100)
+           cos(100)
+:cos(100^G)
+           1
+:100^G
+           90
+[[/code]]
+
++ Related Commands
+
+* [[[68k:degree|°]]] (degree)
+* ^^[[[68k:radian|r]]]^^ (radian)
+* [[[68k:▶Grad]]]

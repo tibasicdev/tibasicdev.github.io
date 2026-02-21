@@ -1,0 +1,94 @@
+[[include inc:cid]]
+
+
+The Text( command is very helpful for graphics on the graph screen. It can be use to make Text Sprites, and to display information that can be more customized than the home screen. To use this, you use the syntax: Text(//X Position//,//Y Position//, //Variable//).  The variable can be any data type.
+
+[[toc]]
+
++ Displaying Text
+
+Let's say you want to tell the user that they're score was 10. you would use this code:
+
+[[code]]
+:Text(1,1,"Your Score Was:10")
+[[/code]]
+Since this is on the graph screen, you don't have to worry about a limit as much.  The horizontal limit is 94 pixels, and the characters are smaller. 
+
+However, games usually have variating scores.  You can use this code to display the player's score, A.
+[[code]]
+:Text(1,1,"Your Score Was:",A)
+[[/code]]
+
++ Larger Text
+
+There is an additional argument ,-1, that goes at the beginning of the command. -1 is the difference between 5*3 Graph screen text and 8*5 Home screen text. So lets say your making a title page, and you want it to say "My Home Page" at the top in big letters, and beneath that the information in small letters, you would use this:
+
+[[code]]
+:ClrDraw
+:Text(-1,0,0,"My Home Page")
+:Text(10,1,"This is my testing homepage.")
+[[/code]]
+
++ Text Sprites
+
+**Note:** If you are using a TI-84+CSE or TI-84+CE, the increased resolution makes working with Text Sprites very challenging. Many of the techniques described in this section //may not function properly//.
+
+Text sprites are a way of showing a character or piece of background. They are mainly used for puzzle games, that draw the playing field once, like [http://tibasicdev.wikidot.com/archives:donut-quest Donut Quest] by Mikhail Lavrov.
+
+A text sprite uses {{Text(}} in order to display a little icon.  Here is the general code.
+[[code]]
+:For(A,1,7)
+:Text(0,A,sub(string,A,1))
+:End
+[[/code]]
+The //string// is a 7 character string with the first five characters representing the object and the last two being spaces.  What happens is every time the [[[For(]]] loop is executed, the text moves one to the right and the next character in the string is displayed.  It ends up overwriting the previous text except for its first row. If you don't understand this yet, you may want to throw a [[[Pause]]] in the code to see the sprites drawn step by step.
+
+[[code]]
+:For(A,1,7)
+:Text(0,A,sub(string,A,1))
+:Pause
+:End
+[[/code]]
+
+So, let's say you want to draw a donut.  What would the string be?  First, draw a five by five grid and outlay your donut.
+[[code]]
+0 1 1 1 0
+1 1 1 1 1
+1 1 0 1 1
+1 1 1 1 1
+0 1 1 1 0
+[[/code]]
+Now, take notice on where the ones are.  Look at the first column.  The middle three pixels are on.  What character has its first row in the same pattern?  Let's try (.
+[[code]]
+0 1 0
+1 0 0
+1 0 0
+1 0 0
+0 1 0
+[[/code]]
+Look!  Same first rows!  So, a ( would be the first character.  For the donut, you want the string to be "( [ X [ ( _ _".  When this is put into the code, you make a donut shape.  This can be done with most five by five designs.
+
+Try making this one.
+[[code]]
+0 0 1 0 0
+0 1 1 1 0
+1 1 0 1 1
+0 1 1 1 0
+0 0 1 0 0
+[[/code]]
+Can you make the appropriate string?
+[[collapsible show="+ Show" hide="- hide"]]
+[[code]]
+:For(A,1,7)
+:Text(0,A,sub("-(X(-  ",A,1))
+:End
+[[/code]]
+[[/collapsible]]
+
+[[include inc:next-prev
+|prevpage = sk:more-shapes
+|prevtitle = Drawing More Shapes
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:pictures
+|nexttitle = Using Pictures]]

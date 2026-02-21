@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Pong
+|author=TI-Basic Developer
+|size=176 Bytes
+|description=You have to keep the ball in play by bouncing it back and forth against the walls, without letting it get by your paddle.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/pong/pong.zip
+|downloadName=Pong.zip
+
+|83compatible=DO NOT EDIT
+]]

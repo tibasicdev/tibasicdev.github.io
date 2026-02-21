@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Darts
+|author=TI-Basic Developer
+|size=298 Bytes
+|description=Hit the target with your dart, while avoiding the obstacles in your way.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/darts/darts.zip
+|downloadName=Darts.zip
+
+|83compatible=DO NOT EDIT
+]]

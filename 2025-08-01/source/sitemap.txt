@@ -1,0 +1,136 @@
+This sitemap is a list of the pages in the TI-83 section of the site, organized in a hierarchical fashion for easy viewing.  Please note that this does not include all of the pages in the TI-83 section, because some of the pages are part of a larger page, and thus do not make sense by themselves.
+
+[[table style="width:85%;"]]
+[[row]]
+[[cell style="vertical-align: top;"]]
+
++ General
+
+* [[[home|Home]]]
+* [[[sitemap|Sitemap]]]
+* [[[how-to|Guide to TI|BD]]]
+* [[[deleted:oldnews|Old News]]]
+* [[[system:page-tags|Page Tags]]]
+* [[[to-do|To-Do List]]]
+* [[[inc:overview|Includes Overview]]]
+* [[[conduct|Code of Conduct]]]
+* [[[conventions|Wiki Conventions]]]
+* [[[contribute|Contributing to the Wiki]]]
+
++ Preparation
+
+* [[[thecalcs|The Calculators]]]
+* [[[whytibasic|Why TI-Basic?]]]
+* [[[using-this-guide|Using This Guide]]]
+* [[[starter-kit|TI-Basic Starter Kit]]]
+* [[[faq|TI-Basic FAQ]]]
+
++ Commands
+
+* [[[homescreen|The Home Screen]]]
+* [[[graphscreen|The Graph Screen]]]
+* [[[math|Math Functions]]]
+* [[[variables|Variables]]]
+* [[[userinput|User Input]]]
+* [[[Operators]]]
+* [[[Memory Management]]]
+* [[[linking|Calculator Linking]]]
+* [[[controlflow|Controlling Flow]]]
+* [[[settings|User Settings]]]
+* [[[Time and Date]]]
+* [[[Command Map]]]
+* [[[Command Index]]]
+
+[[/cell]]
+[[cell style="vertical-align: top;"]]
+
++ Development
+
+* [[[plan|Planning]]]
+* [[[portability|Portability]]]
+* [[[usability|Usability]]]
+
+* [[[setup|Program Setup]]]
+* [[[code-conventions|Code Conventions]]]
+* [[[techniques|Techniques]]]
+* [[[comments|Commenting Code]]]
+* [[[subprograms|Subprograms]]]
+* [[[cleanup|Program Cleanup]]]
+
+* [[[debug|Debugging]]]
+* [[[optimize|Optimization]]]
+* [[[timings|Code Timings]]]
+
+* [[[documentation|Writing Program Documentation]]]
+* [[[marketing|Marketing]]]
+* [[[releasing-your-program|Releasing Programs]]] 
+
+* [[[creating-new-program-versions|Creating New Program Versions]]]
+
++ Techniques
+
+* [[[piecewise-expressions|Piecewise Expr's]]]
+* [[[friendly-window|Friendly Windows]]]
+* [[[animation|Animation]]]
+* [[[custommenus|Custom Menus]]]
+* [[[saving|Saving Games]]]
+* [[[highscores|Highscores]]]
+* [[[compression|Compression]]]
+* [[[maps|Making Maps]]]
+* [[[movement|Movement in Maps]]]
+* [[[custominput|Custom Text Input]]]
+* [[[graphics|Advanced Graphics]]]
+* [[[protection|Program Protection]]]
+* [[[lookuptables|Look-Up Tables]]]
+* [[[selfmodify|Self-Modifying Code]]]
+* [[[grouping|Grouping Programs]]]
+* [[[subprograms|Subprograms]]]
+* [[[Multiplayer]]]
+* [[[Validation]]]
+* [[[Recursion]]]
+* [[[Assembly]]]
+
+[[/cell]]
+[[cell style="vertical-align: top;"]]
+
++ References
+
+* [[[Resources]]]
+* [[[Downloads]]]
+* [[[Showcases]]]
+* [[[tokens|Token Size]]]
+* [[[83lgfont|TI-83+ Font]]]
+* [[[errors|Error Conditions]]]
+* [[[File Extensions]]]
+* [[[Characters]]]
+* [[[Key Codes]]]
+* [[[Abbreviations]]]
+* [[[Glossary]]]
+* [[[binandhex | Binary, Hexadecimal and Octal numbers]]]
+* [[[Tutorials]]]
++ Experiment
+
+* [[[Review]]]
+* [[[Challenges]]]
+* [[[project-ideas]]]
+* [[[Routines]]]
+* [[[Programs]]]
+* [[[Games]]]
+
++ Miscellaneous
+
+* [[[ticommunity|Remembering Contributors]]]
+* [[[beginner-guide|Beginner Guide]]]
+* [[[game-type|Game Types]]]
+* [[[Guessing Game]]]
+* [[[getKey Program]]]
+* [[[sk:tibasic-bugs|TI-Basic Bugs]]]
+* [[[humor|TI-Basic Humor]]]
+* [[[tipstricks|Tips & Tricks]]]
+* [[[variable-tips|Variable Tips]]]
+* [[[productivity-tips|Productivity Tips]]]
+* [[[history|Site History]]]
+
+[[/cell]]
+[[/row]]
+[[/table]]

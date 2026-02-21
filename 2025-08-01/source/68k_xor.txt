@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=xor.png
+|summary=Tests if exactly one of two conditions is true.
+Can also be used as a bitwise "xor" on integers.
+|syntax=//condition1// xor //condition2//
+//integer1// xor //integer2//
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 8 to enter the Test submenu.
+* Press A to select xor.
+
+|size=1 byte
+]]
+
+The "xor" (eXclusive OR) operator combines two conditions into one, which will be true if exactly one side is true, and false otherwise. You can create these conditions with the relational operators [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]], with functions such as [[[68k:isPrime()]]], [[[68k:pxlTest()]]], and [[[68k:ptTest()]]], or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [[[68k:and]]], [[[68k:or]]], and [[[68k:not]]].
+
+[[code]]
+:2+2=4 xor 1=0
+           true
+:2+2=4 xor 1+1=2
+           false
+[[/code]]
+
+The operator can also be applied to integers, treating them as 32-bit signed integers (larger integers will be truncated to fit) expressed in binary. The bits will be matched up, and "xor" will be applied to the bits individually -- a bit in the result will be 1 if the two corresponding bits of the original integers were different, and 0 if they were the same.
+
+[[code]]
+:(0b11111100 xor 0b00111111)▶Bin
+           0b11000011
+:1000 xor 512
+           488
+[[/code]]
+
+In complicated logical expressions (both with conditions and with integers), "and" has greater priority than the others ("or" and "xor"). For instance, X or Y and Z will be interpreted as X or (Y and Z).
+
++ Error Conditions
+
+[[include inc:68k-error num=60|error=Argument must be a Boolean expression or integer|cause=the data type is incorrect (or mismatched)]]
+
++ Related Commands
+
+* [[[68k:and]]]
+* [[[68k:or]]]
+* [[[68k:not]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

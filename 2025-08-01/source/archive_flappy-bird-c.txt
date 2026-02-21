@@ -1,0 +1,21 @@
+author: 'Myles_Zadok; adapted from Trenly''s adaptation of Robert Black''s Flappy Bird emulation'
+version: '1.0'
+summary: 'Full-screen Flappy Bird emulation on the TI-84+ CSE and CE calculators.'
+description: "Full-screen Flappy Bird emulation on the TI-84+ CSE and CE calculators.\n\n\"This is a remake of the previously uploaded game Flappy Bird which features a more intuitive design which allows users to change the speed, and makes the input easier. The code was completely rewritten, and has been tested. It now appears to be bug-free.\n\nTo change the speed, change the first line of the program. A lower number stored into D will make the program faster, higher numbers will make it slower. D must be at least 1.\" - Taken from Trenly's Flappy Bird 2 description.\n\nIf your calculator is older than a TI-84+ CSE, then you need to use Trenly's [[[archive:flappy-bird-2|Flappy Bird 2]]]."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '1'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: ff
+download: 'archivefile:flpbirdc/FLPBIRDC.8xp'
+image: null
+fileSize: '397'
+fileSizeUnit: '1'
+dateMade: '1489212000'

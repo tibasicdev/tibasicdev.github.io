@@ -1,0 +1,34 @@
+The TI-Basic programming language features a wide range of commands for all kinds of things, including output, user input, manipulating variables, linking calculators, and especially math -- don't forget a calculator is primarily designed for doing math. In total, there are almost 400 commands on the TI-83+ calculators, and the TI-84+/SE calculators have an additional 22 commands (because of the new [[[time and date]]] commands and the new math commands added in OS 2.30).
+
+Because sorting through all of these commands is a rather daunting task, especially when trying to figure out which one is appropriate for accomplishing a desired task, we have chosen to present them in three different formats:
+
+* **[[[command-index|Alphabetical Index]]]** -- A listing of the commands sorted in alphabetical order.
+* **[[[command-map|Menu Map]]]** -- A listing of the commands sorted by where they appear in their different menus on the calculator.
+* **Category** -- A listing of the related commands grouped together based on their common function and purpose.
+
+There are eleven different command categories that we have come up with:
+
+[[table]]
+[[row]]
+[[cell style="width:33%;"]]
+* [[[homescreen|Home Screen]]]
+* [[[graphscreen|Graph Screen]]]
+* [[[math|Math Functions]]]
+* [[[Variables]]]
+[[/cell]]
+[[cell style="width:33%;"]]
+* [[[userinput|User Input]]]
+* [[[Operators]]]
+* [[[linking|Calculator Linking]]]
+* [[[controlflow|Controlling Flow]]]
+[[/cell]]
+[[cell style="width:33%;"]]
+* [[[settings|User Settings]]]
+* [[[Memory Management]]]
+* [[[Time and Date]]]
+* [[[textcommands|Text Commands]]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+We tried to do our best to come up with these categories because we believe they reflect the natural divisions of the commands, although some of the commands have functionality that overlaps more than one category. In this case, we decided to simply go with the primary use of the command.

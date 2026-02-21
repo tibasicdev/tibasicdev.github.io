@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=civilization-simulator.gif
+|summary=A quality version of the classic Sims game.
+|size=13KB
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.cemetech.net/ Kerm Martian]
+|download=[http://tibasicdev.wikidot.com/local--files/civilization-simulator/civilizationsimulator.zip civilizationsimulator.zip]
+]]
+
+Modeled on popular computer games, Civilization Simulator lets you control and build an ancient civilization. It uses the ps3d engine, built specifically for this purpose, that provides extremely good graphics in 3D. You start with a blank world and must create people, structures, and trade for your people. The goal is to earn food and wood; when you have enough and have completed sufficient research, you can advance to the next age. After the successful completion of the third age, you win.

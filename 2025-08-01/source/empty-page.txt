@@ -1,0 +1,6 @@
+To create and modify a new CSS layout, just enter your name below:
+[[module NewPage button="create new CSS" category="empty-page"]]
+
+[[module ListPages category="empty-page" tags="-_delete" order="dateCreatedDesc" perPage="999" separate="false"]]
+* %%title_linked%%
+[[/module]]

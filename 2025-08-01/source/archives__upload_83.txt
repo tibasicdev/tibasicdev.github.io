@@ -1,0 +1,25 @@
+[[module Redirect destination="archive:_upload"]]
+
+|| **Note To Submitters**: The programs you submit here cannot contain functions not supported on the TI-83, such as home screen style text on the graph screen, un/archive or the clock functions. See the [[[portability]]] page for a complete list. ||
+
+[[div style="float:left;"]]
+[[table]]
+[[row]]
+[[cell style="text-align: center; width:210px"]]
+++ __TI-83__
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center"]]
+[[image http://tibasicdev.wikidot.com/local--files/thecalcs/ti83.png link="archives:_upload:83" alt="TI-83"]]
+[[/cell]]
+[[cell]]
+Please enter the name of your program.
+
+[[module NewPage button="Create Program Page" parent="archives:_83" category="archives" tags="_new _pending" template="template:tablet" format="/^[^_]/"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

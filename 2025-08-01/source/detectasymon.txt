@@ -1,0 +1,20 @@
+[[include inc:command
+|picture=@@@
+|summary=Turns asymptote detection on.
+|syntax=DetectAsymOn
+|location=Press:
+# 2nd FORMAT to access the graph format menu
+# Use arrows and ENTER to select "On" under "Detect Asymptotes:"
+
+It can also be found under the catalog.
+|compatibility=TI-84+ CSE/CE
+|size=2 bytes
+]]
+
+When {{DetectAsymOn}} is selected, the calculator will detect asymptotes, adjusting the graph accordingly. This method of graphing is the most accurate but is also much slower than graphing with asymptotes turned off.
+
+An asymptote is, by definition, "a line that continually approaches a given curve but does not meet it at any finite distance." Basically, an asymptote is the line where a function does not have any values on a certain axis.
+
++ Related Commands
+
+* {{[[[DetectAsymOff]]]}}

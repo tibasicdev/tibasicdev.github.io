@@ -1,0 +1,30 @@
+This program identifies whether a number is prime.
+
+NOTE: This program does not display a correct result for 0, 1, or 2, which are special cases.
+
+PROGRAM: PRIME
+:ClrHome
+:Prompt X
+:­1→Y
+:For(P,2,√(X)+1)
+:If fPart(X/P)*P=0
+:Then
+:P→Y
+:Goto E
+:End
+:End
+:Lbl E
+:If Y≠­1
+:Then
+:Disp X
+:Disp "Composite"
+:Disp "Divisible by"
+:Disp Y
+:End
+:If Y=­1
+:Then
+:Disp X
+:Disp "Is prime"
+:End
+
+(If you plan to copy and paste this string of code into a program editor remember to remove the colons.)

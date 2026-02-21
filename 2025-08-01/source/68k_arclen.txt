@@ -1,0 +1,43 @@
+[[include inc:68k-command
+|picture=arclen.png
+|summary=Returns the arc length of //expression1// from //start// to //end// with respect to variable //var//.
+|syntax=arcLen(//expression1//,//var//,//start//,//end//)
+
+|location=Describe how to get the command from a menu.
+
+|size=X byte(s)
+]]
+
+The {{arcLen()}} command uses the integral arc length formula to calculate the arc length of a function over the specified interval.
+
+[[code]]
+arcLen(cos(x),x,0,π)
+                              3.82019...
+[[/code]]
+
++ Advanced Uses
+
+The {{arcLen()}} command also works on lists of expressions:
+[[code]]
+arcLen({sin(x),cos(x)},x,0,π)
+                         {3.820...  3.810...}
+[[/code]]
+
+------
+
+Separate unrelated advanced uses with a horizontal bar.
+
++ Optimization
+
+This section includes both ways to optimize use of the command, and other common pieces of code that this command can replace in an optimization. Make sure to mention if the optimization improves speed of the program, size, or both. Sample code should be included too, preferably in the following format:
+
+[[code]]
+:∫(√(1+d(f(x),x)²),x,a,b)
+can be
+:arcLen(f(x),x,a,b)
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:integral|∫()]]]}} (integral)
+* {{[[[68k:d|d()]]]}} (derivative)

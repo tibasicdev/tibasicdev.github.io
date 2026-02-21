@@ -1,0 +1,1 @@
+…that displaying sprites to column coordinates divisible by 8 is faster than to other coordinates?

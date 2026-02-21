@@ -1,0 +1,3 @@
+The [[[binomcdf(]]] command calculates the binomial cumulative probability, either at a single value or for all values. This command can be used to replace [[[seq(]]] when used with [[[cumSum(]]].
+
+([[[binomcdf|Read more...]]])

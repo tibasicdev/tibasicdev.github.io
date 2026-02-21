@@ -1,0 +1,1 @@
+…that you can use {{[[[rand]]](}} to create a time delay similar to the {{[[[Wait]]]}} command on the [[[http://tibasicdev.wikidot.com/thecalcs#toc6|TI-84+CE]]]?

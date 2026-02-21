@@ -1,0 +1,31 @@
+[[include inc:routine
+|picture=@@
+|summary=Pad a string with spaces on the left and right.
+|input=//Ans// - The string you want to pad
+//N// - How many spaces you want
+|output=//Str1// - The padded string
+|variable=X, N, Ans, Str1
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=[file padstring.zip]
+]]
+
+[[code]]
+:For(X,1,N
+:" "+Ans+" 
+:End
+:Ans→Str1
+[[/code]]
+
+With our string stored in [[[Ans]]], we concatenate (add) a space to the beginning and end of the string. At the same time, the new string is stored to Ans, which is what we use next time through the For( loop. The loop gets repeated over and over again until we have added however many spaces we wanted.  If you only want spaces on one side of the string, edit the second line accordingly.
+
+Using Ans allows us to not have to use another string variable, since Ans can act like a string and it gets updated accordingly, and Ans is also faster than a string variable.
+
+We store the string to a more permanent variable (in this case, Str1) for future use. When you are done using Str1, you should [[[cleanup|clean it up]]] at the end of your program.
+
++ Related Routines
+
+* [[[strip-a-string|Strip a String]]]
+* [[[Scramble a String]]]

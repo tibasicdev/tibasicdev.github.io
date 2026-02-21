@@ -1,0 +1,3 @@
+name: ''
+content: "Oh, sorry, I misread something and thought that you wanted it at the end of the string, sorry. You could add this to the end of my code to remedy that:\n[[code]]\nsub(Ans,5B+1,int(B\n[[/code]]\nMy code assumes that the input might not be a multiple of 5 digits."
+attachment: null

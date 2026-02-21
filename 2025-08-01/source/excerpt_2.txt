@@ -1,0 +1,3 @@
+[[[optimize|Optimization]]] involves making programs as fast and small as possible. Speed is important because TI-Basic is slow, while size is important because the calculator has limited memory.
+
+([[[optimize|Read more...]]])

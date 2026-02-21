@@ -1,0 +1,3 @@
+name: ''
+content: 'Oh jeez, looks like you can''t edit posts on this forum. Well, regardless, the PONG.8Xp file is attached. I didn''t mean to cross it out in the previous post.'
+attachment: 'file:pong/PONG.8Xp'

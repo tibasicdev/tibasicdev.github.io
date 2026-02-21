@@ -1,0 +1,6 @@
+Animation is a very large topic.  This page actually does a good job describing the basics of animation, but it needs to be reformatted, and it needs additional info.
+
+====
+http://tibasicdev.wikidot.com/animation
+====
+Animation; Graphics

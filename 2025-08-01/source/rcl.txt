@@ -1,0 +1,22 @@
+[[include inc:command
+|picture=rcl.gif
+|summary=Pastes the content of a variable
+|syntax=Rcl //variable//
+|location=[2ND][STO>]
+|compatibility=TI-83+/84+/C/SE
+|size=N/A
+]]
+
+{{Rcl}} is a functionality of the calculator which allows the user to paste the value of a variable into a text entry field. The {{Rcl}} function can be used anywhere where text entry is required, but may not be used as a command within a program. When the user presses [2ND][STO>], the {{Rcl}} prompt will appear. Enter the name of the variable that you wish to recall here, and press [ENTER]. For example, you could use Rcl to paste the contents of a string variable into an Input prompt in a running program.
+
+[[code]]
+Rcl Str1
+[[/code]]
+
++ Advanced Uses
+
+{{Rcl}} can be used to paste one program into another program, allowing for duplicating programs on the calculator. This is particularly useful when modifying a working program. If you decide that your changes should be reverted, you will have a backup copy of the original program
+
++ Related Commands
+
+* [[[store]]]

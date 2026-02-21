@@ -1,0 +1,189 @@
+[[code type="css"]]
+@import url(http://static.wikidot.com/common--theme/co/css/style.css?0);
+
+.code {
+font-size: 105%;
+}
+
+.hidden-collapsible .collapsible-block-link {
+    text-decoration:none;
+}
+
+#search-top-box, #login-status {
+  margin-right: 4em !important;
+}
+
+.chars{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.chars2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.chars, .chars2 {
+    text-align: center;
+    border: 1px solid #999;
+    padding: 0;
+    margin: 0 0 0 0;
+    background: #f7f7f7;
+    font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;
+}
+
+.infos:after {
+  float: right;
+  content: "→∟‾×√Σ≠≥≤πΔχ▶ֿ¹²³L₁L₂L₃L₄L₅L₆≅ℕºθ÷±∠∞♦⇧∫∏©";
+}
+.pages-list {
+  margin: 0.5em 0;
+  padding: 0;
+  display: block;
+}
+.pages-list div.pages-list-item {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.pages-list-item div.title {
+  margin: 0;
+  padding: 0;
+}
+.pages-list div.pages-list-item a {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 1em;
+  color: #1E2B31;
+  display: block;
+  border-bottom: 1px solid #BBBEAB;
+  border-top: 1px solid #D2D3C6;
+  text-decoration: none;
+}
+.pages-list div.pages-list-item a:hover {
+  background: #D1D3C3;
+}
+
+.infobox{
+    color: #FFFFFF;
+}
+
+.infobox a{
+    color: #FFFFFF;
+}
+
+#header {
+    background: #OC141B;
+    min-width: 800px;
+    width:expression(document.body.clientWidth < 800? "800px" : "auto");
+}
+#header h1 {
+  padding: 0;
+  margin: 0;
+  width: 800px; //735px; //789px;
+  height: 69px;
+  background: #OC141B;
+  background-image: url(http://tibasicdev.wikidot.com/local--files/logo/Logo10B.PNG);
+}
+#header h1 a {
+  padding: 0;
+  margin: 0 320px 0 8px;
+  width: 472px; //721px; //735px; //789px;
+  height: 69px;
+  display: block;
+}
+#header h1 span {
+  display: none;
+}
+#top-bar {
+  top: 69px;
+  height: 21px;
+  min-width: 976px;
+  padding: 0;
+  background-color: #4D5C63;
+  border-bottom: 2px solid #4D5C63;
+}
+#top-bar  a, #top-bar li ul li a {
+	background-color:#4D5C63;
+}
+#top-bar a:hover, #top-bar li ul li a:hover {
+	background-color:#4D5C63;
+}
+#side-bar {
+  min-width: 185px;
+}
+#header h2 {
+  display: none;
+}
+
+#license-area {
+  display: none !important;
+}
+
+table.charmap {
+  background: white;
+  border: #999 solid 1px;
+  border-spacing: 2px;
+  padding: .3em;
+  table-collapse: collapse;
+}
+table.charmap tr td {
+  text-align: center;
+}
+
+.wd-editor-toolbar-panel li.hseparator {
+  background: url('http://tibasicdev.wikidot.com/local--files/home/toolbar-separator.png');
+  width: 22px;
+  height: 22px;
+  margin: 1px;
+}
+
+@media print {
+
+#print-head,#page-info,
+#license-area,#print-footer {
+  display: none !important;
+}
+
+div#page-content:after {
+  text-align: center;
+  width: auto !important;
+  display: block !important;
+  margin: 2em 0 0;
+  clear: both !important;
+  padding-top: .5em;
+  border-top: 1px solid #000;
+  content: "TI-Basic Developer © 2006-2009 — \"A wiki for the TI-Basic beginner and advanced alike!\"";
+}
+}
+
+.werecode{
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 9pt;
+    color: #11119C;
+}
+
+.ti83{
+    font-family: Ti83pc,'Andale Mono','Courier New',Courier,monospace;
+    border-left:3px dotted #000;
+    background:#EEE;
+    padding-left:3px;
+    color:#367A4B;
+    margin:3px 2em 5px 1em;
+}
+.nspire{
+    background: #FFF;
+    border: 1px dashed #DDD;
+    padding-left:1em;
+    margin: 1em 0 1em 0;
+    font-family:'Arial Unicode MS',verdana,arial,helvetica,sans-serif;
+    color: #222;
+    letter-spacing:1.2pt;
+}
+
+[[/code]]

@@ -1,0 +1,44 @@
+[[include inc:68k-command
+|picture=loop.png
+|summary=Repeats a block of code forever.
+|syntax=:Loop
+//(block of code)//
+:EndLoop
+
+|location=
+Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 6 to paste Loop..EndLoop.
+
+|size=
+2 bytes for Loop;
+4 bytes for EndLoop.
+]]
+
+A Loop..EndLoop block is used to make the code inside the Loop repeat forever. For example, the following code will keep printing "Hello!" until you break out of the program with the ON key or the calculator runs out of batteries:
+[[code]]
+:Loop
+: Disp "Hello!"
+:EndLoop
+           Hello!
+           Hello!
+           Hello!
+           ...
+[[/code]]
+
+Generally, Loop isn't used just like that, because having to end a program with the ON key lacks style. There are two ways to break out of the loop:
+* using [[[68k:Goto]]], you can jump to somewhere else in the program.
+* using [[[68k:Exit]]], you can exit the loop, continuing the program immediately after the EndLoop command.
+
+Generally, using Exit is considered more stylish -- and it's easier to read the code, because you don't have to search the entire program for the Goto's matching label.
+
++ Error Conditions
+
+[[include inc:68k-error num=730|error=Missing start or end of block syntax|cause=the Loop is missing an EndLoop, or vice versa]]
+
++ Related Commands
+
+* [[[68k:Cycle]]]
+* [[[68k:Exit]]]
+* [[[68k:For]]]..EndFor
+* [[[68k:While]]]..EndWhile

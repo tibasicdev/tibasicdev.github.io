@@ -1,0 +1,19 @@
+[[include inc:68k-command
+|picture=isvar.png
+|summary=Returns true if the variable is defined
+|syntax=isVar(//varname//)
+
+|location=[CATALOG][I] + navigate down with arrows
+
+|size=X byte(s)
+]]
+
+Returns true if the variable inputted has a value, false otherwise.
+
+[[code]]
+:isVar(x)
+      false
+:5 -> x
+:isVar(x)
+      true
+[[/code]]

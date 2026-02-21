@@ -1,0 +1,2 @@
+content: "Right I'm getting to it.\n\n\"Categorize\" is a button that allows you to add descriptive tags, such as {{axe}}, {{movement}}, {{arcade}}, etc.  It's just a way of adding more description to a thread."
+attachment: null

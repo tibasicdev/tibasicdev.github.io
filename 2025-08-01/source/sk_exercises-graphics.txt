@@ -1,0 +1,24 @@
+[[toc]]
++ Review
+
+# Where can you find most drawing commands?
+# What does a GDB store?
+# What does a Pic store?
+# Which command allows you to select a mark type?
+# Are the coordinates the same for Point and Pixel Commands?
+# What do you do you enable the fast circle flag?
+# How do you erase a line?
+# How do you get large text on the graphscreen?
+
++ Exercises
+
+# Create a program that inverts random blocks of the graph screen.
+# Create a program that uses text sprites to make a drawing, then store that to a Pic.
+
+[[include inc:next-prev
+|prevpage = sk:summary-graphics
+|prevtitle = Summary
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:pong
+|nexttitle = Sample Program: Pong]]

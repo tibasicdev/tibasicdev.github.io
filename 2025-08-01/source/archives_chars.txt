@@ -1,0 +1,17 @@
+author: BlakPilar
+description: 'Have you ever wanted to get some of those pretty nifty ASCII characters, such as the arrows, or subscript numbers? Well with this program, you can! I recommend just sending this to your archive and running it with a shell (such as MirageOS) so that it does not get deleted, as the program stores its awesome characters into Str7!'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: /home/no_image_2.png
+download: CHARS.8xp
+size: '169'
+unit: '1'

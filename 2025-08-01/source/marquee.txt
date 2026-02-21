@@ -1,0 +1,33 @@
+[[include inc:routine
+|picture=@@
+|summary=Scrolls a string across one line, in marquee fashion, on the home screen.
+|input=//Str1// - the text to be scrolled
+//A,B// - the [[[Output(]]] coordinates for the text
+//N// - the number of characters to display at a time
+|output=None
+|variable=Str1, A, B, N, Ans
+|compatibility=TI-83/84/+/SE
+|author=Weregoose
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=2820&view=findpost&p=48979 United TI
+|download=[file marquee.zip]
+]]
+
+[[code]]
+:Str1
+:Repeat getKey
+:Output(A,B,sub(Ans,1,N
+:sub(Ans,2,length(Ans)-1)+sub(Ans,1,1
+:If dim(rand(4
+:End
+[[/code]]
+
+By leaving Str1 by itself on one line, we store it to [[[Ans]]], which will be easier to work with. Then, the Repeat [[[getKey]]] loop will display the marquee until a key -- any key -- is pressed.
+
+Output(A,B,sub(Ans,1,N will display N characters of Str1 at A,B. Then, the next line will rotate Str1, so that the next time we're at this point in the loop, the string shifts one character.
+
+Finally, If dim(rand(4 is a clever way of delaying the marquee, so it doesn't scroll too fast. rand(4 generates a list of 4 random numbers, which is a slightly time-consuming process. If dim( is just a way of wrapping this list so it doesn't change Ans. Since dim(rand(4 is always 4, the If statement will always be true, so we don't have to worry about the next line being skipped. By changing 4 to a lower or higher number, you can make the marquee go faster or slower, respectively.
+
++ Error Conditions
+
+* **[[[errors#invaliddim|ERR:INVALID DIM]]]** is thrown if the length N is longer than the number of characters in Str1.

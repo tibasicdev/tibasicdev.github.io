@@ -1,0 +1,28 @@
+[[include inc:routine
+|picture=@@
+|summary=Displays random lines.
+|input=None
+|output=None
+|variable=A, B, C
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=[file randomlines.zip]
+]]
+
+[[code]]
+:ClrDraw
+:ZStandard
+:Delvar ADelvar B
+:Repeat getKey
+:randInt(Xmin,Xmax→C
+:randInt(Ymin,Ymax
+:Line(A,B,C,Ans
+:Ans→B:C→A
+:End
+[[/code]]
+
+Before we can start displaying random lines on the graph screen, we need to perform some basic [[[setup]]]. We then create two variables for the first (X,Y) coordinate by setting their initial values to zero. Once inside the Repeat loop, we randomly select the second (X,Y) coordinate for the line. (Please note we didn't need to store the second variable, since [[[Ans]]] is able to hold a numeric value, and it is also faster.)
+
+Now that we have the two coordinates for the line figured out, we draw the line on the screen and store the first coordinate values to the second coordinate values, i.e., the second coordinate becomes the new first coordinate. This gets repeated over and over again until you press a key.

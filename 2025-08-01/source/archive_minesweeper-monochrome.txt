@@ -1,0 +1,21 @@
+author: wifijoe
+version: v1.0
+summary: 'Play the famous game Minesweeper on your calculator! '
+description: "controls are:\narrow keys: movement\n2nd button: reveal square\nALPHA button: mark/un-mark mine\n\nto win: clear the board of all of the squares. Empty spots will not clear themselves.\n\nside note: while this can run on a ti-83+, it is not recommended.\n\njust ask me if you want it to be open source!"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: cc
+download: 'archivefile:mine/MINE.8xp'
+image: 'archiveimage:capture/Capture.png'
+fileSize: '1183'
+fileSizeUnit: '1'
+dateMade: '1508299200'

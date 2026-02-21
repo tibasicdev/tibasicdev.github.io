@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=dots.gif
+|summary=A quality version of the classic dots game.
+|size=1,311 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/78/7869.html Travis Fischer]
+|download=[http://tibasicdev.wikidot.com/local--files/dots/dots.zip dots.zip]
+]]
+
+The classic game of Dots (aka Boxes), popularized by the pencil & paper version, where two or more people take turns connecting a grid of dots with lines in an attempt to form complete boxes. The player who completes the most boxes wins! Features include: 2-9 players, customizable grid width/height, extremely intuitive game controls, and even a preview cursor which shows the user what a line would look like if placed in the current position.

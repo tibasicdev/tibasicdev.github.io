@@ -1,0 +1,108 @@
+[[table style="width: 100%; margin-bottom: 20px;"]]
+[[row]]
+[[cell style="width: auto; background: #fdfcf6; border: 1px solid #5C634D; padding: 10px; font-size: 125%;"]]
+**//Welcome to TI-Basic Developer (TI|BD), the TI-Basic information repository!//** If you are a first-time visitor, please check out the [[[welcome pack]]] to get you up to speed on using the site. We encourage you to [[[system:join|become a member]]] and to [[[contribute|get involved]]] in the community, and to come back often to see what [[[system:recent-changes|changes]]] have occurred. And above all else, enjoy your stay!
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[div style="float:right; width: 18em; margin: 0 0 0 20px; background: #fdfcf6; border: 1px solid #5C634D;"]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell style="font-size:140%; background: #5C634D; color: #fff; text-align:center;"]] 
+**New to 68k Basic?**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px;"]]
+These pages provide an overview of 68k Basic, and are designed to help you quickly get started learning and using 68k Basic.
+
+* [[[68k:thecalcs|The Calculators]]]
+* [[[68k:whytibasic|Why 68k Basic?]]]
+* [[[68k:using-this-guide|Using This Guide]]]
+* [[[68k:starter-kit| 68k Basic Starter Kit]]]
+* [[[68k:83coders|68k for TI-83 Coders]]]
+* [[[68k:faq|68k Basic FAQ]]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; text-align:center;"]]
+**[[[68k:Did You Know...]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px;"]]
+[[module ListPages category="dyk" tags="+_dyk _68kportal _both-portals _all-portals" separate="no" order="random" limit="1" urlAttrPrefix="dyk"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="background: #fdfcf6; width: 100%; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; text-align:center;"]]
+**[[[68k:Development]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #fdfcf6; padding: 10px;"]]
+[[module ListPages category="excerpt" tags="_excerpt +_68kportal +featured-article" order="random" separate="false" limit="1"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[/div]]
+
+[[table style="width: auto; margin-right: 18em; margin-bottom: 20px; background: #fdfcf6; border: 1px solid #5C634D; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #5C634D;"]]
+**[[[68k:news|Recent News]]]**
+[[/cell]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #5C634D;"]]
+**[[[forum:recent-posts|Recent Posts]]]**
+[[/cell]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; color: #fff; text-align:center; vertical-align: top; width: 33%;"]]
+**[[[68k:recent-changes|Recent Edits]]]**
+[[/cell]]
+[[/row]]
+[[row style="border-bottom: 1px solid #5C634D;"]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #5C634D;"]]
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals _all-portals" separate="false" limit="3"]]
+%%content%%
+[[/module]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px; border-right: 1px solid #5C634D;"]]
+[[module MiniRecentPosts limit="3"]]
+[[/cell]]
+[[cell style="background: #fdfcf6; padding-left: 10px; padding-right: 10px;"]]
+[[module ListPages separate="no" limit="6" order="dateEditedDesc"]]
+%%title_linked%%
+[[span style="color: #444; font-size: 85%; margin-left: 15px;"]](by [[user %%updated_by%%]] %%updated_at|%O ago%%)[[/span]]
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: auto; margin-right: 18em; margin-bottom: 20px; background: #fdfcf6; border: 1px solid #5C634D; border-collapse: collapse;"]]
+[[row]]
+[[cell class="infobox" style="font-size:140%; background: #5C634D; color: #fff; text-align:center; vertical-align: top; width: 33%; border-right: 1px solid #5C634D;"]]
+**Search the Site**
+[[/cell]]
+[[/row]]
+[[row style="border-bottom: 1px solid #5C634D;"]]
+[[cell style="background: #fdfcf6; padding: 5px 10px; border-right: 1px solid #5C634D;"]]
+[[div style="padding-bottom: 5px;"]]
+There is a wide range of 68k Basic content available on this site, so we recommend using the search engine or referring to the [[[68k:sitemap]]]. If you can't find what you're looking for, leave a post in the [http://tibasicdev.wikidot.com/forum/c-32784/68k-programming forums] and somebody will assist you.
+[[/div]]
+
+[[module Search]]
+[[/cell]]
+[[/row]]
+[[/table]]

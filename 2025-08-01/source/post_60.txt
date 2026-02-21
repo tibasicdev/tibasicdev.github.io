@@ -1,0 +1,2 @@
+content: "This page is weird for me. CSS seems to br broken for me, according to firebug it's trying to load from the wikidot domain.\nAlso, this reply thingy is weird."
+attachment: null

@@ -1,0 +1,21 @@
+author: 'Texas Instruments'
+version: 2.55MP
+summary: "##black|The latest TI-84 Plus operating system 2.55 update* features MathPrint™ and is available to download free for TI-84 Plus and TI-84 Plus Silver Edition graphics calculators.##\n"
+description: "##black|The latest TI-84 Plus operating system 2.55 update* features MathPrint™ and is available to download free for TI-84 Plus and TI-84 Plus Silver Edition graphics calculators.##\n------\n##blue|Download this simply instead of going through the mess of TI's website!##\n------\n\nEarlier versions of the OS can be downloaded from [https://tiplanet.org/forum/archives_list.php?cat=OS+z80 TI Planet here].\n\nUploaded by: [[*user Bio_Hazard1282]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: dd
+download: 'archivefile:ti84plus-os255/TI84Plus_OS255.8Xu'
+image: 'archiveimage:eap-2d-templates-a/EAP_2D-templates_a.jpg'
+fileSize: '16384'
+fileSizeUnit: '1'
+dateMade: '1294297200'

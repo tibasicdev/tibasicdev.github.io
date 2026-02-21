@@ -1,0 +1,1 @@
+…that a memory leak is caused when you use a {{[[[goto|Goto/Lbl]]]}} within a [[[controlflow|loop]]] or {{[[[If]]]}} conditional (anything that has an {{[[[End]]]}} command) to jump out of that control structure before the {{End}} command is reached?

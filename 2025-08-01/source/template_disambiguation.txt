@@ -1,0 +1,8 @@
+[!-- Use this stub for making disambiguation pages --]
+
+The term "[!-- name of page --]" is ambiguous and may refer to:
+
+* [[[page1]]], a brief description
+* [[[page2]]], another brief description
+
+If an internal link led you here, you may wish to change the link to point directly to the intended article.

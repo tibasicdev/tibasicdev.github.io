@@ -1,0 +1,21 @@
+author: Myles_Zadok
+version: '1.0'
+summary: 'Calculates sample standard deviation, variance, population standard deviation, population variance, and the mean of a user-inputted list of numbers.'
+description: 'The user is asked to input a list of numbers. The program then displays a menu of statistical variables. The user will then select a variable, and the calculator displays the value of the variable for the set list of numbers. This will be repeated until the user selects the menu option of "Quit." This program was originally written for a TI-84+CE. '
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:statmenu/STATMENU.8xp'
+image: null
+fileSize: '349'
+fileSizeUnit: '1'
+dateMade: '1486274400'

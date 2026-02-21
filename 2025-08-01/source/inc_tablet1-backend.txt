@@ -1,0 +1,21 @@
+[[table]]
+[[row]]
+
+[[cell class="hidden" style="width: 225px;"]]
+[[image {$picture} link="{$downloadUrl}" alt="IMAGE UNAVAILABLE" title="Click to download" width="190px" style="border: 1px solid #666;"]]
+[[/cell]]
+
+[[cell style="width: 225px;"]]
+**Name:** {$name}
+**Author:** {$author}
+**Download:** [{$downloadUrl} {$downloadName}]
+**Compatibility:** {$compatibility}
+**File Size:** {$size}
+[[/cell]]
+
+[[cell]]
+{$description}
+[[/cell]]
+
+[[/row]]
+[[/table]]

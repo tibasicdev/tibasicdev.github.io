@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '1.0'
+summary: 'Classic Minesweeper game'
+description: "Hello, I'm back.\nThis is a game exactly like Minesweeper.\nPress the arrow keys to move your selector thingy.\nPress Clear when you think you have won.\nPress Enter to chose a space.\n[[code]]\n:{16,16→dim([A]   //sorry for the long matrix :) Fixed\n:For(W,1,20\n:1→[A](randInt(1,8),randInt(1,16\n:End\n:ClrHome\n:8→X\n:4→Y\n:While 1\n:getKey→K\n:If not([A](Y,X)=2)\n:Output(Y,X,\" \"\n:X-(K=24 and X>1)+(K=26 and X<16)→X\n:Y-(K=25 and Y>1)+(K=34 and Y<8)→Y\n:Output(Y,X,\"O\n:If K=105 or [A](Y,X)=2\n:Then\n:0→G\n:If X>1\n:Then\n:If [A](Y,X-1)=1\n:G+1→G\n:End\n:If X<16\n:Then\n:If [A](Y,X+1)=1\n:G+1→G\n:End\n:If Y>1\n:Then\n:If [A](Y-1,X-1)=1  //You might have to change Y-1 to Y+1, I can't remember\n:G+1→G\n:End\n:If Y<8\n:Then\n:If [A](Y+1,X-1)=1  //You might have to change Y+1 to Y-1, I can't remember\n:G+1→G\n:End\n:If [A](Y,X)=1\n:Then\n:Pause \"YOU LOSE\n:Output(8,1,9\n:End\n:Output(Y,X,G\n:2→[A](Y,X\n:1→X\n:1→Y\n:0→G\n:End\n:If K=45\n:Then\n0→G\n:For(H,1,16\n:For(I,1,8\n:If [A](I,H)=0\n:1→G\n:End\n:End\n:If G=0\n:Pause \"YOU WIN!\n:Output(8,1,9\n:End\n:End\n:End\n[[/code]]"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:readme-10/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1412136000'

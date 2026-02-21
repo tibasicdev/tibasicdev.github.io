@@ -1,0 +1,15 @@
+Another page that should be created similar to [[[68k:wiki-limits]]]
+
+Unfortunately, the rich vocabulary of wiki syntax doesn't allow to properly display a command in titles and code blocks. When this happens, the offending page will link here so we can properly apologize, clarify what is meant, and give the syntax that displays them correctly where it is possible to do so.
+
+Here are the commands and symbols that suffer from this problem:
+
+[!-- Example for explaining errors, per the 68k page.
+* The ^^[[[68k:radian|r]]]^^ command
+ * Use @@^^r^^@@ to render it correctly where possible.
+ * Use @@^^[[[68k:radian|r]]]^^@@ to render it in a link.
+ * Replace it with ^r in code blocks.
+--]
+
++ See Also
+* The [*http://www.wikidot.com/doc:wiki-syntax wiki syntax description] on www.wikidot.com.

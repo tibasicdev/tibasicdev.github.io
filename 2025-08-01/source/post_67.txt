@@ -1,0 +1,2 @@
+content: "I've seriously got to figure out how to make the system handle anonymous users properly.\n\nAre you able to take a screenshot of what you are seeing?\n\nAlso, are you not able to edit your posts?  If you can't, then I don't know how to fix it, because theoretically, you ought to be able to..."
+attachment: null

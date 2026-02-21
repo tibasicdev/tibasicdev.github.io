@@ -1,0 +1,17 @@
+When you compile a [[[basicbuilder]]] app, any [[[delvar]]] command will not delete the variable.  But, there is a way to delete the variable using two assembly programs [*http://www.unitedti.org/index.php?download=228 celtic2] and [http://tibasicdev.wikidot.com/local--files/basicbuilder:delvar/Zrun Zrun].  First you have to specify all of your delvar commands in Str9 like:
+> "Delvar ADelvar BDelvar C"→Str9
+Now for the Code:  
+[[code]]
+"TEMP"→Str2
+"1234567890"→Str1
+1→A
+Repeat Str9≠"..P:NT:FN"
+Str2+(Str1,A,1)→Str0
+0→θ
+asm(prgmCELTIC2
+A+1→A
+End
+1→θ
+asm(prgmCELTIC2
+asm(prgmZRUN
+[[/code]]

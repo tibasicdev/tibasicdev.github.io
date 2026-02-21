@@ -1,0 +1,7 @@
+[[include inc:next-prev
+|prevpage = 68k:subprograms
+|prevtitle = Subprograms
+|tocpage = 68k:techniques-overview
+|toctitle = Overview
+|nextpage = 68k:Assembly
+|nexttitle = Assembly]]

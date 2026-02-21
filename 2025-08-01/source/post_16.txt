@@ -1,0 +1,2 @@
+content: 'The purpose of this section is to make posts about individual wiki pages.'
+attachment: null

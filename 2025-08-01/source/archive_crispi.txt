@@ -1,0 +1,21 @@
+author: IndigoWare
+version: '1.0'
+summary: 'Recite the digits of pi (π). How far can you go?'
+description: "Pi (π) is well known for its utility in all things circles (C=2πr, A=πr²). Pi is also known for being an irrational number, a number that goes on forever. This program won't help you memorize this number in its entirety, but it will help you remember the first 126!\n\n= OBJECTIVE\nFill the screen with the first 126 digits of pi, one digit at a time! Mistakes will set you back a little, but you'll also learn the next few digits. Don't give up!\n\n= CONTROLS\nNumber Keys 0-9: Type a number\nEnter: Continue after getting a digit wrong; proceed once you've completed all 126 digits\nClear: Exit the game. Progress is never saved.\n\n= TROUBLESHOOTING / RESTRICTIONS\nThis program currently uses the remainder() command, which is available on only operating systems past 2.53 MP. I'll remove this restriction in a future update.\nIf the program still doesn't work, try unarchiving any real variables or clearing a little space on your calculator.\n\n= MISCELLANEOUS\nThanks for checking out this program and reading this through! As a small thank-you gift, store pi to the variable X (π→X) before running CrisPI. You'll get a handy reference for the first 126 digits of pi.\n\n= LAST WORDS\nThis is my first program, so please feel free to comment on the program itself or on this page about anything I might have missed, programming tips, etc. Thank you!\n -- IndigoWare"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: ee
+download: 'archivefile:crispi-1/CRISPI.8xp'
+image: 'archiveimage:bmpcrispi-1/bmpCRISPI.BMP'
+fileSize: '828'
+fileSizeUnit: '1'
+dateMade: '1425960000'

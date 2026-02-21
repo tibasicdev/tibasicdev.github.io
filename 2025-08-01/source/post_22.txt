@@ -1,0 +1,2 @@
+content: "I cannot find an easy way to add to General Discussion, Programming & Design, Projects & Contests. Is this something planned? Also, I notice the \"categorize\" thing. What does that do?\n"
+attachment: null

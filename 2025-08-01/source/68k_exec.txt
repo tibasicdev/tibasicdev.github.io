@@ -1,0 +1,19 @@
+[[include inc:68k-command
+|picture=exec.png
+|summary=Executes a string of assembly opcodes.
+|syntax=:Exec //string [, expression1] [,expression2]...//
+
+|location=This command can't be found in any menu besides the command catalog.
+
+|size=? bytes
+]]
+
+The Exec command allows you to execute assembly-language opcodes. The optional expressions let you pass one or more arguments for a program.
+
+You need to be careful though. If you make a mistake, then you could lock up your calculator and lose your data.
+
++ Optimization
+
++ Error Conditions
+
++ Related Commands

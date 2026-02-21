@@ -1,0 +1,79 @@
+[[include inc:nspire-command
+|picture= @@
+|summary= Returns the absolute value of a number
+|syntax= abs({{//Number//}})
+
+|location= @@
+
+|compatibility = @@If this is only available on certain versions of the nspire
+|size=X byte(s)
+]]
+
+This command can be used to return the absolute value of a number, or an expression which evaluates to a number.
+
+[[code]]
+⁻5→X
+abs(x)
+
+Outputs: 5
+[[/code]]
+
+[!--
++ Advanced Uses
+
+Advanced uses include rarely used or undocumented ways of calling the command in question. If there's an unusual but effective way of using the command, that too should be listed. Another type of advanced use is a programming technique to which the command is critical. Finally, system variables modified by the program should be listed here. With each advanced use, you should have a piece of example code to show how it works, as well as an explanation.
+
+If there is already a page on the advanced use of the command, give a short synopsis, then link to that page - you shouldn't include the entirety of that page here.
+
+------
+
+Separate unrelated advanced uses with a horizontal bar.
+--]
+
++ Optimization
+
+This section includes both ways to optimize use of the command, and other common pieces of code that this command can replace in an optimization. Make sure to mention if the optimization improves speed of the program, size, or both. Sample code should be included too, preferably in the following format:
+
+[[code]]
+If X<0
+Then
+⁻X→X
+
+can be
+
+abs(X)→X
+[[/code]]
+
+[!--
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+* **[[[nspire:errors#dimmismatch|ERR:DIM MISMATCH]]]** is thrown if the two list arguments have different dimensions.
+* **[[[errors#reserved|ERR:RESERVED]]]** is thrown if ∟RESID is supplied as an argument.
+--]
+[!-- This section is still in progress
+[[include inc:nspire-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:nspire-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+
+Exclude the following errors because they don't rely on the specifics of a command, and can occur almost anywhere: 180-Break, 210-Data type, 670-Memory (but do include 673-Memory, because that's unusual), 680..720-Missing (..}, 790-Non-algebraic variable, 830-Overflow, and 910..940-Syntax-type errors.
+--]
+[!--
++ Related Commands
+
+Several (around 3) commands have a similar function or are used in a similar context to this command. Make a bulleted list of them, with links to the other commands' pages. It will often be the case that several commands all link to each other.
+
+* Command 1
+* Command 2
+* Command 3 
+
++ See Also
+
+(this section is usually not present)
+If a command can be used in a particular design concept or technique, you should mention it and provide a link to its respective page. This section should come at the end of the page, and be a bulleted list that contains all of the design or technique related links mentioned throughout the page.
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1
+
+--]

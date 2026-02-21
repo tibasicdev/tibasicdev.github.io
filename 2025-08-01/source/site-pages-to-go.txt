@@ -1,0 +1,3 @@
+[[module ListPages category="*" separate="false" order="title" perPage="90000000000000000000000000000"]]
+* %%title_linked%%
+[[/module]]

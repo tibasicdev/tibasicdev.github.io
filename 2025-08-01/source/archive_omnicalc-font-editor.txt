@@ -1,0 +1,21 @@
+author: '[[*user Bio_Hazard1282_rPi3]], [[*user Xeda_Elnara]]'
+version: '1.02'
+summary: 'This is a new font editor based on an old program by Zeda.'
+description: "This is a new font editor based on an old program by Zeda.\nPlease read the `Read Me.pdf` for more details.\n\nRecommended OSs 2.43 and below.\n\nI can't upload the demo, so it will be below instead."
+arcade: '0'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: bb
+download: 'archivefile:omnicalc-font-editor-tar/Omnicalc_Font_Editor-tar.gz'
+image: null
+fileSize: '2'
+fileSizeUnit: '3'
+dateMade: '1608534000'

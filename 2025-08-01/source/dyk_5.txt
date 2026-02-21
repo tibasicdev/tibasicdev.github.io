@@ -1,0 +1,1 @@
+…that the TI-83 series of calculators does implicit [[[multiply|multiplication]]], so there is no need to ever use the * sign?

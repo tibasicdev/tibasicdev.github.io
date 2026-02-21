@@ -1,0 +1,22 @@
+A futuristic Role Playing Game with several abilities and a unique style of battle.
+====
+Yes, another RPG to add to the projects page.  
+
+**Features:**
+Utilizes the Horiz function, which splits the screen between text and graphics.  
+Supports a dynamic inventory system similar to professional rpgs, with item stacking.
+Runs decently on 83+ and almost too fast on 84/+/SE.  Seriously, the battle animations are pretty hard to make out.
+A unique battle engine: you have to build up charge in battle to use stronger techniques and abilities
+A graphical overworld and battle engine; this is not a text-based game.
+Supports NPC's, random encounters, selling items, and most typical RPG stuff.
+
+**Goals:**
+3-4 areas and bosses
+A storyline that makes sense
+Finished by the end of summer--although that might be a bit overambitious
+
+**Screenshots:**
+(note that I'm having a bit of a problem with the run indicator.)
+[[image http://jugglemonkey.wikispaces.com/file/view/EL01.PNG]] [[image http://jugglemonkey.wikispaces.com/file/view/EL02.PNG]]
+
+[[image http://jugglemonkey.wikispaces.com/file/view/EL03.PNG]] [[image http://jugglemonkey.wikispaces.com/file/view/EL04.PNG]]

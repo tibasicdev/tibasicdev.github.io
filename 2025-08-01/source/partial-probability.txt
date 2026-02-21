@@ -1,0 +1,61 @@
+[[include inc:routine
+|picture= @@ http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+
+|summary=This routine randomly selects a number given a list of partial probabilities
+
+|input=
+//L₁// - The bin sizes of the partial probabilities
+
+|output=
+//C// - Which bin is selected
+
+|variable=The variables used in the routine.
+
+L₁, L₂, X, U, S, L, T, C,E
+
+|compatibility=
+TI-83/84/+/SE/CSE/CE
+
+|author=[http://www.wikidot.com/user:info/trenly Trenly]
+
+|authors=@@ Only include this if you aren't the author of the routine.
+|url=@@
+|download=@@
+]]
+
+[[code]]
+L₁→L₂
+sum(L₂→X
+Xˉ¹→U
+U→S
+DelVar LDelVar C
+rand→T
+For(E,1,dim(L₂
+While L₂(E) and not(C
+If L≤T and U≥T
+Then
+E→C
+Else
+L₂(E)-1→L₂(E
+U+Xˉ¹→U
+L+Xˉ¹→L
+End
+End
+End
+C
+[[/code]]
+
+This routine takes a single list, and randomly selects an element according to the bin sizes in the list. It copies the list so as to not overwrite the data. It then sums the list, and takes the inverse of the sum to use as an interval. It then generates a random number between 0 and 1. By testing if this number falls within the intervals defined by each partial probability, it determines which bin the random number falls into. 
+
+As an example, if the input is {4,11,2,3} there is a 4/20 chance that Bin 1 is chosen, an 11/20 chance for bin 2, 2/20 for bin 3, and 3/20 for bin 4. If a bin size is 0, it will be skipped and never selected as the probability is 0. 
+
+[!--
++ Related Routines
+
+There are several routines that are similar in functionality or are used in a similar context. Make a bulleted list of them, with links to the other routines' pages. It will often be the case that several routines all link to each other.
+
+* Routine 1
+* Routine 2
+* Routine 3
+
+--]

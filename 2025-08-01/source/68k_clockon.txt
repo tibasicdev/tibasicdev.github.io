@@ -1,0 +1,21 @@
+[[include inc:68k-command
+|picture=clockon.png
+|summary=Turns on the hardware clock.
+|syntax=ClockOn
+|ams2xx=07
+|size=2 bytes
+]]
+
+The {{ClockOn}} command turns on the calculator's clock, used by most [[[68k:time and date]]] commands. Only when the clock is on, will the value returned by {{[[[68k:startTmr()]]]}}, {{[[[68k:getTime()]]]}}, and other commands actually change with the passage of time. If you write a program that uses any of these commands, be sure to include this command at the beginning of the program.
+
+Since it modifies the global status of the calculator, {{ClockOn}} can't be used inside a function. If you're writing a function that depends on measuring time (so you need the clock to be on), the best thing you can do is use the {{[[[68k:isClkOn()]]]}} command to check if the clock is on or off, and return an error message if it's off.
+
++ Error Conditions
+
+[[include inc:68k-error num=450|error=Invalid in a function or current expression|cause={{ClockOn}} is used in a function]]
+
++ Related Commands
+
+* {{[[[68k:ClockOff]]]}}
+* {{[[[68k:isClkOn()]]]}}
+* {{[[[68k:startTmr()]]]}}

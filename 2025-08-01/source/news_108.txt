@@ -1,0 +1,5 @@
+[[include inc:date
+|month=Nov
+|day=03
+|description=[[user thornahawk]] finished the [/invt invT(] command. Now all calculator commands documented (again!)
+]]

@@ -1,0 +1,55 @@
+[[include inc:command
+|picture=XROOT.GIF
+|summary=Takes the //x//th root of an input.
+|syntax=//A// ^^x^^√ //B//
+|location=While editing a program, press:
+# MATH to open the [[[math]]] menu
+# 5 or use the arrow keys to select
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+This command takes the //x//th root of a number.  If used on a list, it will return a list with the //x//th root of each element.  Also valid are the forms //list//^^×^^√//x// and //list1//^^×^^√//list2//.
+
+[[code]]
+:2×√4
+		2
+:5×√2
+		1.148698355
+
+:3×√{1,‾8,27}
+		{1 ‾2 3}
+		
+:{3,2}×√{8,9}
+		{2 3}
+		
+Real mode:
+:4×√‾1
+	<returns error>
+
+a+bi mode:
+:4×√‾1
+		.7071067812+.7071067812i
+[[/code]]
+
+See the notes on the [[[power|^]]] command for an explanation on how ^^×^^√ behaves depending on whether its input is real or complex.
+
++ Optimization
+
+If you want to take the second or third root of a number, use [[[square-root|√(]]] or [[[cube-root|³√(]]] instead.
+
+[[code]]
+:2×√X
+can be
+:√(X
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#N|ERR:NONREAL ANS]]]** if you try to take an even root of a negative number or list element in Real mode.
+
++ Related Commands
+
+* [[[square-root|√(]]]
+* [[[cube-root|³√(]]]
+* [[[power|^]]]

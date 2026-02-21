@@ -1,0 +1,25 @@
+[[include inc:68k-command
+|picture=fnon.png
+|summary=This command turns on all or a group of functions.
+|syntax= FnOn //[optional function numbers]//
+|location=* Press F4 from the Homescreen to enter the OTHER menu.
+* Press 7 to select the FnOn command.
+|size=
+]]
+
+The FnOn command turns on one or a group of functions. The optional argument specifies which functions are to be turned on, and if there is no argument, then all the functions are turned on, not just the specified functions. This is used mostly to turn back on functions after they are turned off by the similar FnOff command, or it is used to turn back on functions after a program that has used the graphscreen.
+
+[[code]]
+:FnOff
+:FnOn 4,7,9,20
+[[/code]]
+
+The above code will turn off all functions, and then it will turn on only functions 4, 7, 9, and 20. This is useful if you want to graph only a few functions, but still have the rest of the functions stored in the calculator.
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the optional function argument is not in the range 1-99]]
+
++ Related Commands
+
+* [[[68k:FnOff]]]

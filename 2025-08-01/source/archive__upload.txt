@@ -1,0 +1,46 @@
+[[table class="Infobox" style="margin-top: 25px;"]][[row]][[cell]]**//Did you write your own TI-Basic game or program? Share it with the community!//** Uploading a program is a quick and painless process and involves entering a program name in the input box below, pressing the create button and then filling out the program form. Please note that you need to be a [[[system:join|TI|BD member]]] before you can upload programs; you only need to do this one time, though.
+[[/cell]][[/row]][[/table]]
+
+[[module NewPage category="archive" parent="archive:_home" button="Create Program Page" format="/^[^_]/"]]
+
++ Program Form Instructions
+
+[[include :snippets:image
+|image=http://tibasicdev.wikidot.com/local--files/archive:_upload/tibd_archiveUpload.png
+|heading=The Form
+|caption=To put a program onto the archive, fill this out.
+|width=350px
+|float=right
+]]
+
+When you create a program page using the above input box, you will see a form that looks like the image on the right. Although some of the form fields provide default values, you should try to enter your own value for every field so that your program page is more appealing to people when they view it.
+
+* **Author** -- Your name or programmer alias. //If the program was made by someone else, please enter their name instead.//
+
+* **Version** -- The current version number of the program; if you don't have a version number, 1.0 is a good default value to use.
+
+* **Summary** -- A brief statement (400 characters) highlighting your program's features; this appears on the [[[archive:_home|main archive listing]]], so choose your words carefully.
+
+* **Description** -- The complete explanation about your program, including describing the most important parts of the program and its installation. This is what shows up on the program page itself.
+
+* **Genre** -- The different program genres, such as arcade, puzzle, RPG, etc. Check each one that applies to your program.
+
+* **Compatibility** -- What calculators are capable of running your program; see the [[[compatibility]]] page for more detailed information.
+
+* **Download** -- To upload your program, click on the "select file" button beside the Download option and find your program on your computer system.
+
+* **Image** -- A *.png, *.bmp, or *.gif graphic that showcases your program in action.
+
+* **Size** -- How much memory your program uses on the calculator.
+
++ Submission Guidelines
+
+
++ Having Trouble with uploading?
+Need help with uploading to the Archives? View [*http://tibasicdev.wikidot.com/uploading-help this] page.
+
++ ##red|{{Note:}}##
+##red|**{{Uploading images to archives are causing AJAX errors. Problem was reported and hopefully, it will be resolved.}}**##
+
+
+[!--add guidelines here if agreed upon--]

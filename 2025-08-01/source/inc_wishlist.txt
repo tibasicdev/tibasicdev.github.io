@@ -1,0 +1,8 @@
+[[table]]
+[[row]]
+[[cell]]
+**{$user}** wrote:
+**comment** {$comment}
+[[/cell]]
+[[/row]]
+[[/table]]

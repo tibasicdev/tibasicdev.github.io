@@ -1,0 +1,26 @@
+TI-Basic Developer (TI|BD) covers how to make TI-Basic programs using the many different TI-Basic commands, while discussing proper programming design and showing several techniques that can be incorporated into programs. After going through all of the information, it is hoped that the reader becomes a competent TI-Basic programmer.
+
+The site is currently split up into three separate sections based on the version of TI-Basic that is used in the different TI graphing calculators -- the [[[home|TI-83]]], [[[68k:home|68k]]], and [[[nspire:home|TI-Nspire]]] series. It is recommended that you have one of those calculators, so that you can actually use the information contained in that section of the site.
+
++ Site Content
+
+We've tried to create a broad base of TI-Basic information. This ensures that most readers will hopefully be able to learn something from this site. Experimentation is encouraged to fully digest all of the information. The site content can be broken up into six general, interdependent parts:
+
+* **Preparation** — Before starting TI-Basic programming, you should understand the difference between TI-Basic and Assembly, learn about the different TI calculators, and how to use them.
+* **Commands** — The commands are explained in thorough detail, including their description, syntax, and different uses. The commands are also grouped together based on their function and purpose.
+* **Design** — The design teaches how to succeed at programming, including improving program design and optimizing using the different commands. It will help the reader become a more complete programmer.
+* **Techniques** — The techniques are a collection of short routines, broken down and dissected to help the reader understand the underlying logic. They are not designed to be comprehensive, but rather a foundation which the reader can build upon.
+* **Experimentation** -- The experimentation tests your comprehension of the commands, design theory, techniques, and the rest of the information on this wiki. There are review exercises, project challenges, and sample programs and games that you can try out to learn from and just have fun with.
+* **References** -- The references are a collection of lists on different subjects, including tutorials and tools available elsewhere on the Internet, the tokens, error conditions, file extensions, and key codes used by the calculator, and the common terminology that is used in the TI community.
+
+Each reader can read the information in whatever order they desire. For the average reader, though, the suggested approach is to just start from the beginning and read until the end. The information is presented in a sequential order, with the concepts and code getting increasingly more complex as you get further into it. You might also look at the page [[[using-this-guide|Using This Guide]]], which outlines another suggested reading order.
+
++ Site Goals
+
+The main goal of this site is to teach TI-Basic programming. This site is targeted primarily at the beginner programmer (those with little or no programming experience), but it has information for almost everyone. We believe that if you can teach a beginner programmer good programming habits and skills, they will incorporate those habits and skills into the programs they create. The result will be higher quality TI-Basic programs.
+
+Related to the first goal, the second goal of this site is to be the nexus for TI-Basic information. There are many different design concepts and techniques to learn and master, which are all part of the rich heritage of TI-Basic. Unfortunately, when programmers leave the TI community, they often forget to write down their programming innovations, and that information gets lost to the community. We encourage all programmers to [[[contribute]]]  their TI-Basic knowledge to the community to prevent this from happening.
+
+The third goal of this site is to present TI-Basic in a more connected and beginner-friendly format. The TI-Basic information is spread out across several TI forums, sites, and among individual tutorials and guides, and this problem is made even worse because of how cumbersome and confusing the information is presented. For a beginner TI-Basic programmer, it is especially hard to read through and follow. The result is a challenging barrier for learning TI-Basic.
+
+The last goal of this site is to create more TI-Basic programming documentation. The one major underdeveloped area in the TI community is quality documentation. We believe that this is because writing tutorials is not really a fun activity, and it does not receive the same recognition as creating a program or game. Nonetheless, documentation is essential to the success of the TI community.

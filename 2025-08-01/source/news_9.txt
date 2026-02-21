@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Oct
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=10
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=[[user burr]] started the [/documentation Writing Program Documentation] page. Check it out if you are wondering why documentation is important and what things your program documentation should include.
+]]

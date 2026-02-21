@@ -1,0 +1,24 @@
++ Uploading Help
+
+Ever have any trouble with uploading content to the archives? Don't worry, this page will help solve that problem. Many people have trouble with uploading files to the archives, due to the dreaded AJAX error. So don't get upset if it doesn't work, there's nothing to get upset about. So follow these steps and tips and you'll be good to go.
+
+I bet you want to upload your stuff ASAP, right? Don't you just cram as much info with the file and screenshot and hit submit? Well, hold on a second. That's not the way to go. You risk an AJAX error. For those of you who do not know what that is, let me put it this way. Once you get it, you can't really do anything after that error. You'll have to discard changes you've made to your archive page.
+
+When you want to prevent the risk of that error, here are some things you can't put in your archive (yet):
+
+* The download file
+* The screenshot
+
+Here are some additional rules you need to know about your archive. Doing any of these will probably throw an AJAX error:
+
+* Keep the short summary less than **400** characters.
+* Don't include any decimals in the file size. i.e., 4.2, 108.9, etc
+* Don't spend too long editing the initial archive page.
+
+If you kept the file and screenshot out of the way, good. Save your archive with only the information. No summaries or descriptions. Here are some tips you should do in case something happens:
+
+* Keep your description and summary in a text document (Notepad for Windows or Text Editor for MacOS).
+* Keep your files in the Downloads folder for easy access, so you don't have to scrounge your PC for the files and screenshots you need.
+Make backups of your files unless they get deleted on accident. Deleted files on removable mediums will be deleted permanently, so be careful!
+
+So now that you have your text document open and ready to copy and paste, and your files in the Downloads folder for easy access, you're ready to upload your archive! Edit your archive page, and copy and paste your summary and description. Add your file and screenshot. It is highly recommended that your uploaded file is a **.zip archive**.  Make sure your screenshot isn't too big, or some of it will be cut off. The screenshots are intended to be captured by calculator screens. Now hit upload. If it said "Page Saved!", your good! Your archive was saved and your page is now viewable to other members of the site!

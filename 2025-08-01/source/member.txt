@@ -1,0 +1,87 @@
+This page lists all members, moderators and administrators of the site. Feel free to [[[system:join|become a member]]].
+
+[[toc]]
+
+[[table style="width: 100%;"]][[row]][[cell style="width: 250px; vertical-align: top;"]]
++ [[# members]]Members
+
+[[module ListPages category="member" order="dateCreatedAsc" separate="false" perPage="30"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/cell]][[cell style="vertical-align: top;"]]
+++ [[# badges]]Badges
+
+[[tabview]]
+
+[[tab All Recipients]]
+[[module ListPages category="member" order="dateEditedDesc" separate="false" perPage="50" tags="\
+[[include inc:badge-types]]
+"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/tab]]
+
+[[tab Regular]]
+[[div style="float: right;"]]
+[[include badge:regular]]
+[[/div]]
+[[module ListPages category="member" tags="_regular" order="dateEditedDesc" separate="false" perPage="50"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/tab]]
+
+[[tab Forum Regular]]
+[[div style="float: right;"]]
+[[include badge:regular-forum]]
+[[/div]]
+[[module ListPages category="member" tags="_regular-forum" order="dateEditedDesc" separate="false" perPage="50"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/tab]]
+
+[[tab Created Member]]
+[[div style="float: right;"]]
+[[include badge:create-member]]
+[[/div]]
+[[module ListPages category="member" tags="_create-member" order="dateEditedDesc" separate="false" perPage="50"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/tab]]
+
+[[tab Challenge Winners]]
+[[div style="float:right;"]]
+[[include badge:challenge-win]]
+[[/div]]
+[[module ListPages category="member" tags="_challenge-win" order="dateEditedDesc" separate="false" perPage="50"]]
+[[*user %%page_name%%]]
+[[/module]]
+[[/tab]]
+
+[[/tabview]]
+[[/cell]][[/row]][[/table]]
+
+[[div style="float: right; width: 66%;"]]
+> Moderators have control over everything in the site, except for the Site Manager, which is only accessible by Site Administrators.
+> 
+> Moderators are chosen because they are regular contributors in the community; whether it be on the site, the forums or both. They are chosen because they are respected amongst the community, and are respectful towards others in the community.
+> 
+> An essential role of a moderator is that people can contact a moderator for help. Sometimes people need direct help, and don't know where to go or who to ask. In such cases, they can see the moderator list, because the title tells the community that "this is a person who can probably help me".
+> 
+> If you are not a moderator, this doesn't mean that you aren't respected in the community, that you are not respectful towards others, that you don't regularly contribute or that you aren't willing to help others. The title of "moderator" simply means that the person //is// all of these things.
+[[/div]]
+
++ [[# moderators]]Moderators
+
+[[module Members group="moderators"]]
+
++ [[# administrators]]Administrators
+
+[[*user burr]] -- Site Founder
+[[*user DarkerLine]]
+[[*user Weregoose]]
+[[*user James Kanjo]]
+[[*user Timothy Foster]]
+[[*user alexrudd]]
+[[*user Xeda Elnara]]
+[[*user jonbush]]
+[[*user Trenly]]

@@ -1,0 +1,1 @@
+[[module TagCloud minFontSize="1em" maxFontSize="2em" maxColor="40,55,71" minColor="40,55,71" category="nspire"]]

@@ -1,0 +1,5 @@
+[[image archives:drifter/drifter-video.gif link="archives:drifter/drifter.zip" width="192px" height="128px" style="border: 1px solid #aaa;"]]
+
+[http://tibasicdev.wikidot.com/local--files/archives:drifter/drifter.zip Drifter] by [[user ztrumpet]]
+
+You slide until you hit an object on the board. The game includes 16 built-in levels and a custom level editor for endless hours of fun.

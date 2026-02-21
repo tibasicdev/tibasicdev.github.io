@@ -1,0 +1,17 @@
+author: 'Simon Alford'
+description: "My take on the popular 2048 game.\n-Optimized for speed (not size)\n-Includes a high score\n-Lacks game-over detecting (for sake of speed)\n-Looks ugly because a nice GUI is too slow."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '0'
+image: 'archives:2048/2048.jpg'
+download: 2048.zip
+size: '1548'
+unit: '1'

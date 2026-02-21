@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '1.0'
+summary: 'Save the existence of cheese!'
+description: "Cheese Quest is a game where someone kills all the cows on the world except 2, which he captures, so he can get rich off the only cheese supply in the world.  Part 1 is crossing the dangerous terrain to reach his fortress.\nCheese Quest part 2 is coming soon.  EDIT: Part 2 is here!\nPress up to jump.\nThere is a glitch where the platforms turn invisible when they reach the left side of the screen...\n\n:ClrHome\n:{3,5,8,10,13}→⌊1\n:{2,3,4,5,7}→⌊2\n:7→Y\n:0→Z\n:0→W\n:0→B\n:0→V\n:Lbl AA\n:Z+1→Z\n:For(W,1,5\n:⌊1(W)-1→⌊1(W)\n:End\n:ClrHome\n:For(W,1,5\n:Output(⌊2(W),⌊1(W),\"-----\n:End\n:Output(Y,4,\"*\n:getKey→K\n:For(W,1,5\n:If ⌊1(W)=4 or ⌊1(W)=3 or ⌊1(W)=2 or ⌊1(W)=1 or ⌊1(W)=0\n:Then\n:If ⌊2(W)=Y-1\n:Then\n:If K=25\n:Then\n:2→B\n:End\n:If not(K=25\n:Then\n:0→B\n:End\n:End\n:End\n:Y+B→Y\n:If Y<1\n:Then\n:Output(100,100,\"P\n:End\n:If B>-1\n:Then\n:B-1→B\n:End\n:If not(Z>99\n:Goto AA\n:Disp \"GOOD JOB!\"\n:Disp \"YOU FINISHED\"\n:Pause \"PART 1!\""
+arcade: '1'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:readme-9/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1401861600'

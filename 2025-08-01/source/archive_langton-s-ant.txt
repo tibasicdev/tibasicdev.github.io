@@ -1,0 +1,21 @@
+author: Webbyman11
+version: '1.0'
+summary: 'Langton''s Ant in pure TI Basic'
+description: 'This is a version of langton''s ant that I created myself. I got some of the techniques from the langton''s ant page on this site, but I created the engine. It is not very fast and if you want to make it more efficient, please tell me what to do. Enjoy!'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:ant-1/ANT.8xp'
+image: null
+fileSize: '797'
+fileSizeUnit: '1'
+dateMade: '1469084400'

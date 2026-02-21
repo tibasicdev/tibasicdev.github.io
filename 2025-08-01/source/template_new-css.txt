@@ -1,0 +1,749 @@
+Scroll DOWN to locate CSS:
+
+[[code type="html"]]
+
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+ 	<title>TI-Basic Developer: The Calculators</title>
+ 	
+ 		 	<script type="text/javascript" src="http://static.wikidot.com/v--33/common--javascript/init.combined.js"></script>
+ 	<script  type="text/javascript">
+ 		// global request information
+ 		
+ 		var WIKIREQUEST = {};
+ 		WIKIREQUEST.info = {};
+ 		
+ 		WIKIREQUEST.info.domain = "tibasicdev.wikidot.com";
+ 		WIKIREQUEST.info.siteId = 405;
+ 		WIKIREQUEST.info.categoryId = 2265;
+ 		WIKIREQUEST.info.themeId = 49;
+ 		WIKIREQUEST.info.requestPageName = "thecalcs";
+ 		OZONE.request.timestamp = 1241040762;
+ 		OZONE.request.date = new Date();
+ 		WIKIREQUEST.info.lang = 'en';
+ 		 		WIKIREQUEST.info.pageUnixName = "thecalcs";
+ 		WIKIREQUEST.info.pageId = 14764;
+ 		 		WIKIREQUEST.info.lang = "en";
+ 		OZONE.lang = "en";
+// 		window.onload = WikidotInit();
+ 	</script>
+ 	
+ 	<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+         	<meta http-equiv="content-language" content="en"/>
+ 		<script type="text/javascript" src="http://static.wikidot.com/v--33/common--javascript/WIKIDOT.combined.js"></script>
+	
+	
+	
+   	
+	<style type="text/css" id="internal-style"> 
+ @import url(http://static.wikidot.com/v--33/common--modules/css/monetize/textlinkads/MonetizeTextLinkAdsModule.css);
+ 
+ 
+   		
+   		   			@import url(http://static.wikidot.com/v--33/common--theme/base/css/style.css?0);
+
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+/* START CSS BELOW  */
+
+
+/* GLOBAL CLASSES */
+
+a {	text-decoration: none;}
+
+a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.infobox a {	color: #FFF;}
+
+
+
+/* SPECIFIC*/
+
+
+
+#container {	min-width: 700px;}
+
+
+
+#header {	margin: 0 0 2em;}
+#header h1, #header h2 {	display: none;}
+#header-extra-div-1 {
+	position: absolute;
+	top: 0px;
+	left: -4px;
+	height: 7em;
+	background-image: url(http://tibasicdev.wikidot.com/local--files/logo/Logo11.PNG);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-color: #458;
+	border: 4px solid #458;
+	border-top: none;
+	border-left: none;
+	-moz-border-radius-bottomright: 45px;
+	-webkit-border-bottom-right-radius: 45px;
+	width: 50%;
+	z-index: 1;
+	transparency: 50%;
+}
+#header-extra-div-2 {
+	position: absolute;
+	top: 0px; left: 50%;
+	width: 7em; height: 3em;
+	background: #458;
+	z-index: 2;
+}
+#header-extra-div-3 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 3.5em;
+	background: #FFF;
+	border: 4px solid #458;
+	border-bottom: none;
+	border-right: none;
+	-moz-border-radius-topleft: 45px;
+	-webkit-border-top-left-radius: 45px;
+	width: 50%;
+	z-index: 3;
+}
+
+
+
+#top-bar {
+	position: absolute;
+	top: 7.5em; right: 0em;
+	background-color: #8AF;
+	height: 20px;
+	z-index: 4;
+	border: 1px solid #8AF;
+	border-bottom: none;
+	border-right: none;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+}
+#top-bar a:hover {
+	text-decoration: none;
+	height: 17px;
+}
+#top-bar a, #top-bar li ul li a {
+	background-color: #8AF;
+	color: #000;
+}
+#top-bar li ul {	border: 1px solid #8AF;}
+#top-bar li {	width: 12em;}
+
+
+
+#side-bar {
+	float: left;
+	width: 13em;
+	padding: 0 .5em;
+	margin: 0;
+	margin-top: 1em;
+	border: 4px solid #458;
+	border-left: none;
+	-moz-border-radius-topright: 45px;
+	-webkit-border-top-right-radius: 45px;
+}
+#side-bar a {
+	margin: 0;
+	display: block;
+	padding-left: 1em;
+	border-bottom: 1px solid #D2D3C6;
+	color: #1E2B31;
+}
+#side-bar .special-collapsible {
+	border-top: 1px solid #D2D3C6;
+	margin-left: -.5em;
+}
+#side-bar ul {
+	border-top: 1px solid #D2D3C6;
+	padding: 0;
+	margin-left: -.5em;
+	list-style: none;
+}
+#side-bar .top ul {	border-top: none;}
+
+
+
+#main-content{	margin-left: 15em;}
+
+
+
+#page-content {	}
+
+
+
+#footer {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 16px;
+	background-color: #458;
+	border: 1px solid #458;
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+
+#footer a {	color: #000;}
+
+
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+/* END CSS ABOVE  */
+
+
+</style>
+    
+    <link rel="shortcut icon" href="/local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="/local--favicon/favicon.gif"/>
+    
+            <link rel="alternate" type="application/wiki" title="Edit this page!" href="javascript:WIKIDOT.page.listeners.editClick()"/>
+    
+<script type="text/javascript" src="http://static.wikidot.com/v--33/common--modules/js/misc/NewPageHelperModule.js"></script></head>
+
+<body id="html-body">
+
+	<div id="container-wrap">
+		<div id="container">
+		  	<div id="header">
+		  		<h1><a href="http://tibasicdev.wikidot.com/"><span>TI-Basic Developer</span></a></h1>
+		  				  			<h2><span>The TI-Basic Information Repository</span></h2>
+		  				  		
+		  		<!-- google_ad_section_start(weight=ignore) -->
+		  		
+		  		<div id="search-top-box">
+		  			<form id="search-top-box-form" action="dummy">
+			  			<input id="search-top-box-input" class="text empty" type="text" size="15" name="query" value="search this site" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button" type="submit" name="search" value="search"/>
+				 	</form>
+	  			</div>
+		  		
+		  					  		<div id="top-bar">
+			  			
+
+<ul><li>Membership
+<ul><li><a href="http://tibasicdev.wikidot.com/first-visit">First Time Visitor?</a></li><li><a href="http://tibasicdev.wikidot.com/conduct">Code of Conduct</a></li><li><a href="http://tibasicdev.wikidot.com/system:members">Site Members</a></li><li><a href="http://tibasicdev.wikidot.com/system:join">Become a Member</a></li><li><a href="http://tibasicdev.wikidot.com/system:invite">Invite a Friend</a></li></ul></li><li>Editing Pages
+<ul><li><a href="http://tibasicdev.wikidot.com/guide-to-editing">Guide to Editing</a></li><li><a href="http://tibasicdev.wikidot.com/conventions">Wiki Conventions</a></li><li><a href="http://www.wikidot.com/doc:wiki-syntax">Wiki Syntax</a></li><li><a href="http://tibasicdev.wikidot.com/to-do">To-Do List</a></li><li><a class="wiki-standalone-button" href="javascript:;" onclick="WIKIDOT.page.listeners.viewSourceClick(event)">View Page Source</a></li><li><a href="http://tibasicdev.wikidot.com/system:recent-changes">Recent Changes</a></li><li><a href="http://tibasicdev.wikidot.com/admin:manage">Site Manager</a></li></ul></li><li>Site Information
+<ul><li><a href="http://tibasicdev.wikidot.com/about">Site History</a></li><li><a href="http://tibasicdev.wikidot.com/logo">Site Logo</a></li><li><a href="http://tibasicdev.wikidot.com/all-news">News Archive</a></li><li><a href="http://tibasicdev.wikidot.com/news">83 News</a></li><li><a href="http://tibasicdev.wikidot.com/68k:news">68k News</a></li><li><a href="http://tibasicdev.wikidot.com/announcements">Announcements</a></li></ul></li><li>Related Sites
+<ul><li><a href="http://www.ticalc.org" onclick="window.open(this.href, '_blank'); return false;">ticalc.org</a></li><li><a href="http://www.unitedti.org" onclick="window.open(this.href, '_blank'); return false;">United-TI</a></li><li><a href="http://www.tifreakware.net/" onclick="window.open(this.href, '_blank'); return false;">TI-Freakware</a></li><li><a href="http://www.maxcoderz.org" onclick="window.open(this.href, '_blank'); return false;">MaxCoderz</a></li><li><a href="http://www.bgo.netfirms.com" onclick="window.open(this.href, '_blank'); return false;">BASIC Guru</a></li><li><a href="http://www.education.ti.com" onclick="window.open(this.href, '_blank'); return false;">Texas Instruments</a></li><li><a href="http://www.omnimaga.org" onclick="window.open(this.href, '_blank'); return false;">Omnimaga</a></li></ul></li></ul>
+
+			  		</div>
+		  				  		<div id="login-status"><span class="printuser"><a href="http://www.wikidot.com/user:info/james-kanjo" onclick="WIKIDOT.page.listeners.userInfo(35113); return false;" ><!--[if gte IE 7]><!--><img class="small" src="/common--images/avatars/35/35113/a16.png" alt="avatar"  style="background-image:url(http://www.wikidot.com/userkarma.php?u=35113)"/><!--<![endif]--><!--[if lt IE 7]><img class="small" src="/common&#45;&#45;images/avatars/35/35113/a16.png" alt="avatar"  style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://www.wikidot.com/userkarma.php?u=35113,sizingMethod='scale')"/><![endif]--></a>James Kanjo</span> | <a href="http://www.wikidot.com/account:you">my account</a><a  id="account-topbutton" href="javascript:;">&nabla;</a><div id="account-options"><ul><li><a href="http://www.wikidot.com/account:you">account summary</a></li><li><a href="http://www.wikidot.com/account:you/start/messages">private messages</a></li><li><a href="http://www.wikidot.com/account:you/start/contacts">my contacts</a></li><li><a href="http://www.wikidot.com/account:you/start/notifications">notifications</a></li><li><a href="http://www.wikidot.com/account:you/start/watching">watching</a></li><li><a href="javascript:;" onclick="WIKIDOT.page.listeners.logoutClick(event)">logout</a></li></ul></div></div>
+		  		<div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+		  	</div>
+		  	
+			<div id="content-wrap">
+									<div id="side-bar">
+															
+
+												
+
+<div class="top"><ul><li><strong><a href="http://tibasicdev.wikidot.com/home">TI-83 Basic Home</a></strong></li><li><a href="http://tibasicdev.wikidot.com/68k:home">68k TI-Basic Home</a></li><li><a href="http://tibasicdev.wikidot.com/nspire">TI-Nspire Basic Page</a></li><li><a href="http://tibasicdev.wikidot.com/archives">Program Archives</a></li><li><a href="http://tibasicdev.wikidot.com/forum:home">Discussion Forums</a></li></ul></div><p><span style="font-size:large;">Preparation</span></p><ul><li><a href="http://tibasicdev.wikidot.com/thecalcs">The Calculators</a></li><li><a href="http://tibasicdev.wikidot.com/whytibasic">Why TI-Basic?</a></li><li><a href="http://tibasicdev.wikidot.com/using-this-guide">Using This Guide</a></li><li><a href="http://tibasicdev.wikidot.com/starter-kit">TI-Basic Starter Kit</a></li><li><a href="http://tibasicdev.wikidot.com/faq">TI-Basic FAQ</a></li></ul><p><span style="font-size:large;">Main Content</span></p><div class="special-collapsible"><div class="collapsible-block"><div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, true)">Commands</a></div><div class="collapsible-block-unfolded" style="display:none"><div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, false)">Commands</a></div><div class="collapsible-block-content"><div class="list-pages-box">
+		
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/commands">Overview</a></li>
+<li><a href="http://tibasicdev.wikidot.com/command-index">Command Index</a></li>
+<li><a href="http://tibasicdev.wikidot.com/geometpdf">Random command!</a></li>
+</ul>
+
+	
+		
+	</div>
+<ul><li><a href="http://tibasicdev.wikidot.com/homescreen">Home Screen</a></li><li><a href="http://tibasicdev.wikidot.com/graphscreen">Graph Screen</a></li><li><a href="http://tibasicdev.wikidot.com/math">Math Functions</a></li><li><a href="http://tibasicdev.wikidot.com/variables">Variables</a></li><li><a href="http://tibasicdev.wikidot.com/userinput">User Input</a></li><li><a href="http://tibasicdev.wikidot.com/operators">Operators</a></li><li><a href="http://tibasicdev.wikidot.com/linking">Calculator Linking</a></li><li><a href="http://tibasicdev.wikidot.com/controlflow">Controlling Flow</a></li></ul></div></div></div><div class="collapsible-block"><div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, true)">Development</a></div><div class="collapsible-block-unfolded" style="display:none"><div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, false)">Development</a></div><div class="collapsible-block-content"><ul><li><a href="http://tibasicdev.wikidot.com/development">Overview</a></li><li><a href="http://tibasicdev.wikidot.com/plan">Planning</a></li><li><a href="http://tibasicdev.wikidot.com/portability">Portability</a></li><li><a href="http://tibasicdev.wikidot.com/usability">Usability</a></li><li><a href="http://tibasicdev.wikidot.com/setup">Program Setup</a></li><li><a href="http://tibasicdev.wikidot.com/code-conventions">Code Conventions</a></li><li><a href="http://tibasicdev.wikidot.com/techniques">Techniques</a></li><li><a href="http://tibasicdev.wikidot.com/comments">Commenting Code</a></li><li><a href="http://tibasicdev.wikidot.com/subprograms">Subprograms</a></li><li><a href="http://tibasicdev.wikidot.com/cleanup">Program Cleanup</a></li><li><a href="http://tibasicdev.wikidot.com/debug">Debugging</a></li><li><a href="http://tibasicdev.wikidot.com/optimize">Optimization</a></li><li><a href="http://tibasicdev.wikidot.com/timings">Code Timings</a></li><li><a href="http://tibasicdev.wikidot.com/documentation">Writing Program Documentation</a></li><li><a href="http://tibasicdev.wikidot.com/marketing">Marketing</a></li><li><a href="http://tibasicdev.wikidot.com/releasing-your-program">Releasing Programs</a></li><li><a href="http://tibasicdev.wikidot.com/creating-new-program-versions">Creating New Program Versions</a></li></ul></div></div></div><div class="collapsible-block"><div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, true)">Techniques</a></div><div class="collapsible-block-unfolded" style="display:none"><div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, false)">Techniques</a></div><div class="collapsible-block-content"><ul><li><a href="http://tibasicdev.wikidot.com/techniques">Overview</a></li><li><a href="http://tibasicdev.wikidot.com/animation">Animation</a></li><li><a href="http://tibasicdev.wikidot.com/assembly">Assembly</a></li><li><a href="http://tibasicdev.wikidot.com/compression">Compression Techniques</a></li><li><a href="http://tibasicdev.wikidot.com/cryptography">Cryptography</a></li><li><a href="http://tibasicdev.wikidot.com/custommenus">Custom Menus</a></li><li><a href="http://tibasicdev.wikidot.com/custominput">Custom Text Input</a></li><li><a href="http://tibasicdev.wikidot.com/easy-map-making">Easy Map Making</a></li><li><a href="http://tibasicdev.wikidot.com/friendly-window">Friendly Graphing Window</a></li><li><a href="http://tibasicdev.wikidot.com/graphics">Graphics</a></li><li><a href="http://tibasicdev.wikidot.com/grouping">Grouping A Program</a></li><li><a href="http://tibasicdev.wikidot.com/highscores">Highscores</a></li><li><a href="http://tibasicdev.wikidot.com/lookuptables">Look-Up Tables</a></li><li><a href="http://tibasicdev.wikidot.com/maps">Making Maps</a></li><li><a href="http://tibasicdev.wikidot.com/movement">Movement in Maps</a></li><li><a href="http://tibasicdev.wikidot.com/multiplayer">Multiplayer</a></li><li><a href="http://tibasicdev.wikidot.com/piecewise-expressions">Piecewise Expressions</a></li><li><a href="http://tibasicdev.wikidot.com/protection">Program Protection</a></li><li><a href="http://tibasicdev.wikidot.com/recursion">Recursion</a></li><li><a href="http://tibasicdev.wikidot.com/saving">Saving</a></li><li><a href="http://tibasicdev.wikidot.com/selfmodify">Self-Modifying Code (SMC)</a></li><li><a href="http://tibasicdev.wikidot.com/subprograms">Subprograms</a></li><li><a href="http://tibasicdev.wikidot.com/validation">Validation of User Input</a></li></ul></div></div></div><div class="collapsible-block"><div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, true)">Miscellaneous</a></div><div class="collapsible-block-unfolded" style="display:none"><div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, false)">Miscellaneous</a></div><div class="collapsible-block-content"><ul><li><a href="http://tibasicdev.wikidot.com/experiment">Experiment</a></li><li><a href="http://tibasicdev.wikidot.com/programs-h">Programs</a></li><li><a href="http://tibasicdev.wikidot.com/sitemap">Sitemap</a></li></ul></div></div></div></div><div style="height: 5px;"></div><p><span style="font-size:large;">References</span></p><ul><li><a href="http://tibasicdev.wikidot.com/resources">Resources</a></li><li><a href="http://tibasicdev.wikidot.com/downloads">Downloads</a></li><li><a href="http://tibasicdev.wikidot.com/showcases">Showcases</a></li><li><a href="http://tibasicdev.wikidot.com/sidebar">Sidebar</a></li><li><a href="http://tibasicdev.wikidot.com/tokens">Token Size</a></li><li><a href="http://tibasicdev.wikidot.com/textsprites">Text Sprites</a></li><li><a href="http://tibasicdev.wikidot.com/binandhex">Binary &amp; Hex</a></li><li><a href="http://tibasicdev.wikidot.com/83lgfont">TI-83+ Font</a></li><li><a href="http://tibasicdev.wikidot.com/errors">Error Conditions</a></li><li><a href="http://tibasicdev.wikidot.com/file-extensions">File Extensions</a></li><li><a href="http://tibasicdev.wikidot.com/key-codes">Key Codes</a></li><li><a href="http://tibasicdev.wikidot.com/abbreviations">Abbreviations</a></li><li><a href="http://tibasicdev.wikidot.com/glossary">Glossary</a></li></ul><div class="collapsible-block"><div class="collapsible-block-folded"><span style="font-size:large;"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, true)">+&nbsp;Add&nbsp;Page</a></span></div><div class="collapsible-block-unfolded" style="display:none"><div class="collapsible-block-unfolded-link"><span style="font-size:large;"><a class="collapsible-block-link" href="javascript:;" onclick="WIKIDOT.page.listeners.toggleCollapsibleBlock(event, false)">-&nbsp;Add&nbsp;Page</a></span></div><div class="collapsible-block-content"><div style="text-align: center">
+	<form action="about:blank">
+		<select class="select" id="themePreviewerSelect"
+			onchange="window.location.href=window.location.href.replace(/\?.*$/, '').replace(/(\/theme_id\/[0-9]+)|$/, '/theme_id/'+$('themePreviewerSelect').value);">
+							<option  value="6651">Basic</option>
+							<option  value="6650">Bloo - no side bar</option>
+							<option  value="25">Cappuccino</option>
+							<option  value="26">Cappuccino - side bar on right</option>
+							<option  value="2">Clean</option>
+							<option  value="3">Clean - no side bar</option>
+							<option  value="56">Co</option>
+							<option  value="121">Co - no side bar</option>
+							<option  value="5">Flannel</option>
+							<option  value="9">Flannel Nature</option>
+							<option  value="10">Flannel Nature - no side bar</option>
+							<option  value="6">Flannel - no side bar</option>
+							<option  value="7">Flannel Ocean</option>
+							<option  value="8">Flannel Ocean - no side bar</option>
+							<option  value="57">Flower Blossom</option>
+							<option  value="75">Flower Blossom - no side bar</option>
+							<option  value="54">Gila</option>
+							<option  value="55">Gila - no side bar</option>
+							<option  value="58">Localize</option>
+							<option  value="59">Localize - no side bar</option>
+							<option  value="2439">Shiny</option>
+							<option  value="2440">Shiny - no side bar</option>
+							<option  value="2437">Webbish</option>
+							<option  value="2438">Webbish - no side bar</option>
+							<option  value="122">Webbish (older)</option>
+							<option  value="123">Webbish (older) - no side bar</option>
+							<option  value="6258">Bloo</option>
+							<option  value="12513">Blank</option>
+							<option  value="12806">Empty Page</option>
+							<option  value="4029">Forum Side</option>
+							<option selected="selected" value="12519">New TI|BD by JK</option>
+							<option  value="12783">New TI|BD by JK 2</option>
+							<option  value="3741">Portal</option>
+							<option  value="11812">Portal (Hide hidden class)</option>
+							<option  value="49">Pretty Print</option>
+							<option  value="9368">Pretty Print (Forum)</option>
+					</select>
+		
+				
+	</form>
+</div>
+
+<div class="new-page-box" style="text-align: center; margin: 1em 0">
+	<form action="dummy.html" method="get" onsubmit="WIKIDOT.modules.NewPageHelperModule.listeners.create(event)">
+		<input class="text" name="pageName" type="text" size="18" maxlength="60" style="margin: 1px"/><input type="submit" class="button" value="new page" style="margin: 1px"/>
+												
+	</form>
+</div>
+</div></div></div><div style="text-align:center;"><p><script type="text/javascript">
+//<![CDATA[
+var sc_project=2373092; 
+var sc_invisible=0; 
+var sc_partition=22; 
+var sc_security="d8087415"; 
+//]]></script><script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript></p></div>
+
+															
+
+						
+					</div>
+								
+				<!-- google_ad_section_end -->
+				
+				<div id="main-content">
+					<div id="action-area-top"></div>
+					
+					<!-- google_ad_section_start -->
+					
+										<div id="page-title">
+					The Calculators					</div>
+															
+												
+
+										
+					<div id="page-content">
+					
+															
+
+												 	
+					 										
+
+												
+												
+
+<p>This section is concerned with the TI-83 family of graphing calculators, which all use the same base processor chip — a Zilog Z80. There are five different calculators that are within this group: TI-83, TI-83+, TI-83+SE, TI-84+, and TI-84+SE. Each of these calculators has their own features and unique qualities.</p>
+<table style="margin:0; padding:0">
+<tr>
+<td style="margin:0; padding:0">
+<div id="toc">
+<div id="toc-action-bar"><a href="javascript:;" onclick="WIKIDOT.page.listeners.foldToc(event)">fold</a><a style="display: none" href="javascript:;" onclick="WIKIDOT.page.listeners.unfoldToc(event)">unfold</a></div>
+<div class="title">Table of Contents</div>
+<div id="toc-list">
+<div style="margin-left: 1em;"><a href="#toc0">The TI-83 Calculator</a></div>
+<div style="margin-left: 1em;"><a href="#toc1">The TI-83+ Calculator</a></div>
+<div style="margin-left: 1em;"><a href="#toc2">The TI-83+SE Calculator</a></div>
+<div style="margin-left: 1em;"><a href="#toc3">The TI-84+ Calculator</a></div>
+<div style="margin-left: 1em;"><a href="#toc4">The TI-84+SE Calculator</a></div>
+<div style="margin-left: 1em;"><a href="#toc5">Calculator Comparison</a></div>
+<div style="margin-left: 1em;"><a href="#toc6">Known ROM Versions</a></div>
+<div style="margin-left: 1em;"><a href="#toc7">Pre-Loaded Applications</a></div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<h1 id="toc0"><span>The TI-83 Calculator</span></h1>
+<table style="width:100%;">
+<tr>
+<td style="vertical-align:top;"><img src="/local--files/thecalcs/ti83.png" alt="ti83.png" class="image" /></td>
+<td style="vertical-align:top; padding-left:10px;">The TI-83 is the oldest calculator in the group, being released back in 1996. It is designed to be an upgrade from the TI-82, featuring a sleeker case design, more memory (27K bytes of RAM), and a faster processor (6MHz). It kept some of the features the same as the TI-82, such as the screen size and being powered by 4 AAA batteries, to allow for backwards compatibility with the TI-82.
+<p>This means that while some of the TI-Basic commands on the TI-83 have a different syntax, at the core the TI-83 can execute the TI-82's TI-Basic programs. Some of the differences between TI-Basic for each calculator are how math is interpreted (implied multiplication versus regular multiplication) and commands that have an opening parentheses attached to the end of them (such as the trigonometry commands). When it comes to assembly programs, however, the TI-83 cannot execute the TI-82's assembly programs without some modification because of the processor upgrade.</p>
+</td>
+</tr>
+</table>
+<h1 id="toc1"><span>The TI-83+ Calculator</span></h1>
+<table style="width:100%;">
+<tr>
+<td style="vertical-align:top;"><img src="/local--files/thecalcs/ti83plus.png" alt="ti83plus.png" class="image" /></td>
+<td style="vertical-align:top; padding-left:10px;">The TI-83+ was released in 1999, and it was meant as an upgrade from the TI-83 with more memory and a faster processor. At the same time, it kept several features of the TI-83 to maintain backwards compatibility: the case design, the screen size (16x8 home screen and 96x64 graph screen), and the link port. There are some major differences, however.
+<p>The TI-83+ cannot run assembly programs made for the TI-83 because it uses a different format: there are three built-in commands (<a href="http://tibasicdev.wikidot.com/asmprgm">AsmPrgm</a>, <a href="http://tibasicdev.wikidot.com/asmcomp">AsmComp(</a> and <a href="http://tibasicdev.wikidot.com/asm-command">Asm(</a>) used for running assembly programs, while the TI-83 has no such commands. While the TI-83 uses a 6MHz processor, the TI-83 Plus uses a speedier 8MHz processor. It should be noted, however, that the TI-83+ only runs at the 6MHz speed unless altered by an assembly program.</p>
+<p>The TI-83 comes with 24K bytes of available memory built-in, while the TI-83+ comes with 184K bytes of available memory: 24K bytes are RAM and 160K bytes are archive memory, or more commonly called "Flash" memory. Archive memory allows you to store data, programs, applications, or any other variables to a safe location where they cannot be edited or deleted inadvertently from a RAM crash. This creates a compatibility issue with TI-83 TI-Basic, however, because of the use of the <a href="http://tibasicdev.wikidot.com/archive">Archive</a> and <a href="http://tibasicdev.wikidot.com/unarchive">UnArchive</a> commands that are on the TI-83+.</p>
+</td>
+</tr>
+</table>
+<h1 id="toc2"><span>The TI-83+SE Calculator</span></h1>
+<table style="width:100%;">
+<tr>
+<td style="vertical-align:top;"><img src="/local--files/thecalcs/ti83plus_se.png" alt="ti83plus_se.png" class="image" /></td>
+<td style="vertical-align:top; padding-left:10px;">The TI-83+SE (short for <em>S</em>ilver <em>E</em>dition) was the next calculator upgrade in the group. When it was released by TI in 2001, it became instantly popular because of its unique look and increased memory and speed. However, TI has since decided to stop production of it and focus on the TI-84+SE calculator instead. The TI-83+SE has now become somewhat of a collector's item.
+<p>After seeing the success of the TI-83 calculator series, TI decided to give their next TI-83 series calculator a unique look to set it apart from the other TI-83 calculators. The TI-83+SE calculator look consists of a transparent silver case with silver sparkles sprinkled throughout. What really made the calculator shine, though, was that the transparent case allowed you to see what the internals of the calculator looked like without even having to open up the calculator.</p>
+<p>In addition to the unique look, TI also decided to upgrade the memory and speed. While maintaining almost complete backward compatibility, the TI-83+SE features 128K bytes of RAM and 1.5M bytes of archive memory. It should be noted, however, that only 24K bytes of RAM are available to TI-Basic programmers (you need to use assembly to access all 128K bytes). The TI-83+SE uses a 15MHz processor, but it can also be made to run at the 8MHz and 6MHz speeds through assembly.</p>
+</td>
+</tr>
+</table>
+<h1 id="toc3"><span>The TI-84+ Calculator</span></h1>
+<table style="width:100%;">
+<tr>
+<td style="vertical-align:top;"><img src="/local--files/thecalcs/ti84plus.png" alt="ti84plus.png" class="image" /></td>
+<td style="vertical-align:top; padding-left:10px;">The TI-84+ was released in 2004, and it was meant to be an upgrade of the TI-83+. The TI-84+ introduces a couple new things to the TI-83 calculator series: a built-in clock and a mini USB link port. The built-in clock can be used in TI-Basic by using the new <a href="http://tibasicdev.wikidot.com/time-and-date">clock</a> commands that go with it, while the mini USB link port greatly increases the speed of linking the calculator to a computer.
+<p>The TI-84+ also improves upon the TI-83+ in terms of memory and speed: 24K bytes of RAM and 480K bytes of archive memory; and a 15MHz processor (the same one that the TI-83+SE has). The most obvious change that the TI-84+ brings is a completely new case design. Gone are the slightly rounded edges and appearance; in its place is an almost circular look from the front, with the edges smoothly flowing around to the back of the calculator.</p>
+</td>
+</tr>
+</table>
+<h1 id="toc4"><span>The TI-84+SE Calculator</span></h1>
+<table style="width:100%;">
+<tr>
+<td style="vertical-align:top;"><img src="/local--files/thecalcs/ti84plus_se.png" alt="ti84plus_se.png" class="image" /></td>
+<td style="vertical-align:top; padding-left:10px;">The TI-84+SE was released along with the TI-84+ in 2004, kind of like a TI-83 calculator series package upgrade. The TI-84+SE was meant to be an upgrade of the TI-83+SE, and it includes the same upgrades that the TI-84+ got. The two new innovations that the TI-84+SE introduces are: interchangeable faceplates and a kickstand; these things are basically optional add-ons for your calculator.
+<p>The interchangeable faceplate can be useful if you want to change the front look of your calculator. You simply purchase a different faceplate and swap it with the current faceplate. The calculator's initial faceplate is a light gray/silver. The kickstand is built into the calculator lid, and it allows you to set the calculator to four different viewing angles. Concerning memory and speed, the TI-84+SE has the same amount of memory and speed as the TI-83+SE.</p>
+</td>
+</tr>
+</table>
+<h1 id="toc5"><span>Calculator Comparison</span></h1>
+<table class="wiki-content-table">
+<tr>
+<th>Model</th>
+<th>Processor</th>
+<th>RAM</th>
+<th>ROM</th>
+<th>Screen Size</th>
+<th>Link Port</th>
+<th>Clock</th>
+<th>Release Date</th>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83</td>
+<td style="text-align: center;">6&nbsp;MHz</td>
+<td style="text-align: center;">27&nbsp;KB</td>
+<td style="text-align: center;">None</td>
+<td style="text-align: center;">96x64</td>
+<td style="text-align: center;">I/O</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">1996</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+</td>
+<td style="text-align: center;">6&nbsp;MHz</td>
+<td style="text-align: center;">24&nbsp;KB</td>
+<td style="text-align: center;">160&nbsp;KB</td>
+<td style="text-align: center;">96x64</td>
+<td style="text-align: center;">I/O</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">1999</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+SE</td>
+<td style="text-align: center;">15&nbsp;MHz</td>
+<td style="text-align: center;">24KB (128&nbsp;KB)</td>
+<td style="text-align: center;">1.5&nbsp;MB</td>
+<td style="text-align: center;">96x64</td>
+<td style="text-align: center;">I/O</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">2001</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+</td>
+<td style="text-align: center;">15&nbsp;MHz</td>
+<td style="text-align: center;">24&nbsp;KB</td>
+<td style="text-align: center;">480&nbsp;KB</td>
+<td style="text-align: center;">96x64</td>
+<td style="text-align: center;">I/O+USB</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">2004</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+SE</td>
+<td style="text-align: center;">15&nbsp;MHz</td>
+<td style="text-align: center;">24KB (128&nbsp;KB)</td>
+<td style="text-align: center;">1.5&nbsp;MB</td>
+<td style="text-align: center;">96x64</td>
+<td style="text-align: center;">I/O+USB</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">2004</td>
+</tr>
+</table>
+<h1 id="toc6"><span>Known ROM Versions</span></h1>
+<p>TI occasionally releases updates to the ROM version for each calculator, which either fix existing bugs, improve calculator performance, or add new commands and functionality. You can check the ROM version on your calculator by selecting the About option in the Memory menu, which is accessible by pressing 2nd MEM. See <a href="http://tibasicdev.wikidot.com/portability">portability</a> for a list of changes in functionality between the OS versions.</p>
+<table class="wiki-content-table">
+<tr>
+<th>Model</th>
+<th>Known ROM Versions</th>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83</td>
+<td style="text-align: center;">1.02, 1.03, 1.04, 1.06, 1.07, 1.08, 1.10</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+</td>
+<td style="text-align: center;">1.03, 1.06, 1.08, 1.10, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+SE</td>
+<td style="text-align: center;">1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+</td>
+<td style="text-align: center;">2.21, 2.22, 2.30, 2.40, 2.41, 2.43</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+SE</td>
+<td style="text-align: center;">2.21, 2.22, 2.30, 2.40, 2.41, 2.43</td>
+</tr>
+</table>
+<h1 id="toc7"><span>Pre-Loaded Applications</span></h1>
+<p>Except for the TI-83 which has no Flash ROM, all of the other TI-83 series of calculators come with some pre-loaded applications for users to use. Since most of the applications are rather limited in use and scope, not to mention that they each take up 16K bytes or more of memory, most people end up deleting them off of their calculator to allow them to fit more programs and games. If you want to put them back on your calculator again, you can find them all on <a href="http://education.ti.com" onclick="window.open(this.href, '_blank'); return false;">TI's website</a>.</p>
+<table class="wiki-content-table">
+<tr>
+<th>Model</th>
+<th>Pre-Loaded Applications</th>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+</td>
+<td style="text-align: center;">Language Localization, Probability Simulation, Science Tools, StudyCards, Vernier EasyData</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-83+SE</td>
+<td style="text-align: center;">CellSheet, GeoMaster, Language Localization, Organizer, Periodic Table, StudyCards</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+</td>
+<td style="text-align: center;">Cabri Jr., Conic Graphing, Inequality Graphing, Language Localization, LearningCheck, LogIn, Probability Simulation, Science Tools, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData</td>
+</tr>
+<tr>
+<td style="text-align: center;">TI-84+SE</td>
+<td style="text-align: center;">app4math, Area Formulas, Cabri Jr., Catalog Help, CellSheet, Conic Graphing, Fundamental Topics in Science, GeoMaster, Inequality Graphing, Language Localization, LearningCheck, LogIn, NoteFolio, Organizer, Periodic Table, Polynomial Root Finder and Simultaneous Equation Solver, Probability Simulation, Puzzle Pack, Science Tools, Start-Up Customization, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData</td>
+</tr>
+</table>
+<div style="display : none;">
+<p>.</p>
+</div>
+
+					</div>
+					
+												
+
+										
+											<div class="page-tags">
+							<span>
+								page tags:
+																	<a href="http://tibasicdev.wikidot.com/system:page-tags/tag/_preparation1#pages">_preparation1</a>
+															</span>
+						</div>
+										
+					<!-- google_ad_section_end -->
+					
+					<!-- google_ad_section_start(weight=ignore) -->
+					
+					<div style="clear:both; height:1px; font-size:1px;"></div>
+																	<div id="page-info">page_revision: 55, last_edited: <span class="odate">1238804012|%e %b %Y, %H:%M %Z (%O ago)</span></div><div class="page-watch-options">			Start watching:
+		<a href="javascript:;"
+			onclick="WIKIDOT.page.listeners.awatch(event, 'site')"
+		>site tibasicdev.wikidot.com</a>
+		|
+		<a href="javascript:;"
+			onclick="WIKIDOT.page.listeners.awatch(event, 'category')"
+		>category _default</a> 
+		| 
+		<a href="javascript:;"
+			onclick="WIKIDOT.page.listeners.awatch(event, 'page')"
+		>this page</a>
+		
+	[<a href="http://www.wikidot.com/faq:watching" target="_blank">?</a>]
+</div>
+<div id="page-options-bottom"  class="page-options-bottom">
+	<a href="javascript:;" id="edit-button">edit</a><a href="javascript:;" id="tags-button">tags</a><a href="http://tibasicdev.wikidot.com/forum/t-3681/thecalcs"  id="discuss-button">discuss (#)</a>
+	<a href="javascript:;" id="history-button">history</a> 
+	<a href="javascript:;" id="files-button">files</a> <a href="javascript:;" id="print-button">print</a> <a href="javascript:;" id="site-tools-button">site tools</a><a href="javascript:;" id="more-options-button">+&nbsp;options</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom" style="display:none">
+	<a href="javascript:;" id="edit-sections-button">edit sections</a>
+	<a href="javascript:;" id="edit-append-button">append</a>
+	
+	<a href="javascript:;" id="backlinks-button">backlinks</a> 
+	<a href="javascript:;" id="view-source-button">view source</a> 
+	<a href="javascript:;" id="parent-page-button">parent</a> 
+	<a href="javascript:;" id="page-block-button">block</a> 	
+	<a href="javascript:;" id="rename-move-button">rename</a> 
+	<a href="javascript:;" id="delete-button">delete</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+			
+										
+					<div id="action-area" style="display: none"></div>
+				</div>
+			</div>
+			
+			
+			
+	 		<div id="footer" style="display: block; visibility: visible;">
+	 					 			<div class="options" style="display: block; visibility: visible;">
+			 			<a href="http://www.wikidot.com/doc" id="wikidot-help-button">
+				 			help				 		</a>
+			 			|
+				 		<a href="http://www.wikidot.com/legal:terms-of-service"   id="wikidot-tos-button">
+				 			terms of service				 		</a>
+			 			|
+				 		<a href="http://www.wikidot.com/legal:privacy-policy"   id="wikidot-privacy-button">
+				 			privacy				 		</a>
+			 			|
+				 		<a href="javascript:;" id="bug-report-button" 
+				 			onclick="WIKIDOT.page.listeners.pageBugReport(event)">
+				 			report a bug				 		</a>
+			 			|
+				 		<a href="javascript:;" id="abuse-report-button" 
+				 			onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">
+				 			flag as objectionable				 		</a>
+		 			</div>
+			 				 				Hosted by <a href="http://www.wikidot.com">Wikidot.com</a> &#8212; 
+		 						 					<a href="http://www.wikidot.com/new-site">get your free wiki now!</a>
+		 						 					 					 			 		</div>
+	 				 		<div id="license-area" class="license-area">
+		 									Unless stated otherwise Content of this page is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License</a>
+														</div>
+												
+
+						
+			
+			<div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+			
+				 	</div>
+	 </div>
+ 	
+ 	<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+	<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+	<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+ 	
+ 	 	
+ 	<div id="page-options-bottom-tips" style="display: none">
+ 		<div id="edit-button-hovertip">
+ 			Click here to edit contents of this page. 		</div>
+ 	</div>
+ 	<div id="page-options-bottom-2-tips"  style="display: none">
+ 		<div id="edit-sections-button-hovertip">
+	 		Click here to toggle editing of individual sections of the page (if possible).
+	 		Watch headings for an "edit" link when available. 		</div>
+ 		<div id="edit-append-button-hovertip">
+ 			Append content without editing the whole page source. 		</div>
+ 		<div id="history-button-hovertip">
+ 			Check out how this page has evolved in the past. 		</div>
+ 		<div id="discuss-button-hovertip">
+ 			If you want to discuss contents of this page - this is the easiest way to do it. 		</div>
+ 		<div id="files-button-hovertip">
+ 			View and manage file attachments for this page. 		</div>
+ 		<div id="site-tools-button-hovertip">
+ 			A few useful tools to manage this Site. 		</div>
+ 		<div id="backlinks-button-hovertip">
+ 				See pages that link to and include this page. 		</div>
+ 		<div id="rename-move-button-hovertip">
+ 			Change the name (also URL address, possibly the category) of the page. 		</div>
+ 		<div id="view-source-button-hovertip">
+ 			View wiki source for this page without editing. 		</div>
+ 		<div id="parent-page-button-hovertip">	
+ 			View/set parent page (used for creating breadcrumbs and structured layout). 		</div>
+ 			 		<div id="abuse-report-button-hovertip">
+	 				Notify administrators if there is objectionable content in this page.	 		</div>
+	 		<div id="bug-report-button-hovertip">
+				Something does not work as expected? Find out what you can do.	 		</div>
+	 		<div id="wikidot-help-button-hovertip">
+	 			General Wikidot.com documentation and help section.	 		</div>
+	 		<div id="wikidot-tos-button-hovertip">
+	 			Wikidot.com Terms of Service - what you can, what you should not etc.	 		</div>
+	 		<div id="wikidot-privacy-button-hovertip">
+	 				Wikidot.com Privacy Policy. 			
+	 		</div>
+ 		 	</div>
+ 	
+ 	<!-- google_ad_section_end -->
+ 	
+ 	<div id="account-notifications-dummy" style="display:none"></div>
+ 	
+ 	<div style="display:none" id="dummy-ondomready-block"></div>
+	
+			<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			_uacct = "UA-5568715-1";
+						urchinTracker();
+		</script>
+		
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uff = false;
+		_uacct = "UA-68540-5";
+		_udn="wikidot.com"; 
+		urchinTracker();
+	</script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-edL3gsnUjJzw-"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+		
+	  </body>
+
+</html>
+[[/code]]

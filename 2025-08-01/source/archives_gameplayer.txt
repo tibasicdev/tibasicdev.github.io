@@ -1,0 +1,17 @@
+author: Tybo10000
+description: "***This update is necessary if you are using an older version***\nNew to v0.6.1: re-worked setup; updated apps; many bug fixes; lots of optimization; slightly easier navigation\n\nNew to v0.5: setup bug fix; new ans updated apps; slightly faster; misc bug fixes\n\n\ncurrent version- v0.6.0\n\nFull release of version 1.0 coming soon!!!"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+image: archives%3Agameplayer/scr00.gif
+download: v0.6.1.zip
+size: '40246'
+unit: '1'

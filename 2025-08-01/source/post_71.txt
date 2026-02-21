@@ -1,0 +1,2 @@
+content: 'I can''t remember.  I probably wanted to observe graphs dynamically like what you can do on various computer programs and the new Nspires.'
+attachment: null

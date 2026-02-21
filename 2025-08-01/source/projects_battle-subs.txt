@@ -1,0 +1,157 @@
+[!-- Fill in a short description here --]
+Battle your way to victory by sinking the computer submarine!
+====
+------
+The current game is **949** bytes in size, excluding the name.
+The 1k version is pretty much complete. Try it out!
+The source code:
+
+[[collapsible show="Show Source" hide="Hide Source"]]
+[[code]]
+ClrHome
+FnOff 
+PlotsOff 
+AxesOff
+ZStandard
+ZInteger
+0→Xmin:1→ΔX
+0→Ymax:­62→Ymin
+0→S
+For(I,Xmin,Xmax,4
+Pt-On(I,Ymax
+Pt-On(I+1,Ymax
+Pt-On(I+2,Ymax-1
+Pt-On(I+3,Ymax-1
+End
+Horizontal ­57
+For(I,0,Xmax,2
+­57
+Line(I,Ans,I,Ans+randInt(1,3
+End
+10→X:31→Y
+50→A:31→B
+0→F:Ans→G
+94→H:Ans→I
+Line(1,­60,94,­60
+Line(1,Ymin,94,Ymin
+Line(A+2,­B,A-1,­B
+Pt-On(A,­B+1
+Lbl 0
+Line(X-2,­Y,X+1,­Y
+Pt-On(X,­Y+1
+Repeat Ans or max(0={H,I
+If F:Then
+O+(O<Xmax→O
+Pt-On(O,­P
+Pt-Off(O-2,­P
+If O>92 or pxl-Test(P,O+1:Then
+Pt-Off(O,­P
+Pt-Off(O-1,­P
+Pt-Off(O-2,­P
+Line(A-1,­B,A+2,­B
+Pt-On(A,­B+1
+If pxl-Test(P,O+1) and 4>abs(O-A:Then
+I-10→I
+If Ans<0:DelVar I
+Line(Xmax,­60,I+1,­60,0
+End
+0→F:End
+End
+If G:Then
+U-(U>Xmin→U
+Pt-On(U,­V
+Pt-On(U+1,­V
+Pt-Off(U+2,­V
+If U<X-6 or pxl-Test(V,U-1:Then
+If pxl-Test(V,U-1) and 4>abs(X-U:Then
+H-10→H
+If Ans<0:DelVar H
+Line(95,Ymin,H+1,Ymin,0
+End
+Pt-Off(U,­V
+Pt-Off(U+1,­V
+Pt-Off(U+2,­V
+Pt-On(X,­Y+1
+Line(X-2,­Y,X+1,­Y
+0→G
+End:End
+
+If rand<.6:Then
+Line(A+2,­B,A-1,­B,0
+Pt-Off(A,­B+1
+A+(A<X+18)-(A>X+18→A
+If F and (O>A-5 and O<A+3:Then
+B+(B<P+3→B
+Else
+B+(B<Y)-(B>Y→B
+End
+Line(A+2,­B,A-1,­B
+Pt-On(A,­B+1
+If Y=B and not(G:Then
+A-3→U
+B→V
+1→G
+End:End
+getKey
+End:Ans→K
+If K=45:Then
+ClrDraw
+ClrHome
+Return
+End
+Line(X-2,­Y,X+1,­Y,0
+Pt-Off(X,­Y+1
+X+(K=26 and X<71)-(K=24 and X>11→X
+Y+(K=34 and Y<45)-(K=25 and Y>3→Y
+If K=21:Then
+If not(F:Then
+1→F
+X+4→O
+Y→P
+Else
+0→F
+Pt-Off(O,­P
+Pt-Off(O-1,­P
+Pt-Off(O-2,­P
+Line(A-1,B,A+2,B
+Pt-On(A,B+1
+End:End
+If max(0={H,I:Then
+ClrDraw
+ClrHome
+Disp "YOU "+sub("LOSEWIN!",1+4(not(I)),4
+Pause 
+ClrHome:Return
+End
+Goto 0
+[[/code]]
+[[/collapsible]]
+
+Here are some of the bugs in the game:
+
+* Gameplay is slow but fast enough to be playable
+* Computer not smart enough
+* Torpedos don't explode when they collide into each other
+
+I have ideas on what the computer submarine should do:
+
+* Dodge player torpedos quicker, either by going up or down
+* Prevent both submarines going into each other, collision detection
+* Prevent computer from going into mines
+* Make the computer go to health blocks if they appear
+
+Some ideas on updates for the game (Not for the 1k challenge):
+
+* Plant mines around the map causing damage if any sub hits them (2x2 pixel blocks)
+* Increase game speed
+* Health blocks (Standard 1x1 pixels)
+* Collision to prevent subs going into each other
+* Quicker torpedo launches
+* High scores
+* Boss fights
+* Increase submarine attack with XP and level system
+* Timed fights
+* Fire two torpedos at a time per player and computer
+
+
+[!-- Continue one from the previous line, DO NOT REWRITE IT!!! --]

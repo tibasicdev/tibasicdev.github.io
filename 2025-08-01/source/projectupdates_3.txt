@@ -1,0 +1,1 @@
+I finally got the TI to receive bytes, and am working on parameter data right now.

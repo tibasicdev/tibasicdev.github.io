@@ -1,0 +1,1335 @@
+[[div style="border: 1px dashed #999;padding: 0 1em;background: #f4f4f4;margin: 35px 0 15px"]]
+Some commands have a superscript next to them that indicates compatibility:
+* ^^2.xx^^ indicates that the command requires AMS 2.xx or higher on a TI-89, TI-92, or TI-92+ (or any 3.00+ version, on the TI-89 Titanium and V200).
+* ^^3.xx^^ indicates that the command requires a TI-89 Titanium or V200 calculator, as well as AMS 3.xx or higher.
+* ^^Flash^^ indicates that the command requires a calculator with Flash ROM (that is, it won't work on a TI-92).
+[[/div]]
+
+[[div class="taby"]]
+[[tabview]]
+[[tab Alphabetical List of Commands]]
+
+[[div style="font-size:105%; font-weight:bold;"]]
+[#Symbols Symbols] | [#A A] | [#B B] | [#C C] | [#D D] | [#E E] | [#F F] | [#G G] | [#H H] | [#I I] | [#L L] | [#M M] | [#N N] | [#O O] | [#P P] | [#Q Q] | [#R R] | [#S S] | [#T T] | [#U U] | [#V V] | [#W W] | [#X X] | [#Z Z]
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
+
+For any commands that are not yet complete,
+you can reference the official manual [https://www.usna.edu/MathDept/_files/documents/resources/Voyage200Guidebook_Part2_EN.pdf here]
+
++ [[# Symbols]]Symbols
+
+* [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], [[[68k:divide|/]]], [[[68k:negative|‾]]], [[[68k:power|^]]]
+* [[[68k:dotadd|.+]]], [[[68k:dotsubtract|.-]]], [[[68k:dotmultiply|.*]]], [[[68k:dotdivide|./]]], [[[68k:dotpower|.^]]]
+* [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], [[[68k:less-than-or-equal|≤]]]
+* [[[68k:integral|∫()]]], [[[68k:square-root|√()]]], [[[68k:product-pi|∏()]]], [[[68k:sum-sigma|∑()]]], [[[68k:factorial|!]]], [[[68k:percent|%]]]
+* [[[68k:append|&]]], # ([[[68k:indirection|indirection]]]), [[[68k:store|→]]], [[[68k:comment|©]]], | ([[[68k:with]]])
+* ^^[[[68k:radian|r]]]^^, [[[68k:degree|°]]], ^^[[[68k:gradian|G]]]^^ ^^3.10^^, [[[68k:angle-symbol|∠]]], [[[68k:convert|▶]]]
+* [[[68k:0b|0b]]], [[[68k:0h|0h]]]
+
++ [[# A]]A
+
+* [[[68k:abs()]]]
+* [[[68k:and]]]
+* [[[68k:AndPic]]]
+* [[[68k:angle()]]]
+* [[[68k:ans()]]]
+* [[[68k:approx()]]]
+* [[[68k:Archive]]] ^^Flash^^
+* [[[68k:arcLen()]]]
+* [[[68k:augment()]]]
+* [[[68k:avgRC()]]]
+
++ [[# B]]B
+* [[[68k:▶Bin]]]
+* [[[68k:BldData]]]
+
++ [[# C]]C
+* [[[68k:ceiling()]]]
+* [[[68k:cFactor()]]]
+* [[[68k:char()]]]
+* [[[68k:checkTmr()]]] ^^2.07^^
+* [[[68k:Circle]]]
+* [[[68k:ClockOff]]] ^^2.07^^
+* [[[68k:ClockOn]]] ^^2.07^^
+* [[[68k:ClrDraw]]]
+* [[[68k:ClrErr]]]
+* [[[68k:ClrGraph]]]
+* [[[68k:ClrHome]]]
+* [[[68k:ClrIO]]]
+* [[[68k:ClrTable]]]
+* [[[68k:colDim()]]]
+* [[[68k:colNorm()]]]
+* [[[68k:comDenom()]]]
+* [[[68k:conj()]]]
+* [[[68k:CopyVar]]]
+* [[[68k:cos()]]]
+* [[[68k:arccos|cosֿ¹()]]]
+* [[[68k:cosh()]]]
+* [[[68k:arccosh|coshֿ¹()]]]
+* [[[68k:cot()]]] ^^2.07^^
+* [[[68k:arccot|cotֿ¹()]]] ^^2.07^^
+* [[[68k:coth()]]] ^^2.07^^
+* [[[68k:arccoth|cothֿ¹()]]] ^^2.07^^
+* [[[68k:crossP()]]]
+* [[[68k:csc()]]] ^^2.07^^
+* [[[68k:arccsc|cscֿ¹()]]] ^^2.07^^
+* [[[68k:csch()]]] ^^2.07^^
+* [[[68k:arccsch|cschֿ¹()]]] ^^2.07^^
+* [[[68k:cSolve()]]]
+* [[[68k:CubicReg]]]
+* [[[68k:cumSum()]]]
+* [[[68k:CustmOff]]]
+* [[[68k:CustmOn]]]
+* [[[68k:Custom]]]
+* [[[68k:Cycle]]]
+* [[[68k:CyclePic]]]
+* [[[68k:▶Cylind]]]
+* [[[68k:cZeros()]]]
+
++ [[# D]]D
+
+* [[span style="font-style:italic"]][[[68k:d]]][[/span]][[[68k:d|()]]]
+* [[[68k:Data▶mat]]] ^^3.00?^^
+* [[[68k:dayOfWk()]]] ^^2.07^^
+* [[[68k:▶DD]]]
+* [[[68k:▶Dec]]]
+* [[[68k:Define]]]
+* [[[68k:DelFold]]]
+* [[[68k:DelType]]] ^^3.00?^^
+* [[[68k:DelVar]]]
+* [[[68k:deSolve()]]]
+* [[[68k:det()]]]
+* [[[68k:diag()]]]
+* [[[68k:Dialog]]]
+* [[[68k:dim()]]]
+* [[[68k:Disp]]]
+* [[[68k:DispG]]]
+* [[[68k:DispHome]]]
+* [[[68k:DispTbl]]]
+* [[[68k:▶DMS]]]
+* [[[68k:dotP()]]]
+* [[[68k:DrawFunc]]]
+* [[[68k:DrawInv]]]
+* [[[68k:DrawParm]]]
+* [[[68k:DrawPol]]]
+* [[[68k:DrawSlp]]]
+* [[[68k:DropDown]]]
+* [[[68k:DrwCtour]]]
+
++ [[# E]]E
+
+* [[size 75%]][[[68k:e-ten|E]]][[/size]]
+* [[[68k:eigVc()]]]
+* [[[68k:eigVl()]]]
+* [[[68k:Else]]]
+* [[[68k:ElseIf]]]
+* [[[68k:EndCustm]]]
+* [[[68k:EndDlog]]]
+* [[[68k:EndFor]]]
+* [[[68k:EndFunc]]]
+* [[[68k:EndIf]]]
+* [[[68k:EndLoop]]]
+* [[[68k:EndPrgm]]]
+* [[[68k:EndTBar]]]
+* [[[68k:EndTry]]]
+* [[[68k:EndWhile]]]
+* [[[68k:entry()]]]
+* [[[68k:exact()]]]
+* [[[68k:Exec]]]
+* [[[68k:Exit]]]
+* [[[68k:exp▶list()]]]
+* [[[68k:expand()]]]
+* [[[68k:expr()]]]
+* [[[68k:ExpReg]]]
+
++  [[# F]]F
+
+* [[[68k:factor()]]]
+* [[[68k:Fill]]]
+* [[[68k:floor()]]]
+* [[[68k:fMax()]]]
+* [[[68k:fMin()]]]
+* [[[68k:FnOff]]]
+* [[[68k:FnOn]]]
+* [[[68k:For]]]
+* [[[68k:format()]]]
+* [[[68k:fPart()]]]
+* [[[68k:Func]]]
+
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
+
++ [[# G]]G 
+
+* [[[68k:gcd()]]]
+* [[[68k:Get]]]
+* [[[68k:GetCalc]]]
+* [[[68k:getConfg()]]]
+* [[[68k:getDate()]]] ^^2.07^^
+* [[[68k:getDenom()]]]
+* [[[68k:getDtFmt()]]] ^^2.07^^
+* [[[68k:getDtStr()]]] ^^2.07^^
+* [[[68k:getFold()]]]
+* [[[68k:getKey()]]]
+* [[[68k:getMode()]]]
+* [[[68k:getNum()]]]
+* [[[68k:getTime()]]] ^^2.07^^
+* [[[68k:getTmFmt()]]] ^^2.07^^
+* [[[68k:getTmStr()]]] ^^2.07^^
+* [[[68k:getTmZn()]]] ^^2.07^^
+* [[[68k:getType()]]]
+* [[[68k:getUnits()]]]
+* [[[68k:Goto]]]
+* [[[68k:▶Grad]]] ^^3.10^^
+* [[[68k:Graph]]]
+
++ [[# H]]H 
+
+* [[[68k:▶Hex]]]
+
++ [[# I]]I 
+
+* [[[68k:identity()]]]
+* [[[68k:If]]]
+* [[[68k:imag()]]]
+* [[[68k:impDif()]]] ^^3.10^^
+* [[[68k:Input]]]
+* [[[68k:InputStr]]]
+* [[[68k:inString()]]]
+* [[[68k:int()]]]
+* [[[68k:intDiv()]]]
+* [[[68k:iPart()]]]
+* [[[68k:isArchiv()]]] ^^Flash, 3.00?^^
+* [[[68k:isClkOn()]]] ^^2.07^^
+* [[[68k:isLocked()]]] ^^3.00?^^
+* [[[68k:isPrime()]]]
+* [[[68k:isVar()]]] ^^3.00?^^
+* [[[68k:Item]]]
+
++ [[# L]] L
+ 
+* [[[68k:Lbl]]]
+* [[[68k:lcm()]]]
+* [[[68k:left()]]]
+* [[[68k:limit()]]]
+* [[[68k:Line]]]
+* [[[68k:LineHorz]]]
+* [[[68k:LineTan]]]
+* [[[68k:LineVert]]]
+* [[[68k:LinReg]]]
+* [[[68k:list▶mat()]]]
+* [[[68k:deltalist|Δlist()]]] ^^2.07?^^
+* [[[68k:ln()]]]
+* [[[68k:to-ln|▶ln]]] ^^3.10^^
+* [[[68k:LnReg]]]
+* [[[68k:Local]]]
+* [[[68k:Lock]]]
+* [[[68k:log()]]]
+* [[[68k:▶logbase()]]] ^^3.10^^
+* [[[68k:Logistic]]]
+* [[[68k:Loop]]]
+* [[[68k:LU]]]
+
++ [[# M]]M 
+
+* [[[68k:Mat▶data]]] ^^3.00?^^
+* [[[68k:mat▶list()]]]
+* [[[68k:max()]]]
+* [[[68k:mean()]]]
+* [[[68k:median()]]]
+* [[[68k:MedMed]]]
+* [[[68k:mid()]]]
+* [[[68k:min()]]]
+* [[[68k:mod()]]]
+* [[[68k:MoveVar]]]
+* [[[68k:mRow()]]]
+* [[[68k:mRowAdd()]]]
+
++ [[# N]]N 
+
+* [[[68k:nCr()]]]
+* [[[68k:nDeriv()]]]
+* [[[68k:NewData]]]
+* [[[68k:NewFold]]]
+* [[[68k:newList()]]]
+* [[[68k:newMat()]]]
+* [[[68k:NewPic]]]
+* [[[68k:NewPlot]]]
+* [[[68k:NewProb]]]
+* [[[68k:nInt()]]]
+* [[[68k:norm()]]]
+* [[[68k:not]]]
+* [[[68k:nPr()]]]
+* [[[68k:nSolve()]]]
+
++ [[# O]]O 
+
+* [[[68k:OneVar]]]
+* [[[68k:or]]]
+* [[[68k:ord()]]]
+* [[[68k:Output]]]
+
++ [[# P]]P 
+
+* [[[68k:P▶Rx()]]]
+* [[[68k:P▶Ry()]]]
+* [[[68k:part()]]]
+* [[[68k:PassErr]]]
+* [[[68k:Pause]]]
+* [[[68k:PlotsOff]]]
+* [[[68k:PlotsOn]]]
+* [[[68k:▶Polar]]]
+* [[[68k:polyEval()]]]
+* [[[68k:PopUp]]]
+* [[[68k:PowerReg]]]
+* [[[68k:Prgm]]]
+* [[[68k:product()]]]
+* [[[68k:Prompt]]]
+* [[[68k:propFrac()]]]
+* [[[68k:PtChg]]]
+* [[[68k:PtOff]]]
+* [[[68k:PtOn]]]
+* [[[68k:ptTest()]]]
+* [[[68k:PtText]]]
+* [[[68k:PxlChg]]]
+* [[[68k:PxlCrcl]]]
+* [[[68k:PxlHorz]]]
+* [[[68k:PxlLine]]]
+* [[[68k:PxlOff]]]
+* [[[68k:PxlOn]]]
+* [[[68k:pxlTest()]]]
+* [[[68k:PxlText]]]
+* [[[68k:PxlVert]]]
+
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
+
++ [[# Q]]Q 
+
+* [[[68k:QR]]]
+* [[[68k:QuadReg]]]
+* [[[68k:QuartReg]]]
+
++ [[# R]]R 
+
+* [[[68k:r-ptheta|R▶Pθ()]]]
+* [[[68k:R▶Pr()]]]
+* [[[68k:▶Rad]]] ^^3.00?^^
+* [[[68k:rand()]]]
+* [[[68k:randMat()]]]
+* [[[68k:randNorm()]]]
+* [[[68k:randPoly()]]]
+* [[[68k:RandSeed]]]
+* [[[68k:RclGDB]]]
+* [[[68k:RclPic]]]
+* [[[68k:real()]]]
+* [[[68k:▶Rect]]]
+* [[[68k:ref()]]]
+* [[[68k:remain()]]]
+* [[[68k:Rename]]]
+* [[[68k:Request]]]
+* [[[68k:Return]]]
+* [[[68k:right()]]]
+* [[[68k:root()]]] ^^3.10^^
+* [[[68k:rotate()]]]
+* [[[68k:round()]]]
+* [[[68k:rowAdd()]]]
+* [[[68k:rowDim()]]]
+* [[[68k:rowNorm()]]]
+* [[[68k:rowSwap()]]]
+* [[[68k:RplcPic]]]
+* [[[68k:rref()]]]
+
++ [[# S]]S
+
+* [[[68k:sec()]]] ^^2.07^^
+* [[[68k:arcsec|secֿ¹()]]] ^^2.07^^
+* [[[68k:sech()]]] ^^2.07^^
+* [[[68k:arcsech|sechֿ¹()]]] ^^2.07^^
+* [[[68k:Send]]]
+* [[[68k:SendCalc]]] ^^Flash^^
+* [[[68k:SendChat]]]
+* [[[68k:seq()]]]
+* [[[68k:setDate()]]] ^^2.07^^
+* [[[68k:setDtFmt()]]] ^^2.07^^
+* [[[68k:setFold()]]]
+* [[[68k:setGraph()]]]
+* [[[68k:setMode()]]]
+* [[[68k:setTable()]]]
+* [[[68k:setTime()]]] ^^2.07^^
+* [[[68k:setTmFmt()]]] ^^2.07^^
+* [[[68k:setTmZn()]]] ^^2.07^^
+* [[[68k:setUnits()]]]
+* [[[68k:Shade]]]
+* [[[68k:shift()]]]
+* [[[68k:ShowStat]]]
+* [[[68k:sign()]]]
+* [[[68k:simult()]]]
+* [[[68k:sin()]]]
+* [[[68k:arcsin|sinֿ¹()]]]
+* [[[68k:sinh()]]]
+* [[[68k:arcsinh|sinhֿ¹()]]]
+* [[[68k:SinReg]]]
+* [[[68k:solve()]]]
+* [[[68k:SortA]]]
+* [[[68k:SortD]]]
+* [[[68k:▶Sphere]]]
+* [[[68k:startTmr()]]] ^^2.07^^
+* [[[68k:stdDev()]]]
+* [[[68k:stDevPop()]]] ^^3.10^^
+* [[[68k:StoGDB]]]
+* [[[68k:Stop]]]
+* [[[68k:StoPic]]]
+* [[[68k:string()]]]
+* [[[68k:Style]]]
+* [[[68k:subMat()]]]
+* [[[68k:sum()]]]
+* [[[68k:switch()]]]
+
++ [[# T]]T
+
+* ^^[[[68k:transpose|T]]]^^
+* [[[68k:Table]]]
+* [[[68k:tan()]]]
+* [[[68k:arctan|tanֿ¹()]]]
+* [[[68k:tanh()]]]
+* [[[68k:arctanh|tanhֿ¹()]]]
+* [[[68k:taylor()]]]
+* [[[68k:tCollect()]]]
+* [[[68k:tExpand()]]]
+* [[[68k:Text]]]
+* [[[68k:Then]]]
+* [[[68k:Title]]]
+* [[[68k:tmpCnv()]]]
+* [[[68k:deltatmpcnv|ΔtmpCnv()]]]
+* [[[68k:ToolBar]]]
+* [[[68k:Trace]]]
+* [[[68k:Try]]]
+* [[[68k:TwoVar]]]
+
++ [[# U]]U
+
+* [[[68k:Unarchiv]]] ^^Flash^^
+* [[[68k:unitV()]]]
+* [[[68k:Unlock]]]
+
++ [[# V]]V
+
+* [[[68k:variance()]]]
+
++ [[# W]]W
+
+* [[[68k:when()]]]
+* [[[68k:While]]]
+
++ [[# X]]X
+
+* [[[68k:xor]]]
+* [[[68k:XorPic]]]
+
++ [[# Z]]Z
+
+* [[[68k:zeros()]]]
+* [[[68k:ZoomBox]]]
+* [[[68k:ZoomData]]]
+* [[[68k:ZoomDec]]]
+* [[[68k:ZoomFit]]]
+* [[[68k:ZoomIn]]]
+* [[[68k:ZoomInt]]]
+* [[[68k:ZoomOut]]]
+* [[[68k:ZoomPrev]]]
+* [[[68k:ZoomRcl]]]
+* [[[68k:ZoomSqr]]]
+* [[[68k:ZoomStd]]]
+* [[[68k:ZoomSto]]]
+* [[[68k:ZoomTrig]]]
+
+[[/div]]
+[[/tab]]
+[[tab List of Commands by Category]]
+[[div style="float: left; font-size:105%; font-weight:bold; text-align:center;"]]
+[#Algebra Algebra] | [#Arithmetic Arithmetic] | [#Calculus Calculus] | [#Graphing Graphing] | [#Lists Lists] | [#Matrices Matrices] | [#Pixel Pixel Graphics] | [#Programming1 Programming (Control)]
+[#Programming2 Programming (I/O)] | [#Statistics Statistics] | [#Strings Strings] | [#Time Time and Date] | [#Trigonometry Trigonometry]
+[[/div]]
+
+[[div style="float:left; width: 100%;"]]
++ [[# Algebra]][[[68k:Algebra]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* | ([[[68k:with]]])
+* [[[68k:abs()]]]
+* [[[68k:angle()]]]
+* [[[68k:cFactor()]]]
+* [[[68k:comDenom()]]]
+* [[[68k:conj()]]]
+* [[[68k:cSolve()]]]
+* [[[68k:cZeros()]]]
+* [[[68k:exp▶list()]]]
+* [[[68k:expand()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:factor()]]]
+* [[[68k:getNum()]]]
+* [[[68k:getDenom()]]]
+* [[[68k:imag()]]]
+* [[[68k:left()]]]
+* [[[68k:ln()]]]
+* [[[68k:to-ln|▶ln]]] ^^3.10^^
+* [[[68k:log()]]]
+* [[[68k:▶logbase()]]] ^^3.10^^
+* [[[68k:nSolve()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:part()]]]
+* [[[68k:▶Polar]]]
+* [[[68k:polyEval()]]]
+* [[[68k:randPoly()]]]
+* [[[68k:real()]]]
+* [[[68k:▶Rect]]]
+* [[[68k:right()]]]
+* [[[68k:root()]]] ^^3.10^^
+* [[[68k:solve()]]]
+* [[[68k:zeros()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Arithmetic]][[[68k:Arithmetic]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], [[[68k:divide|/]]], [[[68k:negative|‾]]], [[[68k:power|^]]]
+* [[[68k:square-root|√()]]], [[[68k:factorial|!]]], [[[68k:percent|%]]], [[[68k:convert|▶]]], [[[68k:0b|0b]]], [[[68k:0h|0h]]]
+* [[[68k:abs()]]]
+* [[[68k:approx()]]]
+* [[[68k:▶Bin]]]
+* [[[68k:ceiling()]]]
+* [[[68k:comDenom()]]]
+* [[[68k:▶Dec]]]
+* [[size 75%]][[[68k:e-ten|E]]][[/size]]
+* [[[68k:exact()]]]
+* [[[68k:floor()]]]
+* [[[68k:fPart()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:gcd()]]]
+* [[[68k:getNum()]]]
+* [[[68k:getDenom()]]]
+* [[[68k:getUnits()]]]
+* [[[68k:▶Hex]]]
+* [[[68k:int()]]]
+* [[[68k:intDiv()]]]
+* [[[68k:iPart()]]]
+* [[[68k:isPrime()]]]
+* [[[68k:lcm()]]]
+* [[[68k:max()]]]
+* [[[68k:min()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:mod()]]]
+* [[[68k:nCr()]]]
+* [[[68k:nPr()]]]
+* [[[68k:propFrac()]]]
+* [[[68k:remain()]]]
+* [[[68k:rotate()]]]
+* [[[68k:round()]]]
+* [[[68k:shift()]]]
+* [[[68k:sign()]]]
+* [[[68k:tmpCnv()]]]
+* [[[68k:deltatmpcnv|ΔtmpCnv()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Calculus]][[[68k:Calculus]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:integral|∫()]]], [[[68k:product-pi|∏()]]], [[[68k:sum-sigma|∑()]]]
+* [[[68k:arcLen()]]]
+* [[[68k:avgRC()]]]
+* [[span style="font-style:italic"]][[[68k:d]]][[/span]][[[68k:d|()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:deSolve()]]]
+* [[[68k:fMax()]]]
+* [[[68k:fMin()]]]
+* [[[68k:impDif()]]] ^^3.10^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:limit()]]]
+* [[[68k:nDeriv()]]]
+* [[[68k:nInt()]]]
+* [[[68k:taylor()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Graphing]][[[68k:graphics#toc3|Graphing]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:ClrGraph]]]
+* [[[68k:ClrTable]]]
+* [[[68k:DispG]]]
+* [[[68k:DispTbl]]]
+* [[[68k:DrawFunc]]]
+* [[[68k:DrawInv]]]
+* [[[68k:DrawParm]]]
+* [[[68k:DrawPol]]]
+* [[[68k:DrawSlp]]]
+* [[[68k:DrwCtour]]]
+* [[[68k:FnOff]]]
+* [[[68k:FnOn]]]
+* [[[68k:Graph]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:LineTan]]]
+* [[[68k:NewPlot]]]
+* [[[68k:PlotsOff]]]
+* [[[68k:PlotsOn]]]
+* [[[68k:RclGDB]]]
+* [[[68k:setGraph()]]]
+* [[[68k:setTable()]]]
+* [[[68k:Shade]]]
+* [[[68k:StoGDB]]]
+* [[[68k:Style]]]
+* [[[68k:Table]]]
+* [[[68k:Trace]]]
+* [[[68k:ZoomBox]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:ZoomData]]]
+* [[[68k:ZoomDec]]]
+* [[[68k:ZoomFit]]]
+* [[[68k:ZoomIn]]]
+* [[[68k:ZoomInt]]]
+* [[[68k:ZoomOut]]]
+* [[[68k:ZoomPrev]]]
+* [[[68k:ZoomRcl]]]
+* [[[68k:ZoomSqr]]]
+* [[[68k:ZoomStd]]]
+* [[[68k:ZoomSto]]]
+* [[[68k:ZoomTrig]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Lists]][[[68k:Lists]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], [[[68k:divide|/]]], [[[68k:negative|‾]]], [[[68k:power|^]]]
+* [[[68k:augment()]]]
+* [[[68k:cumSum()]]]
+* [[[68k:dim()]]]
+* [[[68k:exp▶list()]]]
+* [[[68k:Fill]]]
+* [[[68k:left()]]]
+* [[[68k:list▶mat()]]]
+* [[[68k:deltalist|Δlist()]]]
+* [[[68k:setunits|setUnits()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:max()]]]
+* [[[68k:mean()]]]
+* [[[68k:median()]]]
+* [[[68k:mid()]]]
+* [[[68k:min()]]]
+* [[[68k:newList()]]]
+* [[[68k:polyEval()]]]
+* [[[68k:product()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:randPoly()]]]
+* [[[68k:right()]]]
+* [[[68k:rotate()]]]
+* [[[68k:seq()]]]
+* [[[68k:shift()]]]
+* [[[68k:SortA]]]
+* [[[68k:SortD]]]
+* [[[68k:sum()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Matrices]][[[68k:Matrices]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], [[[68k:divide|/]]], [[[68k:negative|‾]]], [[[68k:power|^]]]
+* [[[68k:dotadd|.+]]], [[[68k:dotsubtract|.-]]], [[[68k:dotmultiply|.*]]], [[[68k:dotdivide|./]]], [[[68k:dotpower|.^]]]
+* [[[68k:augment()]]]
+* [[[68k:colDim()]]]
+* [[[68k:colNorm()]]]
+* [[[68k:crossP()]]]
+* [[[68k:cumSum()]]]
+* [[[68k:▶Cylind]]]
+* [[[68k:Data▶mat]]] ^^3.00?^^
+* [[[68k:det()]]]
+* [[[68k:diag()]]]
+* [[[68k:dim()]]]
+* [[[68k:dotP()]]]
+* [[[68k:eigVc()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:eigVl()]]]
+* [[[68k:Fill]]]
+* [[[68k:identity()]]]
+* [[[68k:left()]]]
+* [[[68k:list▶mat()]]]
+* [[[68k:LU]]]
+* [[[68k:Mat▶data]]] ^^3.00?^^
+* [[[68k:mat▶list()]]]
+* [[[68k:mRow()]]]
+* [[[68k:mRowAdd()]]]
+* [[[68k:newMat()]]]
+* [[[68k:norm()]]]
+* [[[68k:▶Polar]]]
+* [[[68k:QR]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:randMat()]]]
+* [[[68k:▶Rect]]]
+* [[[68k:ref()]]]
+* [[[68k:rowAdd()]]]
+* [[[68k:rowDim()]]]
+* [[[68k:rowNorm()]]]
+* [[[68k:rowSwap()]]]
+* [[[68k:rref()]]]
+* [[[68k:simult()]]]
+* [[[68k:▶Sphere]]]
+* [[[68k:subMat()]]]
+* ^^[[[68k:transpose|T]]]^^
+* [[[68k:unitV()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Pixel]][[[68k:graphics|Pixel Graphics]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:AndPic]]]
+* [[[68k:Circle]]]
+* [[[68k:ClrDraw]]]
+* [[[68k:CyclePic]]]
+* [[[68k:Line]]]
+* [[[68k:LineHorz]]]
+* [[[68k:LineVert]]]
+* [[[68k:NewPic]]]
+* [[[68k:PtChg]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:PtOff]]]
+* [[[68k:PtOn]]]
+* [[[68k:ptTest()]]]
+* [[[68k:PtText]]]
+* [[[68k:PxlChg]]]
+* [[[68k:PxlCrcl]]]
+* [[[68k:PxlHorz]]]
+* [[[68k:PxlLine]]]
+* [[[68k:PxlOff]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:PxlOn]]]
+* [[[68k:pxlTest()]]]
+* [[[68k:PxlText]]]
+* [[[68k:PxlVert]]]
+* [[[68k:RclPic]]]
+* [[[68k:RplcPic]]]
+* [[[68k:StoPic]]]
+* [[[68k:XorPic]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Programming1]][[[68k:programming|Programming (Control)]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* # ([[[68k:indirection|indirection]]]), [[[68k:store|→]]], [[[68k:comment|©]]]
+* [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], [[[68k:less-than-or-equal|≤]]]
+* [[[68k:and]]]
+* [[[68k:ans()]]]
+* [[[68k:Archive]]] ^^Flash^^
+* [[[68k:ClrErr]]]
+* [[[68k:CopyVar]]]
+* [[[68k:Cycle]]]
+* [[[68k:Define]]]
+* [[[68k:DelFold]]]
+* [[[68k:DelType]]] ^^3.00?^^
+* [[[68k:DelVar]]]
+* [[[68k:Else]]]
+* [[[68k:ElseIf]]]
+* [[[68k:entry()]]]
+* [[[68k:Exec]]]
+* [[[68k:Exit]]]
+* [[[68k:For]]]..EndFor
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:Func]]]..EndFunc
+* [[[68k:getConfg()]]]
+* [[[68k:getFold()]]]
+* [[[68k:getMode()]]]
+* [[[68k:getType()]]]
+* [[[68k:Goto]]]
+* [[[68k:If]]]..EndIf
+* [[[68k:isArchiv()]]] ^^Flash, 3.00?^^
+* [[[68k:isLocked()]]] ^^3.00?^^
+* [[[68k:isVar()]]] ^^3.00?^^
+* [[[68k:Lbl]]]
+* [[[68k:Local]]]
+* [[[68k:Lock]]]
+* [[[68k:Loop]]]..EndLoop
+* [[[68k:MoveVar]]]
+* [[[68k:NewFold]]]
+* [[[68k:NewProb]]]
+* [[[68k:not]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:or]]]
+* [[[68k:PassErr]]]
+* [[[68k:Prgm]]]..EndPrgm
+* [[[68k:RandSeed]]]
+* [[[68k:rand()]]]
+* [[[68k:Rename]]]
+* [[[68k:Return]]]
+* [[[68k:setFold()]]]
+* [[[68k:setMode()]]]
+* [[[68k:Stop]]]
+* [[[68k:Try]]]..EndTry
+* [[[68k:Unarchiv]]] ^^Flash^^
+* [[[68k:Unlock]]]
+* [[[68k:when()]]]
+* [[[68k:While]]]..EndWhile
+* [[[68k:xor]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Programming2]][[[68k:programming|Programming (Input/Output)]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:ClrHome]]]
+* [[[68k:ClrIO]]]
+* [[[68k:CustmOff]]]
+* [[[68k:CustmOn]]]
+* [[[68k:Custom]]]..EndCustm
+* [[[68k:Dialog]]]..EndDlog
+* [[[68k:Disp]]]
+* [[[68k:DispHome]]]
+* [[[68k:DropDown]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:Get]]]
+* [[[68k:GetCalc]]]
+* [[[68k:getKey()]]]
+* [[[68k:Input]]]
+* [[[68k:InputStr]]]
+* [[[68k:Item]]]
+* [[[68k:Output]]]
+* [[[68k:Pause]]]
+* [[[68k:PopUp]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:Prompt]]]
+* [[[68k:Request]]]
+* [[[68k:Send]]]
+* [[[68k:SendCalc]]] ^^Flash^^
+* [[[68k:SendChat]]]
+* [[[68k:switch()]]]
+* [[[68k:Text]]]
+* [[[68k:Title]]]
+* [[[68k:ToolBar]]]..EndTBar
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Statistics]][[[68k:Statistics]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:factorial|!]]], [[[68k:percent|%]]]
+* [[[68k:BldData]]]
+* [[[68k:CubicReg]]]
+* [[[68k:cumSum()]]]
+* [[[68k:ExpReg]]]
+* [[[68k:LinReg]]]
+* [[[68k:LnReg]]]
+* [[[68k:Logistic]]]
+* [[[68k:mean()]]]
+* [[[68k:median()]]]
+* [[[68k:MedMed]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:nCr()]]]
+* [[[68k:NewData]]]
+* [[[68k:NewPlot]]]
+* [[[68k:nPr()]]]
+* [[[68k:OneVar]]]
+* [[[68k:PlotsOff]]]
+* [[[68k:PlotsOn]]]
+* [[[68k:PowerReg]]]
+* [[[68k:QuadReg]]]
+* [[[68k:QuartReg]]]
+* [[[68k:rand()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:randNorm()]]]
+* [[[68k:RandSeed]]]
+* [[[68k:ShowStat]]]
+* [[[68k:SinReg]]]
+* [[[68k:SortA]]]
+* [[[68k:SortD]]]
+* [[[68k:stdDev()]]]
+* [[[68k:stDevPop()]]] ^^3.10^^
+* [[[68k:TwoVar]]]
+* [[[68k:variance()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Strings]][[[68k:Strings]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:append|&]]], # ([[[68k:indirection|indirection]]])
+* [[[68k:char()]]]
+* [[[68k:dim()]]]
+* [[[68k:expr()]]]
+* [[[68k:format()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:inString()]]]
+* [[[68k:left()]]]
+* [[[68k:mid()]]]
+* [[[68k:ord()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:right()]]]
+* [[[68k:rotate()]]]
+* [[[68k:shift()]]]
+* [[[68k:string()]]]
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Time]][[[68k:Time and Date]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:checkTmr()]]] ^^2.07^^
+* [[[68k:ClockOff]]] ^^2.07^^
+* [[[68k:ClockOn]]] ^^2.07^^
+* [[[68k:dayOfWk()]]] ^^2.07^^
+* [[[68k:getDate()]]] ^^2.07^^
+* [[[68k:getDtFmt()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:getDtStr()]]] ^^2.07^^
+* [[[68k:getTime()]]] ^^2.07^^
+* [[[68k:getTmFmt()]]] ^^2.07^^
+* [[[68k:getTmStr()]]] ^^2.07^^
+* [[[68k:getTmZn()]]] ^^2.07^^
+* [[[68k:isClkOn()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:setDate()]]] ^^2.07^^
+* [[[68k:setDtFmt()]]] ^^2.07^^
+* [[[68k:setTime()]]] ^^2.07^^
+* [[[68k:setTmFmt()]]] ^^2.07^^
+* [[[68k:setTmZn()]]] ^^2.07^^
+* [[[68k:startTmr()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width: 100%;"]]
++ [[# Trigonometry]][[[68k:Trigonometry]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* ^^[[[68k:radian|r]]]^^, [[[68k:degree|°]]], ^^[[[68k:gradian|G]]]^^ ^^3.10^^
+* [[[68k:angle-symbol|∠]]]
+* [[[68k:cos()]]]
+* [[[68k:arccos|cosֿ¹()]]]
+* [[[68k:cosh()]]]
+* [[[68k:arccosh|coshֿ¹()]]]
+* [[[68k:cot()]]] ^^2.07^^
+* [[[68k:arccot|cotֿ¹()]]] ^^2.07^^
+* [[[68k:coth()]]] ^^2.07^^
+* [[[68k:arccoth|cothֿ¹()]]] ^^2.07^^
+* [[[68k:csc()]]] ^^2.07^^
+* [[[68k:arccsc|cscֿ¹()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:csch()]]] ^^2.07^^
+* [[[68k:arccsch|cschֿ¹()]]] ^^2.07^^
+* [[[68k:▶DD]]]
+* [[[68k:▶DMS]]]
+* [[[68k:▶Grad]]] ^^3.10^^
+* [[[68k:P▶Rx()]]]
+* [[[68k:P▶Ry()]]]
+* [[[68k:r-ptheta|R▶Pθ()]]]
+* [[[68k:R▶Pr()]]]
+* [[[68k:▶Rad]]] ^^3.00?^^
+* [[[68k:sec()]]] ^^2.07^^
+* [[[68k:arcsec|secֿ¹()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:sech()]]] ^^2.07^^
+* [[[68k:arcsech|sechֿ¹()]]] ^^2.07^^
+* [[[68k:sin()]]]
+* [[[68k:arcsin|sinֿ¹()]]]
+* [[[68k:sinh()]]]
+* [[[68k:arcsinh|sinhֿ¹()]]]
+* [[[68k:tan()]]]
+* [[[68k:arctan|tanֿ¹()]]]
+* [[[68k:tanh()]]]
+* [[[68k:arctanh|tanhֿ¹()]]]
+* [[[68k:tCollect()]]]
+* [[[68k:tExpand()]]]
+[[/div]]
+[[/tab]]
+[[tab List of Commands by Menu]]
+[[div]]
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
++ Home screen
+[[collapsible show="F2 - Algebra" hide="F2 - Algebra"]]
+* 1: [[[68k:solve()]]]
+* 2: [[[68k:factor()]]]
+* 3: [[[68k:expand()]]]
+* 4: [[[68k:zeros()]]]
+* 5: [[[68k:approx()]]]
+* 6: [[[68k:comDenom()]]]
+* 7: [[[68k:propFrac()]]]
+* 7: [[[68k:nSolve()]]]
+* 9: Trig 
+ * 1: [[[68k:tExpand()]]]
+ * 2: [[[68k:tCollect()]]]
+* A: Complex
+ * 1: [[[68k:cSolve()]]]
+ * 2: [[[68k:cFactor()]]]
+ * 3: [[[68k:cZeros()]]]
+* B: Extract
+ * 1: [[[68k:getNum()]]]
+ * 2: [[[68k:getDenom()]]]
+ * 3: [[[68k:left()]]]
+ * 4: [[[68k:right()]]]
+[[/collapsible]]
+[[collapsible show="F3 - Calc" hide="F3 - Calc"]]
+* 1: [[span style="font-style:italic"]][[[68k:d]]][[/span]][[[68k:d|()]]] differentiate
+* 2: [[[68k:integral|∫()]]] integrate
+* 3: [[[68k:limit()]]]
+* 4: [[[68k:sum-sigma|∑()]]] sum
+* 5: [[[68k:product-pi|∏()]]] product
+* 6: [[[68k:fMin()]]]
+* 7: [[[68k:fMax()]]]
+* 8: [[[68k:arcLen()]]]
+* 9: [[[68k:taylor()]]]
+* A: [[[68k:nDeriv()]]]
+* B: [[[68k:nInt()]]]
+* C: [[[68k:deSolve()]]]
+* D: [[[68k:impDif()]]]^^3.10^^
+[[/collapsible]]
+[[collapsible show="F4 - Other" hide="F4 - Other"]]
+* 1: [[[68k:Define]]]
+* 2: [[[68k:Graph]]]
+* 3: [[[68k:Table]]]
+* 4: [[[68k:DelVar]]]
+* 5: [[[68k:ClrGraph]]]
+* 6: [[[68k:ClrIO]]]
+* 7: [[[68k:FnOn]]]
+* 8: [[[68k:FnOff]]]
+* 9: [[[68k:ans()]]]
+* A: [[[68k:entry()]]]
+* B: [[[68k:NewFold]]]
+* C: Units... ♦P
+[[/collapsible]]
+[[collapsible show="F5 - PrgmIO" hide="F5 - PrgmIO"]]
+* shows the PrgmIO screen
+[[/collapsible]]
+[[collapsible show="F6 - Clean Up" hide="F6 - Clean Up"]]
+* 1: Clear a...z
+* 2: [[[68k:NewProb]]]
+* 3: Restore [[[68k:custom]]] default
+[[/collapsible]]
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
++ MATH menu
+[[collapsible show="1: Number" hide="1: Number"]]
+* 1: [[[68k:exact()]]]
+* 2: [[[68k:abs()]]]
+* 3: [[[68k:round()]]]
+* 4: [[[68k:iPart()]]]
+* 5: [[[68k:fPart()]]]
+* 6: [[[68k:floor()]]]
+* 7: [[[68k:ceiling()]]]
+* 8: [[[68k:sign()]]]
+* 9: [[[68k:mod()]]]
+* A: [[[68k:remain()]]]
+* B: [[[68k:lcm()]]]
+* C: [[[68k:gcd()]]]
+* D: [[[68k:root()]]]^^3.10^^
+[[/collapsible]]
+[[collapsible show="2: Angle" hide="2: Angle"]]
+* 1: ^^[[[68k:degree|o]]]^^
+* 2: ^^[[[68k:radian|r]]]^^
+* 3: [[[68k:P▶Rx()]]]
+* 4: [[[68k:P▶Ry()]]]
+* 5: [[[68k:R▶Pθ()]]]
+* 6: [[[68k:R▶Pr()]]]
+* 7: [[[68k:angle-symbol|∠]]]
+* 8: [[[68k:▶DMS]]]
+* 9: [[[68k:▶DD]]]
+* A: [[[68k:▶Grad]]]^^3.10^^
+* B: [[[68k:▶Rad]]]^^3.00?^^
+* C: ^^[[[68k:G]]]^^ ^^3.10^^
+[[/collapsible]]
+[[collapsible show="3: List" hide="3: List"]]
+* 1: [[[68k:seq()]]]
+* 2: [[[68k:min()]]]
+* 3: [[[68k:max()]]]
+* 4: [[[68k:SortA]]]
+* 5: [[[68k:SortD]]]
+* 6: [[[68k:sum()]]]
+* 7: [[[68k:cumSum()]]]
+* 8: [[[68k:product()]]]
+* 9: [[[68k:left()]]]
+* A: [[[68k:mid()]]]
+* B: [[[68k:right()]]]
+* C: [[[68k:deltalist|Δlist()]]]
+* D: [[[68k:polyEval()]]]
+* E: [[[68k:list▶mat()]]]
+* F: [[[68k:mat▶list()]]]
+[[/collapsible]]
+[[collapsible show="4: Matrix" hide="4: Matrix"]]
+* 1: ^^[[[68k:transpose|T]]]^^
+* 2: [[[68k:det()]]]
+* 3: [[[68k:ref()]]]
+* 4: [[[68k:rref()]]]
+* 5: [[[68k:simult()]]]
+* 6: [[[68k:identity()]]]
+* 7: [[[68k:augment()]]]
+* 8: [[[68k:diag()]]]
+* 9: [[[68k:eigVl()]]]
+* A: [[[68k:eigVc()]]]
+* B: [[[68k:LU]]]
+* C: [[[68k:QR]]]
+* D: [[[68k:Fill]]]
+* E: [[[68k:randMat()]]]
+* F: [[[68k:newMat()]]]
+* G: [[[68k:subMat()]]]
+* H: Norms
+ * 1: [[[68k:norm()]]]
+ * 2: [[[68k:rowNorm()]]]
+ * 3: [[[68k:colNorm()]]]
+* I: Dimensions
+ * 1: [[[68k:dim()]]]
+ * 2: [[[68k:rowDim()]]]
+ * 3: [[[68k:colDim()]]]
+* J: Row ops
+ * 1: [[[68k:rowSwap()]]]
+ * 2: [[[68k:rowAdd()]]]
+ * 3: [[[68k:mRow()]]]
+ * 4: [[[68k:mRowAdd()]]]
+* K: Element ops
+ * 1: [[[68k:dotadd|.+]]]
+ * 2: [[[68k:dotsubtract|.-]]]
+ * 3: [[[68k:dotmultiply|.*]]]
+ * 4: [[[68k:dotdivide|./]]]
+ * 5: [[[68k:dotpower|.^]]]
+* L: Vector ops
+ * 1: [[[68k:unitV()]]]
+ * 2: [[[68k:crossP()]]]
+ * 3: [[[68k:dotP()]]]
+ * 4: [[[68k:▶Polar]]]
+ * 5: [[[68k:▶Rect]]]
+ * 6: [[[68k:▶Cylind]]]
+ * 7: [[[68k:▶Sphere]]]
+* M: [[[Data▶mat]]]^^3.10^^
+* N: [[[Mat▶data]]]^^3.10^^
+[[/collapsible]]
+[[collapsible show="5: Complex" hide="5: Complex"]]
+* 1: [[[68k:conj()]]]
+* 2: [[[68k:real()]]]
+* 3: [[[68k:imag()]]]
+* 4: [[[68k:angle()]]]
+* 5: [[[68k:abs()]]]
+[[/collapsible]]
+[[collapsible show="6: Statistics" hide="6: Statistics"]]
+* 1: [[[68k:OneVar]]]
+* 2: [[[68k:TwoVar]]]
+* 3: Regressions
+ * 1: [[[68k:LinReg]]]
+ * 2: [[[68k:ExpReg]]]
+ * 3: [[[68k:QuadReg]]]
+ * 4: [[[68k:PowerReg]]]
+ * 5: [[[68k:LnReg]]]
+ * 6: [[[68k:MedMed]]]
+ * 7: [[[68k:CubicReg]]]
+ * 8: [[[68k:QuartReg]]]
+ * 9: [[[68k:SinReg]]]
+ * A: [[[68k:Logistic]]]
+* 4: [[[68k:mean()]]]
+* 5: [[[68k:variance()]]]
+* 6: [[[68k:stdDev()]]]
+* 7: [[[68k:stDevPop()]]]^^3.10^^
+* 8: [[[68k:median()]]]
+* 9: [[[68k:ShowStat]]]
+[[/collapsible]]
+[[collapsible show="7: Probability" hide="7: Probability"]]
+* 1: [[[68k:factorial|!]]]
+* 2: [[[68k:nPr()]]]
+* 3: [[[68k:nCr()]]]
+* 4: [[[68k:rand()]]]
+* 5: [[[68k:randNorm()]]]
+* 6: [[[68k:RandSeed]]]
+* 7: [[[68k:randMat()]]]
+* 8: [[[68k:randPoly()]]]
+[[/collapsible]]
+[[collapsible show="8: Test" hide="8: Test"]]
+* 1: [[[68k:greater-than|>]]]
+* 2: [[[68k:less-than|<]]]
+* 3: [[[68k:greater-than-or-equal|≥]]]
+* 4: [[[68k:less-than-or-equal|≤]]]
+* 5: [[[68k:equal|=]]]
+* 6: [[[68k:not-equal|≠]]]
+* 7: [[[68k:not]]]
+* 8: [[[68k:and]]]
+* 9: [[[68k:or]]]
+* A: [[[68k:xor]]]
+* B: [[[68k:isPrime()]]]
+[[/collapsible]]
+[[collapsible show="9: Algebra" hide="9:Algebra"]]
+* 1: [[[68k:solve()]]]
+* 2: [[[68k:factor()]]]
+* 3: [[[68k:expand()]]]
+* 4: [[[68k:zeros()]]]
+* 5: [[[68k:approx()]]]
+* 6: [[[68k:comDenom()]]]
+* 7: [[[68k:propFrac()]]]
+* 8: [[[68k:nSolve()]]]
+* 9: Trig 
+ * 1: [[[68k:tExpand()]]]
+ * 2: [[[68k:tCollect()]]]
+* A: Complex
+ * 1: [[[68k:cSolve()]]]
+ * 2: [[[68k:cFactor()]]]
+ * 3: [[[68k:cZeros()]]]
+* B: Extract
+ * 1: [[[68k:getNum()]]]
+ * 2: [[[68k:getDenom()]]]
+ * 3: [[[68k:left()]]]
+ * 4: [[[68k:right()]]]
+[[/collapsible]]
+[[collapsible show="A: Trig" hide="A: Trig"]]
+* 1: [[[68k:sin()]]]
+* 2: [[[68k:cos()]]]
+* 3: [[[68k:tan()]]]
+* 4: [[[68k:csc()]]]^^2.07^^
+* 5: [[[68k:sec()]]]^^2.07^^
+* 6: [[[68k:cot()]]]^^2.07^^
+* 7: [[[68k:arcsin|sinֿ¹()]]]
+* 8: [[[68k:arccos|cosֿ¹()]]]
+* 9: [[[68k:arctan|tanֿ¹()]]]
+* A: [[[68k:arccsc|cscֿ¹()]]]^^2.07^^
+* B: [[[68k:arcsec|secֿ¹()]]]^^2.07^^
+* C: [[[68k:arccot|cotֿ¹()]]] ^^2.07^^
+[[/collapsible]]
+[[collapsible show="B: Calculus" hide="B: Calculus"]]
+* 1: [[span style="font-style:italic"]][[[68k:d]]][[/span]][[[68k:d|()]]] differentiate
+* 2: [[[68k:integral|∫()]]] integrate
+* 3: [[[68k:limit()]]]
+* 4: [[[68k:sum-sigma|∑()]]] sum
+* 5: [[[68k:product-pi|∏()]]] product
+* 6: [[[68k:fMin()]]]
+* 7: [[[68k:fMax()]]]
+* 8: [[[68k:arcLen()]]]
+* 9: [[[68k:taylor()]]]
+* A: [[[68k:nDeriv()]]]
+* B: [[[68k:nInt()]]]
+* C: [[[68k:deSolve()]]]
+* D: [[[68k:impDif()]]]^^3.10^^
+[[/collapsible]]
+[[collapsible show="C: Hyperbolic" hide="C: Hyperbolic"]]
+* 1: [[[68k:sinh()]]]
+* 2: [[[68k:cosh()]]]
+* 3: [[[68k:tanh()]]]
+* 4: [[[68k:csch()]]] ^^2.07^^
+* 5: [[[68k:sech()]]] ^^2.07^^
+* 6: [[[68k:coth()]]] ^^2.07^^
+* 7: [[[68k:arcsinh|sinhֿ¹()]]]
+* 8: [[[68k:arccosh|coshֿ¹()]]]
+* 9: [[[68k:arctanh|tanhֿ¹()]]]
+* A: [[[68k:arccsch|cschֿ¹()]]] ^^2.07^^
+* B: [[[68k:arcsech|sechֿ¹()]]] ^^2.07^^
+* C: [[[68k:arccoth|cothֿ¹()]]] ^^2.07^^
+[[/collapsible]]
+[[collapsible show="D: String" hide="D: String"]]
+* 1: [[[68k:string()]]]
+* 2: [[[68k:expr()]]]
+* 3: [[[68k:dim()]]]
+* 4: [[[68k:append|&]]]
+* 5: [[[68k:mid()]]]
+* 6: [[[68k:inString()]]]
+* 7: [[[68k:left()]]]
+* 8: [[[68k:right()]]]
+* 9: [[[68k:format()]]]
+* A: [[[68k:char()]]]
+* B: [[[68k:ord()]]]
+[[/collapsible]]
+[[collapsible show="E: Base" hide="E: Base"]]
+* 1: [[[68k:to-ln|▶ln]]]^^3.10^^
+* 2: [[[68k:▶logbase()]]]^^3.10^^
+* 3: [[[68k:▶Hex]]]
+* 4: [[[68k:▶Bin]]]
+* 5: [[[68k:▶Dec]]]
+* 6: [[[68k:and]]]
+* 7: [[[68k:or]]]
+* 8: [[[68k:xor]]]
+* 9: [[[68k:not]]]
+* A: ([[[68k:negative|-]]]) 2's complement
+* B: [[[68k:shift()]]]
+* C: [[[68k:rotate()]]]
+[[/collapsible]]
+[[/div]]
+
+[[div style="float:left; margin: 1em; padding: 35px 35px 35px 0;"]]
++ Program editor
+[[collapsible show="F2 - Control" hide="F2 - Control"]]
+* 1: [[[68k:If]]]
+* 2: If..Then
+ * 1: If..[[[68k:if#then|Then]]]..EndIf
+ * 2: If..Then..[[[68k:if#else|Else]]]..EndIf
+ * 3: [[[68k:if#elseif|ElseIf]]]..Then
+ * 4: [[[68k:Try]]]..EndTry
+* 3: [[[68k:when()]]]
+* 4: [[[68k:For]]]..EndFor
+* 5: [[[68k:While]]]..EndWhile
+* 6: [[[68k:Loop]]]..EndLoop
+* 7: [[[68k:Custom]]]..EndCustm
+* 8: Transfers
+ * 1: [[[68k:Pause]]]
+ * 2: [[[68k:Return]]]
+ * 3: [[[68k:Cycle]]]
+ * 4: [[[68k:Stop]]]
+ * 5: [[[68k:Exit]]]
+* 9: [[[68k:comment|©]]]
+[[/collapsible]]
+[[collapsible show="F3 - I/O" hide="F3 - I/O"]]
+* 1: Dialog
+ * 1: [[[68k:Text]]]
+ * 2: [[[68k:Request]]]
+ * 3: [[[68k:PopUp]]]
+ * 4: [[[68k:DropDown]]]
+ * 5: [[[68k:Dialog]]]..EndDlog
+ * 6: [[[68k:Toolbar]]]..EndTBar
+ * 7: [[[68k:Title]]]
+ * 8: [[[68k:Item]]]
+* 2: [[[68k:Disp]]]
+* 3: [[[68k:Input]]]
+* 4: [[[68k:InputStr]]]
+* 5: [[[68k:Prompt]]]
+* 6: [[[68k:Output]]]
+* 7: [[[68k:getKey()]]]
+* 8: Link
+ * 1: [[[68k:Send]]]
+ * 2: [[[68k:Get]]]
+ * 3: [[[68k:SendCalc]]]
+ * 4: [[[68k:GetCalc]]]
+ * 5: [[[68k:SendChat]]]
+[[/collapsible]]
+[[collapsible show="F4 - Var" hide="F4- Var"]]
+* 1: [[[68k:Define]]]
+* 2: [[[68k:DelVar]]]
+* 3: [[[68k:Local]]]
+* 4: [[[68k:Func]]]..EndFunc
+* 5: [[[68k:Prgm]]]..EndPrgm
+* 6: [[[68k:Lock]]]
+* 7: [[[68k:Unlock]]]
+* 8: [[[68k:Archive]]]^^Flash^^
+* 9: [[[68k:Unarchiv]]]^^Flash^^
+[[/collapsible]]
+[[collapsible show="F5 - Find..." hide="F5 - Find..."]]
+Text search feature.
+[[/collapsible]]
+[[collapsible show="F6 - Mode" hide="F6 - Mode"]]
+Select setting and value to paste [[[68k:setMode()]]] with appropriate parameters.
+[[/collapsible]]
+[[/div]]
+[[/tab]]
+[[/tabview]]
+[[/div]]

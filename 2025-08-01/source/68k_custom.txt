@@ -1,0 +1,53 @@
+[[include inc:68k-command
+|picture=custom.png
+|summary=Creates a custom toolbar menu.
+|syntax=:Custom
+//(list of titles and items)//
+:EndCustm
+
+|location=Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 7 to select Custom...EndCustm.
+
+|size=2 bytes for Custom;
+2 bytes for EndCustm.
+]]
+
+A {{Custom}}..{{EndCustm}} block creates a custom toolbar menu. The menu can have up to eight tabs for the F1 .. F8 keys, each with any number of sub-items. The contents of the menu are defined using the {{[[[68k:Title]]]}} and {{[[[68k:Item]]]}} commands inside the {{Custom}}..{{EndCustm}} block.
+
+The {{Title}} command indicates a new tab, so you can have up to eight of these. After {{Title}}, put a string to use as the label for the tab. If the title has no items, you'll be able to select the title itself to insert this label somewhere.
+
+The {{Item}} command indicates an item under the most recent tab -- you can have as many items under a tab as you like, or none at all. This also takes a string that will be used as the label for the item, //and// will be inserted any time you select that item from the menu.
+
+Here is an example of the syntax:
+[[code]]
+:Custom
+: Title "Animals"
+:  Item "Dog"
+:  Item "Cat"
+: Title "Rocks"
+: Title "Plants"
+:  Item "Grass"
+:  ...
+:EndCustm
+[[/code]]
+
+In this case, the custom toolbar will display | F1 Animals | F2 Rocks | F3 Plants | ... |. Pressing F1 would bring up the Animals menu with items 1:Dog and 2:Cat. Then, pressing 1 or ENTER would insert Dog after the cursor. Pressing F2 would insert Rocks under the cursor since that tab has no items.
+
+The custom toolbar can be accessed in any window. To switch to the custom toolbar or back, press 2nd CUSTOM (or use the {{[[[68k:CustmOn]]]}} and {{[[[68k:CustmOff]]]}} commands).
+
+The calculator comes with a default custom menu, which is overwritten whenever you create one of your own. To restore it, select F6 - Clean Up from the home screen toolbar, and select 3:Restore custom default. This also lets you see an example of {{Custom}}..{{EndCustm}} syntax.
+
+A related command is {{[[[68k:Toolbar]]]}}..{{EndTBar}}. It also displays a custom menu, but can only be used in a program, and the entries of the menu jump to other parts of the program.
+
++ Error Conditions
+
+[[include inc:68k-error num=450|error=Invalid in a function or current expression|cause={{Custom}}..{{EndCustm}} is used in a function]]
+[[include inc:68k-error num=460|error=Invalid in {{Custom}}..{{EndCustm}} block|cause=anything other than {{Title}} or {{Item}} appears in the block]]
+[[include inc:68k-error num=590|error=Invalid syntax block|cause=the syntax is somehow wrong, e.g. if there are more than 8 tabs]]
+
++ Related Commands
+
+* {{[[[68k:Item]]]}}
+* {{[[[68k:Title]]]}}
+* {{[[[68k:Toolbar]]]}}..{{EndTBar}}

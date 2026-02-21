@@ -1,0 +1,2 @@
+content: 'Okay, thanks! I can work with that. Should we then have a topic to go over all of the special things?'
+attachment: null

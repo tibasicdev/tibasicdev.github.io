@@ -1,0 +1,33 @@
+[[>]]
+[[[excerpt |Add a Featured Article]]]
+[[/>]]
+
+The featured articles are articles that represent the best TI-Basic Developer has to offer. A featured article meets all of the following requirements:
+
+* **Well-Written** -- It is easy to read, flows smoothly, and does not have any spelling or grammatical errors.
+* **Complete** -- It includes everything about the topic, including theory, code examples, and screenshots, when appropriate.
+* **References** -- If applicable, it lists the sources that were used in putting together the article.
+
+To nominate an article for being featured, add it to the list below.
+
++ Featured Article Candidates:
+
+* [[[comments|Commenting Your Code]]]
+* [[[code-conventions|Code Conventions]]]
+* [[[debug|Debugging Programs]]]
+* [[[setup|Setting Up A Program]]]
+* [[[cleanup|Cleaning Up After A Program]]]
+* [[[usability|Usability (User-Friendliness)]]]
+* [[[Portability]]]
+* [[[optimize|Optimization]]]
+* [[[timings|Code Timings]]]
+
++ Featured Articles
+
+[[module ListPages category="excerpt" tags="+_excerpt +_83portal featured-article" separate="false" perPage="1000"]]
+%%content%%
+[[>]]
+[%%link%% edit]
+[[/>]]
+------
+[[/module]]

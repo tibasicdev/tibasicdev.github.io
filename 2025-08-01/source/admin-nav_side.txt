@@ -1,0 +1,190 @@
+[!--
+[[module NewPage size="20" button="New page"]]
+[[div style="align:center;"]]
+[[collapsible show="+ Manage Page" hide="- Manage Page" hideLocation="top" folded="yes"]]
+[[button tags text="Tags"]] | [[button edit text="Edit"]] | [[button source text="Source"]] | [[button print text="Print"]]
+[[/collapsible]]
+[[/div]]
+
+**Recent comments** ([/forum:recent-posts More...])
+
+[[module MiniRecentPosts limit="4"]]
+
+**Recent threads**
+[[module MiniRecentThreads limit="8"]]
+
+**Open tasks** ([/admin-forum:open-tasks More...])
+[[size smaller]]To create a task tag any thread with _task.[[/size]]
+[[module ListPages category="admin-thread" tags="_task -_closed" separate="no" limit="5"]]
+=> %%title_linked%% (%%created_by%%)
+[[/module]]
+
+**Threads by date**
+[[module PageCalendar category="admin-thread" targetPage="admin-thread:_start"]]
+[[size smaller]]To close a thread, tag it with _closed.[[/size]]
+
+**Sections**
+
+* [[[admin-section:Design]]]
+[!-- * [[[admin-section:general-test]]] --]
+
+[!--
+**Page tags**
+
+[[module TagCloud minFontSize="80%" maxFontSize="200%"  maxColor="8,8,64" minColor="100,100,128" target="system:page-tags" limit="30"]]
+
+**Watchers**
+
+[[module Watchers]]
+--]
+
+[[div class="top"]]
+* [[[home|TI-83 Basic Home]]]
+* [[[68k:home|68k TI-Basic Home]]]
+* [[[nspire:home|TI-Nspire Home]]]
+* [[[archives|Program Archives]]]
+* [[[forum:home|Discussion Forums]]]
+* **[[[admin-forum|Staff Forum]]]**
+[[/div]]
+
+[[div style="margin-top: 5px;"]]
+* [http://tibasicdev.wikidot.com/forum/c-21134/community-introductions Introduce Yourself]
+* [http://tibasicdev.wikidot.com/forum/t-437729/getting-involved Getting Involved]
+* [http://tibasicdev.wikidot.com/forum:rules Forum Rules]
+* [http://tibasicdev.wikidot.com/forum/t-1744620/search-help-3 Search Help]
+[[/div]]
+
+[[size large]][[[forum:recent-posts|Recent Posts]]][[/size]]
+[[module MiniRecentPosts limit="6"]]
+
+[[div style="height: 5px;"]]
+[[/div]]
+
+[[size large]]Recent Threads[[/size]]
+
+[[module MiniRecentThreads limit="12"]]
+
+[[div style="height: 10px;"]]
+[[/div]]
+
+[[size large]]
+[[collapsible show="+ Active Threads" hide="- Active Threads" hideLocation="top" folded="yes"]]
+[[/size]]
+
+[[module MiniActiveThreads limit="12"]]
+
+[[/collapsible]]
+
+[[div style="height: 10px;"]]
+[[/div]]
+
+[[div style="text-align:center;"]]
+[[embed]]
+<script type="text/javascript">
+var sc_project=2373092;
+var sc_invisible=0;
+var sc_partition=22;
+var sc_security="d8087415";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c23.statcounter.com/2373092/0/d8087415/0/" alt="counter free hit unique web" /></a></div></noscript>
+[[/embed]]
+[[/div]]
+
+
+[[div class="foldable-list-container chars"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+[!--
+[[div class="foldable-list-container chars2"]]
+* [[size 110%]]**CHAR**[[/size]]
+ * → ⸤ ⁻
+ * × ÷ ±
+ * √ Σ ≠
+ * ≥ ≤ π
+ * Δ χ ▶
+ * ֿ¹ ² ³
+ * L₁ L₂ L₃
+ * L₄ L₅ L₆
+ * ≅ ℕ º
+ * θ ∠ ∞
+ * ♦ ⇧ ∫
+ * ∏ ©
+[[/div]]
+--]
+[[div style="position:fixed; top:0;right:0;"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]
+
+[[div class="chars2"]]
+[[table style="border:1px solid #999; border-collapse:collapse; width:4.2em; background:#FFF;"]]
+[[row]]
+[[cell style="border-bottom:1px solid #D2D3C6; height:8px;"]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell class="hidden-collapsible" style="text-align:center; font-weight:bold; text-decoration:none; font-family:Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica; font-size:110%;"]]
+[[collapsible show="CHAR" hide="CHAR"]]
+[[div style="font-weight:normal; font-size:100%; border-top: 1px solid #BBBEAB;"]]
+→ ⸤ ⁻
+× ÷ ±
+√ Σ ≠
+≥ ≤ π
+Δ χ ▶
+ֿ¹ ² ³
+L₁ L₂ L₃
+L₄ L₅ L₆
+≅ ℕ º
+θ ∠ ∞
+♦ ⇧ ∫
+∏ ©
+[[/div]]
+[[/collapsible]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-top:1px solid #BBBEAB; height:8px"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

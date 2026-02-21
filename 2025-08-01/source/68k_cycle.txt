@@ -1,0 +1,38 @@
+[[include inc:68k-command
+|picture=cycle.png
+|summary=Prematurely ends a cycle of a loop.
+|syntax=:Cycle
+
+|location=Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 8 to enter the Transfers submenu.
+* Press 3 to select Cycle.
+
+|size=4 bytes
+]]
+
+The {{Cycle}} command ends the current cycle of a {{[[[68k:For]]]}}..{{EndFor}}, {{[[[68k:Loop]]]}}..{{EndLoop}}, or {{[[[68k:While]]]}}..{{EndWhile}} loop, as though the corresponding {{End}} were there. It doesn't exit the loop forever; if the loop would have repeated, it goes back to the beginning. However, if the loop is ready to end (if the counter is equal to the end value, for a {{For}} loop, or if the condition is false, for a {{While}} loop), it exits the loop and continues after the {{EndFor}} or {{EndWhile}} command.
+
+An example of {{Cycle}} in a {{For}} loop:
+[[code]]
+:For num,1,100
+: If isPrime(num)
+:  Cycle
+: Disp num
+:EndFor
+[[/code]]
+
+This loop prints all the composite numbers between 1 and 100. Here's how it works: for every number, it first checks whether or not it's prime. If it is, the program goes back to the beginning of the loop with the next number. On the other hand, if the number is composite, the program continues to the {{Disp}} command, then hits {{EndFor}} and goes back to the beginning of the loop as well.
+
+If the {{Cycle}} instruction is inside multiple loops, one nested in the other, it works with the innermost loop.
+
++ Error Conditions
+
+[[include inc:68k-error num=560|error=Invalid outside Loop..EndLoop, For..EndFor, or While..EndWhile blocks|cause={{Cycle}} is used outside a loop]]
+
++ Related Commands
+
+* {{[[[68k:Exit]]]}}
+* {{[[[68k:For]]]}}..{{EndFor}}
+* {{[[[68k:Loop]]]}}..{{EndLoop}}
+* {{[[[68k:While]]]}}..{{EndWhile}}

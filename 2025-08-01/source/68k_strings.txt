@@ -1,0 +1,42 @@
+A string is a collection of letters (usually called //characters//) in order. They are most commonly used for displaying text, although they can be adapted to any purpose. See the [[[68k:character-codes|character codes]]] page for a table of the characters that can be part of a string.
+
+To write a string, use quote marks around the characters you want it to contain. For example, "Hello" is a string containing the characters H, e, l, l, and o, in that order. Using the [[[68k:string|string()]]] command, you can also create a string out of any other variable type.
+
+On the TI-68k calculators, strings have an advantage over [[[68k:lists|lists]]] or [[[68k:matrices]]] - they are a [wikipedia:Random_access random access] structure, which means that accessing the end of the string is just as fast as accessing the end of the string (for a list, on the other hand, the calculator has to go through every previous element of the list to get to an element at the end). Although strings are awkward to access normally, so short strings are at a disadvantage compared to lists, long enough strings will beat out lists and matrices, at least for accessing a specific character.
+
+Except for the constraint of memory, there is no limit to the amount of characters in a string.
+
++ Operations on Strings
+
+There are two special operators that can be used on strings - & ([[[68k:append|concatenation]]]) and # ([[[68k:indirection]]]). The //concatenation operator//, &, joins two strings together - "Hello"&" world" returns "Hello world". The //indirection operator//, #, replaces a string containing the name of a variable by the variable itself - #"f"(x) is the same as f(x) (this can be very powerful, especially for non-algebraic variables such as pictures).
+
+(annoyingly, there is no easy way to type #, on a TI-89. You can select it from the character menu (2nd CHAR, 3, 3) or from the catalog)
+
+The relational operators ([[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], [[[68k:less-than-or-equal|≤]]]) can also be applied to strings. It's easy to see how = and ≠ work: two strings are equal if they are made up of the same characters. For the other relational operators, alphabetical order is used: a string is less than another if it would come before it in a dictionary. But.. not quite -- there is a problem with uppercase and lowercase letters. These comparisons are actually done by comparing the [[[68k:character-codes|character codes]]] of each character in the strings, so all lowercase letters are considered to come after all uppercase letters. That is, "cat"<"dog", as you would expect (because cat comes before dog in the dictionary), but "Dog"<"cat".
+
+The tricky aspect of strings is accessing a character. To do this, you have to use the [[[68k:mid|mid()]]] command: mid(//string//,//start//,//length//) will return //length// characters from //string//, starting from //start//. As a special case, mid(//string//,//n//,1) will return the //n//^^th^^ character of //string//. Characters are numbered starting from 1.
+
++ String-Specific Commands
+
+Of course, there are several commands specifically designed to be used with strings (though not as many as we'd like). All of them except shift() and rotate() are found in the string menu (Press 2nd MATH to access the popup math menu, then select D:String).
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:char|char()]]]
+* [[[68k:dim|dim()]]]
+* [[[68k:expr|expr()]]]
+* [[[68k:format|format()]]]
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:instring|inString()]]]
+* [[[68k:left|left()]]]
+* [[[68k:mid|mid()]]]
+* [[[68k:ord|ord()]]]
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:right|right()]]]
+* [[[68k:rotate|rotate()]]]
+* [[[68k:shift|shift()]]]
+* [[[68k:string|string()]]]
+[[/div]]

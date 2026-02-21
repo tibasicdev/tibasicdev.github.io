@@ -1,0 +1,185 @@
+Calculators are built with one primary purpose: math. Programming, game playing, and everything else is secondary. Thus, you will find a number of powerful math commands. Although it may seem that they are of no use to a programmer, programs sometimes need math functions, and many math functions can be used in clever ways. In this guide we'll group the commands into the following five categories:
+
++ [[# algebra]]Algebra
+
+Symbolic manipulation is the primary cool factor of the 68k (TI-89, TI-92, TI-92+, and V200) calculators. With the [[[68k:solve()]]] command, the calculator can give //exact// solutions to a fair number of equations (of course, approximate solutions are even easier to get). Along with a dozen variations on solve(), there are a few commands for extracting various parts of an expression, which should be useful for writing your own algebraic tools.
+
+As on earlier calculator models, there's also logs and complex number operations, which are even better with symbolic math.
+
+Here is the complete list of algebraic commands:
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* | ([[[68k:with]]])
+* [[[68k:abs()]]]
+* [[[68k:angle()]]]
+* [[[68k:cFactor()]]]
+* [[[68k:comDenom()]]]
+* [[[68k:conj()]]]
+* [[[68k:cSolve()]]]
+* [[[68k:cZeros()]]]
+* [[[68k:exp▶list()]]]
+* [[[68k:expand()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:factor()]]]
+* [[[68k:getNum()]]]
+* [[[68k:getDenom()]]]
+* [[[68k:imag()]]]
+* [[[68k:ln()]]]
+* [[[68k:to-ln|▶ln]]] ^^3.10^^
+* [[[68k:log()]]]
+* [[[68k:▶logbase()]]] ^^3.10^^
+* [[[68k:nSolve()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:part()]]]
+* [[[68k:▶Polar]]]
+* [[[68k:polyEval()]]]
+* [[[68k:randPoly()]]]
+* [[[68k:real()]]]
+* [[[68k:▶Rect]]]
+* [[[68k:root()]]] ^^3.10^^
+* [[[68k:solve()]]]
+* [[[68k:zeros()]]]
+[[/div]]
+
+[[div style="float:left; width: 100%;"]]
++ [[# arithmetic]]Arithmetic
+
+For basic arithmetic, the 68k calculators' advantage is that it can do exact calculations with integers up to 256^^255^^-1 (and approximate floating-point decimal calculations up to 10^^1000^^-1). Here is the complete list of arithmetic commands:
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], [[[68k:divide|/]]], [[[68k:negative|‾]]], [[[68k:power|^]]]
+* [[[68k:square-root|√()]]], [[[68k:factorial|!]]], [[[68k:percent|%]]], [[[68k:convert|▶]]], [[[68k:0b|0b]]], [[[68k:0h|0h]]]
+* [[[68k:abs()]]]
+* [[[68k:approx()]]]
+* [[[68k:▶Bin]]]
+* [[[68k:ceiling()]]]
+* [[[68k:comDenom()]]]
+* [[[68k:▶Dec]]]
+* [[size 75%]][[[68k:e-ten|E]]][[/size]]
+* [[[68k:exact()]]]
+* [[[68k:floor()]]]
+* [[[68k:fPart()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:gcd()]]]
+* [[[68k:getNum()]]]
+* [[[68k:getDenom()]]]
+* [[[68k:getUnits()]]]
+* [[[68k:▶Hex]]]
+* [[[68k:int()]]]
+* [[[68k:intDiv()]]]
+* [[[68k:iPart()]]]
+* [[[68k:isPrime()]]]
+* [[[68k:lcm()]]]
+* [[[68k:max()]]]
+* [[[68k:min()]]]
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:mod()]]]
+* [[[68k:nCr()]]]
+* [[[68k:nPr()]]]
+* [[[68k:propFrac()]]]
+* [[[68k:remain()]]]
+* [[[68k:rotate()]]]
+* [[[68k:round()]]]
+* [[[68k:shift()]]]
+* [[[68k:sign()]]]
+* [[[68k:tmpCnv()]]]
+* [[[68k:deltatmpcnv|ΔtmpCnv()]]]
+[[/div]]
+
+[[div style="float:left; width: 100%;"]]
++ [[# calculus]]Calculus
+
+What with the ability for symbolic calculation, the 68k calculators are much more useful for calculus than other models; they can do symbolic differentiation and integration, as well as calculate infinite sums and products. There are some numeric functions as well carried over from earlier calculator models.
+
+Here is the complete list of calculus commands:
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:integral|∫()]]], [[[68k:product-pi|∏()]]], [[[68k:sum-sigma|∑()]]]
+* [[[68k:arcLen()]]]
+* [[[68k:avgRC()]]]
+* //[[[68k:d|d()]]]//
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:deSolve()]]]
+* [[[68k:fMax()]]]
+* [[[68k:fMin()]]]
+* [[[68k:impDif()]]] ^^3.10^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:limit()]]]
+* [[[68k:nDeriv()]]]
+* [[[68k:nInt()]]]
+* [[[68k:taylor()]]]
+[[/div]]
+
+[[div style="float:left; width: 100%;"]]
++ [[# statistics]]Statistics
+
+Statistics is the one field in which the 68k calculators don't stand out compared to other TI models. In fact, there are considerably less statistical tools than, say, on the TI-83 series calculators (compare their page on [[[statistics]]]). What there is left is mostly a variety of regression models: 
+* [[[68k:LinReg]]] and [[[68k:MedMed]]] -- two different linear models.
+* [[[68k:QuadReg]]], [[[68k:CubicReg]]], [[[68k:QuartReg]]], [[[68k:PowerReg]]] -- polynomial models.
+* [[[68k:ExpReg]]], [[[68k:LnReg]]], [[[68k:Logistic]]], [[[68k:SinReg]]] -- the other models.
+For all of these, use the [[[68k:ShowStat]]] command to display the results in a dialog box, and look at the statistical [[[68k:system variables]]] for more information.
+
+There are also some general-purpose commands for sample statistics:
+* [[[68k:mean()]]], [[[68k:median()]]], [[[68k:stdDev()]]], [[[68k:variance()]]], and with OS 3.10, [[[68k:stDevPop()]]]
+* [[[68k:OneVar]]] and [[[68k:TwoVar]]] for getting a bunch of statistics at once.
+* [[[68k:rand()]]],  [[[68k:randMat()]]], [[[68k:randNorm()]]], [[[68k:randPoly()]]], and [[[68k:RandSeed]]] to generate random numbers.
+
+Finally, you can plot data with the [[[68k:NewPlot]]] command (see also [[[68k:PlotsOn]]] and [[[68k:PlotsOff]]]).
+
++ [[# trigonometry]]Trigonometry
+
+The main thing to remember when doing trig is to be aware of what angle mode you're in. By default, you're using radians, where a full circle measures 2π. The other two angle modes are degrees, where a full circle is 360, and (on the newest OS versions for the TI-89 Titanium and Voyage 200) "gradians" where a full circle measures 400.
+
+The commands that actually work with these include the usual trig functions (half of which -- the mostly useless half -- were added in OS version 2.07) and their inverses, as well as commands to convert rectangular coordinates (x,y) into polar coordinates (r,θ). There's also the hyperbolic functions (there's a hyperbolic equivalent for each of the normal trig functions).
+
+As far as symbolic math is concerned, you can use [[[68k:tExpand()]]] and [[[68k:tCollect()]]] to rearrange complicated expressions using sin() and cos(), and hope to simplify them somewhat by doing so.
+
+The entire list of trig commands is:
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* ^^[[[68k:radian|r]]]^^, [[[68k:degree|°]]], ^^[[[68k:gradian|G]]]^^ ^^3.10^^
+* [[[68k:angle-symbol|∠]]]
+* [[[68k:cos()]]]
+* [[[68k:arccos|cosֿ¹()]]]
+* [[[68k:cosh()]]]
+* [[[68k:arccosh|coshֿ¹()]]]
+* [[[68k:cot()]]] ^^2.07^^
+* [[[68k:arccot|cotֿ¹()]]] ^^2.07^^
+* [[[68k:coth()]]] ^^2.07^^
+* [[[68k:arccoth|cothֿ¹()]]] ^^2.07^^
+* [[[68k:csc()]]] ^^2.07^^
+* [[[68k:arccsc|cscֿ¹()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:csch()]]] ^^2.07^^
+* [[[68k:arccsch|cschֿ¹()]]] ^^2.07^^
+* [[[68k:▶DD]]]
+* [[[68k:▶DMS]]]
+* [[[68k:▶Grad]]] ^^3.10^^
+* [[[68k:P▶Rx()]]]
+* [[[68k:P▶Ry()]]]
+* [[[68k:r-ptheta|R▶Pθ()]]]
+* [[[68k:R▶Pr()]]]
+* [[[68k:▶Rad]]] ^^3.00?^^
+* [[[68k:sec()]]] ^^2.07^^
+* [[[68k:arcsec|secֿ¹()]]] ^^2.07^^
+[[/div]]
+[[div style="float:left; width:20%; padding: 0 1%;"]]
+* [[[68k:sech()]]] ^^2.07^^
+* [[[68k:arcsech|sechֿ¹()]]] ^^2.07^^
+* [[[68k:sin()]]]
+* [[[68k:arcsin|sinֿ¹()]]]
+* [[[68k:sinh()]]]
+* [[[68k:arcsinh|sinhֿ¹()]]]
+* [[[68k:tan()]]]
+* [[[68k:arctan|tanֿ¹()]]]
+* [[[68k:tanh()]]]
+* [[[68k:arctanh|tanhֿ¹()]]]
+* [[[68k:tCollect()]]]
+* [[[68k:tExpand()]]]
+[[/div]]

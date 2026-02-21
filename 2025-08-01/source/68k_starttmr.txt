@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=starttmr.png
+|summary=Returns the value of the system clock.
+|syntax=startTmr()
+|ams2xx=07
+|size=3 bytes
+]]
+
+The startTmr() command returns the number of seconds that passed since 00:00 GMT of January 1, 1997 -- as far as the calculator knows, anyway, since this value is adjusted every time the current time and date changes with [[[68k:setTime()]]] or [[[68k:setDate()]]]. If the clock is running, this number is also updated every second, which is how the calculator keeps track of time.
+
+Together with [[[68k:checkTmr()]]], startTmr() can be used to measure off a time interval (in seconds) while a program is running (make sure to use [[[68k:ClockOn]]] first). the name of the commands reflects their use: you can think of a startTmr() call as creating and starting a timer:
+[[code]]
+:startTmr()→timer
+[[/code]]
+
+The checkTmr() command will then return the number of seconds that have elapsed on the timer (without stopping it):
+[[code]]
+:Disp "Seconds elapsed:",checkTmr(timer)
+[[/code]]
+
+This is a good abstraction and you don't need to know the details of how startTmr() and checkTmr() work to use them. In reality, checkTmr(x) returns startTmr()-x, so using it on the result of startTmr() gives a time difference.
+
+Because both startTmr() and checkTmr() deal with whole numbers of seconds, the resulting difference in time could be off by up to a second in either direction. That is, if checkTmr() gives 15 seconds as the time, you know the time that actually passed is between 14 and 16 seconds.
+
++ Advanced Uses
+
+The startTmr() and checkTmr() commands can be used to figure out how much time a command or routine takes with much greater precisions by running it multiple times. For example:
+[[code]]
+:startTmr()→t
+:For i,1,1000
+: somecmd()
+:EndFor
+:Disp checkTmr(t)
+[[/code]]
+Suppose that the result displayed was 100 seconds. This is accurate to 1 second, so the actual time was between 99 and 101 seconds. However, this actual time is for 1000 repetitions of somecmd() (we assume that the time the code to increment i takes is negligible, although that, too, may be taken into account). So somecmd() repeated only once takes between 99/1000 and 101/1000 seconds, so the actual time is 100 ms, measured to within 1 millisecond error.
+
+See [[[68k:Timings|]]] for more information on this, as well as the results of some common comparisons.
+
++ Related Commands
+
+* [[[68k:checkTmr()]]]
+* [[[68k:ClockOn]]]
+* [[[68k:ClockOff]]]
+* [[[68k:getTime()]]]
+
++ See Also
+
+* [[[68k:Timings|]]]

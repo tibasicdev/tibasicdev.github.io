@@ -1,0 +1,1083 @@
+This variable-width character set is more common to the [[[graphscreen|graph screen]]]. For the larger font, please see [[[83lgfont|this article]]].
+
++ Character Map
+
+Click on any character to jump ahead and view its respective details.
+
+[[table class="charmap"]]
+[[row]]
+[[cell]][[/cell]]
+[[cell]][[size smaller]]0[[/size]][[/cell]]
+[[cell]][[size smaller]]1[[/size]][[/cell]]
+[[cell]][[size smaller]]2[[/size]][[/cell]]
+[[cell]][[size smaller]]3[[/size]][[/cell]]
+[[cell]][[size smaller]]4[[/size]][[/cell]]
+[[cell]][[size smaller]]5[[/size]][[/cell]]
+[[cell]][[size smaller]]6[[/size]][[/cell]]
+[[cell]][[size smaller]]7[[/size]][[/cell]]
+[[cell]][[size smaller]]8[[/size]][[/cell]]
+[[cell]][[size smaller]]9[[/size]][[/cell]]
+[[cell]][[size smaller]]A[[/size]][[/cell]]
+[[cell]][[size smaller]]B[[/size]][[/cell]]
+[[cell]][[size smaller]]C[[/size]][[/cell]]
+[[cell]][[size smaller]]D[[/size]][[/cell]]
+[[cell]][[size smaller]]E[[/size]][[/cell]]
+[[cell]][[size smaller]]F[[/size]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]0[[/size]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[image 01h_SrecurN.gif link="83smfont#01" alt="SrecurN" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 02h_SrecurU.gif link="83smfont#02" alt="SrecurU" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 03h_SrecurV.gif link="83smfont#03" alt="SrecurV" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 04h_SrecurW.gif link="83smfont#04" alt="SrecurW" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 05h_Sconvert.gif link="83smfont#05" alt="Sconvert" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 06h_SFourSpaces.gif link="83smfont#06" alt="SFourSpaces" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 07h_SsqDown.gif link="83smfont#07" alt="SsqDown" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 08h_Sintegral.gif link="83smfont#08" alt="Sintegral" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 09h_Scross.gif link="83smfont#09" alt="Scross" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Ah_SboxIcon.gif link="83smfont#0A" alt="SboxIcon" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Bh_ScrossIcon.gif link="83smfont#0B" alt="ScrossIcon" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Ch_SdotIcon.gif link="83smfont#0C" alt="SdotIcon" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Dh_SsubT.gif link="83smfont#0D" alt="SsubT" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Eh_ScubeR.gif link="83smfont#0E" alt="ScubeR" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 0Fh_ShexF.gif link="83smfont#0F" alt="ShexF" height="12px" width="10px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]1[[/size]][[/cell]]
+[[cell]][[image 10h_Sroot.gif link="83smfont#10" alt="Sroot" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 11h_Sinverse.gif link="83smfont#11" alt="Sinverse" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 12h_Ssquare.gif link="83smfont#12" alt="Ssquare" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 13h_Sangle.gif link="83smfont#13" alt="Sangle" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 14h_Sdegree.gif link="83smfont#14" alt="Sdegree" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 15h_Sradian.gif link="83smfont#15" alt="Sradian" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 16h_Stranspose.gif link="83smfont#16" alt="Stranspose" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 17h_SLE.gif link="83smfont#17" alt="SLE" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 18h_SNE.gif link="83smfont#18" alt="SNE" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 19h_SGE.gif link="83smfont#19" alt="SGE" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 1Ah_Sneg.gif link="83smfont#1A" alt="Sneg" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 1Bh_Sexponent.gif link="83smfont#1B" alt="Sexponent" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 1Ch_Sstore.gif link="83smfont#1C" alt="Sstore" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 1Dh_Sten.gif link="83smfont#1D" alt="Sten" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 1Eh_SupArrow.gif link="83smfont#1E" alt="SupArrow" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 1Fh_SdownArrow.gif link="83smfont#1F" alt="SdownArrow" height="12px" width="6px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]2[[/size]][[/cell]]
+[[cell]][[image 20h_Sspace.gif link="83smfont#20" alt="Sspace" height="12px" width="2px"]][[/cell]]
+[[cell]][[image 21h_Sexclam.gif link="83smfont#21" alt="Sexclam" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 22h_Squote.gif link="83smfont#22" alt="Squote" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 23h_Spound.gif link="83smfont#23" alt="Spound" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 24h_Sdollar.gif link="83smfont#24" alt="Sdollar" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 25h_Spercent.gif link="83smfont#25" alt="Spercent" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 26h_Sampersand.gif link="83smfont#26" alt="Sampersand" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 27h_Sapostrophe.gif link="83smfont#27" alt="Sapostrophe" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 28h_SlParen.gif link="83smfont#28" alt="SlParen" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 29h_SrParen.gif link="83smfont#29" alt="SrParen" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 2Ah_Sasterisk.gif link="83smfont#2A" alt="Sasterisk" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 2Bh_SplusSign.gif link="83smfont#2B" alt="SplusSign" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 2Ch_Scomma.gif link="83smfont#2C" alt="Scomma" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 2Dh_Sdash.gif link="83smfont#2D" alt="Sdash" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 2Eh_Speriod.gif link="83smfont#2E" alt="Speriod" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 2Fh_Sslash.gif link="83smfont#2F" alt="Sslash" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]3[[/size]][[/cell]]
+[[cell]][[image 30h_S0.gif link="83smfont#30" alt="S0" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 31h_S1.gif link="83smfont#31" alt="S1" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 32h_S2.gif link="83smfont#32" alt="S2" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 33h_S3.gif link="83smfont#33" alt="S3" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 34h_S4.gif link="83smfont#34" alt="S4" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 35h_S5.gif link="83smfont#35" alt="S5" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 36h_S6.gif link="83smfont#36" alt="S6" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 37h_S7.gif link="83smfont#37" alt="S7" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 38h_S8.gif link="83smfont#38" alt="S8" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 39h_S9.gif link="83smfont#39" alt="S9" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 3Ah_Scolon.gif link="83smfont#3A" alt="Scolon" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 3Bh_Ssemicolon.gif link="83smfont#3B" alt="Ssemicolon" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 3Ch_SLT.gif link="83smfont#3C" alt="SLT" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 3Dh_SEQ.gif link="83smfont#3D" alt="SEQ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 3Eh_SGT.gif link="83smfont#3E" alt="SGT" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 3Fh_Squestion.gif link="83smfont#3F" alt="Squestion" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]4[[/size]][[/cell]]
+[[cell]][[image 40h_SatSign.gif link="83smfont#40" alt="SatSign" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 41h_ScapA.gif link="83smfont#41" alt="ScapA" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 42h_ScapB.gif link="83smfont#42" alt="ScapB" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 43h_ScapC.gif link="83smfont#43" alt="ScapC" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 44h_ScapD.gif link="83smfont#44" alt="ScapD" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 45h_ScapE.gif link="83smfont#45" alt="ScapE" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 46h_ScapF.gif link="83smfont#46" alt="ScapF" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 47h_ScapG.gif link="83smfont#47" alt="ScapG" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 48h_ScapH.gif link="83smfont#48" alt="ScapH" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 49h_ScapI.gif link="83smfont#49" alt="ScapI" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Ah_ScapJ.gif link="83smfont#4A" alt="ScapJ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Bh_ScapK.gif link="83smfont#4B" alt="ScapK" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Ch_ScapL.gif link="83smfont#4C" alt="ScapL" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Dh_ScapM.gif link="83smfont#4D" alt="ScapM" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Eh_ScapN.gif link="83smfont#4E" alt="ScapN" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 4Fh_ScapO.gif link="83smfont#4F" alt="ScapO" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]5[[/size]][[/cell]]
+[[cell]][[image 50h_ScapP.gif link="83smfont#50" alt="ScapP" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 51h_ScapQ.gif link="83smfont#51" alt="ScapQ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 52h_ScapR.gif link="83smfont#52" alt="ScapR" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 53h_ScapS.gif link="83smfont#53" alt="ScapS" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 54h_ScapT.gif link="83smfont#54" alt="ScapT" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 55h_ScapU.gif link="83smfont#55" alt="ScapU" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 56h_ScapV.gif link="83smfont#56" alt="ScapV" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 57h_ScapW.gif link="83smfont#57" alt="ScapW" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 58h_ScapX.gif link="83smfont#58" alt="ScapX" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 59h_ScapY.gif link="83smfont#59" alt="ScapY" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 5Ah_ScapZ.gif link="83smfont#5A" alt="ScapZ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 5Bh_Stheta.gif link="83smfont#5B" alt="Stheta" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 5Ch_Sbackslash.gif link="83smfont#5C" alt="Sbackslash" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 5Dh_SrBrack.gif link="83smfont#5D" alt="SrBrack" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 5Eh_Scaret.gif link="83smfont#5E" alt="Scaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 5Fh_Sunderscore.gif link="83smfont#5F" alt="Sunderscore" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]6[[/size]][[/cell]]
+[[cell]][[image 60h_Sbackquote.gif link="83smfont#60" alt="Sbackquote" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 61h_SmallA.gif link="83smfont#61" alt="SmallA" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 62h_SmallB.gif link="83smfont#62" alt="SmallB" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 63h_SmallC.gif link="83smfont#63" alt="SmallC" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 64h_SmallD.gif link="83smfont#64" alt="SmallD" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 65h_SmallE.gif link="83smfont#65" alt="SmallE" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 66h_SmallF.gif link="83smfont#66" alt="SmallF" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 67h_SmallG.gif link="83smfont#67" alt="SmallG" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 68h_SmallH.gif link="83smfont#68" alt="SmallH" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 69h_SmallI.gif link="83smfont#69" alt="SmallI" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 6Ah_SmallJ.gif link="83smfont#6A" alt="SmallJ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 6Bh_SmallK.gif link="83smfont#6B" alt="SmallK" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 6Ch_SmallL.gif link="83smfont#6C" alt="SmallL" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 6Dh_SmallM.gif link="83smfont#6D" alt="SmallM" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 6Eh_SmallN.gif link="83smfont#6E" alt="SmallN" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 6Fh_SmallO.gif link="83smfont#6F" alt="SmallO" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]7[[/size]][[/cell]]
+[[cell]][[image 70h_SmallP.gif link="83smfont#70" alt="SmallP" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 71h_SmallQ.gif link="83smfont#71" alt="SmallQ" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 72h_SmallR.gif link="83smfont#72" alt="SmallR" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 73h_SmallS.gif link="83smfont#73" alt="SmallS" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 74h_SmallT.gif link="83smfont#74" alt="SmallT" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 75h_SmallU.gif link="83smfont#75" alt="SmallU" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 76h_SmallV.gif link="83smfont#76" alt="SmallV" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 77h_SmallW.gif link="83smfont#77" alt="SmallW" height="12px" width="12px"]][[/cell]]
+[[cell]][[image 78h_SmallX.gif link="83smfont#78" alt="SmallX" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 79h_SmallY.gif link="83smfont#79" alt="SmallY" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 7Ah_SmallZ.gif link="83smfont#7A" alt="SmallZ" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 7Bh_SlBrace.gif link="83smfont#7B" alt="SlBrace" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 7Ch_Sbar.gif link="83smfont#7C" alt="Sbar" height="12px" width="4px"]][[/cell]]
+[[cell]][[image 7Dh_SrBrace.gif link="83smfont#7D" alt="SrBrace" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 7Eh_Stilde.gif link="83smfont#7E" alt="Stilde" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 7Fh_SinvEQ.gif link="83smfont#7F" alt="SinvEQ" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]8[[/size]][[/cell]]
+[[cell]][[image 80h_Ssub0.gif link="83smfont#80" alt="Ssub0" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 81h_Ssub1.gif link="83smfont#81" alt="Ssub1" height="12px" width="6px"]][[/cell]]
+[[cell]][[image 82h_Ssub2.gif link="83smfont#82" alt="Ssub2" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 83h_Ssub3.gif link="83smfont#83" alt="Ssub3" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 84h_Ssub4.gif link="83smfont#84" alt="Ssub4" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 85h_Ssub5.gif link="83smfont#85" alt="Ssub5" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 86h_Ssub6.gif link="83smfont#86" alt="Ssub6" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 87h_Ssub7.gif link="83smfont#87" alt="Ssub7" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 88h_Ssub8.gif link="83smfont#88" alt="Ssub8" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 89h_Ssub9.gif link="83smfont#89" alt="Ssub9" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 8Ah_ScapAAcute.gif link="83smfont#8A" alt="ScapAAcute" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 8Bh_ScapAGrave.gif link="83smfont#8B" alt="ScapAGrave" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 8Ch_ScapACaret.gif link="83smfont#8C" alt="ScapACaret" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 8Dh_ScapADier.gif link="83smfont#8D" alt="ScapADier" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 8Eh_SaAcute.gif link="83smfont#8E" alt="SaAcute" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 8Fh_SaGrave.gif link="83smfont#8F" alt="SaGrave" height="12px" width="10px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]9[[/size]][[/cell]]
+[[cell]][[image 90h_SaCaret.gif link="83smfont#90" alt="SaCaret" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 91h_SaDier.gif link="83smfont#91" alt="SaDier" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 92h_ScapEGrave.gif link="83smfont#92" alt="ScapEGrave" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 93h_ScapEAcute.gif link="83smfont#93" alt="ScapEAcute" height="12px" width="10px"]][[/cell]]
+[[cell]][[image 94h_ScapECaret.gif link="83smfont#94" alt="ScapECaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 95h_ScapEDier.gif link="83smfont#95" alt="ScapEDier" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 96h_SeAcute.gif link="83smfont#96" alt="SeAcute" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 97h_SeGrave.gif link="83smfont#97" alt="SeGrave" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 98h_SeCaret.gif link="83smfont#98" alt="SeCaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 99h_SeDier.gif link="83smfont#99" alt="SeDier" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Ah_ScapIAcute.gif link="83smfont#9A" alt="ScapIAcute" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Bh_ScapIGrave.gif link="83smfont#9B" alt="ScapIGrave" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Ch_ScapICaret.gif link="83smfont#9C" alt="ScapICaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Dh_ScapIDier.gif link="83smfont#9D" alt="ScapIDier" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Eh_SiAcute.gif link="83smfont#9E" alt="SiAcute" height="12px" width="8px"]][[/cell]]
+[[cell]][[image 9Fh_SiGrave.gif link="83smfont#9F" alt="SiGrave" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]A[[/size]][[/cell]]
+[[cell]][[image A0h_SiCaret.gif link="83smfont#A0" alt="SiCaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image A1h_SiDier.gif link="83smfont#A1" alt="SiDier" height="12px" width="8px"]][[/cell]]
+[[cell]][[image A2h_ScapOAcute.gif link="83smfont#A2" alt="ScapOAcute" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A3h_ScapOGrave.gif link="83smfont#A3" alt="ScapOGrave" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A4h_ScapOCaret.gif link="83smfont#A4" alt="ScapOCaret" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A5h_ScapODier.gif link="83smfont#A5" alt="ScapODier" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A6h_SoAcute.gif link="83smfont#A6" alt="SoAcute" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A7h_SoGrave.gif link="83smfont#A7" alt="SoGrave" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A8h_SoCaret.gif link="83smfont#A8" alt="SoCaret" height="12px" width="12px"]][[/cell]]
+[[cell]][[image A9h_SoDier.gif link="83smfont#A9" alt="SoDier" height="12px" width="12px"]][[/cell]]
+[[cell]][[image AAh_ScapUAcute.gif link="83smfont#AA" alt="ScapUAcute" height="12px" width="8px"]][[/cell]]
+[[cell]][[image ABh_ScapUGrave.gif link="83smfont#AB" alt="ScapUGrave" height="12px" width="8px"]][[/cell]]
+[[cell]][[image ACh_ScapUCaret.gif link="83smfont#AC" alt="ScapUCaret" height="12px" width="8px"]][[/cell]]
+[[cell]][[image ADh_ScapUDier.gif link="83smfont#AD" alt="ScapUDier" height="12px" width="8px"]][[/cell]]
+[[cell]][[image AEh_SuAcute.gif link="83smfont#AE" alt="SuAcute" height="12px" width="10px"]][[/cell]]
+[[cell]][[image AFh_SuGrave.gif link="83smfont#AF" alt="SuGrave" height="12px" width="10px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]B[[/size]][[/cell]]
+[[cell]][[image B0h_SuCaret.gif link="83smfont#B0" alt="SuCaret" height="12px" width="10px"]][[/cell]]
+[[cell]][[image B1h_SuDier.gif link="83smfont#B1" alt="SuDier" height="12px" width="10px"]][[/cell]]
+[[cell]][[image B2h_ScapCCed.gif link="83smfont#B2" alt="ScapCCed" height="12px" width="8px"]][[/cell]]
+[[cell]][[image B3h_ScCed.gif link="83smfont#B3" alt="ScCed" height="12px" width="8px"]][[/cell]]
+[[cell]][[image B4h_ScapNTilde.gif link="83smfont#B4" alt="ScapNTilde" height="12px" width="10px"]][[/cell]]
+[[cell]][[image B5h_SnTilde.gif link="83smfont#B5" alt="SnTilde" height="12px" width="10px"]][[/cell]]
+[[cell]][[image B6h_Saccent.gif link="83smfont#B6" alt="Saccent" height="12px" width="6px"]][[/cell]]
+[[cell]][[image B7h_Sgrave.gif link="83smfont#B7" alt="Sgrave" height="12px" width="6px"]][[/cell]]
+[[cell]][[image B8h_Sdieresis.gif link="83smfont#B8" alt="Sdieresis" height="12px" width="8px"]][[/cell]]
+[[cell]][[image B9h_SquesDown.gif link="83smfont#B9" alt="SquesDown" height="12px" width="8px"]][[/cell]]
+[[cell]][[image BAh_SexclamDown.gif link="83smfont#BA" alt="SexclamDown" height="12px" width="4px"]][[/cell]]
+[[cell]][[image BBh_Salpha.gif link="83smfont#BB" alt="Salpha" height="12px" width="10px"]][[/cell]]
+[[cell]][[image BCh_Sbeta.gif link="83smfont#BC" alt="Sbeta" height="12px" width="8px"]][[/cell]]
+[[cell]][[image BDh_Sgamma.gif link="83smfont#BD" alt="Sgamma" height="12px" width="10px"]][[/cell]]
+[[cell]][[image BEh_ScapDelta.gif link="83smfont#BE" alt="ScapDelta" height="12px" width="12px"]][[/cell]]
+[[cell]][[image BFh_Sdelta.gif link="83smfont#BF" alt="Sdelta" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]C[[/size]][[/cell]]
+[[cell]][[image C0h_Sepsilon.gif link="83smfont#C0" alt="Sepsilon" height="12px" width="8px"]][[/cell]]
+[[cell]][[image C1h_SlBrack.gif link="83smfont#C1" alt="SlBrack" height="12px" width="6px"]][[/cell]]
+[[cell]][[image C2h_Slambda.gif link="83smfont#C2" alt="Slambda" height="12px" width="8px"]][[/cell]]
+[[cell]][[image C3h_Smu.gif link="83smfont#C3" alt="Smu" height="12px" width="10px"]][[/cell]]
+[[cell]][[image C4h_Spi.gif link="83smfont#C4" alt="Spi" height="12px" width="12px"]][[/cell]]
+[[cell]][[image C5h_Srho.gif link="83smfont#C5" alt="Srho" height="12px" width="10px"]][[/cell]]
+[[cell]][[image C6h_ScapSigma.gif link="83smfont#C6" alt="ScapSigma" height="12px" width="10px"]][[/cell]]
+[[cell]][[image C7h_Ssigma.gif link="83smfont#C7" alt="Ssigma" height="12px" width="10px"]][[/cell]]
+[[cell]][[image C8h_Stau.gif link="83smfont#C8" alt="Stau" height="12px" width="10px"]][[/cell]]
+[[cell]][[image C9h_Sphi.gif link="83smfont#C9" alt="Sphi" height="12px" width="12px"]][[/cell]]
+[[cell]][[image CAh_ScapOmega.gif link="83smfont#CA" alt="ScapOmega" height="12px" width="12px"]][[/cell]]
+[[cell]][[image CBh_SxMean.gif link="83smfont#CB" alt="SxMean" height="12px" width="8px"]][[/cell]]
+[[cell]][[image CCh_SyMean.gif link="83smfont#CC" alt="SyMean" height="12px" width="8px"]][[/cell]]
+[[cell]][[image CDh_SsupX.gif link="83smfont#CD" alt="SsupX" height="12px" width="8px"]][[/cell]]
+[[cell]][[image CEh_Sellipsis.gif link="83smfont#CE" alt="Sellipsis" height="12px" width="6px"]][[/cell]]
+[[cell]][[image CFh_Sleft.gif link="83smfont#CF" alt="Sleft" height="12px" width="8px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]D[[/size]][[/cell]]
+[[cell]][[image D0h_Sblock.gif link="83smfont#D0" alt="Sblock" height="12px" width="6px"]][[/cell]]
+[[cell]][[image D1h_Sper.gif link="83smfont#D1" alt="Sper" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D2h_Shyphen.gif link="83smfont#D2" alt="Shyphen" height="12px" width="6px"]][[/cell]]
+[[cell]][[image D3h_Sarea.gif link="83smfont#D3" alt="Sarea" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D4h_Stemp.gif link="83smfont#D4" alt="Stemp" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D5h_Scube.gif link="83smfont#D5" alt="Scube" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D6h_Senter.gif link="83smfont#D6" alt="Senter" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D7h_SimagI.gif link="83smfont#D7" alt="SimagI" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D8h_Sphat.gif link="83smfont#D8" alt="Sphat" height="12px" width="8px"]][[/cell]]
+[[cell]][[image D9h_Schi.gif link="83smfont#D9" alt="Schi" height="12px" width="8px"]][[/cell]]
+[[cell]][[image DAh_SstatF.gif link="83smfont#DA" alt="SstatF" height="12px" width="8px"]][[/cell]]
+[[cell]][[image DBh_Slne.gif link="83smfont#DB" alt="Slne" height="12px" width="8px"]][[/cell]]
+[[cell]][[image DCh_SlistL.gif link="83smfont#DC" alt="SlistL" height="12px" width="6px"]][[/cell]]
+[[cell]][[image DDh_SfinanN.gif link="83smfont#DD" alt="SfinanN" height="12px" width="6px"]][[/cell]]
+[[cell]][[image DEh_S2_r_paren.gif link="83smfont#DE" alt="S2_r_paren" height="12px" width="8px"]][[/cell]]
+[[cell]][[image DFh_SnarrowCapE.gif link="83smfont#DF" alt="SnarrowCapE" height="12px" width="6px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]E[[/size]][[/cell]]
+[[cell]][[image E0h_SListLock.gif link="83smfont#E0" alt="SListLock" height="12px" width="6px"]][[/cell]]
+[[cell]][[image E1h_Sscatter1.gif link="83smfont#E1" alt="Sscatter1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image E2h_Sscatter2.gif link="83smfont#E2" alt="Sscatter2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image E3h_Sxyline1.gif link="83smfont#E3" alt="Sxyline1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image E4h_Sxyline2.gif link="83smfont#E4" alt="Sxyline2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image E5h_Sboxplot1.gif link="83smfont#E5" alt="Sboxplot1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image E6h_Sboxplot2.gif link="83smfont#E6" alt="Sboxplot2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image E7h_Shist1.gif link="83smfont#E7" alt="Shist1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image E8h_Shist2.gif link="83smfont#E8" alt="Shist2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image E9h_SmodBox1.gif link="83smfont#E9" alt="SmodBox1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image EAh_SmodBox2.gif link="83smfont#EA" alt="SmodBox2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image EBh_Snormal1.gif link="83smfont#EB" alt="Snormal1" height="12px" width="12px"]][[/cell]]
+[[cell]][[image ECh_Snormal2.gif link="83smfont#EC" alt="Snormal2" height="12px" width="10px"]][[/cell]]
+[[cell]][[image EDh_STwoSpaces.gif link="83smfont#ED" alt="STwoSpaces" height="12px" width="4px"]][[/cell]]
+[[cell]][[image EEh_SThreeSpaces.gif link="83smfont#EE" alt="SThreeSpaces" height="12px" width="6px"]][[/cell]]
+[[cell]][[image EFh_SFiveSpaces.gif link="83smfont#EF" alt="SFiveSpaces" height="12px" width="10px"]][[/cell]]
+[[/row]]
+[[row]]
+[[cell]][[size smaller]]F[[/size]][[/cell]]
+[[cell]][[image F0h_SSixSpaces.gif link="83smfont#F0" alt="SSixSpaces" height="12px" width="12px"]][[/cell]]
+[[cell]][[image F1h_ScurFull.gif link="83smfont#F1" alt="ScurFull" height="12px" width="8px"]][[/cell]]
+[[cell]][[image F2h_Sdollar.gif link="83smfont#F2" alt="Sdollar" height="12px" width="12px"]][[/cell]]
+[[cell]][[image F3h_SsqUp.gif link="83smfont#F3" alt="SsqUp" height="12px" width="10px"]][[/cell]]
+[[cell]][[image F4h_SsharpS.gif link="83smfont#F4" alt="SsharpS" height="12px" width="10px"]][[/cell]]
+[[cell]][[image F5h_SMPmixedFrac.gif link="83smfont#F5" alt="SMPmixedFrac" height="12px" width="8px"]][[/cell]]
+[[cell]][[image F6h_SMPfracSlash.gif link="83smfont#F6" alt="SMPfracSlash" height="12px" width="8px"]][[/cell]]
+[[cell]][[image F7h_SMPentryBox.gif link="83smfont#F7" alt="SMPentryBox" height="12px" width="12px"]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[cell]][[/cell]]
+[[/row]]
+[[/table]]
+
++ Introduction
+
+The following chart depicts each character with its hexadecimal equivalent, name, and pixel width.
+
++ Individual Characters
+
+|| [[image 01h_SrecurN.png alt="SrecurN" height="48px" width="48px"]] || [[# 01]]Hex: 01 _
+Name: "Recursive n" _
+Width: 6px ||
+|| [[image 02h_SrecurU.png alt="SrecurU" height="48px" width="32px"]] || [[# 02]]Hex: 02 _
+Name: "Recursive u" _
+Width: 4px ||
+|| [[image 03h_SrecurV.png alt="SrecurV" height="48px" width="32px"]] || [[# 03]]Hex: 03 _
+Name: "Recursive v" _
+Width: 4px ||
+|| [[image 04h_SrecurW.png alt="SrecurW" height="48px" width="32px"]] || [[# 04]]Hex: 04 _
+Name: "Recursive w" _
+Width: 4px ||
+|| [[image 05h_Sconvert.png alt="Sconvert" height="48px" width="32px"]] || [[# 05]]Hex: 05 _
+Name: "Convert" _
+Width: 4px ||
+|| [[image 06h_SFourSpaces.png alt="SFourSpaces" height="48px" width="32px"]] || [[# 06]]Hex: 06 _
+Name: "Four Spaces" _
+Width: 4px ||
+|| [[image 07h_SsqDown.png alt="SsqDown" height="48px" width="40px"]] || [[# 07]]Hex: 07 _
+Name: "Square Down" _
+Width: 5px ||
+|| [[image 08h_Sintegral.png alt="Sintegral" height="48px" width="32px"]] || [[# 08]]Hex: 08 _
+Name: "Integral" _
+Width: 4px ||
+|| [[image 09h_Scross.png alt="Scross" height="48px" width="32px"]] || [[# 09]]Hex: 09 _
+Name: "Cross" _
+Width: 4px ||
+|| [[image 0Ah_SboxIcon.png alt="SboxIcon" height="48px" width="32px"]] || [[# 0A]]Hex: 0A _
+Name: "Box Icon" _
+Width: 4px ||
+|| [[image 0Bh_ScrossIcon.png alt="ScrossIcon" height="48px" width="32px"]] || [[# 0B]]Hex: 0B _
+Name: "Cross Icon" _
+Width: 4px ||
+|| [[image 0Ch_SdotIcon.png alt="SdotIcon" height="48px" width="32px"]] || [[# 0C]]Hex: 0C _
+Name: "Dot Icon" _
+Width: 4px ||
+|| [[image 0Dh_SsubT.png alt="SsubT" height="48px" width="32px"]] || [[# 0D]]Hex: 0D _
+Name: "Subscript T" _
+Width: 4px ||
+|| [[image 0Eh_ScubeR.png alt="ScubeR" height="48px" width="32px"]] || [[# 0E]]Hex: 0E _
+Name: "Cube Root" _
+Width: 4px ||
+|| [[image 0Fh_ShexF.png alt="ShexF" height="48px" width="40px"]] || [[# 0F]]Hex: 0F _
+Name: "Hexadecimal F" _
+Width: 5px ||
+|| [[image 10h_Sroot.png alt="Sroot" height="48px" width="32px"]] || [[# 10]]Hex: 10 _
+Name: "Root" _
+Width: 4px ||
+|| [[image 11h_Sinverse.png alt="Sinverse" height="48px" width="40px"]] || [[# 11]]Hex: 11 _
+Name: "Inverse" _
+Width: 5px ||
+|| [[image 12h_Ssquare.png alt="Ssquare" height="48px" width="32px"]] || [[# 12]]Hex: 12 _
+Name: "Square" _
+Width: 4px ||
+|| [[image 13h_Sangle.png alt="Sangle" height="48px" width="32px"]] || [[# 13]]Hex: 13 _
+Name: "Angle" _
+Width: 4px ||
+|| [[image 14h_Sdegree.png alt="Sdegree" height="48px" width="40px"]] || [[# 14]]Hex: 14 _
+Name: "Degree" _
+Width: 5px ||
+|| [[image 15h_Sradian.png alt="Sradian" height="48px" width="40px"]] || [[# 15]]Hex: 15 _
+Name: "Radian" _
+Width: 5px ||
+|| [[image 16h_Stranspose.png alt="Stranspose" height="48px" width="32px"]] || [[# 16]]Hex: 16 _
+Name: "Transpose" _
+Width: 4px ||
+|| [[image 17h_SLE.png alt="SLE" height="48px" width="40px"]] || [[# 17]]Hex: 17 _
+Name: "Less Than or Equal To" _
+Width: 5px ||
+|| [[image 18h_SNE.png alt="SNE" height="48px" width="48px"]] || [[# 18]]Hex: 18 _
+Name: "Not Equal To" _
+Width: 6px ||
+|| [[image 19h_SGE.png alt="SGE" height="48px" width="40px"]] || [[# 19]]Hex: 19 _
+Name: "Greater Than or Equal To" _
+Width: 5px ||
+|| [[image 1Ah_Sneg.png alt="Sneg" height="48px" width="32px"]] || [[# 1A]]Hex: 1A _
+Name: "Negation" _
+Width: 4px ||
+|| [[image 1Bh_Sexponent.png alt="Sexponent" height="48px" width="32px"]] || [[# 1B]]Hex: 1B _
+Name: "Exponent" _
+Width: 4px ||
+|| [[image 1Ch_Sstore.png alt="Sstore" height="48px" width="40px"]] || [[# 1C]]Hex: 1C _
+Name: "Store" _
+Width: 5px ||
+|| [[image 1Dh_Sten.png alt="Sten" height="48px" width="48px"]] || [[# 1D]]Hex: 1D _
+Name: "Ten" _
+Width: 6px ||
+|| [[image 1Eh_SupArrow.png alt="SupArrow" height="48px" width="24px"]] || [[# 1E]]Hex: 1E _
+Name: "Up Arrow" _
+Width: 3px ||
+|| [[image 1Fh_SdownArrow.png alt="SdownArrow" height="48px" width="24px"]] || [[# 1F]]Hex: 1F _
+Name: "Down Arrow" _
+Width: 3px ||
+|| [[image 20h_Sspace.png alt="Sspace" height="48px" width="8px"]] || [[# 20]]Hex: 20 _
+Name: "Space" _
+Width: 1px ||
+|| [[image 21h_Sexclam.png alt="Sexclam" height="48px" width="16px"]] || [[# 21]]Hex: 21 _
+Name: "Exclamation Mark" _
+Width: 2px ||
+|| [[image 22h_Squote.png alt="Squote" height="48px" width="32px"]] || [[# 22]]Hex: 22 _
+Name: "Quotation Mark" _
+Width: 4px ||
+|| [[image 23h_Spound.png alt="Spound" height="48px" width="48px"]] || [[# 23]]Hex: 23 _
+Name: "Pound Sign" _
+Width: 6px ||
+|| [[image 24h_Sdollar.png alt="Sdollar" height="48px" width="48px"]] || [[# 24]]Hex: 24 _
+Name: "Dollar Sign" _
+Width: 6px ||
+|| [[image 25h_Spercent.png alt="Spercent" height="48px" width="32px"]] || [[# 25]]Hex: 25 _
+Name: "Percent Sign" _
+Width: 4px ||
+|| [[image 26h_Sampersand.png alt="Sampersand" height="48px" width="40px"]] || [[# 26]]Hex: 26 _
+Name: "Ampersand" _
+Width: 5px ||
+|| [[image 27h_Sapostrophe.png alt="Sapostrophe" height="48px" width="16px"]] || [[# 27]]Hex: 27 _
+Name: "Apostrophe" _
+Width: 2px ||
+|| [[image 28h_SlParen.png alt="SlParen" height="48px" width="24px"]] || [[# 28]]Hex: 28 _
+Name: "Left Parenthesis" _
+Width: 3px ||
+|| [[image 29h_SrParen.png alt="SrParen" height="48px" width="24px"]] || [[# 29]]Hex: 29 _
+Name: "Right Parenthesis" _
+Width: 3px ||
+|| [[image 2Ah_Sasterisk.png alt="Sasterisk" height="48px" width="48px"]] || [[# 2A]]Hex: 2A _
+Name: "Asterisk" _
+Width: 6px ||
+|| [[image 2Bh_SplusSign.png alt="SplusSign" height="48px" width="32px"]] || [[# 2B]]Hex: 2B _
+Name: "Plus Sign" _
+Width: 4px ||
+|| [[image 2Ch_Scomma.png alt="Scomma" height="48px" width="24px"]] || [[# 2C]]Hex: 2C _
+Name: "Comma" _
+Width: 3px ||
+|| [[image 2Dh_Sdash.png alt="Sdash" height="48px" width="32px"]] || [[# 2D]]Hex: 2D _
+Name: "Dash" _
+Width: 4px ||
+|| [[image 2Eh_Speriod.png alt="Speriod" height="48px" width="16px"]] || [[# 2E]]Hex: 2E _
+Name: "Period" _
+Width: 2px ||
+|| [[image 2Fh_Sslash.png alt="Sslash" height="48px" width="32px"]] || [[# 2F]]Hex: 2F _
+Name: "Slash" _
+Width: 4px ||
+|| [[image 30h_S0.png alt="S0" height="48px" width="32px"]] || [[# 30]]Hex: 30 _
+Name: "0" _
+Width: 4px ||
+|| [[image 31h_S1.png alt="S1" height="48px" width="32px"]] || [[# 31]]Hex: 31 _
+Name: "1" _
+Width: 4px ||
+|| [[image 32h_S2.png alt="S2" height="48px" width="32px"]] || [[# 32]]Hex: 32 _
+Name: "2" _
+Width: 4px ||
+|| [[image 33h_S3.png alt="S3" height="48px" width="32px"]] || [[# 33]]Hex: 33 _
+Name: "3" _
+Width: 4px ||
+|| [[image 34h_S4.png alt="S4" height="48px" width="32px"]] || [[# 34]]Hex: 34 _
+Name: "4" _
+Width: 4px ||
+|| [[image 35h_S5.png alt="S5" height="48px" width="32px"]] || [[# 35]]Hex: 35 _
+Name: "5" _
+Width: 4px ||
+|| [[image 36h_S6.png alt="S6" height="48px" width="32px"]] || [[# 36]]Hex: 36 _
+Name: "6" _
+Width: 4px ||
+|| [[image 37h_S7.png alt="S7" height="48px" width="32px"]] || [[# 37]]Hex: 37 _
+Name: "7" _
+Width: 4px ||
+|| [[image 38h_S8.png alt="S8" height="48px" width="32px"]] || [[# 38]]Hex: 38 _
+Name: "8" _
+Width: 4px ||
+|| [[image 39h_S9.png alt="S9" height="48px" width="32px"]] || [[# 39]]Hex: 39 _
+Name: "9" _
+Width: 4px ||
+|| [[image 3Ah_Scolon.png alt="Scolon" height="48px" width="16px"]] || [[# 3A]]Hex: 3A _
+Name: "Colon" _
+Width: 2px ||
+|| [[image 3Bh_Ssemicolon.png alt="Ssemicolon" height="48px" width="24px"]] || [[# 3B]]Hex: 3B _
+Name: "Semicolon" _
+Width: 3px ||
+|| [[image 3Ch_SLT.png alt="SLT" height="48px" width="32px"]] || [[# 3C]]Hex: 3C _
+Name: "Less Than" _
+Width: 4px ||
+|| [[image 3Dh_SEQ.png alt="SEQ" height="48px" width="32px"]] || [[# 3D]]Hex: 3D _
+Name: "Equal To" _
+Width: 4px ||
+|| [[image 3Eh_SGT.png alt="SGT" height="48px" width="32px"]] || [[# 3E]]Hex: 3E _
+Name: "Greater Than" _
+Width: 4px ||
+|| [[image 3Fh_Squestion.png alt="Squestion" height="48px" width="32px"]] || [[# 3F]]Hex: 3F _
+Name: "Question Mark" _
+Width: 4px ||
+|| [[image 40h_SatSign.png alt="SatSign" height="48px" width="48px"]] || [[# 40]]Hex: 40 _
+Name: "At Sign" _
+Width: 6px ||
+|| [[image 41h_ScapA.png alt="ScapA" height="48px" width="32px"]] || [[# 41]]Hex: 41 _
+Name: "Capital A" _
+Width: 4px ||
+|| [[image 42h_ScapB.png alt="ScapB" height="48px" width="32px"]] || [[# 42]]Hex: 42 _
+Name: "Capital B" _
+Width: 4px ||
+|| [[image 43h_ScapC.png alt="ScapC" height="48px" width="32px"]] || [[# 43]]Hex: 43 _
+Name: "Capital C" _
+Width: 4px ||
+|| [[image 44h_ScapD.png alt="ScapD" height="48px" width="32px"]] || [[# 44]]Hex: 44 _
+Name: "Capital D" _
+Width: 4px ||
+|| [[image 45h_ScapE.png alt="ScapE" height="48px" width="32px"]] || [[# 45]]Hex: 45 _
+Name: "Capital E" _
+Width: 4px ||
+|| [[image 46h_ScapF.png alt="ScapF" height="48px" width="32px"]] || [[# 46]]Hex: 46 _
+Name: "Capital F" _
+Width: 4px ||
+|| [[image 47h_ScapG.png alt="ScapG" height="48px" width="32px"]] || [[# 47]]Hex: 47 _
+Name: "Capital G" _
+Width: 4px ||
+|| [[image 48h_ScapH.png alt="ScapH" height="48px" width="32px"]] || [[# 48]]Hex: 48 _
+Name: "Capital H" _
+Width: 4px ||
+|| [[image 49h_ScapI.png alt="ScapI" height="48px" width="32px"]] || [[# 49]]Hex: 49 _
+Name: "Capital I" _
+Width: 4px ||
+|| [[image 4Ah_ScapJ.png alt="ScapJ" height="48px" width="32px"]] || [[# 4A]]Hex: 4A _
+Name: "Capital J" _
+Width: 4px ||
+|| [[image 4Bh_ScapK.png alt="ScapK" height="48px" width="32px"]] || [[# 4B]]Hex: 4B _
+Name: "Capital K" _
+Width: 4px ||
+|| [[image 4Ch_ScapL.png alt="ScapL" height="48px" width="32px"]] || [[# 4C]]Hex: 4C _
+Name: "Capital L" _
+Width: 4px ||
+|| [[image 4Dh_ScapM.png alt="ScapM" height="48px" width="32px"]] || [[# 4D]]Hex: 4D _
+Name: "Capital M" _
+Width: 4px ||
+|| [[image 4Eh_ScapN.png alt="ScapN" height="48px" width="32px"]] || [[# 4E]]Hex: 4E _
+Name: "Capital N" _
+Width: 4px ||
+|| [[image 4Fh_ScapO.png alt="ScapO" height="48px" width="32px"]] || [[# 4F]]Hex: 4F _
+Name: "Capital O" _
+Width: 4px ||
+|| [[image 50h_ScapP.png alt="ScapP" height="48px" width="32px"]] || [[# 50]]Hex: 50 _
+Name: "Capital P" _
+Width: 4px ||
+|| [[image 51h_ScapQ.png alt="ScapQ" height="48px" width="32px"]] || [[# 51]]Hex: 51 _
+Name: "Capital Q" _
+Width: 4px ||
+|| [[image 52h_ScapR.png alt="ScapR" height="48px" width="32px"]] || [[# 52]]Hex: 52 _
+Name: "Capital R" _
+Width: 4px ||
+|| [[image 53h_ScapS.png alt="ScapS" height="48px" width="32px"]] || [[# 53]]Hex: 53 _
+Name: "Capital S" _
+Width: 4px ||
+|| [[image 54h_ScapT.png alt="ScapT" height="48px" width="32px"]] || [[# 54]]Hex: 54 _
+Name: "Capital T" _
+Width: 4px ||
+|| [[image 55h_ScapU.png alt="ScapU" height="48px" width="32px"]] || [[# 55]]Hex: 55 _
+Name: "Capital U" _
+Width: 4px ||
+|| [[image 56h_ScapV.png alt="ScapV" height="48px" width="32px"]] || [[# 56]]Hex: 56 _
+Name: "Capital V" _
+Width: 4px ||
+|| [[image 57h_ScapW.png alt="ScapW" height="48px" width="32px"]] || [[# 57]]Hex: 57 _
+Name: "Capital W" _
+Width: 4px ||
+|| [[image 58h_ScapX.png alt="ScapX" height="48px" width="32px"]] || [[# 58]]Hex: 58 _
+Name: "Capital X" _
+Width: 4px ||
+|| [[image 59h_ScapY.png alt="ScapY" height="48px" width="32px"]] || [[# 59]]Hex: 59 _
+Name: "Capital Y" _
+Width: 4px ||
+|| [[image 5Ah_ScapZ.png alt="ScapZ" height="48px" width="32px"]] || [[# 5A]]Hex: 5A _
+Name: "Capital Z" _
+Width: 4px ||
+|| [[image 5Bh_Stheta.png alt="Stheta" height="48px" width="32px"]] || [[# 5B]]Hex: 5B _
+Name: "Theta" _
+Width: 4px ||
+|| [[image 5Ch_Sbackslash.png alt="Sbackslash" height="48px" width="32px"]] || [[# 5C]]Hex: 5C _
+Name: "Backslash" _
+Width: 4px ||
+|| [[image 5Dh_SrBrack.png alt="SrBrack" height="48px" width="24px"]] || [[# 5D]]Hex: 5D _
+Name: "Right Bracket" _
+Width: 3px ||
+|| [[image 5Eh_Scaret.png alt="Scaret" height="48px" width="32px"]] || [[# 5E]]Hex: 5E _
+Name: "Caret" _
+Width: 4px ||
+|| [[image 5Fh_Sunderscore.png alt="Sunderscore" height="48px" width="32px"]] || [[# 5F]]Hex: 5F _
+Name: "Underscore" _
+Width: 4px ||
+|| [[image 60h_Sbackquote.png alt="Sbackquote" height="48px" width="24px"]] || [[# 60]]Hex: 60 _
+Name: "Backquote" _
+Width: 3px ||
+|| [[image 61h_SmallA.png alt="SmallA" height="48px" width="32px"]] || [[# 61]]Hex: 61 _
+Name: "Small A" _
+Width: 4px ||
+|| [[image 62h_SmallB.png alt="SmallB" height="48px" width="32px"]] || [[# 62]]Hex: 62 _
+Name: "Small B" _
+Width: 4px ||
+|| [[image 63h_SmallC.png alt="SmallC" height="48px" width="32px"]] || [[# 63]]Hex: 63 _
+Name: "Small C" _
+Width: 4px ||
+|| [[image 64h_SmallD.png alt="SmallD" height="48px" width="32px"]] || [[# 64]]Hex: 64 _
+Name: "Small D" _
+Width: 4px ||
+|| [[image 65h_SmallE.png alt="SmallE" height="48px" width="32px"]] || [[# 65]]Hex: 65 _
+Name: "Small E" _
+Width: 4px ||
+|| [[image 66h_SmallF.png alt="SmallF" height="48px" width="24px"]] || [[# 66]]Hex: 66 _
+Name: "Small F" _
+Width: 3px ||
+|| [[image 67h_SmallG.png alt="SmallG" height="48px" width="32px"]] || [[# 67]]Hex: 67 _
+Name: "Small G" _
+Width: 4px ||
+|| [[image 68h_SmallH.png alt="SmallH" height="48px" width="32px"]] || [[# 68]]Hex: 68 _
+Name: "Small H" _
+Width: 4px ||
+|| [[image 69h_SmallI.png alt="SmallI" height="48px" width="16px"]] || [[# 69]]Hex: 69 _
+Name: "Small I" _
+Width: 2px ||
+|| [[image 6Ah_SmallJ.png alt="SmallJ" height="48px" width="32px"]] || [[# 6A]]Hex: 6A _
+Name: "Small J" _
+Width: 4px ||
+|| [[image 6Bh_SmallK.png alt="SmallK" height="48px" width="32px"]] || [[# 6B]]Hex: 6B _
+Name: "Small K" _
+Width: 4px ||
+|| [[image 6Ch_SmallL.png alt="SmallL" height="48px" width="24px"]] || [[# 6C]]Hex: 6C _
+Name: "Small L" _
+Width: 3px ||
+|| [[image 6Dh_SmallM.png alt="SmallM" height="48px" width="48px"]] || [[# 6D]]Hex: 6D _
+Name: "Small M" _
+Width: 6px ||
+|| [[image 6Eh_SmallN.png alt="SmallN" height="48px" width="32px"]] || [[# 6E]]Hex: 6E _
+Name: "Small N" _
+Width: 4px ||
+|| [[image 6Fh_SmallO.png alt="SmallO" height="48px" width="32px"]] || [[# 6F]]Hex: 6F _
+Name: "Small O" _
+Width: 4px ||
+|| [[image 70h_SmallP.png alt="SmallP" height="48px" width="32px"]] || [[# 70]]Hex: 70 _
+Name: "Small P" _
+Width: 4px ||
+|| [[image 71h_SmallQ.png alt="SmallQ" height="48px" width="32px"]] || [[# 71]]Hex: 71 _
+Name: "Small Q" _
+Width: 4px ||
+|| [[image 72h_SmallR.png alt="SmallR" height="48px" width="32px"]] || [[# 72]]Hex: 72 _
+Name: "Small R" _
+Width: 4px ||
+|| [[image 73h_SmallS.png alt="SmallS" height="48px" width="24px"]] || [[# 73]]Hex: 73 _
+Name: "Small S" _
+Width: 3px ||
+|| [[image 74h_SmallT.png alt="SmallT" height="48px" width="24px"]] || [[# 74]]Hex: 74 _
+Name: "Small T" _
+Width: 3px ||
+|| [[image 75h_SmallU.png alt="SmallU" height="48px" width="32px"]] || [[# 75]]Hex: 75 _
+Name: "Small U" _
+Width: 4px ||
+|| [[image 76h_SmallV.png alt="SmallV" height="48px" width="32px"]] || [[# 76]]Hex: 76 _
+Name: "Small V" _
+Width: 4px ||
+|| [[image 77h_SmallW.png alt="SmallW" height="48px" width="48px"]] || [[# 77]]Hex: 77 _
+Name: "Small W" _
+Width: 6px ||
+|| [[image 78h_SmallX.png alt="SmallX" height="48px" width="32px"]] || [[# 78]]Hex: 78 _
+Name: "Small X" _
+Width: 4px ||
+|| [[image 79h_SmallY.png alt="SmallY" height="48px" width="32px"]] || [[# 79]]Hex: 79 _
+Name: "Small Y" _
+Width: 4px ||
+|| [[image 7Ah_SmallZ.png alt="SmallZ" height="48px" width="40px"]] || [[# 7A]]Hex: 7A _
+Name: "Small Z" _
+Width: 5px ||
+|| [[image 7Bh_SlBrace.png alt="SlBrace" height="48px" width="32px"]] || [[# 7B]]Hex: 7B _
+Name: "Left Brace" _
+Width: 4px ||
+|| [[image 7Ch_Sbar.png alt="Sbar" height="48px" width="16px"]] || [[# 7C]]Hex: 7C _
+Name: "Vertical Bar" _
+Width: 2px ||
+|| [[image 7Dh_SrBrace.png alt="SrBrace" height="48px" width="32px"]] || [[# 7D]]Hex: 7D _
+Name: "Right Brace" _
+Width: 4px ||
+|| [[image 7Eh_Stilde.png alt="Stilde" height="48px" width="40px"]] || [[# 7E]]Hex: 7E _
+Name: "Tilde" _
+Width: 5px ||
+|| [[image 7Fh_SinvEQ.png alt="SinvEQ" height="48px" width="32px"]] || [[# 7F]]Hex: 7F _
+Name: "Inverse Equal To" _
+Width: 4px ||
+|| [[image 80h_Ssub0.png alt="Ssub0" height="48px" width="32px"]] || [[# 80]]Hex: 80 _
+Name: "Subscript 0" _
+Width: 4px ||
+|| [[image 81h_Ssub1.png alt="Ssub1" height="48px" width="24px"]] || [[# 81]]Hex: 81 _
+Name: "Subscript 1" _
+Width: 3px ||
+|| [[image 82h_Ssub2.png alt="Ssub2" height="48px" width="32px"]] || [[# 82]]Hex: 82 _
+Name: "Subscript 2" _
+Width: 4px ||
+|| [[image 83h_Ssub3.png alt="Ssub3" height="48px" width="32px"]] || [[# 83]]Hex: 83 _
+Name: "Subscript 3" _
+Width: 4px ||
+|| [[image 84h_Ssub4.png alt="Ssub4" height="48px" width="32px"]] || [[# 84]]Hex: 84 _
+Name: "Subscript 4" _
+Width: 4px ||
+|| [[image 85h_Ssub5.png alt="Ssub5" height="48px" width="32px"]] || [[# 85]]Hex: 85 _
+Name: "Subscript 5" _
+Width: 4px ||
+|| [[image 86h_Ssub6.png alt="Ssub6" height="48px" width="32px"]] || [[# 86]]Hex: 86 _
+Name: "Subscript 6" _
+Width: 4px ||
+|| [[image 87h_Ssub7.png alt="Ssub7" height="48px" width="32px"]] || [[# 87]]Hex: 87 _
+Name: "Subscript 7" _
+Width: 4px ||
+|| [[image 88h_Ssub8.png alt="Ssub8" height="48px" width="32px"]] || [[# 88]]Hex: 88 _
+Name: "Subscript 8" _
+Width: 4px ||
+|| [[image 89h_Ssub9.png alt="Ssub9" height="48px" width="32px"]] || [[# 89]]Hex: 89 _
+Name: "Subscript 9" _
+Width: 4px ||
+|| [[image 8Ah_ScapAAcute.png alt="ScapAAcute" height="48px" width="40px"]] || [[# 8A]]Hex: 8A _
+Name: "Capital A Acute" _
+Width: 5px ||
+|| [[image 8Bh_ScapAGrave.png alt="ScapAGrave" height="48px" width="40px"]] || [[# 8B]]Hex: 8B _
+Name: "Capital A Grave" _
+Width: 5px ||
+|| [[image 8Ch_ScapACaret.png alt="ScapACaret" height="48px" width="40px"]] || [[# 8C]]Hex: 8C _
+Name: "Capital A Caret" _
+Width: 5px ||
+|| [[image 8Dh_ScapADier.png alt="ScapADier" height="48px" width="40px"]] || [[# 8D]]Hex: 8D _
+Name: "Capital A Diaeresis" _
+Width: 5px ||
+|| [[image 8Eh_SaAcute.png alt="SaAcute" height="48px" width="40px"]] || [[# 8E]]Hex: 8E _
+Name: "Small A Acute" _
+Width: 5px ||
+|| [[image 8Fh_SaGrave.png alt="SaGrave" height="48px" width="40px"]] || [[# 8F]]Hex: 8F _
+Name: "Small A Grave" _
+Width: 5px ||
+|| [[image 90h_SaCaret.png alt="SaCaret" height="48px" width="40px"]] || [[# 90]]Hex: 90 _
+Name: "Small A Caret" _
+Width: 5px ||
+|| [[image 91h_SaDier.png alt="SaDier" height="48px" width="40px"]] || [[# 91]]Hex: 91 _
+Name: "Small A Diaeresis" _
+Width: 5px ||
+|| [[image 92h_ScapEGrave.png alt="ScapEGrave" height="48px" width="40px"]] || [[# 92]]Hex: 92 _
+Name: "Capital E Grave" _
+Width: 5px ||
+|| [[image 93h_ScapEAcute.png alt="ScapEAcute" height="48px" width="40px"]] || [[# 93]]Hex: 93 _
+Name: "Capital E Acute" _
+Width: 5px ||
+|| [[image 94h_ScapECaret.png alt="ScapECaret" height="48px" width="32px"]] || [[# 94]]Hex: 94 _
+Name: "Capital E Caret" _
+Width: 4px ||
+|| [[image 95h_ScapEDier.png alt="ScapEDier" height="48px" width="32px"]] || [[# 95]]Hex: 95 _
+Name: "Capital E Diaeresis" _
+Width: 4px ||
+|| [[image 96h_SeAcute.png alt="SeAcute" height="48px" width="32px"]] || [[# 96]]Hex: 96 _
+Name: "Small E Acute" _
+Width: 4px ||
+|| [[image 97h_SeGrave.png alt="SeGrave" height="48px" width="32px"]] || [[# 97]]Hex: 97 _
+Name: "Small E Grave" _
+Width: 4px ||
+|| [[image 98h_SeCaret.png alt="SeCaret" height="48px" width="32px"]] || [[# 98]]Hex: 98 _
+Name: "Small E Caret" _
+Width: 4px ||
+|| [[image 99h_SeDier.png alt="SeDier" height="48px" width="32px"]] || [[# 99]]Hex: 99 _
+Name: "Small E Diaeresis" _
+Width: 4px ||
+|| [[image 9Ah_ScapIAcute.png alt="ScapIAcute" height="48px" width="32px"]] || [[# 9A]]Hex: 9A _
+Name: "Capital I Acute" _
+Width: 4px ||
+|| [[image 9Bh_ScapIGrave.png alt="ScapIGrave" height="48px" width="32px"]] || [[# 9B]]Hex: 9B _
+Name: "Capital I Grave" _
+Width: 4px ||
+|| [[image 9Ch_ScapICaret.png alt="ScapICaret" height="48px" width="32px"]] || [[# 9C]]Hex: 9C _
+Name: "Capital I Caret" _
+Width: 4px ||
+|| [[image 9Dh_ScapIDier.png alt="ScapIDier" height="48px" width="32px"]] || [[# 9D]]Hex: 9D _
+Name: "Capital I Diaeresis" _
+Width: 4px ||
+|| [[image 9Eh_SiAcute.png alt="SiAcute" height="48px" width="32px"]] || [[# 9E]]Hex: 9E _
+Name: "Small I Acute" _
+Width: 4px ||
+|| [[image 9Fh_SiGrave.png alt="SiGrave" height="48px" width="32px"]] || [[# 9F]]Hex: 9F _
+Name: "Small I Grave" _
+Width: 4px ||
+|| [[image A0h_SiCaret.png alt="SiCaret" height="48px" width="32px"]] || [[# A0]]Hex: A0 _
+Name: "Small I Caret" _
+Width: 4px ||
+|| [[image A1h_SiDier.png alt="SiDier" height="48px" width="32px"]] || [[# A1]]Hex: A1 _
+Name: "Small I Diaeresis" _
+Width: 4px ||
+|| [[image A2h_ScapOAcute.png alt="ScapOAcute" height="48px" width="48px"]] || [[# A2]]Hex: A2 _
+Name: "Capital O Acute" _
+Width: 6px ||
+|| [[image A3h_ScapOGrave.png alt="ScapOGrave" height="48px" width="48px"]] || [[# A3]]Hex: A3 _
+Name: "Capital O Grave" _
+Width: 6px ||
+|| [[image A4h_ScapOCaret.png alt="ScapOCaret" height="48px" width="48px"]] || [[# A4]]Hex: A4 _
+Name: "Capital O Caret" _
+Width: 6px ||
+|| [[image A5h_ScapODier.png alt="ScapODier" height="48px" width="48px"]] || [[# A5]]Hex: A5 _
+Name: "Capital O Diaeresis" _
+Width: 6px ||
+|| [[image A6h_SoAcute.png alt="SoAcute" height="48px" width="48px"]] || [[# A6]]Hex: A6 _
+Name: "Small O Acute" _
+Width: 6px ||
+|| [[image A7h_SoGrave.png alt="SoGrave" height="48px" width="48px"]] || [[# A7]]Hex: A7 _
+Name: "Small O Grave" _
+Width: 6px ||
+|| [[image A8h_SoCaret.png alt="SoCaret" height="48px" width="48px"]] || [[# A8]]Hex: A8 _
+Name: "Small O Caret" _
+Width: 6px ||
+|| [[image A9h_SoDier.png alt="SoDier" height="48px" width="48px"]] || [[# A9]]Hex: A9 _
+Name: "Small O Diaeresis" _
+Width: 6px ||
+|| [[image AAh_ScapUAcute.png alt="ScapUAcute" height="48px" width="32px"]] || [[# AA]]Hex: AA _
+Name: "Capital U Acute" _
+Width: 4px ||
+|| [[image ABh_ScapUGrave.png alt="ScapUGrave" height="48px" width="32px"]] || [[# AB]]Hex: AB _
+Name: "Capital U Grave" _
+Width: 4px ||
+|| [[image ACh_ScapUCaret.png alt="ScapUCaret" height="48px" width="32px"]] || [[# AC]]Hex: AC _
+Name: "Capital U Caret" _
+Width: 4px ||
+|| [[image ADh_ScapUDier.png alt="ScapUDier" height="48px" width="32px"]] || [[# AD]]Hex: AD _
+Name: "Capital U Diaeresis" _
+Width: 4px ||
+|| [[image AEh_SuAcute.png alt="SuAcute" height="48px" width="40px"]] || [[# AE]]Hex: AE _
+Name: "Small U Acute" _
+Width: 5px ||
+|| [[image AFh_SuGrave.png alt="SuGrave" height="48px" width="40px"]] || [[# AF]]Hex: AF _
+Name: "Small U Grave" _
+Width: 5px ||
+|| [[image B0h_SuCaret.png alt="SuCaret" height="48px" width="40px"]] || [[# B0]]Hex: B0 _
+Name: "Small U Caret" _
+Width: 5px ||
+|| [[image B1h_SuDier.png alt="SuDier" height="48px" width="40px"]] || [[# B1]]Hex: B1 _
+Name: "Small U Diaeresis" _
+Width: 5px ||
+|| [[image B2h_ScapCCed.png alt="ScapCCed" height="48px" width="32px"]] || [[# B2]]Hex: B2 _
+Name: "Capital C Cedilla" _
+Width: 4px ||
+|| [[image B3h_ScCed.png alt="ScCed" height="48px" width="32px"]] || [[# B3]]Hex: B3 _
+Name: "Small C Cedilla" _
+Width: 4px ||
+|| [[image B4h_ScapNTilde.png alt="ScapNTilde" height="48px" width="40px"]] || [[# B4]]Hex: B4 _
+Name: "Capital N Tilde" _
+Width: 5px ||
+|| [[image B5h_SnTilde.png alt="SnTilde" height="48px" width="40px"]] || [[# B5]]Hex: B5 _
+Name: "Small N Tilde" _
+Width: 5px ||
+|| [[image B6h_Saccent.png alt="Saccent" height="48px" width="24px"]] || [[# B6]]Hex: B6 _
+Name: "Accent" _
+Width: 3px ||
+|| [[image B7h_Sgrave.png alt="Sgrave" height="48px" width="24px"]] || [[# B7]]Hex: B7 _
+Name: "Grave" _
+Width: 3px ||
+|| [[image B8h_Sdieresis.png alt="Sdieresis" height="48px" width="32px"]] || [[# B8]]Hex: B8 _
+Name: "Diaeresis" _
+Width: 4px ||
+|| [[image B9h_SquesDown.png alt="SquesDown" height="48px" width="32px"]] || [[# B9]]Hex: B9 _
+Name: "Inverted Question Mark" _
+Width: 4px ||
+|| [[image BAh_SexclamDown.png alt="SexclamDown" height="48px" width="16px"]] || [[# BA]]Hex: BA _
+Name: "Inverted Exclamation Mark" _
+Width: 2px ||
+|| [[image BBh_Salpha.png alt="Salpha" height="48px" width="40px"]] || [[# BB]]Hex: BB _
+Name: "Small Alpha" _
+Width: 5px ||
+|| [[image BCh_Sbeta.png alt="Sbeta" height="48px" width="32px"]] || [[# BC]]Hex: BC _
+Name: "Small Beta" _
+Width: 4px ||
+|| [[image BDh_Sgamma.png alt="Sgamma" height="48px" width="40px"]] || [[# BD]]Hex: BD _
+Name: "Small Gamma" _
+Width: 5px ||
+|| [[image BEh_ScapDelta.png alt="ScapDelta" height="48px" width="48px"]] || [[# BE]]Hex: BE _
+Name: "Capital Delta" _
+Width: 6px ||
+|| [[image BFh_Sdelta.png alt="Sdelta" height="48px" width="32px"]] || [[# BF]]Hex: BF _
+Name: "Small Delta" _
+Width: 4px ||
+|| [[image C0h_Sepsilon.png alt="Sepsilon" height="48px" width="32px"]] || [[# C0]]Hex: C0 _
+Name: "Small Epsilon" _
+Width: 4px ||
+|| [[image C1h_SlBrack.png alt="SlBrack" height="48px" width="24px"]] || [[# C1]]Hex: C1 _
+Name: "Left Bracket" _
+Width: 3px ||
+|| [[image C2h_Slambda.png alt="Slambda" height="48px" width="32px"]] || [[# C2]]Hex: C2 _
+Name: "Small Lambda" _
+Width: 4px ||
+|| [[image C3h_Smu.png alt="Smu" height="48px" width="40px"]] || [[# C3]]Hex: C3 _
+Name: "Small Mu" _
+Width: 5px ||
+|| [[image C4h_Spi.png alt="Spi" height="48px" width="48px"]] || [[# C4]]Hex: C4 _
+Name: "Small Pi" _
+Width: 6px ||
+|| [[image C5h_Srho.png alt="Srho" height="48px" width="40px"]] || [[# C5]]Hex: C5 _
+Name: "Small Rho" _
+Width: 5px ||
+|| [[image C6h_ScapSigma.png alt="ScapSigma" height="48px" width="40px"]] || [[# C6]]Hex: C6 _
+Name: "Capital Sigma" _
+Width: 5px ||
+|| [[image C7h_Ssigma.png alt="Ssigma" height="48px" width="40px"]] || [[# C7]]Hex: C7 _
+Name: "Small Sigma" _
+Width: 5px ||
+|| [[image C8h_Stau.png alt="Stau" height="48px" width="40px"]] || [[# C8]]Hex: C8 _
+Name: "Small Tau" _
+Width: 5px ||
+|| [[image C9h_Sphi.png alt="Sphi" height="48px" width="48px"]] || [[# C9]]Hex: C9 _
+Name: "Small Phi" _
+Width: 6px ||
+|| [[image CAh_ScapOmega.png alt="ScapOmega" height="48px" width="48px"]] || [[# CA]]Hex: CA _
+Name: "Capital Omega" _
+Width: 6px ||
+|| [[image CBh_SxMean.png alt="SxMean" height="48px" width="32px"]] || [[# CB]]Hex: CB _
+Name: "X Mean" _
+Width: 4px ||
+|| [[image CCh_SyMean.png alt="SyMean" height="48px" width="32px"]] || [[# CC]]Hex: CC _
+Name: "Y Mean" _
+Width: 4px ||
+|| [[image CDh_SsupX.png alt="SsupX" height="48px" width="32px"]] || [[# CD]]Hex: CD _
+Name: "Superscript X" _
+Width: 4px ||
+|| [[image CEh_Sellipsis.png alt="Sellipsis" height="48px" width="24px"]] || [[# CE]]Hex: CE _
+Name: "Ellipsis" _
+Width: 3px ||
+|| [[image CFh_Sleft.png alt="Sleft" height="48px" width="32px"]] || [[# CF]]Hex: CF _
+Name: "Left Pointing Triangle" _
+Width: 4px ||
+|| [[image D0h_Sblock.png alt="Sblock" height="48px" width="24px"]] || [[# D0]]Hex: D0 _
+Name: "Block" _
+Width: 3px ||
+|| [[image D1h_Sper.png alt="Sper" height="48px" width="32px"]] || [[# D1]]Hex: D1 _
+Name: "Per" _
+Width: 4px ||
+|| [[image D2h_Shyphen.png alt="Shyphen" height="48px" width="24px"]] || [[# D2]]Hex: D2 _
+Name: "Hyphen" _
+Width: 3px ||
+|| [[image D3h_Sarea.png alt="Sarea" height="48px" width="32px"]] || [[# D3]]Hex: D3 _
+Name: "Area" _
+Width: 4px ||
+|| [[image D4h_Stemp.png alt="Stemp" height="48px" width="32px"]] || [[# D4]]Hex: D4 _
+Name: "Temperature" _
+Width: 4px ||
+|| [[image D5h_Scube.png alt="Scube" height="48px" width="32px"]] || [[# D5]]Hex: D5 _
+Name: "Cube" _
+Width: 4px ||
+|| [[image D6h_Senter.png alt="Senter" height="48px" width="32px"]] || [[# D6]]Hex: D6 _
+Name: "Enter" _
+Width: n/a ||
+|| [[image D7h_SimagI.png alt="SimagI" height="48px" width="32px"]] || [[# D7]]Hex: D7 _
+Name: "Imaginary I" _
+Width: 4px ||
+|| [[image D8h_Sphat.png alt="Sphat" height="48px" width="32px"]] || [[# D8]]Hex: D8 _
+Name: "P Hat" _
+Width: 4px ||
+|| [[image D9h_Schi.png alt="Schi" height="48px" width="32px"]] || [[# D9]]Hex: D9 _
+Name: "Small Chi" _
+Width: 4px ||
+|| [[image DAh_SstatF.png alt="SstatF" height="48px" width="32px"]] || [[# DA]]Hex: DA _
+Name: "Stat F" _
+Width: 4px ||
+|| [[image DBh_Slne.png alt="Slne" height="48px" width="32px"]] || [[# DB]]Hex: DB _
+Name: "Natural Logarithm E" _
+Width: 4px ||
+|| [[image DCh_SlistL.png alt="SlistL" height="48px" width="24px"]] || [[# DC]]Hex: DC _
+Name: "List Capital L" _
+Width: 3px ||
+|| [[image DDh_SfinanN.png alt="SfinanN" height="48px" width="24px"]] || [[# DD]]Hex: DD _
+Name: "Finance Capital N" _
+Width: 3px ||
+|| [[image DEh_S2_r_paren.png alt="S2_r_paren" height="48px" width="32px"]] || [[# DE]]Hex: DE _
+Name: "Two Right Parentheses" _
+Width: 4px ||
+|| [[image DFh_SnarrowCapE.png alt="SnarrowCapE" height="48px" width="24px"]] || [[# DF]]Hex: DF _
+Name: "Narrow Capital E" _
+Width: 3px ||
+|| [[image E0h_SListLock.png alt="SListLock" height="48px" width="24px"]] || [[# E0]]Hex: E0 _
+Name: "List Lock" _
+Width: 3px ||
+|| [[image E1h_Sscatter1.png alt="Sscatter1" height="48px" width="48px"]] || [[# E1]]Hex: E1 _
+Name: "Scatter 1" _
+Width: 6px ||
+|| [[image E2h_Sscatter2.png alt="Sscatter2" height="48px" width="40px"]] || [[# E2]]Hex: E2 _
+Name: "Scatter 2" _
+Width: 5px ||
+|| [[image E3h_Sxyline1.png alt="Sxyline1" height="48px" width="48px"]] || [[# E3]]Hex: E3 _
+Name: "xyLine 1" _
+Width: 6px ||
+|| [[image E4h_Sxyline2.png alt="Sxyline2" height="48px" width="40px"]] || [[# E4]]Hex: E4 _
+Name: "xyLine 2" _
+Width: 5px ||
+|| [[image E5h_Sboxplot1.png alt="Sboxplot1" height="48px" width="48px"]] || [[# E5]]Hex: E5 _
+Name: "Boxplot 1" _
+Width: 6px ||
+|| [[image E6h_Sboxplot2.png alt="Sboxplot2" height="48px" width="40px"]] || [[# E6]]Hex: E6 _
+Name: "Boxplot 2" _
+Width: 5px ||
+|| [[image E7h_Shist1.png alt="Shist1" height="48px" width="48px"]] || [[# E7]]Hex: E7 _
+Name: "Histogram 1" _
+Width: 6px ||
+|| [[image E8h_Shist2.png alt="Shist2" height="48px" width="40px"]] || [[# E8]]Hex: E8 _
+Name: "Histogram 2" _
+Width: 5px ||
+|| [[image E9h_SmodBox1.png alt="SmodBox1" height="48px" width="48px"]] || [[# E9]]Hex: E9 _
+Name: "ModBoxplot 1" _
+Width: 6px ||
+|| [[image EAh_SmodBox2.png alt="SmodBox2" height="48px" width="40px"]] || [[# EA]]Hex: EA _
+Name: "ModBoxplot 2" _
+Width: 5px ||
+|| [[image EBh_Snormal1.png alt="Snormal1" height="48px" width="48px"]] || [[# EB]]Hex: EB _
+Name: "NormProbPlot 1" _
+Width: 6px ||
+|| [[image ECh_Snormal2.png alt="Snormal2" height="48px" width="40px"]] || [[# EC]]Hex: EC _
+Name: "NormProbPlot 2" _
+Width: 5px ||
+|| [[image EDh_STwoSpaces.png alt="STwoSpaces" height="48px" width="16px"]] || [[# ED]]Hex: ED _
+Name: "Two Spaces" _
+Width: 2px ||
+|| [[image EEh_SThreeSpaces.png alt="SThreeSpaces" height="48px" width="24px"]] || [[# EE]]Hex: EE _
+Name: "Three Spaces" _
+Width: 3px ||
+|| [[image EFh_SFiveSpaces.png alt="SFiveSpaces" height="48px" width="40px"]] || [[# EF]]Hex: EF _
+Name: "Five Spaces" _
+Width: 5px ||
+|| [[image F0h_SSixSpaces.png alt="SSixSpaces" height="48px" width="48px"]] || [[# F0]]Hex: F0 _
+Name: "Six Spaces" _
+Width: 6px ||
+|| [[image F1h_ScurFull.png alt="ScurFull" height="48px" width="32px"]] || [[# F1]]Hex: F1 _
+Name: "Cursor Full" _
+Width: 4px ||
+|| [[image F2h_Sdollar.png alt="Sdollar" height="48px" width="48px"]] || [[# F2]]Hex: F2 _
+Name: "Dollar Sign" _
+Width: 6px ||
+|| [[image F3h_SsqUp.png alt="SsqUp" height="48px" width="40px"]] || [[# F3]]Hex: F3 _
+Name: "Square Up" _
+Width: 5px ||
+|| [[image F4h_SsharpS.png alt="SsharpS" height="48px" width="40px"]] || [[# F4]]Hex: F4 _
+Name: "Sharp S" _
+Width: 5px ||
+|| [[image F5h_SMPmixedFrac.png alt="SMPmixedFrac" height="48px" width="32px"]] || [[# F5]]Hex: F5 _
+Name: "MathPrint Mixed Fraction Separator" _
+Width: 4px ||
+|| [[image F6h_SMPfracSlash.png alt="SMPfracSlash" height="48px" width="32px"]] || [[# F6]]Hex: F6 _
+Name: "MathPrint Fraction Slash" _
+Width: 4px ||
+|| [[image F7h_SMPentryBox.png alt="SMPentryBox" height="48px" width="48px"]] || [[# F7]]Hex: F7 _
+Name: "MathPrint Entry Box" _
+Width: 6px ||
+
+[[div style="position:fixed; bottom: 0; right: 0; background: white; border: #999 solid 1px; height: 24px; text-align: center;"]]
+[[image http://www.wikidot.com/common--theme/base/images/editor/table.png link="83smfont#toc0" style="padding: 1px;" alt="Character Map" height="22px" width="22px"]] [[span style="position: relative; bottom: .625em; right: .25em"]][#toc0 Character Map][[/span]]
+[[/div]]

@@ -1,0 +1,46 @@
+[[include inc:routine
+|picture=@@
+|summary=Calculates the day of week of a date, without using [[[dayOfWk(]]] (because it's only available on the 84+ and 84+SE)
+|input=//D// - The day
+//M// - The month
+//Y// - The year (1950 through 2049)
+|output=//Ans// - 0-6 = the day of week (Sunday - Saturday)
+|variable=D, M, Y, Ans
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=[file weekday.zip]
+]]
+
+[[code]]
+:round(7fPart(dbd(101.5,DE2+M+fPart(.01Y))/7
+[[/code]]
+
+Using the [[[dbd(]]] command, we return the number of days between the given date and January 1, 1950, our base date. dbd('s argument, in this case, is of the form DDMM.YY, so we put the date we're given in that form with D[[size 75%]][[[e-ten|E]]][[/size]]2+M+fPart(.01Y. Once we have the number of days between the two dates, we divide it by seven (as there are seven days in a week) to get the number of weeks.
+
+However, we are not interested in the number of weeks between two dates, we are interested in how far into the week we are. That would be the fractional part of the number of weeks. For example, if there was fourteen days between two dates (the first date being a Sunday) and we divide that by seven, we would have the equation 14/7=2.00. The .00 means that the week hasn't yet begun (and so, the day is Sunday).
+
+If there was 15 days between two dates, the equation would give 15/7=2.1428571. The .1428571 means that we are .1428571 into the week, and if we multiply that by seven, we get the equation .1428571*7=1. This means that we are one day into the week (and so, the day is Monday). So in our formula, after finding out the number of days between two dates, we find the fractional part of it, and multiply that by seven. Finally, [[[round(]]] gets rid of any minor rounding errors.
+
+As the 1^^st^^ of January, 1950 was a Sunday (which is the date we have inputed into the above routine), so the number of days into the week will always be relative to Sunday. That is, the output 0 through 6 is relative to the days Sunday through Saturday respectively. If you want 0 to be Monday instead, make the base date January 2 instead by changing 101.5 to 201.5.
+
+This routine can handle dates from January 1, 1950 to December 31, 2049. For other dates, it will assume the year is in that range instead. There is also an [[[Day Of Week (Alternative)|alternative routine]]] that handles dates in an unlimited range.
+
++ Display Day
+
+Append the following code to display the day of the week:
+
+[[code]]
+:Disp sub("SUNDAY***MONDAY***TUESDAY**WEDNESDAYTHURSDAY*FRIDAY***SATURDAY*",9Ans+1,9      //replace *s with spaces
+[[/code]]
+Or this code, which should display the day of the week, only the display method takes less space and space pads it.
+[[code]]
+Disp sub("***SUN***MON**TUESWEDNES*THURS***FRI*SATUR",6Ans+1,6)+"DAY       //replace *s with spaces
+[[/code]]
++ Error Conditions
+
+* **[[[errors#domain|ERR:DOMAIN]]]** if the date is invalid.
+
++ Related Routines
+* [[[Day Of Week (Alternative) |Day of the Week (Alternative)]]]

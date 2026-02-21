@@ -1,0 +1,33 @@
+------
+
+[[include inc:routine
+|picture=@@
+|summary=Converts a decimal into a fraction
+|input=//Ans// - Decimal input 
+|output=//Ans// - Numerator (1), Denominator (2)
+|variable=A, B, Ans
+|compatibility=TI-83/84/+/SE
+|author=12Me21
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:Ans→A:1→B
+:While fPart(A
+:10A→A:10B→B
+:End
+:{A,B}/gcd(abs(A),B
+[[/code]]
+
+It starts by setting up a fraction with the input as the numerator and 1 as the denominator. After that, it multiplies both by 10 until the numerator is an integer, and then simplifies the fraction.
+
++ Error Conditions
+
+* **[[[errors#datatype|ERR:DATA TYPE]]]** is thrown if Ans is an imaginary or complex number
+* **[[[errors#reserved|ERR:DOMAIN]]]** is thrown if Ans has more than 11 digits after the decimal.
+
++ Related Routines
+
+* [[[Decimal to Fraction |Decimal to Fraction ]]]

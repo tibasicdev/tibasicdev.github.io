@@ -1,0 +1,3 @@
+[[module NewPage category="member" button="Add Member" template="template:member"]]
+
+[[module Members order="joinedDesc"]]

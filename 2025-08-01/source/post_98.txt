@@ -1,0 +1,3 @@
+name: ''
+content: "What I lke (so far):\nAttachments\nlarger avatar pictures \n\nWhat I dislike (so far):\n\"Member Type\" / lack of karma bars\nI really liked the syntax buttons/wizards\nNo indentation disrupts flow"
+attachment: null

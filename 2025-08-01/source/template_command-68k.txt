@@ -1,0 +1,83 @@
+This page is a guide to both format and content for pages describing a particular command. Make sure that you follow it when adding a new command, and also remember to add 3-5 page tags describing the command content. 
+
+If a section (such as Advanced Uses) does not contain any information, feel free to omit it.
+
+Make the |picture parameter the page name followed by .png and it will find the screenshot file, which is uploaded on the command index page, or will be shortly.
+
+
+See [[[inc:68k-command-help|inc:68k-command-help]]] for a description of the command sidebar template.
+
+------
+
+[[include inc:68k-command
+|picture=sample.png
+|summary=A short description of what the command does.
+|syntax=The generic syntax of calling the command, with arguments.
+
+|location=Describe how to get the command from a menu.
+
+|size=X byte(s)
+]]
+
+(Include this disclaimer if command xxxxx doesn't appear correctly due to markup limitations. See //[[[68k:d()]]]// for an example)
+[[include inc:68k-markup cmd=xxxxx]]
+
+A complete description of the basic uses of the command. All commonly used and documented ways of calling the command should be listed here; inputs, outputs, and anything else important should be mentioned.
+
+[[code]]
+:At least one piece of example code 
+:should be included here.
+[[/code]]
+
++ Advanced Uses
+
+Advanced uses include rarely used or undocumented ways of calling the command in question. If there's an unusual but effective way of using the command, that too should be listed. Another type of advanced use is a programming technique to which the command is critical. Finally, system variables modified by the program should be listed here. With each advanced use, you should have a piece of example code to show how it works, as well as an explanation.
+
+If there is already a page on the advanced use of the command, give a short synopsis, then link to that page - you shouldn't include the entirety of that page here.
+
+------
+
+Separate unrelated advanced uses with a horizontal bar.
+
++ Optimization
+
+This section includes both ways to optimize use of the command, and other common pieces of code that this command can replace in an optimization. Make sure to mention if the optimization improves speed of the program, size, or both. Sample code should be included too, preferably in the following format:
+
+[[code]]
+:unoptimized code
+can be
+:optimized code
+[[/code]]
+
++ Formulas
+
+(this section is usually not present)
+This section is unnecessary for most commands. The only ones that would require it are the ones on the high end of mathematical complexity, such as the [[[statistics]]] commands. Use the [[[inc:math]]] template to type in a LaTeX formula that matches the rest of the page in background. For example, type **@@[[include inc:68k-math eqn = \sum_{i=1}^n\frac{a}{r^i}]]@@** to get:
+
+[[include inc:68k-math eqn = \sum_{i=1}^n\frac{a}{r^i}]]
+
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+
+Exclude the following errors because they don't rely on the specifics of a command, and can occur almost anywhere: 180-Break, 210-Data type, 670-Memory (but do include 673-Memory, because that's unusual), 680..720-Missing (..}, 790-Non-algebraic veriable, 830-Overflow, and 910..940-Syntax-type errors.
+
++ Related Commands
+
+Several (around 3) commands have a similar function or are used in a similar context to this command. Make a bulleted list of them, with links to the other commands' pages. It will often be the case that several commands all link to each other.
+
+* Command 1
+* Command 2
+* Command 3 
+
++ See Also
+
+(this section is usually not present)
+If a command can be used in a particular design concept or technique, you should mention it and provide a link to its respective page. This section should come at the end of the page, and be a bulleted list that contains all of the design or technique related links mentioned throughout the page.
+
+* Design Concept 1
+* Design Concept 2
+* Technique 1

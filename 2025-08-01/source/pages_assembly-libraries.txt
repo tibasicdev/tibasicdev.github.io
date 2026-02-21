@@ -1,0 +1,8 @@
+This page has good reference material, but it is short.  It should be combined with other assembly pages.
+
+[!-- Leave this invisible comment here! --]
+
+====
+http://tibasicdev.wikidot.com/asmlibs
+====
+Assembly; Reference

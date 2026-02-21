@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=bomberman.gif
+|summary=A quality version of the classic bomberman game.
+|size=4,969 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83+/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/78/7869.html Travis Fischer]
+|download=[http://tibasicdev.wikidot.com/local--files/bomberman/bomberman.zip bomberman.zip]
+]]
+
+This is a graphical rendition of the classic Bomberman genre! The objective of the game is to progress through as many levels as you can, blowing up enemies/bricks and making it safely to the exit. Features include multiple level setups, difficulty settings, randomly generated levels, in-game instructions, and excellent animated graphics.

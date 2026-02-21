@@ -1,0 +1,34 @@
+Productivity is all about using your TI calculator as efficiently and effectively as possible. There are several things you can do to improve your productivity when you are writing TI-Basic programs:
+
+* **Keyboard Shortcuts** -- In the [[[sk:first-program|Program editor]]], if you press alpha followed by up or down, you will scroll a whole page of program code. In addition, 2nd right will take you to the end of your current line, and 2nd left will take you to the beginning of that line.
+
+* **Backup Often** -- You never know when your calculator might crash, and you would be extremely upset if you lost all of your new work on your program that you had been working on. If you only have one program, backing up just consists of creating a new program, and recalling the program code into that program. However, if your program uses several programs and other variables, you should [[[grouping|group]]] it instead.
+
+* **Archive Programs** -- When you are not using a program, you should archive it so that it won't get erased accidentally in case of a RAM clear. This also applies to important program data, such as a [[[highscores|highscore]]] list. Alternatively, you can also [[[grouping|group]]] the program and program data together so you have both in one file. Grouping also saves more RAM than archiving the programs separately.
+
+* **Know The Commands** -- There are lots of [[[command-index|commands]]] on the calculator that people never bother using, mainly because they don't know about them. Before trying to create your own program to do something, check to see if the calculator doesn't already provide a command or function that does it, because the built-in commands are almost always faster and smaller.
+
+* **Edit On The Computer** -- The [[[downloads|TI-Graph Link]]] program that TI provides allows you to edit programs on the computer. In addition to faster scrolling and making program structure easier to visualize, the Graph Link also features the ability to type lowercase text and lock a program so it can't be edited on the calculator.
+
+* **Use CtlgHelp** -- [http://education.ti.com/educationportal/appsdelivery/download/save_download.jsp?cid=us&countryid=US&isocode=EN&contentpaneid=2&applicationid=164&softwareid=6231&inputpage=I CtlgHelp] is an Assembly application that is rather large (it is 32KB), but is a very helpful reference when trying to remember the syntax for using a command. After you have installed it, you just have to go to the Catalog menu and press the + key to see the help for that command. It can also be used in other menus, such as the MATH, LIST, and PRGM menus.[[footnote]] This application has been made obsolete on the TI-84+ C Silver Edition, as it has been built into the OS. Just highlight the command in a menu, and push + the toolbar will turn green, a syntax guide will appear, and best of all, you can edit the command right there, with the syntax and usage displayed right below it. Just push "paste" to put it into your program.[[/footnote]]
+
+* **Write Comments** -- Whenever you write a complicated piece of code, you should put a [[[comments|comment]]] in the code explaining what it does, and if appropriate, how it does it. If you ever need to come back to the code, you will now be able to quickly ascertain everything you need to know about the code. Comments are also useful when you don't have the time to implement something, and you want to remind yourself with a quick "To Do".
+
+* **Reuse Code** -- In many large programs, there are several pieces of code that get reused multiple times. Rather than writing the code over and over again, you can simply store it in its own program and have the main program call it as a [[[subprograms|subprogram]]]. Because the subprogram is insignificant by itself, you should start its name with a Z or theta so that it appears at the bottom of the program list.
+
+* **Coding Style** -- When writing a program, you should follow [[[code-conventions|code conventions]]] so that it is easy to read and understand. Although each programmer has their own preferences in regards to programming code, there are some general guidelines that most people follow, which help to provide continuity across the programming community:
+ * Line up corresponding commands and statements vertically.
+ * Don't go through silly contortions to use a loop, when [[[Goto]]]/[[[Lbl]]] branching would be more practical.
+ * Use mnemonic label names. For example, Lbl UP would be an appropriate choice for code that moves the screen up.
+ * Before using custom list variables, you should use up the built-in variables.
+ * If you have a really complex expression, you should add some parentheses to make it easier to read.
+ * Be consistent throughout all your code. If you do one thing in one program, you should do it the same way  in another program.
+ * Use subroutines, even if you only use a piece of code once, it is a lot easier to modify an independent program than it is to find  that section of code in your whole code. Once you have passed the development stages, use the rcl feature to copy the subroutines into a skeleton. 
+
+[[include inc:next-prev
+|prevpage = sk:variable-tips
+|prevtitle = Variable Tips
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:coding-pitfalls
+|nexttitle = Coding Pitfalls]]

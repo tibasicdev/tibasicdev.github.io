@@ -1,0 +1,4 @@
+[[module ListPages category="post" tags="_thread"]]
+[[size 120%]]%%title_linked%%[[/size]]
+[[include :csi:include:listpages body=* @<%%>@title_linked@<%%>@ by @<%%>@created_by@<%%>@|parent=%%fullname%%|tags=-_thread|category=post]]
+[[/module]]

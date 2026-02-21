@@ -1,0 +1,29 @@
+The following are community projects currently being worked on:
+
+[[div style="text-align:center;"]]
+**[http://tibasicdev.wikidot.com/projects/tags/not-done/noredirect/true/ Not Finished]** | **[http://tibasicdev.wikidot.com/projects/tags/not-done%20done/noredirect/true/ All]** | **[http://tibasicdev.wikidot.com/projects/tags/done/noredirect/true/ Finished]**
+[[/div]]
+
+[[module ListPages category="projects" tags="@URL" perPage="50" order="dateEditedDesc"]]
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="width:200px;"]]
+[[[%%page_unix_name%% |%%title%%]]]
+[[/cell]]
+[[cell style="width:60%;"]]
+%%content{1}%%
+[[/cell]]
+[[cell]]
+[[include inc:projects:%%tags%%]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[div style="border-bottom:1px solid #AAA;"]]
+[[/div]]
+[[/module]]
+
+[[div style="display : none;"]]
+[[module Redirect destination="http://tibasicdev.wikidot.com/projects/tags/not-done%20done/noredirect/true/"]]
+[[/div]]
+
+[[module NewPage category="projects" button="new project" template="template:projects" tags="not-done"]]

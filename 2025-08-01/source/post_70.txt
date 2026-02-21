@@ -1,0 +1,3 @@
+formOne: ''
+content: "I thought I would create an intro thread as well, just like X/Zeda.\n* I am the founder of TI-Basic Developer.\n* I used to be a member of both United-TI and Cemetech.\n* I don't do any TI-Basic programming anymore, but I do enjoy the community around the site.\n\nThat is all :P"
+attachment: null

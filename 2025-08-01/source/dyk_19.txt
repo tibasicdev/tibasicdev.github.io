@@ -1,0 +1,1 @@
+…that placing a [[[Lbl]]] after [[[DelVar]]] will make that Lbl literally disappear?

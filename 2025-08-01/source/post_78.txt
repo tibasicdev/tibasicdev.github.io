@@ -1,0 +1,3 @@
+name: ''
+content: "This is a test.\n\nYes, I was able to modify the attachment (:"
+attachment: 'file:unstable-cake/unstable-cake.gif'

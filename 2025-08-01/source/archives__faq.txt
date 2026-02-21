@@ -1,0 +1,46 @@
+[[table style="width: 100%; margin-bottom: 20px; margin-top: 20px;"]]
+[[row]]
+[[cell style="width: auto; background: #fdfcf6; border: 1px solid #4D5C63; padding: 10px; font-size: 125%;"]]
+This FAQ is an attempt to answer the common program archives questions that people ask. Many of the questions are related to each other, so it is recommended that you read through the whole list. If you have any additional questions, leave a post on the [[[forum:home|forums]]] and somebody will assist you.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+**Q**: What is the TI-Basic Developer program archives?
+**A**: The TI-Basic Developer program archives contains a growing collection of programs -- everything from games, math and science, utilities, media, and routines. We also host programs from anyone who wants to upload content to us.
+
+**Q**: Is there anything I need to provide with my program?
+**A**: While you can certainly just upload a .8xp file of your program inside a .zip file, there are some additional things (a readme and a screenshot) that you will want to include with the .8xp file if you want your program to be successful. See the [[[releasing your program]]] page for more information.
+
+**Q**: When will my program appear on the archives page?
+**A**: Before your program is added to the archives page, we need to review it to make sure that it meets the technical requirements and content guidelines. Once we have verified it meets both criteria, it will be added to the page and available for download.
+
+**Q**: Is there a maximum number of programs that I can upload?
+**A**: No. As long as your programs work without problems, aren't offensive, and there isn't already multiple similar programs available you can upload them to the site.
+
+**Q**: Is there a size limitation for program uploads?
+**A**: There is a 10MB size limitation for program uploads, but that shouldn't be a problem for the majority of program uploaders. If your program is larger than 10MB, we encourage you to upload it in parts (if possible).
+
+**Q**: Are there any restrictions on what programs I can upload?
+**A**: While we allow you to upload pretty much any program that you want, there are some restrictions. In particular, we don't allow anything illegal, violent, or obscene; if you think somebody would be offended by it, please don't upload it. You should also not upload any programs that serve only a trivial purpose, are intended for cheating, or are of a malicious nature.
+
+**Q**: What calculator category should I upload programs to?
+**A**: You should upload your programs to the lowest calculator model that they can run on. This is because each subsequent calculator model has changes and upgrades over the previous calculator models, so trying to run the program on the older calculator would cause it to crash. See the [[[portability]]] page for a detailed breakdown of calculator compatibility.
+
+**Q**: What program formats do you accept?
+**A**: The only program formats that we accept are .83p (for TI-83 programs), .8xp (for TI-83+/84+/SE programs), and .tns (for TI-Nspire programs). If you are having problems getting your program in either format, you can supply us a text copy of your program, and we will convert it for you. Note, though, that going the text copy route will slow down the upload process.
+
+**Q**: How do I upload a program?
+**A**: Before you can upload a program, you first need to create a [[[system:join|Wikidot]]] account. This is a very simple process, and should take no more than a minute or two. Once that is done, go to the respective upload page, and create a page for your program. Then, fill out the respective program fields and upload your program to the page.
+
+**Q**: If my program is unfinished can I still upload it?
+**A**: It is preferred that you discuss unfinished programs in the forums before uploading. If you must upload an incomplete program, please just mention that in the program description so people won't be rudely surprised when they try the program.
+
+**Q**: Who is responsible for a faulty program?
+**A**: Except for those programs that have TI-Basic Developer as the author, each author is responsible for their uploaded program(s). If you find a bug or error in a program, we encourage you to contact the author and tell them about it. If the author fails to address the problem, the program may be modified or removed.
+
+**Q**: Can I remove my programs after I upload them?
+**A**: Yes. You can either contact an [[[system:members|administrator or moderator]]] and ask them to do it for you, or do it yourself: scroll to the bottom of your respective program page, click on the options button, and then click the delete button. Before you go ahead and remove your programs, though, we ask that you let us know about it.
+
+**Q**: How do I report copyright infringement?
+**A**: If you believe that someone has plagiarized or stolen an uploaded program, you should contact that person privately and try to resolve the problem. If you aren't comfortable doing that, we encourage you to contact an [[[system:members|administrator or moderator]]] and let them handle it for you.

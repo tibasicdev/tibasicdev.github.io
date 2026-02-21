@@ -1,0 +1,87 @@
+krazyness suggested that it would be a good idea to implement a site logo, to replace the current header of the TI|BD wiki. He took the liberty to design and produce the logo. There was much discussions relating to the design of site logo (which can be found [http://tibasicdev.wikidot.com/forum/t-57659/logo-for-the-site here]) which led to modifications and new versions, each an improvement from the last. The people who have actually produced the possible logos for the wiki are [[user krazyness]], [[user James Kanjo]], [[user DarkerLine]], and [[user Battlesquid]].
+
+[[toc]]
+
++ Original Header:
+This was the original header which krazyness set out to replace.
+
+[[image Logo00.PNG]]
+
++ Version 1:
+[[user krazyness]]
+Produced the original logo design for the site (his own design).
+
+[[image Logo01.PNG]]
+
++ Version 2:
+[[user krazyness]]
+Manipulated the first version to render the letters "A" in "Basic" and "V" in "Developer" in a higher quality.
+
+[[image Logo02.PNG]]
+
++ Version 3:
+[[user krazyness]]
+Rendered the image based on the colours of the wiki, #172028 and #E7E9DC.
+
+[[image Logo03.PNG]]
+
++ Versions 4-9:
+[[user James Kanjo]]
+Uses 'very sophisticated photo editing software' (MS Word) to improve the image quality of the logo. Shrunk the height to 63 pixels, because he misread the discussion on the logo, and thought it said to be 63 pixels high instead of 67 pixels high:
+
+[[image Logo04.PNG]]
+
+Variation with the text gradient dark at the bottom and light at the top:
+
+[[image Logo05.PNG]]
+
+Variation with different colours which are relative to the site:
+
+[[image Logo06.PNG]]
+
+Changed the lighting and shadows of version 5. Changed the height of the image to 68 pixels, as that was thought to be the necessary height of the image to fit properly. Added a gradient in the background which fades to the colour #172028 over a length of 32 pixels:
+
+[[image Logo07.PNG]]
+
+Changed the height of version 6 to 68 pixels for the same reason mentioned in version 7. Adjusted lighting. Added a gradient in the background which fades to the colour #172028 over a length of 32 pixels:
+
+[[image Logo08.PNG]]
+
+Modified the gradient in the text of version 8 to focus the light in the middle and darkness on the outsides:
+
+[[image Logo09.PNG]]
+
++ Version 10:
+[[size 120%]]**Version 10A:**[[/size]]
+[[user James Kanjo]]
+Realised that the height of the logo should in fact be 67 pixels in height. Made the text look more 'polished' by making it brighter in the middle of the text. Shrunk the main header text. Added subtitle "The TI-Basic Information Repository". Changed the gradient to fade into the colour #172028 over a length of 200 pixels rather than 32.
+
+[[image Logo10A.PNG]]
+
+[[size 120%]]**Version 10B:**[[/size]]
+[[user James Kanjo]]
+Increased the height in pixels to be 69 pixels high, because the browser Internet Explorer showed a pixel row that should have been hidden, and so that there is no black pixel row at the bottom of the logo on forum pages. The difference is negligable to the human eye, but it is definitely noticeable when placed in the header.
+
+[[image Logo10B.PNG]]
+
+[[size 120%]]**Version 10C:**[[/size]]
+[[user DarkerLine]]
+First try at making a 68k version of the logo.
+
+[[image Logo10C.PNG]]
+
+[[size 120%]]**Version 10D:**[[/size]]
+[[user Battlesquid]]
+An attempt towards creating an Nspire header. Traces of blue are on the logo's letters, so that is yet to be resolved.
+
+[[image Logo10D.PNG]]
+[[collapsible show="show revised logo" hide="hide revised logo"]]
+I (Battlesquid) couldn't get over the traces of blue. I decided to fix it, but it's still not the best. Better than before though.
+[[image Logo10B.png]]
+[[/collapsible]]
+
+[[size 120%]]**Version 10E:**[[/size]]
+
+[[user Battlesquid]]
+Made a successful attempt towards creating an Nspire logo to go with the agreed upon theme.
+[[image Logo10E.png]]

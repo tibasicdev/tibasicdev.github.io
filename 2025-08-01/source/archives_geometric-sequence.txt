@@ -1,0 +1,17 @@
+author: 'The Hewitt'
+description: 'With the input of any two terms of a geometric sequence, and a desired term, the user can receive two outputs: the value of the desired term, and the sum of all terms from the first term to that one.  For example:  if you only knew the first and the third terms of the geometric sequence 1,2,4,8, and you wanted to find the fourth, you would first enter 1 and 3 for first and third terms, and then their respective values, 1 and 4.  Then you would enter the term you wanted, 4 for fourth term, and two numbers would be displayed: 8 (the fourth term) and 15 (1+2+4+8).'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+image: /home/no_image_2.png
+download: GSEQUENC%20TI-84%20Plus.8xp
+size: '319'
+unit: '1'

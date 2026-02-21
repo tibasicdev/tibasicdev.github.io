@@ -1,0 +1,64 @@
+[[include inc:development
+|stage = coding]]
+
+Code conventions are a set of guidelines for writing programs, primarily focusing on the structure and appearance of the code. Although code conventions are generally subjective and informal, just the individual preferences of each programmer developed over time, there are several common conventions that most programmers follow and are considered to constitute good programming practice.
+
+Following code conventions not only makes your code consistent, helping to make it easier to read and understand, but also eliminates a lot of the difficulty in maintaining it. Code conventions are also important in group projects, where multiple people are working together and everybody needs to be on the same page.
+
++ Naming
+
+The general convention for naming programs, [[[subprograms]]], [[[lbl|labels]]], and [[[lists|custom lists]]] is to choose a name that tells you what it is (in the case of programs and subprograms) or that relates to how it is used (in the case of labels and lists).
+
+For example, if your program is a Minesweeper clone, then a good program name is something like MINES. If your MINES program has a subprogram, start it with θ or Z so that it appears at the bottom of the program list.
+
+If you have a [[[highscores|highscore]]] function built-in to your game, then you should use a custom list that is related to your program's name (i.e., LMINE would make sense for the MINES game mentioned above).
+
+In the case of a label name, you should make it mnemonic -- Lbl UP would be an appropriate choice for the code that moves the screen up.
+
++ Formatting
+
+The general convention for formatting code is to place related statements together on the same line. This is most applicable with variable declarations, [[[if|If-Then]]] conditionals, and short loops, although you can certainly put whatever statements that you want.
+
+The way you get multiple statements on the same line is by separating each one with a colon, which is also used to denote the beginning of each new line. The program editor on the calculator allows sixteen characters per line, so if the statements are wider than that, they will cause the line to wrap around to the next line (and however many more lines are needed).
+
++ Structure
+
+The general convention for structuring code is to use a loop, except for those situations where using a loop is impractical; in those cases, using a [[[Goto]]] is the preferred convention.
+
+When deciding which loop to use, you need to look at what its functionality will be. If you want the loop to be executed a set number of times, then you should use a [[[For(]]] loop. If you want the code inside of the loop to be executed at least once, then you should use a [[[Repeat]]] loop.
+
+The [[[While]]] loop is very similar to the Repeat loop, so the way to decide when to use either one is by thinking of the loop condition. If the loop is going to keep running as long as the condition is true, then you should use a While loop. If the loop is going to run until the condition is true, then you should use a Repeat loop.
+
++ Variables
+
+The general convention for using [[[variables]]] is to use the most appropriate variable whenever possible. There are several different kinds of variables available, including reals, lists, matrices, and strings, and they each have their own time and place.
+
+Reals are used for keeping track of one value, and because they are both small and fast, you should use them before using other variables. [[[Lists]]] are used for keeping track of multiple values, and because they can be created, you should use them for saving [[[highscores]]] and other important data.
+
+[[[Matrices]]] are used for keeping track of two-dimensional values, which means you should use them for making maps on the screen. [[[Strings]]] are used for keeping track of characters, which means you should use them when you want to display text on the screen.
+
++ Sample Program
+
+The following sample program is a modified form of the program on the [[[movement]]] page. The main things you should notice are the real variables grouped together on the first line and the use of the Repeat loops for the code structure.
+
+[[code]]
+PROGRAM:MOVEMENT
+:4→A:8→B
+:Repeat K=105
+:Output(A,Ans,"X
+:Repeat Ans:getKey→K:End
+:Output(A,B," "
+:A+(Ans=34)-(Ans=25
+:Ans+8(not(Ans)-(Ans=9→A
+:B+(K=26)-(K=24
+:Ans+16(not(Ans)-(Ans=17→B
+:End
+[[/code]]
+
+[[include inc:next-prev
+|prevpage = setup
+|prevtitle = Program Setup
+|tocpage = development
+|toctitle = Overview
+|nextpage = techniques
+|nexttitle = Techniques]]

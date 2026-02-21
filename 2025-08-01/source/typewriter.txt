@@ -1,0 +1,32 @@
+[[include inc:routine
+|picture=@@
+|summary=Makes text appear letter by letter
+|input=//Str1// - Text to be displayed.
+//A,B// - Row and colum to display text.
+|output=@@
+|variable=//A, B, T, Str1//
+|compatibility= All TI calculators
+|author= @@
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:For(T,1,length(Str1
+:Text(A,B,sub(Str1,1,T
+:rand(5
+:End
+[[/code]]
+
+We use a [[[For(]]] loop over the length of the string to go through the string letter by letter. In order to make the spacing come out right, instead of figuring out the right coordinate to display each character at, we display the first T characters of the string starting from the beginning. The rand(5) provides a split-second delay to achieve the typewriter effect.
+
+For multiple lines with the typewriter effect, you can combine this routine with the one to [[[wordwrap text]]].
+
++ Error Conditions
+
+* **[[[errors#domain|ERR:DOMAIN]]]** is thrown if the string doesn't fit entirely on the screen.
+
++ Related Routines
+
+* [[[wordwrap-text|Wordwrapping Text]]]

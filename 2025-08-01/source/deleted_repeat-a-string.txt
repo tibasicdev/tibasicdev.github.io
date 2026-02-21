@@ -1,0 +1,30 @@
+[[include inc:routine
+|picture=@@
+|summary=Repeats a string however many times you want.
+|input=//Ans// - The string you want to repeat
+2^^//N//^^ - How many times you want the string repeated
+|output=//Str1// - The repeated string
+|variable=X, N, Ans, Str1
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=[file repeatstring.zip]
+]]
+
+[[code]]
+:For(X,1,N
+:Ans+Ans→Str1
+:End
+[[/code]]
+
+With our string stored in [[[Ans]]], we concatenate (add) another copy to the end of the string, and store the new string to Str1. At the same time, the new string is also stored to Ans, which is what we use next time through the loop. The loop gets repeated over and over again until we have added however many copies we wanted. If you want to add more than one copy of the string each time through the loop, edit the second line accordingly.
+
+Using Ans allows us to not have to use another string variable, since Ans can act like a string and it gets updated accordingly, and Ans is also faster than a string variable. In addition, by storing the string to Str1 inside the loop, we avoid having to add an additional storage to the routine.
+
+We store the string to a more permanent variable (in this case, Str1) for future use. When you are done using Str1, you should [[[cleanup|clean it up]]] at the end of your program.
+
++ Related Routines
+
+* [[[strip-a-string|Strip a String]]]
+* [[[deleted:pad-a-string|Pad a String]]]

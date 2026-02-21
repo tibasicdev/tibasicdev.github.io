@@ -1,0 +1,8 @@
+This is obviously an introduction to assembly.  Since this site is not dedicated to such a language, its improvement isn't as urgent.  I think it might need to be combine with the other assembly pages.
+
+[!-- Leave this invisible comment here! --]
+
+====
+http://tibasicdev.wikidot.com/assembly
+====
+Advanced; Assembly

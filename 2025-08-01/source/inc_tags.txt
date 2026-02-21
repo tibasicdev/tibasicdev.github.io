@@ -1,0 +1,24 @@
+[[embed]]
+<iframe src="http://tibasicdev.wdfiles.com/local--code/inc:tags{$tags}" scrolling="no" frameborder="0" style="height: 24px; width: 100%;"></iframe>
+[[/embed]]
+
+[!--
+[[code type="html"]]
+<html>
+<head>
+	<title>Wikidot Show "True" Labels Module</title>
+	<style type="text/css">
+		@import url("http://www.wikidot.com/common--theme/base/css/style.css");
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var str = unescape(window.location.hash).replace(/#0#[^#]+/g,"");
+		str = str.replace(/#1/g,"");
+		str = str.replace(/#/g," ");
+		document.write(str);
+	</script>
+</body>
+</html>
+[[/code]]
+--]

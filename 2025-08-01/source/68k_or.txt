@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=or.png
+|summary=Tests if either of two conditions is true. 
+Can also be used as a bitwise "or" on integers.
+|syntax=//condition1// or //condition2//
+//integer1// or //integer2//
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 8 to enter the Test submenu.
+* Press 9 to select or.
+
+|size=1 byte
+]]
+
+The "or" operator combines two conditions into one, which will be true if either side is true, and false if both are false. You can create these conditions with the relational operators [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]], with functions such as [[[68k:isPrime()]]], [[[68k:pxlTest()]]], and [[[68k:ptTest()]]], or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [[[68k:and]]], [[[68k:xor]]], and [[[68k:not]]].
+
+[[code]]
+:2+2=4 or 1=0
+           true
+:2+2=5 or 1+1=3
+           false
+[[/code]]
+
+The operator can also be applied to integers, treating them as 32-bit signed integers (larger integers will be truncated to fit) expressed in binary. The bits will be matched up, and "or" will be applied to the bits individually -- a bit in the result will be 1 if either of the two corresponding bits of the original integers was 1, and 0 otherwise.
+
+[[code]]
+:(0b11111100 or 0b00111111)▶Bin
+           0b11111111
+:256 or 512
+           768
+[[/code]]
+
+In complicated logical expressions (both with conditions and with integers), "and" has greater priority than the others ("or" and "xor"). For instance, X or Y and Z will be interpreted as X or (Y and Z).
+
++ Error Conditions
+
+[[include inc:68k-error num=60|error=Argument must be a Boolean expression or integer|cause=the data type is incorrect (or mismatched)]]
+
++ Related Commands
+
+* [[[68k:and]]]
+* [[[68k:not]]]
+* [[[68k:xor]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

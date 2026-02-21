@@ -1,0 +1,3 @@
+name: ''
+content: "Wow, attached is what everyone else is seeing.  You are right; every post gets its own page, so that is why the reply box is iframed; it's actually the edit box of a different page.  For some reason, your computer or filter is preventing CSS stylesheets from loading up, so unfortunately there is nothing I can do to fix that.\n\nThe reply box will need to be an iframe, but I can provide an option that will allow you to reply on a separate page."
+attachment: 'file:tibd-browsercheck/tibd_browserCheck.png'

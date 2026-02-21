@@ -1,0 +1,1 @@
+…that you can use multiple //text// arguments at the end of one {{[[[Text(]]]}} command to write, for example, {{Text(R,C,"Score",S)}}?

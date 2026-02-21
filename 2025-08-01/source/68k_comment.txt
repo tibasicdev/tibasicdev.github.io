@@ -1,0 +1,29 @@
+[[include inc:68k-command
+|picture=comment.png
+|summary=Marks the rest of the line (in a program) as a comment.
+|syntax=://line of code// © //comment//
+|location=Starting in the program editor:
+* Press F2 to enter the I/O menu.
+* Press 9 to select ©.
+|size=4 bytes (+ length of comment)
+]]
+
+The © character is used for adding comments in a program: everything after © is ignored by the calculator for the purposes of actually running the program, so it's a good way to make a note to yourself about what a part of your code does. This is especially helpful if you're going to be reading the program later when you don't quite remember what you were doing.
+[[code]]
+:If ok=0 © If the user pressed ESC
+: Stop
+[[/code]]
+
+There are other situations you might use comments in. For instance, you might make a rough sketch of your program and add comments about the code that has yet to be filled in:
+[[code]]
+:If key=264 Then
+: © add a confirmation dialog here later
+: Exit
+:EndIf
+[[/code]]
+
+Yet another use of © is to "comment out" lines of code that you might need later, but want to ignore for now -- this is better than deleting the code, since you don't have to rewrite it later. 
+
++ See Also
+
+* [[[68k:comments|]]]

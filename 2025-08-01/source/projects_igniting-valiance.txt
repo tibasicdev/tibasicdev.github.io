@@ -1,0 +1,3 @@
+This is an RPG game that deals with controlling armies in a strategic fashion to accomplish goals.
+====
+There isn't much of a storyline yet.

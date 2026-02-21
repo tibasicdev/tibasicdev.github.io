@@ -1,0 +1,2 @@
+content: "Awesome, it looks great! Are we going to have the buttons for things like urls, images, @@[[code]] and [[math]]@@ things? And is there some way to preview your post? It looks very nice at the moment.\n\n**EDIT:** Editing works :D"
+attachment: null

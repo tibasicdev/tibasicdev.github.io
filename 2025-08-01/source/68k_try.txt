@@ -1,0 +1,53 @@
+[[include inc:68k-command
+|picture=try.png
+|summary=Catches errors that occur in a block of code.
+|syntax=:Try
+ //(block of code)//
+:Else
+ //(error-catching code)//
+:EndTry
+
+|location=Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 2 to enter the If..Then submenu.
+* Press 4 to select Try..EndTry.
+
+|size=2 bytes for Try;
+2 bytes for Else;
+2 bytes for EndTry.
+]]
+
+The Try command is used to "catch" errors that occur in a block of code. If an error occurs in a Try..EndTry code block, it doesn't display an error message and exit the program. Instead, it records the type of error in the system variable [[[68k:system-variables#errornum|errornum]]], and jumps to the Else section of the Try..EndTry block.
+
+Here, you have several options. By checking the [[[68k:errors|]]] page, you can test errornum for specific values to find out what kind of error happened. Ultimately, you'll want to use one of two commands:
+* [[[68k:ClrErr]]] to cancel the error.
+* [[[68k:PassErr]]] to display the error message and exit the program, as usual.
+
+Here is an example of Try..EndTry in action:
+[[code]]
+:Try
+: UnArchiv var
+:Else
+: Disp "var is undefined!"
+: ClrErr
+:EndTry
+[[/code]]
+
+For most errors, Try..EndTry blocks aren't the way to go because you want to prevent them in the first place. They are a good way to handle special cases or circumstances out of your control. Here are two situations you might use Try..EndTry in:
+* If your program uses external variables, you might surround that part of the code in a Try..EndTry block, rather than do all the tests to make sure they are unlocked, unarchived, etc.
+* If your program requires specially-formatted input, instead of sanity checking it first you might let the program take untreated input, and catch the errors that result from an incorrect format.
+
++ Error Conditions
+
+[[include inc:68k-error num=290|error=EndTry is missing the matching Else statement|cause=the Try..EndTry block doesn't contain an Else]]
+[[include inc:68k-error num=490|error=Invalid in Try..EndTry block|cause=??]]
+
++ Related Commands
+
+* [[[68k:If]]]
+* [[[68k:ClrErr]]]
+* [[[68k:PassErr]]]
+
++ See Also
+
+* [[[68k:Errors|]]]

@@ -1,0 +1,21 @@
+author: william756
+version: '1.01'
+summary: 'A fan game based off of a really fun game called Arcadium.'
+description: "It's pretty boring RN... I need to learn how to make an enemy AI, any help is greatly appreciated. And I hope you enjoy.\nMode: pause\nArrows: move\nShooting: I don't know how to do."
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:arcadium/ARCADIUM.8xp'
+image: null
+fileSize: '413'
+fileSizeUnit: '1'
+dateMade: '1602910800'

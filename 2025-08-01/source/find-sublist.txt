@@ -1,0 +1,103 @@
+[[include inc:routine
+
+|picture=@@
+
+|summary=Finds a sublist within a list, with different degrees of specificity.
+
+|input=
+L₁ - List to search
+L₂ - Sublist
+
+|output=
+//Ans// - Initial index of sublist in L₁*
+L₃ - Indices of L₁ which match the sublist*
+
+*See individual routines for details
+
+|variable=
+//L//, //X//*
+
+*Only used for gapped sublist searching
+
+|compatibility=
+TI-83/84/+/SE/CSE/CE
+
+|author=kg583
+
+|authors=@@ Only include this if you aren't the author of the routine.
+|url=@@
+|download=@@
+]]
+
++ Find Exact Sublist (Permutation)
+
+For a sublist stored in {{L₂}}, this routine will find where in {{L₁}} the precise sublist (in order, no gaps) is found and return the initial index as {{Ans}} (0 if not found).
+
+[[code]]
+:For(L,1,1+dim(L₁)-dim(L₂
+:L
+:If min(L₂=seq(L₁(X),X,L,L-1+dim(L₂
+:Return
+:End
+:0
+[[/code]]
+
++ Find Sublist with Gaps (Permutation w/ Gaps)
+
+For a sublist stored in {{L₂}}, this routine will find if the ordered sublist is found, with gaps between entries allowed, in {{L₁}} and return 1 or 0 as {{Ans}}.
+
+[[code]]
+:1→X
+:For(L,1,dim(L₁))
+:If L₁(L)=L₂(X
+:X+1→X
+:1
+:If X>dim(L₂
+:Return
+:End
+:0
+[[/code]]
+
+Alternatively, a few extra lines will return the matching indices as {{L₃}}.
+
+[[code]]
+:1→X
+:ClrList L₃
+:For(L,1,dim(L₁
+:If L₁(L)=L₂(X:Then
+:L→L₃(X
+:X+1→X
+:End
+:If X>dim(L₂
+:Return
+:End
+[[/code]]
+
++ Find Shuffled Sublist (Combination)
+
+For a sublist stored in {{L₂}}, this routine will find where in {{L₁}} any shuffling (without gaps) of the sublist is found and return the initial index as {{Ans}} (0 if not found).
+
+[[code]]
+:For(L,1,1+dim(L₁)-dim(L₂
+:L
+:If prod(seq(max(L₁(X)=L₂),X,L,L-1+dim(L₂
+:Return
+:End
+:0
+[[/code]]
+
++ Find Shuffled Sublist with Gaps (Combination w/ Gaps)
+
+For a sublist stored in {{L₂}}, this routine will find if any shuffling with gaps of the sublist is found in {{L₁}} and return 1 or 0 as {{Ans}}.
+
+[[code]]
+:prod(seq(max(L₁=L₂(X)),X,1,dim(L₂
+[[/code]]
+
+Alternatively, two extra lines will return the matching indices as {{L₃}}.
+
+[[code]]
+:prod(seq(max(L₁=L₂(X)),X,1,dim(L₂
+:If Ans
+:seq(1+sum(not(cumSum(L₁=L₂(X)))),X,1,dim(L₂→L₃
+[[/code]]

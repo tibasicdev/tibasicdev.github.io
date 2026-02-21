@@ -1,0 +1,9 @@
+[[include review]]
+
+[[include inc:next-prev
+|prevpage = sk:exercises-optimize
+|prevtitle = Exercises
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:what-next
+|nexttitle = What Next?]]

@@ -1,0 +1,60 @@
+[[image MODE.PNG]] [[image FORMAT.PNG]] [[image TBLSET.PNG]]
+
+The TI-83 series of calculators has many options to select from that influence either the effect of commands or the way numbers or graphs are displayed. Outside a program, these can be changed by accessing the Mode, Format, or TblSet screens (shown above), and selecting the correct options. When editing a program, going to these screens and choosing an option will instead paste a command that sets that option for you.
+
+These commands are given below, divided by the screen where it is found:
+
++ Mode Settings (MODE)
+
+* [[[Normal]]], [[[Sci]]], and [[[Eng]]] determine how large numbers are displayed.
+* [[[Float]]] and [[[Fix]]] determine how decimals are displayed.
+* [[[radian-mode|Radian]]] and [[[degree-mode|Degree]]] determine which form of angle measurement is used.
+* [[[Func]]], [[[Param]]], [[[polar-mode|Polar]]], and [[[seq-mode|Seq]]] determine the [[[graphing mode]]].
+* [[[Connected]]] and [[[Dot]]] determine the default [[[graphstyle|graphing style]]].
+* [[[Sequential]]] and [[[Simul]]] determine how multiple equations are graphed.
+* [[[real-mode|Real]]], [[[a+bi]]], and [[[re-thetai|re^θi]]] determine how complex numbers are displayed (and affects [[[errors#nonrealans|ERR:NONREAL ANS]]])
+* [[[Full]]], [[[Horiz]]], and [[[g-t|G-T]]] determine how and if the screen is split.
+
++ Graph Format Settings (2nd FORMAT)
+
+* [[[RectGC]]] and [[[PolarGC]]] determine how coordinates of the cursor are displayed and stored.
+* [[[CoordOn]]] and [[[CoordOff]]] determine whether the coordinates of the cursor are displayed at all.
+* [[[GridOn]]] and [[[GridOff]]] determine whether the grid is displayed.
+* [[[AxesOn]]] and [[[AxesOff]]] determine whether the X and Y axes are displayed.
+* [[[LabelOn]]] and [[[LabelOff]]] determine whether the X and Y axes are labeled (if they are displayed)
+* [[[ExprOn]]] and [[[ExprOff]]] determine whether the equation graphed or traced is displayed.
+* [[[Time]]], [[[Web]]], [[[uvAxes]]], [[[uwAxes]]], and [[[vwAxes]]] (visible in [[[seq-mode|Seq]]] mode) determine the way sequences are graphed, the default being Time.
+
++ Table Settings (2nd TBLSET)
+
+* [[[IndpntAuto]]] and [[[IndpntAsk]]] determine whether values of the independent variable in the table are calculated automatically.
+* [[[DependAuto]]] and [[[DependAsk]]] determine whether the values in the table are calculated automatically for all equations.
+
++ Miscellaneous Settings (2nd CATALOG)
+
+* [[[DiagnosticOn]]] and [[[DiagnosticOff]]] determine whether the statistics r and/or r^^2^^ are displayed by [[[regression-models|regressions]]].
+* [[[FnOn]]] and [[[FnOff]]] determine whether equations are graphed.
+* [[[PlotsOn]]] and [[[PlotsOff]]] determine whether plots are graphed.
+* [[[Pmt_Bgn]]] and [[[Pmt_End]]] determine whether payments are done at the beginning or end of a period with the [[[finance]]] solver.
+
++ Using these settings in a program
+
+A fair amount of these settings are important to programmers because, if set to the wrong value, they can easily mess up the program. At the beginning of the program, therefore, it's a good idea to set these settings to the correct value. At the very minimum, programs that use the graph screen should set AxesOff if necessary, since AxesOn is the default and a very common setting. This is a part of [[[setup|program setup]]].
+
+However, another important consideration is that it's somewhat rude to change the user's settings without permission, so your program should change as little as possible. How to reconcile these diametrically opposite goals? There are several ways that work for different settings:
+
+**Use GDBs (Graph DataBases)**
+
+The graph screen settings can be backed up in (and retrieved from) a GDB file by the [[[StoreGDB]]] and [[[RecallGDB]]] commands. If you store to a GDB at the beginning of the program, and recall from it at the end, you will have preserved all settings that deal with the graph screen.
+
+**Change math settings implicitly**
+
+Instead of changing settings like the Degree/Radian or the Real/a+bi setting, you can use certain commands that will force calculations to be done with that setting regardless of the mode. For example, you can use the [[[degree symbol]]] or [[[radian symbol]]] to make ambiguous calculations like sin(30) into unambiguous ones like sin(30^^o^^). Similarly, by adding 0i to a number, you force it to be complex, so that calculations done with it will never cause an [[[errors#nonrealans|ERR:NONREAL ANS]]] (even if you're in Real mode).
+
+**Ignore uncommon settings**
+
+You might ignore settings that are too uncommon to matter. For example, setting the Full command is unnecessary, because very few people would ever use a split screen, and people that do probably will also figure out why your program breaks when they do so.
+
+**Be rude when you must**
+
+For something like Float, there's no way to avoid changing the user's settings in a way you can't restore. If you have to change a setting so your program works, do it, and mention the issue in the readme. If you changed a setting to an uncommon value, change it back to "Float" (in general, to the default value) when you're done.

@@ -1,0 +1,21 @@
+author: master_programmer
+version: '1.0'
+summary: ''
+description: 'Simple slots game that took me 1 week to make. It uses 20 programs total, 19 sub programs, 2 custom lists, and adds and takes away coins. If your 1m+ coins disappear, dont worry! They were just stored in the second list so that the coin count wont overflow into the next row. I will post updates for the program as well, so stay tuned!'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '1'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: null
+image: null
+fileSize: '2097'
+fileSizeUnit: '1'
+dateMade: '1523941200'

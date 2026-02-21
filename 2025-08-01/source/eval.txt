@@ -1,0 +1,43 @@
+[[include inc:command
+|picture=eval.png
+|summary=Returns the string representation of the value of a real expression.
+|syntax=eval(//expression//)
+|location=This command is found only in the Catalog. Press:
+# 2ND CATALOG to enter the catalog
+# E to go to commands starting with E
+# Scroll down to eval(.
+|compatibility=TI-84+ CE OS 5.2
+|size=2 bytes
+]]
+
+The {{eval(}} command, given an expression that evaluates to a real number, returns the string representation of that number.
+
+[[code]]eval(1337       //returns "1337"
+
+eval(2.0-3.0    //returns "‾1"
+
+eval(.0001234   //returns "1.234ᴇ‾4"
+[[/code]]
+
+
+{{eval(}} has more limitations than the {{[[[toString(]]]}} command. It cannot handle lists, matrices, or complex numbers (even when the imaginary part of the complex number is zero). Another difference from {{toString(}} is that {{eval(}} is unaffected by display mode changes like {{[[[Fix]]]}}.
+
++ Advanced Uses
+
+Use {{eval(}} in conjunction with {{[[[expr(]]]}} to evaluate a real expression in a string and return the answer in a string.
+
+[[code]]
+3.14->X
+eval(expr("2X+3
+//returns "9.28"
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#datatype|ERR:DATA TYPE]]]** is thrown when the expression contains a list, matrix, imaginary number, or string.
+* **[[[errors#syntax|ERR:SYNTAX]]]** is thrown when trying to evaluate a command that doesn't return a value.
+
++ Related Commands
+
+* [[[toString(]]]
+* [[[expr(]]]

@@ -1,0 +1,21 @@
+author: mattyjraps
+version: '1.0'
+summary: ''
+description: "This is a Mario game made pretty much in pure BASIC (except for an asm snippet to fix the bug with the Text() command, grr). Featuring 6 worlds, 5 enemy types, animated coin blocks, and MUCH more, this is a truly must-have for your calculator if you are at all interested at gaming. It is the first BASIC Mario game of its size (~14,000 bytes) and has good looking graphics on top of that. Yahoo! All instructions are included in the readme.\n\n"
+arcade: '1'
+graphics: '1'
+platform: '1'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:mario-extreme/Mario-Extreme.zip'
+image: 'archiveimage:main-menu/main-menu.gif'
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: ''

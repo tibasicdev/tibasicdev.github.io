@@ -1,0 +1,21 @@
+author: 'Eden Urias'
+version: '1.0'
+summary: 'Finds the distance between two points.'
+description: "With this program you will input X1 Y1 and X2 Y2 and will automatically put into order all of the values and do the math for you to get a radical and then it will simplify that radical! You then have the option to quit the program or go to the simplify radicals program where you can just put in a radical and it will simplify it for you.\n\n\n```\n:ClrHome\n:Input   \"X1=\",A\n:Input   \"Y1=\",B\n:Input   \"X2=\",C\n:Input   \"Y2=\",D\n:(C-A)^2→X\n:(D-B)^2→Y\n:X+Y→O\n:Disp   \" √( \",O\n: √(O→U\n:Disp   \"SIMP=\",U\n:Lbl   3\n:ClrHome\n:Disp   \"√(X)\"\n:iPart(√(X)+1)→A\n\n:Lbl   1\n:If   fPart(X/A²)=0\n\n:Then\n:Goto   2\n:Else\n:(A-1)→A\n:Goto   1\n:Lbl   2\n:ClrHome\n:Disp   \"ANSWER X√(N)\"\n\n:Disp   \"X=\",A\n:Disp   \"N\",X/A²\n:Pause   \"CONTINUE?\n\n:ClrHome\n:Disp   \"PRESS 1 FOR QUIT\n\n:Disp   \"PRESS 2 FOR SIMPRAD\n\n:Input   \"CHOOSE:\",Z\n\n:If   Z=1\n:ClrHome\n:If Z=2\n:ClrHome\n:Lbl 3\n:ClrHome\n:Disp   \"√(X)\"\n:Input   \"X=\",X\n:iPart(√(X)+1)→A\n\n:Lbl   1\n:If   fPart(X/A²)=0\n\n:Then\n:Goto   2\n:Else\n:(A-1)→A\n:Goto   1\n:Lbl   2\n:ClrHome\n:Disp   \"ANSWER X√(N)\"\n:Disp   \"X=\",A\n:Disp   \"N=\",X/A²\n:Stop\n```"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: bb
+download: null
+image: null
+fileSize: '277'
+fileSizeUnit: '1'
+dateMade: '1604991600'

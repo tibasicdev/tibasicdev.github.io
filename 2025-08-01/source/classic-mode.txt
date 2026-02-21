@@ -1,0 +1,31 @@
+[[include inc:command
+|picture=@@
+|summary=Mode command that puts the calculator into Classic mode.
+|syntax=CLASSIC
+|location=Press:
+# MODE
+# DOWN until you reach MathPrint or Classic
+# ENTER on Classic
+
+Alternatively, use the catalog.
+|compatibility=TI-84 2.53MP only
+|size=2 bytes
+]]
+
+{{CLASSIC}} will put the calculator into {{Classic}} mode as opposed to {{MathPrint}} mode.  The {{Classic}} mode will make the calculator display everything as pre-{{MathPrint}} OS would, including input.  For instance, rather than superscripting exponents as {{MathPrint}} mode would, {{Classic}} mode uses the simple caret syntax ({{[[[power|^]]]}}). 
+
+[[div class="code"]]
+//MathPrint mode//:
+2^^4^^
+@<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>@16
+
+//Classic mode//:
+2^4
+@<&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>@16
+[[/div]]
+
++ Advanced Uses
+When in {{Classic}} mode, text and numbers are displayed much faster on the home screen and the function menus load faster. This can be useful in games that use the home screen, or just with calculations in general.
+
++ Related Commands
+* {{[[[mathprint-mode|MATHPRINT]]]}}

@@ -1,0 +1,10 @@
+The development of a program is essential to its ability to succeed and be good. The development is a cycle that can be repeated as many times as desired, each time making a new version. This cycle will allow you to make your program usable, efficient and clean. Here is a list of the parts of the development cycle:
+
+* [[[68k:planning|Planning]]]
+* [[[68k:comments|Commenting Code]]]
+* [[[68k:debugging|Debugging]]]
+* [[[68k:setup-and-cleanup|Setup and Cleanup]]]
+* [[[68k:usability|Usability]]]
+* [[[68k:optimization|Optimization]]]
+* [[[68k:timings|Code Timings]]]
+* [[[68k:releasing-your-program|Releasing Programs]]]

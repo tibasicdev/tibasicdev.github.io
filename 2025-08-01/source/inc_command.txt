@@ -1,0 +1,63 @@
+[[module CSS]]
+.command-infobox {
+  float: right;
+  width: 16em;
+  padding: .25em 1em 0;
+  margin: 1em 0 1em 1em;
+  border-left: 1px solid #888;
+  background: #fff;
+}
+[[/module]]
+
+[[div class="command-infobox"]]
+
+[!--{$picture}--][[[@@|]]][[div class="command-image"]]
+[[image {$picture} style="max-width:16em;"]]
+[[/div]]
+
+[!-- --]
+
+[!--{$summary}--][[[@@|]]]**Command Summary**
+
+[[div class="command-summary"]]
+{$summary}
+[[/div]]
+
+[!-- --]
+
+[!-- --][!--{$syntax}--][[[@@|]]]**Command Syntax**
+
+[[div class="command-syntax"]]
+{$syntax}
+[[/div]]
+
+[!-- --]
+
+
+[!-- --][!--{$location}--][[[@@|]]]**Menu Location**
+
+[[div class="command-location"]]
+{$location}
+[[/div]]
+
+[!-- --]
+
+[!-- --][!--{$compatibility}--][[[@@|]]]**[[[compatibility |Calculator Compatibility]]]**
+
+[[div class="command-compatibility"]]
+{$compatibility}
+[[/div]]
+
+[!-- --]
+
+[!-- --][!--{$size}--][[[@@|]]]**[http://tibasicdev.wikidot.com/tokens Token Size]**
+ 
+[[div class="command-token-size"]]
+{$size}
+[[/div]]
+
+[!-- --]
+
+[[/div]]
+
+[!-- Code thanks to James Kanjo --]

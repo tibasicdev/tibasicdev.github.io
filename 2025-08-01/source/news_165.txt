@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=May
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=27
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=Due to the release of a new OS by TI (2.53MP), new commands have been added to the [/command-index Command Index].
+]]

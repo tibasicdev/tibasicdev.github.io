@@ -1,0 +1,3 @@
+name: ''
+content: "Actually, it's not editing it, it's taking me to that comment's talk page... I think. Some error about only admins can edit pages.\nAlso: \n guests cannot upload files, and when the reply box redirects to wdfiles after it uploads, it breaks (that might be my filter not allowing redirects, I'm not sure yet)."
+attachment: null

@@ -1,0 +1,16 @@
+This forum implements the [http://patterns.wikidot.com/pattern:topictree TopicTree] pattern for forum discussion.  It uses a number of key Wikidot features:
+
+* --Per-page comments, via the Comments module-- - **forbidden for "admin-forum:"  here!** - comments are stored in the standard public forum and therefore readable...!
+* Live-templating, to format section and thread pages
+* Cross-site includes, to pull in packages like the scrollbar
+* Customizable themes
+* Page parenting and breadcrumbs
+
+Roughly, the forum consists of a set of '**sections**' ("admin-section:) , each with a number of autonumbered '**threads**', ("admin-thread:") and each thread can contain sub-threads, to any level of nesting.  **Each section, and thread or sub-thread is a page, not a post"**.
+
+You can add special tags to thread pages to make them behave in certain ways:
+
+* **_sticky** creates a sticky thread, which always shows first in lists of threads
+* **_closed** pushes the thread to the end of the list and marks it "(Closed)"
+* **_task** shows the thread on the list of open tasks in the side bar menu
+* **_nocomment** disables per-page comments and asks the user to use sub-threads to discuss (not enabled for thsi admikn-forum! )

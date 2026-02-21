@@ -1,0 +1,101 @@
+There are several different ways that you can manipulate text to create whatever effects you want. Some of the most popular include: highlighting, wordwrapping, and scrolling (i.e. creating a marquee). Besides these, you really just need to experiment to see what you can come up with.
+
+[[toc]]
+
++ Highlighting Text
+
+After learning how to display text on the screen, a common request is to have a way to highlight the text -- invert the text to white and the surrounding background to black. This makes the text stand out among the regular, unhighlighted text on the screen, resulting in a very nice effect.
+
+Unfortunately, the Text command does not have any argument that can acheive this effect. Instead the only way to get highlighting is to use two For loops and either the Pxl-Change or Pt-Change command (you should typically use Pxl-Change as the Pxl- commands are faster than their equivalent Pt- commands):
+
+[[code]]
+:Text(8,8,"Text
+:For(Y,8,14
+:For(X,7,22
+:Pxl-Change(X,Y
+:End:End
+[[/code]]
+
+You might have noticed that I didn't mention the homescreen text commands (Disp and Output). That is because there is no way to highlight text on the homescreen. There is, however, a way to make the graphscreen text look like the homescreen text. You can use the '-1' argument of the Text command to get the homescreen font on the graphscreen:
+
+[[code]]
+:Text(-1,8,8,"Text
+:For(Y,7,15
+:For(X,7,31
+:Pxl-Change(X,Y
+:End:End
+[[/code]]
+
+The primary problem with highlighting text using this code is that it is quite slow. If the text is relatively short, then it isn't an issue. But if you need to highlight the whole screen (i.e. you have several lines of text), this would take a considerable amount of time to do. The best policy is to just try to keep it practical from the program user's standpoint (put yourself in their shoes).
+
++ Wordwrapping Text
+
+When wordwrapping text, the goal is to display as much text as possible on each line. You also don't want to have a piece of the text be broken up, with one half of the text on one line and the other half on the next line (i.e. a word should be displayed in its entirety on the line).
+
+Wordwrapping on the homescreen is actually the easiest place to wordwrap text. The reason is that the Output command has wordwrapping built-in, so it will automatically wrap text to the next line if it exceeds the sixteen characters of that particular line (you might want to pad the text with spaces to move it to the correct location on the next line):
+
+[[code]]
+:Output(2,2,"Some Text Here
+:Output(3,2,"Some More Text
+can be
+:Output(2,2,"Some Text Here    Some More Text  // 4 spaces
+[[/code]]
+
+You need to be more creative to wordwrap on the graphscreen, as the Text command does not have a wordwrapping feature. There are a couple different approaches that you can use: manually count the position of each line break and place a marker to signify it or loop through the text and display each character one by one, keeping track of the end of the line.
+
+Before showing both approaches, I need to point out that instead of displaying each individual line of text one at a time, people usually put the text together as one long string and then display it with a For loop. This is much more useful because it saves a lot of memory and it is easier to update, if needed.
+
+Getting back to the first wordwrap approach, before displaying the text we need to place markers in the text where we want the text to wordwrap. This approach is more practical if you already know what the text is and where you want it to wrap, although it does take some extra work on your part. For the example, the backward slash character ("/") is the marker (and yes, you do need the marker at the end):
+
+[[code]]
+:"Some Text Here/Some Text Here/Some Text Here/→Str1
+:0→A   //both A and Ans start at 0
+:Repeat Ans=length(Str1     //stop when the position of the backslash == the length of the string
+:Ans+1→X    //now references one position after the backslash: the start of the next line
+:A+1→A    //move 6 lines down (A*6)
+:inString(Str1,"/",X    //starting at position A, search for the next instance of the backslash
+:Text(6A,1,sub(Str1,X,Ans-X     //display the text
+:End
+[[/code]]
+
+The second approach is somewhat more complicated, but it does have the advantage that it requires no extra work on your part. It involves using a variable to keep track of the last space on the line, wordwrapping at that space, and then resetting the variable for the next line (which can be slow depending on the amount of text):
+
+[[code]]
+:"Some Text Here/Some Text Here/Some Text Here/→Str1
+:Repeat X
+:1
+:While Ans and Ans<=min(16,length(Str1
+:Ans→Y
+:inString(Str1," ",Ans+1    // 1 space
+:End
+:16>=length(Str1→X
+:16:If Y>12:Y
+:Disp sub(Str1,1,min(Ans,length(Str1
+:If not(X
+:sub(Str1,Ans+1,length(Str1)-Ans→Str1
+:End
+[[/code]]
+
+Keep in mind that this code as it exists right now only works on the homescreen with the Disp command, so if you wanted to modify it to work on the graphscreen you would need to change Disp to Text and use another variable to keep track of which line it currently is on. In addition, approximately 25 characters can fit on a line on the graphscreen (depending on how many spaces there are) instead of the 16 characters on the homescreen.
+
++ Scrolling Text
+
+Now that we've covered how to highlight and wordwrap text, the final thing we need to go over is how to scroll text (i.e. create a marquee). To be honest, there isn't a whole lot to scrolling text; once you see the code you will be quite surprised.
+
+The basic gist of scrolling text is storing your string of text to a string variable, creating a loop that keeps looping until the user presses a certain key or there is a timer that goes off, and then displaying a substring of the text onto the screen each time through the loop:
+
+[[code]]
+:"Some Text Here/Some Text Here/Some Text Here/
+:ClrHome
+:Repeat getKey
+:Output(4,3,sub(Ans,1,12
+:sub(Ans,2,length(Ans)-1)+sub(Ans,1,1
+:If dim(rand(4
+:End
+[[/code]]
+
+If you actually try this code, you'll see that it moves quite fast; that is why the delay was put in there. You can modify the code to scroll whatever text you want or to change the speed of the scrolling (change the number after the rand command). Just remember that you shouldn't go overboard on using scrolling in your programs because it gets annoying otherwise.
+
+++ References
+
+* Weregoose is the one that came up with the scrolling text protection code that was shown; the code comes from his [http://www.unitedti.org/index.php?showtopic=2820&view=findpost&p=48979 post] in the related UTI TI-Basic forum topic.

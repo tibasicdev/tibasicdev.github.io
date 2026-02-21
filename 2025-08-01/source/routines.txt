@@ -1,0 +1,119 @@
+[[table style="width: 100%; margin: 20px auto 25px; background: #fdfcf6; border: 1px solid #4D5C63;"]]
+[[row]]
+[[cell style="font-size: 125%; padding: 10px;"]]
+When contributing routines, please follow these guidelines:
+
+# A routine should be self-contained, and relatively short in length.
+# Exclude the input and output, unless the routine is specifically meant to do that.
+# A routine should be thoroughly tested to make sure it works correctly.
+# Use the [[[template:routine|Routine Template]]] as the starting point for routine pages.
+# When the routine page is finished, link to it from here.
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab Conversion]]
+
+* **[[[Number to String]]]** (//[[[number-to-string2|alternative]]]//) -- Converts a real number to a string.
+* **[[[Matrix to String]]]** -- Converts a matrix of encoded letters to a string.
+* **[[[List to String]]]** (//[[[list-to-string2|alternative]]]//) -- Converts a list of encoded letters to a string.
+* **[[[String to List]]]** (//[[[string-to-list2|alternative]]]//) -- Converts a string to a list of encoded letters.
+* **[[[Decimal to Fraction]]]** (//[[[decimal-to-fraction2|alternative]]]//) -- Converts a decimal number to a fraction.
+* **[[[Numerically Index Words]]]** -- Retrieves a word from an indexed string of words with an index number.
+
+[[/tab]]
+[[tab Number]]
+
+* **[[[Number One-Liners]]]** -- One or two line routines too short for their own page.
+* **[[[Number Subset]]]** -- Returns a subset of a number.
+* **[[[Number or String]]]** -- Detect Whether Ans is a String or a Number.
+* **[[[Number or List]]]** -- Detect Whether Ans is a List or a Number.
+* **[[[binary-to-decimal|Binary to Decimal]]]** -- Returns the Base,,10,, form of a Base,,2,, number.
+* **[[[decimal-to-binary|Decimal to Binary]]]** -- Returns the Base,,2,, form of a Base,,10,, number. 
+
+[[/tab]]
+[[tab List & Matrix]]
+
+* **[[[List & Matrix One-Liners]]]** -- One or two line routines too short for their own page.
+* **[[[sum-of-matrix|Sum of Matrix Elements]]]** -- Sums the elements of a matrix.
+* **[[[list-frequency2|List Frequency]]]** -- Finds the frequency of values in a list.
+* **[[[list-frequency-sorting|List Frequency Sorting]]]** -- Sorts a list based on the frequency of the values
+* **[[[rle-compress|RLE Compression]]]** -- Compresses a list of numbers.
+* **[[[rle-decompress|RLE Decompression]]]** -- Reverses the above routine.
+* **[[[Binary Data Compression]]]** -- Bitwise compression of binary data.
+* **[[[index-finder|Isolating Element Index Number]]]** -- Finds the index number of an element number in a list.
+* **[[[find-sublist|Find Sublist]]]** -- Finds a sublist within a list, with varying degrees of specificity.
+
+[[/tab]]
+[[tab String]]
+
+* **[[[String One-Liners]]]** -- One or two line routines too short for their own page.
+* **[[[Reverse a String]]]** -- Reverses a string.
+* **[[[Strip a String]]]** -- Strips a string of its outside spaces.
+* **[[[Scramble a String]]]** -- Scrambles a string.
+* **[[[Change Case of a String]]]** -- Changes a string to lowercase or uppercase.
+* **[[[Find and Replace Text in String]]]** -- Finds and replaces all occurrences of specified text in a string with desired replacement text.
+
+[[/tab]]
+[[tab Text]]
+
+* **[[[Highlighting Text]]]** -- Invert text to white on a black background.
+* **[[[wordwrap-text|Wordwrapping Text]]]** -- Split text between several lines on the graph screen.
+* **[[[Marquee]]]** -- Scroll a one-line string, like a marquee.
+* **[[[Blinking Text]]]** -- Creates a blinking effect on the home screen.
+* **[[[Typewriter]]]** -- Makes text appear letter by letter.
+* **[[[Text Wrapper]]]** -- Wraps text on either the graph screen or the home screen.
+
+[[/tab]]
+[[tab Graphics]]
+
+* **[[[Shading Circles]]]** -- Draws a shaded circle.
+* **[[[Draw Ellipse]]]** -- Draws an ellipse at the selected coordinates.
+* **[[[Custom Menu single page]]]** -- Draws and navigate through a menu and returns the number of option.
+* **[[[Custom Menu multi page]]]** -- Draws and navigate through a menu and returns the number of option.
+* **[[[custom-menu-graph-screen|Custom Graph Screen Menu]]]** -- Draws and navigate through a menu on the graph screen
+
+[[/tab]]
+[[tab Math]]
+
+* **[[[Math One-Liners]]]** -- One or two line routines too short for their own page.
+* **[[[goodness-of-fit|Goodness-of-Fit Test]]]** -- Performs a chi-square goodness-of-fit test.
+* **[[[linreg-error|Linear Regression Standard Error]]]** -- Computes the standard error of linear regression coefficients.
+* **[[[Quadratic Formula]]]** -- Finds the roots of a quadratic equation.
+* **[[[Cubic Formula]]]** -- Finds the roots of a cubic equation.
+* **[[[archive:quartic-equation-solver| Quartic Formula]]]** -- Finds the roots of a quartic equation.
+* **[[[Simplify Radicals]]]** -- Simplifies a square root radical.
+* **[[[Pythagorean Triples]]]** -- Displays the Pythagorean theorem triples.
+* **[[[factorization|Number Factorization]]]** -- Finds the factors of a number.
+* **[[[Polynomial Division]]]** -- Divides polynomials of any degree.
+* **[[[Sierpinski Triangle]]]** -- Displays the Sierpinski triangle fractal.
+* **[[[pascal-triangle|Pascal's Triangle]]]** -- Gets a row of Pascal's triangle.
+* **[[[Modular Arithmetic Solver]]]** -- Solves modular arithmetic problems, also usable for finding a remainder.
+* **[[[Day of Week]]]** (//[[[Day of Week (Alternative) |Alternative]]]//) -- Substitute for the [[[dayOfWk(]]] command for pre-84+ calculators.
+* **[[[Extended Clock Script |Day, Date & Time]]]** -- displays Day, Month, Year, Day of week and Time with no user input.
+* **[[[Easter Calculation]]]** -- Calculates the Easter Sunday of any given year.
+* **[[[Synthetic Division]]]** -- Calculates a0xn + a1xn-1 +a2xn-2 + … + an-1x + an/(x-r) , (where a0 ≠ 0)
+* **[[[Newtons Method]]]** -- Calculates the value of the zeroes and intersections of equations.
+* **[[[Eulers Method]]]** -- Predicts the future value of a function.
+* **[[[Mode]]]** -- Calculates the mode(s) of a list of numbers.
+* **[[[Extended Euclidean Algorithm]]]** -- Performs the [[[https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm |Extended Euclidean algorithm]]] on two whole numbers.
+* **[[[Angle of Intersection]]]** -- Finds the angle of intersection of any two lines.
+
+[[/tab]]
+[[tab Keyboard]]
+
+* **[[[Key Code Retriever]]]** -- Displays the key code for any key that you press.
+* **[[[Key Code to Letter]]]** -- Outputs the letter corresponding to the key press.
+* **[[[Number Pad Reader]]]** -- Output the number pressed (0-9) or any other key.
+
+[[/tab]]
+[[/tabview]]
+
+[[include inc:next-prev
+|prevpage = sk:cheat-sheet
+|prevtitle = Command Cheat Sheet
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:troubleshooting
+|nexttitle = Troubleshooting]]

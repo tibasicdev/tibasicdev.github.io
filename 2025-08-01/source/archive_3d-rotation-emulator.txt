@@ -1,0 +1,21 @@
+author: ThinkManify
+version: v1.0
+summary: 'Shows a model of a prism in 3D.'
+description: "This program is able to rotate and resize a model, and also change its vertex count.\nIt isn't the fastest - neither is it smooth, but that's kind of a restriction on the calculator's hardware.\nOnly assembly would make ik quicker, although I'm not experienced in that language.\n\nA port can be made to TI-84+ calculators - the only reason it isn't for the non-color calculators is the drawing coordinates;\nTI-84+C calculators have a resolution almost 3 times bigger than the regular TI-84's.\nWith enough notice I'll create such a version.\n\n====CONTROLS====\n[ENTER]: Quit program\n[(] or [)]: Change vertexcount. This is for the top and bottom face only.\n[Arrow keys]: Rotate model.\n[-] or [+]: Change model size."
+arcade: '0'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: ff
+download: 'archivefile:rot3d/Rot3D.zip'
+image: 'archiveimage:rot3d/Rot3D.gif'
+fileSize: '1202'
+fileSizeUnit: '1'
+dateMade: '1410904800'

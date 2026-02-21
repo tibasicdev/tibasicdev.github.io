@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Maze Walkthrough
+|author=TI-Basic Developer
+|size=244 Bytes
+|description=You have to make your way through the maze without touching any of the walls.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/maze-walkthrough/mazewalkthrough.zip
+|downloadName=MazeWalkthrough.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

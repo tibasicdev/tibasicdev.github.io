@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=setdate.png
+|summary=
+|syntax=setDate(//year, month, day//)
+|ams2xx=07
+|location=
+|size=
+]]
+
+This command sets the calculator's date to whatever is specified in the command. The year must fall in the range 1997 to 2132 for this command to work.
+
+[[code]]
+:setDate(2001, 10, 31)
+:      {2001, 11, 1}
+[[/code]]
+
+The above example has set the calculator's date to October 31^^st^^, 2001, and the date it was set at originally was November 1^^st^^, 2001.
+
++ Error Conditions
+
+[[include inc:68k-error num=40|error=Domain error|cause=the year is outside of the range of 1997 to 2132, or the month is above or below 0 to 12, or the date is above or below 0 to 31]]
+
++ Related Commands
+
+* [[[68k:getDate()]]]
+* [[[68k:getDtStr()]]]
+* [[[68k:setDtFmt()]]]
+* [[[68k:getDtFmt()]]]

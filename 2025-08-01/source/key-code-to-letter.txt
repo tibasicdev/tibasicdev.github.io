@@ -1,0 +1,29 @@
+[[include inc:routine
+|picture=http://tibasicdev.wikidot.com/local--files/template:command/samplescreenshot.gif
+|summary=Outputs a letter corresponding to a keypress.
+|input=//None//
+|output=//Ans// - the letter as a string
+|variable=@@
+|compatibility= TI-83/84/+/SE
+|author=@@
+|authors=Weregoose
+|url=http://weregoose.unitedti.org/routines.html Weregoosepage
+|download=*https://www.dropbox.com/s/iqpl210jax3bo3n/Routines.8xg?dl=0 Routines.8xg
+]]
+
+[[code]]
+:Repeat Ans>34 and min(Ans≠{44,45,105
+:getKey
+:End
+:sub("ABC**DEFGHIJKLMNOPQRSTUVWXYZθ'* :?",Ans-5int(.1Ans+4),1
+[[/code]]
+
+The Repeat loop makes sure good input is passed.
+The last line takes from the string the letter according to the keycode.
+
++ Error Conditions
+None.
+
++ Related Routines
+* [[[key-code-retriever|Key Code Retriever]]]
+* [[[number-pad-reader|Number Pad Reader]]]

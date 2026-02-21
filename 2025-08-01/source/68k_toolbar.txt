@@ -1,0 +1,55 @@
+[[include inc:68k-command
+|picture=toolbar.png
+|summary=Creates a toolbar menu and waits for input.
+|syntax=:ToolBar
+ (list of titles and items)
+:EndTBar
+|location=Starting in the program editor:
+* Press F3 to enter the I/O menu.
+* Press 1 to enter the Dialog submenu.
+* Press 6 to select ToolBar..EndTBar.
+|size=2 bytes for ToolBar;
+2 bytes for EndTBar.
+]]
+
+A ToolBar..EndTBar block, usable only inside a program, displays a custom toolbar menu in place of the usual toolbar, and immediately asks for one of the options to be selected. Selecting an object transfers program flow to a [[[68k:lbl|label]]] somewhere else in the program.
+
+The toolbar menu can have up to eight tabs (on certain models, there is no upper limit, i.e. TI-92), which correspond to the F1-F8 keys, with any number of options under each tab, or none at all. These are defined by putting the [[[68k:Title]]] and [[[68k:Item]]] commands inside the ToolBar..EndTBar block.
+
+The Title command indicates a new tab, so you can have up to eight of these. After Title, put a string to be displayed for the tab. If the tab doesn't have any options under it, you should also add a label that selecting this tab will jump to.
+
+The Item command indicates an option under the most recent tab -- you can have as many items as you like, or none at all. As with Title, you should give Item a name (which will be displayed as the option) and a label that the program will jump to if the option is selected.
+
+Here is an example of the syntax:
+[[code]]
+:ToolBar
+: Title "Animals"
+:  Item "Dog",lab1
+:  Item "Cat",lab2
+: Title "Rocks",lab3
+: Title "Plants"
+:  Item "Grass",lab4
+:  ...
+:EndTBar
+[[/code]]
+In this case, the custom toolbar will display | F1 Animals | F2 Rocks | F3 Plants | … |. Pressing F1 would bring up the Animals menu with items 1:Dog and 2:Cat. Then, pressing 1 or ENTER would continue the program from Lbl lab1. Pressing F2 would immediately jump to Lbl lab3, since that tab has no items.
+
+A related command is [[[68k:Custom]]]..EndCustm. It also creates a toolbar menu, but one that's intended for use as a custom menu outside a program.
+
++ Advanced Uses
+
+On the widescreen calculators (the TI-92, TI-92 Plus, and Voyage 200), a tab can have a picture for a title (the result will look like the F1 tab of the default toolbar menu). To do so, create a 16x16 (e.g.[0,0;15,15])picture to be used as the icon, and use the picture variable in place of the tab's title string. If this syntax is used on a TI-89 or TI-89 Titanium calculator, the name of the variable will be displayed instead of the icon (the check for the picture size is still done, and will cause an error if it's the wrong size).
+
++ Error Conditions
+
+[[include inc:68k-error num=230|error=Dimension|cause=an icon is used of the wrong size]]
+[[include inc:68k-error num=450|error=Invalid in a function or current expression|cause=ToolBar..EndTBar is used in a function]]
+[[include inc:68k-error num=480|error=Invalid in ToolBar..EndTBar block|cause=any command other than Title or Item is used inside the block]]
+[[include inc:68k-error num=590|error=Invalid syntax block|cause=the syntax is somehow wrong (e.g. an item has no label)]]
+
++ Related Commands
+
+* [[[68k:Custom]]]..EndCustm
+* [[[68k:Dialog]]]..EndDlog
+* [[[68k:Item]]]
+* [[[68k:Title]]]

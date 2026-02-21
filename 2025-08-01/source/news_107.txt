@@ -1,0 +1,5 @@
+[[include inc:date
+|month=Nov
+|day=02
+|description=Just noticed there is only one command that needs to be completed: [/invt invT(]
+]]

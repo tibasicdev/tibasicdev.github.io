@@ -1,0 +1,1 @@
+…that the majority of the [[[graphscreen|graphics]]] commands are dependent upon the [[[system-variables#window|window dimensions]]], so you should always use a [[[friendly-window|friendly graphing window]]] to ensure everything shows up as you intended?

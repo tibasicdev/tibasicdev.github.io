@@ -1,0 +1,175 @@
+At some point during your programing you may come up with a need to search a list for a piece of data, search multiple lists for data, and use that data.
+
+[[toc]]
+
++ How to Search
+
+
+
+
+
+++ Quick Search
+
+
+This code takes use of the For( command and states whether or not the number is in fact in the list.
+If you wanted to know what position in the list that number was, you can simply do that by recalling Z (Since Z is the interval it is going up by, it shows how far into the list the number is found)
+
+[[code]]
+:Prompt D   				 //D is the number you want to find in the list
+:For(Z,0,dim(L1  			 //Searches all the values up to the end of the list
+:If L1(Z)=D
+:Goto 1   					 //If value is found in list, Goto 1
+:End
+:Disp "VALUE NOT FOUND"   	 //If Value wasn't found after the search, displays this
+:Stop
+:Lbl 1
+:Disp "VALUE FOUND AT",Z   	 //If Value was found at the end of the search, displays text and location in the list where it was found
+:Stop
+[[/code]]
+
+
+++ Even Quicker Search
+
+[[code]]
+:if max(1/1+(abs(L-x)))=1			//L is the list, x is the value
+[[/code]]
+
+
+First the searched value is subtract from every item in the list. Now if the value was in the list, it's now 0, so 1/1+0 is 1. Every other value results in a lower number.
+
++ Old Lengthy Code
+
+++ Simple:
+
+Using a loop you can search each point in a list and have it show you where it is in the list
+
+[[code]]
+PROGRAM:SEARCH1
+:Lbl 0
+:Prompt D			//D is the number you want to find in the list
+:0→Z
+:dim(L1→T			//T is "length" of list AKA number of points
+:While 1			//Start of Loop
+:Z+1→Z
+:If L1(Z)=D			//if found
+:Goto 1			
+:If Z=T			//if not in list **(must be after above if statement)**
+:Goto 2			
+:End				//End of loop 
+:Lbl 1
+:Disp Z			//Tells you Placement in list (and the fact dose exist in list)
+:Pause
+:Lbl 5
+:Menu("Now What","New Search",0,"Exit",4
+:End
+:Lbl 2
+:Menu("Point Not Found","Store Point",3,"New Search",0,"Exit",4
+:End
+:Lbl 3
+:D→L1(T+1)
+:Goto 5
+:End
+:Lbl 4
+:Stop	
+:End
+[[/code]]
+
+The above code is probably not fully optimized.
+
+++ Two lists -- More Advanced
+
+In reality all you need to do is add the star(ed) .
+
+[[code]]
+PROGRAM:SEARCH1
+:Lbl 0
+**:Prompt X**
+**:Prompt Y**		
+:0→Z
+:dim(L1→T			//both first and second list must be same length or the checked list must be the shortest		
+:While 1		
+:Z+1→Z
+:If L1(Z)=X	**and L2(Z)=Y**		
+:Goto 1			
+:If Z=T			
+:Goto 2			
+:End				
+:Lbl 1
+:Disp Z			
+:Pause
+:Lbl 5
+:Menu("Now What","New Search",0,"Exit",4
+:End
+:Lbl 2
+:Menu("Point Not Found","Store Point",3,"New Search",0,"Exit",4
+:End
+:Lbl 3
+:X→L1(T+1)
+**:Y→L2(T+1)**
+:Goto 5
+:End
+:Lbl 4
+:Stop	
+:End
+[[/code]]
+The above code is probably not fully optimized
+
+Not too hard, right?
+
+++ More Complicated - Game use
+
+So lets say you want to add "health" to that point you will need to add the star(ed) below .
+Also at some point you will want to add the health to the points by doing :#→dim(L3)^^*^^ and :Fill(100,L3)^^**^^
+
+^^*^^# is length of list
+^^**^^100 is heath
+
+Note: does not show what was removed
+
+[[code]]
+PROGRAM:SEARCH1
+:Lbl 0
+:Prompt X		//if used for a game these prompts should **not** be necessary
+:Prompt Y	
+:0→Z
+:dim(L1→T		
+:While 1		
+:Z+1→Z
+:If L1(Z)=X	and L2(Z)=Y	
+:Goto 1			
+:If Z=T			
+:Goto 2			
+:End				
+:Lbl 1
+**:L3(Z)-10→L3(3)**			
+**:if L3(Z)≠0**
+**:Goto (you decide)			//Not dead and exists where to?
+**:if L3(Z)=0**				
+**:Then**
+**:#→L1(Z)**				//Somewhere "out of the way" so that he is not "there" anymore
+**:#→L2(Z)**
+**:Goto (you decide)**		//okay hes dead now what are you going to do?	
+**:End**
+:End
+:Lbl 2
+**:Goto (you Decide)**		//no enemy is there now what?
+[[/code]]
+The above code is probably not fully optimized.
+
+The reason why this is difficult is because, well it requires a lot of thinking i can only show you a way but you must decide how it can be used.
+
++ Usage ideas
+
+* Multi-Hit Enemys
+* Level system (if (list)=# .... do __?__ damage)
+* Find data points
+
+
+[!--
+++ Page notes and requests
+
+other ways
+Matrix search?
+Grammar and spelling checks!!
+optimization checks
+--]

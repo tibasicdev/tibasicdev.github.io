@@ -1,0 +1,10 @@
+[[table style="border:1px solid #666; width:100%; padding: 5px; margin-top: 10px;"]]
+[[row]]
+[[cell style="width:100%; text-align: center;"]]
+[[image http://tibasicdev.wdfiles.com/local--files/home/toolbar-separator.png style="vertical-align: middle;"]] **This article is part of the {$stage} stage of the [[[development]]] cycle.**
+[[/cell]]
+[[/row]]
+[[/table]]
+[!--
+{$stage} can be either: planning, coding, revising, releasing or refreshing.
+--]

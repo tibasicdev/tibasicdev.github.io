@@ -1,0 +1,61 @@
+[[include inc:nspire-command
+|picture=@@
+|summary=Boolean AND comparison of expressions or groupings of expressions.
+|syntax=//BooleanExpr1// **and** //BooleanExpr2//
+//BooleanList1// **and** //BooleanList2//
+//BooleanMatrix1// **and** //BooleanMatrix2//
+//Integer1// **and** //Integer2//
+
+|location=@@
+
+|compatibility = @@If this is only available on certain versions of the nspire
+|size=X byte(s)
+]]
+
+The **and** command compares two Boolean expressions (or lists or matrices of expressions) and performs the logical AND comparison, where the output is TRUE if and only if both inputs are also TRUE.
+
+
+||~ Command ||~ Output ||
+|| 0 **and** 0 || 0 ||
+|| 1 **and** 0 || 0 ||
+|| 0 **and** 1 || 0 ||
+|| 1 **and** 1 || 1 ||
+
+------
+
+**and** can also be used to simplify logical conditions. For example,
+
+[[code]]
+:x≥3 and x≥4
+outputs
+:x≥4
+[[/code]]
+
+because, in order to satisfy both logical conditions, //x// need only satisfy //x≥4//. **and** can perform this process on a list or matrix of Boolean expressions:
+
+[[code]]
+:{x≥3,x≤0} and {x≥4,x≤-2}
+outputs
+:{x≥4,x≤-2}
+[[/code]]
+
+which is the intersection of two inequalities. This can be thought of as the overlap of two regions of a number line, where //x// must lie in order to satisfy all of the logical conditions simultaneously.
+
+------
+
+**and**'s final use is for bitwise comparison of integers. Consider two integers, 24 and 17, which when converted to binary become 0b11000 and 0b10001 respectively. To compare the two integers, **and** compares each bit of the binary number, outputing 1 when both bits are 1 and 0 otherwise:
+
+[[code]]
+0b11000: 24
+0b10001: 17
+  -----  --
+0b10000: 16
+[[/code]]
+
+Integers can be entered in any base for use with **and**, including binary (0b) and hexadecimal (0h). The output will match the base of the inputs (if they are identical), defaulting to decimal.
+
++ Related Commands
+
+* [[[nspire:or]]]
+* [[[nspire:xor]]]
+* [[[nspire:not]]]

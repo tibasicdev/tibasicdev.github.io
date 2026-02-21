@@ -1,0 +1,21 @@
+author: 'Robert Black; Code edited and optimized by Trenly'
+version: 2.0.1
+summary: "A flappy bird clone\n"
+description: "+ This program has been remade. To see the remake, visit the __[[[archive:flappy-bird-2|Flappy Bird 2]]]__ page.\nHi, this is my first post to this site!  I knew how to program in Python, which got me interested in learning TI-Basic.  Within 2 hours of knowing that Ti-Basic existed, I made a flappy bird game.  The program might have a few bugs (I programed it from scratch on my friend's calculator, so I don't have it with me), so if you find any bugs, please edit this page to remove them if you can figure out where they are.\n\nInstead of the game plainly ending when you die, it returns an error message.\n\nPlease comment if there is something wrong with the program.\n\n--**Note:** The download link doesn't work, you'll have to type in the code by hand.--\nEDIT: I borrowed my friend's calculator, here is the actual coding: (other coding was deleted)\nANOTHER EDIT: Now has a scoring system\n\n[[code]]\n:1→Y\n:16→A\n:1→B\n:5→E\n:0→Z\n:Lbl G\n:getKey→K\n:A-1→A\n:randInt(2,7)→D\n:ClrHome\n:If not(A:16→A\n:If not(A=16:0→B\n:If A=16:1→B\n:If B=1:D=E\n:If K=25:Y-1→Y\n:If not(K=25:Y+1→Y\n:Output(Y,3,\"0\n:For(I,1,8)\n:Output(I,A,\"H\n:End\n:Output(E,A,\" \"//1 space\n:Output(E+1,A,\" \"//1 space\n:If A=3\n:Then\n:If not(Y=E) and not(Y=E+1\n:Output(10,10,\"P\n:Output(1,8,Z\n:Z+1→Z\n:End\n:Goto G\n[[/code]]"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:flappyb/FLAPPYB.8xp'
+image: null
+fileSize: '300'
+fileSizeUnit: '1'
+dateMade: '1401256800'

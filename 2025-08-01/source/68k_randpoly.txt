@@ -1,0 +1,35 @@
+[[include inc:68k-command
+|picture=randpoly.png
+|summary=Generates a random polynomial.
+|syntax=randPoly(//var//,//deg//)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 7 to enter the Probability submenu.
+* Press 8 to select randPoly(.
+
+|size=1 byte
+]]
+
+The randPoly() command generates a random polynomial. randPoly(//var//,//deg//) generates a random polynomial in variable //var// of degree //deg//. The coefficients of each power of //var// are random integers from -9 to 9.
+
+[[code]]
+:RandSeed 0
+:randPoly(x,5)
+           4*x^5-2*x^4-7*x^2+8*x+8
+[[/code]]
+
++ Advanced Uses
+
+Using the [[[68k:RandSeed]]] command makes the resulting polynomial entirely predictable: every time you set the random seed to some variable, you will get the same random coefficients afterwards. Also see RandSeed for details of how random numbers are generated.
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the value of //deg// is not between 0 and 99]]
+
++ Related Commands
+
+* [[[68k:rand()]]]
+* [[[68k:randMat()]]]
+* [[[68k:randNorm()]]]
+* [[[68k:RandSeed]]]

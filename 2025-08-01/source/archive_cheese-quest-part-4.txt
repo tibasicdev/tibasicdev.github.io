@@ -1,0 +1,21 @@
+author: 'Robert Black'
+version: '1.0'
+summary: 'There are two bridges, you are trying to shoot the other person, you can damage their bridge by shooting it, you can repair it by trying to walk off.'
+description: "There are two bridges, you are trying to shoot the other person, you can damage their bridge by shooting it, you can repair it by trying to walk off.\nThe enemy has an insanely smart AI, and this program is so insanely fast you'll never recover, and, for once, I don't need help making it faster!\nIt's faster because the screen doesn't redraw itself.\nI finally created a game more frustrating than flappy bird! >:)\nI WILL FINISH THIS PAGE SOON\n(sorry it is taking so long to finish this, but my friend has the calculator with the coding on it, and he keeps forgetting to bring it to school)\n\n\n:ClrHome\n:Disp \"----------------\"\n:For(A,1,16\n:Output(8,A,\"-\n:End\n:{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}→⌊1\n:{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}→⌊2\n:3→W\n:0→E\n:13→X\n:16→A\n:8→B\n:16→C\n:1→D\n:While 1\n:getKey→K\n:If X>1\n:Then\n:If K=24\n:Then\n:If ⌊1(X-1)=1\n:Then\n:Output(8,X,\"-\n:X-1→X\n:Else\n:If randInt(1,5) = 5\n:Then\n:Output(8,X,\"-\n:1→⌊1(X-1\n:X-1→X\n:End\n:End\n:End\n:End\n:If X<16\n:Then\n:If ⌊1(X+1)=1\n:Then\n:Output(8,X,\"-\n:X+1→X"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:readme-8/README.txt'
+image: null
+fileSize: '0'
+fileSizeUnit: '1'
+dateMade: '1411358400'

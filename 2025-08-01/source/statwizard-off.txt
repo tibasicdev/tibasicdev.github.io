@@ -1,0 +1,21 @@
+[[include inc:command
+|picture=
+|summary=Turns the stat wizard off.
+|syntax=STATWIZARD OFF
+|location=Press:Catalog,
+# 2nd CATALOG to enter the command catalog
+# T to skip to command starting with T
+# Scroll up to STATWIZARD OFF and select it
+|compatibility=TI-84/+/SE 2.55 MP
+|size=2 bytes
+]]
+
+The STATWIZARD OFF command disables the use of the Stat Wizard, added in 2.55MP, for statistic and distribution commands as well as seq(.
++ Advanced
+
++ Formulas
+
++ Error Conditions
+
++ Related Commands
+[[[Statwizard On]]]

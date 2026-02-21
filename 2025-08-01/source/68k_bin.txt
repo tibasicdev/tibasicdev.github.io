@@ -1,0 +1,26 @@
+[[include inc:68k-command
+|picture=bin.png
+|summary=The ▶Bin command converts numbers into binary.
+|syntax=//int//▶Bin
+|location=
+# [2nd]
+# [Math]
+# [up or E]
+# [right]
+# [4]
+|compatibility=The command works on all caculators, excluding the TI-94.
+|size=4 bytes
+]]
+{{▶Bin}} converts an integer from decimal (base 10) or hexadecimal (base 16) into binary (base 2). 
+[[code]]
+:15▶Bin 
+         0b1111
+:0h15▶Bin
+         0b10101
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:0b]]]}}
+* {{[[[68k:0h]]]}}
+* {{[[[68k:▶Hex]]]}}

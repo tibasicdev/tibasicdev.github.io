@@ -1,0 +1,9 @@
+Yes, we all hate having to wait on the forums sometimes to receive a response to a relatively simple question, that's why we have...
+
+
+[*http://www.centralchat.net/chatrooms/channel/TiBasicDeveloper] IRC Chat!
+
+
+I will post a link to a free server, and the administrator can either decide to take this off, or change it to his or her liking. Take care!
+
+[[module Redirect destination="http://tibasicdev.wikidot.com/forum:home"]]

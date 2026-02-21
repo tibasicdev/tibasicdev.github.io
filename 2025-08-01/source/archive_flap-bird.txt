@@ -1,0 +1,21 @@
+author: shmuelbaum
+version: '1.0'
+summary: 'flappy bird'
+description: 'it''s a little slow'
+arcade: '1'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: null
+image: null
+fileSize: '1'
+fileSizeUnit: '2'
+dateMade: '1581829200'

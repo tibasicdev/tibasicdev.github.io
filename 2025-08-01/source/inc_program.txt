@@ -1,0 +1,45 @@
+[[div style="float:right; width: 16em; padding: .25em 1em 0; margin: 1em 0 1em 1em; border-left: 1px solid #888; background: #fff;"]]
+
+[!--{$picture}--][[[@@|]]][[image {$picture}]]
+
+[!-- --]
+
+[!--{$summary}--][[[@@|]]]**Program Summary**
+
+{$summary}
+
+[!-- --]
+
+[!--{$size}--][[[@@|]]]**Program Size**
+
+{$size}
+
+[!-- --]
+
+[!--{$libraries}--][[[@@|]]]**Uses Libraries?**
+
+{$libraries}
+
+[!-- --]
+
+[!-- --][!--{$compatibility}--][[[@@|]]]**Calculator Compatibility**
+
+{$compatibility}
+
+[!-- --]
+
+[!-- --][!--{$author}--][[[@@|]]]**Author**
+
+{$author}
+
+[!-- --]
+
+[!-- --][!--{$download}--][[[@@|]]]**Download**
+
+{$download}
+
+[!-- --]
+
+[[/div]]
+
+[!-- Code thanks to James Kanjo --]

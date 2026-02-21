@@ -1,0 +1,21 @@
+author: 'Angelo DeSanto'
+version: 2.2.3.CE
+summary: 'A program to solve for any of three variables: Pressure, Temperature, or Heat of formation.'
+description: "Very easy to use as the program accepts three pressure units (atm, mmHg, & torr), as well as three temperature units (C,K,&F) and converts all of them automatically to an output of Kelvin, Atmospheres, or Kilojoules per mole, depending on the operation performed\n\nDownload includes a Ti-84+CE version, and a Ti-84+ friendly version"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:ccsolver/ccsolver.zip'
+image: 'archiveimage:capture-3/Capture-3.png'
+fileSize: '3'
+fileSizeUnit: '2'
+dateMade: '1490760000'

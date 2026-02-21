@@ -1,0 +1,36 @@
+[[module Members order="joinedDesc"]]
+
+
+++ New Members
+
+[[module ListPages category="member" date="last 3 month"]]
+%%first_paragraph%%
+[[/module]]
+
+**Member Count**
+[[module CountPages category="member"]]
+%%total%% members
+[[/module]]
+
+**Last 3 Members**
+[[module ListPages category="member" order="desc" limit="3"]]
+[[*user %%name%%]]
+[[/module]]
+
+**Currently Active Users:**
+[[module ListPages category="*" order="updated_at desc" date="last 1 week" perPage="250" limit="250" separate="false" appendLine="[[include :snippets:code:_rdr |no-results=There appears to be no active users over the past 24 hours...]]"]]
+
+[[embed]]<iframe frameborder="0" scrolling="auto" style="width: 100%; height: 125px;" src="http://snippets.wdfiles.com/local--code/code:remove-duplicate-results[!--
+
+--]#%%created_by%%[!--
+
+[[/module]]
+
+
+[[include :snippets:syntax type=java]]
+class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+[[include :snippets:syntax-end]]

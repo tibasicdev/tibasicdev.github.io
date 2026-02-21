@@ -1,0 +1,17 @@
+author: ztrumpet
+description: "Oasis is a basic shell for your calculator that will run basic programs.\nYou must have Celtic III (included) to run Oasis."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+image: '/archives:oasis/Oasis.gif'
+download: Oasis.zip
+size: '2751'
+unit: '1'

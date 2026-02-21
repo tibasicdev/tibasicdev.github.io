@@ -1,0 +1,10 @@
+[[table]]
+[[row]]
+[[cell style="vertical-align:top; min-width:100px;"]]
+Joined **{$month} {$day}** --
+[[/cell]]
+[[cell style="vertical-align:top; min-width:300px;"]]
+[[*user {$username}]]
+[[/cell]]
+[[/row]]
+[[/table]]

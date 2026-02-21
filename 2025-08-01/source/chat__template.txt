@@ -1,0 +1,19 @@
+[[module CSS]]
+@import url(http://chat.wdfiles.com/local--code/css:1);
+#edit-preview-button {display: inline-block;}
+[[/module]]
+
+[[div style="display: none;"]]
+[[module Redirect destination="http://chat.wdfiles.com/local--code/javascript:3#%%site_domain%%"]]
+[[/div]]
+[[table class="chat-message"]]
+[[row]][[cell class="author"]]
+[[image http://www.wikidot.com/avatar.php?userid=%%created_by_id%% width="65px" height="65px" alt="%%created_by%%" title="%%created_by%%"]]
+[[/cell]][[cell class="content"]]
+^^%%created_at|Posted %e %B %Y, %H:%M|agohover%% by %%created_by%%. Edited %%revisions%% times.^^
+%%content%%
+[[div style="display : none;"]]
+[[footnoteblock]]
+[[/div]]
+[[/cell]][[/row]]
+[[/table]]

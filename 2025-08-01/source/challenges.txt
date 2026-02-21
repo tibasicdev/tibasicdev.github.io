@@ -1,0 +1,204 @@
+Welcome to the challenges page. Here you will find a wide range of challenges, which will put to use your TI-Basic programming abilities. There will always be several challenges out standing. Most challenges last about two weeks, but some may last longer or shorter than that. Should Judgement Day arrive with only one entrant in the challenge, s/he will not win by default. Instead, Judgement Day will be postponed; Judgement Day is inevitable... (excuse the //Terminator// cliché)
+
+Challenges are ideas that multiple people make into programs, post the final program, and then a winner is decided.
+
+You may [http://tibasicdev.wikidot.com/forum/c-32317/program-challenges post your solutions] to a particular challenge on the [http://tibasicdev.wikidot.com/forum:start TI|BD forums].
+
+To see a list of all the winners, the [[[challenges:hall-of-fame | Hall Of Fame is here]]].
+
+[[toc]]
+
+[[# 1]]
+[[include inc:challenges |number=1 |title=Dice |forum_url=http://tibasicdev.wikidot.com/forum/t-43582/program-challenge-1
+|day=1 |month=05 |year=2008
+|criteria=The first challenge is to design a program that will roll dice. The program should support dice with the following intervals: 4-sided (d4), 6-sided (d6), 8-sided (d8), 10-sided (d10), 12-sided (d12), 20-sided (d20), and d% (100-sided). In other words, the DnD dice. It should also support multiple die rolls at a time, as in 3d6 being rolling a 6-sided die three times. The program should be graphical, and store the results to L1. How you present it is up to you. The winner will be the one whose program executes fastest and takes up the least space. Post your final programs on the forums for judging.
+
+|reviewer=Socks
+|review=I give victory to burr simply because his program does **exactly** what was required, and takes up so little space it is negligible.
+]]
+
+[[# 2]]
+[[include inc:challenges |number=2 |title=Analogue Clock |forum_url=http://tibasicdev.wikidot.com/forum/t-52105/program-challenge-2
+|Entries judged on the |day=21 |month=04 |year=2008
+|criteria=The second challenge is to design an analogue clock. Display a circular face with minute and hour hands and a sweeping dot for the seconds. Also display AM/PM and the date. Use the calculator's MODE to set the clock. The program will be judged on size.
+
+|reviewer=Socks
+|review=AJLitzau13's program utilised the clock functions of the TI-84, which made it incompatible with older calculator models. James Kanjo's program was very similar to AJLitzau13's, except it had programed functions to calculate the date and time. This made his program universally compatible, however; the program was slightly larger. Therefore AJLitzau13 won the challenge.
+]]
+
+[[# 3]]
+[[include inc:challenges |number=3 |title=Game Introduction |forum_url=http://tibasicdev.wikidot.com/forum/t-67540/program-challenge-3
+|Entries judged on the |day=30 |month=07 |year=2008
+|criteria=The intro can be as long as you want, but it must be at least 30 seconds. The intro can contain animation, text, graphics, or whatever else you want, just make it look as nice as possible. Also, the user should be able to stop the intro at any time.
+
+|reviewer=James Kanjo
+|review=Both animations were actually very captivating, and of very high quality for a game introduction.
+
+builderboy's animation was for a game called "The Matrix", which consisted of the "Matrix Effect", random symbols falling down the screen. When you would press "ENTER", the words "THE MATRIX" would form in the middle of the page, before loading some dialog from the film.
+
+graphmastur's animation was really cool as well, with interesting patterns and shapes being created before your eyes. It had no set title, but it gave a nice little section for the game's title.
+
+What led to my executive decision was the file sizes of the programs. I had to delete almost every program on my calculator to even put graphmastur's animation on it. And because the program was well over 13000 bytes, it gave little room (if any) for the game itself.
+]]
+
+[[# 4]]
+[[include inc:challenges |number=4 |title=Roman Numerals |forum_url=http://tibasicdev.wikidot.com/forum/t-86719/program-challenge-4
+|Entries judged on the |day=20 |month=09 |year=2008
+|criteria=Have the user input a number, and then convert it to the appropriate Roman numerals. You should include support for the main Roman numerals: I (1), V (5), X (10), L (50), C (100), D (500), and M (1000). You don't have to worry about decimals or negative numbers, but your program should be able to handle numbers as large as 10,000.
+
+|reviewer=Socks
+|review=All right, this was a tough one. After much thought, I went with patriotsfan's submission, because although it was larger (411 bytes), it ran the fastest, and scrolled, in my opinion, the best. In the end, I chose it over a smaller program because it didn't use strings, and therefor didn't leave a large number of characters in a string that could be forgotten about.
+
+The smallest program, at 129 bytes, was quite impressive in terms of size, but that it failed to convert IIII to IV, making some numbers display wrong, and 10,000 didn't display at all. A clever algorithm, but lacking in just enough aspects not to win.
+
+Overall, all of the programs were very nice, and it was hard to pick one.
+]]
+
+[[# 5]]
+[[include inc:challenges |number=5 |title=Number Words |forum_url=http://tibasicdev.wikidot.com/forum/t-92413/program-challenge-5
+|Entries judged on the |day=31 |month=10 |year=2008
+|criteria=Have the user input a number, and then convert it to the word equivalent. Display the number and its word equivalent on the screen. You should include support for both whole numbers and decimal numbers, but you don't have to worry about negative numbers. For example: 423 = Four hundred twenty-three (notice the hyphen). The ceiling of the challenge is 10,000.999
+
+|reviewer=James Kanjo
+|review=This was an interesting challenge, and it had quite a discussion in the forums on the criteria. The maximum limit was actually specified on the forums, instead of here. You can see my individual comments on each program page. Basically what it comes down to is the criteria first, and then other factors (such as speed, size, user-interface, etc, etc.). Two out of three solutions failed to meet the criteria on the same number -- zero! And therefore the challenge goes to Timothy Foster, who met the challenge perfectly, in addition to having the fastest algorithm and most interesting display of the solution.
+]]
+
+[[# 6]]
+[[include inc:challenges |number=6 |title=GUI (Graphical User Interface) |forum_url=http://tibasicdev.wikidot.com/forum/t-98565/program-challenge-6
+|Entries judged on the |day=01 |month=01 |year=2009
+|criteria=Have the user be able to input some sort of input, like a list in ans, and be able to put an outline on the graphscreen.  It should be able to do any configuration of a gui screen and should be able to do the same thing no matter what the graphscreen size is.  Also, this is not required, but if you want to show how amazing you are at programming, and yes this will get you extra points just for trying, you can make GUI Tools.  For example, a checkbox, scroll bar(s), and text input.
+|participants=noahbaby94
+|reviewer=graphmastur
+|review=This was an interesting competition.  If you haven't looked at the criteria, the challenge was to build a gui.  Well, we have two gui.  One is custom editable, and one is not.  Noah's was not custom editable.  However, I thought it was really interesting.  The only complaint I would have on his is the fact that you could only print up to five letters, and couldn't press del for backspace.  Had to press clear, and it would clear the whole thing.  I also liked how you could choose who you wanted to be, and the icon would change.  This could actually be used well for a game.
+
+Now on to Zaphod's program.  I'm glad he included an example program.  For some reason, whenever I tried to create my own, it gave me a data Type error.  I never could figure out why.  Any way, the example program was an info card, that you could fill out, which included your birth date, allergies, and you're name.
+
+Originally, this challenge was supposed to be for a custom GUI.  However, I liked Noah's quite a bit, so I let him stay in.  Then, when I tried to create a custom GUI on Zaphod's program, and it didn't work, it really leveled the playing fields.  Just for the record, I did go by what was in the readme.  I don't know why it wouldn't work.  But since he included an example program, I now am limiting it down to just a GUI.  As for the GUI itself, I would have liked to see Zaphod's print out some kind of message or card that gave the info in a more readable format.
+
+As for the winner of the challenge goes, I will have to give this one to Zaphod.  He gave a nice looking GUI, and a very long, and good readme.  However, I will have to say good job to all of the contestants.  Congratulations.
+]]
+
+[[# 7]]
+[[include inc:challenges |number=7 |title=SADMEP |forum_url=http://tibasicdev.wikidot.com/forum/t-108944/the-7th-challenge
+|Entries judged on the |day=10 |month=05 |year=2009
+|criteria=Due to complications with the delay on Challenge 6, the criteria has been changed as to not let anyone have a head start accidentally.
+
+As you should notice, the title of this challenge is SADMEP, or PEMDAS backwards.  In this program, you must have the user input any expression (exclude trigonometry or logarithmic functions) and have the expression solved using a SADMEP method.  This means to solve Addition and Subtraction left to right, then do multiplication and division left to right, then do exponents and roots left to right.  Parentheses will still come first because the math cannot work if they are done last.
+
+Example:  Simplify 2+3*4/2^4-1
+5*4/2^3
+20/2^3
+10^3
+**1000**
+(//Real answer is normally ^^7^^/,,4,,//)
+
+Here are the official rules:
+# Only the operators +, -, *, /, (, ), ^, ^^2^^√(, ^^x^^√, ^^2^^, ^^-1^^,‾, and implied multiplication will be used
+# Anything in parentheses are done first (therefore, rather than SADMEP, it's more like PSADME)
+# Addition and subtraction are done first left to right
+# Multiplication and division are done second left to right
+# Exponentiation is done last left to right
+# Negation will make a number negative.  So ‾5+5 is still 0.  ‾(5+5)+5 is ‾5.
+# ^^2^^ and ^^-1^^ are considered the same level as ^
+# I will always test with completed parenthetical pairs.  In other words, I won't leave parentheses off.
+# ^^2^^√( and ^^x^^√ are considered their own function, and they will be done before anything.
+# ^^x^^√ will operate before anything.  So, 1+3^^x^^√27*3 will simplify to 1+3*3, which simplifies to 12.  If parentheses are used, respect them.  (1+3)^^x^^√(27*3) simplifies to 4^^x^^√81, which is 3.
+# I will not use any variables.  Only numbers.
+# Your program must successfully pass 15 different expressions.
+# The goal is for this to end May 10.  If I do not have at least three contestants by then, **this challenge will shut down.**
+
+If you have any questions, please post in the [http://tibasicdev.wikidot.com/forum/t-108944/the-7th-challenge forums].  Thank you.
+
+|upload=
+
+|reviewer=Timothy Foster
+|review=Unfortunately, since there was very little interest in this challenge, it has been officially canceled.
+]]
+
+[[# 8]]
+[[include inc:challenges |number=8 |title=One K |forum_url=http://tibasicdev.wikidot.com/forum/t-154041/the-8th-challenge#post-471484 |day=20|month=06|year=2009
+|criteria=
+The 8Th challenge will be to create the best possible game that is under 1 kilobyte (defined to be 1024 bytes and excluding the name).  The programs will be graded on:
+**Use of memory**	The program must use all memory wisely, not spending too much for frivolous features, but not spending too little as to be unappealing
+**Playability and Enjoyment**	The program must actually be fun to play. This category will be lax; if its a game, it will qualify
+
+//Games must be made in PURE Ti Basic.  No libs of any kind,  and no writing in other created languages, (Such as BBCBasic)//
+
+//All games must reside in one program, no subprograms of any kind//
+
+|reviewer=builderboy
+|review=There were 4 very nice games submitted to this contest, and it took me some time to finaly come to a decision about the winner, Seb83 with his Bomber game.
+
+Bomber had a surprising amount of stuff packed into that 1024 Byte program, with a nice custom GUI, 3 difficulties, a different highscore for each difficulty, and very nice looking bomb graphics! The gameplay is surprisingly addicting, where you need to keep an eye on all 5 bombers to look for the right moment to defuse them. Miss a bomb or press the wrong button and BOOM, game over, although you get the option to play again.
+
+With addicting gameplay, great graphics, and a fantastic use of all 1024 bytes, I am proud to announce that Seb83 and his Bomber game have won challenge 1K! Congratulations and thank you to all that have participated!
+]]
+[[# 9]]
+[[include inc:challenges |number=9 |title=Complete OS
+|forum_url=http://tibasicdev.wikidot.com/forum/t-164477/program-challenge-9
+|day=31|month=11|year=2009
+|criteria=This is a very special challenge. It does not focus on a particular task, like some of the other challenges, but rather it is a test of what you can do, where almost anything goes. As the title says, this will be a challenge to make an OS. What is interesting is what I will allow for this. You must use TI BASIC is you primary language. However, you may use any libraries from celtic2 to xLib, to libraries that you write yourself. There are a few requirements for the assembly programs though.
+
+**1**) It must be able to handle any errors that are thrown, like how celtic2 throws errors, and must be able to adjust what it does based on that.
+**2**) Make sure that the assembly program can never receive any bad input. This means that when you are programming this os, you might want to back it up often, in case of ram clears.
+**3**) Any assembly program that you use, must be included inside the folder containing your program, as a separate folder, listing the original readme and program file. You must also have all programs that need to be downloaded to the calc, in an easy way to download it.
+**4**) You must have some basic code.  5 lines of basic code, and the rest being assembly programs will be disqualified.  The assembly programs are for libraries that you can use to see things like what programs are able to be run, or drawing graphics on the screen.
+**5**) You may not make your own assembly programs.  Your basic code must be fitted around your assembly libraries, not the other way around.  However, if you make an asm program, you must release it at least a week in advance, and announce it for the other competitors. 
+
+This was challenge was designed to take everything available to you, and use it to the best of your abilities.  Because this is a test of what you can do, I will make no rules.  Anything goes, as long as it looks somewhat like an operating system, even if it is a terminal type application
+|upload=
+
+|reviewer=graphmastur
+|review=Okay, so we have two entries. IlliniOS and Oasis.  There was a problem, however, when I ran Oasis.  It didn't work.   It got to a line where it was reading from the appvar.  The appvar didn't exist, and so it returned "..P:nt:fn", which when the expr( command tried to parse that, it threw the error.
+
+As for IlliniOS, it was difficult to send the group at first, but it finally sent.  I tried the no usb version, and it was fairly good.  I simply have three complaints.  The mouse doesn't have a mask over it, which is not a big deal, it just kinda looks better.  The mouse wouldn't move in 8 directions, which is also not a big deal.  The one thing I didn't like was the fact that the programs had to start with a colon to even be recognized.  I mean, that is fine and all, but I think it should add some features to basic if it did that.
+
+Since I couldn't get Oasis to run, IlliniOS wins by default.  However, in all fairness I did observe the screenshot.  It looked clean and simple.  Both of these OS ran programs, and both used celtic3.  However, I think IlliniOS used the utilities best.  Eg. Xtravar, Celtic3, and USBdrv8x.
+]]
+
+
+[[# 10]]
+[[include inc:challenges |number=10 |title=AI Battle
+|forum_url=http://tibasicdev.wikidot.com/forum/t-202875/challenge-10
+|day=sometime |month=in the |year=future
+|criteria=
+In this challenge, you must make a Connect 4 game with an AI that plays against a human.  To make sure that all of the rules of Connect 4 are established:
+* Two plays play against each other with two different color tiles: white and black.
+* The playing field is **6 rows X 7 columns**, rows being horizontal and columns being vertical.
+* Players alternate dropping their markers into the playing field with gravity effective.  Practically, the player selects which of the seven columns to drop the talent, and it falls to the bottom or on top of the highest coin.
+* The first player to get 4 in a row, either horizontally, vertically, or diagonally, wins.
+
+In the program, these rules are non negotiable:
+* The program must work and be free of all bugs that inhibit gameplay
+* There must be an option for allowing the AI to go first
+* The AI must not cheat
+* A win must be made obvious (if a four in a row occurs, it must pronounce the winner)
+* The program must be in **PURE BASIC**.
+* The program should be less than 20000 bytes in size
+
+The overall point of this challenge is to create a fully functional AI that is competent.  To determine the best AI, AI's will be played against each other via two calculators, and the champion AI will be declared as the winner program.  Thus, as the overall focus of the challenge is to build a competent AI, size or graphics will not be factored into the challenge, just as long as the program is down-loadable and it is obvious which talents belong to one player and which belong to the other.
+
+|upload=TRUE
+
+|reviewer=
+|review=
+]]
+
+
+
+
+
+
+[!--
+
+Challenge: Large Numbers
+Make a program that will calculate the exact values of math problems involving larger digits. For example, 1234567890^2 would normally give you something like 1.524E18. But in your program, it will give you 1524157875919052100. Your program should have support for addition, subtraction, multiplication, and raising to exponents. The larger the numbers your program can handle, the better.
+
+Possible Judging Categories: Best Overall, Best Interface, Most Efficient, Honorable Mention
+
+CH 7.
+You must have the user input text of no more than thirty characters and then have the calculator display that text on the graph screen in a pretty font.  The text should take up most of the graph screen no matter how long the string is.  Also, the font type should be pleasing and not generic.  If the text is more than thirty characters, then the calculator should say that it cannot follow up with the application.  The program will be judged if it meets the criteria first.  I will input 7 different texts, and the program must pass all of them.  Next, the program will be judged on appearance and size.
+
+Challenge idea: WordForge
+Bah!  Who needs math when you have English?  In this challenge, you must make a program that will turn five inputted letters into a real English term!  The judge will give your program five letters (2 or 3 of which must be vowels excluding y) which will always be able to form an English word.  Your program must then rearrange those letters into any five-letter English word.  For instance, if KASTE is given, SKATE, STEAK, STAKE, or TAKES would all be appropriate outputs.  Ten sequences will be tested, and whoever has the most points (best out of 10) wins!  In the case of a tie, the smallest program will win.
+--]

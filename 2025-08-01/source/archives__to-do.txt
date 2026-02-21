@@ -1,0 +1,14 @@
+[[size 150%]]Here is the list of all programs waiting to be processed. It is in the order of "first in first serve", so the people that submited their programs first are at the top of the list.[[/size]]
+
+[[module ListPages category="*" tags="+_pending" perPage="50" order="dateCreatedAsc" separate="false"]]
+# %%title_linked%% since %%date|%O ago%%
+[[/module]]
+
+[[div style="border-bottom: 2px solid #666;"]]
+[[/div]]
+
+[[size 150%]]Here is the list of all programs waiting to be updated:[[/size]]
+
+[[module ListPages category="archives" tags="+update" perPage="50" order="dateCreatedAsc" separate="false"]]
+# %%title_linked%% since %%date_edited|%O ago%%
+[[/module]]

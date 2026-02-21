@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=clrdraw.png
+|summary=Clears the graph screen, redrawing any functions, plots, or axes/grid/labels.
+|syntax=ClrDraw
+|size=2 bytes
+]]
+
+The {{ClrDraw}} command clears away anything drawn on the graph screen -- that is, the result of any of the [[[68k:graphics]]] commands, except for {{[[[68k:Graph]]]}} (which you can only clear with {{[[[68k:ClrGraph]]]}}). It also leaves alone any functions or plots (which are disabled by {{[[[68k:FnOff]]]}} and {{[[[68k:PlotsOff]]]}}, respectively), as well as axes, labels, a grid, etc. (which can be disabled by the {{[[[68k:setGraph()]]]}} command).
+
+Be warned that it doesn't update the screen. For example, if you run the following program:
+[[code]]
+:circ()
+:Prgm
+:Circle 0,0,5
+:ClrDraw
+:EndPrgm
+[[/code]]
+it will draw a circle and then end on the graph screen with the circle still drawn. The screen will actually update the next time you change something on the graph screen; you can also use {{[[[68k:DispG]]]}} to update it (although in the program above, {{[[[68k:DispHome]]]}} might be more appropriate).
+
++ Related Commands
+
+* {{[[[68k:ClrGraph]]]}}
+* {{[[[68k:ClrHome]]]}}
+* {{[[[68k:ClrIO]]]}}
+
++ See Also
+
+* [[[68k:setup-and-cleanup|]]]

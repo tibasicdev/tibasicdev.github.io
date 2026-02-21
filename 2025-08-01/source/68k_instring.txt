@@ -1,0 +1,31 @@
+[[include inc:68k-command
+|picture=instring.png
+|summary=Finds a search string in another string.
+|syntax=inString(//string//, //search-string//,[)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press D to enter the Strings submenu.
+* Press 6 to select inString(.
+
+|size=3 bytes
+]]
+
+The inString() command searches for one string inside another, starting from the beginning and going forward. If it finds the string, it returns the position where it finds it. If it doesn't find the string, it returns 0. If the string is there multiple times, it will only find the first one.
+
+Optionally, you can also give inString() a starting position. In that case, it won't find any occurrences of the strings earlier than that position.
+
+[[code]]
+:inString("Chop shops stock chops.","hops")
+           7
+:inString("Chop shops stock chops.","hops",8)
+           20
+:inString("Chop shops stock chops.","stocks")
+           0
+[[/code]]
+
++ Related Commands
+
+* [[[68k:mid(]]]
+* [[[68k:ord(]]]
+* [[[68k:string(]]]

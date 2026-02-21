@@ -1,0 +1,112 @@
+{$part1begin}
+
+> To add a DYK, move the second DYK from {$part2} to {$part3}, and add a new DYK to {$part2}. See the [[[did-you-know|Did You Know... Archives]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
+…that it is actually sometimes better to leave on the closing parentheses on the [[[For(]]] loop?
+
+…that a memory leak is caused when you use a [[[goto|Goto/Lbl]]] within a [[[while|loop]]] or [[[If]]] conditional (anything that has an [[[End]]] command) to jump out of that control structure before the End command is reached?
+
+…that you can omit the closing parentheses, quote, square bracket, curly brace, etc. at the end of a command or function?
+
+{$part2end}
+{$part3begin}
+
+…that while using [[[seq-list|seq(]]], the calculator can still interpret keypresses and store them to [[[getKey]]]?
+
+…that you can use [[[tanh]]](,,E,,9X to compute the sign of X?
+
+…that [[[Line(]]] has an optional fifth argument that, if zero, will //erase// the pixels on a line?
+
+…that you can remove the "Done" message that appears after a program is finished running by placing an expression, some text, or just a quote on the last line of your program?
+
+…that you can use [[[rand]]](# to create a time delay?
+
+…that you can use multiple //text// arguments at the end of one Text( command to write, for example, Text(R,C,"Score",S)?
+
+…that you can draw with different plot marks using [[[Pt-On]]](X,Y,#)?
+
+…that you can save memory when displaying text by replacing words such as "If" and "Time" with the appropriate commands?
+
+…that "0<X<10" will actually compare "0<X" first, and compares the result (0 or 1) to 10, so "0<X and X<10" should be used instead?
+
+…that using [[[deltalist|ΔList(]]] together with [[[cumSum(]]] will return a list with its first element removed?
+
+…that there are 256 [[[pictures|picture variables]]] built-in to the TI-83+ calculator, even though the calculator only shows 10 picture variables?
+
+…that you can enable the faster circle drawing flag on the TI-83+ by placing a list with an imaginary //[[[i]]]// after the last argument of the [[[Circle(]]] command?
+
+…that you can get the [[[homescreen|home screen]]] font on the [[[graphscreen|graph screen]]] (except on the regular TI-83) by placing a '-1' at the beginning of the [[[Text(]]] command?
+
+…that you can get the number of digits in a whole number by using the formula 1+int(log(#?
+
+…that the smallest way to implement the distance formula is by using the [[[R►Pr(]]] command?
+
+…that you can use the [[[percent|%]]] symbol or [[[sub|sub(]]] with one argument as a smaller replacement for multiplying by .01?
+
+…that you can get rid of the run indicator by using Text(-1,0,90," ") on the graph screen and Output(1,16," ") on the home screen?
+
+…that you can run your TI-Basic program from an [[[asmshells|assembly shell]]] by placing a colon (":") as the first line of your program?
+
+…that you can store to the [[[lists|list]]] element one past the last element to add it to the end?
+
+…that it is actually sometimes better to leave on the closing parentheses on the [[[For(]]] loop?
+
+…that the [[[system-variables#finance|finance variables]]] are the fastest variables to use, even faster than [[[Ans]]]?
+
+…that the [[[String►Equ(]]] command is completely useless, and you can store a string into one of the [[[system-variables#equation|equation variables]]] just using the → ([[[store]]]) operator?
+
+…that the fastest way to check for a whole number is not([[[fPart(]]]?
+
+…that you can [[[compression|compress]]] a list of related numbers by combining them into integer and fraction parts?
+
+…that the majority of the [[[graphscreen|graphics]]] commands are dependent upon the [[[system-variables#window|window dimensions]]], so you should always use a [[[friendly-window|friendly graphing window]]] to ensure everything shows up as you intended?
+
+…that you can make [[[subprograms]]] that are contained inside the program itself, so that they can be called by the program whenever needed?
+
+…that you can use [[[SetUpEditor]]] to UnArchive a list, but at the same time create it if it doesn't exist?
+
+…that you can get away with not having a colon or a new line after [[[DelVar]]]?
+
+…that placing a [[[Lbl]]] after [[[DelVar]]] will make that Lbl literally disappear?
+
+…that you can scroll the [[[Pause]]] command's optional argument to see it in its entirety?
+
+…that the smallest (though not the fastest) way to shade the entire [[[graphscreen|graph screen]]] is Shade(Ymin,Ymax)?
+
+…that pressing alpha in the program editor followed by up or down, you will scroll a whole page of program code?
+
+…that pressing 2nd right in the program editor will take you to the end of your current line, and 2nd left will take you to the beginning of that line?
+
+…that TI added several new TI-Basic commands to the newer TI-84+/SE calculators?
+
+…that any math calculations that involve extremely small or large numbers (ranging from -,,E,,99 to ,,E,,99) will produce rounding errors that don't return the right number?
+
+…that a memory leak is caused when you use a [[[goto|Goto/Lbl]]] within a [[[while|loop]]] or [[[If]]] conditional (anything that has an [[[End]]] command) to jump out of that control structure before the End command is reached?
+
+…that a [[[Repeat]]] loop will always loop at least once, regardless of if the condition is true or false before entering the loop?
+
+…that the arrow and DEL keys can actually be held down, which will cause the key to keep being repeated until it is unpressed?
+
+…that the [[[key codes]]] follow a simple pattern: a key is represented by putting its row and column together?
+
+…that you can access the lowercase letters by using an [[[assembly]]] program to turn on the lowercase flag that the calculator uses for enabling lowercase letters?
+
+…that the [[[Horiz]]] will split the screen in half horizontally, with both the graph screen and home screen being shown at the same time?
+
+…that the [[[expr(]]] command allows you to store an expression to a [[[strings|string]]] and then execute the string?
+
+…that the TI-83 series of calculators does implicit [[[multiply|multiplication]]], so there is no need to ever use the * sign?
+
+…that [[[iPart(]]] and [[[int(]]] will return the same answers for positive numbers, but int( will return an answer 1 less than iPart( for (non-integer) negative numbers?
+
+…that [[[lists]]] are the only variable that you can give your own names to?
+
+…that you can omit the closing parentheses, quote, square bracket, curly brace, etc. at the end of a command or function?
+
+…that [[[Finance]]] under the Applications menu is really not an application at all?
+
+{$part3end}
+[!-- Code thanks to James Kanjo --]

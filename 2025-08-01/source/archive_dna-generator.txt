@@ -1,0 +1,21 @@
+author: Minxrod
+version: '0.9 beta'
+summary: 'A program that asks for a DNA or RNA sequence, then gives the complementary sequence and displays it!'
+description: "This quick little program can generate a complementary DNA/RNA sequence for DNA/RNA, and then displays the result. In color!\n\nCurrently functional - it works if you 'play by the rules.' Invalid characters will crash the program, and the display looks strange if you have too small of a sequence.\n\nPlanned: \n1.0 - Main release, character check, will include key on diagram (what color is what base)\n1.0/1.1 - Optimizations and bugfixes, a readme that is 'slightly' helpful (instructions that are mostly self explanator)\n\nTo install, just send the file ACTG.8xp to your TI-84+CSE or TI-84+CE."
+arcade: '0'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: ff
+download: 'archivefile:actg-1/ACTG.8xp'
+image: 'archiveimage:dnapic3-1/DNAPIC3.png'
+fileSize: '603'
+fileSizeUnit: '1'
+dateMade: '1455253200'

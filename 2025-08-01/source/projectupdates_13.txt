@@ -1,0 +1,1 @@
+Okay, so the program works on mac. Well, almost. I still have to finish a few things, but since I can send byes on the mac side, I should be able to start with the main java wrapper. I still don't know about windows, though.

@@ -1,0 +1,1 @@
+…that the smallest (though not the fastest) way to shade the entire [[[graphscreen|graph screen]]] is {{[[[Shade(]]][[[system-variables|Ymin]]],[[[system-variables|Ymax]]])}}?

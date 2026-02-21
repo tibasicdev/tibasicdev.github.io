@@ -1,0 +1,19 @@
+[[include inc:command
+|picture=DEPENDAUTO.GIF width="192" height="128" style="border: 1px solid black;"
+|summary=Enables automatic calculations in the table.
+|syntax=DependAuto
+|location=Press:
+# 2nd TBLSET to access the table settings menu.
+# Use arrows and ENTER to select Auto from the Depend: line.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+When the {{DependAuto}} setting (opposed to the {{[[[DependAsk]]]}} setting) is turned on, values in the table are automatically calculated. With {{[[[IndpntAuto]]]}}, that means the table is automatically filled out completely; with {{[[[IndpntAsk]]]}}, that means that as soon as you enter a value for the independent variable, all the values of the dependent variables are calculated. This is usually the setting you want to use.
+
++ Related Commands
+
+* {{[[[IndpntAuto]]]}}
+* {{[[[IndpntAsk]]]}}
+* {{[[[DependAsk]]]}}
+* {{[[[DispTable]]]}}

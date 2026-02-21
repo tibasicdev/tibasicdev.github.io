@@ -1,0 +1,1 @@
+It might be possible to retrofit [[[board:_main|this thing I made a long time ago]]] as an admin forum rather than a general forum.  It isn't exactly the same as the regular forums, though, because to be frank, emulating them exactly isn't really feasible.

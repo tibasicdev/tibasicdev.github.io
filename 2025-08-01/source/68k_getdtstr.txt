@@ -1,0 +1,34 @@
+[[include inc:68k-command
+|picture=getdtstr.png
+|summary=Returns the current date in a string.
+|syntax=getDtStr([//format//])
+|ams2xx=07
+|size=3 bytes
+]]
+
+The getDtStr() command returns the current date in a string. The date can be in one of eight formats, numbered from 1 to 8. This format can be given to getDtStr() directly: for instance, getDtStr(5) will return the date in the fifth format. Or, you can set a default format with the [[[68k:setDtFmt()]]] command, and getDtStr() will use that format when it's not given a specific format to use.
+
+The eight formats are as follows (dd, mm, and yy are the date, month, and year respectively, in two digits)
+
+||~ Format Number ||~ Result of getDtStr() ||
+|| 1 || "mm/dd/yy" ||
+|| 2 || "dd/mm/yy" ||
+|| 3 || "mm.dd.yy" ||
+|| 4 || "dd.mm.yy" ||
+|| 5 || "yy.mm.dd" ||
+|| 6 || "mm-dd-yy" ||
+|| 7 || "dd-mm-yy" ||
+|| 8 || "yy-mm-dd" ||
+
+Formats 5 and 8 are useful in that if you store dates in either of those format, sorting the strings will sort the dates in chronological order.
+
++ Error Conditions
+
+[[include inc:68k-error num=40|error=Argument error|cause=the date format given is not an integer 1-8]]
+
++ Related Commands
+
+* [[[68k:getDate()]]]
+* [[[68k:getDtFmt()]]]
+* [[[68k:setDate()]]]
+* [[[68k:setDtFmt()]]]

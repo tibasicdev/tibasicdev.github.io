@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Hangman
+|author=TI-Basic Developer
+|size=444 Bytes
+|description=Alternate turns trying to guess a word by selecting the letters that make up the word until the word is correctly guessed or you run out of chances.
+
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/hangman/hangman.zip
+|downloadName=Hangman.zip
+
+|83compatible=DO NOT EDIT
+]]

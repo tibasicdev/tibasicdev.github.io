@@ -1,0 +1,1 @@
+[[image minesweeper.gif width="175px" height="117px" link="minesweeper" alt="Minesweeper"]]

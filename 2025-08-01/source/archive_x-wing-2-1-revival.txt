@@ -1,0 +1,21 @@
+author: 'Oxiti8, Scott Westenhaver, Chris Tandiono'
+version: 2.1.4
+summary: 'An action packed X-Wing flight sim where you shoot down endless waves of enemy TIE Fighters to achieve a high score.'
+description: "X-Wing 2.1.4 Revival is an unofficial update to Chris Tandiono's 2004 83+ port of Scott Westenhaver's X-Wing 2.0, a 3D flight simulator where you shoot down TIE Fighters. 2.1.4 Revival fixes the issues of the original port by removing memory leaks, making the game set itself up at launch rather than relying on a separate program, reducing \"flicker\", and much more. On top of that, 2.1.4 adds 3 new endings as well as a new difficulty level, JEDI, to the game, 3 custom ships, and shell compatibility with a custom DCS icon. To top it all off, X-Wing 2.1.4 is 170 bytes smaller than the original X-Wing 2.0 port!\nIt's the ultimate way to play X-Wing 2!"
+arcade: '1'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:xwing2-1-4/xwing2-1-4.zip'
+image: null
+fileSize: '4879'
+fileSizeUnit: '1'
+dateMade: '1616817600'

@@ -1,0 +1,2 @@
+content: "I do like the \"Goto this post\" thing, too.\nAlso, would it be possible to edit a post that's attributed to your IP?"
+attachment: null

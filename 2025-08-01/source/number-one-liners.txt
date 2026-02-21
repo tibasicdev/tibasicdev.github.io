@@ -1,0 +1,92 @@
+This page is dedicated to showcasing small snippets of code that may be useful. These small routines are designed to accomplish tasks involving numbers and their attributes. Unless specified, the output is in Ans.
+
+------
+**Rounding** - [[user lirtosiast]], [[user Trenly]] 
+
+The int( command always rounds towards -∞, and iPart( rounds towards 0. Here are the other two directions:
+[[code]]
+-int(-X                   //rounds towards +∞
+[[/code]]
+[[code]]
+iPart(X+not(not(fPart(X   //rounds away from 0
+[[/code]]
+
+For natural rounding, where a number rounds up if the decimal part is greater than one half and down otherwise, use this:
+[[code]]
+iPart(X+(fPart(X)≥.5
+[[/code]]
+
+To round towards the nearest N or multiple of N, the code would be:
+[[code]]
+X/N->X
+NiPart(X+(fPart(X)≥.5
+[[/code]]
+------
+**Number Concatenation** – [[user DarkerLine]]
+
+Returns the number formed by concatenating positive integers M and N.
+[[code]]N+M10^(1+int(log(N[[/code]]
+
+------
+**Number of Digits in Nonzero Integer**
+
+If X is always positive, remove the "abs(".
+[[code]]1+int(log(abs(X[[/code]]
+
+------
+**Number of Digits in Decimal Number** – [[user Weregoose]], [[user lirtosiast]]
+[[code]]
+not(X)+sum(0 or fPart(abs(X10^(cumSum(binomcdf(13,0))-2-int(log(abs(X+not(X
+[[/code]]
+
+------
+**Sum of Digits of Integer** – [[user DarkerLine]], [[user lirtosiast]]
+
+If X is always nonnegative, remove the "abs(".
+[[code]]sum(int(10fPart(abs(X10^(-cumSum(binomcdf(13,0[[/code]]
+
+------
+**Sum of Digits of Decimal Number** – [[user DarkerLine]], [[user lirtosiast]]
+
+If X is always nonnegative, remove both "abs(". If nonzero, remove the "+not(X".
+[[code]]
+sum(int(10fPart(abs(X10^(cumSum(binomcdf(13,0))-2-int(log(abs(X+not(X
+[[/code]]
+
+------
+**Fraction Simplifier** – [[user Battlesquid]]
+
+Simplifies fractions where A is the numerator and B is the denominator.
+
+With [[[Disp]]]
+
+[[code]]
+"A/B▶Frac"→Str1
+Disp expr(Str1
+[[/code]]
+
+With [[[Output(]]]
+
+[[code]]
+"A/B▶Frac"→Str1
+Output(1,1,expr(Str1
+[[/code]]
+
+Alternatively, there is [[user Xeda Elnara]]'s method, but an [[[abs]]] command would have to be used to ensure that there is not a negative input.
+
+[[code]]
+gcd(A,B→C
+A/C→A
+B/C→B
+[[/code]]
+
+------
+**Base,,10,, to Base,,2,, (Decimal to Binary)** – [[user coltonj96]]
+
+Takes any whole positive number and converts it to binary.
+
+[[code]]
+Σ(int(2fPart(2ֿֿ¹Ans/(2^A)))10^A,A,0,iPart(round(log(Ans)/log(2),1
+[[/code]]
+
+Input must be a whole positive integer and be less than 1024 due to limit of 10 digits

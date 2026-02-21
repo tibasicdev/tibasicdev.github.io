@@ -1,0 +1,3 @@
+name: ''
+content: 'darn... I don''t know how to go about doing this problem. They never teach us any probability at my school >:( I don''t think I''d be able to do it anyway, though.'
+attachment: null

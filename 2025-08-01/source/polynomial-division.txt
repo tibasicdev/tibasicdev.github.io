@@ -1,0 +1,98 @@
+[[div style="float:right; width: 16em; padding: 1em 1em 0; margin: 1em 0 1em 1em; border-left: solid #888888 1px; background-color: #FFFFFF;"]]
+**Routine Summary**
+
+This program will divide two polynomials of any positive integer degree.
+
+**Inputs**
+
+//L,,1,,//- Dividend
+//L,,2,,//- Divisor
+
+**Outputs**
+
+//L,,3,,//- Quotient coefficients in descending degree
+
+**Variables used**
+
+L,,1,,, L,,2,,, L,,3,,, A, B, D
+
+**Calculator Compatibility**
+
+TI-83/84/+/SE
+
+**Author**
+
+Timothy Foster
+
+**Download**
+
+[http://tibasicdev.wikidot,com/local--files/polynomial-division/POLYDIV.8xp polydiv.8xp]
+[[/div]]
+[[collapsible show="+ Show Input Code" hide="- Hide Input Code" HideLocation="bottom"]]
+[[code]]
+:ClrHome
+:DelVar L₁DelVar L₂
+:Disp "DEGREE
+:Input "DIVIDEND ",A
+:Input "DIVISOR ",B
+:A+1→dim(L₁
+:B+1→dim(L₂
+:ClrHome
+:Disp "TERM COEFFICIENTS
+:Disp "
+:For(A,1,dim(L₁
+:Output(2,1,"DIVIDEND
+:Output(2,10,A
+:Input D
+:D→L₁(A
+:End
+:ClrHome
+:Disp "TERM COEFFICIENTS
+:Disp "
+:For(A,1,dim(L₂
+:Output(2,1,"DIVISOR
+:Output(2,9,A
+:Input D
+:D→L₂(A
+:End
+[[/code]]
+[[/collapsible]]
+[[code]]
+:DelVar L₃
+:For(A,1,dim(L₁)+1-dim(L₂
+:L₁(A)/L₂(1→L₃(A
+:For(B,2,dim(L₂
+:L₃(A)L₂(B
+:-Ans+L₁(A+(B-1→L₁(A+(B-1
+:End
+:End
+:ClrHome
+:For(A,dim(L₁)-(dim(L₂)-2),dim(L₁
+:L₁(A→L₃(1+dim(L₃
+:End
+:Disp "FIRST TERM
+:Output(2,1,"X^
+:Output(2,3,dim(L₁)-dim(L₂
+:Output(3,1,L₃
+[[/code]]
+
+This routine will solve polynomial division with any given integer degrees.  The dimension of L,,1,, is the degree+1 of the dividend polynomial, and the dimension of L,,2,, is the degree+1 of the divisor. The numbers used in the list are the coefficients of the respective polynomial in descending degree order, including place holder 0's.  So, a polynomial of 3//x//^^3^^+2//x//^^2^^-1 would need to be {3,2,0,-1}.  The program outputs the code as L,,3,, in that form.  The program also displays the degree of the first term.  Once you reach the //x//^^0^^ term, all the coefficients afterward are the remainders.  So, a display of X^2 {3,2,1,5,3} says 3//x//^^2^^+2//x//+1 and a remainder of 5//x//+3.
+
+The program first asks for input.  It asks for the degree of each polynomial, and then it asks for the contents using a [[[For]]]( loop until there are no more terms.  It then commences with the main loop which is another For( loop.  The program works in very much the same way people would go about solving a division problem.  It divides the current leading terms of the dividend by the first term of the divisor and puts it into L,,3,,, our answer.  It then does a second For( loop multiplying the partial quotient by every term of the divisor.  At the end, it discovers the remainder in L,,1,, and stores them into the end of L,,3,, for a complete answer.
+
+Here are a couple of examples for you to try out to see if the code was inputted correctly:
+
+[[include inc:math
+|eqn=
+{x^2+3x-2 \over x+1} = x+2- {4 \over x+1} \hspace{12pt} \{ 1,2,-4 \}
+]]
+
+[[include inc:math
+|eqn=
+{x^4+3x^2-2x+1 \over x^2+4x+6} = x^2-4x+13-{30x+77 \over x^2+4x+6} \hspace{12pt} \{1,-4,13,-30,-77\}
+]]
+
++ Error Conditions
+* **[[[errors#invaliddim| ERR: INVALID DIM]]]** occurs if the degrees are made negative or the divisor's degree is larger than the dividend
+* **[[[errors#divideby0| ERR: DIVIDE BY 0]]]** happens if the leading coefficient of the divisor is 0
+* **[[[errors#datatype| ERR: DATA TYPE]]]** is thrown if anything is imaginary

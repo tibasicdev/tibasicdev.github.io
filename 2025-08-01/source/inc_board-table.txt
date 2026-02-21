@@ -1,0 +1,6 @@
+[[table class="threadTable"]]
+[[row]][[cell class="header threadTitle"]]Thread[[/cell]]
+[[cell class="header threadCreated"]]Started[[/cell]]
+[[cell class="header threadPosts"]]Posts[[/cell]]
+[[cell class="header threadRecent"]]Recent Post[[/cell]]
+[[/row]]

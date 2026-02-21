@@ -1,0 +1,25 @@
+[[module Redirect destination="archive:_upload"]]
+
+|| Note To Submitters: This is the only place you can post programs that take advantage of the clock functions or any other TI-84 only commands. [[size 150%]]**[[[archives:_upload:84p23|Click here]]]** if your program requires OS 2.30 or above.[[/size]] ||
+
+[[div style="float:left;"]]
+[[table]]
+[[row]]
+[[cell style="text-align: center; width:210px"]]
+++ __TI-84 Plus__
+[[/cell]]
+[[cell]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center"]]
+[[image http://tibasicdev.wikidot.com/local--files/thecalcs/ti84plus.png alt="TI-84 Plus"]]
+[[/cell]]
+[[cell]]
+Please enter the name of your program.
+
+[[module NewPage button="Create Program Page" parent="archives:_84p" category="archives" tags="_new _pending" template="template:tablet" format="/^[^_]/"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[/div]]

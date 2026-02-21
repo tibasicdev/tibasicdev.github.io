@@ -1,0 +1,5 @@
+PROGRAM:HELLOWLD
+:ClrHome
+:Disp "HELLO, WORLD!"
+
+[[module Redirect destination="/sk:first-program"]]

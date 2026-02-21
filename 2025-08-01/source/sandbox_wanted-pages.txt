@@ -1,0 +1,3 @@
+[[collapsible show="show wanted pages" hide="hide wanted pages"]]
+[[module WantedPages]]
+[[/collapsible]]

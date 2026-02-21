@@ -1,0 +1,6 @@
+The term "radian" is ambiguous and may refer to:
+
+* ^^r^^ (the [[[radian symbol]]]), used for converting an angle to radians.
+* [[[radian-mode|Radian]]], the mode command for making radian angle measures the default.
+
+If an internal link led you here, you may wish to change the link to point directly to the intended article.

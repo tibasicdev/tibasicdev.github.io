@@ -1,0 +1,22 @@
+[[include inc:68k-command
+|picture=getDate.png
+|summary=Returns the current date set on the calculator and returns it in list format.
+|syntax=getDate()
+|ams2xx=07
+|size=3 bytes
+]]
+
+The getDate() command checks the date that the calculator is set to, and then returns it in a list format. The list will always be in the format {year, month, day}. To change this list to another format, you can use the closely related [[[68k:getDtStr()]]] option, which just returns the date in a string format, not as a list. The [[[68k:setDtFmt()]]] command does not work on this command, but it will change the format that the calculator returns the [[[68k:getDtStr()]]] command as.
+
+For example, if the calculator's date was set to March 14th, 2011, the getDate() command would return the following:
+[[code]]
+:getDate()
+:     {2011 3 14}
+[[/code]]
+
++ Related Commands
+
+* [[[68k:getDtStr()]]]
+* [[[68k:getDtFmt()]]]
+* [[[68k:setDate()]]]
+* [[[68k:setDtFmt()]]]

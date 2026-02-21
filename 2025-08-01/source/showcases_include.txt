@@ -1,0 +1,65 @@
+[!-- This is NOT a page to advertise your programs. Private Message one of the administrators or moderators if you believe a program is worthy of being a Showcase. See http://tibasicdev.wikidot.com/guide-to-editing for more details on how to do this. --]
+
+{$strategyBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[bang-bang|Bang Bang]]] ||= 3,670 ||= No ||= TI-83/84/+/SE ||= Sean Weeks ||
+||= [[[checkers|Checkers]]] ||= 13,249 ||= No ||= TI-83/84/+/SE ||= nitacku ||
+||= [[[chess-pro|Chess Pro]]] ||= 6,869 ||= No ||= TI-83/84/+/SE ||= Francis Huang ||
+||= [[[connect4|Connect 4]]] ||= 4,000 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[dots|Dots]]] ||= 1,311 ||= No ||= TI-83/84/+/SE ||= Travis Fischer ||
+||= [[[lights-out|Lights Out]]] ||= 3,400 ||= No ||= TI-83/84/+/SE ||= Scott Davis ||
+||= [[[minesweeper|Minesweeper]]] ||= 3,339 ||= Yes ||= //TI-83+/84+/SE// ||= Fred Sparks ||
+||= [[[world-domination|World Domination]]] ||= 10,000 ||= No ||= TI-83/84/+/SE ||= Kerm Martian ||
+||= [[[world-empire|World Empire]]] ||= 5,714 ||= No ||= TI-83/84/+/SE ||= Arthur O'Dwyer ||
+||= [[[xmove15|Xmove15]]] ||= 1,574 ||= No ||= TI-83/84/+/SE ||= XprO ||
+{$strategyEnd}
+
+{$rpgBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[castle-adventure|Castle Adventure]]] ||= 6,700 ||= No ||= TI-83/84/+/SE ||= Arthur O'Dwyer ||
+||= [[[metroid-pi|Metroid Pi]]] ||= 17,000 ||= No ||= TI-83/84/+/SE ||= Harrierfalcon ||
+{$rpgEnd}
+
+{$sportsBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[bowling|Bowling]]] ||= 16,384 ||= Yes ||= //TI-83+/84+/SE// ||= Nitacku ||
+||= [[[slam-session|Slam Session]]] ||= 4,200 ||= No ||= TI-83/84/+/SE ||= Jason Russell ||
+{$sportsEnd}
+
+{$puzzleBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[brick-block|Brick Block]]] ||= 7,500 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[donut-quest|Donut Quest]]] ||= 10,276 ||= No ||= TI-83/84/+/SE ||= Mikhail Lavrov ||
+||= [[[dstar|DStar]]] ||= 4,800 ||= No ||= TI-83/84/+/SE ||= Scott Davis ||
+||= [[[lode-runner|Lode Runner]]] ||= 3,000 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[sudoku|Sudoku]]] ||= 4,051 ||= No ||= TI-83/84/+/SE ||= Harrierfalcon ||
+||= [[[tower-of-hanoi|Tower Of Hanoi]]] ||= 2,783 ||= No ||= TI-83/84/+/SE ||= Martin Johansson ||
+{$puzzleEnd}
+
+{$arcadeBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[blizz|Blizz]]] ||= 1,863 ||= No ||= TI-83/84/+/SE ||= Martin Johansson ||
+||= [[[bomberman|Bomberman]]] ||= 4,969 ||= No ||= TI-83/84/+/SE ||= Travis Fischer ||
+||= [[[contra|Contra]]] ||= 10,000 ||= No ||= TI-83/84/+/SE ||= Bryan Thomas ||
+||= [[[dino-eggs|Dino Eggs]]] ||= 2,357 ||= No ||= TI-83/84/+/SE ||= Alex Snyder ||
+||= [[[frogger|Frogger]]] ||= 1,232 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[nibbles-arcade|Nibbles Arcade]]] ||= 7,261 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[pipes|Pipes]]] ||= 5,276 ||= No ||= TI-83/84/+/SE ||= Sean Sartell ||
+||= [[[snake-escape|Snake Escape]]] ||= 1,120 ||= No ||= TI-83/84/+/SE ||= Alex Snyder ||
+||= [[[tetris|Tetris]]] ||= 2,877 ||= No ||= TI-83/84/+/SE ||= Nitacku ||
+||= [[[war|War]]] ||= 2,000 ||= No ||= TI-83/84/+/SE ||= SiCoDe ||
+||= [[[xsnake|Xsnake]]] ||= 1,468 ||= No ||= TI-83/84/+/SE ||= XprO ||
+{$arcadeEnd}
+
+{$casinoBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[commerce|Commerce]]] ||= 5,300 ||= No ||= TI-83/84/+/SE ||= Arthur O'Dwyer ||
+||= [[[solitaire|Solitaire]]] ||= 3,993 ||= No ||= TI-83/84/+/SE ||= Nitacku ||
+||= [[[yahtzee|Yahtzee]]] ||= 6,329 ||= No ||= TI-83/84/+/SE ||= Brad Wentz ||
+{$casinoEnd}
+
+{$miscellaneousBegin}
+||~ Name ||~ Size ||~ Libraries? ||~ Compatibility ||~ Author ||
+||= [[[civilization-simulator|Civilization Simulator]]] ||= 13,000 ||= No ||= TI-83/84/+/SE ||= Kerm Martian ||
+||= [[[officexe|Office XE]]] ||= 21,076 ||= No ||= TI-83/84/+/SE ||= Brad Wentz ||
+{$miscellaneousEnd}

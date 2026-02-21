@@ -1,0 +1,97 @@
+[[include inc:68k-command
+|picture=for.png
+|summary=Repeats a block of code some number of times.
+|syntax=:For //counter//, //start//, //end//, //step//
+//(block of code)//
+:EndFor
+
+|location=
+Starting in the program editor:
+* Press F2 to enter the Control menu.
+* Press 4 to paste For..EndFor.
+
+|size=
+3 bytes for the For command;
+4 bytes for EndFor.
+]]
+
+A For..EndFor block is used to repeat the code inside the block some number of times. To specify the number of times to repeat this code, a //counter variable// is specified, along with a starting value and an ending value. The variable will be set to the starting value, then increased until it gets to the ending value, running the code inside the block each time. For example:
+[[code]]
+:For count, 1, 5
+: Disp count
+:EndFor
+           1
+           2
+           3
+           4
+           5
+[[/code]]
+
+You can also give a step size by which to increase the counter (the default is 1). In the above example, if the first line were changed to ":For count, 1, 5, 2" then the block would only run with count=1, then with count=3, then with count=5. You can even make the step size negative and decrease the counter from a maximum to a minimum (e.g. "For count, 5, 1, -1").
+
+For loops are most useful when you want to look at every element of a list or matrix individually. For example, the following code will "do something" (depending on what you replaced the comment with) to every element of "list" in order:
+[[code]]
+:For i, 1, dim(list)
+: © do something with list[i]
+:EndFor
+[[/code]]
+To look at every element of a matrix, you'd have to use two For loops, one inside the other:
+[[code]]
+:For i, 1, rowDim(matrix)
+: For j, 1, colDim(matrix)
+:  © do something with matrix[i, j]
+: EndFor
+:EndFor
+[[/code]]
+
++ Advanced Uses
+
+The counter variable can be manipulated inside the For loop to produce different results. For example, the following code will count from 1 to 10 but skip 3:
+[[code]]
+:For i, 1, 10
+: If i=3
+:  i+1→i
+: Disp i
+:EndFor
+[[/code]]
+What happens is that when the code runs for the third time, with i=3, the If statement increases i to 4. From there, the For loop thinks it's business as usual, and the next cycle will be done with i=5, then i=6, and so on.
+
+------
+
+Another way to manipulate the progress of a For loop is with the [[[68k:Cycle]]] and [[[68k:Exit]]] commands (which apply to all loops). You can also use the [[[68k:Goto]]] command to jump out of a For loop, but this is considered poor programming in most cases.
+
++ Optimization
+
+In many cases, the For loop is not the best choice when working with lists -- sometimes, the operation can be done on the whole list at the same time, which is both smaller and faster. For example:
+[[code]]
+:For i, 1, dim(list)
+: list[i]+1→list[i]
+:EndFor
+
+can be
+
+:list+1→list
+[[/code]]
+
+When using For to //create// a list from scratch, the [[[68k:seq()]]] command is a smaller and faster alternative. For example:
+[[code]]
+:For i, 1, 10
+: i^2→list[i]
+:EndFor
+
+can be
+
+:seq(i^2, i, 1, 10)→list
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the step size is 0]]
+[[include inc:68k-error num=730|error=Missing start or end of block syntax|cause=the For is missing an EndFor, or vice versa]]
+
++ Related Commands
+
+* [[[68k:Cycle]]]
+* [[[68k:Exit]]]
+* [[[68k:Loop]]]..EndLoop
+* [[[68k:While]]]..EndWhile

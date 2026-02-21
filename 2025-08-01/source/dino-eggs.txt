@@ -1,0 +1,15 @@
+[[include inc:program
+|picture=dinoeggs.gif style="width:200px; height:135px;"
+|summary=A remake of the Puzzle Pack game Dino Puzzle.
+|size=2,357 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/61/6138.html Alex Snyder] (axcho)
+|download=[http://tibasicdev.wikidot.com/local--files/dino-eggs/dinoeggs.zip dinoeggs.zip]
+]]
+
+Dino Eggs is a remake of the popular Dino Puzzle game from the Puzzle Pack application released by Detached Solutions. The objective is to match falling shapes with similar shapes on the field. You do this by moving a cursor and switching two rows at a time to align them with the two incoming shapes before they land and another pair descends.
+
+As you can see in the screenshot, the game runs on the home screen, and uses simple text for the cursor and everything else. Of course, the main feature of the game is that it provides almost unlimited gameplay, since the shapes are randomly  selected and they keep descending until you lose or quit.
+
+If you get tired, you can save the game and come back to it at a later time. Similarly, the game stores the highest score, so you can compete with friends to see who is the king. The game uses the standard controls: up and down move the cursor, 2nd switches the two selected rows, MODE saves the game, and CLEAR quits.

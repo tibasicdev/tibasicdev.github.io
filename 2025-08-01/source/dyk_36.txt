@@ -1,0 +1,1 @@
+…that you can enable the faster circle drawing flag on the TI-83/84/+/SE by placing {//i// after the last argument of the {{[[[Circle(]]]}} command?

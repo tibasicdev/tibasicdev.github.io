@@ -1,0 +1,24 @@
+What would happen if there was a background already layed out on the screen, and you wanted to overlay a sprite on top of it? If you use any type of logic to draw the sprite, the background and sprite would get destroyed. Like this:
+
+[[=image linkunmasked.png width="190px"]]
+
+Do you notice the extra white space around Link, where the background should be? One technique programmers use to prevent this is called Masking. Here's one technique to do this.
+
++ Masking with AND
+
+This is the most common technique that even assembly programmers use. What happens is the programmer creates 2 different sprites, one is the actual sprite, the other is a "mask". Here's how you create the mask.
+
+||First take a regular sprite like this:|| [[=image linksprite.png]]||
+||And fill in the background with black pixels, so it looks like this:|| [[=image linksprite2.png]]||
+||Now just XOR the original sprite, so the filled background remains like this:|| [[=image linkmask.png]]||
+||The final result gives the mask of the sprite. Save this and the original sprite in a picture.||[[=image linkresult.png]]||
+
+Now when you display the sprite, you'd first ''AND'' the Mask to the screen (no update), and then ''XOR'' or ''OR'' the original sprite. The mask will force the pixels that take up the sprite's image off, clearing a space for the sprite, but not overwriting the background.  For example:
+
+[[code]]
+PROGRAM:Mask
+:real(0,0    \\ Clear the screen
+:real(2,0,0,0,6,4,0,6,0,4,9,0,16,1    \\ Draws background tilemap stored in Pic9, notice 16*16 mode
+:real(1,24,32,2,16,1,0,0,1,0,0    \\ Draws mask
+:real(1,24,32,2,16,1,0,16,3,0,1    \\ Draw sprite
+[[/code]]

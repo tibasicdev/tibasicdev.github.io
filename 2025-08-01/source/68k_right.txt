@@ -1,0 +1,37 @@
+[[include inc:68k-command
+|picture=right.png
+|summary=Returns a subsection from the right of a list or string, or the right hand side of an equation.
+|syntax=right(//equation//)
+right(//list-or-string//,//length//)
+
+|location=* Press 2nd MATH to enter the MATH popup menu.
+* Press 3 to enter the List submenu.
+* Press B to select right(.
+
+|size=2 bytes
+]]
+
+When applied to a list or a string, right(//x//,//length//) gets the last (right-most) //length// elements/characters of //x//. 
+
+When applied to an equation (such as x=5) or an inequality (such as x<3), right() returns the right-hand side of the equation. This only works for equations that don't get simplified: right(2+2=4) will not work, because 2+2=4 will return 'true' first.
+
+[[code]]
+:right({1,2,3,4,5},3)
+           {3  4  5}
+:right("TI-Basic Developer",9)
+           "Developer"
+:right(x^2+2x+1>0)
+           0
+:right({1,2,3,4,5},0)
+           {}
+[[/code]]
+
++ Error Conditions
+
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not a list, string, or equation, or is an equation that has simplified]]
+
++ Related Commands
+
+* [[[68k:left()]]]
+* [[[68k:mid()]]]

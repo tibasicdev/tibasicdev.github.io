@@ -1,0 +1,37 @@
+[[include inc:command
+|picture=ROWPLUS.GIF
+|summary=Adds one row of a matrix to another.
+|syntax=row+(//matrix//,//row1//,//row2//)
+|location=Press:
+# MATRX (on a TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
+# RIGHT to access the MATH submenu.
+# ALPHA D to select row+(, or use arrows and ENTER.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+The row+( command adds one row of a matrix to the second, and returns the result. It is an elementary row operation used in Gaussian Elimination. 
+
+[[code]]
+[[1,2][3,4]]
+	[[1 2]
+	 [3 4]]
+row+(Ans,1,2)
+	[[1 2]
+	 [4 6]]
+[[/code]]
+
++ Advanced Uses
+
+You can add columns instead of rows with the aid of the ^^T^^ ([[[transpose]]]) command.
+
++ Error Conditions
+
+* **[[[errors#invaliddim|ERR:INVALID DIM]]]** is thrown if one of the row arguments isn't a valid row (larger than the matrix size, or otherwise bad)
+
++ Related Commands
+
+
+* [[[rowSwap(]]]
+* [[[timesrow|*row(]]]
+* [[[timesrowplus|*row+(]]]

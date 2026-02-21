@@ -1,0 +1,15 @@
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="border:1px solid #777; background:#FFF; padding:1em; width:50%; vertical-align:top;"]]
+This is a list of pages that are either incomplete or in development.  Please make an effort to finish and edit them.
+[[module ListPages category="*" tags="_in-development _incomplete" perPage="60" order="titleAsc" separate="false"]]
+* %%title_linked%%
+[[/module]]
+[[/cell]]
+[[cell style="border:1px solid #777; background:#FFF; padding:1em; width:50%; vertical-align:top;"]]
+This is a list of pages that have not been created yet, but have links leading to them.  Please create these pages to further complete TI|BD.
+[[module WantedPages]]
+[[/module]]
+[[/cell]]
+[[/row]]
+[[/table]]

@@ -1,0 +1,8 @@
+[[div]]
+[[/div]]
+[!-- The above div block may seem superfluous, but it is necessary for formatting --]
+[[size 300%]]{$heading}[[/size]]
+[[div style="border-top: 2px solid #666;"]]
+[[/div]]
+[[div style="height: 10px;"]]
+[[/div]]

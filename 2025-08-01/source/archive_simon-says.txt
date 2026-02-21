@@ -1,0 +1,21 @@
+author: TheCubist
+version: '1.0'
+summary: 'A great Simon clone! For the Ti 84 +, that can remember up to 99 digits in its sequence! Remember the longest sequence and then repeat it back using the F1, F2, F3, and F4 keys. Good luck!'
+description: 'A great Simon clone! For the Ti 84 +, that can remember up to 99 digits in its sequence! Remember the longest sequence and then repeat it back using the F1, F2, F3, and F4 keys. Good luck! This game has no current high score system, i am still working on that, but it still works perfectly fine. It is a very small program, so no harm in downloading it at all. Thanks a bunch to trenly who helped me optimize it!'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:simon-1/SIMON.8xp'
+image: null
+fileSize: '326'
+fileSizeUnit: '1'
+dateMade: '1480233600'

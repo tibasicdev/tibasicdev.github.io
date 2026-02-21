@@ -1,0 +1,68 @@
+Every command on the calculator is useful for programming, but some are expressly designed for that purpose. These are roughly divided into three categories: commands to control the flow of a program, commands to manage variables, and commands that provide input and output.
+
++ Control Flow
+
+Any program is just a sequence of commands; but usually, it's not enough to just run through them all one by one in order and be done. Changes to this order have to be made: some commands should only be followed in certain situations, others might be repeated several times, still others might be a last resort in case of an error. Control flow commands are those that determine this order.
+
+The simplest control flow commands are [[[68k:Goto]]] and [[[68k:Lbl]]], which simply involve jumping around in the program. This isn't always the best way of doing things, though, and there are many alternatives:
+
+++ Conditionals
+
+A common situation is when certain commands depend on a condition being met. The following commands address this situation:
+* The [[[68k:If]]] statement simply places a condition on a command or block of commands.
+* The [[[68k:Else]]] statement, used with If, provides an alternative branch if the condition is not met.
+* The [[[68k:ElseIf]]] statement, also used with If, allows for several mutually exclusive conditions.
+
+Conditions are typically created by combining equality relations ([[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], [[[68k:less-than-or-equal|≤]]]) with logical operators ([[[68k:and]]], [[[68k:or]]], [[[68k:xor]]], [[[68k:not]]]).
+
+++ Loops
+
+Loops allow commands to be repeated over and over. The following types of loops exist:
+* [[[68k:Loop]]]..EndLoop blocks just keep repeating forever.
+* [[[68k:While]]]..EndWhile blocks repeat as long as a condition is satisfied.
+* [[[68k:For]]]..EndFor blocks repeat a fixed number of times.
+To deal with these loops, we have a couple auxiliary commands:
+* [[[68k:Cycle]]] prematurely goes back to the beginning of a loop.
+* [[[68k:Exit]]] leaves a loop ahead of time.
+
+++ Subroutines
+
+If a task has to be done several times inside a program, the code for it can be removed to a subroutine: this routine can then be "called" whenever necessary. Subroutines in TI-Basic are essentially programs of their own. They can be defined inside a program with the [[[68k:Define]]] command, and are of two types:
+* Functions (defined with [[[68k:Func]]]..EndFunc) return a value, and can't affect the overall state of the calculator.
+* Programs (defined with [[[68k:Prgm]]]..EndPrgm) can do anything, but don't return a value directly.
+Two commands exist specifically for use with subroutines.
+* [[[68k:Return]]] exits a subroutine, returning to the program that called it.
+* [[[68k:Stop]]] exits every program currently running, subroutine or not.
+
+++ Error Catching
+
+Error catching provides a last resort if an error occurs. A portion of the program, or even the entire program itself, can be put into a [[[68k:Try]]]..Else..EndTry block. The code after Else will only run in case of an error, and has the option to [[[68k:ClrErr]]] -- go on as though nothing happened -- or [[[68k:PassErr]]] -- handle the error normally, with an OS error message.
+
++ Variable Management
+
+Another part of programming is managing variables. This means:
+* Defining them -- with [[[68k:store|→]]] or [[[68k:Define]]].
+* Deleting them -- with [[[68k:DelVar]]], [[[68k:DelType]]], [[[68k:DelFold]]], or [[[68k:NewProb]]].
+* Protecting them -- with [[[68k:Lock]]], [[[68k:Unlock]]], [[[68k:isLocked()]]], [[[68k:Archive]]], [[[68k:Unarchiv]]], or [[[68k:isArc()]]].
+* Dealing with names and folders -- with [[[68k:CopyVar]]], [[[68k:MoveVar]]], [[[68k:Rename]]], or [[[68k:NewFold]]], [[[68k:setFold()]]].
+
+There is also the [[[68k:Local]]] command, which designates certain variables as local to the program they are used in.
+
++ Input and Output
+
+Finally, a program has to be able to get input from the user and give some output in response. For games, this usually means using the [[[68k:graphics]]] commands, and reading keys with the [[[68k:getKey()]]] command. There are other alternatives, however.
+
+On the Program I/O screen:
+* [[[68k:Input]]], [[[68k:InputStr]]], and [[[68k:Prompt]]] read in typed text.
+* [[[68k:Disp]]], [[[68k:Output]]], and [[[68k:Pause]]] display text.
+* [[[68k:ClrIO]]] clears the I/O screen.
+
+A more stylish method is to use [[[68k:dialogs]]], wrapped in a [[[68k:Dialog]]]..EndDlog box.
+* Input here is accomplished with [[[68k:Request]]] and [[[68k:DropDown]]].
+* The [[[68k:Text]]] command, appropriately, displays text. A [[[68k:Title]]] is also handy.
+
+Some miscellaneous commands remain. [[[68k:Custom]]]..EndCustm and [[[68k:Toolbar]]]..EndTBar both create toolbar menus with the help of the [[[68k:Title]]] and [[[68k:Item]]] commands. And [[[68k:PopUp]]] displays a popup menu.
+
+Input and output also refers to interacting with other calculators. There are five commands for the purpose:
+* [[[68k:Get]]] and [[[68k:GetCalc]]] read data from a connected calculator.
+* [[[68k:Send]]], [[[68k:SendCalc]]], and [[[68k:SendChat]]] send data to a connected calculator.

@@ -1,0 +1,32 @@
+[[include inc:command
+|picture=GridLine.png
+|summary=Enables a grid of colored lines on the graph screen.
+|syntax=GridLine [//color#//]
+|location=Press:
+# 2nd FORMAT to access the graph format menu.
+# Use arrows and ENTER to select GridLine.
+|compatibility=TI-84+ CSE/CE
+|size=2 bytes
+]]
+
+The {{GridLine}} command enables a grid of colored lines on the graph screen (you can disable it with the {{[[[GridOff]]]}} command). How fine or coarse the grid is depends on the {{[[[system-variables#window|Xscl]]]}} and {{[[[system-variables#window|Yscl]]]}} variables. Drawing the grid just involves plotting points all the horizontal and vertical lines that intersect points of the form (A×{{Xscl}}, B×{{Yscl}}) that are in the graphing window. The grid can be colored based on any color variable or value.
+
++ Advanced Uses
+
+{{GridLine}} can be used to shade the entire screen if {{Yscl}} is small enough that the lines on the grid are one pixel apart:
+[[code]]
+:ΔY→Yscl
+:GridLine RED
+[[/code]]
+
+This is one of the shortest ways to shade the screen, although {{[[[Shade(]]]}} can be used for a (usually) even shorter way. However, using {{GridLine}} is also very slow: the fastest way involves the {{[[[Horizontal]]]}} or the {{[[[Vertical]]]}} commands in a {{[[[For(]]]}} loop.
+
+You could also use {{GridLine}} to draw the playing grid for a Dots and Boxes game.
+
++ Related Commands
+
+* [[[GridOn]]]
+* [[[GridOff]]]
+* [[[GridDot]]]
+* [[[AxesOn]]]
+* [[[AxesOff]]]

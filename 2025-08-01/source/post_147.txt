@@ -1,0 +1,3 @@
+name: ''
+content: "Thank you so much for your optimizations. I really can't express how much this means to me; I'm ecstatic to try them out.\n\nI just realized I forgot to mention trick shots. The ball /does/ move at an angle, but you have to set it off first with a trick shot executed by moving the paddle exactly one pixel away from the ball when you hit the ball. It's kind of hard to explain but really easy to understand once you do it once. I made it this way purposefully to give skilled players an edge; once you start a trick shot ball it can't be undone until the next ball. It's also impossible to score anything in Challenge Mode without using trick shots. If you didn't know about them, you probably weren't having much fun :P"
+attachment: null

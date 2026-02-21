@@ -1,0 +1,16 @@
+[[include inc:member
+|month=May
+|day=18
+|username=TrevorS09
+]]
+
+[[include inc:member2
+|timezone=
+|birthday=
+|aboutme=
+|howifoundtibd=
+|howibeganpgrming=
+|hobbies=
+|mybestprogram=
+]]
+[!-- Do not put content above first include!!  You may put anything you want under this note as long as it follows the Code --]

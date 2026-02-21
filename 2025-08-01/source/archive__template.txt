@@ -1,0 +1,197 @@
+[[include inc:visitor-farewell]]
+[[div class="archive_downloadFail%%form_raw{download}%% alert-danger showWhenFail"]]
+[[include :snippets:alt-suo |type=showto |user=%%created_by_unix%%]]
+You have not uploaded your program!  Please [[button edit text="edit the page"]] to upload your program.
+[[include :snippets:alt-suo]]
+[[/div]]
+
+[[table class="archive_Table"]][[row]]
+[[cell class="archive_Info"]]
+[[table class="archive_InfoInner"]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Author:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{author}%%
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Download:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="archive_downloadFail%%form_raw{download}%%"]]%%form_data{download}%%[[/span]][[span class="archive_downloadFail%%form_raw{download}%% showWhenFail"]]//No Download Available//[[/span]]
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Version:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{version}%%
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Compatibility:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{compatibility}%%
+[[/cell]][[/row]]
+[[row]]
+[[cell class="archive_InfoElementTitle"]]
+**File Size:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{fileSize}%% %%form_data{fileSizeUnit}%%
+[[/cell]][[/row]]
+[[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Genre:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="genre%%form_data{arcade}%%"]]Arcade[[/span]] [[span class="genre%%form_data{graphics}%%"]]Graphics[[/span]] [[span class="genre%%form_data{platform}%%"]]Platform[[/span]] [[span class="genre%%form_data{puzzle}%%"]]Puzzle[[/span]] [[span class="genre%%form_data{rpg}%%"]]RPG[[/span]] [[span class="genre%%form_data{strategy}%%"]]Strategy[[/span]] [[span class="genre%%form_data{sports}%%"]]Sports[[/span]] [[span class="genre%%form_data{casino}%%"]]Casino[[/span]] [[span class="genre%%form_data{board}%%"]]Board[[/span]] [[span class="genre%%form_data{utility}%%"]]Utility[[/span]] [[span class="genre%%form_data{misc}%%"]]Misc[[/span]] 
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Rating:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[module Rate]]
+[[/cell]][[/row]]
+[[/table]]
+
+[[/cell]]
+[[cell class="archive_Image archive_ImageFail%%form_raw{image}%%"]]
+[[image %%form_raw{image}%% link="%%form_raw{download}%%" title="Click to download" alt="TI|BD"]]
+[[/cell]]
+
+[[/row]][[row]]
+
+[[cell colspan="2" class="archive_Description"]]
+%%form_data{description}%%
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[module Comments title="What the community thinks:" hideForm="true"]]
+
+[[module CSS]]
+.page-rate-widget-box .rate-points{
+    background: none;
+    color: inherit;
+    font-weight: normal;
+    font-size: 0;
+    padding: 0 12px 0 0;
+}
+.page-rate-widget-box .rate-points .number{
+    font-size: 14px !important;
+}
+.page-rate-widget-box .cancel{  display: none; }
+.page-rate-widget-box a{
+    background: #4D5C63;
+    color: #E7E9DC;
+    font-weight: bold;
+    border-radius: 1em;
+}
+.page-rate-widget-box a:hover{
+    background: #5D6C73;
+}
+[[/module]]
+=====
+[[form]]
+fields:
+  author:
+    label: Author
+    type: wiki
+    height: 1
+  version:
+    label: Version
+  summary:
+    label: Summary
+    height: 4
+    match: /^.{0,400}$/
+    match-error: Max of 400 characters
+  description:
+    label: Description
+    type: wiki
+    height: 9
+  genreInstructions:
+    type: static
+    label: Check all that apply
+  arcade:
+    label: Arcade
+    type: checkbox
+    join: true
+  graphics:
+    label: Graphics
+    type: checkbox
+    join: true
+  platform:
+    label: Platform
+    type: checkbox
+    join: true
+  puzzle:
+    label: Puzzle
+    type: checkbox
+    join: true
+  rpg:
+    label: RPG
+    type: checkbox
+    join: true
+  strategy:
+    label: Strategy
+    type: checkbox
+    join: true
+  sports:
+    label: Sports
+    type: checkbox
+    join: true
+  casino:
+    label: Casino
+    type: checkbox
+    join: true
+  board:
+    label: Board
+    type: checkbox
+    join: true
+  utility:
+    label: Utility
+    type: checkbox
+    join: true
+  misc:
+    label: Misc
+    type: checkbox
+    join: true
+  compatibility:
+    type: select
+    label: Compatibility
+    values:
+      bb: TI-83/84/+/SE
+      cc: TI-83+/84/SE
+      dd: TI-84+/SE
+      ee: TI-84+ 2.xx MP
+      ff: TI-84+ CE
+      gg: TI-84+ CSE
+      hh: 89/89T
+      ii: 92/92+
+      jj: V200
+      kk: TI-Nspire CX
+      ll:  TI-Nspire CX CAS
+  download:
+    label: Download (required!)
+    type: file
+    category: archivefile
+  image:
+    label: Image (not required)
+    type: file
+    category: archiveimage
+  fileSize:
+    label: Size
+    width: 10
+    match: /^\d+$/
+  fileSizeUnit:
+    type: select
+    join: true
+    default: 1
+    values:
+      1: Bytes
+      2: Kilobytes
+      3: Megabytes
+  dateMade:
+    type: date
+    label: Original Date
+[[/form]]

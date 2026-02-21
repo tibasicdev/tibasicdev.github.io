@@ -1,0 +1,5 @@
+[[module ListPages order="titleAsc" perPage="411" skipCurrent="true" categories="*" tags="-redirect -command"]]
+%%title_linked%%
+[[/module]]
+
+[[module Redirect destination="http://tibasicdev.wikidot.com/pages-not-command-tag/p/2/noredirect/true"]]

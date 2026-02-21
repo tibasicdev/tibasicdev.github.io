@@ -1,0 +1,44 @@
+[[toc]]
+
+Choosing a good variable name is important. The calculator gives you eight characters of freedom in choosing a variable name, which can be put to good use by describing the purpose of the variable, or it can be wasted by naming the variable "bobby". 
+
+Choosing good variable names helps you when you're writing the program, because then you'll be less likely to forget which variable does what. When you're done writing it, it helps other people looking at the program for whichever reason, even if it's just curiosity. Unfortunately, there's a powerful incentive to stick to short variable names: it can reduce the program size a lot, since referring to a variable called "n" takes 1 byte, and referring to a variable called "numusers" takes 10 bytes. Whether readability or size is more important is up to you, but at the very least you should stick to descriptive names when you're still writing the program.
+
+This article has three sections. The first section describes the characters that can make up a variable name. In the second section, you'll learn about some special variable names that the calculator will treat differently. Finally, the third section contains some tips on how to choose a good name for a variable.
+
++ Possible Variable Names
+
+A variable name can have between 1 and 8 characters in it. Of the 255 possible characters (see [[[68k:character-codes|]]]), only some can be used in variable names:
+* Obviously, the letters a-z. These are case-insensitive: the calculator can't tell between the names "anumber", "aNumber", and "AnUMbEr". 
+* The numbers 0-9. These can't //begin// a variable name, since something like 1xyz is interpreted as 1*xyz, but they're fine anywhere else.
+* International characters, like Ç or Þ. These are also case-insensitive, in the cases where there's an uppercase and a lowercase variant.
+* Greek letters (except for π, which is a constant). These are case sensitive: Ω is not the same variable as ω, even though they're both the same letter (omega).
+* The underscore, _. This one's a bit weird, for reasons you'll see in the next section. It can't be used by itself as a single-character variable, and if it's the first character in the name, then it can't appear again: a_b_c will be treated as a single variable, but _a_b will be broken up as the product _a*_b.
+
+Of course, the [[[68k:command-index|built-in commands]]] and [[[68k:system variables]]] are excluded from variable names, since their meaning is already defined. 
+
++ Special Variable Names
+
+In order from least to most interesting:
+
+: **The one-letter variables a-z** : stand out because they only take one byte to access (normally, you need (# of characters + 2) bytes, so 3 bytes for Ω and 10 bytes for varomega). They also get deleted by [[[68k:NewProb]]] and by the relevant menu option on the home screen.
+: **kbdprgm1() through kbdprgm9()** : can be quickly accessed by pressing ♦ (the diamond key) and the corresponding number, as long as they are defined to be programs. On the TI-89 Titanium and Voyage 200, kbdprgm7() and kbdprgm9() get hijacked, since ♦+7 and ♦+9 are the shortcuts to entering [[[68k:log(]]] and [[[68k:root(]]] respectively. Otherwise, ♦+# will run kbdprgm#() immediately, without even entering it on the home screen.
+: **Variables ending in _** : are assumed to be complex by math commands. Normally, an undefined variable is assumed real: for instance, [[[68k:real(]]]x) returns x, and [[[68k:imag(]]]x) returns 0. This isn't done for, say, x_. The most useful application for this is when solving for a variable with [[[68k:solve()]]] or [[[68k:cSolve()]]].
+: **Variables beginning with _** : are user-defined units (suitable for use with [[[68k:convert|▶]]], [[[68k:setUnits()]]], and [[[68k:getUnits()]]]). More importantly, you don't have to use them as units, but they do transcend folders. If you store 5 to _x, then _x will return 5 no matter what the current folder is, until you delete it. The drawback is that these variables can't store functions or programs.
+
++ Choosing Appropriate Names
+
+Good variable names don't have to be long. In fact, there are situations completely unsuited to long variable names. If you're defining a simple function, a good name for its input is just x. And the variable inside a [[[68k:seq()]]] command doesn't need to be long, considering that it's only relevant for one line. In general, long descriptive names are unnecessary if the variable is only going to be around for a short while.
+
+For some particular cases, there's a traditionally used variable name. For instance, the index variable of a [[[68k:For]]]..EndFor loop is usually named i (if there's a second loop inside it, you might name it j). The result of [[[68k:getKey()]]] may be called key or k.
+
+It's always good if the variable name has some indication of its type. This is especially important for list variables, because optimized code for lists looks the same as optimized code for numbers, and in the code :x+1→x it's unclear if x is a number or a list. This is also important for the arguments of a function, since these are the first place you'd look to figure out how to use the function. It's unclear to use a function defined as getindex(a,b) -- something like getindex(list,item) is better.
+
+For coordinates on screen, use (x,y) coordinates for point commands (e.g. [[[68k:PtOn]]]) and (row,column) coordinates for pixel commands (e.g. [[[68k:PxlOn]]]). If you have a pair of variables for the coordinates, make sure to indicate which coordinate is which: for instance, shipx and shipy, or shipr and shipc. This does several jobs at once: it shows that the variables are paired, which variable is which, and which type of coordinate is being used.
+
+For subroutine names, using verbs is helpful: there's little doubt about what a routine called findmax() or drawmenu() does. If a function returns a truth value, model it off commands such as [[[68k:isPrime()]]] and [[[68k:isClkOn()]]] -- there's no doubt about which option is true, and which is false. If you're trying to tell red things apart from blue things, isblue() is a better name than chkcolor().
+
+For the most part, the variable name is only a question of style. However, there are several cases in which the user of the program gets to see the name of a variable. In such cases, you should take extra care to make sure that the variable name makes sense. These cases are:
+* When asking for a value with [[[68k:Prompt]]]. In general, this makes sense if you're entering the values of variables in a known equation: When solving for x in x=a*sin(2πω), you might as well name the variables x, a, and ω, and ask for their values. If it's not clear what a variable name means, use [[[68k:Input]]] instead.
+* When using icons in a [[[68k:ToolBar]]] menu. On a TI-89 or TI-89 Titanium, the icon will not show up: the name of the picture variable will, instead. Since it's possible your program might one day end up on one of those calculators, make the icon names helpful.
+* The program name itself. It's hard to think of something snappy and memorable in 8 characters, but this goes a long way to making the program usable.

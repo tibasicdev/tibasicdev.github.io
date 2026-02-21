@@ -1,0 +1,27 @@
+Here is a basic summary of what you have learned from this chapter.
+* The home screen has more than one form of output.
+* The getKey command can be used to recognize a key press.
+* Movement can be accomplished through the teamwork of getKey and ΔList(.
+* Games use skeleton loop to accomplish its main functions.
+* There are three special data types, matrices, lists, and strings, that can be used for special purposes, like map underlying, saving, and storing phrases.
+* You can use random numbers to enhance game play.
+++ Commands Introduced
+* [[[Output(]]]
+* [[[getKey]]]
+* [[[min(]]],[[[max(]]],[[[sum(]]],[[[deltalist| ΔList(]]]
+* [[[variance(]]]
+* [[[fPart(]]]
+* [[[DelVar]]],[[[Archive]]],[[[Unarchive]]]
+* [[[dim(]]]
+* [[[SetUpEditor]]],[[[l| ∟]]]
+* [[[sub(]]],[[[expr(]]]
+* [[[rand]]],[[[randInt(]]],[[[randBin(]]],[[[randM(]]],[[[randNorm(]]]
+* [[[not(]]]
+
+[[include inc:next-prev
+|prevpage = sk:random
+|prevtitle = Random Numbers
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:exercises-games
+|nexttitle = Exercises]]

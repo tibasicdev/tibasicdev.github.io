@@ -1,0 +1,17 @@
+author: 'Mark Radocy'
+description: "Pick a direction, and the player will move in that direction until it hits another block, when it will stop.\n\nIt can then be moved again the same way.  Continue until the block reaches the finish.\n\nJust don't go off the screen, or it's game over!\n- Contains 18 levels with autosaving\n- Works with mirage OS"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '1'
+image: 'archives:anbox/TITLE.PNG'
+download: anbox.zip
+size: '9873'
+unit: '1'

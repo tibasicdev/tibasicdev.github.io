@@ -1,0 +1,41 @@
+[[include inc:68k-command
+|picture=remain.png
+|summary=Returns the remainder of a division.
+|syntax=remain(//dividend//,//divisor//)
+
+|location=
+* Press 2nd MATH to enter the math popup menu.
+* Press 1 to enter the Number submenu.
+* Press A to select remain(.
+
+|size=1 byte
+]]
+
+The remain() command returns the remainder of a division: remain(A,B) is calculated as A-B*[[[68k:intDiv(]]]A,B) which in turn is equivalent to A-B*[[[68k:iPart(]]]A/B). Although this operation is most useful for dividing whole numbers, this definition works for any number, whole or decimal, real or complex. Additionally, remain(X,0) is defined as X.
+
+The related [[[68k:mod()]]] command returns the same results for positive numbers, however, they disagree when negative integers enter the mix. The result of mod() is defined just as remain(), but with [[[68k:int()]]] instead of iPart(). This means that remain() gives a negative answer if the dividend is negative, and mod() gives a negative answer if the divisor is negative.
+
+[[code]]
+:remain(125,3)
+           2
+:remain(-125,3)
+           -2
+:remain(2*i+1,i+1)
+           i
+[[/code]]
+
+The remain() command also works for [[[68k:lists|lists]]] and [[[68k:matrices|matrices]]]. Used with a list or matrix and a number, remain() is applied to the number paired with every element of the list or matrix. Used with two lists or two matrices, which must match in size, remain() is applied to matching elements of the list or matrix.
+
++ Advanced Uses
+
+Use [[[68k:intDiv()]]] and remain() for the quotient and remainder results of long division, respectively.
+
++ Error Conditions
+
+[[include inc:68k-error num=240|error=Dimension mismatch|cause=two list or matrix arguments don't match in size]]
+
++ Related Commands
+
+* [[[68k:intDiv()]]]
+* [[[68k:mod()]]]
+* [[[68k:iPart()]]]

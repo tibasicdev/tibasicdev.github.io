@@ -1,0 +1,21 @@
+author: Zixcoder
+version: 1.4.1
+summary: 'A Minesweeper program that will sweep you into a fun, classic puzzle! Find all the mines on the screen to win. This version includes varying difficulties, different text and control styles, custom options, automatic clearing, and a saving and loading feature, all written in pure TI-BASIC for the TI-84+C calculators.  Happy solving!'
+description: "This Minesweeper program is easy to install. Use TI-Connect or another linking application to download the .8xp file to your TI-84 Plus CE (C Silver Edition)calculator, then simply press \"prgm\" look for the program named \"MINES\", and press \"enter\" twice.\nControls in the menu:\nUP and DOWN arrow keys - scroll\nLEFT and RIGHT arrow keys - switch selected setting\nENTER and 2ND - proceeds with an action\nDEL - exits an action\nCLEAR - exits the program\nOther keys are also used to select \"no\", or \"off\", i.e., using \"(-)\" beside \"enter\" and \"mode(quit)\" beside \"2nd\".\n\nIn the menu:\nStart Game - Begins a new save according to the difficulty set, or continues from your last save.\nStyle - Changes the displayed characters in the game.\nDifficulty - Changes the amount of mines a new game starts with. The total amount of spaces is 260.\n     Beginner - 20 mines\n     Easy - 30 mines\n     Normal - 40 mines\n     Hard - 50 mines\n     Expert - 60 mines\n     Custom - Whatever you set it to! To change it, press enter or 2nd while the difficulty is set at custom.\nAuto-Clear - Lets you toggle automatic clearing on and off to make the game faster if desired.\nCustom Controls - Lets you toggle your set custom controls on and off or set new custom controls.\nStatistics - shows your best times for each difficulty and the amount of mines in the most crowded minefield you've cleared!\nConfigure - Sets up the program to work. You only need to do this once the program is downloaded, or when Str1 has been modified. BEFORE DOING\n     ANYTHING ELSE, select the \"Configure\" option. This sets up the save, and avoids experiencing bugs when first playing the game.\nQuit - Exits the program.\n\nControls in-game:\nARROW KEYS - move cursor\n2ND or CLEAR - clear a space\nALPHA or \"^\" - mark a flag\nSTAT - saves the game\nDEL - exits the game\nENTER - Tests the board to make sure it has been completed\nCustom controls also apply here, for the clearing and flagging keys.\n\nApproximate loading statistics:\nSaving a game - 5 seconds\nLoading a game - 18 seconds\nSetting up a new map of mines - 3 seconds for every 10 mines (e.g. Normal - 12 seconds)\nAutomatic Clearing - 3 EMPTY spaces every second - about 10 spaces per second otherwise\n\n5/7/17 - Update v1.1 - Save and exit are two different buttons, more user-friendly, minor fixes.\n\n5/8/17 - Update v1.1.2 - Removed crash at beginning of program for new users, other bug-fixes improving user friendliness.\n\n5/13/17 - Update v1.3.0 - FASTER saving, bug fixes, option turning off automatic clearing, and custom controls!\n\n5/24/17 - Update v1.3.1 - FASTER loading, faster button response (thank you to zeldaking @ cemetech for idea!)\n\n5/25/17 - Update v1.4.0 - Added Statistics! View best scores and times!\n\n10/2/17 - Update v1.4.1 - Various amendments and improvements\n\nI may later create a TI-84+/83+ edition.\n\nPost in the comments if you find a bug (all of which can never be exterminated!), or if you would like to suggest a new feature. I have left the program editing unlocked so that, if you find a glitch, you than reference it to me. Thank you in advance for helping out to perfect this program into a masterpiece!"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '0'
+compatibility: ff
+download: 'archivefile:minesweeper-c/Minesweeper-C.zip'
+image: 'archiveimage:minesweepercapture-1/MinesweeperCapture.png'
+fileSize: '9960'
+fileSizeUnit: '1'
+dateMade: '1493964000'

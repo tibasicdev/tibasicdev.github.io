@@ -1,0 +1,21 @@
+author: Weregoose
+version: '1.0'
+summary: 'You have to navigate a scrolling tunnel for as long as possible.'
+description: 'You have to navigate a scrolling tunnel for as long as possible.  You can view and study the source on [[[fly-the-copter|this page]]].'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:flythecopter/flythecopter.zip'
+image: null
+fileSize: '356'
+fileSizeUnit: '1'
+dateMade: '1217653200'

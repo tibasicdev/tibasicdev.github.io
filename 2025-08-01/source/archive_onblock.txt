@@ -1,0 +1,21 @@
+author: '[*https://www.ticalc.org/archives/files/authors/66/6619.html Justin Wales]'
+version: '1.0'
+summary: 'This program disables the [ON] button'
+description: "Ever wanted a program with the [ON] button disabled? This program is for you! [*https://www.ticalc.org/archives/files/fileinfo/330/33039.html View this file on ti-calc.org]\n\n\n##blue|SOURCE CODE (z80):##\n[[code]]\n.nolist\n#include \"ti83plus.inc\"\n.org userMem-2\n.db $BB,$6D\n.list\n\n      bcall(_RclAns)\n      bcall(_ConvOp1)\n      ld a,e\n      or a\n      jr z,Install_Interrupt\n      dec a\n      ret nz\nUninstall_Interrupt:\n      im 1\n      ret\nInstall_Interrupt:\n\n      di\n      ld hl,$9900\n      ld de,$9901\n      ld bc,256\n      ld (hl),$9a\n      ldir\n\n      ld    hl,interrupt_start                 \n      ld    de,$9a9a                      \n      ld    bc,interrupt_end-interrupt_start \n      ldir                                \n      ld    a,$99\n      ld    i,a               \n      im    2                 ;switch to mode 2\n      ei                      ;enable interrupts\n      ret\n\nInterrupt_Start:\n      ex af,af'\n      exx\n      in a,($03)\n      and %11111110\n      out ($03),a\n      call $003A\n      reti\nInterrupt_End:\n.end\n[[/code]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:onblock/onblock.zip'
+image: null
+fileSize: '139'
+fileSizeUnit: '1'
+dateMade: '1078639200'

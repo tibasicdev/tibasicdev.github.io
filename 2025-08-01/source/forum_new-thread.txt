@@ -1,0 +1,7 @@
+[[div style="width: 75%; margin: auto; padding: 5px 10px; text-align: center;margin-bottom: 20px; background: #fdfcf6; border: 1px solid #C7C9B8;" class="search-results"]]
+++++ Please use the [[[search:site|search function]]] before asking for TI-Basic help on the forums. We enjoy helping people, but we also expect you to do some research yourself.
+[[/div]]
+
+[[module ForumNewThread]]
+
+[!-- please do not alter this page if you want to keep your forum working --]

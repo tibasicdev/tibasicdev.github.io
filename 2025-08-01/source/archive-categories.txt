@@ -1,0 +1,6 @@
+[[module ListPages category="archive-categories" tags="@URL"]]
+[[include inc:heading heading=%%title%%]]
+[[size 140%]]
+> [*%%link%% %%content%%]
+[[/size]]
+[[/module]]

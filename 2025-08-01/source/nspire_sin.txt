@@ -1,0 +1,29 @@
+[[include inc:nspire-command
+|picture=nspire-sin
+|summary=Given an angle or list of angles θ, returns their sines. For matrix inputs, see [[[[nspire:scalar-on-mat|Scalar functions on matrices]]]
+|syntax=sin(number) sin(list) sin(matrix)
+|location=trig key on calculator
+|compatibility=Confirmed on Nspire II CX CAS, presumed the same on all other Nspire models
+]]
+{{sin(θ)}} returns the [*https://www.mathworld.wolfram.com/Sine.html Sine] of θ
+[[[sin|Unlike its TI-83/84 counterpart]]] which can only be a real number, or a list thereof, the nSpire version can also be used on complex numbers, as well as a list/matrix of complex numbers.
+
+{{sin(}} is affected by the document angle setting
+
+On CAS calculators^^(CAS only or non-CAS as well?)^^, {{sin(θ)}} can result in exact representations if θ is a value such as [[$\pi/3$]]
+
+++++ In radians
+[[image nspire-sin-radians]]
+++++ In degrees
+[[image nspire-sin-degrees]]\
+
+++++ In gradians
+[[image nspire-sin-gradians]]
+
++ Related Commands
+
+* [[[nspire:arcsin|sin⁻¹(]]]
+* [[[nspire:cos|cos⁻¹(]]]
+* [[[nspire:arccos|cos⁻¹(]]]
+* [[[nspire:tan|tan(]]]
+* [[[nspire:arctan|tan⁻¹(]]]

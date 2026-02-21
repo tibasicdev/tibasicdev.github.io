@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Vortex
+|author=Builderboy2005
+|size=3,964 Bytes
+|description=Vortex is a fun, challenging, turn-based multiplayer strategy game. The object of the game is to kill your opponent. You can go around collecting boxes of money and use them to buy upgrades, items, and weapons. The game also features a random level generator. Fully MirageOS compatible.
+
+|picture=archives:vortex/SCREENSHOT1.gif
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:vortex/Vortex.zip
+|downloadName=Vortex.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

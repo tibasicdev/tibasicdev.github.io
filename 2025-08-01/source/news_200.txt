@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Aug
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=26
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=A new version (5.6) for the TI-84 Plus CE is available. The newer OS discontinues assembly permanently, most games (non-Basic ones) will no longer work anymore. Think very carefully on upgrading! TI-Basic games will continue to function normally as they have before.
+]]

@@ -1,0 +1,4 @@
+##red|This is a sticky thread!( tagged with "_sticky")##
+Please - this is the 1. Thread on this admin-forum example - onlöy to demonstrate the possibilities
+
+Feel free to start "sub-threads" if you want to test it out.

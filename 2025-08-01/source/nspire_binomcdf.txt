@@ -1,0 +1,71 @@
+[[include inc:nspire-command
+|picture=sample.png
+|summary=Calculates the binomial cumulative probability, either at a single value or for all values
+|syntax=for a single value:
+binomcdf(trials, probability, [lower_bound,] upper_bound)
+
+for a list of all values (0 to trials)
+binomcdf(trials, probability)
+
+|location=From inside a document:
+Press Menu, then scroll to probability.
+Press the right arrow, then scroll to Distributions.
+Press the right arrow, then scroll to Binomial Cdf (B)
+
+|compatibility = @@If this is only available on certain versions of the nspire
+|size=@@X byte(s)
+]]
+
+This command is used to calculate the binomial cumulative probability function. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
+# A specific event has only two outcomes, which we will call "success" and "failure"
+# This event is going to repeat a specific number of times, or "trials"
+# Success or failure is determined randomly with the same probability of success each time the event occurs
+# We're interested in the probability that there are **at most** N successes
+
+For example, consider a couple that intends to have 4 children. What is the probability that at most 2 are girls?
+
+# The event here is a child being born. It has two outcomes "boy" or "girl". In this case, since the question is about girls, it's easier to call "girl" a success.
+# The event is going to repeat 4 times, so we have 4 trials
+# The probability of a girl being born is 50% or 1/2 each time
+# We're interested in the probability that there are at most 2 successes (2 girls)
+
+The syntax here is {{binomcdf(//trials//, //probability//, //value//)}}. In this case:
+[[code]]
+binomcdf(4,.5,2)
+[[/code]]
+This will give .6875 when you run it, so there's a .6875 probability out of 4 children, at most 2 will be girls.
+
+If you wanted the probability that at least 1 and at most 2 will be girls, the syntax would be:
+[[code]]
+binomcdf(4,.5,1,2)
+[[/code]]
+
+Another alternate syntax for {{binomcdf(}} leaves off the last argument, //value//. This tells the calculator to compute a list of the results for all values. For example:
+[[code]]
+:binomcdf(4,.5
+[[/code]]
+
+This will come to {.0625 .3125 .6875 .9375 1} when you run it. These are all the probabilities we get when you replace "at most 2 girls" with "at most 0", "at most 1", etc. Here, .0625 is the probability of "at most 0" girls (or just 0 girls), .3125 is the probability of at most 1 girl (1 or 0 girls), etc.
+
+Several other probability problems actually are the same as this one. For example, "less than N" girls, just means "at most N-1" girls. "At least N" girls means "at most (total-N)" boys (here we switch our definition of what a success is). "No more than", of course, means the same as "at most".
+
+[!--
++ Error Conditions
+
+For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
+
+* **[[[errors#dimmismatch|ERR:DIM MISMATCH]]]** is thrown if the two list arguments have different dimensions.
+* **[[[errors#reserved|ERR:RESERVED]]]** is thrown if ∟RESID is supplied as an argument.
+--]
+[!-- This section is still in progress
+[[include inc:nspire-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:nspire-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+
+Exclude the following errors because they don't rely on the specifics of a command, and can occur almost anywhere: 180-Break, 210-Data type, 670-Memory (but do include 673-Memory, because that's unusual), 680..720-Missing (..}, 790-Non-algebraic variable, 830-Overflow, and 910..940-Syntax-type errors.
+--]
+
++ Related Commands
+
+* {{[[[nspire:binompdf]]]}}
+* {{[[[nspire:geometpdf]]]}}
+* {{[[[nspire:geometcdf]]]}}

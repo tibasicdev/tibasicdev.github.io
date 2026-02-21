@@ -1,0 +1,21 @@
+author: eeffeemorgan
+version: '1.1.2-Base Codes'
+summary: '2D Minecraft'
+description: "83-Craft is a Minecraft like game in which you can place/destroy blocks and move around. \nAlso, giving credit where it is due, this was not entirely mine it is my take on Ti-Craft by 12Me21. Go check it out here:\nhttp://tibasicdev.wikidot.com/archive:ticraft\nAlso, I will be updating this almost constantly because I never have anything to do in my classes at school.\n\n\nBiomes:\n0:Default\n1:Forest\n2:Flat lands\n3:Barren\n4:Underground\n5:Plains\n6:Barren Plains\n7:Skylands?\n\nControls:\nPress the arrow keys to move.\nPress Y= to set the block to air\nPress window to set the block to dirt\nPress zoom to set the block to stone\nPress trace to set the block to leaves\nPress graph to set the block to Wood\nMode = glass\nDEL   = Brick\nX,T,θ,n = Mushroom\nTo place blocks around the player use keys:12346789 (Ex:to place a block above the player press 8 to place one below press 2)\nPress STO to reach save menu\n\nOld:\nTrees! Mushrooms! Biomes!\nWood, Leaves, Dirt, Stone\n\nNew!:\nGlass, Brick, Mushroom(Place-able),\nSkylands, \nOre generation!\n\nUp coming:\nBaddies\nClimbing\n4 more blocks"
+arcade: '0'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:83-craft/83-Craft.8xp'
+image: 'archiveimage:83-craft-2/83_Craft_2.gif'
+fileSize: '2804'
+fileSizeUnit: '1'
+dateMade: '1505541600'

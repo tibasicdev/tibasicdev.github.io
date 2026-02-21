@@ -1,0 +1,21 @@
+[[include inc:routine
+|picture=@@
+|summary=Retrieves the key code of any key pressed
+|input=@@
+|output=@@
+|variable=@@
+|compatibility=TI-83/84/+/SE
+|author=@@
+|authors=@@
+|url=@@
+|download=@@
+]]
+
+[[code]]
+:Repeat Ans
+:getKey
+:End
+:Ans
+[[/code]]
+
+This routine loops until a key is pressed.  When a key is pressed, the key code for that specific key is displayed.

@@ -1,0 +1,75 @@
+[[table class="catHead"]]
+[[row]][[cell]]Forum 101[[/cell]]
+[[/row]][[/table]]
+[[include inc:board-cat-table]]
+[[include inc:board-cat-row |category=announcements |description=Important News]]
+[[include inc:board-cat-row |category=community-introductions |isEven=true |description=Introduce yourself to the community]]
+[[include inc:board-cat-row |category=site-feedback |description=Questions and commentary about the site]]
+[[include inc:board-cat-row |category=wiki-page-discussions |isEven=true |description=Questions about certain wiki pages]]
+[[table class="catHead"]]
+[[row]][[cell]]General Discussion[[/cell]]
+[[/row]][[/table]]
+[[include inc:board-cat-table]]
+[[include inc:board-cat-row |category=open-topic |description=You can talk about anything]]
+[[include inc:board-cat-row |category=humor |isEven=true |description=Post a funny picture or joke]]
+[[include inc:board-cat-row |category=politics |description=Arguments and rants welcome]]
+[[include inc:board-cat-row |category=tech-support |isEven=true |description=Get help for your technology questions]]
+[[table class="catHead"]]
+[[row]][[cell]]Programming & Design[[/cell]]
+[[/row]][[/table]]
+[[include inc:board-cat-table]]
+[[include inc:board-cat-row |category=ti83-84 |description=Discuss TI-83/84 topics]]
+[[include inc:board-cat-row |category=68k |isEven=true |description=Discuss 68k topics]]
+[[include inc:board-cat-row |category=nspire |description=Discuss TI-Nspire topics]]
+[[include inc:board-cat-row |category=assembly |isEven=true |description=Discuss Assembly topics]]
+[[include inc:board-cat-row |category=computers |description=Discuss computers and web development]]
+[[table class="catHead"]]
+[[row]][[cell]]Projects & Contests[[/cell]]
+[[/row]][[/table]]
+[[include inc:board-cat-table]]
+[[include inc:board-cat-row |category=your-projects |description=Share your projects]]
+[[include inc:board-cat-row |category=project-ideas |isEven=true |description=Share your project ideas]]
+[[include inc:board-cat-row |category=program-challenges |description=See who can create the best program...]]
+[[include inc:board-cat-row |category=name-that-command |isEven=true |description=Test your command knowledge]]
+[[include inc:board-cat-row |category=optimize-me |description=Test your optimization prowess]]
+[[include inc:board-cat-row |category=brainteasers |isEven=true |description=Try to stump others]]
+
+[[module CSS]]
+.catTable,
+.catHead,
+.catRow{    width: 100%; }
+.catHead{
+    background-color: #C7C9B8;
+    padding: 3px 0 3px 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 9px;
+}
+.catTable td{
+    font-size: 80%;
+    background-color: #F8F8F8;
+}
+.catTable .catTitle,
+.catTable .catRecent{    padding: 1px 0 1px 4px; }
+.catRow .catTitle{
+    font-weight: bold;
+    padding: 0 0 0 6px;
+}
+.catRow .catRecent{    padding: 2px 0 2px 6px; }
+.catRow .catThreads,
+.catTable .catThreads{
+    text-align: center;
+    width: 75px;
+}
+.catTable .catTitle,
+.catRow .catTitle{    width: 67%; }
+.catRow a{    text-decoration: none; }
+.catRow a:hover{    color: #111; }
+.catRow.rowtrue td{    background-color: #F8F8F8; }
+.catRow .description{
+    font-size: 80%;
+    font-weight: normal;
+    color: #555;
+}
+.catRow td{    border: 1px solid #CCC; background: #E2E1DC; }
+[[/module]]

@@ -1,0 +1,175 @@
+[[div style="float:left;"]]
+
++ Tools & Utilities
+
+[[div style="float:left; margin: 0 1em; padding: 0 0 0 25px;"]]
+* [http://tibasicdev.wikidot.com/local--files/downloads/graphlink.zip TI-Graph Link]
+* [https://education.ti.com/download/en/ed-tech/B59F6C83468C4574ABFEE93D2BC3F807/9BF7E4898EA043FB808873EE5D0267ED/TIConnect-4.1.15.dmg=I TI-Connect]
+* [http://oase.uci.kun.nl/~mientki/pic/download/jalcc_v2_2.exe JALcc IDE]
+* [http://www.ticalc.org/archives/files/fileinfo/408/40809.html Lunar IDE]
+* [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder]
+* [http://tibasicdev.wikidot.com/local--files/downloads/programeditor.zip Program Editor]
+* [http://tibasicdev.wikidot.com/local--files/downloads/calccapture.zip CalcCapture]
+* [http://tibasicdev.wikidot.com/local--files/downloads/vticapture.zip VTI Capture]
+* [http://tibasicdev.wikidot.com/local--files/downloads/flashdebugger.zip Flash Debugger]
+[[/div]]
+
+[[div style="float:left; margin: 0 1em; padding: 0 0 0 25px;"]]
+* [http://tibasicdev.wikidot.com/local--files/downloads/vti.zip Virtual TI (VTI)]
+* [http://tibasicdev.wikidot.com/local--files/downloads/vtialpha.zip Virtual TI (VTI) Alpha]
+* [http://tibasicdev.wikidot.com/local--files/downloads/pindurti.zip PindurTI (PTI)]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tilp.zip TI Linking Program (TiLP)]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tilem.zip TI Linux Emulator (TilEm)]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tiemu.zip TiEmu]
+* [https://wabbit.codeplex.com/ Wabbitemu]
+* [http://tibasicdev.wikidot.com/local--files/downloads/rom8x.zip Rom8x]
+* [http://tibasicdev.wikidot.com/local--files/downloads/emu8x.zip Emu8x]
+[[/div]]
+
+[[/div]]
+
+[[div style="float:left;"]]
+
++ Documentation
+
+[[div style="float:left; margin: 0 1em; padding: 0 0 0 25px;"]]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/ti83manual.zip TI-83 Calculator Manual]**
+* **[http://tibasicdev.wikidot.com/local--files/downloads/ti83psemanual.zip TI-83+/SE Calculator Manual]**
+* **[http://tibasicdev.wikidot.com/local--files/downloads/ti84psemanual.zip TI-84+/SE Calculator Manual]**
+* **[http://tibasicdev.wikidot.com/local--files/downloads/1337guide.zip 1337 Guide]**
+* **[http://tibasicdev.wikidot.com/local--files/downloads/2dsprites.zip 2D Sprites]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/82math.zip TI-82 Math]
+* [http://tibasicdev.wikidot.com/local--files/downloads/82programming.zip TI-82 Programming]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83appendicesprogramming.zip TI-83 Appendices Programming]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83basictutorial.zip TI-83 Basic Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83bslink.zip TI-83 Link]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83memorymanagement.zip TI-83 Memory Management]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83plusbasicsubroutines.zip TI-83+ Basic Subroutines]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83programmingtutorials.zip TI-83 Programming Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83programming.zip TI-83 Programming]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/83trix.zip Complete TI-Basic Optimization Guide]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/85gameprogramming.zip TI-85 Game Programming]
+* [http://tibasicdev.wikidot.com/local--files/downloads/86basic.zip TI-86 Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/86programming.zip TI-86 Programming]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/86roguetutorial.zip Rogue's TI-86 Tutorial]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/86tutorial.zip TI-86 Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/abeginnersguide.zip A Beginner's Guide]
+* [http://tibasicdev.wikidot.com/local--files/downloads/acomcalctutorial.zip Acomcalc Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/advanced86basic.zip TI-86 Advanced Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/advancedbasic.zip TI-83 Advanced Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/alexruddtutorial.zip Alexrudd Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/allerictutorials.zip Alleric Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/arasiantutorials.zip Arasian Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/artoftibasic.zip The Art of TI-Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basic83.zip TI-83 Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basicgreyscale.zip Basic Greyscale]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/basicgurututorials.zip BASIC Guru Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/basicprogramming.zip Basic Programming]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basicsavespace.zip Basic Save Space]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basicschool.zip Basic School]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basictutorial.zip Basic Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basictutor.zip Basic Tutor]
+* [http://tibasicdev.wikidot.com/local--files/downloads/basic.zip Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/begin83.zip Begin 83]
+* [http://tibasicdev.wikidot.com/local--files/downloads/betterunderstand83.zip Better Understand TI-83]
+* [http://tibasicdev.wikidot.com/local--files/downloads/calcbasictutorials.zip CalcBasic Tutorials]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/calcorgtutorials.zip Calc.org Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/calcsitetutorials.zip The Calc Site Tutorials]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/cditutorials.zip CDI Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/cirrustutorial.zip Cirrus Tutorial]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/commandtimings.zip Command Timings]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/conditions.zip Conditions]
+* [http://tibasicdev.wikidot.com/local--files/downloads/converting82to83.zip Converting 82 to 83]
+* [http://tibasicdev.wikidot.com/local--files/downloads/darksidetutorials.zip Darkside Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/demonstrationtibasic.zip Demonstration TI-Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/devguide.zip Dev Guide]
+* [http://tibasicdev.wikidot.com/local--files/downloads/flabberghasttutorials.zip Flabberghast Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/fortresstutorial.zip Fortress Tutorial]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/frankforcetutorials.zip Frank Force Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/frenchtutorials1.zip French Tutorials 1]
+* [http://tibasicdev.wikidot.com/local--files/downloads/frenchtutorials2.zip French Tutorials 2]
+* [http://tibasicdev.wikidot.com/local--files/downloads/frenchtutorials3.zip French Tutorials 3]
+* [http://tibasicdev.wikidot.com/local--files/downloads/function.zip Function]
+* [http://tibasicdev.wikidot.com/local--files/downloads/goldfilestutorial.zip Goldfiles Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/heaneysofttutorial.zip HeaneySoft Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/hitandruntutorials.zip Hit and Run Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/83troubleshoot.zip TI-83 Troubleshooting]
+* [http://tibasicdev.wikidot.com/local--files/downloads/how2calcgamesin7days.zip How 2 Calc Games in 7 Days]
+[[/div]]
+
+[[div style="float:left; margin: 0 1em; padding: 0 0 0 25px;"]]
+* [http://tibasicdev.wikidot.com/local--files/downloads/iftutorial.zip If Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/infobasetutorials.zip InfoBase Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/jacobtataytutorial.zip.zip Jacob Tatay Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/jamcalctutorials.zip Jamcalc Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/jasonralphstutorial.zip Jason Ralphs Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/kermmartiantutorial.zip Kerm Martian Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/knoppmooretutorials.zip Knopp Moore Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/kourigetkeytutorial.zip Kouri getKey Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/learningtibasic.zip Learning TI-Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/linkingtutorial.zip Linking Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/listcalculations.zip List Calculations]
+* [http://tibasicdev.wikidot.com/local--files/downloads/looptrick.zip Loop Trick]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/mdrfalcontutorials.zip MDR Falcon Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/miketutorials.zip Mike Tutorials]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/mjs2000tutorials.zip MJS 2000 Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/newbietutorials.zip Newbie Tutorials]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/nolibguidespritesmaps.zip No-Lib Guide to Sprites and Maps]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/olympia.zip Olympia Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/oncalcbasictutor.zip Oncalc Basic Tutor]
+* [http://tibasicdev.wikidot.com/local--files/downloads/optimizatortutorial.zip Optimizator Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/portuguesetutorial.zip Portuguese Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/programmingbasics.zip Programming Basics]
+* [http://tibasicdev.wikidot.com/local--files/downloads/programminginbasic.zip Programming in Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/programmingtitutorials.zip Programming TI Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/programmingtricks.zip Programming Tricks]
+* [http://tibasicdev.wikidot.com/local--files/downloads/progtibasic.zip Programming TI-Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/purebasicspritedemo.zip Pure Basic Sprite Demo]
+* [http://tibasicdev.wikidot.com/local--files/downloads/pxltest.zip Pxl-Test( Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/quadratic.zip Quadratic Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/richfilestutorial.zip Richfiles Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/rickytutorials.zip Ricky Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/ryantutorials.zip Ryan Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/savingmemoryinbasic.zip Saving Memory in Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/scottdavistutorial.zip Scott Davis Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/seansartelltutorials.zip Sean Sartell Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/shellmaking.zip Shell Making]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/sicodetutorials.zip SiCoDe Tutorials]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/spanishtutorials.zip Spanish Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/stevehartmanntutorials.zip Steve Hartmann Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/strdform.zip Strdform Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/stringcompression.zip String Compression]
+* [http://tibasicdev.wikidot.com/local--files/downloads/ti83tutorial.zip TI-83 Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/ti8xtutorials.zip TI-8x Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasichelp.zip TI-Basic Help]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasicpandd.zip TI-Basic Pandd]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasicreference.zip TI-Basic Reference]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasictips.zip TI-Basic Tips]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasictutorial.zip TI-Basic Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasic.zip TI-Basic]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tifilestutorials.zip TI-Files Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tifreakwaretutorials1.zip TI-Freakware Tutorials 1]
+* **[http://tibasicdev.wikidot.com/local--files/downloads/tifreakwaretutorials2.zip TI-Freakware Tutorials 2]**
+* [http://tibasicdev.wikidot.com/local--files/downloads/tiprogram.zip TI Program]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tipstricks.zip Tips & Tricks]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tisourcetutorials.zip TI Source Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/titutorial.zip TI Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/titutorial2.zip TI Tutorial 2]
+* [http://tibasicdev.wikidot.com/local--files/downloads/twilighttitutorials.zip Twilight-TI Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/ucstutorial.zip UCS Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/usingthecalc.zip Using the Calc]
+* [http://tibasicdev.wikidot.com/local--files/downloads/willwhitetutorials.zip Will White Tutorials]
+* [http://tibasicdev.wikidot.com/local--files/downloads/xathientutorial.zip Xathien Tutorial]
+* [http://tibasicdev.wikidot.com/local--files/downloads/tibasicfornoobs.zip TI-Basic for Noobs]
+[[/div]]
+
+[[/div]]
+[[div style="float: left; width: 100%;"]]
+[[include inc:next-prev
+|prevpage = sk:troubleshooting
+|prevtitle = Troubleshooting
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:tips-tricks
+|nexttitle = Tips & Tricks]]
+[[/div]]

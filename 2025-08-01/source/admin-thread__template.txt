@@ -1,0 +1,73 @@
+[!--
+    Global CSI for all wikified forums (forum-template, opensource-template).
+    Change with caution. Responsible editor is pieterh.
+--]
+ _
+
+[!-- Scrollbar --]
+[[include :modules:include:3 order = updated_at desc | selector = parent="%%parent_fullname%%" tags="-_closed"]]
+
+[[div style="border: solid 1px #ccc; background:#eee; padding:0 1em 0 1em; margin-bottom: 1em; margin-top:1em; -moz-border-radius: 20px 20px; -webkit-border-radius: 20px 20px; border-radius: 20px 20px;"]]
+%%author%% wrote on %%date|%e %b, %H:%M (%O ago)%% [[iftags +_sticky]](Sticky)[[/iftags]]
+
+%%content%%
+[[/div]]
+[[# subthreads]]
+
+[[span style="border: 1px solid silver; font-weight:bold; padding: 7px"]][/admin-thread:new-thread-%%name%%/edit/true/parentPage/%%fullname%%/title/%20 Start a new sub-thread][[/span]]
+
+[!-- Show sticky threads first, ignore closed threads --]
+[[module ListPages category="admin-thread" parent="%%fullname%%" tags="+_sticky -_closed" order="updated_at desc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; font-weight:bold; margin-top:-1px; background-color:#eeeeee; font-size:80%"]]
+    [[row]]
+      [[cell style="width:58%"]] %%title_linked%% (sticky)[[/cell]]
+      [[cell style="width:15%"]] By %%created_by%% [[/cell]]
+      [[cell style="width:12%"]] %%comments%% Comments [[/cell]]
+      [[cell style="width:15%"]] %%created_at|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+[!-- Now show normal open threads --]
+[[module ListPages category="admin-thread" parent="%%fullname%%" tags="-_sticky -_closed" order="updated_at desc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; margin-top:-1px; background-color:#dddddd"]]
+    [[row]]
+      [[cell style="width:58%"]] %%title_linked%%[[/cell]]
+      [[cell style="width:15%"]] By %%created_by%% [[/cell]]
+      [[cell style="width:12%"]] %%comments%% Comments [[/cell]]
+      [[cell style="width:15%"]] %%created_at|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+[!-- Now show closed threads --]
+[[module ListPages category="admin-thread" parent="%%fullname%%" tags="+_closed" order="updated_at desc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; margin-top:-1px; background-color:#cccccc; font-size:80%"]]
+    [[row]]
+      [[cell style="width:58%"]] %%title_linked%% (closed)[[/cell]]
+      [[cell style="width:15%"]] By %%created_by%% [[/cell]]
+      [[cell style="width:12%"]] %%comments%% Comments [[/cell]]
+      [[cell style="width:15%"]] %%created_at|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+[[# comments]]
+
+[[iftags _nocomment]]
+We discourage direct comments on this thread: to discuss it, please start a sub-thread.
+[!--
+[[collapsible show="+ Show %%comments%% comments anyhow" hide="- Hide comments"]]
+[[module Comments]]
+[[/collapsible]]
+--]
+[[/iftags]]
+[[iftags -_nocomment]]
+[!--
+++ **Comments:** %%comments%%
+[[module Comments]]
+[[/iftags]]
+--]
+====
+
+Click on the title field and enter a title.  Then write your text here and click the Save button or press Ctrl-S.  You can edit this thread afterwards, as often as you like.  If you want to show an image, write '[[f>image :first]]' to show a right floating image and attach the image after you've saved this page.

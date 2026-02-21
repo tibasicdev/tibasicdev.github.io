@@ -1,0 +1,29 @@
+[[include inc:68k-command
+|picture=disp.png
+|summary=Displays an output on the Home or I/O screen
+|syntax=Disp //[text],var
+|location=From the program editor, press [F3][2]
+|size=X byte(s)
+]]
+The Disp command displays output in the Home App I/O screen. An example:
+[[code]]
+prgmexmp()
+Prgm
+Request "Enter something",var1   //Get a value for var1
+Disp "var1=",var1
+Pause
+DelVar var1
+ClrIO
+DispHome
+EndPrgm
+[[/code]]
+
++ Error Conditions
+[[include inc:68k-error num=910|error=Syntax|cause=there is improper syntax/a variable was not used]]
+
++ Related Commands
+* [[[68k:DispHome]]]
+* [[[68k:DispG]]]
+* [[[68k:DispTbl]]]
++ Credits
+Credits to byobcello for the explanation and code, both were made by him. Modified for readability/corrections

@@ -1,0 +1,85 @@
+[[tabview]]
+[[tab Checklist]]
+Please feel free to add stuff to the list, and check it off when done.
+[[table style="margin: 0 auto;"]]
+[[row]]
+[[cell style="font-size: 1.25em; font-weight: bold; text-align: center;"]]
+Legend
+[[/cell]]
+[[/row]]
+[[/table]]
+[[table style="border: 1px solid #ddd; margin: 0 auto; table-layout: fixed; width: 512px;"]]
+[[row]]
+[[cell style="text-align: center;"]]
+[[image http://tibasicdev.wikidot.com/common--images/todo/link_go.png style="vertical-align: top;"]] Follow Link
+[[/cell]]
+[[cell style="text-align: center;"]]
+[[image http://tibasicdev.wikidot.com/common--images/todo/link_edit.png style="vertical-align: top;"]] Edit Link
+[[/cell]]
+[[cell style="text-align: center;"]]
+[[image http://tibasicdev.wikidot.com/common--images/todo/cross.png style="vertical-align: top;"]] Remove
+[[/cell]]
+[[/row]]
+[[/table]]
+[[module SimpleToDo id="To Do TI|BD"]]
+
+= Constantly check on [[[archives:_to-do| The Archives To-Do]]].
+[[/tab]]
+
+[[tab Details]]
++++ Preparation
+
+Create all of the un-started pages in the [[[starter-kit]]].
+
++++ Commands
+
+Add pages for the new commands in OS 2.53MP
+Rewrite some of the command category pages:
+* [[[homescreen|The Home Screen]]], [[[graphscreen|The Graph Screen]]]
+* [[[userinput|User Input]]], [[[controlflow|Controlling Flow]]]
+* Update the [[[command-map|command map]]] so that it covers all of the commands and uses a better layout.
+* Change the appropriate [[[tokens|token table]]]
+* Change the related commands to include the commands in their "Related Commands" list
+* Note any changes in menu location for the old commands (they're still in the same menu, but the number/letter may be different)
+* Add notes about them in the parent pages
+* Improve some of the command pages:
+* [[[ExecLib]]]
+* [[[OpenLib(]]], [[[setDate(]]], [[[ZoomStat]]]
+Add screenshots to the following command pages:
+*  [[[tvm]]], [[[chisquaregof-test|χ²GOF-Test(]]], [[[invT]]], [[[LinRegTInt]]]
+
++++ Techniques
+
+Rewrite some of the techniques pages to fix spelling and grammar, and also to add important information that they are missing:
+
+* [[[Animation]]], [[[Compression]]], [[[movement|Movement in Maps]]]
+* [[[custominput|Custom Text Input]]], [[[Graphics]]], [[[lookuptables|Look-Up Tables]]], [[[Multiplayer]]]
+
+Here are the things to add to the graphics page:
+
+* Bitmap Sprites, Stat Sprites, Text Sprites, Greyscale, Caching
+* Layered graphics, Using pictures as buffers, Clearing parts of the screen
+
+Here are the things to add to the movement page:
+
+* Vertical & horizontal scrolling (using lists, matrices, and strings)
+* Using the [[[pxl-Test(]]] command (add the content from the [[[easy map making]]] page, and then delete the page)
+
+Create the un-started technique pages:
+
++++ Nspire
+
+Consider adding [[[Nspire]]] programming content.
+[[/tab]]
+
+[[tab Pages Tagged In Development]]
+[[module ListPages category="*" tags="_in-development _incomplete" perPage="60" order="titleAsc" separate="false"]]
+* %%title_linked%%
+[[/module]]
+[[/tab]]
+
+[[tab Wanted Pages]]
+[[module WantedPages]]
+[[/tab]]
+
+[[/tabview]]

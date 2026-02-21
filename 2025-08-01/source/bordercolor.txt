@@ -1,0 +1,33 @@
+[[include inc:command
+|picture=@@@
+|summary=Changes the color of the graph border.
+|syntax=BorderColor <color#>
+|location=Press:
+# 2ND Zoom to access format menu.
+# Scroll down to BorderColor and use arrows.
+
+It can also be found under the catalog.
+|compatibility=TI-84+ CSE/CE
+|size=2 bytes
+]]
+
+There are only 4 borders to choose from, so using the default colors will not work. Instead, you may only use a value between 1-4.
+
+For example, to change the border color to light blue, do:
+[[code]]
+BorderColor 3
+[[/code]]
+
+Here are the color values:
+
+||~ Color ||~ Value ||
+|| Light Gray || 1 ||
+|| Snowy Mint / Light Madang || 2 ||
+|| Light Blue || 3 ||
+|| White || 4 ||
+
+The colors of borders 2 and 3 are not usable or accessible in any way except as a border color. The use of border colors 1 or 4 along with the appropriate background can create the illusion of a larger graph screen. However, nothing can be draw outside the standard window.
+
++ Related Commands
+
+* [[[GraphColor(]]]

@@ -1,0 +1,101 @@
+Loops are a type of control structure used to repeat a block of code several times. Typically, there are two kinds of loops in programs:
+* A loop that repeats until a condition is satisfied
+* A loop that repeats a fixed number of times
+In TI-Basic, the first kind of loop is created with the [[[While]]] and [[[Repeat]]] commands, and the second kind is created with the [[[For(]]] command.
+
++ While and Repeat
+
+The syntax for these two loops is identical:
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="width:50%;vertical-align:top;"]]
+[[code]]
+:While (condition)
+:
+	...
+:
+:End
+[[/code]]
+[[/cell]]
+[[cell style="width:50%;vertical-align:top;"]]
+[[code]]
+:Repeat (condition)
+:
+	...
+:
+:End
+[[/code]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+In practice, however, they are different. The code inside a While loop will keep repeating as long as the condition is true ("do this //while// the condition is true"), and exit as soon as the condition is false. The code inside a Repeat loop will keep repeating until the condition becomes true ("//Repeat// this //until// the condition is true"). So a loop with While will have the opposite condition of the same loop with Repeat.
+
+There is another subtle difference. The While and For( loops are pre-test loops, which means the condition is checked before you enter the loop. If the condition is false, the loop is skipped entirely. However, the Repeat loop is a post-test loop as the loop is done at least once no matter what. The condition is only checked after a cycle is completed.
+
++ The For( Loop
+
+The [[[For(]]] loop is probably the most complicated command we've covered so far. Its syntax:
+[[code]]
+:For(variable,start,end,step
+:
+:End
+[[/code]]
+
+This loop will be repeated once for every value of //variable// between //start// and //end//, increasing it by //step// each time. For example, For(A,1,10,2) will be repeated once with A=1, then with A=3, then with A=5, then with A=7, and then with A=9 (then the loop stops, because the next value -- 11 -- is greater than the end value of 10).
+
+By default, the step size is 1, so you don't have to include the step if you want it to be 1. For example, this loop will display the numbers 1 through 10, in order:
+[[code]]
+:For(A,1,10)
+:Disp A
+:End
+[[/code]]
+
+You can also have a negative step size: in that case, the ending value should be less than the starting value, and the value of the variable will decrease each time. For example, this loop will display the same numbers 1 through 10, but in reverse order:
+[[code]]
+:For(A,10,1,-1)
+:Disp A
+:End
+[[/code]]
+
++ Some Common Loops
+
+[[div style="float:right; width: 15em; padding: 0 1em; margin: 1em 0 1em 1em; border: solid #888888 1px; background-color: #FFFFFF;"]]
+**Input validation**
+
+Asking repeatedly is not the only way to make sure that input is valid; you might also exit the program if the input is bad, or find a way to interpret bad input as good. 
+
+These methods are discussed in more depth in the [[[Validation]]] tutorial.
+[[/div]]
+
+One way to use a Repeat loop is to make sure that input is valid. For example:
+[[code]]
+:Repeat X>0
+:Disp "ENTER A POSITIVE"
+:Input "NUMBER:",X
+:End
+[[/code]]
+
+This program will ask for a positive number in X. After that, the condition "X>0" will be checked -- if X wasn't positive, the condition will be false, and the loop will be repeated. So the program will keep asking for a positive number until a positive number is actually entered. This might be useful if your program will not work with negative numbers. 
+
+The simplest kind of Repeat or While loop is the infinite loop. This can be done by making Repeat's condition be 0 (false), or While's condition be 1 (true). In either case, the loop will keep going forever.
+
+Finally, For( loops have an unusual use to create delays. For example:
+
+[[code]]
+:For(X,1,100)
+:End
+[[/code]]
+
+This code doesn't actually do anything, but repeating the loop 100 times takes some time. This could be useful when you want to pause for a certain time (say, a few seconds) on a screen before displaying the next screen. 
+
+Later in this tutorial, you'll learn about the [[[rand]]] command, which can be used as an alternative to For( in creating delays.
+
+[[include inc:next-prev
+|prevpage = sk:labels
+|prevtitle = Labels
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:ans
+|nexttitle = Ans]]

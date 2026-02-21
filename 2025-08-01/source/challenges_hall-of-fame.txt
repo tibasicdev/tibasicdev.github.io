@@ -1,0 +1,12 @@
+This is the hall of fame for all programmers who [[[challenges|win a challenge]]] at TI|BD.
+
+||~ Challenge # ||~ Program ||~ Program Description ||~ Winner ||
+|| Challenge 1 || [[file TIBD01.zip]] || Rolls user-specified # of dice ||[[*user burr]] ||
+|| Challenge 2 || [[file TIBD02.zip]] || Analog clock w/ AM/PM and date || [[*user AJLitzau13]] ||
+|| Challenge 3 || [[file TIBD03.zip]] || Game introduction (The Matrix) || [[*user builderboy]] ||
+|| Challenge 4 || [[file TIBD04.zip]] || Converts decimal to Roman numerals || [[*user patriotsfan]] ||
+|| Challenge 5 || [[file TIBD05.zip]] || Converts numbers to words || [[*user Timothy Foster]] ||
+|| Challenge 6 || [http://tibasicdev.wikidot.com/local--files/challenges:16/Challenge6GUI-ZB.zip TIBD06.zip] || A Custom GUI || [[*user Zaphod Beeblebrox]] ||
+|| Challenge 7 || CANCELED || Create a program that does the order of operations backwards. || CANCELED ||
+|| Challenge 8 || [http://tibasicdev.wikidot.com/local--files/challenges:20/Bomber TIBD08.zip] || A game that is less than 1024 bytes large || [[*user seb83]] ||
+|| Challenge 9 || [http://tibasicdev.wikidot.com/local--files/challenges:23/IlliniOS.zip TIBD09.zip] || Custom GUI || [[*user AJLitzau13]] ||

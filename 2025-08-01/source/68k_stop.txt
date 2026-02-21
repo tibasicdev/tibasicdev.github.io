@@ -1,0 +1,30 @@
+[[include inc:68k-command
+|picture=stop.png
+|summary=Stops the program at the given point of the program
+|syntax=No special syntax
+
+|location=In the program editor, [F2][8][4]
+
+|size=X byte(s)
+]]
+Simply put, the Stop command stops the program wherever it is placed. 
+[[code]]
+stop()
+Prgm
+0->X
+While true
+getkey()->k
+x+1->x
+Output 5,5,x
+If k=13
+Stop
+EndWhile
+EndPrgm
+[[/code]]
+
+This program will increase the value of x by one, but when the user presses the ENTER button, it will stop. Keep in mind to put the Stop EXACTLY where you want it to stop.
+
++ Related Commands
+* [[[68k:Exit]]]
+* [[[68k:Pause]]]
+* [[[68k:Return]]]

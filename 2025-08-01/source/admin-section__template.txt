@@ -1,0 +1,67 @@
+[!--
+    Global CSI for wikified forums
+    Change with extreme caution.  Responsible editor is pieterh.
+--]
+ _
+ _
+[[include :modules:include:3 order = created_at | selector = tags="-_closed"]]
+
+[[div style="text-align:justify; border: solid 1px #ccc; background:#eee; padding:0 1em 0 1em; margin-bottom:1em; margin-top:1em; -moz-border-radius: 20px 20px; -webkit-border-radius: 20px 20px; border-radius: 20px 20px;"]]
+
+%%content%%
+[[/div]]
+
+[[span style="border: 1px solid silver; font-weight:bold; padding: 7px"]][/admin-thread:new-thread-%%name%%/edit/true/parentPage/%%fullname%%/title/%20 Start a new thread][[/span]][[span style="border: 1px solid silver; font-weight:bold; padding:7px; margin-left:1em"]][/admin-thread:new-thread-%%name%%/edit/true/parentPage/%%fullname%%/tags/_task/title/%20 Start a new task][[/span]][[span style="border: 1px solid silver; font-weight:bold; padding:7px; margin-left:1em"]][/admin-thread:new-thread-%%name%%/edit/true/parentPage/%%fullname%%/tags/_sticky/title/%20 Start a new sticky thread][[/span]]
+
+[[table style="width:100%; border: 1px solid silver; font-weight:bold; margin-top:1em"]]
+  [[row class="header"]]
+    [[cell style="width:50%"]] Thread [[/cell]]
+    [[cell style="width:15%"]] Edited [[/cell]]
+    [[cell style="width:10%"]] Replies [[/cell]]
+    [[cell style="width:10%"]] Subthreads [[/cell]]
+    [[cell style="width:15%"]] Started [[/cell]]
+  [[/row]]
+[[/table]]
+
+[!-- Show sticky threads first, ignore closed threads --]
+[[module ListPages category="admin-thread" parent="%%full_page_name%%" tags="+_sticky -_closed" order="dateEditedDesc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; font-weight:bold; margin-top:-1px; background-color:#eeeeee"]]
+    [[row]]
+      [[cell style="width:50%"]] %%linked_title%% (sticky)[[/cell]]
+      [[cell style="width:15%"]] %%updated_by%% [[/cell]]
+      [[cell style="width:10%"]] %%comments%% [[/cell]]
+      [[cell style="width:10%"]] [%%link%%#subthreads %%children%%] [[/cell]]
+      [[cell style="width:15%"]] %%date|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+[!-- Now show normal open threads --]
+[[module ListPages category="admin-thread" parent="%%full_page_name%%" tags="-_sticky -_closed" order="dateEditedDesc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; margin-top:-1px; background-color:#dddddd"]]
+    [[row]]
+      [[cell style="width:50%"]] %%linked_title%%[[/cell]]
+      [[cell style="width:15%"]] %%updated_by%% [[/cell]]
+      [[cell style="width:10%"]] %%comments%% [[/cell]]
+      [[cell style="width:10%"]] [%%link%%#subthreads %%children%%] [[/cell]]
+      [[cell style="width:15%"]] %%date|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+[!-- Now show closed threads --]
+[[module ListPages category="admin-thread" parent="%%full_page_name%%" tags="+_closed" order="dateEditedDesc" separate="no" perPage="50"]]
+  [[table style="width:100%; border:1px solid silver; margin-top:-1px; background-color:#cccccc"]]
+    [[row]]
+      [[cell style="width:50%"]] %%linked_title%% (closed)[[/cell]]
+      [[cell style="width:15%"]] %%updated_by%% [[/cell]]
+      [[cell style="width:10%"]] %%comments%% [[/cell]]
+      [[cell style="width:10%"]] [%%link%%#subthreads %%children%%] [[/cell]]
+      [[cell style="width:15%"]] %%date|%Y-%b-%e%% [[/cell]]
+    [[/row]]
+  [[/table]]
+[[/module]]
+
+====
+
+Come to this section to discuss whatever, edit this text to be more specific.

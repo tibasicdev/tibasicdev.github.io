@@ -1,0 +1,17 @@
+author: 'Timothy Foster'
+description: "This program will simplify nearly any radical expression in the form of the nth root of x by removing the perfect n factors from under the radical.\n\nThis program features very fast load times, index reduction, and imaginary simplifications."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: '/archives:radical-simplifier/RADICAL.BMP'
+download: Radical.zip
+size: '274'
+unit: '1'

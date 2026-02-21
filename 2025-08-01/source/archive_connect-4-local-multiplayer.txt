@@ -1,0 +1,21 @@
+author: Mewcancraft
+version: '1.0'
+summary: 'A basic Connect 4 game for local multiplayer. Compatible with MirageOS.'
+description: "This program features a very basic Connect 4 game. The idea and interface were taken from a program made by CodeMaster123 that you can check out at http://tibasicdev.wikidot.com/forum/t-1441297/connect-4. I looked at his program and rewrote it from scratch to improve it whilst keeping his design, so feel free to download his too.\n\nFor those of you who don't know Connect 4, it's very easy. A typical Connect 4 game has two players: one who has a bunch of yellow (light) coins and one who has red (dark) coins. The board, which is an upright standing grid of slots, each slot the size to hold one coin, has walls between each of said grid's columns to seperate them from each other, meaning that when one drops a coin in a column, that coin will go all the way down to the first available slot in the same column. Every slot has a hole smaller than a coin on both sides, meaning that the two players can see what colour the coin inside that slot has. The players take turns on dropping their coins in the grid. The goal of the game is to get 4 coins of your colour in one line without being seperated by one of the other player's coins: this line can be horizontal, vertical or diagonal.\n\nThat said, these are the controls for this digital version of said game: You control the cursor (your \"hand\") with the left and right arrow keys and drop the coin in the designated column using Enter. Every time somebody drops a coin, the program will calculate whether or not 4 coins of the same colour were connected. This calculation takes approximately two seconds. After that, the playernumber in the bottom right will change, signifying that it's the other player's turn. Since this game is local multiplayer, you hand the calculator you're playing on to the opponent, so they can drop their coin. Then they pass it back to you, etc...\n\nPlayer 1's coins are light, player 2's coins are dark. The first to connect 4 of their coins, wins. Have fun!"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:connect4/CONNECT4.8xp'
+image: 'archiveimage:screenshot-2/screenshot.gif'
+fileSize: '851'
+fileSizeUnit: '1'
+dateMade: '1447369200'

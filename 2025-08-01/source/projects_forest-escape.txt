@@ -1,0 +1,47 @@
+[!-- Fill in a short discription here  --]
+You are an explorer in a very deep forest, and you need to escape it to civilization. You are on your motorcycle, your only way of transportation. Unless you prefer walking. Good luck!
+====
+[!-- Continue one from the previous line, DO NOT REWRITE IT!!! --]
+
+[[code]]
+PROGRAM:FRUN
+ClrHome
+ClrDraw
+AxesOff
+ZStandard
+ZInteger
+PlotsOff
+FnOff
+SetUpEditor FRUN
+2→dim(⸤FRUN
+Text(44,0,"FOREST ESCAPE
+Text(51,6,"HIGH DISTANCE: ",⸤FRUN(1),"m   //meters (metres if your in a different region)
+Text(57,2,"TOTAL DISTANCE: ",⸤FRUN(2),"m
+Pause
+Delvar DDelvarG47→X
+Repeat K=45 or pxl-Test(31,X
+getKey→K
+Pxl-On(31,X
+Asm(prgmDOWN
+D+1→D
+If max(K={24,26,25
+K→G
+If K=105:Pause
+X+(G=26)-(G=24→G
+X+95(X=-1)-95(X=95→X
+Text(0,randInt(0,94),"Y
+End
+If D>⸤FRUN(1
+D→⸤FRUN(1
+⸤FRST(2)+D→⸤FRST(2
+Text(44,2,"HIGH DISTANCE: ",⸤FRUN(1),"m
+Text(44,2,"TOTAL DISTANCE: ",⸤FRUN(2),"m
+Pause
+ClrDraw
+ClrHome
+[[/code]]
+
+[[code]]
+PROGRAM:DOWN
+:AsmPrgm213396113F9601F402EDB823010C00EF304CEF6A48C9  //Shift screen down one pixel level
+[[/code]]

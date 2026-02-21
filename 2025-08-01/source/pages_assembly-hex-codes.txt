@@ -1,0 +1,10 @@
+We don't really need to document the "why" of hex codes; that should be meant for greater assembly tutorials.  This page has too much to be combined with other assembly pages.
+
+--There is not much information on hex codes themselves such as where the code comes from or how the calc interprets them.--
+
+[!-- Leave this invisible comment here! --]
+
+====
+http://tibasicdev.wikidot.com/hexcodes
+====
+Assembly

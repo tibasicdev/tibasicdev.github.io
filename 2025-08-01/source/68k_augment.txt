@@ -1,0 +1,48 @@
+[[include inc:68k-command
+|picture=sample.png
+|summary=returns a new list or matrix that is list2/matrix2 appended to list1/matrix1
+|syntax= augment(list1,list2)
+augment(matrix1, matrix2)
+augment(matrix1; matrix2)
+
+|location=
+* Press 2nd MATH to enter the MATH popup
+* Press 4 to enter the Matrix submenu
+* Press 7 to select augment(
+
+|size=? byte(s)
+]]
+
+when lists are used as arguments, a list is returned that is list2 appended to list1. When matrices are used, if a comma is used to separate arguments, the matrices must have equal row dimensions and matrix2 is appended to matrix1 as new columns. If a semicolon is used, the matrices must have equal column dimension and matrix2 is appended to matrix1 as new rows.
+
+[[code]]
+augment({1,⁻3,2},{5,4})
+          {1,⁻3,2,5,4}
+:[1,2:3,4]→M1
+          [1,2:3,4]
+:[5,6]→M2
+          [5,6]
+:augment(M1,M2)
+          [1,2,5:3,4,6]
+:[5,6]→M2
+          [5,6]
+:augment(M1;M2)
+          [1,2:3,4:5,6]
+
+[[/code]]
+
++ Advanced Uses
+
+------
+
+Separate unrelated advanced uses with a horizontal bar.
+
++ Optimization
+
++ Error Conditions
+
+[[include inc:68k-error num=240|error=Dimension mismatch|cause=either the rows or columns of the matrix do not align. See above.]]
+
+
+
++ Related Commands

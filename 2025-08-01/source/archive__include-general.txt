@@ -1,0 +1,192 @@
+[[include inc:visitor-farewell]]
+[[table style="width: 100%; margin-bottom: 20px;"]]
+[[row]]
+[[cell class="Infobox"]]
+**//Welcome to the TI-Basic Developer (TI|BD) Program Archives!//** We have a large variety of programs available for download, with program filtering and sorting based on genre and metadata, and will accept nearly any programs that you want to [[[archive:_upload|add to our archives]]]. If you have questions, leave a post on the [[[forum:home|forums]]] or read the [[[archives:_FAQ |FAQ]]]. **//Happy gaming!//**
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 100%; margin-bottom: 20px; background:#c7c9B8; border: 1px solid #8d9ca3; font-size: 100%; font-weight: bold; border-collapse: collapse;"]]
+[[row]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_home| Everything]]]
+[[[archive:_arcade| Arcade]]]
+[[/cell]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_graphics| Graphics]]]
+[[[archive:_platform| Platform]]]
+[[/cell]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_puzzle| Puzzle]]]
+[[[archive:_rpg| RPG]]]
+[[/cell]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_strategy| Strategy]]]
+[[[archive:_sports| Sports]]]
+[[/cell]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_casino| Casino]]]
+[[[archive:_board| Board]]]
+[[/cell]]
+[[cell style="width: 16%; padding: 10px; text-align:center;"]]
+[[[archive:_utility| Utilities]]]
+[[[archive:_misc| Miscellaneous]]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[table style="width: 100%; margin-bottom: 20px; background:#c7c9B8; border: 1px solid #8d9ca3; font-size: 100%; font-weight: bold; border-collapse: collapse;"]]
+[[row]]
+[[cell style="width: 20%; padding: 10px; text-align:center;"]]
+[/archive:_{$page}/order/title Alphabetical]
+[[/cell]]
+[[cell style="width: 20%; padding: 10px; text-align:center;"]]
+[/archive:_{$page}/order/created_at%20desc Most Recent]
+[[/cell]]
+[[cell style="width: 20%; padding: 10px; text-align:center;"]]
+[/archive:_{$page}/order/created_at Oldest]
+[[/cell]]
+[[cell style="width: 20%; padding: 10px; text-align:center;"]]
+[/archive:_{$page}/order/rating%20desc Rating]
+[[/cell]]
+[[cell style="width: 20%; padding: 10px; text-align:center;"]]
+[/archive:_{$page}/order/random Random]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+-----
+
+[[module ListPages category="archive archives" order="@URL|random" tags="-_deleted -_pending -_legacy" perPage="25" {$options}]]
+[!-- A way to put page numbers on top also --]
+[[/module]]
+
+[[div class="archive_programs"]]
+[[module ListPages category="archive archives" order="@URL|random" tags="-_deleted -_pending -_legacy" perPage="25" {$options}]]
+
+++ %%title_linked%%
+
+[[iftags -_new]]
+
+[[table class="archive_Table"]][[row]]
+[[cell class="archive_Info" style="width: 300px;"]]
+
+[[table class="archive_InfoInner"]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Author:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{author}%%
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Download:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="archive_downloadFail%%form_raw{download}%%"]]%%form_data{download}%%[[/span]][[span class="archive_downloadFail%%form_raw{download}%% showWhenFail"]]//No Download Available//[[/span]]
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Compatibility:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{compatibility}%%
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Genre:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="genre%%form_data{arcade}%%"]]Arcade[[/span]] [[span class="genre%%form_data{graphics}%%"]]Graphics[[/span]] [[span class="genre%%form_data{platform}%%"]]Platform[[/span]] [[span class="genre%%form_data{puzzle}%%"]]Puzzle[[/span]] [[span class="genre%%form_data{rpg}%%"]]RPG[[/span]] [[span class="genre%%form_data{strategy}%%"]]Strategy[[/span]] [[span class="genre%%form_data{sports}%%"]]Sports[[/span]] [[span class="genre%%form_data{casino}%%"]]Casino[[/span]] [[span class="genre%%form_data{board}%%"]]Board[[/span]] [[span class="genre%%form_data{utility}%%"]]Utility[[/span]] [[span class="genre%%form_data{misc}%%"]]Misc[[/span]]
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Rating:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%rating%%
+[[/cell]][[/row]]
+[[/table]]
+
+[[/cell]]
+
+[[cell style="padding: 0 3em;"]]
+%%form_data{summary}%%
+
+[[[%%fullname%%|Read more or Leave a Comment...]]]
+[[/cell]]
+
+[[cell class="archive_Image archive_ImageFail%%form_raw{image}%%"]]
+[[image %%form_raw{image}%% link="%%form_raw{download}%%" title="Click to download" alt="TI|BD"]]
+[[/cell]]
+
+[[/row]]
+[[/table]]
+
+[[/iftags]]
+
+[!-- ************************************************** --]
+
+[[iftags +_new]]
+
+[[table class="archive_Table"]][[row]]
+[[cell class="archive_Info" style="width: 300px;"]]
+
+[[table class="archive_InfoInner"]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Author:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+%%form_data{author}%%
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Download:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="archive_downloadFail%%form_raw{download}%%"]][http://tibasicdev.wdfiles.com/local--files/%%fullname%%/%%form_raw{download}%% %%form_data{download}%%][[/span]][[span class="archive_downloadFail%%form_raw{download}%% showWhenFail"]]//No Download Available//[[/span]]
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Genre:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[span class="genre%%form_data{arcade}%%"]]Arcade[[/span]] [[span class="genre%%form_data{graphics}%%"]]Graphics[[/span]] [[span class="genre%%form_data{platform}%%"]]Platform[[/span]] [[span class="genre%%form_data{puzzle}%%"]]Puzzle[[/span]] [[span class="genre%%form_data{rpg}%%"]]RPG[[/span]] [[span class="genre%%form_data{strategy}%%"]]Strategy[[/span]] [[span class="genre%%form_data{sports}%%"]]Sports[[/span]] [[span class="genre%%form_data{casino}%%"]]Casino[[/span]] [[span class="genre%%form_data{board}%%"]]Board[[/span]] [[span class="genre%%form_data{utility}%%"]]Utility[[/span]] [[span class="genre%%form_data{misc}%%"]]Misc[[/span]]
+[[/cell]][[/row]][[row]]
+[[cell class="archive_InfoElementTitle"]]
+**Rating:**
+[[/cell]]
+[[cell class="archive_InfoElement"]]
+[[include :snippets:sp |variable=%%rating%% |singular=Vote]]
+[[/cell]][[/row]]
+[[/table]]
+
+[[/cell]]
+
+[[cell style="padding: 0 3em;"]]
+%%form_data{description}%%
+
+[[[%%fullname%%|Read more or Leave a Comment...]]]
+[[/cell]]
+
+[[cell class="archive_Image archive_ImageFail%%form_raw{image}%%"]]
+[[image http://tibasicdev.wdfiles.com/local--files/%%form_raw{image}%% link="http://tibasicdev.wdfiles.com/local--files/%%fullname%%/%%form_raw{download}%%" title="Click to download" alt="TI|BD"]]
+[[/cell]]
+
+[[/row]]
+[[/table]]
+
+[[/iftags]]
+
+-----
+
+[[/module]]
+[[/div]]
+
+[[module CSS]]
+#main-content .archive_programs h2{
+    margin-bottom: 5px;
+}
+
+.sortList a{
+    display: inline-block;
+    padding: 0 2em;
+}
+[[/module]]
+
+[[include :snippets:sp-css]]

@@ -1,0 +1,13 @@
+[[table style="border:1px solid #666; width:100%; padding: 5px; margin-top: 10px; background:#fff;"]]
+[[row]]
+[[cell style="width:33%; text-align: left;"]]
+**[[[{$prevpage}|<< {$prevtitle}]]]**
+[[/cell]]
+[[cell style="width:33%; text-align: center;"]]
+**[[[{$tocpage}|{$toctitle}]]]**
+[[/cell]]
+[[cell style="width:33%; text-align: right;"]]
+**[[[{$nextpage}|{$nexttitle} >>]]]**
+[[/cell]]
+[[/row]]
+[[/table]]

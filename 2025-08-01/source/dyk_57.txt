@@ -1,0 +1,1 @@
+…that {{[[[68k:setMode()]]]}} and similar commands have an alternate "programmer's syntax"?

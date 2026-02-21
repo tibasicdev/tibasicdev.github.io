@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=commerce.gif
+|summary=A quality card game with AI.
+|size=5,300 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.club.cc.cmu.edu/~ajo/ Arthur O'Dwyer]
+|download=[http://tibasicdev.wikidot.com/local--files/commerce/commerce.zip commerce.zip]
+]]
+
+Commerce is a three to five player game similar to Rummy, played against two to four computer opponents. There is no automated scoring in this game; rather the goal is to simply win more hands than your opponents. This game features some decent graphics and gameplay, as well as demonstrating good programming practices and code.

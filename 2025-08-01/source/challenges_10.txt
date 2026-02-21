@@ -1,0 +1,36 @@
+[[include inc:code
+|author=[*http://www.wikidot.com/user:info/edward-h Edward H]
+|size=
+|description=The string "IVXLCDMvxlcdmni" specifies the letters used in the numerals. The longer you make the string, the more digits the program can handle. To satisfy the program requirements, the string must have at least as many characters as "IVXLCDMvx"; everything else is extra digit support.
+
+|code=:Prompt N
+:"_→Str0
+:For(X,0,log(N
+:10fPart(.1N→Z
+:While Z
+:sum({4.1,4.1,9.2}(Z={4,5,9→T
+:sub("IVXLCDMvxlcdmni",2X+10fPart(T)+1,1)+Str0→Str0
+:abs(Z-1-int(T→Z
+:End
+:int(.1N→N
+:End
+:Str0
+
+]]
+
+[!--
+INSTRUCTIONS
+
+1) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+2) Enter the size of the program (if it were to be loaded onto a calculator). Don't worry if you don't know the size.
+i.e. 6,000 bytes
+
+3) Enter the description of the program.
+
+4) Enter the code of the program.
+
+5) Click the "save" button beneath this form.
+
+--]

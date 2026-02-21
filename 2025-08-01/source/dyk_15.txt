@@ -1,0 +1,1 @@
+…that pressing [2nd] [RIGHT] in the program editor will take you to the end of your current line, and [2nd] [LEFT] will take you to the beginning of that line?

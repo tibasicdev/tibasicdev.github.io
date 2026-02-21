@@ -1,0 +1,21 @@
+author: 'TI-Basic Dude'
+version: 5.0S.0C
+summary: 'This is My first upload to this website!!!!! Yay!!!'
+description: "This Program Includes a Onblock assembly program and the security program. Please post to tell me if you want to change it in any way/ or optimize it.\n\nThis Program Includes:\n\n~ Security Program (I highly recommend you get TI's Start-Up Customization App)\n~ On block (To prevent people from using the [ON] key to exit.)\n\nYou may choose your own PIN instead of \"9257\".\n\nOther Information:\n\n79 bytes for the prgmONBLOCK\n434 bytes for the prgmθSECURTY\nThis program is edit locked. To unlock it, use the TI-BD's assembly program for the Lock status for a program.\n\nⒸ 2017 TI-Basic Dude\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: bb
+download: 'archivefile:security/SECURITY.zip'
+image: null
+fileSize: '513'
+fileSizeUnit: '1'
+dateMade: '1494741600'

@@ -1,0 +1,54 @@
+[[include inc:infobox-trial color=#8AF]]
+
+Welcome to the TI-83 section of TI-Basic Developer (TI|BD)! This section of the site covers how to make TI-Basic programs for the TI-83, TI-83+, TI-83+ Silver Edition (SE), TI-84+, and TI-84+ Silver Edition calculators (often abbreviated as TI-83/84/+/SE). After going through all of the TI-83 information, the reader should be a competent TI-83 Basic programmer.
+
++ Site Content
+
+[[table style="background: #458; border: 1px solid #54541A; margin-bottom: 1em;"]]
+[[row]]
+[[cell style="font-size:140%; text-align:center;"]]
+##FFF|**Search**##
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="background: #FFF; padding: 0 2% 10px;"]]
+We've tried to create a broad base of TI-Basic information. This ensures that most readers will hopefully be able to learn something from this site. Experimentation is encouraged to fully digest all of the information.
+
+Please use our search engine to find what you desire, or refer to the [[[sitemap]]].
+[[module Search]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+Each reader can read the information in whatever order they desire. For the average reader, though, the suggested approach is to just start from the beginning and read until the end. The information is presented in a sequential order, with the concepts and code getting increasingly more complex as you get further into it. You might also look at the page [[[using-this-guide|Using This Guide]]], which outlines another suggested reading order.
+
+Please feel free to not only [[[contribute|get involved]]], but also come back often to see what changes or additions have been made. And above all else, enjoy your stay!
+----
++ Recent News
+
+TI|BD is constantly changing through the efforts of its members.  Here are the most recent significant edits that have been made.  For the complete documentation of the history, see [[[news| News Depository]]].
+[[module ListPages category="news" limit="5" separate="false" tags="+_news -_announcement -_68kportal"]]
+%%content%%
+[[/module]]
+If you have made a significant modification, made a new page, or contributed to this site in another way, please document what you did by [[[add-news |adding news]]].
+----
++ Portable Guide
+
+As a part of this site's growth, we have created a portable guide for you to print out and have as a programming source wherever you go.  The portable guide contains most of this site's content in a printable format including all the commands, techniques, and calculator references.
+
+Go to the [[[portable| Portable Guide]]] for TI|BD.
+
+[[module ListPages category="member" date="last 2 weeks" limit="1"]]
+----
++ New Members
+
+It is only by our members that this site can grow.  Welcome to the new [[[system:members]]] who have [[[system:join|joined]]] TI|BD:
+[[/module]]
+
+[[module ListPages category="member" date="last 2 weeks"]]
+%%first_paragraph%%
+[[/module]]
+
+[[div style="display : none;"]]
+[[module Redirect destination="http://tibasicdev.wikidot.com/home-trial-2/theme_id/12783/noredirect/true"]]
+[[/div]]

@@ -1,0 +1,2 @@
+content: 'This system is using what are called Wikidot Data Forms; that was how I was able to integrate the Char box and place an attachment option.  A couple of the downsides to using data forms, though, is that you cannot preview content, and that toolbar of buttons does not appear.  Essentially, it is a tradeoff between the preview/text-style buttons and the char/attachment boxes.'
+attachment: null

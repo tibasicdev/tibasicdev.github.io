@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=hex.png
+|summary=Converts a number to a base-16 number.
+|syntax=//integer//▶Hex
+|location=MATH/base
+|size=2 bytex
+]]
+The {{▶Hex}} command takes an integer and converts it to hexadecimal, including the prefix "0h". Here is an example program.
+
+[[code]]
+15›Hex
+//returns F
+16›Hex
+//returns 10
+0b10000›Hex
+//returns 20
+[[/code]]
+
+[!--
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=the argument is not in the range 1-99]]
+[[include inc:68k-error num=780|error=No solution found|cause=the equation doesn't have a solution]]
+--]
++ Related Commands
+
+* [[[68k:bin|▶Bin]]]
+* [[[68k:dec|▶Dec]]]

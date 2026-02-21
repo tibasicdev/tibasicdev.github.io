@@ -1,0 +1,129 @@
+Getting user input is a basic part of almost all programs. It provides a way of changing variables or transferring control to the user. The four commands used for getting input are: Prompt/Input, getKey, and GetCalc.
+
+User input includes getting values for variables on the calculator, getting the keys that the user pressed, and getting a variable off of or sending a variable to another calculator over a link cable.
+
+[[toc]]
+
++ Getting Input
+
+You can get input in three ways: Input, Prompt, and a graph-screen method. There are certain advantages and disadvantages to each command, and there are also certain situations where each command should be used. The first two are commands on the I/O menu of the prgm button (only while editing a program). The third has no single command. It has to be done manually. Below explains the third method a bit better.
+
+Let us focus on the first two. Prompt and Input can be used with any variable, but some of the variables have to be entered in a certain way. If the variable is a string and you are using the Prompt command, the user must put quotes ("") around the value. However, both Prompt and Input require the user must also put curly braces ({}) around lists and square brackets ([]) around matrices.
+
+++ Getting Input with Prompt
+
+The Prompt command is the simplest way of getting user input. The Prompt command asks the user to enter a value for a variable, waiting until the user enters a value and then presses ENTER. When using Prompt, the variable that is being asked for will be displayed on the screen with an equal sign and question mark (=?) after it.
+
+[[code]]
+:Prompt variable
+[[/code]]
+
+Because displaying what variable the value will be stored to does not tell the user what the variable will be used for, you can put a Disp command before the Prompt command to give the user some more insight into what an appropriate value for the variable would be. The Prompt command will be displayed one line lower, though, because the Disp command automatically creates a new line.
+
+[[code]]
+:Disp "Text"
+:Prompt X
+[[/code]]
+
+[[image http://tibasicdev.wikidot.com/local--files/userinput/SCREEN01.BMP]]
+
+When you have a list of Prompt commands (and each one has its own variable), you can just use the first Prompt command and combine the rest of the other Prompt commands with it. You remove the Prompt commands and combine the arguments, separating each argument with a comma. The arguments can be composed of whatever combination of variables is desired.
+
+The advantages of combining Prompt commands are that it makes scrolling through code faster, and it is more compact (i.e. smaller) and easier to write than using the individual Prompt commands. The primary disadvantage is that it is easier to accidentally erase a Prompt command with multiple arguments. So, instead of:
+
+[[code]]
+:Prompt A
+:Prompt Str1
+[[/code]]
+Combine the Prompts and get:
+[[code]]
+:Prompt A,Str1
+[[/code]]
+
+To use the Prompt command, you should first be in the Program editor for your program. In the Program editor, press the PRGM button, then arrow over to the I/O menu. Then, scroll down to Prompt and press ENTER. Now the Prompt command has been put into your program. You then have to type what variable(s) you want to prompt the user for (separating each one with a comma).
+
+Final note: since the real-world applications take strings (like a username or a command) quite a bit, no-one uses Prompt because it forces the user to use quotation marks. A programmer would know to use it at the =?, but the casual user won't. 99.9% of the time, you see Input, which is discussed next.
+
+++ Getting Input with Input
+
+The other way to get input is to use the Input command. The Input command asks the user to enter a value for a variable (only one variable can be input at a time), waiting for the user to enter a value and press ENTER. The Input command, by default, does not display what variable the user is being asked for, but instead just displays a question mark.
+
+[[code]]
+:Input variable
+[[/code]]
+
+Because just displaying a question mark on the screen does not really tell the user what to enter for input or what the input will be used for, the Input command has an optional text message that can be either text or a string variable that will be displayed alongside the input.
+
+Only the first sixteen characters of the text message will be shown on the screen (because of the screen dimensions), so the text message should be kept as short as possible (a good goal is twelve characters or less). Don't worry about the user not having enough room, their input does word-wrapping. 
+[[code]]
+:Input "Text",variable
+:Input Str#,variable
+[[/code]]
+
+If the text message is longer than twelve characters or you want to give the user plenty of space to enter a value, you can put a Disp command before the Input command. You break the text message up and display it in parts. The Input command will be displayed one line lower, though, because the Disp command automatically creates a new line.
+
+[[code]]
+:Disp "Text"
+:Input "Text",variable
+[[/code]]
+
+When you are just using the text message to tell the user what the variable being stored to is, the Prompt command makes it a byte easier. And, if there is a list of Input commands following the same pattern, you can reduce them to just one Prompt command.
+
+[[code]]
+:Input "A",A
+:Input "B",B
+[[/code]]
+Replace with Prompt and get:
+[[code]]
+:Prompt A,B
+[[/code]]
+
+The Input command can also be used another way. When you just put the Input command by itself, the graph screen will be shown and the user can move the cursor around. When the user presses ENTER, the (x,y) coordinates of the cursor will be stored to the X and Y variables, respectively.
+
+[[code]]
+:Input
+[[/code]]
+
+To use the Input command, you should first be in the Program editor for your program. In the Program editor, press the PRGM button, then arrow over to the I/O menu. Then, scroll down to Input and press ENTER. Now the Input command has been put into your program. You then have to type the text message and the variable that you want to ask the user for.
+
+++ Graph Screen Method
+
+This method has no automatic command. This must be done manually and, as you can imagine, takes a lot of space. If you value speed over design, then don't bother. Otherwise, [[[custominput |this guide]]] will show you how to do it.
+
++ Reading Keypresses
+
+[[image getkey.png style="float:left;padding-right:5px;"]]
+
+The getKey command is widely used in many programs because it allows the program to directly access user input. The getKey command returns the number of the last key pressed, and resets to 0 every time it is executed.
+
+Every key has a number assigned to it, except for ON (which is used for breaking out of programs). The numbering system consists of two parts: the row and column. The rows go from one to ten, starting at the top; and the columns go from one to six, starting from the left. You just put the row and column together to find the key's number. The only confusing parts for beginners are the arrow key numbers.
+
+When the getKey command is used, it's value automatically resets to 0, so the next time it is used, it no longer returns the last pressed key. Because of this, the getKey command is usually stored to a variable. Storing getKey to a variable allows the program to keep track of which key was pressed, taking different actions depending on what the key was. This opens up a variety of possibilities for the programmer. For example, using getKey inside a loop allows the program to wait for a keypress and store it:
+
+[[code]]
+:Repeat Ans
+:getKey
+:End
+:Ans→K
+[[/code]]
+
+You can also put getKey in the condition of a loop, to make the loop repeat until any key or a particular key is pressed by the user. The same thing can be done with conditionals as well. This is useful if you don't want to store getKey to a variable, but you still want to have the user press a key. It's perfect for a "PRESS ANY KEY TO CONTINUE" screen.
+
+[[code]]
+:Repeat getKey
+:End
+[[/code]]
+
+Note that you can get a keypress at any time by directly assigning to a variable, like so:
+
+[[code]]
+:getKey→K
+:If K=45
+:Output(1,1,"Do Something")
+[[/code]]
+
+To use the getKey command, you should first be in the Program editor for your program. In the Program editor, press the PRGM button, then arrow over to the I/O menu. Then, scroll down to getKey and press ENTER. Now the getKey command has been put into your program.
+
++ Final Notes
+
+Once you mastered this, you've mastered half of all programming. Literally. The other half is output. That's all a program is. A program gets user input and gets results, which are usually shown to you. Good luck to the rest of your TI-Basic venture

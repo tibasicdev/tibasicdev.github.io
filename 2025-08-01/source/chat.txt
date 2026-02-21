@@ -1,0 +1,48 @@
+[[module css]]
+iframe{
+    overflow:hidden;
+}
+.chat {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+.fixed {
+height: 420px !important;
+}
+[[/module]]
+[!--
+Join the live TI-Basic Developer discussion by entering your nickname below. You can also connect with a standard IRC client to #tibasicdev on EFnet.
+
+Experimental chat stuff below:
+[!--
+[[div class="chat" style="width:845px"]]
+[[collapsible show="        + show chat          " hide="           - hide chat          " folded="no"]]
+--]
+[[html]]
+<style>
+.fixed {
+height: 420px !important;
+}
+</style>
+    <iframe src="https://battlesquid.github.io/bDiscuss/public/" style="border:none;width:100%; height:600px;" name="TI-Basic Developer Chat" id="myiframe" scrolling="no"></iframe>
+<script>
+document.getElementById("myiframe").seamless = true);
+</script>
+[[/html]]
+[!--
+[[/collapsible]]
+--]
+[[html]]
+<br />
+[[/html]]
+[!--
+[[/div]]
+--]
+[!--
+[[div class="username"]]
+[[module ListUsers users="."]]
+%%name%%
+[[/module]]
+[[/div]]
+--]

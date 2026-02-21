@@ -1,0 +1,340 @@
+This is a command map as it would appear on the various menus on a monochrome TI-83+ series calculator. To see every command, see the [[[command-index-bw |Command Index]]]. To see the same map for color calculator versions, see the [[[command-map|Color Command Map]]].
+
+
+[[table style="width:100%;"]]
+[[row]]
+[[cell style="width:50%; vertical-align:top;"]]
+
+**[[[controlflow |Control Flow]]]** (PRGM)
+
+||~ CTL ||~ I/O ||~ EXEC ||
+|| 1: [[[If]]] ||1: [[[Input]]] || ||
+|| 2: [[[Then]]] || 2: [[[Prompt]]] || ||
+|| 3: [[[Else]]] || 3: [[[Disp]]] || ||
+|| 4: [[[For(]]] || 4: [[[DispGraph]]] || ||
+|| 5: [[[While]]] || 5: [[[DispTable]]] || ||
+|| 6: [[[Repeat]]] || 6: [[[Output(]]] || ||
+|| 7: [[[End]]] || 7: [[[getKey]]] || ||
+|| 8: [[[Pause]]] || 8: [[[ClrHome]]] || ||
+|| 9: [[[Lbl]]] || 9: [[[ClrTable]]] || ||
+|| 0: [[[Goto]]] || 0: [[[GetCalc(]]] || ||
+|| A: [[[IS>(]]] || A: [[[Get(]]] || ||
+|| B: [[[DS<(]]] || B: [[[Send(]]] || ||
+|| C: [[[Menu(]]] || || ||
+|| D: [[[prgm]]] || || ||
+|| E: [[[Return]]] || || ||
+|| F: [[[Stop]]] || || ||
+|| G: [[[DelVar]]] || || ||
+|| H: [[[GraphStyle(]]] || || ||
+|| I: [[[OpenLib(]]] || || ||
+|| J: [[[ExecLib]]] || || ||
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[Matrices]]]** (2nd MATRIX)
+
+||~ NAMES ||~ MATH ||~ EDIT ||
+|| 1: [A] || 1: [[[det(]]] || 1: [A] ||
+|| 2: [B] || 2: ^^[[[transpose|T]]]^^ || 2: [B] ||
+|| 3: [C] || 3: [[[dim(]]] || 3: [C] ||
+|| 4: [D] || 4: [[[Fill(]]] || 4: [D] ||
+|| 5: [E] || 5: [[[identity(]]] || 5: [E] ||
+|| 6: [F] || 6: [[[randM(]]] || 6: [F] ||
+|| 7: [G] || 7: [[[augment(]]] || 7: [G] ||
+|| 8: [H] || 8: [[[Matr►list(]]] || 8: [H] ||
+|| 9: [I] || 9: [[[List►matr(]]] || 9: [I] ||
+|| 0: [J] || 0: [[[cumSum(]]] || 0: [J] ||
+|| || A: [[[ref(]]] || ||
+|| || B: [[[rref(]]] || ||
+|| || C: [[[rowSwap(]]] || ||
+|| || D: [[[rowplus|row+(]]] || ||
+|| || E: [[[timesrow|*row(]]] || ||
+|| || F: [[[timesrowplus|*row+(]]] || ||
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**[[[graphscreen |Graph Screen]]]** (2nd DRAW)
+
+||~ DRAW ||~ POINTS ||~ STO ||
+|| 1: [[[ClrDraw]]] || 1: [[[Pt-On(]]] || 1: [[[StorePic]]] ||
+|| 2: [[[Line(]]] || 2: [[[Pt-Off(]]] || 2: [[[RecallPic]]] ||
+|| 3: [[[Horizontal]]] || 3: [[[Pt-Change(]]] || 3: [[[StoreGDB]]] ||
+|| 4: [[[Vertical]]] || 4: [[[Pxl-On(]]] || 4: [[[RecallGDB]]] ||
+|| 5: [[[Tangent(]]] || 5: [[[Pxl-Off(]]] || ||
+|| 6: [[[DrawF]]] || 6: [[[Pxl-Change(]]] || ||
+|| 7: [[[Shade(]]] || 7: [[[pxl-Test(]]] || ||
+|| 8: [[[DrawInv]]] || || ||
+|| 9: [[[Circle(]]] || || ||
+|| 0: [[[Text(]]] || || ||
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[Lists]]]** (2nd LIST)
+
+||~ NAMES ||~ OPS ||~ MATH ||
+|| 1: L,,1,, || 1: [[[SortA(]]] || 1: [[[min(]]] ||
+|| 2: L,,2,, || 2: [[[SortD(]]] || 2: [[[max(]]] ||
+|| 3: L,,3,, || 3: [[[dim(]]] || 3: [[[mean(]]] ||
+|| 4: L,,4,, || 4: [[[Fill(]]] || 4: [[[median(]]] ||
+|| 5: L,,5,, || 5: [[[seq-list|seq(]]] || 5: [[[sum(]]] ||
+|| 6: L,,6,, || 6: [[[cumSum(]]] || 6: [[[prod(]]] ||
+|| ... || 7: [[[deltalist|ΔList(]]] || 7: [[[stdDev(]]] ||
+|| || 8: [[[Select(]]] || 8: [[[variance(]]] ||
+|| || 9: [[[augment(]]] || ||
+|| || 0: [[[List►matr(]]] || ||
+|| || A: [[[Matr►list(]]] || ||
+|| || B: [[size 80%]][[[L]]][[/size]] || ||
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**[[[zoom |Zoom Menu]]]** (ZOOM)
+
+||~ ZOOM ||~ MEMORY ||
+|| 1: [[[ZBox]]] || 1: [[[ZPrevious]]] ||
+|| 2: [[[Zoom In]]] || 2: [[[ZoomSto]]] ||
+|| 3: [[[Zoom Out]]] || 3: [[[ZoomRcl]]] ||
+|| 4: [[[ZDecimal]]] || 4: SetFactors... ||
+|| 5: [[[ZSquare]]] || ||
+|| 6: [[[ZStandard]]] || ||
+|| 7: [[[ZTrig]]] || ||
+|| 8: [[[ZInteger]]] || ||
+|| 9: [[[ZoomStat]]] || ||
+|| 0: [[[ZoomFit]]] || ||
+|| A: ZQuadrant1 || ||
+|| B: ZFrac1/2 || ||
+|| C: ZFrac1/3 || ||
+|| D: ZFrac1/4 || ||
+|| E: ZFrac1/5 || ||
+|| F: ZFrac1/8 || ||
+|| G: ZFrac1/10 || ||
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[math |Math Functions]]]** (MATH)
+
+||~ MATH ||~ NUM ||~ CPX ||~ PRB ||
+|| 1: [[[►Frac]]] || 1: [[[abs(]]] || 1: [[[conj(]]] || 1: [[[rand]]] ||
+|| 2: [[[►Dec]]] || 2: [[[round(]]] || 2: [[[real(]]] || 2: [[[nPr]]] ||
+|| 3: [[[3|³]]] || 3: [[[iPart(]]] || 3: [[[imag(]]] || 3: [[[nCr]]] ||
+|| 4: [[[cube-root|³√(]]] || 4: [[[fPart(]]] || 4: [[[angle(]]] || 4: [[[factorial|!]]] ||
+|| 5: [[[xroot|×√]]] || 5: [[[int(]]] || 5: [[[abs(]]] || 5: [[[randInt(]]] ||
+|| 6: [[[fMin(]]] || 6: [[[min(]]] || 6: [[[►Rect]]] || 6: [[[randNorm(]]] ||
+|| 7: [[[fMax(]]] || 7: [[[max(]]] || 7: [[[►Polar]]] || 7: [[[randBin(]]] ||
+|| 8: [[[nDeriv(]]] || 8: [[[lcm(]]] || || 8: [[[randIntNoRep(]]] ||
+|| 9: [[[fnInt(]]] || 9: [[[gcd(]]] || || ||
+|| 0: [[[summationsigma|summation Σ(]]] || 0: [[[remainder(]]] || || ||
+|| A: [[[logBASE(]]] || A: [[[►n/d◄►Un/d]]] || || ||
+|| B: [[[solve(]]] || B: [[[►F◄►D]]] || || ||
+|| || C: [[[Un/d]]] || || ||
+|| || D: [[[n/d]]] || || ||
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**Graph Format** (2nd FORMAT)
+
+|| [[[RectGC]]] || [[[PolarGC]]] ||
+|| [[[CoordOn]]] || [[[CoordOff]]] ||
+|| [[[GridOff]]] || [[[GridOn]]] ||
+|| [[[AxesOn]]] || [[[AxesOff]]] ||
+|| [[[LabelOff]]] || [[[LabelOn]]] ||
+|| [[[ExprOn]]] || [[[ExprOff]]] ||
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[Operators]]]** (2nd TEST)
+
+||~ TEST ||~ LOGIC ||
+|| 1: [[[equal|=]]] || 1: [[[and]]] ||
+|| 2: [[[notequal|≠]]] || 2: [[[or]]] ||
+|| 3: [[[greaterthan|>]]] || 3: [[[xor]]] ||
+|| 4: [[[greaterthanequal|≥]]] || 4: [[[not(]]] ||
+|| 5: [[[lessthan|<]]] || ||
+|| 6: [[[lessthanequal|≤]]] || ||
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**Angle** (2nd ANGLE)
+
+||~ ANGLE ||
+|| 1: [[[degree-symbol | °]]] ||
+|| 2: [[[dms | ']]] ||
+|| 3: [[[radian-symbol | r]]] ||
+|| 4: [[[►DMS]]] ||
+|| 5: [[[R►Pr(]]] ||
+|| 6: [[[r-ptheta | R►Pθ(]]] ||
+|| 7: [[[P►Rx(]]] ||
+|| 8: [[[P►Ry(]]] ||
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[Strings]]]** (2nd CATALOG)
+
+|| ... ||
+|| [[[Equ►String(]]] ||
+|| [[[expr(]]] ||
+|| ... ||
+|| [[[inString(]]] ||
+|| ... ||
+|| [[[length(]]] ||
+|| ... ||
+|| [[[String►Equ(]]] ||
+|| [[[sub(]]] ||
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**[[[Statistics]]]** (STAT)
+
+||~ EDIT ||~ CALC ||~ TESTS ||
+|| 1: Edit... || 1: [[[1-Var Stats]]] || 1: [[[Z-Test...]]] ||
+|| 2: [[[SortA(]]] || 2: [[[2-Var Stats]]] || 2: [[[T-Test...]]] ||
+|| 3: [[[SortD(]]] || 3: [[[Med-Med]]] || 3: [[[2-SampZTest...]]] ||
+|| 4: [[[ClrList]]] || 4: [[[LinReg(ax+b)]]] || 4: [[[2-SampTTest...]]] ||
+|| 5: [[[SetUpEditor]]] || 5: [[[QuadReg]]] || 5: [[[1-PropZTest...]]] ||
+|| || 6: [[[CubicReg]]] || 6: [[[2-PropZTest...]]] ||
+|| || 7: [[[QuartReg]]] || 7: [[[ZInterval...]]] ||
+|| || 8: [[[LinReg(a+bx)]]] || 8: [[[TInterval...]]] ||
+|| || 9: [[[LnReg]]] || 9: [[[2-SampZInt...]]] ||
+|| || 0: [[[ExpReg]]] || 0: [[[2-SampTInt...]]] ||
+|| || A: [[[PwrReg]]] || A: [[[1-PropZInt...]]] ||
+|| || B: [[[Logistic]]] || B: [[[2-PropZInt...]]] ||
+|| || C: [[[SinReg]]] || C: [[[chisquare-test|χ²-Test...]]] ||
+|| || D: [[[Manual-Fit]]] || D: [[[chisquaregof-test|χ²GOF-Test...]]] ||
+|| || || E: [[[2-SampFTest]]] ||
+|| || || F: [[[LinRegTTest]]] ||
+|| || || G: [[[LinRegTInt...]]] ||
+|| || || H: [[[ANOVA(]]] ||
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[probability-distributions |Distributions]]]** (2nd DISTR)
+
+||~ DISTR ||~ DRAW ||
+|| 1: [[[normalpdf(]]] || 1: [[[ShadeNorm(]]] ||
+|| 2: [[[normalcdf(]]] || 2: [[[Shade_t(]]] ||
+|| 3: [[[invNorm(]]] || 3: [[[Shadeχ²(]]] ||
+|| 4: [[[invT(]]] || 4: [[[ShadeF]]] ||
+|| 5: [[[tpdf(]]] || || 
+|| 6: [[[tcdf(]]] || ||
+|| 7: [[[chisquarepdf | χ²pdf(]]] || ||
+|| 8: [[[chisquarecdf | χ²cdf(]]] || ||
+|| 9: [[[Fpdf(]]] || ||
+|| 0: [[[Fcdf(]]] || ||
+|| A: [[[binompdf(]]] || ||
+|| B: [[[binomcdf(]]] || ||
+|| C: [[[poissonpdf(]]] || ||
+|| D: [[[poissoncdf]]] || ||
+|| E: [[[geometpdf(]]] || ||
+|| F: [[[geometcdf(]]] || ||
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**[[[plotn|Stat Plots]]]** (2nd PLOT)
+
+||~ PLOTS ||~ TYPE ||~ MARK ||
+|| 1: [[[plotn|Plot1(]]] || 1: [[[plotn|Scatter]]] || 1: [[[plotn|"box" mark]]] ||
+|| 2: [[[plotn|Plot2(]]] || 2: [[[plotn|xyLine]]] || 2: [[[plotn|"cross" mark]]] ||
+|| 3: [[[plotn|Plot3(]]] || 3: [[[plotn|Histogram]]] || 3: [[[plotn|"dot" mark]]] ||
+|| 4: [[[PlotsOff]]] || 4: [[[plotn|ModBoxplot]]] || 4: "point" mark ||
+|| 5: [[[PlotsOn]]] || 5: [[[plotn|Boxplot]]] || ||
+|| || 6: [[[plotn|NormProbPlot]]] || ||
+
+[[/cell]]
+
+[[cell style="vertical-align:top;"]]
+
+**[[[system-variables |Window Variables]]]** (VARS 1)
+
+||~ X/Y ||~ T/θ ||~ U/V/W||
+|| 1: Xmin || Tmin || u(nMin) ||
+|| 2: Xmax|| Tmax  || v(nMin) ||
+|| 3: Xscl || Tstep || w(nMin) ||
+|| 4: Ymin || θmin || nMin ||
+|| 5: Ymax || θmax || nMax ||
+|| 6: Yscl || θstep || PlotStart ||
+|| 7: Xres || || PlotStep ||
+|| 8: ΔX || || ||
+|| 9: ΔY || || ||
+|| 0: XFact || || ||
+|| A: YFact || || ||
+|| B: TraceStep || || ||
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="vertical-align:top;"]]
+
+**[[[zoom|Zoom Variables]]]** (VARS 2)
+
+||~ ZX/ZY||~ ZT/Zθ||~ ZU||
+|| 1: ZXmin|| 1: ZTmin|| 1: Zu(nMin)||
+|| 2: ZXmax|| 2: ZTmax|| 2: Zv(nMin)||
+|| 3: ZXScl|| 3: ZTstep|| 3: Zw(nMin)||
+|| 4: ZYmin|| 4: Zθmin|| 4: ZnMin||
+|| 5: ZYmax|| 5: Zθmax|| 5: ZnMax||
+|| 6: ZYscl|| 6: Zθstep|| 6: ZPlotStart||
+|| 7: ZXres|| || 7: ZPlotStep||
+
+**Table Variables** (VARS 6)
+
+||~ TABLE||
+|| 1: TblStart ||
+|| 2: ΔTbl||
+|| 3: TblInput||
+
+**[[[system-variables |Function On/Off Variables]]]** (VARS Y-VARS 4)
+
+||~ ON/OFF|| 
+|| 1: FnOn||
+|| 2: FnOff||
+
+[[/cell]]
+[[cell style="vertical-align:top;"]]
+
+**[[[statistics|Statistics Variables]]]** (VARS 5)
+
+||~ XY||~ Σ||~ EQ||~ TEST||~ PTS||
+|| 1: n|| 1: Σx|| 1: RegEQ || 1: p|| 1: x,,1,,||
+|| 2: x̄|| 2: Σx^^2^^|| 2: a|| 2: z|| 2: y,,1,,||
+|| 3: Sx|| 3: Σy|| 3: b|| 3: t|| 3: x,,2,,||
+|| 4: σX|| 4: Σy^^2^^|| 4: c|| 4: X^^2^^|| 4: y,,2,,||
+|| 5: y bar|| 5: Σxy|| 5: d|| 5: F|| 5: x,,3,, ||
+|| 6: Sy|| || 6: e|| 6: df|| 6: y,,3,,||
+|| 7: σy|| || 7: r|| 7: p̂|| 7: Q,,1,,||
+|| 8: minX|| || 8: r^^2^^|| 8: p̂,,1,,|| 8: Med||
+|| 9: maxX|| || 9: R^^2^^|| 9: p̂,,2,,|| 9: Q,,3,,||
+|| 0: minY|| || || 0: s|| ||
+|| A: maxY|| || || A: x̄,,1,,|| ||
+|| || || || B: x̄,,1,,|| ||
+|| || || || C: Sx,,1,,|| ||
+|| || || || D: Sx,,2,,|| ||
+|| || || || E: Sxp|| ||
+|| || || || F: n,,1,,|| ||
+|| || || || G: n,,2,,|| ||
+|| || || || H: lower|| ||
+|| || || || I: upper|| ||
+[[/cell]]
+[[/row]]
+
+[[/table]]

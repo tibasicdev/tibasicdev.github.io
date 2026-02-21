@@ -1,0 +1,42 @@
+[[include inc:tablet
+|name=Pong
+|author=Ellwangerk
+|size=3129 bytes
+|description=I couldn't find a version of pong that I liked so I made one. It has a better playing interface than any I have seen, and it has the following easily custimizable options; the balls starting coordinates, the balls starting slope, the balls speed (if this isn't customized it will slowly increases during the game), your paddles starting height, paddle size, paddle speed, inverted colors, computerized opponent or you controll both paddles, and opponent dificulty. It also includes a retry option if you want the to keep the same options as the last game. Also, all of the known errors have been removed as of July 17th I tested all of the fetures after clearing all memory.
+
+Please leave a comment if you find errors or you have ideas for the next update.
+
+|PLEASE REMOVE the following words that do NOT describe your program:
+|Arcade Graphics Sports Misc Update
+
+|DO NOT EDIT ANYTHING BELOW THIS LINE
+|picture=
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:pong2/Pong.zip
+|downloadName=Pong.zip
+]]
+
+[!--
+INSTRUCTIONS
+
+1) First enter the name of your program as you would like it to appear. That is, the TITLE of your program, not the name of the file.
+i.e. "Happy Land" instead of "HAPPY.8XP"
+
+2) Enter the name of the Author. You may like to include a link to the author's page, in which case, you must type in this (including the square brackets): [URL AUTHOR]
+i.e. [http://www.bobs-site.com Bob Martin]
+
+3) Enter the size of the program (the actual program, or total size of programs & sub-programs) but not the size of the .ZIP file.
+i.e. 6,000 bytes
+
+4) Enter the description of the program.
+
+5) Click the "save" button beneath this form.
+
+6) After that, your program page will appear. It will give you two links requesting you to click them to add your files.
+
+7) Categorize the page according to the note on the page.  DO NOT erase preexisting tags!!
+
+BE PATIENT! One of the moderators or administrators will need to manually update your program page to include the files you have added.
+
+This means that when you add files, they don't magically appear. They need to be manually integrated into each page by an administrator or moderator.
+
+--]

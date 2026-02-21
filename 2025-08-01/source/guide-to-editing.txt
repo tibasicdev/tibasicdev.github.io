@@ -1,0 +1,80 @@
+While the [[[contribute]]] and [[[conventions]]] pages answer the general questions about how to create and edit pages, this page answers the specific questions about editing the homepages and any specialty pages (such as the command pages). If you have any questions that aren't mentioned, please leave a post in the [http://tibasicdev.wikidot.com/forum/t-70841/guide-to-editing forum] or make a comment at the bottom of the page.
+
+[[toc]]
+
++ Uploading files
+
+There is now a [[[upload |tutorial]]] to upload files on the site.
+
++ Recent News
+
+When you add some new content to the wiki, it is always recommended that you let the community know what you have done -- especially if you made some significant edits.
+
+Each news item is stored on it's own page in the //news// category, including appropriate tags about the page; **_news _83portal _68kportal _both-portals**. These tags help us to automatically organise the news into categories. You can add news through the [[[add news]]] page.
+
+The news can be viewed through the [[[news |83 news]]], [[[68k:news | 68k news]]] and [[[all news]]] pages. The portal home pages also automatically retrieve the 5 most recent news elements relative to their portal of the site.
+
++ New Members
+
+We love to encourage people to [[[system:join|become members]]] and contribute to improve the quality of the site. This is why we decided to compile a [[[inc:members|list of every member]]] in the chronological order that they joined. From this page, we are able to show our appreciation with a warm welcome on the home pages to the newest members of the community.
+
+Unfortunately, this is a manual process -- a member needs to regularly check the automatic list on the [[[system:members|members]]] page for any new members. If you notice that a new member has joined, please take it upon yourself to update the list.
+
++ Home Infobox
+
+On the home pages of the 83 and 68k portals, there is an infobox on the right-hand side of the page. This infobox provides some short, but useful information about some of the different sections of the site: how to get involved, what's happening in the forums, some interesting TI-Basic tidbits, the "top 10" rated programs, the featured article and the featured command.
+
+These things are not actually editable on the home pages themselves, but instead are automatically retrieved from other pages on the site -- which is quite useful because it saves us from having to create duplicate copies of the same information. To manipulate these pages, just visit their appropriate links, and follow the instructions on those pages:
+
+[[table]]
+[[row]]
+[[cell style="width:310px;"]]
+**[[[inc:infobox |TI-83 Infobox:]]]**
+[[/cell]]
+[[cell]]
+**[[[inc:68k-infobox |TI-68k Infobox:]]]**
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="width:310px;"]]
+[[[did-you-know |83 Did You Know]]] for Did you know… items.
+[[[featured-commands |83 Featured Command]]] for the featured command.
+[[[featured-articles |83 Featured Article]]] for the featured article.
+[[/cell]]
+[[cell]]
+[[[68k:did-you-know |68k Did You Know]]] for Did you know… items.
+[[[68k:featured-commands |68k Featured Command]]] for the featured command.
+[[[68k:featured-articles |68k Featured Article]]] for the featured article.
+[[/cell]]
+[[/row]]
+[[/table]]
+
++ Include Pages
+
+TI-Basic Developer utilizes the convenience of "include templates" throughout the site (a list of which can be found on the [[[inc:overview|inc:overview]]] page). These special pages are //included// as part of another page, and are used as //templates// for similar sections of code repeated amongst many pages (and hence, their name).
+
+For example, each command page has an infobox on the right-hand side giving specific details about the command. To get the template, we type in //@@[[@@include inc:command//, and then type in the values. This is much simpler and easier to use than typing out the whole infobox for each command, not to mention easier to understand and manage.
+
+For specific details on how to use all of the include templates, see the [[[inc:overview|inc:overview]]] page.
+
++ Privileges Required
+
+There are some pages on the site which can't be edited by ordinary members alone. This is because we believe that some pages just don't need editing, and don't need to risk being tampered with. In such cases that you believe one of these pages can be improved, then you have one of two options:
+
+# Start a discussion page in the [[[forum:home|forums]]]; or
+# Send a private message to one of the [[[system:members#toc2|administrators]]] or [[[system:members#toc1|moderators]]].
+
+Both options are effective, and so the decision is a matter of preference. If you want the community's opinion on the matter, post it in the forums. If you prefer to keep your conversations private, just send a private message: click on the avatar of the person, and click on the link saying "write private message".
+
++ [[# archives]]Program Archives
+
+When people upload programs to the [[[archives]]], it is up to us to do the hard work and integrate their program pages with the rest of the site. If you see any programs pending in the [[[archives:_to-do]]] page, there are a few things you need to do:
+
+# Edit the page source — click on the "edit" button at the bottom of the page, then:
+ * Paste the image URL (if any) in the **|picture=** section
+ * Paste the program URL in the **|downloadUrl=** section
+ * Copy the program file name in the **|downloadName=** section (for example, type in "Game.zip")
+# Click on the "save" button;
+# Remove the "**_pending**" tag — click on the "tag" button at the bottom of the page, and delete **ONLY** the "_pending" tag.
+
+You may want to see the full details of the [[[inc:tablet-help|tablet include]]].

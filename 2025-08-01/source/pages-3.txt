@@ -1,0 +1,3 @@
+[[module ListPages order="titleAsc" perPage="50" separate="false" prependLine="||~ Title||~ Tags||~ Link||"]]
+|| %%title%% || %%tags%% %%_tags%%|| %%link%% ||
+[[/module]]

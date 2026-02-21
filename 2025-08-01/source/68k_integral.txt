@@ -1,0 +1,57 @@
+[[include inc:68k-command
+|picture=integral.png
+|summary=Takes the integral of an expression.
+|syntax=∫(//expression//,//variable//)
+∫(//expression//,//variable//,//constant//)
+∫(//expression//,//variable//,//lower//,//upper//)
+|location=Press [2nd][7] to enter ∫(.
+|size=2 bytes
+]]
+
+∫(//expression//,//variable//) takes the integral of //expression// (symbolically) with respect to //variable//. All other variables are treated as constant.
+
+There are three ways to use ∫(). The syntax above returns an indefinite integral. ∫(//expression//,//variable//,//c//) does the same, but with a constant of integration, //c// (this will just get added on to the result). Finally, ∫(//expression//,//variable//,//a//,//b//) takes a definite integral from //a// to //b//. These limits can be anything, including undefined variables, ∞ and -∞, as long as they don't depend on //variable//.
+
+[[code]]
+:∫(x^2,x)
+           x^3/3
+:∫(x^2,x,c)
+           x^3/3+c
+:∫(x^2,x,a,b)
+           b^3/3-a^3/3
+[[/code]]
+
+Indefinite integrals are always computed exactly or not at all: if a part of the expression (or the entire expression) can't be integrated, the result will stay in terms of ∫(). However, definite integrals will sometimes be approximated, depending on the Exact/Approx [[[68k:mode-settings|mode setting]]]:
+* If EXACT, integrals will never be approximated.
+* If AUTO, the calculator will approximate integrals like ∫(//e//^(-x^2),x,-1,1) that it can't compute exactly.
+* If APPROX, all definite integrals will be done numerically if possible.
+
+[[code]]
+:∫(e^(-x^2),x)
+           ∫(e^(-x^2),x)
+:∫(e^(-x^2),x,-1,1)
+           2*∫(e^(-x^2),x,0,1) (in EXACT mode)
+           1.49365 (in AUTO or APPROX mode)
+[[/code]]
+
+Finally, you can take multiple integrals by applying ∫() to the result of another ∫() (any number of times). The integration limits of the inner integrals can involve the variables of the outer integrals.
+
+[[code]]
+:∫(∫(x*y,x),y)
+           y^2*x^2/4
+:∫(∫(x*y,x,0,y),y,0,1)
+           1/8
+[[/code]]
+
+If the expression is a list or matrix, ∫() takes the integral of each element.
+
++ Error Conditions
+
+[[include inc:68k-error num=140|error=Argument must be a variable name|cause=the variable of integration isn't a variable]]
+[[include inc:68k-error num=220|error=Dependent limit|cause=the integration limits depend on the variable of integration]]
+
++ Related Commands
+
+* //[[[68k:d]]]//[[[68k:d|()]]] (derivative)
+* [[[68k:nInt()]]]
+* [[[68k:sigma-sum|∑()]]] (sum)

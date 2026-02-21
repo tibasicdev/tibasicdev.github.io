@@ -1,0 +1,13 @@
+[[include inc:challenges-backend
+|number={$number} |number=?
+|title={$title} |title=No title given
+|forum_url={$forum_url} |forum_url=http://tibasicdev.wikidot.com/challenges
+|criteria={$criteria} |criteria=//No criteria given//
+|day={$day} |day=?
+|month={$month} |month=?
+|year={$year} |year=?
+|participants={$participants} |participants=//No participants yet…//
+|reviewer={$reviewer} |reviewer=@@
+|review={$review} |review=//Not yet reviewed…//
+|upload={$upload} | upload=@@
+]]

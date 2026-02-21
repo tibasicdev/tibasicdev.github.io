@@ -1,0 +1,2 @@
+content: "Woah! I wanna do it! \nI tried to sign up, but it has a box that says \"I read and agree the contest rules, and the calendar in case I want to judge.\" --where can I find the contest rules?"
+attachment: null

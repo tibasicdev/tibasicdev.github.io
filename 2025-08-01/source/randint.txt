@@ -1,0 +1,63 @@
+[[include inc:command
+|picture=RANDINT.GIF
+|summary=Generates a random integer between //min// and //max//, inclusive, or a list of such numbers.
+|syntax=randInt(//min//,//max//[,//# of numbers//])
+|location=Press:
+# MATH to access the [[[math]]] menu.
+# LEFT to access the PRB submenu.
+# 5 to select randInt(, or use arrows.
+|compatibility=TI-83/84/+/SE
+|size=2 bytes
+]]
+
+randInt(//min//,//max//) generates a uniformly-distributed pseudorandom integer between //min// and //max// inclusive. randInt(//min//,//max//,//n//) generates a list of //n// uniformly-distributed pseudorandom integers between //min// and //max//.
+
+//seed//→rand affects the output of randInt(.
+[[code]]
+0→rand
+     0
+randInt(1,10)
+     10
+randInt(1,10,5)
+     {10 2 6 5 8}
+[[/code]]
+
++ Optimization
+
+When the lower bound of randInt( is 0, you can replace it with int(#rand to save space. For example:
+
+[[code]]
+:randInt(0,12
+can be
+:int(13rand
+[[/code]]
+
+Similarly, if you don't want to include zero in the range, you can use a variant of 1-#int(#rand:
+
+[[code]]
+:1-2int(2rand
+[[/code]]
+
+In this particular example, the only values that you will ever get are -1 or 1.
+
++ Formulas
+
+The value of randInt( for a given seed can be expressed in terms of [[[rand]]]:
+
+randInt(A,B)=
+* when A<B, A+int((B-A+1)rand
+* otherwise, B+int((A-B+1)rand 
+
+This is identical to the output of randInt( in the sense that for the same seed, both expressions will generate the same random numbers.
+
++ Error Conditions
+
+* **[[[errors#domain|ERR:DOMAIN]]]** is thrown if any of the arguments is a decimal.
+* **[[[errors#datatype|ERR: DATA TYPE]]]** is given if you use imaginary numbers like 6i or something like Matrices or Lists. This error is used instead of ERR:DOMAIN for "i".
++ Related Commands
+
+* [[[rand]]]
+* [[[randBin(]]]
+* [[[randNorm(]]]
+* [[[randM(]]]
+* [[[randIntNoRep(]]]

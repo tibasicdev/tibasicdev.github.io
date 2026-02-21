@@ -1,0 +1,31 @@
+[[include inc:routine
+|picture=@@
+|summary=Simulates Langton's ant on the screen.
+|input=None
+|output=None
+|variable=A, B, C
+|compatibility=TI-83/84/+/SE
+|author=Arcane Wizard
+|authors=@@
+|url=http://www.unitedti.org/index.php?showtopic=2325&view=findpost&p=43953 United TI
+|download=[file langtonant.zip]
+]]
+
+[[code]]
+:ClrDraw
+:31→A:47→B
+:randInt(1,4→C
+:Repeat getKey
+:C-1+2pxl-Test(A,B
+:Ans+4((Ans<1)-(Ans>4→C
+:Pxl-Change(A,B
+:B+(Ans=2)-(Ans=4→B
+:A+(C=3)-(C=1→A
+:End
+[[/code]]
+
+[wikipedia:Langton_ant Langton's ant] is a simulation of the movement of an ant, with some simple rules governing it: the ant can move in any of the four cardinal directions, but whenever it goes over one of the previous spots that it was at, it will change direction 90°. Although the ant movement appears chaotic, given enough time it actually ends up being a pattern.
+
+In our routine, the ant is going to be a simple pixel. Before we can display the ant on the screen, however, we need to clear it and initialize its starting position. (47,31) was chosen because it is the exact center of the screen, which should provide the ant with ample room to move around.
+
+We then randomly select a starting direction for the ant to go -- 1 for down, 2 for right, 3 for up, and 4 for left. Once we have a direction selected, we display the ant and it will start moving around. The ant will keep moving around indefinitely until you press a key, although you could limit it to a set number of moves by replacing the [[[Repeat]]] loop with a [[[For(]]] loop.

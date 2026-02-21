@@ -1,0 +1,6 @@
+= [http://tibasicdev.wikidot.com/wishlist:wishlist/edit/true/tags/wishlist Add wish]
+
+[[module ListPages category="wishlist"]]
+%%content%%
+----
+[[/module]]

@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=tower-of-hanoi.gif
+|summary=A quality version of the classic tower of Hanoi game.
+|size=2,783 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/35/3575.html Martin Johansson] (Smoother)
+|download=[http://tibasicdev.wikidot.com/local--files/tower-of-hanoi/towerofhanoi.zip towerofhanoi.zip]
+]]
+
+The goal is to move all the blocks from one peg to another, and up to thirteen blocks can be changed by the player. A high score is saved for each level, which makes it a simple, but fun game.

@@ -1,0 +1,21 @@
+author: Trenly
+version: 3.0!
+summary: 'A multi-function chemistry and physics program. Perfect for an IB or college student.'
+description: "A multi-function chemistry and physics program. Perfect for an IB or college student.\n\nVersion Info:\n\nChemistry Updates:\n-Menus: The menus have been combined and rearranged a little bit to work with other areas of update\n-Conversions: Combined all menus since conversions are now intuitive. Select which two you want to convert between and it will work either way! Simply put in a 0 [Zero] for the unit you want to find! It will also take you back to the input screen in the case of an invalid input!\n-All other formulas in the chemistry section are error checking and some are intuitive also.\n\nPhysics Updates:\n-Menus: Menus have been combined\n-Conversions are now intuitive\n\nGeneral Updates:\n-Massive Size Redution! Removed over 3k bytes of code, and added speed but yet keeping function.\n-No more dependencies! Did away with those programs it had been dependant upon since 2.0. This means an increase of speed!\n-Faster! Updated formulas and used new techniques for display to make it faster overall.\n\nThere may be new bugs, but if you find any, please let me know\n\nNext update: Optics and Waves, Angular Motion (Possibly), Nuclear Physics, and some things you suggest!\n"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:sciences-1/SCIENCES.8xp'
+image: null
+fileSize: '4746'
+fileSizeUnit: '1'
+dateMade: '1363244400'

@@ -1,0 +1,17 @@
+author: Viktor
+description: 'Another pong game, doesn''t loop, fast gameplay and gets harder over time. Has an interesting highscore feature. Multiplayer on two calculators coming soon!'
+arcade: '1'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: '/archives:a-viktor-s-pong-2-5/pong2.5titlescreen.gif'
+download: Viktor%27s%20Pong%20v2.5.1.zip
+size: '1665'
+unit: '1'

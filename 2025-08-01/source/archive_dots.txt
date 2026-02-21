@@ -1,0 +1,21 @@
+author: 'TI-Basic Dude'
+version: 1.3.1dots
+summary: 'Look at description.'
+description: "How to play:\nYou need to find all the hidden dots within the time limit. \nComes with FREE of the ASCII chars:\n↑↓#%&@\\_|₀₁₂₃₄₅₆₇₈₉…$Ŝ\n\n(Oops, did not turn out correctly... Oh well.)\n\n--This was just typed in on August 10th, 8:30 AM.--\nAnd, this game allows you to pause the game. Just in case you need to use the restroom or make lunch or something. \n\nAllows you to stop the game in case you need to quit. Pretty fun if I do say so myself.\n\nAnd I may go to Europe this year or next year for my moms job.\nNot sure if there is internet or not in Europe. Well, see ya around!"
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '1'
+strategy: '1'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:dots/DOTS.8xp'
+image: 'archiveimage:screen01-3/SCREEN01.JPG'
+fileSize: '2470'
+fileSizeUnit: '1'
+dateMade: '1498888800'

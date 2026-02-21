@@ -1,0 +1,8 @@
++ heading level 1
+Heading1
+
+[[code type="Cpp"]]
+cpp code block
+[[/code]]
+
+[[image http://tibasicdev.wikidot.com/local--files/mstram1/copy1.gif]]

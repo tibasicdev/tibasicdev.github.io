@@ -1,0 +1,28 @@
+{$part1begin}
+
+> To add a DYK, move the second DYK from {$part2} to {$part3}, and add a new DYK to {$part2}. See the [[[68k:did-you-know|Did You Know... Archives]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
+…that displaying sprites to column coordinates divisible by 8 is faster than to other coordinates?
+
+…that [[[68k:setmode()]]] and similar commands have an alternate "programmer's syntax"?
+
+…that strings are the fastest data type to access, given enough elements?
+
+{$part2end}
+{$part3begin}
+
+…that the [[[68k:system-variables#ok|ok]]] system variable checks if a dialog was cancelled?
+
+…that the 26 one-letter variables a-z are much smaller to access?
+
+…that the © character can be used to enter comments in programs?
+
+…that ending a variable name with an underscore _ will make [[[68k:solve()]]] and [[[68k:cSolve()]]] assume it's complex?
+
+…that you can treat strings as always-undefined variables in symbolic math?
+
+{$part3end}
+[!-- Code thanks to James Kanjo --]

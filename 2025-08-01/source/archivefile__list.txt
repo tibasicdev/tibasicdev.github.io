@@ -1,0 +1,3 @@
+[[Module ListPages category="archivefile" order="created_at desc"]]
+%%title_linked%%
+[[/module]]

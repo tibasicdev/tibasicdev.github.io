@@ -1,0 +1,21 @@
+author: N/A
+version: N/A
+summary: 'Chemistry and Physics Program'
+description: 'THIS PROGRAM HAS MOVED! It may now be found [http://tibasicdev.wikidot.com/archive:science:chemistry-and-physics Here]'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:chem/Chem.txt'
+image: null
+fileSize: '2318'
+fileSizeUnit: '1'
+dateMade: ''

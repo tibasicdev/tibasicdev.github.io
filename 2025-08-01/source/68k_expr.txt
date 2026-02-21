@@ -1,0 +1,45 @@
+[[include inc:68k-command
+|picture=expr.png
+|summary=Runs code stored inside a string.
+|syntax=expr(//string//)
+
+|location=
+* Press MATH to enter the MATH popup menu.
+* Press D to enter the Strings submenu.
+* Press 2 to select expr(.
+
+|size=2 bytes
+]]
+
+The expr() command runs code stored inside a string: for instance, expr("5→x") has the same effect as 5→x. The main use of expr() is with user input: the input you get from some commands comes in a string, and you might use expr() to convert it back to a number.
+
+The other advantage of using expr() is that you can paste together code as the program is running, to run something you couldn't possibly have put in the program ahead of time. For instance, you might paste together a [[[68k:Dialog]]]..EndDlog block whose elements might be different every time you run the program.
+
+[[code]]
+:expr("5→x")
+           5
+:expr("25")
+          25
+[[/code]]
+
+The expr() command is somewhat limited in what it is allowed to do. For instance, if a string contains a variable name, expr() of that string returns the //value// of that variable; to refer to the variable itself, use the # ([[[68k:indirection]]]) operator.
+
+Another limitation is that expr() cannot contain commands that aren't allowed on the home screen, even if you're running it from a function or program. For example, [[[68k:Local]]] will cause an error in expr().
+
+Finally, in some respects expr() is actually running in its own program. It will still be able to access local variables from outside the expr(), but [[[68k:Lbl]]] and [[[68k:Goto]]] are limited -- you can't jump out of expr() with them, nor can you jump in.
+
++ Advanced Uses
+
+It's best to use expr() sparingly. Characters inside a string are ignored during [[[68k:tokenization]]], so they will take up more space than actual commands, and there will be a short delay before the code inside expr() can run.
+
+This also causes problems with language localization. Normally, once a command is tokenized, it will work in any language. However, with expr(), code is tokenized on the spot, so it will depend on the language being the same. If your program was written using English language localization, it will not work for someone who's working in German, Spanish, or French.
+
++ Error Conditions
+
+[[include inc:68k-error num=550|error=Invalid outside function or program|cause=the string contains commands that need to be inside a function or a program to work]]
+
++ Related Commands
+
+* # ([[[68k:indirection]]])
+* [[[68k:string()]]]
+* [[[68k:ord()]]]

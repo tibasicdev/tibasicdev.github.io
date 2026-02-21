@@ -1,0 +1,21 @@
+author: Symphsoft
+version: '3.5'
+summary: 'This program is intended for teachers or anyone who wants to grade tests or exams. It is one of the first programs that I have written, but it is constantly being improved. Version 3.5 has a better user interface, and improved control.'
+description: 'This program is intended for teachers or anyone who wants to grade tests or exams. It is one of the first programs that I have written, but it is constantly being improved. Version 3.5 has a better user interface, and improved control. This version is designed to work with the standard grading scale(eg. 100-93: A, 92-85: B, etc.), but for states with different grading scales, contact me. Email me at macperson84 AT mac DOT com.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+compatibility: cc
+download: 'archivefile:ez-grader/EZ-Grader.zip'
+image: null
+fileSize: '912'
+fileSizeUnit: '1'
+dateMade: '1243054800'

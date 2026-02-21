@@ -1,0 +1,33 @@
+[[include inc:68k-command
+|picture=d.png
+|summary=Takes a symbolic derivative of an expression.
+|syntax=//d//(//expression//,//variable//[,//order//])
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press B to enter the Calculus submenu.
+* Press 1 to select //d//(.
+
+|size=2 bytes
+]]
+
+[[include inc:68k-markup cmd=//d//()]]
+
+The {{//d//()}} command takes the derivative of an expression with respect to a given variable. All other variables are treated as constant.
+
+Optionally, you can give it a third argument (an integer), and take the derivative that many times. If the argument is negative, it will actually integrate.
+
+[[code]]
+:d(x^2,x)
+           2*x
+:d(x^5,x,4)
+           120*x
+:d(x^2+y^2+2*x*y,x)
+           2*x+2*y
+[[/code]]
+
++ Related Commands
+
+* {{[[[68k:integral|∫()]]]}}
+* {{[[[68k:nDeriv()]]]}}
+* {{[[[68k:impDif()]]]}}

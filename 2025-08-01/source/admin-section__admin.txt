@@ -1,0 +1,1 @@
+[[include admin-forum:admin-section-admin]]

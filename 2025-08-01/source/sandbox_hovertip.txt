@@ -1,0 +1,21 @@
+[!--
+Hovertip testing area
+--]
+
+[[span class="hover"]][[span]]Text displayed when hovered[[/span]]Text to hover[[/span]]
+
+[[html]]
+<body>
+<p id="np-text">Click the button to change the text in this paragraph.</p>
+<button onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+    document.getElementById("test").innerHTML += '[[span class="hover"]][[span]]' + '[[/span]]' + '[[/span]]';
+}
+</script>
+</body>
+[[/html]]
+
+[[div id="test"]]
+TI Basic is great!
+[[/div]]

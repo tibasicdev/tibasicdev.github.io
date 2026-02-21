@@ -1,0 +1,83 @@
+[!-- This page never needs to be modified //except at New Years// --]
+[!-- When updating this page from 2017 to 2018 the tag "_both-portals" will no longer need to be included --]
+
+[[>]]
+[[[Add news]]]
+[[/>]]
+
++ 2020
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals _all-portals" date="2020" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2019
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals _all-portals" date="2019" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2018
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals _all-portals" date="2018" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2017
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals _all-portals" date="2017" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2016
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2016" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2015
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2015" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2014
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2014" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2013
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2013" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2012
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2012" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2011
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2011" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2010
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2010" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2009
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals" date="2009" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2008
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals -_2007 -_2006" date="2008" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2007
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals +_2007" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
++ 2006
+[[module ListPages category="news" order="name desc" tags="+_news _68kportal _both-portals +_2006" separate="false" perPage="1000"]]
+%%content%%
+[[/module]]
+
+[!-- Code by James Kanjo --]

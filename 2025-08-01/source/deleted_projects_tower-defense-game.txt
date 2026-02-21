@@ -1,0 +1,3 @@
+This is a remake of a classic survive the waves of enemies game! (This is page is not complete, it will be done before 4:00 p.m. central time)
+====
+This game currently uses sub-programs to improve speed. Currently the GUI and User Defined Objects are the only things I have created. The game play takes place on the homescreen. This game uses a comand prompt on the graphscreen for choosing what you want to do. That utilizes a subprogram that is sort of like a library that recognizes and executes the command you type. This is meant for ultimite customization. I will include the source code some time after school, before 4:00 p.m. central time.

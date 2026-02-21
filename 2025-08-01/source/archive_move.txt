@@ -1,0 +1,21 @@
+author: Roug3
+version: '1.0'
+summary: 'Simple game using variables galore.'
+description: "My first real game. Featuring a hit detection bug and occasional domain error. Any help with fixing those is greatly appreciated. Change system (CH) being implemented but not currently working. Any constructive criticism is welcome.\nThanks,\nRoug3"
+arcade: '1'
+graphics: '1'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: dd
+download: 'archivefile:mov/MOV.8xp'
+image: null
+fileSize: '619'
+fileSizeUnit: '1'
+dateMade: '1418716800'

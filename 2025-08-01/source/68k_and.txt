@@ -1,0 +1,58 @@
+[[include inc:68k-command
+|picture=and.png
+|summary=Tests if two conditions are both true. 
+Can also be used as a bitwise "and" on integers.
+|syntax=//condition1// and //condition2//
+//integer1// and //integer2//
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 8 to enter the Test submenu.
+* Press 8 to select and.
+
+|size=1 byte
+]]
+
+The {{and}} operator combines two conditions into one, which will be true if both sides are true, and false otherwise. You can create these conditions with the relational operators [[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], and [[[68k:less-than-or-equal|≤]]], with functions such as [[[68k:isPrime()]]], [[[68k:pxlTest()]]], and [[[68k:ptTest()]]], or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [[[68k:or]]], [[[68k:xor]]], and [[[68k:not]]].
+
+[[code]]
+:2+2=4 and 1=0
+           false
+:2+2=4 and 1+1=2
+           true
+[[/code]]
+
+The operator can also be applied to integers, treating them as 32-bit signed integers (larger integers will be truncated to fit) expressed in binary. The bits will be matched up, and "and" will be applied to the bits individually -- a bit in the result will be 1 if the two corresponding bits of the original integers were 1, and 0 otherwise.
+
+[[code]]
+:(0b11111100 and 0b00111111)▶Bin
+           0b111100
+:1000 and 512
+           512
+[[/code]]
+
+In complicated logical expressions (both with conditions and with integers), {{and}} has greater priority than the others ("or" and "xor"). For instance:
+
+[[code]]
+X or Y and Z
+[[/code]]
+
+will be interpreted as:
+
+[[code]]
+X or (Y and Z)
+[[/code]]
+
++ Error Conditions
+
+[[include inc:68k-error num=60|error=Argument must be a Boolean expression or integer|cause=the data type is incorrect (or mismatched)]]
+
++ Related Commands
+
+* [[[68k:or]]]
+* [[[68k:not]]]
+* [[[68k:xor]]]
+
++ See Also
+
+* [[[68k:order-of-operations|]]]

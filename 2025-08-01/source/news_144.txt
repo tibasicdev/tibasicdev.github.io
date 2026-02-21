@@ -1,0 +1,10 @@
+[[include inc:date
+|You must write the first three letters of the month, with the first one capitalised (i.e. month=Aug)
+|month=Apr
+|
+|You must write the numerical day of the month in two digits (i.e. day=05)
+|day=06
+|
+|You must write down the news (i.e. description= Today an old tutorial was revamped and updated)
+|description=An incomplete pages section and wanted pages section have been added to the [/to-do to do list].  If you feel the need to contribute and don't know how, don't forget this page!
+]]

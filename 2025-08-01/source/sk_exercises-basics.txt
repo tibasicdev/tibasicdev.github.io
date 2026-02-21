@@ -1,0 +1,46 @@
++ Review
+
+# What are the advantages of TI-Basic compared to assembly?
+# Where do you edit programs on the calculator?
+# What characters are allowed for a program name?
+# How do you get an ERR:BREAK error?
+# How do you get the letter variables A through Z?
+# How do you store a value to a variable?
+# Describe what input and output are, and give an example of each.
+# What is the value of this conditional -- A/B and C≥D -- when A=52, B=3, C=0, and D=2?
+# How many options are allowed in a Menu( command?
+# Describe how a For( loop works, and give an example.
+
++ Programming
+
+# Write a program that displays your name and age centered on the screen, underneath one another.
+# Modify the STATES program below by adding a couple more options for U.S. states.
+# Write a program that computes the sum of the first N positive integers, for a user-supplied value of N.
+# Modify the NUMBERS program below to only display odd numbers.
+
+[[code]]
+PROGRAM:STATES
+:Menu("U.S. STATES","FL",FL,"NY",NY)
+:Lbl FL
+:Disp "FL"
+:Stop
+:Lbl NY
+:Disp "NY"
+[[/code]]
+
+[[code]]
+PROGRAM:NUMBERS
+:For(X,-20,20)
+:Disp X
+:For(Y,1,20)
+:End
+:End
+[[/code]]
+
+[[include inc:next-prev
+|prevpage = sk:summary-basics
+|prevtitle = Chapter Summary
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:guessing-game
+|nexttitle = Sample Program: Guessing Game]]

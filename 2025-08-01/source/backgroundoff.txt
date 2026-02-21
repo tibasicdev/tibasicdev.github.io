@@ -1,0 +1,30 @@
+[[include inc:command
+|picture=backgroundOff.png
+|summary=Turns off the graph Background, setting it back to the default white color.
+|syntax=BackgroundOff
+|location=[2ND][PRGM][LEFT ARROW][2]
+|compatibility=TI-84+CE/CSE
+|size=2 bytes
+]]
+
+
+The {{BackgroundOff}} command has only one purpose: turn the background off. Run the command on its own line in a program with no other characters or arguments.
+
+[[code]]
+:BackgroundOn BLUE //Makes background blue
+:BackgroundOff //Makes background white again
+[[/code]]
+
++ Optimization
+
+{{BackgroundOff}} does essentially the same thing as turning the background on to the color white, as shown below.
+
+[[code]]
+:BackgroundOn WHITE
+can be
+:BackgroundOff
+[[/code]]
+
++ Related Commands
+
+* {{[http://tibasicdev.wikidot.com/backgroundon BackgroundOn]}}

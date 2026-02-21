@@ -1,0 +1,30 @@
+[[include inc:68k-command
+|picture=rad.png
+|summary=Converts an angle measure to radians, if necessary.
+|syntax=//angle//▶Rad
+|ams3xx=00
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 2 to enter the Angle submenu.
+* Press B to select ▶Rad.
+]]
+
+The ▶Rad command is used to convert both degrees and gradians into radians. (If the command is given a value in radians it returns that value unchanged).
+
+If you do not specify what unit you want to be used (using either the [[[68k:radian|r command]]], the [[[68k:degree|° command]]], or the [[[68k:gradian|G command]]]), whatever default the calculator's mode is set to will be used. Here are some examples:
+
+[[code]]
+:setMode("ANGLE", "DEGREE")
+:90▶Rad
+           1
+:90^r▶Rad
+           90
+[[/code]]
+
+It appears to be equivalent to the ^^[[[68k:radian|r]]]^^ command, but only on the TI-89 Titanium or Voyage 200.
+
++ Related Commands
+
+* [[[68k:deg|▶Deg]]]
+* [[[68k:grad|▶Grad]]]
+* ^^[[[68k:radian|r]]]^^ (radian)

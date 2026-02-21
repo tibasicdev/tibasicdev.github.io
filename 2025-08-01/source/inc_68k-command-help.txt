@@ -1,0 +1,69 @@
+> @@[[@@include inc:68k-command
+> |picture=@@
+> |summary=@@
+> |syntax=@@
+> 
+> |size=@[!-- --]@ |hex=@[!-- --]@
+> ]]
+
+In general, omitting all the variables for a section is the way to go if you don't want the section to be displayed. The exception is "calculator compatibility" - omitting the variables for that section will display the default message (compatible with all calculators).
+
+++ |picture=
+If the image is embedded on the same page, then only the full name of the image is to be written here. Otherwise, simply paste the full URL of the image.
+
+++ |summary=
+Just type in a brief description of the command.
+
+++ |syntax=
+Enter the general syntax of the command.
+
+++ Menu Location
+
+This section depends on the type of menu location:
+
+**Simple key press**
+[[code]]
+|simplekey=(key)
+|command=(command)
+[[/code]]
+**Key press varies across models**
+[[code]]
+|ti89key=(key on TI-89 or TI-89 Titanium)
+|ti92key=(key on TI-92, TI-92+, or Voyage 200)
+|command=(command)
+[[/code]]
+**Popup menu**
+[[code]]
+|popuptitle1=(popup menu title)
+|popupkey1=(the key for that menu)
+|popuptitle2=(submenu title - OPTIONAL)
+|popupkey2=(key for that submenu - OPTIONAL)
+|popuptitle3=(sub-submenu title - EVEN MORE OPTIONAL)
+|popupkey3=(key for that sub-submen - ALSO OPTIONAL)
+|laststepkey=(key to finally paste the command)
+|command=(command)
+[[/code]]
+**Toolbar menu**
+[[code]]
+|toolbar=(toolbar name: program editor, home screen, or graph screen)
+|tooloption=(toolbar option name - e.g. F2 - I/O)
+|toolmenu=(toolbar submenu - OPTIONAL)
+|toolmenukey=(key for the submenu - OPTIONAL)
+|laststepkey=(key to paste the command)
+|command=(command)
+[[/code]]
+
+++ Compatibility
+
+If the command works on all calculators, nothing needs to be done. Otherwise add one of the following:
+* **|flashrom=1** if the command requires Flash ROM
+* **|ams2xx=yy** if the command requires AMS version 2.yy
+* **|ams3xx=yy** if the command requires AMS version 3.yy (on a TI-89 Titanium, or Voyage 200)
+
+Only one option can be applied (and they are exclusive of each other), otherwise unpredictable results may occur.
+
+++ Size
+
+If you wish to include the token size section, you need to make the size tag equal to the number of bytes it takes up, plus the word "byte" (or "bytes" if it takes up more than one byte). For example, **|size=1 byte** or **|size=3 bytes**
+
+To enter details of token size, specify the hex code for the command itself (**hex=//0x##//**) as well as any of the tags that apply to that command: **|EXT_INSTR_TAG=1**, **|EXT_CMD_TAG=1**, and **|END_TAG=1** for the respective tags.

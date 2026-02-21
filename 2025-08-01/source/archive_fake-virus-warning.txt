@@ -1,0 +1,21 @@
+author: 'AravenFtw Luke'
+version: ''
+summary: "A fake virus program. Source code is below\n"
+description: "[[code]]\n0→X\nClrHome\nLbl 1\nOutput(1,5,\"WARNING!\"\nOutput(2,1,\"1 virus found on\nOutput(3,1,\"your machine.\nOutput(5,2,\"Remove viruses\nOutput(6,2,\"Reinstall TI-OS\nOutput(8,3,\"Navigate  \"\n0→A\nRepeat X=100\ngetKey→X\nIf A=0:Output(5,1,\"\"\nIf X=34 and A=0:Then:1→A:Output(5,1,\" \"):End\nIf A=1:Output(6,1,\"\"\nIf X=25 and A=1:Then:0→A:Output(6,1,\" \"):End\nIf A=0 and X=105:Goto 3\nIf A=1 and X=105:Goto 2\nEnd\nStop\nLbl 2\nClrHome\n0→A\nOutput(1,1,\"Reinstall TI-OS?\nOutput(2,1,\"Continuing will\nOutput(3,1,\"delete all data\nOutput(4,1,\"and programs.\nOutput(7,2,\"Cancel\nOutput(8,2,\"Reinstall OS\nRepeat X=100\ngetKey→X\nIf A=0:Output(7,1,\"\"\nIf X=34 and A=0:Then:1→A:Output(7,1,\" \"):End\nIf A=1:Output(8,1,\"\"\nIf X=25 and A=1:Then:0→A:Output(8,1,\" \"):End\nIf A=0 and X=105:Then:ClrHome:Goto 1:End\nIf A=1 and X=105:Goto 4\nEnd\nStop\nLbl 4\nClrHome\nOutput(1,1,\"Resetting...\nFor(X,1,10000):End\nClrHome\nPause \"Memory Cleared\"\nGoto 84\nStop\nClrHome\nDisp \"Ti-34 MultiView\nLbl 84\nInput \"\",S\nDisp S\nGoto 84\nStop\n\n\n\n\n\n\n\n\n\nLbl 3\nClrHome\nOutput(1,1,\"Select payment\"\nOutput(2,1,\"type:\"\nOutput(4,2,\"Credit Card\"\nOutput(5,2,\"PayPay\"\nRepeat X=100\ngetKey→X\nIf A=0:Output(4,1,\"\"\nIf X=34 and A=0:Then:1→A:Output(4,1,\" \"):End\nIf A=1:Output(5,1,\"\"\nIf X=25 and A=1:Then:0→A:Output(5,1,\" \"):End\nIf A=0 and X=105:Goto 5\nIf A=1 and X=105:Goto 6\nEnd\nLbl 5\nClrHome\nDisp \"Credit Card #:\"\nInput \"\",Str1\nClrHome\nOutput(1,1,\"CREDIT CARD #:\"\nOutput(2,1,Str1\nOutput(4,1,\"COST: $150.99\nOutput(6,2,\"Continue\"\nOutput(7,2,\"Cancel\"\n0→A\nRepeat X=100\ngetKey→X\nIf A=0:Output(6,1,\"\"\nIf X=34 and A=0:Then:1→A:Output(6,1,\" \"):End\nIf A=1:Output(7,1,\"\"\nIf X=25 and A=1:Then:0→A:Output(7,1,\" \"):End\nIf A=0 and X=105:Goto 10\nIf A=1 and X=105:Goto 3\nEnd\nLbl 10\nrandInt(1,2)→X\nIf X=1:Goto 11\nLbl 11\nClrHome\nDisp \"  TI-BASIC\nDisp \"Virus removal\nDisp \"failed. Your\nDisp \"machine will be\nDisp \"terminated.\nOutput(7,1,\"Press any key\nOutput(8,1,\"to continue…\nRepeat X=100\nEnd\nIf X=2:Goto 12\nStop\nLbl 6\nClrHome\nDisp \"PayPal ID#:\"\nInput \"\",Str1\nClrHome\nOutput(1,1,\"PayPal ID#:\"\nOutput(2,1,Str1\nOutput(4,1,\"COST: $150.99\nOutput(6,2,\"Continue\"\nOutput(7,2,\"Cancel\"\n0→A\nRepeat X=100\ngetKey→X\nIf A=0:Output(6,1,\"\"\nIf X=34 and A=0:Then:1→A:Output(6,1,\" \"):End\nIf A=1:Output(7,1,\"\"\nIf X=25 and A=1:Then:0→A:Output(7,1,\" \"):End\nIf A=0 and X=105:Goto 10\nIf A=1 and X=105:Goto 3\nEnd\nLbl 12\nClrHome\n\"VIRUS REMOVED!\n[[/code]]"
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '1'
+compatibility: bb
+download: 'archivefile:untitled1/Untitled1.8xp'
+image: 'archiveimage:justices/justices.gif'
+fileSize: '1797'
+fileSizeUnit: '1'
+dateMade: ''

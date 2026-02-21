@@ -1,0 +1,34 @@
+[!--
+    Global CSI for wikified forums
+    Change with extreme caution.  Responsible editor is pieterh.
+--]
+
+[[table style="width:100%; border:1px solid silver; margin-top:-1px"]]
+  [[row]]
+    [[cell style="width:76%; padding:0.5em 2em 0.5em 0.5em; background-color:{$shade}; font-size:90%"]]
+      [[size larger]]**[/admin-section:{$name} {$label}]**[[/size]] \
+[[include admin-section:{$name}]]
+[[module ListPages category="admin-thread" parent="admin-section:{$name}" tags="-_closed" order="updated_at desc" separate="no" limit="5" perPage="5"]]
+* %%title_linked%% (%%date|%Y-%b-%e%%) -- %%updated_by%%, [/%%fullname%%#comments %%comments%% Comments]
+[[/module]]
+[[module CountPages category="admin-thread" parent="admin-section:{$name}" tags="-_closed"]]
+[[span style="margin-left:2em"]]**[/admin-section:{$name} %%count%% threads in total...]**[[/span]]
+[[/module]]
+    [[/cell]]
+    [[cell style="width:12%; text-align:center; background-color:{$shade}; font-size:90%"]]
+[[module ListPages category="admin-thread" parent="admin-section:{$name}" tags="-_closed" order="updated_at desc" separate="no"  limit="1"]]
+[%%link%% %%date|%e %b %Y%%] %%updated_by%%
+[[/module]]
+    [[/cell]]
+    [[cell style="width:6%; text-align:center; background-color:#dddddd; font-size:90%"]]
+[[module CountPages category="admin-thread" parent="admin-section:{$name}" tags="-_closed"]]
+%%count%%
+[[/module]]
+    [[/cell]]
+    [[cell style="width:6%; text-align:center; background-color:#cccccc; font-size:90%"]]
+[[module CountPages category="admin-thread" parent="admin-section:{$name}" tags="_closed"]]
+%%count%%
+[[/module]]
+    [[/cell]]
+  [[/row]]
+[[/table]]

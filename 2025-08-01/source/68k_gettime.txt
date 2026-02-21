@@ -1,0 +1,33 @@
+[[include inc:68k-command
+|picture=gettime.png
+|summary=returns a list formatted as {hours, minutes, seconds}
+|syntax= getTime()
+getTime()
+
+|location=
+In catalog under G for supported devices and operating systems.
+|compatibility=TI-89 Plus/92/Voyager 200. Requires firmware/AMS 2.07 or higher
+|size=~8 byte(s)
+]]
+
+Returns the current system time as a list of hour, minute, second values. This function was introduced in AMS 2.07 as per tigcc. 
+
+[[code]]
+getTime()
+          {4 26 30}
+
+[[/code]]
+
++ Advanced Uses
+
+------
+
+Can be used to determine the length of program execution. 
+
++ Optimization
+
++ Error Conditions
+
++ Related Commands
++ References 
+[http://tigcc.ticalc.org/doc/estack.html#ExtTags estack tag reference listing getTime tags as requiring AMS 2.07]

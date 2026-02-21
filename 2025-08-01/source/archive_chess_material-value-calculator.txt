@@ -1,0 +1,21 @@
+author: Kydapoot
+version: '1.0'
+summary: 'Calculates the value of chess pieces. Customizable values!'
+description: 'This is a fairly simple program that calculates the value of all of the pieces on a side of the board or the entire board, provided that you tell it how many of each kind there are. It uses a list to store the values, which can be customized and viewed all within the program.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '1'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:matad/MATAD.zip'
+image: null
+fileSize: '623'
+fileSizeUnit: '1'
+dateMade: '1461646800'

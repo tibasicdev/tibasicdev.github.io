@@ -1,0 +1,28 @@
+[[include inc:68k-command
+|picture=isarchiv.png
+|summary=Checks to see if a variable is archived
+|syntax=isArchiv(//variable//)
+
+|location=
+
+|size=X byte(s)
+]]
+
+
+The {{isArchiv()}} command checks if a variable is archived.
+
+[[code]]
+0->var1
+Archive var1
+IsArchiv var1
+        true
+UnArchiv var1
+IsArchiv var1
+        false
+[[/code]]
+
+
++ Related Commands
+
+* [[[68k:Archive]]]
+* [[[68k:Unarchiv]]]

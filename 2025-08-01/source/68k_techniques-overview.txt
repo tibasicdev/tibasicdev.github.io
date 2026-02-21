@@ -1,0 +1,19 @@
+[[module CSS]]
+.list {
+border: 1px solid #484F3F;
+}
+[[/module]]
+
+This page consists of various techniques that can be used while programming in 68k Basic.
+[[div class="list"]]
+* [[[68k:subprograms|Subprograms]]]
+* [[[68k:saving-data|Saving Data]]]
+* [[[68k:assembly|Assembly]]]
+* [[[68k:dialogs|Dialogs]]]
+* [[[68k:sprites|Sprites]]]
+* [[[68k:animation|Animation]]]
+* [[[68k:compression|Compression]]]
+* [[[68k:cross-compatibility|Cross Compatibility]]]
+* [[[68k:tokenization|Tokenization]]]
+* [[[68k:sys-variables|System Variables]]]
+[[/div]]

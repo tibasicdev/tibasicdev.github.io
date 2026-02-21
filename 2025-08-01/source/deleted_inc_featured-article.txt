@@ -1,0 +1,34 @@
+{$part1begin}
+
+> To add an article, move the current featured article from {$part2} to {$part3}, and add a new featured article to {$part2}. See the [[[featured-articles|featured articles]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
+When it comes to [[[releasing-your-program|releasing a program]]], an inexperienced programmer may well release his work quietly and in an unassuming form, which people will simply glance over without stopping.
+
+This tutorial will tell you how to avoid this, and make your program get all the attention it deserves. ([[[releasing-your-program|more...]]])
+
+{$part2end}
+{$part3begin}
+
+[[[Piecewise expressions]]] are a shortcut to handling conditions in math statements. 
+
+They can be used for turning an If block or several such blocks into a single line, creating much smaller and faster code. ([[[piecewise-expressions|more...]]])
+----
+A [[[subprograms|subprogram]]] is a program called by another program to perform a particular task or function for the program.
+
+When a task needs to be performed multiple times (such as displaying character data), you can make it into a separate subprogram.
+
+The complete program is thus made up of multiple smaller, independent subprograms that work together with the main program. ([[[subprograms|more...]]])
+----
+[[[Statistics]]] is a mathematical science pertaining to the collection, analysis, interpretation or explanation, and presentation of data (source: Wikipedia).
+
+The calculator has a series of commands devoted to statistics, including [[[regression models]]], [[[probability distributions]]], [[[significance tests]]], and [[[confidence intervals]]] ([[[statistics|more...]]])
+----
+[[[optimize|Optimization]]] is an extremely important part of the programming process, and involves making programs as fast and small as possible. Speed is important because TI-Basic is slow, while size is important because the calculator has limited memory.
+
+It should be your goal, in virtually all cases, to make your programs as small and fast as possible. ([[[optimize|more...]]])
+
+{$part3end}
+[!-- Code thanks to James Kanjo --]

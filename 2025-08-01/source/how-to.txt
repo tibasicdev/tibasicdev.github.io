@@ -1,0 +1,77 @@
+Are you new to Ti-BD? If so, then welcome to the community! This is a guide on how to do some of the basic things here on the forums. Let's start with the basics. Since you're reading this thread, I am going to guess you have already made an account. If you haven't, you can click here to [*https://www.wikidot.com/default--flow/login__CreateAccountScreen?originSiteId=405 Create Account].
+[[toc]]
+
++ Rules
+Be sure to read the [[[rules]]] and [[[conduct|code of conduct]]]! They can both be found [[[rules|here]]] . Please read and adhere to both of them.
+
++ Changing your avatar
+# Click on the [*https://www.wikidot.com/account/activity My Account] button at the top of the page.
+# Navigate to the [*https://www.wikidot.com/account/settings Settings] tab
+# Click the button next to "Avatar" which says "Change"
+# Follow the prompts to upload an image to use as your avatar
+
++ Editing your "About Me" page
+# Click on the [*https://www.wikidot.com/account/activity My Account] button at the top of the page.
+# Navigate to the [*https://www.wikidot.com/account/settings Settings] tab
+# On the left side of the screen, you will see a tab titled [https://www.wikidot.com/account/settings#/about About me], click that
+# Add any information you wish to share
+
++ Adding a signature
+# Click on the [*https://www.wikidot.com/account/activity My Account] button at the top of the page.
+# Navigate to the [*https://www.wikidot.com/account/settings Settings] tab
+# On the left side of the screen, you will see a tab titled [https://www.wikidot.com/account/settings#/forumsignature Forum signature], click that
+# Add a signature that will appear under all your posts
+
++ Introducing yourself
+# Click here to go to the [*http://tibasicdev.wikidot.com/forum/c-21134/community-introductions Community Introductions] forum
+# Click on the "New Thread" button
+# Tell us about yourself! Common responses include  Where are you from? What are some of your hobbies? What programming languages do you know? 
+
++ Making a Post
+# Navigate around forums! Find a thread you want to reply to. I personally like to use the [*http://tibasicdev.wikidot.com/forum:recent-posts Recent Posts] page.
+# Make sure the thread isn't outdated. Threads more than two or three months old are likely inactive, and the user no longer cares about a response. We consider these dead threads, so please do not reply to them.
+# To contribute to the **original post** click on the "New post" button
+# To contribute to a **specific** reply or post, click on the "Reply" button under the post you want to respond to.
+# Edit the title if you want, although this is optional
+# Write your response
+* Note: you can use Wiki Markup in your reply to format it. Wiki Markup codes are found [*http://www.wikidot.com/doc:quick-reference here]
+* Also note the "Char" Box in the upper right corner of the screen. It contains the TI-Basic characters that aren't readily accessed from the keyboard. It is meant to be a nice convenience for people who want to post code on the forum, allowing you to quickly copy and paste instead of having to hunt them down every time.
+
++ Making a Thread
+# Navigate to the [*http://tibasicdev.wikidot.com/forum:home Discussion Forums]. There should be a button for this on the sidebar.
+# Decide which forum most relates to what you want to discuss.
+# Near the top of the page, click on the "Create new thread" button
+# Add a relevant title, and a summary. Note that the summary should **not** be the same as your post, but rather a short description
+# Write your post. As with any other post, you can use [*http://www.wikidot.com/doc:quick-reference Wiki Markups]
+
++ Adding a program to the archives
+# Navigate to the [*http://tibasicdev.wikidot.com/archive:_home Program Archives]. There should be a button for this on the sidebar.
+# In the box at the top of the page, there is a link to [*http://tibasicdev.wikidot.com/archive:_upload Add a Program to the Archive].
+# Enter a name for your program in the box, and then click "Create Program Page"
+# Fill in as much information as possible.
+# Add a download by clicking on the "Select File" Button. Most programs are in the form of .8xp .8xg .zip or .rar 
+# If you do not have a download for your program, put the source code into SRC.txt and upload that, a site moderator may be able to compile the program later.
+# Hit "Save"
+# Your program is now on the archives!
+
++ Adding a file to the forums or a thread
+# On any thread, or in the screen for creating a thread, look for the "Forum Attachments" link near the top, or the "Files" button near the bottom
+# Clicking on this link will bring up a list of files
+# To add a file, click on the "Upload a file from your computer" button
+# Browse your computer and select which files you want to upload
+# Click on the "Upload" button and wait for a confirmation message
+# To download your file, just click on the name of the file.
+# To get the download link, right click on the name of the file, and then select "Copy Link Address"
+* Note: @@you can attach these files using wiki markup. To show an image use [[image pagename/filename]]. To attach any file, use [[file pagename/filename]]@@
+* To find the "pagename/filename" open the file list (see step 1). Right click on the title of the file you would like, and copy the link. Paste the link where "pagename/filename" goes. Remove the link **except for** the part after "local--files"
+
++ Sending a message
+* If you have a question for a specific user, you can send them a private message.
+* Simply click on their avatar, and then the "Write Private Message" button.
+* Alternatively, you can click on "My account" then "Messages" and look for the "New Message" button.
+* Please note though, that we encourage public discussion, and that most content should be posted in threads.
+* [*https://www.wikidot.com/account/messages#/new Click Here] to go right to the new message screen.
+* To see if you have new messages, look at the top of the page near your name. If you see (1) after your name, it means you have one new message. Similarly, (2) is 2 messages, (3) is 3, etc.
+
++ Get involved
+Getting involved is the best way to learn! Explore the site! There is a lot of information here on TI-BD, and it was contributed by users like you. Discuss, program, work with others. You can help this community grow by being active and involved here on TI-BD. Also, be helpful! Please try not to rely on the community to only help you. You should try and help others also. This means that you should also not rely on the community to create your code for you. Asking for a routine or optimization is okay, but we are not willing to write your whole program. This is a community that is here to help you learn, and the only way for you to learn is to do it yourself.

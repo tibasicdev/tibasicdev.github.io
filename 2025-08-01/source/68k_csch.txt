@@ -1,0 +1,45 @@
+[[include inc:68k-command
+|picture=csch.png
+|summary=Takes the hyperbolic cosecant of a number.
+|syntax=csch(//value//)
+|location=
+* Press 2nd MATH to enter the MATH menu.
+* Press C to enter the Hyperbolic submenu.
+* Press 4 to select csch(.
+|ams2xx=07
+|size=1 byte
+]]
+
+
+The {{csch()}} command returns the [http://mathworld.wolfram.com/HyperbolicCosecant.html hyperbolic cosecant] of a number. Along with 11 other trig and hyperbolic functions, it was added in AMS version 2.07; on earlier versions, {{csch(x)}} can be replaced by 1/{{[[[68k:sinh(]]]x)}}.
+
+As long as the calculator is in radian [[[68k:mode-settings|mode]]], {{csch()}} can be used with complex numbers according to the rule that csch(**//i//**x)=-csc(x)***//i//** and csc(**//i//**x)=-csch(x)***//i//**. This rule only works in radian mode, and {{csch()}} of a complex number will return a domain error when working in degrees or gradians.
+
+Occasionally, {{csch()}} can compute an exact result; most of the time, the calculator will leave an expression with {{csch()}} alone unless it's in approximate mode (or you [[[68k:approx|force an approximation]]]). When {{csch()}} is used with symbolic expressions, the calculator can go back and forth between the {{csch()}} expression and its exponential equivalent.
+
+[[code]]
+:csch(0)
+           undef
+:expand(csch(x))
+          1/(e^x+1)+1/(e^x-1)
+:comDenom(1/(e^x+1)+1/(e^x-1))
+          1/sinh(x)
+[[/code]]
+
+If {{csch()}} is applied to a list, it will take the hyperbolic cosecant of every element in the list. However, it can't be applied to matrices the way {{sinh()}} can (this is probably an oversight; all the trig and hyperbolic functions that were present in all AMS versions work with matrices, but the ones added in version 2.07 do not).
+
++ Formulas
+
+The definition of hyperbolic cosecant is, by analogy with {{[[[68k:csc()]]]}}, the reciprocal of {{[[[68k:sinh()]]]}}:
+
+[[include inc:68k-math eqn=\operatorname{csch}{x}=\frac{1}{\sinh{x}} = \frac{2}{e^x-e^{-x}}]]
+
++ Error Conditions
+
+[[include inc:68k-error num=260|error=Domain error|cause=taking {{csch()}} of a complex number in degree or gradian mode]]
+
++ Related Commands
+
+* {{[[[68k:sech()]]]}}
+* {{[[[68k:coth()]]]}}
+* {{[[[68k:arccsch|cschֿ¹()]]]}}

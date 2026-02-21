@@ -1,0 +1,44 @@
+[[module NewPage category="pages" button="Add" template="template:pages"]]
+[[collapsible show="+ Show Category Descriptions" hide="- Hide Category Descriptions"]]
+||~ Category||~ Description||
+||Glossary||A list of terms with a corresponding definition, usually in alphabetical order.||
+||Reference||Quick information for a quick need of information.||
+||History||This describes things that are of the past and yet can have value for today.||
+||Optimization||The page has something to do with the improving of a program, technique, or style.  This includes increasing speed or decreasing size.||
+||Animation||Content reflects the idea of motion across the screen as an output describing how it looks or how to achieve certain forms of it.||
+||Graphics||The outputting of things that are meant to represent something usually more than words.||
+||Engine||The ideas expressed reflect the idea of forming some program backbone.||
+||Technique||A way of doing something not purely standard is conveyed.||
+||Calculator||Information about the actual calculator is given in detail.||
+||Advanced||The information is for the advanced programmer.||
+||Assembly||Information has something to do with assembly.||
+||Software||The page explains the use of computer software assistants.||
+||Routine||This page shows how to do a small specific task on a calculator.||
+
+[[/collapsible]]
+ _
+
+[[module ListPages category="pages" tags="-_null" order="title" separate="false" prependLine="[[include inc:table-pages |style=border-collapse:collapse; width:100%;]]" appendLine="[[/table]]"]]
+
+[[row]]
+[[cell style="border:1px solid #555; padding:1em;"]]
+%%title%%
+[[/cell]]
+[[cell style="border:1px solid #555; padding:1em;"]]
+[[[%%fullname%%|Discuss]]]
+[[/cell]]
+[[cell style="border:1px solid #555; padding:1em;"]]
+%%comments%%
+[[/cell]]
+[[cell style="border:1px solid #555;padding:1em;"]]
+%%content{2}%%
+[[/cell]]
+[[cell style="border:1px solid #555;padding:1em;"]]
+%%first_paragraph%% (see [[[%%fullname%%| more]]])
+[[/cell]]
+[[cell style="border:1px solid #555;padding:1em;"]]
+%%content{3}%%
+[[/cell]]
+[[/row]]
+
+[[/module]]

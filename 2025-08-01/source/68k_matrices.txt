@@ -1,0 +1,101 @@
+A matrix is a rectangular grid of elements. On the TI-68k calculators, matrices can contain any mix of any scalar (non-list) variable type that's valid in an expression: you can have matrices of numbers, matrices of strings, matrices of truth values or expressions. You can even mix and match variable types -- it's perfectly all right to have a string in one element, and a number in the next.
+
+There are three ways to enter a matrix on the calculator:
+* Using nested [ ] brackets: e.g. [[a,b,c][d,e,f]] (this is a matrix with 2 rows - the row a,b,c above the row d,e,f).
+* Using [ ] brackets and semicolons: e.g. [a,b,c;d,e,f]
+* Using { } brackets: e.g. @@{{a,b,c},{d,e,f}}@@ (this works because matrices are actually stored as lists of lists)
+
+You can access a certain element of the matrix by writing the coordinates of the element you want in [ ] brackets after it: matrix[r,c] would access the element in the r^^th^^ ROW and the c^^th^^ COLUMN of the matrix (Matrices are **always** indexed first by the row, top to bottom, and second by the column, left to right). Also, using one index -- matrix[r] -- returns the r^^th^^ row of the matrix as a 1 by # matrix.
+
+On earlier calculator models, matrices had the [wikipedia:Random_access random access] property: accessing any element of a matrix took the same amount of time. This was possible because the matrices were restricted to numbers. On the 68k calculators, since matrices can mix element types, they are no longer random access: the calculator has to go through the entire matrix to get to an element, so the larger an index is, the longer it takes to access. This isn't significant for small matrices. But the time keeps increasing linearly, so it can be very slow to access the last elements of a large matrix.
+
+Except for the constraint of free memory, and of the time it takes to access elements, there is no limit on the number of elements a matrix may have.
+
++ Matrices as Vectors
+
+In mathematics, a vector is a list of //n// numbers with a geometrical representation in //n//-dimensional space (two representations, actually: as a point in //n//-space, and as a translation which takes the origin to that point). 2- and 3-dimensional vectors are used respectively for 2-dimensional space (the plane), and the usual 3-dimensional space.
+
+On TI-68k calculators, matrices with only one row, or only one column, are interpreted as vectors for the purposes of the commands [[[68k:dotp|dotP()]]], [[[68k:crossp|crossP()]]], and [[[68k:unitv|unitV()]]], as well as the formatting commands [[[68k:cylind|▶Cylind]]], [[[68k:▶Polar]]], [[[68k:rect|▶Rect]]], and [[[68k:sphere|▶Sphere]]].
+
++ Linear Algebra Operations
+
+Common mathematical commands and operators extend to matrices in a linear algebraic way. [[[68k:add|+]]], [[[68k:subtract|-]]], and [[[68k:multiply|*]]], for two matrices, are the corresponding matrix operations (in particular, [*http://mathworld.wolfram.com/MatrixMultiplication.html matrix multiplication] is quite complicated). [[[68k:power|^]]] raises a square matrix to an integer power by multiplying it by itself; if the integer is negative, it takes the inverse first.
+
+Matrices have a special operator just to themselves: ^^[[[68k:transpose|T]]]^^, called the transpose operator. It flips the matrix about its main diagonal, so rows become columns and columns become rows.
+
+The operators [[[68k:add|+]]], [[[68k:subtract|-]]], [[[68k:multiply|*]]], and [[[68k:divide|/]]] can be applied to a square matrix and a scalar as well, by multiplying the scalar by the [[[68k:identity|identity matrix]]]. For multiplication and division, this results in the operation being done to each element, while addition and subtraction result in adding or subtracting the scalar to each element on the main diagonal.
+
+Since occasionally you want to do these operations element-by-element, the alternatives [[[68k:dotadd|.+]]], [[[68k:dotsubtract|.-]]], [[[68k:dotmultiply|.*]]], [[[68k:dotdivide|./]]], and [[[68k:dotpower|.^]]] have been provided, which do this for both two matrices and for a matrix and an expression.
+
++ Exponential and Trig Functions
+
+The calculator gives a special interpretation to exponential and trig functions applied to matrices, //[[[68k:e-value|e]]]//^() being the most common. These commands require the matrix to be square and diagonalizable, and return an approximate floating-point value.
+
+A //diagonalizable// matrix A is one that can be expressed in the form A = PDP^^-1^^, where D and P are square matrices, and D is //diagonal// -- composed entirely of zeroes except on the main diagonal. If a matrix is diagonalizable, the calculator can compute explicit values for D and P using [[[68k:eigVl()]]] and [[[68k:eigVc()]]]:
+* D = diag(eigVl(A))
+* P = eigVc(A)
+If a matrix is not diagonalizable, the result of eigVc() will not have an inverse.
+
+The calculator applies functions like //[[[68k:e-value|e]]]//^() to matrices by first writing the matrix in the form PDP^^-1^^, and then returning Pf(D)P^^-1^^. Here, the function is applied to D by taking f() of every diagonal element (the elements off the diagonal remain zero). 
+
+This definition is used for the following commands:
+* [[[68k:power|^]]], [[[68k:ln()]]], [[[68k:log()]]], and [[[68k:root()]]]
+* [[[68k:cos()]]], [[[68k:arccos|cosֿ¹()]]], [[[68k:sin()]]], [[[68k:arcsin|sinֿ¹()]]], [[[68k:tan()]]], and [[[68k:arctan|tanֿ¹()]]].
+* [[[68k:cosh()]]], [[[68k:arccosh|coshֿ¹()]]], [[[68k:sinh()]]], [[[68k:arcsinh|sinhֿ¹()]]], [[[68k:tanh()]]], and [[[68k:arctanh|tanhֿ¹()]]]
+
++ Other Operations on Matrices
+
+Most math commands extend to matrices by being applied to each element; [[[68k:gcd|gcd()]]] is a good example. Yet other commands behave in unpredictable ways. The commands [[[68k:sorta|SortA]]] and [[[68k:sortd|SortD]]] sort row and column vectors as though they were lists. The following list math/statistics commands act on matrices as they would on lists of lists, which results in a row vector containing the operation done on each column:
+* [[[68k:min|min()]]] and [[[68k:max|max()]]]
+* [[[68k:mean|mean()]]] and [[[68k:median|median()]]]
+* [[[68k:sum|sum()]]] and [[[68k:product|product()]]]
+* [[[68k:stddev|stdDev()]]], [[[68k:stdevpop|stDevPop()]]], and [[[68k:variance|variance()]]]
+
+Finally, there are the commands that are meant specifically for matrices. These are found in the Matrix submenu of the MATH popup menu.
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:augment|augment()]]]
+* [[[68k:coldim|colDim()]]]
+* [[[68k:colnorm|colNorm()]]]
+* [[[68k:cumsum|cumSum()]]]
+* [[[68k:det|det()]]]
+* [[[68k:diag|diag()]]]
+* [[[68k:dim|dim()]]]
+* [[[68k:eigvc|eigVc()]]]
+* [[[68k:eigvl|eigVl()]]]
+* [[[68k:fill|Fill]]]
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:identity|identity()]]]
+* [[[68k:list-mat|list▶mat()]]]
+* [[[68k:lu|LU]]]
+* [[[68k:mat-list|mat▶list()]]]
+* [[[68k:mrow|mRow()]]]
+* [[[68k:mrowadd|mRowAdd()]]]
+* [[[68k:newmat|newMat()]]]
+* [[[68k:norm|norm()]]]
+* [[[68k:qr|QR]]]
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+* [[[68k:randmat|randMat()]]]
+* [[[68k:ref|ref()]]]
+* [[[68k:rowadd|rowAdd()]]]
+* [[[68k:rowdim|rowDim()]]]
+* [[[68k:rownorm|rowNorm()]]]
+* [[[68k:rowswap|rowSwap()]]]
+* [[[68k:rref|rref()]]]
+* [[[68k:simult|simult()]]]
+* [[[68k:submat|subMat()]]]
+[[/div]]
+
+[[div style="float:left; width: 100%;"]]
+
++ Conditionals With Matrices
+
+Conditional statements, like [[[68k:if|If]]], [[[68k:when|when()]]], and [[[68k:while|While]]], accept matrices of truth values as well as single truth values. The check will be interpreted as true if and only if every element of the matrix is true, effectively combining each element of the matrix with [[[68k:and|and]]].
+
+The most common way for matrices of truth values to be created is with relational operators ([[[68k:equal|=]]], [[[68k:not-equal|≠]]], [[[68k:greater-than|>]]], [[[68k:greater-than-or-equal|≥]]], [[[68k:less-than|<]]], [[[68k:less-than-or-equal|≤]]]) applied to matrices. They will return the single value ' false' unless both sides of the relation are matrices of equal size, in which case the matrices will be compared element by element, returning a new matrix.
+
+[[/div]]

@@ -1,0 +1,29 @@
+The finance variables (**N**,I%,PV,PMT,FV,P/Y,C/Y), window variables (ZXscl, ZYscl, Xscl, Yscl, u(nMin), v(nMin), u(n-1), v(n-1), Zu(nMin), v(nMin), Xmin, Xmax, Ymin, Ymax, Tmin, Tmax, θmin, θmax, ZXmin, ZXmax, ZYmin, ZYmax, Zθmin, Zθmax, ZTmin, ZTmax, TblStart, PlotStart, ZPlotStart, nMax, ZnMax, nMin, ZnMin, ΔTbl, Tstep, θstep, ZTstep, Zθstep, ΔX, ΔY, XFact, YFact, TblInput, w(nMin), Zw(nMin), PlotStep, ZPlotStep, Xres, ZXres), and the sequence variable //n// are much faster than real variables and Ans (but slower than immediate constants) to access, but take up more space, being two byte tokens instead of one byte real variables. They are harder to type and can make code look confusing, so it is better to write your program using normal variables, and then switch to the faster ones when you're done. **Do NOT use C/Y if you are using P/Y**, because if you set the value of P/Y, the calculator changes C/Y to the same number. Also do not use any of the X- or Y- window variables, because that will alter the graph screen.
+
+Use //n//, window variables, or finance variables when speed is important, because they take about 8000 fewer CPU cycles to access or store to, or about 0.5 ms on a TI-84 series calculator and 1.3 ms on a TI-83 or 83+. After thousands of times accessing the variable, the time can add up.
+
+Code used in testing:
+[[code]]
+[number]→[var]
+For(X,1,ᴇ4
+[var]
+End
+[[/code]]
+Results (seconds):
+||~ **Code**||~ 83+||~ 84+||~ 84+ CSE||
+||0→A|| 67 || 25 || ** ||
+||0→**N**|| 55 || 20 || ** ||
+||1→A|| 67 || 30 || ** ||
+||1→**N**|| 55 || 25 || ** ||
+
+Results of other test (seconds)
+
+||**Code**||TI-84+ SE||
+||1→X||0.0049||
+||**N**→X||0.005||
+||//n//→X||0.005||
+||Xmin→X||0.0051||
+||Ans→X||0.0054||
+||N→X||0.0055||
+||[A](1,1→X||0.0083||
+||L₁(1→X||0.0142||

@@ -1,0 +1,1 @@
+…that the [[[expr(]]] command allows you to store an expression to a [[[strings|string]]] and then execute the string?

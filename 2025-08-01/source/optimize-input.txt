@@ -1,0 +1,53 @@
+The Input command has an optional display message argument that can be either text or a string. This display message can be used to tell the user what type of value to enter or to show what the variable is for. The Input command should be used instead of using a Disp command in conjunction with the Prompt command.
+
+[[code]]
+:Disp "Guess
+:Prompt A
+can be
+:Input "Guess?",A
+[[/code]]
+
+If you have two Input commands that have display messages that are positioned between a conditional, you can often remove one of the Input commands and then use the sub command to display the appropriate display message. This allows you to get rid of the conditional. You can also take out the common part of the display message and add it to the substring part of the display message.
+
+[[code]]
+:If A=1
+:Then
+:Input "Take candy?",Str1
+:Else
+:Input "Give candy?",Str1
+:End
+can be
+:Input sub("GiveTake",1+4(A=1),4)+" candy?",Str1
+[[/code]]
+
+The Prompt command can be used with more than one variable. If you have a list of prompt commands, you should put all of the variables on the first Prompt command, separating each variable with a comma. This allows you to get rid of the rest of the Prompt commands.
+
+[[code]]
+:Prompt A
+:Prompt B
+:Prompt C
+can be
+:Prompt A,B,C
+[[/code]]
+
+The Prompt command should be used instead of the Input command when you have the display message show what the variable being stored to is. And if there are multiple Input commands, you can reduce them to just one Prompt command.
+
+[[code]]
+:Input "A=?",A
+:Input "B=?",B
+:Input "C=?",C
+can be
+:Prompt A,B,C
+[[/code]]
+
+When doing calculations and user input, you should move the calculations before the user input. The delay before the user input is not important because people simply can't type fast enough to notice it.
+
+[[code]]
+:Input "NAME:",Str1
+:3B/7→L1(1
+:2A+5B→C
+can be
+:3B/7→L1(1
+:2A+5B→C
+:Input "NAME:",Str1
+[[/code]]

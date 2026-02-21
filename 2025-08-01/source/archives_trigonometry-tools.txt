@@ -1,0 +1,17 @@
+author: EragonFreakMaster
+description: 'Tools to help in your Geometry or Trigonometry class, solving anything to do with triangles.'
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: /home/no_image_2.png
+download: TrigTools.zip
+size: '6223'
+unit: '1'

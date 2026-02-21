@@ -1,0 +1,21 @@
+[[include inc:command
+|picture=DECPIC.gif
+|summary=Mode command that sets Answers to DEC.
+|location=Press:
+# MODE
+# DOWN until you see Answers
+# ENTER on DEC
+
+Alternatively, access the catalog.
+|syntax=DEC Answer
+|size=2 bytes
+|compatibility=TI-84 2.53MP only
+]]
+
+
+The {{DEC Answer}} command is a mode command that changes the Answers mode to DEC.  DEC mode is very similar to the AUTO mode in which the calculator will display all answers in decimal form unless the returned number is an integer.  Fractions will only be displayed with use of the {{[[[►Frac]]]}} command.
+
++ Related Commands
+
+* {{[[[AUTO Answer]]]}}
+* {{[[[FRAC Answer]]]}}

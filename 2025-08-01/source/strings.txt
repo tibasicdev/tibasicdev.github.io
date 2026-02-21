@@ -1,0 +1,45 @@
+Strings are used for storing a sequence of characters, that is, text. Although a common use for strings is to manipulate text to be displayed in a program, they have many different purposes: [[[highscores]]], level and [[[maps|map]]] data, and whatever else is desired. Although there are only ten built-in string variables (Str0 through Str9) available to use, strings can hold many different kinds of characters, including letters (both uppercase and lowercase), numbers, functions, and even other commands. The amount of free RAM is the only limit on the number of characters in a string.
+
+Each function and command is counted as one character, though, which can cause problems when displaying strings. The two characters that you can't put in a string (using a TI-Basic program; advanced users see below) are quotation marks (") and the store command (→). However, you can mimic these respectively by using two apostrophes (''), and a subtract sign with a greater than sign (->).
+
+When entering a string, you need to put a quote at the beginning and ending of the string to enclose the characters inside the string (the quotes do not count as string characters). This also indicates that it is a string. Inside the string, you then enter whatever characters you want. If you want to [[[store]]] the string to a string variable for later use in a program, you just select which string variable you want to use and then store the string to it with the [STO►] key.
+
+[[code]]
+:"Text"→string
+[[/code]]
+
+To access the string variables, press VARS and then scroll down to Strings (or press 7). You then scroll down to whichever string variable you want to use and press ENTER.
+
++ Commands
+
+Strings make special use of the [[[equal|=]]] (equal), [[[notequal|≠]]] (not equal), and [[[add|+]]] (add) operations. While = and ≠ behave pretty much as you would expect -- two strings are equal only if they contain the same exact text -- the + operation may be a surprise. The TI-83 series calculators use it to "concatenate" two strings -- that is, put them together one after the other. For example:
+
+[[code]]
+:"HELLO"+"WORLD
+returns the string "HELLOWORLD"
+[[/code]]
+
+There are also several commands made specifically for strings. They can only be found in the command catalog ([2nd][0]). This is a shame, because programmers use most of them quite often, and scrolling to them in the catalog is annoying. They are:
+
+* [[[Equ►String(]]]
+* [[[expr(]]]
+* [[[inString(]]]
+* [[[length(]]]
+* [[[sub(]]]
+* [[[String►Equ(]]]
+
++ Advanced
+
+While you can't store " and → into a string through a program, you may do it nonetheless from the home screen using the following trick (note, however, that plugging the actual content of the string into a program will revert it to its "unstable" state, making it prone to [[[errors#syntax|syntax error]]] again):
+
+# At the [Y=] editor, type the quotation marks, followed by the store arrow
+# Return to the home screen, and then select Equ>String( from the CATALOG
+# Select Y1 from the [VARS] Y-VARS 1:Function menu
+# Follow it up with a comma and then select Str1 from the [VARS] 7:String menu
+# Press [ENTER], and you should now have the string ""→" stored to Str1
+
+Note that if you use Str1 in a program, you should include Str1 as an additional variable when distributing it.
+
+Additionally, you can store quotation marks (but not →) in a string by using the [[[input|Input]]] command in a program, and type in quotation marks. Also, if you use the [[[expr(]]] command on a string such as ""HELLO"", it will not return the product of H, E, L, L, and O, rather it returns the string "HELLO".
+
+It's known that attaching formulas to lists stores them internally in a way similar to strings, and in fact, "HELLO→L,,1,, will store the formula HELLO to L,,1,,. If these formulas could then be accessed arbitrarily (rather than just evaluated), this would provide programmers with an unlimited supply of nameable strings. However, no such way is currently known.

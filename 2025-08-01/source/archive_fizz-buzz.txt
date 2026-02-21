@@ -1,0 +1,21 @@
+author: doodledill21
+version: '1.0'
+summary: 'this is a ti 83 version of the classic math game fizz buzz in which you count up from one and replace numbers with 3 or that are divisable by 3 with buzz and numbers that are divisible by 7 or have 7 with fizz'
+description: 'First enter the numbers for which you want to Fizz and Buzz. Three and seven are the numbers that are traditionally used. After that start counting as shown. Instead of typing ''FIZZ'' or ''BUZZ'', use the letters ''F'' and ''B''. For Buzz=3 and Fizz=7 the beginning sequence would be: 1 2 B 4 5 B F 8 B 10 11 B B F B 16 F B 19 20 FB 22 B B 25 26 FB F 29 B B B B B .... Then try it with other numbers for fizz and buzz. If you just want to try buzzing enter 0 for fizz or the other way around.'
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '1'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '1'
+compatibility: bb
+download: 'archivefile:fizzbuzz/FIZZBUZZ.8xp'
+image: null
+fileSize: '464'
+fileSizeUnit: '1'
+dateMade: '1572588000'

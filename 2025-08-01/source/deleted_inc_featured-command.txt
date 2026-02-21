@@ -1,0 +1,19 @@
+{$part1begin}
+
+> To add a command, move the current featured command from {$part2} to {$part3}, and add a new featured command to {$part2}. See the [[[featured-commands|featured commands]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
+The [[[Menu(]]] command displays a generic menu on the home screen, with up to seven options for the user to select from.
+
+If you need more than seven options, you can create another menu and then link to that menu.
+([[[Menu(|more...]]])
+
+{$part2end}
+{$part3begin}
+
+None yet...
+
+{$part3end}
+[!-- Code thanks to James Kanjo --]

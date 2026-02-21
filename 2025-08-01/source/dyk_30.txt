@@ -1,0 +1,1 @@
+…that you can run your TI-Basic program from an [[[asmshells|assembly shell]]] by placing a colon (":") as the first line of your program?

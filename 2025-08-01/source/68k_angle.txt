@@ -1,0 +1,25 @@
+[[include inc:68k-command
+|picture=angle.png
+|summary=Returns the angle of //expression//, interpreting //expression// as a complex number.
+|syntax=angle(//expression//)
+
+|location=
+* Press 2nd MATH to enter the MATH popup menu.
+* Press 5 to enter the Complex submenu.
+* Press 4 to select angle(
+
+|size=X byte(s)
+]]
+
+
+The {{angle()}} command returns the angle of a complex number. The argument may be an expression, a list, or a matrix. In the case of a lists and matrices, each element is evaluated individually and the result is outputted to the corresponding element of a matrix or list of the same dimensions as the original.
+
+[[code]]
+:angle(2i)
+      pi/2
+:angle({2i,3+i})
+      {pi/2  tan^-1(1/3)}
+:angle([[2i,3+i][i+7,2i]])
+      [pi/2  tan^-1(1/3)]
+      [tan^-1(1/7)  pi/2]
+[[/code]]

@@ -1,0 +1,1 @@
+__Finished the basic platform engine, complete with these features:__ Seamless double character maps; Fast drawing; Jumping/moving; parabolic jumping curves; ceiling hit detection

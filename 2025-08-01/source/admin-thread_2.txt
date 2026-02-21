@@ -1,0 +1,4 @@
+##red| This is an open Task!## (tagged with "_task")
+
+You will see this in the side nav menu and in the list "OPen Task" 
+if the task is done, close it with "_closed"

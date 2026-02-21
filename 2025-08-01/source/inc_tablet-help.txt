@@ -1,0 +1,36 @@
+> @@[[@@include inc:tablet
+> |name=
+> |author=
+> |size=
+> |description=
+> 
+> |picture=
+> |downloadUrl=
+> |downloadName=
+> ]]
+
+++ |name=
+Type in the name of the program.
+
+++ |author=
+Type in the name of the Author. Alternatively, you can include a URL link to the author's page by typing in: **[URL //Author's Name//]**
+
+++ |size=
+Type in the size of the program as it appears on the calculator. Make sure to include any subprograms, variables, pictures, or anything else that is included with the program.
+
+* If the program size is under 20,000 bytes, use bytes: **17,235 Bytes**
+* If the program size is over 20,000 bytes, use KB: **23KB**
+
+++ |description=
+Enter a brief description about the program.
+
+++ |picture=
+Type in: **//FULL-URL//**
+
+If nothing is entered, a default image will appear instead.
+
+++ |downloadUrl=
+Type in the full URL of the program file.
+
+++ |downloadName=
+Type in the name that you want to appear for the program file's download: **File.zip**.

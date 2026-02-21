@@ -1,0 +1,20 @@
+[[include inc:command
+|picture=PEN.GIF style="border: 1px solid black;"
+|summary=Allows the user to draw on the graph screen.
+|syntax=Pen isn't a command, it's a menu option.
+|location=From the home screen, press:
+# 2nd PRGM to enter the DRAW menu
+# Scroll up to select Pen, or use arrows.
+|compatibility=TI-83/84/+/SE
+|size=@@
+]]
+
+The Pen tool allows you to draw on the [[[graphscreen|graph screen]]] using a + cursor for the "pen", similar to what you see when accessing the graph screen with graphs or with the [[[Input]]] command. You can find Pen by pressing [2nd][PRGM] to go to the DRAW menu, but it is only accessible from the calculator's home screen (where you do math and run programs); it won't show up when you are inside the program editor.
+
+You use the arrow keys to move the pen around, and you can press [2nd][<] and [2nd][>] to move five pixels over instead of just the typical one (this does not work with the up or down keys, since that would change the calculator's contrast). Pressing ENTER starts or stops the drawing respectively, and you just have to press CLEAR twice to return back to the home screen.
+
+When you are done drawing, the calculator stores the coordinates of the cursor to the respective graph screen [[[variables]]] (R and θ for [[[PolarGC]]] format, otherwise X and Y).
+
+Unfortunately, anything that you draw with Pen will be erased or overwritten whenever another program accesses the graph screen or somebody graphs something, so you should store it to a [[[pictures|picture]]] if you want to keep it for future use.
+
+Even more unfortunately, you can't erase pixels with Pen. If you're the type of person who makes mistakes once in a while, it might be better to go to the graph screen and choose [[[Pt-Change(]]] from the DRAW menu. This will require you to press ENTER for every pixel you want to draw, but it will also allow you to erase a pixel (by drawing to it again).

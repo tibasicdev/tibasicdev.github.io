@@ -1,0 +1,41 @@
+Although many people have created TI-Basic programs over the years, and TI-Basic often gets a bad rap for being so limited compared to assembly, these programs will show you that TI-Basic can be used to create quality programs.
+
+[!-- The data on this page is included from:    http://tibasicdev.wikidot.com/showcases:include    --]
+
+[[tabview]]
+[[tab Strategy]]
+
+[[include showcases:include strategyBegin=[!-- --] | strategyEnd=[!-- --] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab RPG]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- --] | rpgEnd=[!-- --] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab Sports]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- --] | sportsEnd=[!-- --] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab Puzzle]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- --] | puzzleEnd=[!-- --] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab Arcade]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- --] | arcadeEnd=[!-- --] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab Casino]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- --] | casinoEnd=[!-- --] | miscellaneousBegin=[!-- | miscellaneousEnd=--]]]
+
+[[/tab]]
+[[tab Miscellaneous]]
+
+[[include showcases:include strategyBegin=[!-- | strategyEnd=--] |rpgBegin=[!-- | rpgEnd=--] | sportsBegin=[!-- | sportsEnd=--] | puzzleBegin=[!-- | puzzleEnd=--] | arcadeBegin=[!-- | arcadeEnd=--] | casinoBegin=[!-- | casinoEnd=--] | miscellaneousBegin=[!-- --] | miscellaneousEnd=[!-- --]]]
+
+[[/tab]]
+[[/tabview]]

@@ -1,0 +1,109 @@
+Although it is common to initialize variables for planned use, you should avoid initializing variables that you don't need or that are initialized further down in the program. The reason is because storing to variables really slows a program down (especially inside loops) and there is no point in initializing a variable twice.
+
+[[code]]
+:2→A
+:If B
+:Then
+:2→A
+:Else
+:-2→A
+:End
+can be
+:If B
+:Then
+:2→A
+:Else
+:-2→A
+:End
+[[/code]]
+
+When a number is used many times in a program, you should store it to a variable and then just call the variable instead of writing it out every time. This also applies to text that should be put in a string.
+
+[[code]]
+:Disp "Hello
+:Disp "Hello
+:Disp "Hello
+can be
+:"Hello→Str1
+:Disp Str1,Str1,Str1
+[[/code]]
+
+You can also put common variables or expressions in a string variable and then use the [[[expr(]]] command to reference them. This can be used in conjunction with other variable commands. This also gives you more variables to use.
+
+[[code]]
+:Disp 5int(B/7
+:Disp 5int(B/7
+can be
+:"5int(B/7→Str1
+:Disp expr(Str1
+:Disp expr(Str1
+[[/code]]
+
+You should reuse variables that have no specific function or that don't need to be saved.
+
+[[code]]
+:For(X,1,100
+:End
+:For(Y,1,50
+:End
+can be
+:For(X,1,100
+:End
+:For(X,1,50
+:End
+[[/code]]
+
+When storing the same large number in two or more variables, you should store the large number in the first variable and then store the first variable into the rest of the variables.
+
+[[code]]
+:7112→A
+:7112→B
+:7112→C
+can be
+:7112→A
+:A→B
+:A→C
+[[/code]]
+
+When calculating several repetitive trigonometric or other math functions in a program, it is sometimes faster to just store the values in a list and recall the values when needed.
+
+[[code]]
+:For(A,0,10
+:Text(6A+1,1,10cos(A
+:End
+can be
+:10cos(seq(A,A,0,10→L1
+:For(A,0,10
+:Text(6A+1,1,L1(A
+:End
+[[/code]]
+
+Matrices are faster than lists, so you should use them in speed sensitive situations, especially if you have 2 lists to store coordinates. While this is much larger, it is also faster.
+
+[[code]]
+:Pxl-Off(L1(I),L2(I
+can be
+:Pxl-Off([A](1,I),[A](2,I
+[[/code]]
+
+If there are certain constants that arise throughout your program, it can be useful to store those constants to variables. Depending on the size of the constants, this can save a handful of bytes every time the constants are used.
+
+[[code]]
+:Line(154,0,154,216
+:Line(0,216,154,216
+can be
+:154→A
+:216→B
+:Line(A,0,A,B
+:Line(0,B,A,B
+[[/code]]
+
+Note that the initialization of the constants costs extra bytes and a bit of speed. It is best if these values are truly constants that change very little throughout the program, otherwise the speed-to-space sacrifice may not be worthwhile.
+
+[[include inc:next-prev
+|prevpage = sk:displaying-text
+|prevtitle = Displaying Text
+|tocpage = starter-kit
+|toctitle = Table of Contents
+|nextpage = sk:math-operations
+|nexttitle = Math Operations]]

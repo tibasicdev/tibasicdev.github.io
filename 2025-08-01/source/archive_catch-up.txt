@@ -1,0 +1,21 @@
+author: shmuelbaum
+version: '1.0'
+summary: 'you have  to get to the star you move with the arrow keys but the calculator also moves you.'
+description: ''
+arcade: '1'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+compatibility: bb
+download: 'archivefile:catch-up/catch-up.zip'
+image: null
+fileSize: '2'
+fileSizeUnit: '1'
+dateMade: '1584936000'

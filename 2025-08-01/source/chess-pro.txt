@@ -1,0 +1,11 @@
+[[include inc:program
+|picture=chess-pro.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic chess game.
+|size=6,869 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/21/2127.html Francis Huang]
+|download=[http://tibasicdev.wikidot.com/local--files/chess-pro/chesspro.zip chesspro.zip]
+]]
+
+A chess game that is relatively small and fast, and features move checking, three save slots, and auto-saving. It is one of the best TI-Basic chess games available.

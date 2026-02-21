@@ -1,0 +1,26 @@
+The TI-83 and TI-84 series of [[[thecalcs|calculators]]] feature a considerable amount of memory available for storing [[[variables]]], [[[sk:first-program|programs]]], [[[grouping|groups]]], and even [[[assembly|assembly applications]]] (the last two are only available on the TI-83+/TI-84+/SE calculators). However, as you start putting those things on the calculator, the memory slowly gets used up, and if you don't do anything, the calculator will eventually run out of memory -- giving you the dreaded [[[errors#memory|ERR:MEMORY]]] error.
+
+Before getting into memory management, it is important that you know there is a major difference between the TI-83 calculator and the rest of the TI-83 and TI-84 series of calculators. In particular, the TI-83 just has RAM (Random Access Memory) memory, while the rest of the calculators have RAM memory as well as Flash ROM (Read-Only Memory) memory, also known as archive memory.
+
+RAM is the faster memory of the two, and it is what is primarily used whenever you run a program. Its one downfall is that it tends to get cleared very easily after crashes. Most people have probably noticed this when their calculator crashed, and they turned it back on, and it said RAM cleared. In addition, variables in RAM can be overwritten accidentally by a program that uses them.
+
+Flash ROM, on the other hand, is the more reliable memory, and it is what is used when you want to store a program for long-term. Its one downfall is that you can't access something stored in ROM. The only exception to this is assembly programs and applications, which are programmed in the calculator's own programming language and thus can access anything on the calculator.
+
+There are several different commands you can use for managing your calculator's memory:
+
+* **[[[DelVar]]]** -- DelVar is useful for deleting variables, which is the most obvious way to manage memory, and it is what most people are interested in. The DelVar command can delete any variable that you want, with exception to specific elements of a matrix or string or [[[system variables]]].
+* **[[[ClrList]]]/[[[ClrAllLists]]]** -- Similar to DelVar, ClrList and ClrAllLists only work with [[[lists]]] and they set the dimensions of one list or all lists to zero respectively. This essentially causes the list(s) to be deleted, since you can't do anything with a zero element list.
+* **[[[Clear Entries]]]** -- When executing programs or doing math on the calculator's home screen, the calculator keeps a history of these entries (you can cycle through them by pressing 2nd ENTER). If you do a lot of stuff on the home screen, the entries history can become rather large.
+* **[[[Archive]]]/[[[UnArchive]]]** -- When using variables and programs, you need to move them from archive to RAM; and when you are done using them, you move them back to archive. While you can archive programs on the home screen, that is not possible from inside a program (although you can use an [[[asmlibs|assembly library]]] to do that).
+* **[[[GarbageCollect]]]** -- As you archive and unarchive variables and programs, the calculator keeps storing things until it eventually needs to clean the archive memory. Rather than simply leaving this until the calculator finally forces you to do it, which takes a fair amount of time, you can run the GarbageCollect command periodically.
+
+Since the TI-83 calculator only has RAM memory, it does not have the Archive, UnArchive, and GarbageCollect commands. If you plan on [[[portability|porting]]] a program to the TI-83, you shouldn't use any of these commands, since they will cause the program to be corrupted.  In the case of [[[lists]]], however you can use the [[[SetUpEditor]]] command instead of UnArchive to get around this problem.
+Also note that trying to use DelVar or ClrList with an archived variable does not work, and will actually return an [[[errors#archived|ERR:ARCHIVED]]] error.
+
++ Accessing the Memory Menu
+
+When accessing a variable or program from the memory menu, you press 2nd MEM. You then select 2:Mem Mgmt/Del and press one to display a scrollable list of all the files on the calculator. You use the up and down keys to move the cursor on the left. On the top lines of the screen you will see how much free RAM and ARC (archive) memory there is.
+
+Once you have found a file you want to delete, press DEL. If the file is not a variable, the calculator will prompt you to confirm the deletion, and you have to select 2:Yes. Once you have found a file you want to archive, press ENTER. An asterisk will appear to the left of the file name, indicating that it is archived. Some files, such as applications, will not allow you to unarchive them since they can only reside in ROM.
+
+Archiving may sometimes not be possible, however, if the calculator does not have sufficient free ROM available. This occurs primarily when a person can't bring themselves to delete a file because they feel like every file is important. At this point, the only option is to delete some files off of their calculator to make room. As part of memory management, a good policy is to keep the calculator's memory organized and to delete any files that you don't need.

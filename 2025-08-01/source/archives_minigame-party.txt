@@ -1,0 +1,12 @@
+[[include inc:tablet
+|name=Minigame Party
+|author=[http://www.wikidot.com/user:info/7thace 7thAce]
+|size=7,856 Bytes
+|description=This is a game package.  There are 4 games in there now, and 4 more will be coming.  Press 2nd to play them all in order.  Just read the readme :)
+
+|picture=http://tibasicdev.wikidot.com/local--files/archives:minigame-party/picture.bmp
+|downloadUrl=http://tibasicdev.wikidot.com/local--files/archives:minigame-party/minigame-party.zip
+|downloadName=Minigame-Party.zip
+
+|83pcompatible=DO NOT EDIT ANYTHING BELOW THIS LINE
+]]

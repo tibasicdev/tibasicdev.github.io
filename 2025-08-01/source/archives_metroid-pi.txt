@@ -1,0 +1,17 @@
+author: '[*http://www.ticalc.org/archives/files/authors/98/9849.html Robert Moy] (Harrierfalcon)'
+description: 'Metroid Pi is a pure TI-Basic version of the classic Metroid game, with the game following the standard storyline of making your way through several increasingly difficult areas, while battling enemies, bosses, and getting powerups that allow you to beat the next area in the game.'
+arcade: '0'
+graphics: '0'
+platform: '1'
+puzzle: '0'
+rpg: '1'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '0'
+misc: '0'
+image: /metroid-pi/metroidpi.gif
+download: metroidpi.zip
+size: '17016'
+unit: '1'

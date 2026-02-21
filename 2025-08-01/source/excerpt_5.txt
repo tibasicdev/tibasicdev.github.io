@@ -1,0 +1,5 @@
+[[[Piecewise expressions]]] are a shortcut to handling conditions in math statements. 
+
+They can be used for turning an [[[If]]] block or several such blocks into a single line, creating much smaller and faster code.
+
+([[[piecewise-expressions|Read more...]]])

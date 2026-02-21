@@ -1,0 +1,33 @@
+[[include inc:routine
+|picture=@@
+|summary=Calculates the GCD of two numbers.
+|input=//A,B// - Whole numbers
+|output=
+L₁(I) - Greatest common divisor (gcd) of A and B
+L₂(I), L₃(I) - Bézout coefficients such that AL₂(I)+BL₃(I) = L₁(I)
+|variable=I, Q
+|compatibility=TI-83/84/+/SE/CSE/CE
+|authors=@@
+|download=@@
+|url=@@
+|author= [[user kg583]]]]
+
+[[code]]
+:{A,B→L₁
+:{1,0→L₂ 
+:{0,1→L₃
+:1→I
+:While L₁(dim(L₁
+:I+1→I
+:int(L₁(Ans-1)/L₁(Ans→Q
+:L₁(I-1)-AnsL₁(I→L₁(I+1
+:L₂(I-1)-QL₂(I→L₂(I+1
+:L₃(I-1)-QL₃(I→L₃(I+1
+:End
+[[/code]]
+
+The [[[https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm |Extended Euclidean Algorithm]]] is a highly efficient algorithm for calculating the greatest common divisor ([[[GCD]]]) of two numbers. The algorithm, in the process of finding the GCD, also finds the Bézout coefficients x and y. These are integers such that
+
+[[math]]
+ax+by=\gcd(a,b)
+[[/math]]

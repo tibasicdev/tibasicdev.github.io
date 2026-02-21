@@ -1,0 +1,42 @@
+[[include inc:command
+|picture=SQUAREROOT.PNG
+|summary=Take the square root of a number.
+|syntax=√(//input//)
+|location=Press 2nd √ to paste the √( command.
+|compatibility=TI-83/84/+/SE
+|size=1 byte
+]]
+
+Takes the square root of a positive or negative number.  It works exactly the same as 2^^×^^√ or ^(1/2) but is smaller and uses an ending parenthesis.  If used on a list, it will return a list with the square root of each element.
+[[code]]
+√(4)
+		2
+√(2)
+		1.414213562
+		
+√({1,-1})
+		{1 i}
+[[/code]]
+
+This may return a complex number or throw [[[errors#nonrealans|ERR:NONREAL ANS]]] (depending on mode settings) if taking the square root of a negative number.
+
++ Optimization
+
+Never raise something to the one-half power explicitly; use this command instead.
+
+[[code]]
+:X^(1/2)→X
+can be
+:√(X→X
+[[/code]]
+
++ Error Conditions
+
+* **[[[errors#nonrealans|ERR:NONREAL ANS]]]** when taking the square root of a negative number in [[[real-mode|Real]]] mode.
+
++ Related Commands
+
+* [[[power|^]]]
+* [[[xroot|×√]]]
+* [[[cube-root|³√(]]]
+* [[[R►Pr(]]]

@@ -1,0 +1,1 @@
+Follow the same template as [[[nspire:errors]]] but use the info from the [*https://education.ti.com/html/webhelp/EG_TINspire/EN/Subsystems/TI-Nspire%E2%84%A2%20RefeGuide/content/eg_splash_page/ti-nspire_refguide.htm warning codes document].

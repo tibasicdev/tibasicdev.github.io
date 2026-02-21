@@ -1,0 +1,90 @@
+[[include inc:routine
+|picture=@@
+|summary=Calculates the mode(s) of a list of numbers.
+|input=L₁ - To store the user-inputted list of numbers
+|output=
+L₃ - The mode(s) of the original list of numbers
+Ans - The mode(s) of the original list of numbers (alternates)
+|variable=
+L₂ - Intermediate calculation storage
+X - [[user Weregoose]]'s version only
+|compatibility=TI-83/84/+/SE/CSE/CE
+|download=@@
+|url=@@
+|author= @@
+|authors=[[user kg583]], [[user Trenly]], [[user Weregoose]] ]]
+
+[[code]]
+:ClrList L₂,L₃
+:iL₁(1)+sum(L₁=L₁(1→L₂(1
+:For(L,2,dim(L₁
+:If not(max(L₁(L)=imag(L₂
+:iL₁(L)+sum(L₁=L₁(L→L₂(1+dim(L₂
+:End
+:For(L,1,dim(L₂
+:If real(L₂(L))=max(real(L₂
+:imag(L₂(L→L₃(1+dim(L₃
+:End
+[[/code]]
+
+The mode of a list is the value that occurs most often within the list. This routine will find the mode and, if there are any ties, will display all modes. Examples:
+
+[[code]]
+:{1,2,3,3,4
+Mode = {3}
+:{5,5,6,6,7
+Mode = {5,6}
+[[/code]]
+
++ Alternate Routines
+
+[[code]]
+:SortA(L₁
+:Repeat min(0≠ΔList(L₂
+:{0→L₂
+:ΔList(L₁→L₃
+:For(θ,1,dim(L₃
+:If not(L₃(θ
+:L₁(θ→L₂(1+dim(L₂
+:End
+:L₂→L₁
+:End
+:ΔList(cumSum(L₂
+[[/code]]
+
+This version coded by [[user Trenly]] is slightly shorter than the above routine by [[user kg583]] and produces the same output, which is saved in Ans rather than L₃. However, the original list in L₁ is modified in the process, so make sure to backup that list somewhere else if you need it later.
+
+[[code]]
+:1+max(abs(L₁→X
+:L₁+Ans
+:While max(Ans
+:Ans→L₁
+:SortD(L₁
+:L₁augment({0},not(ΔList(L₁
+:End
+:sum(L₁ xor 0→dim(L₁
+:L₁-X
+[[/code]]
+
+This version written by [[user Weregoose]] is very similar to [[user Trenly]]'s in form and function. The output is, again, in Ans and lists all modes, but does also modify L₁ in the process. Note the advanced use of the [[[xor]]] function.
+
+[[code]]
+seq(sum(0>L₁-X),X,1,max(L₁)+1)+1
+ΔList(Ans
+1+sum(not(cumSum(Ans=max(Ans
+[[/code]]
+This version, also written by [[user Trenly]] is more compact and notably does not use either [[[SortA(]]] or [[[SortD(]]]. However, this version is limited to positive non-zero integers. Another limitation of this snippet is that multi-modal lists only return the lowest value mode. 
+
+[[code]]
+seq(sum(0>L₁-X),X,1,max(L₁)+1)+1
+ΔList(Ans
+1=(Ans-(max(Ans)-1
+seq(XAns(X),X,1,dim(Ans→L₂
+While not(A>dim(L₂
+1+sum(not(cumSum(L₂=0→A
+seq(L₂(A+(A≥Ans)),A,1,dim(L₂)-1→L₂
+End
+L₂
+[[/code]]
+
+You will notice some similarities to the previous routine in this routine. This routine was also written by [[user Trenly]], and is based on the previous routine. However, this version supports multi-modal arrays even though it is still limited to the set of natural numbers.

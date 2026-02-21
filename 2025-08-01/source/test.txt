@@ -1,0 +1,11 @@
++++ Newest Members
+
+[[module FrontForum category="21134" limit="3"]]
+%%author%% (%%linked_title%%)
+[[/module]]
+
++++ Newest Projects
+
+[[module FrontForum category="23647" limit="3"]]
+%%linked_title%% by %%author%%
+[[/module]]

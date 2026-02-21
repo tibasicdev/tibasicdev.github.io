@@ -1,0 +1,6 @@
+[[module Redirect destination="http://tibasicdev.wikidot.com/home"]]
+[!--
+Dear visitors!
+You are landed on an "admin:" category page,
+which is reserved for admins only.
+--]

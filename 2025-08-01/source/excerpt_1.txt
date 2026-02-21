@@ -1,0 +1,3 @@
+The [[[Menu(]]] command displays a generic menu on the home screen, with up to seven options for the user to select from; you can create another menu and link to it, if you need more than seven options.
+
+([[[Menu(|Read more...]]])

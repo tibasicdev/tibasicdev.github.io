@@ -1,0 +1,20 @@
+{$part1begin}
+
+> To add an article, move the current featured article from {$part2} to {$part3}, and add a new featured article to {$part2}. See the [[[68k:featured-articles|featured articles]]] page to view the data on this page in a cosmetic format.
+
+{$part1end}
+{$part2begin}
+
+"[[[68k:Sprites]]]" are small images displayed as part of a larger scene on the screen. In TI-68k Basic, support for sprites is built-in, in the form of picture variables.
+
+The most common reasons to use a sprite are to display a picture which will be moved around on the screen, or repeated multiple times as part of a pattern ([[[68k:sprites|more...]]])
+
+{$part2end}
+{$part3begin}
+
+"[[[68k:Tokenization]]]" is the process whereby the characters that make up a command are replaced by a token -- a number representing the command.
+
+Since the size of the program is determined by its tokenized size, understanding this process is key to optimization, at least for size. ([[[68k:tokenization|more...]]])
+
+{$part3end}
+[!-- Code thanks to James Kanjo --]

@@ -1,0 +1,3 @@
+[[collapsible show=" " hide=" " hideLocation="top" folded="yes"]]
+[[module Redirect destination="piecewise-expressions"]]
+[[/collapsible]]

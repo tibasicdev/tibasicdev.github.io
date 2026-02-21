@@ -1,0 +1,17 @@
+[[include inc:program
+|picture=xsnake.gif style="width:200px; height:135px;"
+|summary=A quality version of the classic snake game.
+|size=1,468 bytes
+|libraries=No, it's pure TI-Basic
+|compatibility=TI-83/84/+/SE
+|author=[*http://www.ticalc.org/archives/files/authors/35/3560.html XprO]
+|download=[http://tibasicdev.wikidot.com/local--files/xsnake/xsnake.zip xsnake.zip]
+]]
+
+Xsnake is one of those rare TI-Basic games that not only are fun to play, but also fun to look at the underlying code. The game is written entirely in TI-Basic, but it is as fast as the assembly snake counterparts -- in fact, it is the fastest TI-Basic snake game available.
+
+The main innovation that allowed Xsnake to be so fast is that the four arrow directions are each split up into their own separate loop, which cuts down on [[[If]]] conditionals and other speed impediments. The game also uses the [[[pxl-Test(]]] command for collision detection, which is faster than accessing a variable (like most other snake games do).
+
+In terms of gameplay, Xsnake features the standard goal: you go around eating food, but each piece of food makes the snake grow longer. The game comes with seven built-in levels of increasing difficulty that you need to make your way through to beat the game, and you have to do it with only three lives.
+
+The game uses the standard controls: 2nd/ENTER to pause in the game, CLEAR to quit, and the arrow keys move the snake in the respective direction. The graphics are not sophisticated by any measure, but that isn't really the focus of the game anyway.

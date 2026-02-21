@@ -1,0 +1,17 @@
+author: Mapar007
+description: "Data storage system with personal sheets and bookmark codes.\n\nThe second version of Mnemon."
+arcade: '0'
+graphics: '0'
+platform: '0'
+puzzle: '0'
+rpg: '0'
+strategy: '0'
+sports: '0'
+casino: '0'
+board: '0'
+utility: '1'
+misc: '0'
+image: '/archives:mnemon2/mnemon2.jpg'
+download: mnemon_2.5.zip
+size: '2453'
+unit: '1'

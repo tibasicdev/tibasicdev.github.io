@@ -1,0 +1,56 @@
+[[include inc:68k-command
+|picture=min.png
+|summary=Finds the lowest numerical value from arguements
+|syntax= min(arg1,[arg2])
+|location=
+|size=X
+]]
+
+The min() Command can be executed in two different ways.
+
+It can find the lowest of two numbers:
+[[code]]
+min(0,1)
+//returns 0
+[[/code]]
+
+It can find the lowest number in a list:
+[[code]]
+min({0,1,2})
+//returns 0
+[[/code]]
+
++ Advanced Uses
+
+For advanced users, the min command can also have its two arguments replaced with lists, as long as the two lists have the same dimensions and only include numbers. min(list,list) returns a list, with min having been done on each pair of items, as is the custom for lists in functions.
+
+[[code]]
+min({123},{321})
+//returns {1,2,1}
+[[/code]]
+
+It also works in much the same way for matrices.
+
+[[code]]
+min([[1,2,3][1,2,3]],[[3,2,1][3,2,1]])
+//returns [[1,2,1][1,2,1]]
+[[/code]]
+
++ Optimization
+
+If comparing two numbers, it is slightly faster to compare the two as two arguments than to have them in a list.
+
+[[code]]
+:min({1,2})
+can be
+:min(1,2)
+[[/code]]
+
+The first example takes 13 seconds for 1000 repetitions, while the second takes only 9. When using the min command repetitively, this will add up.
+
++ Related Commands
+
+* [[[68k:Mean]]]
+* [[[68k:Mod]]]
+* [[[68k:Max]]]
+* [[[68k:Median]]]
