@@ -1,0 +1,72 @@
+8→x
+6→a
+2→b
+5→l
+UnArchive u
+u→t
+0→u
+Lbl 4
+ClrHome
+Output(3,3,"METEθR DASH"
+Output(4,2,"BY X. MCELWEE"
+Pause
+ClrHome
+Output(8,1,"HIGH SCORE:"
+Output 8,12,t
+Pause
+Repeat l=0
+ClrHome
+Output 1,1,u
+Output(8,x,"^"
+Output b,1,"θθθθθθθθθθθθθθθθ"
+Output b,a,"   "
+getKey→k
+If k=82
+x-1→x
+If k=84
+x+1→x
+if k=22
+0→l
+if k=45
+goto 3
+b+1→b
+if b=8 and not(x=a or x=a+1 or x=a+2
+then
+l-1→l
+output 8,x,"*"
+end
+disp l
+if b>8
+then
+2→b
+randInt(4,11→a
+end
+if x>16
+16→x
+if x<1
+1→x
+u+1→u
+end
+ClrHome
+If u<t
+then
+t→u
+Archive u
+stop
+End
+If u>t
+then
+Output(3,3,"HIGH SCORE!
+Archive u
+Pause
+stop
+end
+stop
+Lbl 3
+Menu("RESET?","YES",1,"NO",2)
+Lbl 1
+0→u
+0→t
+goto 4
+Lbl 2
+goto 4

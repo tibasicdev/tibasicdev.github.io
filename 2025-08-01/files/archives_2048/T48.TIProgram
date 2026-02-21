@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>SetUpEditor T48,B,A,L₆,L₅,L₄,L₃,L₂,L₁1→dim(⌊T48cumSum(binomcdf(15,0.1+.1remainder(Ans-1,4)+int(.25(3+Ans→AAns→L₁rand (28→BDelVar [A]DelVar C{4,4→dim([A]identity(4→[B]1→Bint(1+⌊B(B)sum(not(not(L₁→A2+2(.9&lt;⌊B(B+1→[A](10fPart(L₁(Ans)),iPart(L₁(Ans0→L₁(ASortD(L₁ClrHomeDisp "2048 BY SMON","BEST:",⌊T48(1),"TRY TO GET 2048!","PRESS 2ND TO ENDRepeat getKey:EndRepeat K=211+remainder(B,28→BIf [A]≠[B] and max(L₁:Thenint(1+⌊B(B)sum(not(not(L₁2+2(.9&lt;⌊B(Ans+1→[A](10fPart(L₁(Ans)),iPart(L₁(AnsgetKeyClrHomeDisp [A],CEndRepeat max(Ans={21,24,25,26,34getKey→KEndIf K≠21:Then[A]→[B]If 1=abs(K-25AnsIf 4=abs(K-30ThenrSwapAns,1,4:rSwapAns,2,3:EndMatrlist(Ans,L₆,L₅,L₄,L₃If L₆(1:Then5-max({0,3,2,1}(L₆=L₆(1If not(5=AnsBoxplot(2) and Ans&gt;2=4 and L₆(3:Then0→L₆(Ans2L₆(1→L₆(1C+Ans→CEndEndIf L₆(2:Then5-max({0,0,2,1}(L₆=L₆(2If not(5=Ans=4 and L₆(3Then0→L₆(Ans2L₆(2→L₆(2C+Ans→CEndEndL₆(3If Ans and Ans=L₆(4:Then2Ans→L₆(3C+Ans→C0→L₆(4EndIf L₅(1:Then5-max({0,3,2,1}(L₅=L₅(1If not(5=Ans&gt;2 and L₅(2)=4 and L₅(3Then0→L₅(Ans2L₅(1→L₅(1C+Ans→CEndEndIf L₅(2:Then5-max({0,0,2,1}(L₅=L₅(2If not(5=Ans=4 and L₅(3Then0→L₅(Ans2L₅(2→L₅(2C+Ans→CEndEndL₅(3If Ans and Ans=L₅(4:Then2Ans→L₅(3C+Ans→C0→L₅(4EndIf L₄(1:Then5-max({0,3,2,1}(L₄=L₄(1If not(5=Ans&gt;2 and L₄(2)=4 and L₄(3Then0→L₄(Ans2L₄(1→L₄(1C+Ans→CEndEndIf L₄(2:Then5-max({0,0,2,1}(L₄=L₄(2If not(5=Ans=4 and L₄(3Then0→L₄(Ans2L₄(2→L₄(2C+Ans→CEndEndL₄(3If Ans and Ans=L₄(4:Then2Ans→L₄(3C+Ans→C0→L₄(4EndIf L₃(1:Then5-max({0,3,2,1}(L₃=L₃(1If not(5=Ans&gt;2 and L₃(2)=4 and L₃(3Then0→L₃(Ans2L₃(1→L₃(1C+Ans→CEndEndIf L₃(2:Then5-max({0,0,2,1}(L₃=L₃(2If not(5=Ans=4 and L₃(3Then0→L₃(Ans2L₃(2→L₃(2C+Ans→CEndEndL₃(3If Ans and Ans=L₃(4:Then2Ans→L₃(3C+Ans→C0→L₃(4End{4,3,2,1}not(not(L₆→L₂SortD(L₂,L₆{4,3,2,1}not(not(L₅→L₂SortD(L₂,L₅{4,3,2,1}not(not(L₄→L₂SortD(L₂,L₄{4,3,2,1}not(not(L₃→L₂SortD(L₂,L₃Listmatr(L₆,L₅,L₄,L₃,[A][A]If 4=abs(K-30ThenrSwapAns,1,4:rSwapAns,2,3:EndIf 1=abs(K-25AnsMatrlist(Ans,L₆,L₅,L₄,L₃Ans→[A]⌊Anot(augment(L₆,augment(L₅,augment(L₄,L₃→L₁SortD(L₁EndEndmax(⌊T48,{C→⌊T48Disp "Game Over","Score:",C,"Best:",max(AnsDelVar [A]DelVar [B]DelVar ⌊BDelVar ⌊AArchive ⌊T48</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>T48</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

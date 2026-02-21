@@ -1,0 +1,40 @@
+Main Program
+PROGRAM:FRUN
+ClrHome
+ClrDraw
+AxesOff
+ZStandard
+ZInteger
+PlotsOff
+FnOff
+SetUpEditor FRUN
+2->dim(LFRUN
+Text(44,0,"FOREST ESCAPE
+Text(51,6,"HIGH DISTANCE: ",LFRUN(1),"m   //meters (metres if your in a different region)
+Text(57,2,"TOTAL DISTANCE: ",LFRUN(2),"m
+Pause
+Delvar DDelvarG47->X
+Repeat K=45 or pxl-Test(31,X
+getKey->K
+Pxl-On(31,X
+Asm(prgmDOWN
+D+1->D
+If max(K={24,26,25
+K->G
+If K=105:Pause
+X+(G=26)-(G=24->G
+X+95(X=-1)-95(X=95->X
+Text(0,randInt(0,94),"Y
+End
+If D>LFRUN(1
+D->LFRUN(1
+LFRST(2)+D->LFRST(2
+Text(44,2,"HIGH DISTANCE: ",LFRUN(1),"m
+Text(44,2,"TOTAL DISTANCE: ",LFRUN(2),"m
+Pause
+ClrDraw
+ClrHome
+Assembly Program
+PROGRAM:DOWN
+:AsmPrgm213396113F9601F402EDB823010C00EF304CEF6A48C9  //Shift screen down one pixel level
+
