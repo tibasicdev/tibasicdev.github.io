@@ -44,14 +44,14 @@ Error catching provides a last resort if an error occurs. A portion of the progr
 Another part of programming is managing variables. This means:
 - Defining them — with [→](68k:store.html) or [68k:Define](68k:define.html).
 - Deleting them — with [68k:DelVar](68k:delvar.html), [68k:DelType](68k:deltype.html), [68k:DelFold](68k:delfold.html), or [68k:NewProb](68k:newprob.html).
-- Protecting them — with [68k:Lock](68k:lock.html), [68k:Unlock](68k:unlock.html), [68k:isLocked()](68k:islocked().html), [68k:Archive](68k:archive.html), [68k:Unarchiv](68k:unarchiv.html), or [68k:isArc()](68k:isarc().html).
-- Dealing with names and folders — with [68k:CopyVar](68k:copyvar.html), [68k:MoveVar](68k:movevar.html), [68k:Rename](68k:rename.html), or [68k:NewFold](68k:newfold.html), [68k:setFold()](68k:setfold().html).
+- Protecting them — with [68k:Lock](68k:lock.html), [68k:Unlock](68k:unlock.html), [68k:isLocked()](68k:islocked.html), [68k:Archive](68k:archive.html), [68k:Unarchiv](68k:unarchiv.html), or [68k:isArc()](68k:isarc.html).
+- Dealing with names and folders — with [68k:CopyVar](68k:copyvar.html), [68k:MoveVar](68k:movevar.html), [68k:Rename](68k:rename.html), or [68k:NewFold](68k:newfold.html), [68k:setFold()](68k:setfold.html).
 
 There is also the [68k:Local](68k:local.html) command, which designates certain variables as local to the program they are used in.
 
 ## Input and Output
 
-Finally, a program has to be able to get input from the user and give some output in response. For games, this usually means using the [68k:graphics](68k:graphics.html) commands, and reading keys with the [68k:getKey()](68k:getkey().html) command. There are other alternatives, however.
+Finally, a program has to be able to get input from the user and give some output in response. For games, this usually means using the [68k:graphics](68k:graphics.html) commands, and reading keys with the [68k:getKey()](68k:getkey.html) command. There are other alternatives, however.
 
 On the Program I/O screen:
 - [68k:Input](68k:input.html), [68k:InputStr](68k:inputstr.html), and [68k:Prompt](68k:prompt.html) read in typed text.

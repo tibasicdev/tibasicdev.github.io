@@ -60,6 +60,6 @@ The [Levenberg-Marquardt](https://en.wikipedia.org/wiki/levenberg-marquardt_algo
 
 ## Related Commands
 
-- [LinReg(ax+b)](linreg(ax-b).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
 - [ExpReg](expreg.html)
 - [Logistic](logistic.html)

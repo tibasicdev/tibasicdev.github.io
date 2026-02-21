@@ -44,7 +44,7 @@
 
 : **Clock cycle** : The unit of time in a [CPU](#cpu). It is so small that even the most primitive [assembly](#assembly) instructions take several clock cycles to run; the amount of clock cycles it takes for a single [TI-Basic](#tibasic) command can be in the millions.
 
-: **Command** : A word or token that tells the calculator to do something. Examples: [68k:RclPic](68k:rclpic.html), [68k:For](68k:for.html), [68k:max()](68k:max().html), etc. They are sometimes subdivided into [functions](#function) and [instructions](#instruction)
+: **Command** : A word or token that tells the calculator to do something. Examples: [68k:RclPic](68k:rclpic.html), [68k:For](68k:for.html), [68k:max()](68k:max.html), etc. They are sometimes subdivided into [functions](#function) and [instructions](#instruction)
 
 : **Concatenation** : Joining two or more [strings](#string) together to make a longer string. The ampersand — & — is the concatenation operator. For example, "TI-"&"Basic"="TI-Basic".
 
@@ -94,7 +94,7 @@
 
 : **Flow Chart** : A diagram of geometric shapes connected by arrows that show the progression of a program. Flow charts are handy for developing complicated programs and illustrating how programs work.
 
-: **Function** : The word Function has several meanings in the context of TI-Basic programming. It can mean a type of [command](#command) that returns a value - such as [68k:gcd()](68k:gcd().html) or [68k:sin()](68k:sin().html). Or it can mean a type of user-defined program that returns a value.
+: **Function** : The word Function has several meanings in the context of TI-Basic programming. It can mean a type of [command](#command) that returns a value - such as [68k:gcd()](68k:gcd.html) or [68k:sin()](68k:sin.html). Or it can mean a type of user-defined program that returns a value.
 
 
 
@@ -227,7 +227,7 @@
 
 : **Sprite** : A small image which is moved around the screen using code and/or repeated multiple times on the screen.
 
-: **Statement** : A single line of a program containing a single instruction such as [68k:Text](68k:text.html), [68k:RclPic](68k:rclpic.html), [68k:max()](68k:max().html), etc. Usually synonymous with [command](#command).
+: **Statement** : A single line of a program containing a single instruction such as [68k:Text](68k:text.html), [68k:RclPic](68k:rclpic.html), [68k:max()](68k:max.html), etc. Usually synonymous with [command](#command).
 
 : **String** : A variable type that stores text as a series of characters.
 

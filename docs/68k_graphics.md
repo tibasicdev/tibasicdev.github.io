@@ -39,7 +39,7 @@ The following table gives you all the simple drawing commands in their two forms
 | [68k:PtChg](68k:ptchg.html) | [68k:PxlChg](68k:pxlchg.html) |
 | [68k:PtOff](68k:ptoff.html) | [68k:PxlOff](68k:pxloff.html) |
 | [68k:PtOn](68k:pton.html) | [68k:PxlOn](68k:pxlon.html) |
-| [68k:ptTest()](68k:pttest().html) | [68k:pxlTest()](68k:pxltest().html) |
+| [68k:ptTest()](68k:pttest.html) | [68k:pxlTest()](68k:pxltest.html) |
 | [68k:PtText](68k:pttext.html) | [68k:PxlText](68k:pxltext.html) |
 
 ### Sprites

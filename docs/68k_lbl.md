@@ -16,7 +16,7 @@ The same limitations are imposed on a label name as on a [variable name](68k:var
 
 You can, theoretically, have labels in the same program with the same name, but only the first one will be used (the calculator will always find it before it finds the others). Labels don't extend beyond a program: you can't jump to a label inside a different program or function. 
 
-Also, the code inside an [68k:expr()](68k:expr().html) string lives in its own program as far as labels are concerned: if you put a label in it, the main program won't find it; you can't jump out of a routine run with [68k:expr()](68k:expr().html) into the main program; finally, you don't have to avoid the label names that the main program uses.
+Also, the code inside an [68k:expr()](68k:expr.html) string lives in its own program as far as labels are concerned: if you put a label in it, the main program won't find it; you can't jump out of a routine run with [68k:expr()](68k:expr.html) into the main program; finally, you don't have to avoid the label names that the main program uses.
 
 ## Error Conditions
 

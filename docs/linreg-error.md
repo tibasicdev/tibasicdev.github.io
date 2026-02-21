@@ -13,7 +13,7 @@ This routine computes the standard error (uncertainty) associated with the linea
 
 The routine returns a two-element list; σ<sub>*a*</sub> is the first element, and σ<sub>*b*</sub> is the second element.
 
-If one prefers to use the function [LinReg(a+bx)](linreg(a-bx).html) instead of [LinReg(ax+b)](linreg(ax-b).html), the appropriate routine is:
+If one prefers to use the function [LinReg(a+bx)](linreg(a-bx.html) instead of [LinReg(ax+b)](linreg(ax-b.html), the appropriate routine is:
 
 ```
 :2-Var Stats

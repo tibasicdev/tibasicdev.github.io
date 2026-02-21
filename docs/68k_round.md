@@ -35,7 +35,7 @@ If your calculator is set to float or to fix at 10 or less, the calculator will 
 
 ## Related Commands
 
-- [68k:ceiling()](68k:ceiling().html)
-- [68k:floor()](68k:floor().html)
-- [68k:iPart()](68k:ipart().html)
-- [68k:int()](68k:int().html)
+- [68k:ceiling()](68k:ceiling.html)
+- [68k:floor()](68k:floor.html)
+- [68k:iPart()](68k:ipart.html)
+- [68k:int()](68k:int.html)

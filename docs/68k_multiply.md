@@ -22,7 +22,7 @@ Multiplication has higher priority than [+](68k:add.html) and [-](68k:subtract.h
 
 ## Advanced Uses
 
-Multiplying matrices is not the same as multiplying their individual elements (which the [.*](68k:dotmultiply.html) operator does). To multiply two matrices, the first must have the same number of columns as the second has rows. The product of an MxN matrix with an NxP matrix will be an MxP matrix, whose (a,b)<sup>th</sup> entry will be the [dot product](68k:dotp().html) of the a<sup>th</sup> row of the first matrix with the b<sup>th</sup> column of the second.
+Multiplying matrices is not the same as multiplying their individual elements (which the [.*](68k:dotmultiply.html) operator does). To multiply two matrices, the first must have the same number of columns as the second has rows. The product of an MxN matrix with an NxP matrix will be an MxP matrix, whose (a,b)<sup>th</sup> entry will be the [dot product](68k:dotp.html) of the a<sup>th</sup> row of the first matrix with the b<sup>th</sup> column of the second.
 
 ## Error Conditions
 

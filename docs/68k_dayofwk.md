@@ -32,6 +32,6 @@ The above examples find that September 6<sup>th</sup>,1948 was a Monday and that
 
 ## Related Commands
 
-- [`68k:getDate()`](68k:getdate().html)
-- [`68k:setDate()`](68k:setdate().html)
-- [`68k:timeCnv()`](68k:timecnv().html)
+- [`68k:getDate()`](68k:getdate.html)
+- [`68k:setDate()`](68k:setdate.html)
+- [`68k:timeCnv()`](68k:timecnv.html)

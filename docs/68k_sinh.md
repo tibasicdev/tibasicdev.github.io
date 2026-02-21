@@ -47,6 +47,6 @@ The definition of hyperbolic sine is given in terms of exponents:
 
 ## Related Commands
 
-- [68k:cosh()](68k:cosh().html)
-- [68k:tanh()](68k:tanh().html)
+- [68k:cosh()](68k:cosh.html)
+- [68k:tanh()](68k:tanh.html)
 - [sinhֿ¹()](68k:arcsinh.html)

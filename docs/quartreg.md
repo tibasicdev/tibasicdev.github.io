@@ -50,6 +50,6 @@ Note that even if a relationship is actually linear, since a quartic regression 
 
 ## Related Commands
 
-- [LinReg(ax+b)](linreg(ax-b).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
 - [QuadReg](quadreg.html)
 - [CubicReg](cubicreg.html)

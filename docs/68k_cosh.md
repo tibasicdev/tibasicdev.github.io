@@ -47,6 +47,6 @@ The definition of hyperbolic cosine is given in terms of exponents:
 
 ## Related Commands
 
-- [`68k:sinh()`](68k:sinh().html)
-- [`68k:tanh()`](68k:tanh().html)
+- [`68k:sinh()`](68k:sinh.html)
+- [`68k:tanh()`](68k:tanh.html)
 - [`coshֿ¹()`](68k:arccosh.html)

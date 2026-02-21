@@ -80,7 +80,7 @@ Both tests were done with a true as well as a false condition.
 
 ### expr() vs. #
 
-Although the [68k:expr()](68k:expr().html) and # ([68k:indirection](68k:indirection.html)) commands do different things, they overlap considerably. If you have a string with a variable name inside, both # and expr() can be used to get you the value of that variable. (In case you're curious, the difference is that #, unlike expr(), can be used to refer to the variable itself, not just its value — but expr() can be used for the value of a whole expression stored to a string).
+Although the [68k:expr()](68k:expr.html) and # ([68k:indirection](68k:indirection.html)) commands do different things, they overlap considerably. If you have a string with a variable name inside, both # and expr() can be used to get you the value of that variable. (In case you're curious, the difference is that #, unlike expr(), can be used to refer to the variable itself, not just its value — but expr() can be used for the value of a whole expression stored to a string).
 
 Both commands take 2 bytes when tokenized, so there's no difference in size. The question is — which is faster?
 

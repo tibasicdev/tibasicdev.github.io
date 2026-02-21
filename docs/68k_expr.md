@@ -41,5 +41,5 @@ This also causes problems with language localization. Normally, once a command i
 ## Related Commands
 
 - # ([68k:indirection](68k:indirection.html))
-- [68k:string()](68k:string().html)
-- [68k:ord()](68k:ord().html)
+- [68k:string()](68k:string.html)
+- [68k:ord()](68k:ord.html)

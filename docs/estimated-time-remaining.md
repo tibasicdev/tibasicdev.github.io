@@ -26,12 +26,12 @@ End:End
 An explanation of the routine, including how it works, how you can modify it, what variables it uses, and anything else that is important to know when using the routine. The explanation should be thorough enough so that a person can use the routine without requiring help from somebody else.
 
 ### What is it?
-This program calculates the ETA in a [For()](for().html) loop.
+This program calculates the ETA in a [For()](for.html) loop.
 
 ### How does it work?
 At the beginning of the program, a sample value of 600 is stored to the variable E for the ending value. The four output commands show a bit of text for the current value (N), ending value (E), and (ETA) for the time in *seconds* left for the loop to execute.
 
-Before the [For()](for().html) loop begins, we start timer Z and wait until one second has passed. Then we start timer T right before the loop to increase accuracy for the ETA.
+Before the [For()](for.html) loop begins, we start timer Z and wait until one second has passed. Then we start timer T right before the loop to increase accuracy for the ETA.
 
 Now the For() loop starts, and we show an output on the screen to indicate where we are in the loop.
 
@@ -58,7 +58,7 @@ Output(3,5,"    //4 spaces
 Output(3,5,int(checkTmr(T)/(.01Ans))-checkTmr(T
 ```
 
-After that, we will restart timer Z and finish the [If()](if().html) condition with an [End](end.html) command. We will end the For() loop with another End command.
+After that, we will restart timer Z and finish the [If()](if.html) condition with an [End](end.html) command. We will end the For() loop with another End command.
 
 ## Error Conditions
 
@@ -68,6 +68,6 @@ After that, we will restart timer Z and finish the [If()](if().html) condition w
 
 - [startTmr](starttmr.html)
 - [checkTmr(](checktmr.html)
-- [For()](for().html)
+- [For()](for.html)
 - [If](if.html)
 - [End](end.html)

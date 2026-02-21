@@ -24,7 +24,7 @@ Many commands have been added or removed between the two languages. In addition,
 
 - [1-Var Stats](1-var-stats.html) and [2-Var Stats](2-var-stats.html) are now [nspire:OneVar](nspire:onevar.html) and [nspire:TwoVar](nspire:twovar.html).
 - [End](end.html) has been split into [EndIf](nspire:if.html), [EndFor](nspire:for.html), and others
-- [prod(](prod.html) has been renamed to [nspire:product()](nspire:product().html)
+- [prod(](prod.html) has been renamed to [nspire:product()](nspire:product.html)
 - All of the drawing commands have been split into pt and pxl equivilants. eg. line is now either line or pxline.
 
 
@@ -32,8 +32,8 @@ There are two more overall changes. First, many commands' names have been trunca
 
 Second, the use of parentheses after a command now follows a strict convention. 
 - "Instructions" — commands that do not return a value — do not require parentheses (e.g. [nspire:If](nspire:if.html), [nspire:Text](nspire:text.html), etc.)
-- "Functions" — commands that do return a value — require parentheses (e.g. [nspire:sin()](nspire:sin().html), [nspire:setMode()](nspire:setmode().html), etc.)
-- Even functions with no arguments use parentheses (e.g. [nspire:getKey()](nspire:getkey().html), [nspire:startTmr()](nspire:starttmr().html), etc.)
+- "Functions" — commands that do return a value — require parentheses (e.g. [nspire:sin()](nspire:sin.html), [nspire:setMode()](nspire:setmode.html), etc.)
+- Even functions with no arguments use parentheses (e.g. [nspire:getKey()](nspire:getkey.html), [nspire:startTmr()](nspire:starttmr.html), etc.)
 
 Many commands have been added. However, as far as statistics goes, the 68k calculators are inferior, even, to the TI-83 series; most of the functionality is now restricted to regressions, and the calculator doesn't even know internally how to calculate most probability distributions.
 
@@ -57,7 +57,7 @@ The entire issue of memory leaks (caused on the TI-83 series by jumping out of c
 
 ## Optimizations
 
-Most types of trivial optimizations from the TI-83 series are invalid on the 68k calculators. For example, closing parentheses, quotes, and brackets are now mandatory — but don't add any size to the program, since it's [tokenized](nspire:tokenization.html) and converted to postfix notation. The [Ans](ans.html) variable no longer plays an important role: though the [nspire:ans()](nspire:ans().html) command does exist to replace it, it's not modified by storing to variables inside a program, so it's mostly useful on the home screen.
+Most types of trivial optimizations from the TI-83 series are invalid on the 68k calculators. For example, closing parentheses, quotes, and brackets are now mandatory — but don't add any size to the program, since it's [tokenized](nspire:tokenization.html) and converted to postfix notation. The [Ans](ans.html) variable no longer plays an important role: though the [nspire:ans()](nspire:ans.html) command does exist to replace it, it's not modified by storing to variables inside a program, so it's mostly useful on the home screen.
 
 A large part of 68k optimization revolves around careful use of lists. List variables are no longer random access: accessing the last element of a list is much slower than accessing the first element. For this reason, going through a list in a [nspire:For](nspire:for.html) loop is about the worst thing you could do.
 

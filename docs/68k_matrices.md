@@ -32,7 +32,7 @@ Since occasionally you want to do these operations element-by-element, the alter
 
 The calculator gives a special interpretation to exponential and trig functions applied to matrices, *[e](68k:e-value.html)*^() being the most common. These commands require the matrix to be square and diagonalizable, and return an approximate floating-point value.
 
-A *diagonalizable* matrix A is one that can be expressed in the form A = PDP<sup>-1</sup>, where D and P are square matrices, and D is *diagonal* — composed entirely of zeroes except on the main diagonal. If a matrix is diagonalizable, the calculator can compute explicit values for D and P using [68k:eigVl()](68k:eigvl().html) and [68k:eigVc()](68k:eigvc().html):
+A *diagonalizable* matrix A is one that can be expressed in the form A = PDP<sup>-1</sup>, where D and P are square matrices, and D is *diagonal* — composed entirely of zeroes except on the main diagonal. If a matrix is diagonalizable, the calculator can compute explicit values for D and P using [68k:eigVl()](68k:eigvl.html) and [68k:eigVc()](68k:eigvc.html):
 - D = diag(eigVl(A))
 - P = eigVc(A)
 If a matrix is not diagonalizable, the result of eigVc() will not have an inverse.
@@ -40,9 +40,9 @@ If a matrix is not diagonalizable, the result of eigVc() will not have an invers
 The calculator applies functions like *[e](68k:e-value.html)*^() to matrices by first writing the matrix in the form PDP<sup>-1</sup>, and then returning Pf(D)P<sup>-1</sup>. Here, the function is applied to D by taking f() of every diagonal element (the elements off the diagonal remain zero). 
 
 This definition is used for the following commands:
-- [^](68k:power.html), [68k:ln()](68k:ln().html), [68k:log()](68k:log().html), and [68k:root()](68k:root().html)
-- [68k:cos()](68k:cos().html), [cosֿ¹()](68k:arccos.html), [68k:sin()](68k:sin().html), [sinֿ¹()](68k:arcsin.html), [68k:tan()](68k:tan().html), and [tanֿ¹()](68k:arctan.html).
-- [68k:cosh()](68k:cosh().html), [coshֿ¹()](68k:arccosh.html), [68k:sinh()](68k:sinh().html), [sinhֿ¹()](68k:arcsinh.html), [68k:tanh()](68k:tanh().html), and [tanhֿ¹()](68k:arctanh.html)
+- [^](68k:power.html), [68k:ln()](68k:ln.html), [68k:log()](68k:log.html), and [68k:root()](68k:root.html)
+- [68k:cos()](68k:cos.html), [cosֿ¹()](68k:arccos.html), [68k:sin()](68k:sin.html), [sinֿ¹()](68k:arcsin.html), [68k:tan()](68k:tan.html), and [tanֿ¹()](68k:arctan.html).
+- [68k:cosh()](68k:cosh.html), [coshֿ¹()](68k:arccosh.html), [68k:sinh()](68k:sinh.html), [sinhֿ¹()](68k:arcsinh.html), [68k:tanh()](68k:tanh.html), and [tanhֿ¹()](68k:arctanh.html)
 
 ## Other Operations on Matrices
 

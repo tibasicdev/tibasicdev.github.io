@@ -38,6 +38,6 @@ The `tan()` of a matrix is not (in general) the same as taking the tangent of ev
 
 ## Related Commands
 
-- [`68k:sin()`](68k:sin().html)
-- [`68k:cos()`](68k:cos().html)
+- [`68k:sin()`](68k:sin.html)
+- [`68k:cos()`](68k:cos.html)
 - [`tanֿ¹()`](68k:arctan.html)

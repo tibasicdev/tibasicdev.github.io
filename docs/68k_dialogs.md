@@ -10,7 +10,7 @@ A dialog can be created by inserting a [68k:Dialog](68k:dialog.html)..EndDlog bl
 Just Dialog:EndDlog would give an empty dialog box, and in fact causes an error. To provide content for the dialog box, use the following commands:
 
 : [68k:Title](68k:title.html) : Gives the dialog a title. There can be at most one title. If there is no title, the top of the dialog box will be blank.
-: [68k:Text](68k:text.html) : Adds a line of text to the dialog. The text must be a string, so use the [68k:string()](68k:string().html) command to display any other data type.
+: [68k:Text](68k:text.html) : Adds a line of text to the dialog. The text must be a string, so use the [68k:string()](68k:string.html) command to display any other data type.
 : [68k:Request](68k:request.html) : Adds a text entry box to the dialog. Request takes two arguments, a line of text and a variable to store to.
 : [68k:DropDown](68k:dropdown.html) : Adds a dropdown menu to the dialog. DropDown takes three arguments: a line of text, a list of strings for the dropdown, and a variable to store to.
 

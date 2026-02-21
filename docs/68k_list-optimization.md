@@ -36,7 +36,7 @@ The first thing you'll notice is that the second routine is much smaller. But, p
 
 Similar results hold true for every For loop that goes through a list. Although the optimization doesn't always end up being smaller, it's always faster, especially for large lists.
 
-## Use [68k:newList()](68k:newlist().html) instead of [68k:seq()](68k:seq().html)
+## Use [68k:newList()](68k:newlist.html) instead of [68k:seq()](68k:seq.html)
 
 This seems like a nonsensical suggestion because newList() and seq() are very different commands. About the only thing they have in common is that they both return a list. How can one replace the other?
 
@@ -103,7 +103,7 @@ We're not out of the woods yet, however. Once you have a logical list, what do y
 - We want to know if *any* of the elements are true.
 - We want to find the index of the first true element.
 
-The first situation is actually default behavior, of sorts. You can stick a logical list in a condition for [68k:If](68k:if.html) or [68k:when()](68k:when().html). If all of the elements of the list are true, the condition will be interpreted as true. Otherwise, the 'false' branch (if there is one) will be taken. For instance:
+The first situation is actually default behavior, of sorts. You can stick a logical list in a condition for [68k:If](68k:if.html) or [68k:when()](68k:when.html). If all of the elements of the list are true, the condition will be interpreted as true. Otherwise, the 'false' branch (if there is one) will be taken. For instance:
 ```
 :If list>100+0*list Then
 : Disp "Everything is over 100!"

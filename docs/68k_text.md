@@ -14,7 +14,7 @@ Starting in the program editor:
 
 On its own, the Text command displays a simple dialog box with a line of text (left-aligned) inside. It can also be used inside a [68k:Dialog](68k:dialog.html)..EndDlog block, to add a line of text to a more advanced dialog.
 
-The text must be a single string; but you can build one out of smaller strings and other data types using the [&](68k:append.html) and [68k:string()](68k:string().html) commands.
+The text must be a single string; but you can build one out of smaller strings and other data types using the [&](68k:append.html) and [68k:string()](68k:string.html) commands.
 
 Text will give an error if the string is too long — how long varies from model to model, and depending on if Text is being used inside or outside Dialog..EndDlog, but in general anything below 30 characters is safe (otherwise, you should test the dialog first to make sure everything fits). It uses the small, variable-width font on the TI-89 and TI-89 Titanium, and the normal fixed-width font on widescreen calculators.
 

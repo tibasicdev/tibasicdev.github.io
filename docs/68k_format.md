@@ -13,7 +13,7 @@
 
 E[[/size]]]]
 
-The format() command is a more advanced version of [68k:string()](68k:string().html) specifically intended to convert numbers (usually, floating-point numbers) to strings. It can override settings like Display Digits and Exponential Format, and instead lets the user input these options and more in a string. Since it converts even integer input to floating-point, it also doesn't depend on the Base setting.
+The format() command is a more advanced version of [68k:string()](68k:string.html) specifically intended to convert numbers (usually, floating-point numbers) to strings. It can override settings like Display Digits and Exponential Format, and instead lets the user input these options and more in a string. Since it converts even integer input to floating-point, it also doesn't depend on the Base setting.
 
 The format string can have the following values (not case-sensitive):
 - **F*[number]*** overrides Display Digits to fixed-point with *[number]* digits after the decimal; *[number]* can be omitted to use the default, which is 12; it must be between 0 and 12.
@@ -36,7 +36,7 @@ To all of these, you can also append **R*[character]*** to replace the decimal p
            "33 554 432 "
 ```
 
-If the format string is empty, or if the argument is omitted entirely, format() will convert the number to a decimal, but otherwise will work just like [68k:string()](68k:string().html)
+If the format string is empty, or if the argument is omitted entirely, format() will convert the number to a decimal, but otherwise will work just like [68k:string()](68k:string.html)
 
 ## Error Conditions
 
@@ -44,5 +44,5 @@ If the format string is empty, or if the argument is omitted entirely, format() 
 
 ## Related Commands
 
-- [68k:string()](68k:string().html)
-- [68k:expr()](68k:expr().html)
+- [68k:string()](68k:string.html)
+- [68k:expr()](68k:expr.html)

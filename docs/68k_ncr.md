@@ -20,4 +20,4 @@ The formula used to obtain the result is:
 This is often referenced with Pascal's Triangle and binomial expansion as well as many areas of mathematics.
  
 ## Related Commands
-- [68k:nPr()](68k:npr().html)
+- [68k:nPr()](68k:npr.html)

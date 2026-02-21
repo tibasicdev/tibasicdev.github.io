@@ -16,7 +16,7 @@ The range of possible values (anything outside this range will give an error) is
 - 0..76 for the row and 0..158 for the column, on a TI-89 or TI-89 Titanium.
 - 0..102 for the row and 0..238 for the column, on a TI-92, TI-92 Plus, or Voyage 200.
 
-Note that this doesn't match the output of [68k:getConfg()](68k:getconfg().html) — the command is reliable for figuring out which of the two situations you're in, but the values it gives for window width/height are incorrect.
+Note that this doesn't match the output of [68k:getConfg()](68k:getconfg.html) — the command is reliable for figuring out which of the two situations you're in, but the values it gives for window width/height are incorrect.
 
 When in split screen mode, PxlOff still won't give an error as long as the values are in the regular range, but erasing a pixel off the screen will have no effect. The output of getConfg() will reflect the change in window size, but the values themselves still won't be correct.
 

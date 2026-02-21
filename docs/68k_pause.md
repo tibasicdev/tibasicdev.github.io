@@ -31,5 +31,5 @@ can be
 ## Related Commands
 
 - [`68k:Disp`](68k:disp.html)
-- [`68k:getKey()`](68k:getkey().html)
+- [`68k:getKey()`](68k:getkey.html)
 - [`68k:Output`](68k:output.html)

@@ -11,7 +11,7 @@
        
 # The left() Command
 
-When applied to a list or a string, left(*x*,*length*) gets the first *length* elements/characters of *x*. This is an alternative to [68k:mid()](68k:mid().html), which will do the same thing from any point in the list or string, not just the beginning.
+When applied to a list or a string, left(*x*,*length*) gets the first *length* elements/characters of *x*. This is an alternative to [68k:mid()](68k:mid.html), which will do the same thing from any point in the list or string, not just the beginning.
 
 When applied to an equation (such as x=5) or an inequality (such as x<3), left() returns the left-hand side of the equation. This only works for equations that don't get simplified: left(2+2=4) will not work, because 2+2=4 will return 'true' first.
 
@@ -36,5 +36,5 @@ Use left() instead of mid() when the substring starts at the beginning of the li
 
 ## Related Commands
 
-- [68k:mid()](68k:mid().html)
-- [68k:right()](68k:right().html)
+- [68k:mid()](68k:mid.html)
+- [68k:right()](68k:right.html)

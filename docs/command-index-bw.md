@@ -209,8 +209,8 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [lcm(](lcm.html)
 - [length(](length.html)
 - [Line(](line.html)
-- [LinReg(a+bx)](linreg(a-bx).html)
-- [LinReg(ax+b)](linreg(ax-b).html)
+- [LinReg(a+bx)](linreg(a-bx.html)
+- [LinReg(ax+b)](linreg(ax-b.html)
 - [LinRegTInt](linregtint.html) <sup>84+2.30</sup>
 - [LinRegTTest](linregttest.html)
 - [ΔList(](deltalist.html)

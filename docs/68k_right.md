@@ -33,5 +33,5 @@ When applied to an equation (such as x=5) or an inequality (such as x<3), right(
 
 ## Related Commands
 
-- [68k:left()](68k:left().html)
-- [68k:mid()](68k:mid().html)
+- [68k:left()](68k:left.html)
+- [68k:mid()](68k:mid.html)

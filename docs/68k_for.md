@@ -69,7 +69,7 @@ can be
 :list+1→list
 ```
 
-When using For to *create* a list from scratch, the [68k:seq()](68k:seq().html) command is a smaller and faster alternative. For example:
+When using For to *create* a list from scratch, the [68k:seq()](68k:seq.html) command is a smaller and faster alternative. For example:
 ```
 :For i, 1, 10
 : i^2→list[i]

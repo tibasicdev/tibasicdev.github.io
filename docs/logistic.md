@@ -58,6 +58,6 @@ The [Levenberg-Marquardt](http://en.wikipedia.org/wiki/levenberg-marquardt_algor
 - **[ERR:DATA TYPE](errors.html#datatype)** is thrown if lists are not used, or a list contains a number like "4i".
 ## Related Commands
 
-- [LinReg(ax+b)](linreg(ax-b).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
 - [ExpReg](expreg.html)
 - [SinReg](sinreg.html)

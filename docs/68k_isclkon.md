@@ -28,10 +28,10 @@ should just be
 
 :ClockOn
 ```
-One use for [68k:isClkOn()](68k:isclkon().html) is in functions, which aren't allowed to change the global status of the calculator with commands like [68k:ClockOn](68k:clockon.html) or [68k:ClockOff](68k:clockoff.html). Instead, you might do the next best thing, and return an error message if the clock is turned off.
+One use for [68k:isClkOn()](68k:isclkon.html) is in functions, which aren't allowed to change the global status of the calculator with commands like [68k:ClockOn](68k:clockon.html) or [68k:ClockOff](68k:clockoff.html). Instead, you might do the next best thing, and return an error message if the clock is turned off.
 
 ## Related Commands
 
 - [68k:ClockOn](68k:clockon.html)
 - [68k:ClockOff](68k:clockoff.html)
-- [68k:startTmr()](68k:starttmr().html)
+- [68k:startTmr()](68k:starttmr.html)

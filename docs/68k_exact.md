@@ -24,5 +24,5 @@ When applied to a complicated expression, matrix, or list, it forces every numbe
 
 ## Related Commands
 
-- [`68k:approx()`](68k:approx().html)
-- [`68k:round()`](68k:round().html)
+- [`68k:approx()`](68k:approx.html)
+- [`68k:round()`](68k:round.html)

@@ -37,6 +37,6 @@ The `cos()` of a matrix is not (in general) the same as taking the cosine of eve
 
 ## Related Commands
 
-- [`68k:sin()`](68k:sin().html)
-- [`68k:tan()`](68k:tan().html)
+- [`68k:sin()`](68k:sin.html)
+- [`68k:tan()`](68k:tan.html)
 - [`cosֿ¹()`](68k:arccos.html)

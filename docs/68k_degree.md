@@ -13,7 +13,7 @@
 
 The ° symbol used after an angle makes sure the angle is interpreted as being in degrees. If the calculator is already in degree mode, x° is equal to x; in radian mode, x° is equal to π*x/180; and in gradian mode, x° is equal to 10*x/9.
 
-If you're using degree measure extensively in a program, it's a better idea to use [68k:setMode()](68k:setmode().html) to switch to degree mode and not worry about this. However, there are two reasons you might want to use °:
+If you're using degree measure extensively in a program, it's a better idea to use [68k:setMode()](68k:setmode.html) to switch to degree mode and not worry about this. However, there are two reasons you might want to use °:
 - If you need an angle in degrees only once or twice, don't bother changing the mode setting.
 - In a function, you're forced to use °, since setMode() isn't valid in a function. 
 

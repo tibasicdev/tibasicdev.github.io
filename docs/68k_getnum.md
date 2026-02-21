@@ -20,6 +20,6 @@ getNum((x+1)/(x-1))
 
 ## Related Commands
 
-- [68k:getDenom()](68k:getdenom().html)
-- [68k:left()](68k:left().html)
-- [68k:right()](68k:right().html)
+- [68k:getDenom()](68k:getdenom.html)
+- [68k:left()](68k:left.html)
+- [68k:right()](68k:right.html)

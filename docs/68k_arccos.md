@@ -35,6 +35,6 @@ The `cos<sup>-1</sup>()` of a matrix is not (in general) the same as taking the 
 
 ## Related Commands
 
-- [`68k:sin()`](68k:sin().html)
-- [`68k:tan()`](68k:tan().html)
-- [`68k:cos()`](68k:cos().html)
+- [`68k:sin()`](68k:sin.html)
+- [`68k:tan()`](68k:tan.html)
+- [`68k:cos()`](68k:cos.html)

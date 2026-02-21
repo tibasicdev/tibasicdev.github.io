@@ -16,7 +16,7 @@ The Title command is used in different ways with several types of menus:
 - Inside a [68k:Dialog](68k:dialog.html)..EndDlog block, it gives the title text for the dialog.
 - Inside a [68k:ToolBar](68k:toolbar.html)..EndTBar or [68k:Custom](68k:custom.html)..EndCustm block, it gives a title for a tab.
 
-Usually, all that the Title command wants is a string that will be used for the title (the [68k:string()](68k:string().html) command might be useful for other data types). The exception is ToolBar: then, if the tab has no options under it, Title should also have a label to jump to when that tab is selected.
+Usually, all that the Title command wants is a string that will be used for the title (the [68k:string()](68k:string.html) command might be useful for other data types). The exception is ToolBar: then, if the tab has no options under it, Title should also have a label to jump to when that tab is selected.
 
 ## Advanced Uses
 

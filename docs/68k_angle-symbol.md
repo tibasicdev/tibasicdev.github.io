@@ -29,6 +29,6 @@ For complex numbers, (r∠θ) is equivalent to r*(cos(θ)+***i****sin(θ)). You 
 
 ## Related Commands
 
-- [68k:angle()](68k:angle().html)
-- [68k:abs()](68k:abs().html)
-- [68k:norm()](68k:norm().html)
+- [68k:angle()](68k:angle.html)
+- [68k:abs()](68k:abs.html)
+- [68k:norm()](68k:norm.html)

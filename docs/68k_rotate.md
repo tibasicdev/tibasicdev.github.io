@@ -40,4 +40,4 @@ As with lists and strings, the default action of rotate() is to rotate the integ
 ## Related Commands
 
 - [68k:▶Bin](68k:-bin.html) 
-- [68k:shift()](68k:shift().html)
+- [68k:shift()](68k:shift.html)

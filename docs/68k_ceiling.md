@@ -15,9 +15,9 @@ The `ceiling()` command rounds a number up to the nearest integer at least as la
 
 There are several commands available to round a number to an integer in slightly different ways:
 
-- [`68k:int()`](68k:int().html) and [`68k:floor()`](68k:floor().html) — like `ceiling()`, but round down instead.
-- [`68k:iPart()`](68k:ipart().html) — truncates a number to just its integer part (or, if you prefer, rounds a number toward 0).
-- [`68k:round()`](68k:round().html) — rounds to a specific place value, not just to an integer, but `round(x,0)` will round x to the nearest integer, up or down.
+- [`68k:int()`](68k:int.html) and [`68k:floor()`](68k:floor.html) — like `ceiling()`, but round down instead.
+- [`68k:iPart()`](68k:ipart.html) — truncates a number to just its integer part (or, if you prefer, rounds a number toward 0).
+- [`68k:round()`](68k:round.html) — rounds to a specific place value, not just to an integer, but `round(x,0)` will round x to the nearest integer, up or down.
 
 `ceiling()` can also be applied to complex numbers, lists, and matrices, rounding everything that there is to round in each of them.
 
@@ -30,7 +30,7 @@ There are several commands available to round a number to an integer in slightly
 
 ## Related Commands
 
-- [`68k:floor()`](68k:floor().html)
-- [`68k:int()`](68k:int().html)
-- [`68k:iPart()`](68k:ipart().html)
-- [`68k:round()`](68k:round().html)
+- [`68k:floor()`](68k:floor.html)
+- [`68k:int()`](68k:int.html)
+- [`68k:iPart()`](68k:ipart.html)
+- [`68k:round()`](68k:round.html)

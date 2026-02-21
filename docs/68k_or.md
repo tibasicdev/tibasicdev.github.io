@@ -11,7 +11,7 @@
        
 # The or Command
 
-The "or" operator combines two conditions into one, which will be true if either side is true, and false if both are false. You can create these conditions with the relational operators [=](68k:equal.html), [≠](68k:not-equal.html), [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html), with functions such as [68k:isPrime()](68k:isprime().html), [68k:pxlTest()](68k:pxltest().html), and [68k:ptTest()](68k:pttest().html), or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [68k:and](68k:and.html), [68k:xor](68k:xor.html), and [68k:not](68k:not.html).
+The "or" operator combines two conditions into one, which will be true if either side is true, and false if both are false. You can create these conditions with the relational operators [=](68k:equal.html), [≠](68k:not-equal.html), [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html), with functions such as [68k:isPrime()](68k:isprime.html), [68k:pxlTest()](68k:pxltest.html), and [68k:ptTest()](68k:pttest.html), or with any other expression that returns 'true' or 'false'. Other operators for dealing with conditions are [68k:and](68k:and.html), [68k:xor](68k:xor.html), and [68k:not](68k:not.html).
 
 ```
 :2+2=4 or 1=0

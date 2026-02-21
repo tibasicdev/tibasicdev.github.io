@@ -52,7 +52,7 @@ The easiest way to store a tile map is in a matrix of integers; to convert from 
 ```
 (this code assumes 8x8 sprites, a tilemap stored in the matrix 'map', and sprites stored in the pictures 'tile1', 'tile2', etc.)
 
-A more efficient method uses [68k:char()](68k:char().html) instead of [68k:string()](68k:string().html) — see the char() command page for more information.
+A more efficient method uses [68k:char()](68k:char.html) instead of [68k:string()](68k:string.html) — see the char() command page for more information.
 
 #### Scrolling
 

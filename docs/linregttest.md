@@ -13,7 +13,7 @@ Change the last keypress to ALPHA F on a TI-84+/SE with OS 2.30 or higher.
        
 # The LinRegTTest Command
 
-Like [`LinReg(ax+b)`](linreg(ax-b).html) and similar commands, `LinRegTTest` finds the best fit line through a set of points. However, `LinRegTTest` adds another method of checking the quality of the fit, by performing a [`t-test`](t-test.html) on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
+Like [`LinReg(ax+b)`](linreg(ax-b.html) and similar commands, `LinRegTTest` finds the best fit line through a set of points. However, `LinRegTTest` adds another method of checking the quality of the fit, by performing a [`t-test`](t-test.html) on the slope, testing the null hypothesis that the slope of the true best fit line is 0 (which implies the absence of correlation between the two variables, since a relation with a slope of zero means the x-variable does not affect the y-variable at all). If the p-value of the test is not low enough, then there is not enough data to assume a linear relation between the variables.
 
 To use `LinRegTTest`, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.
 
@@ -76,8 +76,8 @@ An example of `LinRegTTest` with all the optional arguments:
 
 ## Related Commands
 
-- [`LinReg(ax+b)`](linreg(ax-b).html)
-- [`LinReg(a+bx)`](linreg(a-bx).html)
+- [`LinReg(ax+b)`](linreg(ax-b.html)
+- [`LinReg(a+bx)`](linreg(a-bx.html)
 - [`LinRegTInt`](linregtint.html)
 - [`Manual-Fit`](manual-fit.html)
 - [`Med-Med`](med-med.html)

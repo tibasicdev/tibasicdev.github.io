@@ -10,7 +10,7 @@ N/A
        
 # The setDtFmt() Command
 
-The setDtFmt() sets the default format for dates: this format is used in the top right corner of the Apps Desktop, and also as the format for the output of [68k:getDtStr()](68k:getdtstr().html) (when it's used without a parameter to override this setting).
+The setDtFmt() sets the default format for dates: this format is used in the top right corner of the Apps Desktop, and also as the format for the output of [68k:getDtStr()](68k:getdtstr.html) (when it's used without a parameter to override this setting).
 
 The eight possible formats each have a number associated to them, which is the number you should pass to setDtFmt(). It will return the number of the previous setting, which is convenient if you want to restore it later.
 
@@ -35,5 +35,5 @@ Typically, you'd only use this command in a program if you needed to use getDtSt
 
 ## Related Commands
 
-- [68k:getDtFmt()](68k:getdtfmt().html)
-- [68k:getDtStr()](68k:getdtstr().html)
+- [68k:getDtFmt()](68k:getdtfmt.html)
+- [68k:getDtStr()](68k:getdtstr.html)

@@ -37,8 +37,8 @@ While there are some formulas to define factorials of non-integer values, the ca
 
 ## Related Commands
 
-- [68k:nCr()](68k:ncr().html)
-- [68k:nPr()](68k:npr().html)
+- [68k:nCr()](68k:ncr.html)
+- [68k:nPr()](68k:npr.html)
 
 ## See Also
 

@@ -35,7 +35,7 @@ The tanh() of a matrix is not (in general) the same as taking the hyperbolic tan
 
 ## Formulas
 
-The definition of hyperbolic cotangent is, by analogy with [68k:tan()](68k:tan().html), the ratio of [68k:sinh()](68k:sinh().html) and [68k:cosh()](68k:cosh().html):
+The definition of hyperbolic cotangent is, by analogy with [68k:tan()](68k:tan.html), the ratio of [68k:sinh()](68k:sinh.html) and [68k:cosh()](68k:cosh.html):
 
 
 
@@ -47,6 +47,6 @@ The definition of hyperbolic cotangent is, by analogy with [68k:tan()](68k:tan()
 
 ## Related Commands
 
-- [68k:sinh()](68k:sinh().html)
-- [68k:cosh()](68k:cosh().html)
+- [68k:sinh()](68k:sinh.html)
+- [68k:cosh()](68k:cosh.html)
 - [tanhֿ¹()](68k:arctanh.html)

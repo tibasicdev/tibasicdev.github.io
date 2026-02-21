@@ -28,7 +28,7 @@ The main use of string() is with output commands like [68k:PtText](68k:pttext.ht
 :Text "The value of x is: "&string(x)
 ```
 
-If you're just converting numbers, you might also want to look into [68k:format()](68k:format().html), which only applies to numbers and also puts them in a specific form.
+If you're just converting numbers, you might also want to look into [68k:format()](68k:format.html), which only applies to numbers and also puts them in a specific form.
 
 ## Advanced Uses
 
@@ -39,6 +39,6 @@ Together with the # ([68k:indirection](68k:indirection.html)) operator, string()
 
 ## Related Commands
 
-- [68k:expr()](68k:expr().html)
-- [68k:format()](68k:format().html)
-- [68k:char()](68k:char().html)
+- [68k:expr()](68k:expr.html)
+- [68k:format()](68k:format.html)
+- [68k:char()](68k:char.html)

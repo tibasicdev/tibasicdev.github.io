@@ -50,7 +50,7 @@ If all you need to do in a loop is create a list, it's probably better to use se
 
 ------
 
-You can often use [68k:newList()](68k:newlist().html) instead of seq() to create an expression that gets evaluated much faster (see [68k:list-optimization](68k:list-optimization.html) for details).
+You can often use [68k:newList()](68k:newlist.html) instead of seq() to create an expression that gets evaluated much faster (see [68k:list-optimization](68k:list-optimization.html) for details).
 
 ## Error Conditions
 
@@ -62,5 +62,5 @@ For the non-generic errors that might occur when using this command (that is, sy
 ## Related Commands
 
 - [68k:For](68k:for.html)..EndFor
-- [68k:newList()](68k:newlist().html)
-- [68k:newMat()](68k:newmat().html)
+- [68k:newList()](68k:newlist.html)
+- [68k:newMat()](68k:newmat.html)

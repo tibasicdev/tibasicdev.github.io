@@ -13,7 +13,7 @@
 
 The RandSeed command seeds the random number generator. The value you use should be a positive integer: the sign and any decimals will be simply ignored.
 
-To explain what this means, first you have to understand how pseudo-random number generators work. Every time a command like [68k:rand()](68k:rand().html) is called the calculator gives a different number — this means that the calculator must keep some variable around that changes when rand() is called. This variable is called the seed. Generating a random number is done as follows:
+To explain what this means, first you have to understand how pseudo-random number generators work. Every time a command like [68k:rand()](68k:rand.html) is called the calculator gives a different number — this means that the calculator must keep some variable around that changes when rand() is called. This variable is called the seed. Generating a random number is done as follows:
 1. To get the number itself, apply some function that takes the seed to a real number between 0 and 1 (for a simple rand() call).
 1. If a different type of random number is needed (e.g. a random integer), the real number 0..1 is adjusted in some way.
 1. The seed itself is updated by some carefully chosen mathematical operation.
@@ -49,7 +49,7 @@ Most of the security of this method lies in the obscurity of the random number g
 
 ------
 
-In general, after you mess with the random number seed, you must 'restore randomness' somehow — otherwise, every time you run that program, random numbers will be the same afterwards every time. Using [68k:startTmr()](68k:starttmr().html) as above is one way of doing so; another is generating a random integer before you run RandSeed, and using it as the seed at the end. For example:
+In general, after you mess with the random number seed, you must 'restore randomness' somehow — otherwise, every time you run that program, random numbers will be the same afterwards every time. Using [68k:startTmr()](68k:starttmr.html) as above is one way of doing so; another is generating a random integer before you run RandSeed, and using it as the seed at the end. For example:
 ```
 :rand(10^10) →r
 :RandSeed 0
@@ -96,7 +96,7 @@ rand() is equivalent to the following code:
 
 ## Related Commands
 
-- [68k:rand()](68k:rand().html)
-- [68k:randMat()](68k:randmat().html)
-- [68k:randNorm()](68k:randnorm().html)
-- [68k:randPoly()](68k:randpoly().html)
+- [68k:rand()](68k:rand.html)
+- [68k:randMat()](68k:randmat.html)
+- [68k:randNorm()](68k:randnorm.html)
+- [68k:randPoly()](68k:randpoly.html)

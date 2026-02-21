@@ -13,7 +13,7 @@
 
 The `char()` command converts an integer between 0 and 255 to the corresponding character in the calculator's [internal code](68k:character-codes.html) (which is a modification of ASCII). It can also operate on a list or matrix by converting each of their elements to a character.
 
-This command, and its inverse [`68k:ord()`](68k:ord().html), can be useful for programs that deal with arbitrary strings (which could, potentially, contain any character), but they can come up in other cases as well. For example, since the letters A..Z are consecutive characters in the calculator's internal code, with A being `char(65)`, you can calculate the n<sup>th</sup> letter in the alphabet with the expression  `char(n+64)`.
+This command, and its inverse [`68k:ord()`](68k:ord.html), can be useful for programs that deal with arbitrary strings (which could, potentially, contain any character), but they can come up in other cases as well. For example, since the letters A..Z are consecutive characters in the calculator's internal code, with A being `char(65)`, you can calculate the n<sup>th</sup> letter in the alphabet with the expression  `char(n+64)`.
 
 There are two special values of `char()` to be aware of. The character given by `char(0)` is actually the empty string, which you usually want to avoid using; the character given by `char(13)` is a newline "enter" character, which is replaced by ":" when you type it somewhere. If you actually want to store `char(13)` to a string, you have to use the `char()` command.
 
@@ -29,7 +29,7 @@ A more efficient way is to assign the pictures numbers in a different range, suc
 
 ## Related Commands
 
-- [`68k:ord()`](68k:ord().html)
+- [`68k:ord()`](68k:ord.html)
 
 ## See Also
 

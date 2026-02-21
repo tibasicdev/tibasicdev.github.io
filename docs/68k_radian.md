@@ -15,7 +15,7 @@
 
 The <sup>r</sup> symbol used after an angle makes sure the angle is interpreted as being in radians. If the calculator is already in radian mode, x<sup>r</sup> is equal to x; in degree mode, x<sup>r</sup> is equal to 180*x/π; and in gradian mode, x<sup>r</sup> is equal to 200*x/π.
 
-If you're using radian angle measures extensively in a program, it's a better idea to use [68k:setMode()](68k:setmode().html) to switch to radian mode and not worry about this. However, there are two reasons you might want to use <sup>r</sup>:
+If you're using radian angle measures extensively in a program, it's a better idea to use [68k:setMode()](68k:setmode.html) to switch to radian mode and not worry about this. However, there are two reasons you might want to use <sup>r</sup>:
 - If you need an angle in radians only once or twice, don't bother changing the mode setting.
 - In a function, you're forced to use <sup>r</sup>, since setMode() isn't valid in a function. 
 

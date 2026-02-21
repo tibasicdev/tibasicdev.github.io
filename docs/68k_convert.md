@@ -24,7 +24,7 @@ To convert that into a different unit, type ▶ and then a different unit to con
            500000.*_dyne
 ```
 
-You can't use ▶ to convert between units of temperature (degrees Celsius to degrees Fahrenheit, for instance), since the calculator isn't sure if you mean absolute temperature or a change in temperature instead. Use the [68k:tmpCnv()](68k:tmpcnv().html) and [ΔtmpCnv()](68k:deltatmpcnv.html) commands instead.
+You can't use ▶ to convert between units of temperature (degrees Celsius to degrees Fahrenheit, for instance), since the calculator isn't sure if you mean absolute temperature or a change in temperature instead. Use the [68k:tmpCnv()](68k:tmpcnv.html) and [ΔtmpCnv()](68k:deltatmpcnv.html) commands instead.
 
 ## Advanced Uses
 
@@ -52,9 +52,9 @@ Units are treated just like variables, except that they're universal across fold
 
 ## Related Commands
 
-- [68k:getUnits()](68k:getunits().html)
-- [68k:setUnits()](68k:setunits().html)
-- [68k:tmpCnv()](68k:tmpcnv().html)
+- [68k:getUnits()](68k:getunits.html)
+- [68k:setUnits()](68k:setunits.html)
+- [68k:tmpCnv()](68k:tmpcnv.html)
 - [ΔtmpCnv()](68k:deltatmpcnv.html)
 
 ## See Also

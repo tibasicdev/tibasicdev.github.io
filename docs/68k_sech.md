@@ -31,7 +31,7 @@ If `sech()` is applied to a list, it will take the hyperbolic secant of every el
 
 ## Formulas
 
-The definition of hyperbolic secant is, by analogy with [`68k:sec()`](68k:sec().html), the reciprocal of [`68k:cosh()`](68k:cosh().html):
+The definition of hyperbolic secant is, by analogy with [`68k:sec()`](68k:sec.html), the reciprocal of [`68k:cosh()`](68k:cosh.html):
 
 
 
@@ -41,6 +41,6 @@ The definition of hyperbolic secant is, by analogy with [`68k:sec()`](68k:sec().
 
 ## Related Commands
 
-- [`68k:csch()`](68k:csch().html)
-- [`68k:coth()`](68k:coth().html)
+- [`68k:csch()`](68k:csch.html)
+- [`68k:coth()`](68k:coth.html)
 - [`sechֿ¹()`](68k:arcsech.html)

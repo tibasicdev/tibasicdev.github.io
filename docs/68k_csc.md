@@ -35,6 +35,6 @@ If `csc()` is applied to a list, it will take the secant of every element in the
 
 ## Related Commands
 
-- [`68k:sec()`](68k:sec().html)
-- [`68k:cot()`](68k:cot().html)
+- [`68k:sec()`](68k:sec.html)
+- [`68k:cot()`](68k:cot.html)
 - [`cscֿ¹()`](68k:arccsc.html)

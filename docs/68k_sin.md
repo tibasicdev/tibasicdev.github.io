@@ -37,6 +37,6 @@ The sin() of a matrix is not (in general) the same as taking the sine of every e
 
 ## Related Commands
 
-- [68k:cos()](68k:cos().html)
-- [68k:tan()](68k:tan().html)
+- [68k:cos()](68k:cos.html)
+- [68k:tan()](68k:tan.html)
 - [sinֿ¹()](68k:arcsin.html)

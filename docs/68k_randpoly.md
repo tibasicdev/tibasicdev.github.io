@@ -29,7 +29,7 @@ Using the [68k:RandSeed](68k:randseed.html) command makes the resulting polynomi
 
 ## Related Commands
 
-- [68k:rand()](68k:rand().html)
-- [68k:randMat()](68k:randmat().html)
-- [68k:randNorm()](68k:randnorm().html)
+- [68k:rand()](68k:rand.html)
+- [68k:randMat()](68k:randmat.html)
+- [68k:randNorm()](68k:randnorm.html)
 - [68k:RandSeed](68k:randseed.html)

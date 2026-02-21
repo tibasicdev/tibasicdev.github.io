@@ -39,7 +39,7 @@ To get home screen font on the graph screen (except on the regular TI-83) you sh
 
 **Digits in a Number**
 
-To find out the number of digits in a whole number (i.e., a number without decimals), use the [log(](log.html) function. An [abs)](abs).html) function prevents a domain error when taking the logarithm of a negative number:
+To find out the number of digits in a whole number (i.e., a number without decimals), use the [log(](log.html) function. An [abs)](abs.html) function prevents a domain error when taking the logarithm of a negative number:
 
 ```
 :1+int(log(abs(#

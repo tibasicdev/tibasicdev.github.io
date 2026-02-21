@@ -34,8 +34,8 @@ If you want to use & to build up a string from scratch, start with "" — the em
 ## Related Commands
 
 - # ([68k:indirection](68k:indirection.html))
-- [68k:string()](68k:string().html)
-- [68k:mid()](68k:mid().html)
+- [68k:string()](68k:string.html)
+- [68k:mid()](68k:mid.html)
 
 ## See Also
 

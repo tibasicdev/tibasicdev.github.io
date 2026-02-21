@@ -48,19 +48,19 @@
 - …that the TI-83 series of calculators does implicit [multiplication](multiply.html), so there is no need to ever use the * sign?
 - …that it is actually sometimes [better to leave on the closing parentheses](http://tibasicdev.github.io/timings#toc3) on the [`For(`](for.html) loop?
 - …that you can treat strings as always-undefined variables in symbolic math?
-- …that ending a variable name with an underscore _ will make [`68k:solve()`](68k:solve().html) and [`68k:cSolve()`](68k:csolve().html) assume it's complex?
+- …that ending a variable name with an underscore _ will make [`68k:solve()`](68k:solve.html) and [`68k:cSolve()`](68k:csolve.html) assume it's complex?
 - …that the © character can be used to enter comments in programs?
 - …that the 26 one-letter variables a-z are much smaller to access?
 - …that the [ok](68k:system-variables.html#ok) system variable checks if a dialog was cancelled?
 - …that strings are the fastest data type to access, given enough elements?
-- …that [`68k:setMode()`](68k:setmode().html) and similar commands have an alternate "programmer's syntax"?
+- …that [`68k:setMode()`](68k:setmode.html) and similar commands have an alternate "programmer's syntax"?
 - …that displaying sprites to column coordinates divisible by 8 is faster than to other coordinates?
 - …that the [`68k:and`](68k:and.html), [`68k:or`](68k:or.html), [`68k:xor`](68k:xor.html), and [`68k:not`](68k:not.html) commands can be used as bitwise operators on integers?
 - …that the [expr(](expr.html) command allows you to store an expression to a [string](strings.html) and then execute the string?
 - …that @1, @2, etc. stand in for arbitrary constants in an expression?
 - …that you can take the n<sup>th</sup> root of x by entering x^(1/n)?
 - …that you can put images in [toolbars](68k:toolbar.html) on the widescreen calculators?
-- …that you can use [`68k:part()`](68k:part().html) to write your own symbolic operations?
+- …that you can use [`68k:part()`](68k:part.html) to write your own symbolic operations?
 - …that the calculator can do math with integers up to 2<sup>2040</sup>?
 - …that if you have a rather bulky matrix or list, you can store it as a string to one of the [sequence](seq-mode.html) variables, *u,v,w* and halve the size? Then, you can evaluate the expression using said variable and [`Ans`](ans.html)(X) where X equals the list or matrix element you want?
 - …that you can store an empty string into a string variable, but you cannot perform operations on it?

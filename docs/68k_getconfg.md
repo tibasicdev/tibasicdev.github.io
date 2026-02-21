@@ -30,7 +30,7 @@ The values returned by getConfg() are:
 | 23 | "Free Archive" | 24 | varies |
 
 Notes:
-1. The window width and window height depend on calculator model and on the split screen setting. They're also off by varying amounts. It's best to use one of the other settings to determine calculator type (widescreen or standard), and [68k:getMode()](68k:getmode().html) to determine split screen status if necessary.
+1. The window width and window height depend on calculator model and on the split screen setting. They're also off by varying amounts. It's best to use one of the other settings to determine calculator type (widescreen or standard), and [68k:getMode()](68k:getmode.html) to determine split screen status if necessary.
 1. Even with all variables deleted, Free RAM will be considerably less than RAM Size, due to operating system variables taking up that much of it.
 
 There are several interesting applications for getConfg(). One is [compatibility](68k:cross-compatibility.html) with other calculator models:
@@ -44,8 +44,8 @@ Using the ID #, you might detect when the program has been transferred to a diff
 
 ## Related Commands
 
-- [68k:getMode()](68k:getmode().html)
-- [68k:getUnits()](68k:getunits().html)
+- [68k:getMode()](68k:getmode.html)
+- [68k:getUnits()](68k:getunits.html)
 
 ## See Also
 

@@ -59,7 +59,7 @@ This is occasionally, but not always, a size optimization as well, if the known 
 
 ------
 
-Since getType() returns a result even for undefined variables, it can be used as a replacement for [68k:isVar()](68k:isvar().html), which unlike getType() isn't present on all 68k calculator models.
+Since getType() returns a result even for undefined variables, it can be used as a replacement for [68k:isVar()](68k:isvar.html), which unlike getType() isn't present on all 68k calculator models.
 
 ## Error Conditions
 
@@ -69,4 +69,4 @@ Since getType() returns a result even for undefined variables, it can be used as
 
 - [68k:DelVar](68k:delvar.html)
 - [68k:DelType](68k:deltype.html)
-- [68k:isVar()](68k:isvar().html)
+- [68k:isVar()](68k:isvar.html)

@@ -31,7 +31,7 @@ If `csch()` is applied to a list, it will take the hyperbolic cosecant of every 
 
 ## Formulas
 
-The definition of hyperbolic cosecant is, by analogy with [`68k:csc()`](68k:csc().html), the reciprocal of [`68k:sinh()`](68k:sinh().html):
+The definition of hyperbolic cosecant is, by analogy with [`68k:csc()`](68k:csc.html), the reciprocal of [`68k:sinh()`](68k:sinh.html):
 
 
 
@@ -41,6 +41,6 @@ The definition of hyperbolic cosecant is, by analogy with [`68k:csc()`](68k:csc(
 
 ## Related Commands
 
-- [`68k:sech()`](68k:sech().html)
-- [`68k:coth()`](68k:coth().html)
+- [`68k:sech()`](68k:sech.html)
+- [`68k:coth()`](68k:coth.html)
 - [`cschֿ¹()`](68k:arccsch.html)

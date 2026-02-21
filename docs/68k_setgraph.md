@@ -10,7 +10,7 @@ N/A
        
 # The setGraph() Command
 
-The setGraph() command is an analog of the [68k:setMode()](68k:setmode().html) command, except that it's used specifically to change graph settings. setGraph(*setting*,*value*) will change *setting* to *value*, and return the old value of *setting*. Both settings and values are identified by strings (not case-sensitive, but very spelling-sensitive), which are listed on the [68k:mode-settings](68k:mode-settings.html) page.
+The setGraph() command is an analog of the [68k:setMode()](68k:setmode.html) command, except that it's used specifically to change graph settings. setGraph(*setting*,*value*) will change *setting* to *value*, and return the old value of *setting*. Both settings and values are identified by strings (not case-sensitive, but very spelling-sensitive), which are listed on the [68k:mode-settings](68k:mode-settings.html) page.
 
 ```
 :setGraph("Coordinates","OFF")
@@ -45,9 +45,9 @@ Use the output of setGraph() to restore settings to what they were previously:
 
 ## Related Commands
 
-- [68k:getMode()](68k:getmode().html)
-- [68k:setMode()](68k:setmode().html)
-- [68k:setTable()](68k:settable().html)
+- [68k:getMode()](68k:getmode.html)
+- [68k:setMode()](68k:setmode.html)
+- [68k:setTable()](68k:settable.html)
 
 ## See Also
 

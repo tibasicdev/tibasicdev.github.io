@@ -22,5 +22,5 @@ When applied to a complicated expression, matrix, or list, it approximates every
 
 ## Related Commands
 
-- [`68k:exact()`](68k:exact().html)
-- [`68k:round()`](68k:round().html)
+- [`68k:exact()`](68k:exact.html)
+- [`68k:round()`](68k:round.html)

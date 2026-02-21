@@ -35,6 +35,6 @@ If `cot()` is applied to a list, it will take the cotangent of every element in 
 
 ## Related Commands
 
-- [`68k:sec()`](68k:sec().html)
-- [`68k:csc()`](68k:csc().html)
+- [`68k:sec()`](68k:sec.html)
+- [`68k:csc()`](68k:csc.html)
 - [`cotֿ¹()`](68k:arccot.html)

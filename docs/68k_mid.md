@@ -40,9 +40,9 @@ The third argument — the length of the sublist or substring — is optional if
 :mid("TI-Basic",4)
 	"Basic"
 ```
-In this case, the result is the same as the result of [68k:right()](68k:right().html), but the input is different.
+In this case, the result is the same as the result of [68k:right()](68k:right.html), but the input is different.
 
-Furthermore, if you're always going to start at the beginning of the string, [68k:left()](68k:left().html) is a better alternative to mid(): left(var,x) is equivalent to mid(var,1,x), and saves you a total of 3 bytes.
+Furthermore, if you're always going to start at the beginning of the string, [68k:left()](68k:left.html) is a better alternative to mid(): left(var,x) is equivalent to mid(var,1,x), and saves you a total of 3 bytes.
 ```
 :mid(str,1,5)
 	can be
@@ -55,6 +55,6 @@ Furthermore, if you're always going to start at the beginning of the string, [68
 
 ## Related Commands
 
-- [68k:left()](68k:left().html)
-- [68k:right()](68k:right().html)
-- [68k:inString()](68k:instring().html)
+- [68k:left()](68k:left.html)
+- [68k:right()](68k:right.html)
+- [68k:inString()](68k:instring.html)

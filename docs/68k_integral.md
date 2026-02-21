@@ -54,5 +54,5 @@ If the expression is a list or matrix, ∫() takes the integral of each element.
 ## Related Commands
 
 - *[68k:d](68k:d.html)*[()](68k:d.html) (derivative)
-- [68k:nInt()](68k:nint().html)
+- [68k:nInt()](68k:nint.html)
 - [∑()](68k:sigma-sum.html) (sum)

@@ -12,7 +12,7 @@ Press:
        
 # The LinReg(a+bx) Command
 
-The LinReg(a+bx) command is one of several that can calculate the line of best fit through a set of points (it differs from [LinReg(ax+b)](linreg(ax-b).html) only in the format of its output). To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.
+The LinReg(a+bx) command is one of several that can calculate the line of best fit through a set of points (it differs from [LinReg(ax+b)](linreg(ax-b.html) only in the format of its output). To use it, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points.
 
 In its simplest form, LinReg(a+bx) takes no arguments, and calculates a best fit line through the points in L₁ and L₂:
 ```
@@ -46,11 +46,11 @@ An example of LinReg(a+bx) with all the optional arguments:
 
 ## Advanced Uses (for programmers)
 
-LinReg(a+bx), along with [LinReg(ax+b)](linreg(ax-b).html), can be used to [convert a number to a string](number-to-string.html). 
+LinReg(a+bx), along with [LinReg(ax+b)](linreg(ax-b.html), can be used to [convert a number to a string](number-to-string.html). 
 
 ## Related Commands
 
-- [LinReg(ax+b)](linreg(ax-b).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
 - [LinRegTTest](linregttest.html)
 - [LinRegTInt](linregtint.html)
 - [Manual-Fit](manual-fit.html)

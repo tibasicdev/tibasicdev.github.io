@@ -13,7 +13,7 @@
 :sub(Str1,1,length(Str1)-3→Str1
 ```
 
-This code works because it creates two points with a known best fit line: the best fit line through (0,0) and (1,N) is y=Nx+0. [`LinReg(ax+b)`](linreg(ax-b).html) calculates this best fit line, and stores its equation to `Y₁`.
+This code works because it creates two points with a known best fit line: the best fit line through (0,0) and (1,N) is y=Nx+0. [`LinReg(ax+b)`](linreg(ax-b.html) calculates this best fit line, and stores its equation to `Y₁`.
 
 Then, we use [`Equ►String(`](equ-string.html) to store this equation to `Str1`, which now contains "NX+0" with N replaced by the numerical value of N. After that, the [sub(](sub.html) command get rids of the "X+0" at the end, leaving only the string representation of N.
 

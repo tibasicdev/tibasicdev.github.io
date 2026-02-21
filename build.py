@@ -38,7 +38,7 @@ def Footnote(match: re.Match) -> str:
 
 def unixify(url: str):
     # IDK what Wikidot actually does or what "unixify" even means but this is a pretty good guess
-    return re.sub(r"[^\w.\-:/?()#]+", "-", url.lower()).rstrip("(")
+    return re.sub(r"[^\w.\-:/?()#]+", "-", url.lower()).rstrip("()")
 
 
 def InternalLink(match: re.Match) -> str:

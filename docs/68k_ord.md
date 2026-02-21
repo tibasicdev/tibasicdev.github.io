@@ -13,7 +13,7 @@
 
 The ord() command gives the ASCII code of a character (that is, its [character code](68k:character-codes.html), which is a modification of standard ASCII). The input is meant to be a single character, but the command doesn't actually check for that — so in practice, it gives the ASCII code of the first character in a string. You can convert multiple characters at once by giving ord() a list (or matrix) of characters.
 
-The inverse of ord() is [68k:char()](68k:char().html), which converts a character code to a character.
+The inverse of ord() is [68k:char()](68k:char.html), which converts a character code to a character.
 
 ```
 :ord("America")
@@ -37,7 +37,7 @@ should be replaced by appropriate use of ord(); in this case,
 
 ## Related Commands
 
-- [68k:char()](68k:char().html)
+- [68k:char()](68k:char.html)
 
 ## See Also
 

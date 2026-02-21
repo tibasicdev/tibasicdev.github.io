@@ -18,7 +18,7 @@ The `dim()` command returns the size of a list, matrix, or string:
 
 This command is critical to using any of these objects, for instance, if you want to write a [`68k:For`](68k:for.html)..`EndFor` loop to look at every element. 
 
-However, unlike the TI-83 series version, you can't use the `dim()` command to change the size of anything. Use [`68k:mid()`](68k:mid().html) to get a smaller list or string ([`68k:subMat()`](68k:submat().html) for a matrix), or use [`68k:newList()`](68k:newlist().html) and [`68k:newMat()`](68k:newmat().html) to create a list or matrix of a specific size.
+However, unlike the TI-83 series version, you can't use the `dim()` command to change the size of anything. Use [`68k:mid()`](68k:mid.html) to get a smaller list or string ([`68k:subMat()`](68k:submat.html) for a matrix), or use [`68k:newList()`](68k:newlist.html) and [`68k:newMat()`](68k:newmat.html) to create a list or matrix of a specific size.
 
 ```
 :dim({1,2,3,4,5}
@@ -31,11 +31,11 @@ However, unlike the TI-83 series version, you can't use the `dim()` command to c
 
 ## Optimization
 
-For matrices, using [`68k:rowDim()`](68k:rowdim().html) and [`68k:colDim()`](68k:coldim().html) is usually better in all practical situations, and you don't have to remember which number goes first.
+For matrices, using [`68k:rowDim()`](68k:rowdim.html) and [`68k:colDim()`](68k:coldim.html) is usually better in all practical situations, and you don't have to remember which number goes first.
 
 ## Related Commands
 
-- [`68k:mid()`](68k:mid().html)
-- [`68k:subMat()`](68k:submat().html)
-- [`68k:newList()`](68k:newlist().html)
-- [`68k:newMat()`](68k:newmat().html)
+- [`68k:mid()`](68k:mid.html)
+- [`68k:subMat()`](68k:submat.html)
+- [`68k:newList()`](68k:newlist.html)
+- [`68k:newMat()`](68k:newmat.html)

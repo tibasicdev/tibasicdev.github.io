@@ -91,6 +91,6 @@ In addition, the [when()](68k:when.html) command can often replace If.
 
 ## Related Commands
 
-- [68k:when()](68k:when().html)
+- [68k:when()](68k:when.html)
 - [68k:While](68k:while.html)
 - [68k:Loop](68k:loop.html)

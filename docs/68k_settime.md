@@ -14,9 +14,9 @@ The setTime() command changes the time of day on the calculator's clock (give it
 
 setTime() respects the current [time zone](68k:settmzn.html): if you set the time to 8 AM, it will change the time to 8 AM in the time zone you're using, not necessarily to 8 AM GMT. Make sure to change the time zone before you set the time, if you plan to do both, or you'll get the wrong result.
 
-The calculator measures time starting from 00:00 GMT on January 1, 1997. Although [68k:setDate()](68k:setdate().html) will reject any date earlier than that, with a combination of setTime() and setTmZn() you might actually end up with an earlier time than that. If this happens, the calculator keep counting the time correctly, but return a time of 00:00 GMT until it reaches a normally valid time.
+The calculator measures time starting from 00:00 GMT on January 1, 1997. Although [68k:setDate()](68k:setdate.html) will reject any date earlier than that, with a combination of setTime() and setTmZn() you might actually end up with an earlier time than that. If this happens, the calculator keep counting the time correctly, but return a time of 00:00 GMT until it reaches a normally valid time.
 
-A final quirk of setTime() is that it affects the output of [68k:startTmr()](68k:starttmr().html) and [68k:checkTmr()](68k:checktmr().html). So if you're timing a section of your program, and use setTime() in the middle of that section, the time lapse will get thrown off.
+A final quirk of setTime() is that it affects the output of [68k:startTmr()](68k:starttmr.html) and [68k:checkTmr()](68k:checktmr.html). So if you're timing a section of your program, and use setTime() in the middle of that section, the time lapse will get thrown off.
 
 ## Error Conditions
 
@@ -25,6 +25,6 @@ A final quirk of setTime() is that it affects the output of [68k:startTmr()](68k
 
 ## Related Commands
 
-- [68k:setDate()](68k:setdate().html)
-- [68k:getTime()](68k:gettime().html)
-- [68k:getTmStr()](68k:gettmstr().html)
+- [68k:setDate()](68k:setdate.html)
+- [68k:getTime()](68k:gettime.html)
+- [68k:getTmStr()](68k:gettmstr.html)

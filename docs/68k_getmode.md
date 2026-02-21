@@ -21,7 +21,7 @@ The getMode() command checks any one current mode setting. Just give it the name
 
 The name of the setting is not case-sensitive, but is very typo-sensitive.
 
-In practice, getMode() is almost entirely superseded by [68k:setMode()](68k:setmode().html) — usually, you don't care about a setting unless you want to change it if it's wrong. In particular, it is silly to do the following:
+In practice, getMode() is almost entirely superseded by [68k:setMode()](68k:setmode.html) — usually, you don't care about a setting unless you want to change it if it's wrong. In particular, it is silly to do the following:
 
 ```
 :If getMode("Angle")≠"RADIAN"
@@ -56,9 +56,9 @@ See the [Table of Mode Settings](68k:mode-settings.html) to look up these number
 
 ## Related Commands
 
-- [68k:setMode()](68k:setmode().html)
-- [68k:setGraph()](68k:setgraph().html)
-- [68k:setTable()](68k:settable().html)
+- [68k:setMode()](68k:setmode.html)
+- [68k:setGraph()](68k:setgraph.html)
+- [68k:setTable()](68k:settable.html)
 
 ## See Also
 

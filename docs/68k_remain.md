@@ -13,7 +13,7 @@
 
 The remain() command returns the remainder of a division: remain(A,B) is calculated as A-B*[68k:intDiv(](68k:intdiv.html)A,B) which in turn is equivalent to A-B*[68k:iPart(](68k:ipart.html)A/B). Although this operation is most useful for dividing whole numbers, this definition works for any number, whole or decimal, real or complex. Additionally, remain(X,0) is defined as X.
 
-The related [68k:mod()](68k:mod().html) command returns the same results for positive numbers, however, they disagree when negative integers enter the mix. The result of mod() is defined just as remain(), but with [68k:int()](68k:int().html) instead of iPart(). This means that remain() gives a negative answer if the dividend is negative, and mod() gives a negative answer if the divisor is negative.
+The related [68k:mod()](68k:mod.html) command returns the same results for positive numbers, however, they disagree when negative integers enter the mix. The result of mod() is defined just as remain(), but with [68k:int()](68k:int.html) instead of iPart(). This means that remain() gives a negative answer if the dividend is negative, and mod() gives a negative answer if the divisor is negative.
 
 ```
 :remain(125,3)
@@ -28,7 +28,7 @@ The remain() command also works for [lists](68k:lists.html) and [matrices](68k:m
 
 ## Advanced Uses
 
-Use [68k:intDiv()](68k:intdiv().html) and remain() for the quotient and remainder results of long division, respectively.
+Use [68k:intDiv()](68k:intdiv.html) and remain() for the quotient and remainder results of long division, respectively.
 
 ## Error Conditions
 
@@ -36,6 +36,6 @@ Use [68k:intDiv()](68k:intdiv().html) and remain() for the quotient and remainde
 
 ## Related Commands
 
-- [68k:intDiv()](68k:intdiv().html)
-- [68k:mod()](68k:mod().html)
-- [68k:iPart()](68k:ipart().html)
+- [68k:intDiv()](68k:intdiv.html)
+- [68k:mod()](68k:mod.html)
+- [68k:iPart()](68k:ipart.html)

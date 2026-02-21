@@ -50,6 +50,6 @@ Note that even if a relationship is actually linear or quadratic, since a cubic 
 
 ## Related Commands
 
-- [`LinReg(ax+b)`](linreg(ax-b).html)
+- [`LinReg(ax+b)`](linreg(ax-b.html)
 - [`QuadReg`](quadreg.html)
 - [`QuartReg`](quartreg.html)

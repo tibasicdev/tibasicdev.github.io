@@ -24,7 +24,7 @@ Only one | can occur in a single expression: if you have more, this will either 
 
 ## Advanced Uses
 
-The | operator has a more complicated use: rather than giving a specific value for a variable, you might give a condition (or several conditions) for its value, using the [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html) operators. This condition will be used if it helps simplify the expression, especially with [68k:solve()](68k:solve().html). For instance:
+The | operator has a more complicated use: rather than giving a specific value for a variable, you might give a condition (or several conditions) for its value, using the [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), and [≤](68k:less-than-or-equal.html) operators. This condition will be used if it helps simplify the expression, especially with [68k:solve()](68k:solve.html). For instance:
 ```
 :abs(x)|x<0
            -x

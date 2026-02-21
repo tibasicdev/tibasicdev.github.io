@@ -24,13 +24,13 @@ This can be easily expanded to returning a list filled with any value: to return
 
 ## Advanced Uses
 
-`newList()` can be used for making a comparison between a single value and a list. Normally, something like {1,2,3,4}=2 simply returns "false", since 2 is not a list and {1,2,3,4} is. To do a comparison element-by-element, use `newList()` to turn the single value into a list: in this case, 2+`newList(4)`. Comparing {1,2,3,4} to 2+`newList(4)` will return {false, true, false, false} (you might use [`68k:when()`](68k:when().html) to get a single value out of this list).
+`newList()` can be used for making a comparison between a single value and a list. Normally, something like {1,2,3,4}=2 simply returns "false", since 2 is not a list and {1,2,3,4} is. To do a comparison element-by-element, use `newList()` to turn the single value into a list: in this case, 2+`newList(4)`. Comparing {1,2,3,4} to 2+`newList(4)` will return {false, true, false, false} (you might use [`68k:when()`](68k:when.html) to get a single value out of this list).
 
 This works to extend other operations to a number and a list, as well, though comparisons are the most useful application of this technique, since most operations already work this way.
 
 ## Optimization
 
-In many cases, an expression with `newList()` can be used to optimize a [`68k:seq()`](68k:seq().html) command. First, observe that the simple
+In many cases, an expression with `newList()` can be used to optimize a [`68k:seq()`](68k:seq.html) command. First, observe that the simple
 ```
 :seq(k,k,1,n)
 ```
@@ -69,6 +69,6 @@ can be
 
 ## Related Commands
 
-- [`68k:newMat()`](68k:newmat().html)
-- [`68k:seq()`](68k:seq().html)
+- [`68k:newMat()`](68k:newmat.html)
+- [`68k:seq()`](68k:seq.html)
 - [`68k:Fill`](68k:fill.html)

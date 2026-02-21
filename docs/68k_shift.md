@@ -44,4 +44,4 @@ As with lists and strings, the default action of shift() is to shift the integer
 ## Related Commands
 
 - [68k:▶Bin](68k:-bin.html) 
-- [68k:rotate()](68k:rotate().html)
+- [68k:rotate()](68k:rotate.html)

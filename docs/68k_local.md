@@ -19,7 +19,7 @@ You may get a few local variables for free, without the Local command: these are
 
 ## Advanced Uses
 
-The interaction of Local with [68k:expr()](68k:expr().html) is somewhat bizarre. In a way, expr() is a subprogram, so it can't see the local variables of the program that created it. This is a problem with output: for instance, expr("Disp x") will not work properly if x is a local variable. 
+The interaction of Local with [68k:expr()](68k:expr.html) is somewhat bizarre. In a way, expr() is a subprogram, so it can't see the local variables of the program that created it. This is a problem with output: for instance, expr("Disp x") will not work properly if x is a local variable. 
 
 In many cases, this doesn't matter: for instance, expr("x^2") may not be able to access the value of x if x is local, but it will return the symbolic value x^2, which will later be simplified in the main program. Things change if there's already a global variable called x defined. In that case, expr("x^2") will not find the local value of x, but it will see the global variable instead, so it will evaluate x^2 based on that value. This isn't usually what you want. But it *does* give you a way to access global variables: expr("x") refers to the global variable x if there is one, and the local variable otherwise.
 
@@ -32,7 +32,7 @@ In many cases, this doesn't matter: for instance, expr("x^2") may not be able to
 
 - [68k:Define](68k:define.html)
 - [68k:DelVar](68k:delvar.html)
-- [68k:expr()](68k:expr().html)
+- [68k:expr()](68k:expr.html)
 
 ## See Also
 

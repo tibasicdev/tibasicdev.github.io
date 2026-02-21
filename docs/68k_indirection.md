@@ -37,7 +37,7 @@ The # command is particularly useful for dealing with picture variables, if you 
 :RclPic #(pics[x])
 ```
 
-The # command is necessary here because [68k:RclPic](68k:rclpic.html) and commands like it want the actual picture variable as an argument, not a string with its name; [68k:expr()](68k:expr().html) wouldn't work either because it would try to find the value of 'cat', and get an error.
+The # command is necessary here because [68k:RclPic](68k:rclpic.html) and commands like it want the actual picture variable as an argument, not a string with its name; [68k:expr()](68k:expr.html) wouldn't work either because it would try to find the value of 'cat', and get an error.
 
 ------
 
@@ -45,7 +45,7 @@ Whenever you're dealing with external files created by someone else (such as ext
 
 ## Optimization
 
-In many cases, both # and [68k:expr()](68k:expr().html) will do the same thing. In these cases, it's still better to use #, because it's faster.
+In many cases, both # and [68k:expr()](68k:expr.html) will do the same thing. In these cases, it's still better to use #, because it's faster.
 
 ## Error Conditions
 
@@ -53,6 +53,6 @@ In many cases, both # and [68k:expr()](68k:expr().html) will do the same thing. 
 
 ## Related Commands
 
-- [68k:expr()](68k:expr().html)
+- [68k:expr()](68k:expr.html)
 - [→](68k:store.html)
 - [68k:DelVar](68k:delvar.html)

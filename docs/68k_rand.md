@@ -40,6 +40,6 @@ Using the [68k:RandSeed](68k:randseed.html) command makes the random numbers ent
 ## Related Commands
 
 - [68k:RandSeed](68k:randseed.html)
-- [68k:randNorm()](68k:randnorm().html)
-- [68k:randMat()](68k:randmat().html)
-- [68k:randPoly()](68k:randpoly().html)
+- [68k:randNorm()](68k:randnorm.html)
+- [68k:randMat()](68k:randmat.html)
+- [68k:randPoly()](68k:randpoly.html)

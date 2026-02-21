@@ -10,9 +10,9 @@ N/A
        
 # The startTmr() Command
 
-The startTmr() command returns the number of seconds that passed since 00:00 GMT of January 1, 1997 — as far as the calculator knows, anyway, since this value is adjusted every time the current time and date changes with [68k:setTime()](68k:settime().html) or [68k:setDate()](68k:setdate().html). If the clock is running, this number is also updated every second, which is how the calculator keeps track of time.
+The startTmr() command returns the number of seconds that passed since 00:00 GMT of January 1, 1997 — as far as the calculator knows, anyway, since this value is adjusted every time the current time and date changes with [68k:setTime()](68k:settime.html) or [68k:setDate()](68k:setdate.html). If the clock is running, this number is also updated every second, which is how the calculator keeps track of time.
 
-Together with [68k:checkTmr()](68k:checktmr().html), startTmr() can be used to measure off a time interval (in seconds) while a program is running (make sure to use [68k:ClockOn](68k:clockon.html) first). the name of the commands reflects their use: you can think of a startTmr() call as creating and starting a timer:
+Together with [68k:checkTmr()](68k:checktmr.html), startTmr() can be used to measure off a time interval (in seconds) while a program is running (make sure to use [68k:ClockOn](68k:clockon.html) first). the name of the commands reflects their use: you can think of a startTmr() call as creating and starting a timer:
 ```
 :startTmr()→timer
 ```
@@ -42,10 +42,10 @@ See [68k:Timings](68k:timings.html) for more information on this, as well as the
 
 ## Related Commands
 
-- [68k:checkTmr()](68k:checktmr().html)
+- [68k:checkTmr()](68k:checktmr.html)
 - [68k:ClockOn](68k:clockon.html)
 - [68k:ClockOff](68k:clockoff.html)
-- [68k:getTime()](68k:gettime().html)
+- [68k:getTime()](68k:gettime.html)
 
 ## See Also
 

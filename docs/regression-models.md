@@ -6,8 +6,8 @@ If you execute one of these commands with no arguments at all, the calculator wi
 The following regression models are available:
 
 - [Med-Med](med-med.html)
-- [LinReg(ax+b)](linreg(ax-b).html)
-- [LinReg(a+bx)](linreg(a-bx).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
+- [LinReg(a+bx)](linreg(a-bx.html)
 - [QuadReg](quadreg.html)
 
 - [CubicReg](cubicreg.html)

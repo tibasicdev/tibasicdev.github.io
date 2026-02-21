@@ -31,7 +31,7 @@ If `coth()` is applied to a list, it will take the hyperbolic cotangent of every
 
 ## Formulas
 
-The definition of hyperbolic cotangent is, by analogy with [`68k:cot()`](68k:cot().html), the ratio of [`68k:cosh()`](68k:cosh().html) and [`68k:sinh()`](68k:sinh().html):
+The definition of hyperbolic cotangent is, by analogy with [`68k:cot()`](68k:cot.html), the ratio of [`68k:cosh()`](68k:cosh.html) and [`68k:sinh()`](68k:sinh.html):
 
 
 
@@ -41,6 +41,6 @@ The definition of hyperbolic cotangent is, by analogy with [`68k:cot()`](68k:cot
 
 ## Related Commands
 
-- [`68k:sech()`](68k:sech().html)
-- [`68k:csch()`](68k:csch().html)
+- [`68k:sech()`](68k:sech.html)
+- [`68k:csch()`](68k:csch.html)
 - [`cothֿ¹()`](68k:arccoth.html)

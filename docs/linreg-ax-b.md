@@ -46,11 +46,11 @@ An example of LinReg(ax+b) with all the optional arguments:
 
 ## Advanced Uses (for programmers)
 
-LinReg(ax+b), along with [LinReg(a+bx)](linreg(a-bx).html) and [Med-Med](med-med.html), can be used to [convert a number to a string](number-to-string.html).
+LinReg(ax+b), along with [LinReg(a+bx)](linreg(a-bx.html) and [Med-Med](med-med.html), can be used to [convert a number to a string](number-to-string.html).
 
 ## Related Commands
 
-- [LinReg(a+bx)](linreg(a-bx).html)
+- [LinReg(a+bx)](linreg(a-bx.html)
 - [LinRegTTest](linregttest.html)
 - [LinRegTInt](linregtint.html)
 - [Manual-Fit](manual-fit.html)

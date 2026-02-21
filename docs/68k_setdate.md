@@ -24,7 +24,7 @@ The above example has set the calculator's date to October 31<sup>st</sup>, 2001
 
 ## Related Commands
 
-- [68k:getDate()](68k:getdate().html)
-- [68k:getDtStr()](68k:getdtstr().html)
-- [68k:setDtFmt()](68k:setdtfmt().html)
-- [68k:getDtFmt()](68k:getdtfmt().html)
+- [68k:getDate()](68k:getdate.html)
+- [68k:getDtStr()](68k:getdtstr.html)
+- [68k:setDtFmt()](68k:setdtfmt.html)
+- [68k:getDtFmt()](68k:getdtfmt.html)

@@ -46,7 +46,7 @@ The two tables below show all the one-byte tokens by their hexadecimal value - t
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3 | [/](divide.html) | [Text(](text.html) | [Pxl-Change(](pxl-change.html) | [det(](det.html) | [sinֿ¹(](arcsin.html) | [For(](for.html) | [SortA(](sorta.html) | [2-Var Stats](2-var-stats.html) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4 | [Trace](trace.html) | [nPr](npr.html) | [Shade(](shade.html) | [identity(](identity.html) | [cos(](cos.html) | [End](end.html) | [SortD(](sortd.html) | [LinReg(a+bx)](linreg(a-bx).html) |
+| 4 | [Trace](trace.html) | [nPr](npr.html) | [Shade(](shade.html) | [identity(](identity.html) | [cos(](cos.html) | [End](end.html) | [SortD(](sortd.html) | [LinReg(a+bx)](linreg(a-bx.html) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5 | [ClrDraw](clrdraw.html) | [nCr](ncr.html) | [Circle(](circle.html) | [dim(](dim.html) | [cosֿ¹(](arccos.html) | [Return](return.html) | [DispTable](disptable.html) | [ExpReg](expreg.html) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ The two tables below show all the one-byte tokens by their hexadecimal value - t
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | E | [ZDecimal](zdecimal.html) | [Pt-On(](pt-on.html) | ['](characters.html) | [ln(](ln.html) | [If](if.html) | [Disp](disp.html) | [Plot3(](plotn.html) | [Scatter](plotn.html#scatter) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | [ZoomStat](zoomstat.html) | [Pt-Off(](pt-off.html) | [?](characters.html) | *[e^(](e-exponent.html)* | [Then](if.html) | [DispGraph](dispgraph.html) | **[TI-84+(C(S)E)](time-tokens.html)** | [LinReg(ax+b)](linreg(ax-b).html) |
+| F | [ZoomStat](zoomstat.html) | [Pt-Off(](pt-off.html) | [?](characters.html) | *[e^(](e-exponent.html)* | [Then](if.html) | [DispGraph](dispgraph.html) | **[TI-84+(C(S)E)](time-tokens.html)** | [LinReg(ax+b)](linreg(ax-b.html) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 ## Comments

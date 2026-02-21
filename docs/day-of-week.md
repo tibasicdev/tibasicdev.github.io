@@ -15,7 +15,7 @@ If there was 15 days between two dates, the equation would give 15/7=2.1428571. 
 
 As the 1<sup>st</sup> of January, 1950 was a Sunday (which is the date we have inputed into the above routine), so the number of days into the week will always be relative to Sunday. That is, the output 0 through 6 is relative to the days Sunday through Saturday respectively. If you want 0 to be Monday instead, make the base date January 2 instead by changing 101.5 to 201.5.
 
-This routine can handle dates from January 1, 1950 to December 31, 2049. For other dates, it will assume the year is in that range instead. There is also an [alternative routine](day-of-week-(alternative).html) that handles dates in an unlimited range.
+This routine can handle dates from January 1, 1950 to December 31, 2049. For other dates, it will assume the year is in that range instead. There is also an [alternative routine](day-of-week-(alternative.html) that handles dates in an unlimited range.
 
 ## Display Day
 
@@ -33,4 +33,4 @@ Disp sub("***SUN***MON**TUESWEDNES*THURS***FRI*SATUR",6Ans+1,6)+"DAY       //rep
 - **[ERR:DOMAIN](errors.html#domain)** if the date is invalid.
 
 ## Related Routines
-- [Day of the Week (Alternative)](day-of-week-(alternative).html)
+- [Day of the Week (Alternative)](day-of-week-(alternative.html)

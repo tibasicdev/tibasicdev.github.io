@@ -11,7 +11,7 @@ Press:
 1. ALPHA G to select LinRegTInt, or use arrows
        
 # The LinRegTInt Command
-Like [LinReg(ax+b)](linreg(ax-b).html) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
+Like [LinReg(ax+b)](linreg(ax-b.html) and similar commands, LinRegTInt finds the best fit line through a set of points. However, LinRegTInt adds another method of checking the quality of the fit, by calculating a t confidence interval for the slope b. If the confidence interval calculated contains zero, the data supplied is insufficient to conclude a linear relation between the variables.
 
 To use LinRegTInt, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points. You do not have to do the regression on L₁ and L₂, but if you don't you'll have to enter the names of the lists after the command.
 
@@ -61,8 +61,8 @@ LinRegTInt
 
 ## Related Commands
 
-- [LinReg(ax+b)](linreg(ax-b).html)
-- [LinReg(a+bx)](linreg(a-bx).html)
+- [LinReg(ax+b)](linreg(ax-b.html)
+- [LinReg(a+bx)](linreg(a-bx.html)
 - [LinRegTTest](linregttest.html)
 - [Manual-Fit](manual-fit.html)
 - [Med-Med](med-med.html)
