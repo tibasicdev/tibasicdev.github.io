@@ -19,7 +19,7 @@ Like many other drawing commands, if you're outside a program and on the graph s
 
 Unless the final state of the graph screen is the intended effect of the program, you want to use `ClrDraw` at the end of the program so that the user doesn't have to deal with it.
 
-Caution: if the graph screen is displayed even before you execute `ClrDraw`, the user variable Y will be reset to 0. This might be useful as a side effect, but it's more likely to turn out to be a nuisance if you were relying on Y to store something useful. Also, such a wacky effect might get removed in later OS versions[[footnote]] Fixed on the TI-84+CSE [[/footnote]], so it's a gamble relying on it to work for all users.
+Caution: if the graph screen is displayed even before you execute `ClrDraw`, the user variable Y will be reset to 0. This might be useful as a side effect, but it's more likely to turn out to be a nuisance if you were relying on Y to store something useful. Also, such a wacky effect might get removed in later OS versions[^1], so it's a gamble relying on it to work for all users.
 
 The [`RecallPic`](recallpic.html) command does not erase what is previously on the graph screen when recalling a picture. Unless this is what you intend, use `ClrDraw` to erase the graph screen's old contents before recalling a picture.
 
@@ -44,3 +44,4 @@ Since this actually switches two window settings, at least one will be different
 ## See Also
 
 - [Friendly Graphing Window](friendly-window.html)
+[^1]: Fixed on the TI-84+CSE

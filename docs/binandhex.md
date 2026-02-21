@@ -126,7 +126,7 @@ Where V<sub>10</sub> is the decimal value, v is the digit in a placement, p is t
 
 So, let us say we had the simple hexadecimal number 2B.  We want to know what this number is in decimal so that we can understand it better.  How do we do this?
 
-Let us use the formula above.  Define every variable first.  We want to find V<sub>10</sub>, so that is unknown.  The number 2B<sub>16</sub> has two positions since it has two digits.  p therefore is one less than that[[footnote]]It is one less because the rightmost position is 0, not 1.  So p is always one less than the number of digits.[[/footnote]], so p is 1.  The number is in base 16, so B is 16.  Finally, we want to know what v is, but there are multiple v's.  You have v<sub>1</sub> and v<sub>0</sub>.  This refers to the value of the digit in the subscripted position.  v<sub>1</sub> refers to the digit in position one (the second digit from the right).  So, v<sub>1</sub> is 2.  v<sub>0</sub> is the first digit which is B.  In the case of the conversion, you must convert all the letters to what they are in decimal.  B is 11 in decimal, so v<sub>0</sub> is 11.
+Let us use the formula above.  Define every variable first.  We want to find V<sub>10</sub>, so that is unknown.  The number 2B<sub>16</sub> has two positions since it has two digits.  p therefore is one less than that[^1], so p is 1.  The number is in base 16, so B is 16.  Finally, we want to know what v is, but there are multiple v's.  You have v<sub>1</sub> and v<sub>0</sub>.  This refers to the value of the digit in the subscripted position.  v<sub>1</sub> refers to the digit in position one (the second digit from the right).  So, v<sub>1</sub> is 2.  v<sub>0</sub> is the first digit which is B.  In the case of the conversion, you must convert all the letters to what they are in decimal.  B is 11 in decimal, so v<sub>0</sub> is 11.
 
 Now, plug all this into the formula:
 
@@ -360,3 +360,4 @@ Did you understand everything? If you think so, test yourself:
 |1011110|...|...|
 |...|...|47|
 Make some exercises yourself, if you want some more.
+[^1]: It is one less because the rightmost position is 0, not 1.  So p is always one less than the number of digits.

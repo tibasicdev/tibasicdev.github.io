@@ -17,7 +17,8 @@ This page is to reduce confusion when reading code here on the forums. The conve
 | != | ≠ |
 | sqrt( | √ |
 | cubert( | ∛ |
-| nroot(  | ⁿ√  | [[footnote]] nroot( is the same as xroot(, where n=x [[/footnote]]
+| nroot(  | ⁿ√  | [^1]
 | DeltaX | ΔX |
 | DeltaY | ΔY |
 | // | Code Comment, do not include |
+[^1]: nroot( is the same as xroot(, where n=x

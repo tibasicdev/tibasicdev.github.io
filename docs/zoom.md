@@ -30,9 +30,11 @@ The following zoom commands are available:
 - [ZPrevious](zprevious.html)
 - [ZoomSto](zoomsto.html)
 - [ZoomRcl](zoomrcl.html)
-- [ZFracX](zfrac.html)[[footnote]]Available only for OS 2.53MP+[[/footnote]]
+- [ZFracX](zfrac.html)[^1]
 
 
 
 
 [[footnoteblock]]
+
+[^1]: Available only for OS 2.53MP+

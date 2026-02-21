@@ -42,7 +42,7 @@ Vertical (Xmax-Xmin)/2
 
 ### Line(
 
-If you don't want your line to go to the end of the screen but to stop at a coordinate, you will need to use [Line(](line.html).The [Line(](line.html) command draws a line from a coordinate to another. To use the command, press 2nd, Draw then scroll down to "Line(" The syntax goes like this: Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>). A fifth argument is optional.[[footnote]]This fifth argument can only be "0" on the 83/84/+ and will erase the line. On the CSE, putting a color code as the fifth argument will change the color of the line.[[/footnote]]
+If you don't want your line to go to the end of the screen but to stop at a coordinate, you will need to use [Line(](line.html).The [Line(](line.html) command draws a line from a coordinate to another. To use the command, press 2nd, Draw then scroll down to "Line(" The syntax goes like this: Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>). A fifth argument is optional.[^1]
 
 Drawing a square would have this code:
 ```
@@ -55,7 +55,7 @@ Line(8,2,2,2
 
 ## Circle 
 
-The [Circle(](circle.html) command draws a circle with a radius "r" at a given point. Press 2nd, Draw then scroll down to Circle(. For the syntax, enter the X coordinate, the Y coordinate, and then the radius.[[footnote]]A fourth argument is optional and will draw the circle faster. To do this, add "{$i$" as the fourth argument.[[/footnote]]
+The [Circle(](circle.html) command draws a circle with a radius "r" at a given point. Press 2nd, Draw then scroll down to Circle(. For the syntax, enter the X coordinate, the Y coordinate, and then the radius.[^2]
 
 As an example, try the following using the graph settings above:
 ```
@@ -65,7 +65,7 @@ Circle(5,5,5,{i
 
 ## Functions 
 
-The following are commands that draw lines or curves according to a function. You most likely will not use them frequently, but they are available if you need them. [[footnote]]For all of the commands which draw or shade functions, the Y<sub>n</sub> variables can be used as the argument, provided they contain a function.[[/footnote]]
+The following are commands that draw lines or curves according to a function. You most likely will not use them frequently, but they are available if you need them. [^3]
 
 ### DrawF
 
@@ -247,3 +247,6 @@ Output(1,1,"
 | --- | --- | --- |
 
 </center>
+[^1]: This fifth argument can only be "0" on the 83/84/+ and will erase the line. On the CSE, putting a color code as the fifth argument will change the color of the line.
+[^2]: A fourth argument is optional and will draw the circle faster. To do this, add "{$i$" as the fourth argument.
+[^3]: For all of the commands which draw or shade functions, the Y<sub>n</sub> variables can be used as the argument, provided they contain a function.

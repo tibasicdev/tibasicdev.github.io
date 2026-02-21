@@ -27,6 +27,9 @@
 [[html]]
 &nbsp;
 [[/html]]
-[[footnote]]These rules are adapted from [[*user burr]]'s original post which can be found [here](http://tibasicdev.github.io/forum/t-27069/forum-rules#post-68500). [[/footnote]]
-[[footnote]]The code of conduct was originally posted at the wikidot [conduct](http://tibasicdev.github.io/conduct) page. It has been included here for simplicity[[/footnote]]
-[[footnote]]This site reserves the right for its administrators and moderators to remove, edit, move, or close any post as they deem necessary.[[/footnote]]
+[^1]
+[^2]
+[^3]
+[^1]: These rules are adapted from [[*user burr]]'s original post which can be found [here](46b0faff-4f4e-4231-9ea4-cd33ef92bb4f).
+[^2]: The code of conduct was originally posted at the wikidot [conduct](3ab1e56a-368a-41a1-ae77-b9e2040de9d1) page. It has been included here for simplicity
+[^3]: This site reserves the right for its administrators and moderators to remove, edit, move, or close any post as they deem necessary.

@@ -5,18 +5,18 @@ When writing TI-Basic programs, it is ideal to have the program universally comp
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Command | TI-83 | TI-83+ | TI-83+ OS 1.15 | TI-84+ | TI-84+ OS 2.30 | TI-84+CSE | TI-84+CE/83PCE | TI-Nspire | TI-Nspire CX | TI-Nspire CX/CAS |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [%](percent.html) [[footnote]]This command is only accessible in a hex editor[[/footnote]] |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
+| [%](percent.html) [^1] |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [Archive](archive.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [Asm(](asm-command.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [AsmComp(](asmcomp.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Asm84CPrgm](asm84cprgm.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✘[[footnote]] Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program. [[/footnote]] |
-| [Asm84CEPrgm](asm84ceprgm.html)[[footnote]]Or "Asm83CEPrgm" on the TI-83 Premium CE[[/footnote]] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
-| [AsmPrgm](asmprgm.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✘ |= ✘ [[footnote]] Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program. [[/footnote]]|
+| [Asm84CPrgm](asm84cprgm.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✘[^2] |
+| [Asm84CEPrgm](asm84ceprgm.html)[^3] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
+| [AsmPrgm](asmprgm.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✘ |= ✘ [^4]|
 | [BackgroundOff](backgroundoff.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [BackgroundOn](backgroundon.html) [[footnote]]And all of the Image tokens[[/footnote]] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
+| [BackgroundOn](backgroundon.html) [^5] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
 | [χ²GOF-Test(](chisquaregof-test.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
 | [checkTmr(](checktmr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Circle(](circle.html) |= ✓[[footnote]]Using a fourth argument will render a [syntax error](http://tibasicdev.github.io/errors#syntax)[[/footnote]] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ [[footnote]]This command can take five arguments, but cannot use {i} as an optimization.[[/footnote]]|= ✓ [[footnote]]This command can take five arguments, but cannot use {i} as an optimization.[[/footnote]]|
+| [Circle(](circle.html) |= ✓[^6] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ [^7]|= ✓ [^8]|
 | [ClockOff](clockoff.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [ClockOn](clockon.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [dayOfWk(](dayofwk.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
@@ -27,7 +27,7 @@ When writing TI-Basic programs, it is ideal to have the program universally comp
 | [eval(](eval.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
 | [ExecLib](execlib.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [GarbageCollect](garbagecollect.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Get(](get.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[[footnote]]Requires OS 5.1.5 or later[[/footnote]] |
+| [Get(](get.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[^9] |
 | [getDate](getdate.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [getDtFmt](getdtfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [getDtStr(](getdtstr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
@@ -40,19 +40,36 @@ When writing TI-Basic programs, it is ideal to have the program universally comp
 | [LinRegTInt](linregtint.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
 | [Manual-Fit](manual-fit.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
 | [OpenLib(](openlib.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [piecewise(](piecewise.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓[[footnote]]Requires OS 5.3 or later[[/footnote]] |
-| [Send(](send.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[[footnote]]Requires OS 5.1.5 or later[[/footnote]] |
+| [piecewise(](piecewise.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓[^10] |
+| [Send(](send.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[^11] |
 | [setDate(](setdate.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [setDtFmt(](setdtfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [setTime(](settime.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [setTmFmt(](settmfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [startTmr](starttmr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [sub(](sub.html) |= ✓[[footnote]]Using a single argument will render a [syntax error](http://tibasicdev.github.io/errors#syntax)[[/footnote]] |= ✓[[footnote]]Using a single argument will render a [syntax error](http://tibasicdev.github.io/errors#syntax)[[/footnote]] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Text(](text.html) |= ✓[[footnote]]Using ‾1 as the first argument will render a [syntax error](http://tibasicdev.github.io/errors#syntax)[[/footnote]] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [TextColor(](textcolor.html) [[footnote]]And all of the color tokens[[/footnote]] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
+| [sub(](sub.html) |= ✓[^12] |= ✓[^13] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
+| [Text(](text.html) |= ✓[^14] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
+| [TextColor(](textcolor.html) [^15] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
 | [Thick](thick.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
 | [Thin](thin.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
 | [timeCnv(](timecnv.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [toString(](tostring.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
 | [UnArchive](unarchive.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
 | [Wait](wait.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
+
+
+[^1]: This command is only accessible in a hex editor
+[^2]: Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program.
+[^3]: Or "Asm83CEPrgm" on the TI-83 Premium CE
+[^4]: Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program.
+[^5]: And all of the Image tokens
+[^6]: Using a fourth argument will render a [syntax error](d704daae-f7a9-4ad8-958b-7fd4b29c5f61)
+[^7]: This command can take five arguments, but cannot use {i} as an optimization.
+[^8]: This command can take five arguments, but cannot use {i} as an optimization.
+[^9]: Requires OS 5.1.5 or later
+[^10]: Requires OS 5.3 or later
+[^11]: Requires OS 5.1.5 or later
+[^12]: Using a single argument will render a [syntax error](eddf89b7-78f2-4928-bb36-ecaab466c6e0)
+[^13]: Using a single argument will render a [syntax error](df61c830-925b-4c9d-bf07-9b5ec0b586de)
+[^14]: Using ‾1 as the first argument will render a [syntax error](75944442-9d3c-4128-8ee7-1a09c483c583)
+[^15]: And all of the color tokens

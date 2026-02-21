@@ -27,7 +27,7 @@ str&"(x+rand(20)-10)"→str
 EndFor
 ```
 
-What we are wanting to do is create a string that represents the polynomial in factored form, for example (x+3)(x-2).  We initialize the string (which is `str`) with a "1" since that will not interfere with the math later[[footnote]]1(x+3)(x-2) = (x+3)(x-2), so this is actually very helpful for optimization purposes[[/footnote]].  The For loop loops the number of rational roots we want determined by `b`.  Each time the loop goes through, another factor is created and is combined with the current string with the [&](68k:append.html) command.
+What we are wanting to do is create a string that represents the polynomial in factored form, for example (x+3)(x-2).  We initialize the string (which is `str`) with a "1" since that will not interfere with the math later[^1].  The For loop loops the number of rational roots we want determined by `b`.  Each time the loop goes through, another factor is created and is combined with the current string with the [&](68k:append.html) command.
 
 Finally, it is time to display the creation.  We use the [68k:Pause](68k:pause.html) command because for higher degree polynomials, the resulting polynomial might run off the screen.
 ```
@@ -62,3 +62,4 @@ EndFor
 Pause expand(expr(str)randPoly(x,deg-b))
 EndPrgm
 ```
+[^1]: 1(x+3)(x-2) = (x+3)(x-2), so this is actually very helpful for optimization purposes

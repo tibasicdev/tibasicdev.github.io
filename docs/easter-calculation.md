@@ -43,7 +43,7 @@ Here is the value of **C** (with **H**=`int(Y/100)`, and [H]=`int(H)`):
 
 The first four lines of code implement this algorithm.
 
-Lastly, the last line of code adjusts the date to the next Sunday using a modified version of the [Day of Week routine.](day-of-week-alternative.html)[[footnote]] If you have an 84+ or 84+SE, this may as well be `Ans+7-dayOfWk(Y,3+(Ans>31),Ans31(Ans>31))`. [[/footnote]]
+Lastly, the last line of code adjusts the date to the next Sunday using a modified version of the [Day of Week routine.](day-of-week-alternative.html)[^1]
 
 ## Alternate Routine
 
@@ -64,3 +64,4 @@ This returns the date of Easter as day-of-March, just like the previous routine.
 ## Related Routines
 
 - [Day of Week (Alternative)](day-of-week-alternative.html)
+[^1]: If you have an 84+ or 84+SE, this may as well be `Ans+7-dayOfWk(Y,3+(Ans>31),Ans31(Ans>31))`.

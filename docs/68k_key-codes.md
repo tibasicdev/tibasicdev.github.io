@@ -18,7 +18,7 @@ Notice that the key codes for typing a character correspond to that characters [
 | alpha | | | | | a-lock | | | | | |
 | ESC | ESC | 264 | ESC | 264 | QUIT | 4360 | PASTE | 8456 | ESC | 264 |
 | APPS | APPS | 265 | APPS | 265 | SWITCH | 4361 | | 8457 | APPS | 265 |
-| ON[[footnote]] While ON is technically a key, it can only be caught by assembly programs or through the help of a library. Usually, this key immediately throws a "Break" exception that stops execution of the program. [[/footnote]] | ON | 267 | | | OFF | | | | | |
+| ON[^1] | ON | 267 | | | OFF | | | | | |
 | HOME | HOME | 277 | HOME | 277 | CUST | 4373 | HOME | 277 | HOME | 277 |
 | MODE | MODE | 266 | MODE | 266 | [▶](68k:convert.html) | 18 | _ | 95 | MODE | 266 |
 | CATALOG | CATLG | 278 | CATLG | 278 | ***[i](68k:i.html)*** | 151 | [∞](68k:infinity.html) | 190 | CATLG | 278 |
@@ -78,3 +78,4 @@ An easy way to find the value of a keypress without having to consult this page 
 :Text string(k)
 :EndPrgm
 ```
+[^1]: While ON is technically a key, it can only be caught by assembly programs or through the help of a library. Usually, this key immediately throws a "Break" exception that stops execution of the program.
