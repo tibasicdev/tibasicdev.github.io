@@ -30,6 +30,12 @@ def Block(match: re.Match) -> str:
     return match[0].replace(match[1], block_id)
 
 
+FOOTNOTES = []
+def Footnote(match: re.Match) -> str:
+    FOOTNOTES.append(match[1])
+    return f"[^{len(FOOTNOTES)}]"
+
+
 def unixify(url: str):
     # IDK what Wikidot actually does or what "unixify" even means but this is a pretty good guess
     return re.sub(r"[^\w.\-:/?()#]+", "-", url.lower()).rstrip("(")
@@ -153,7 +159,8 @@ class Converter:
         # Images
         r'\[\[(?:=|<|>|f<|f>)?image\s+(?P<source>.*?)(?P<attributes>(\s+\w+=".*?")+)?\]\]': Image,
 
-        
+        # Footnotes
+        r'\[\[footnote\]\]\s*(.*?)\s*\[\[/footnote\]\]': Footnote,
     }
 
     includes = {
@@ -292,6 +299,7 @@ class Converter:
 
     def convert(self, page: str, filename: str, title: str):
         BLOCKS.clear()
+        FOOTNOTES.clear()
 
         # Convert include boxes
         page = re.sub(r"(?s)\[\[include inc:(\S+)\s*(?:\|(.*?))?\n*\]\]\s*?$",
@@ -306,6 +314,10 @@ class Converter:
         # Replace blocks
         for block_id, block in BLOCKS.items():
             page = page.replace(block_id, block.rstrip().lstrip("\n"))
+
+        # Add footnotes
+        for index, footnote in enumerate(FOOTNOTES):
+            page += f"\n[^{index + 1}]: {footnote.replace('\n', '\n\t')}"
 
         # Table of contents
         page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)
