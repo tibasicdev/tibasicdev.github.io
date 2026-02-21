@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>TI-Basic Quick Reference</title>
+<style type="text/css">
+* {padding: 0;margin: 0;}
+body {padding: 0;margin: 0;color: #17373E;background: #e7e9dc;
+      font-size: 0.82em;font-family: verdana,sans-serif;}
+h2 {color: #e7e9dc;background: #17373E;padding-left: 5px;font-size: 150%;
+  font-weight: normal;font-family: "Trebuchet MS", verdana;
+  border-top: 2px solid #17373E;border-bottom: 2px solid #17373E;}
+ul {padding: 10px;margin-left: 10px;}
+ul a {font-size: 90%;}
+a {color: #17373E;}
+a:hover {color: #1E4851;background: transparent;text-decoration: none;}
+#command-lists {padding: 0;margin: 10px;}
+#command-categories {color: #e7e9dc;background: #17373E;padding: 0;margin: 0 auto;text-align: center;}
+#command-categories h2 {font-size: 175%;font-weight: bold;text-transform: uppercase; padding: 0;}
+#command-categories ul {list-style: none; margin: 0; padding: 0 0 5px;}
+#command-categories a {padding: 2px;color: #e7e9dc;text-decoration: none;}
+#command-categories a:hover {text-decoration: underline;}
+#top-link {padding: 0;margin: 0;color: #e7e9dc;background: #17373E;
+  position: fixed;top: 0;right: 0;}
+#top-link a {color: #17373E;}
+// dark green -- #17373E, R:23 G:55 B:62
+// light green -- #e7e9dc, R:231 G:233 B:220
+</style>
+</head>
+<body>
+
+<div id="top-link"><a href="#top" target="_self"><img src="top.png" width="11px" height="12px" alt="top link" title="go to top"/></a></div>
+
+<div id="command-categories">
+
+<h2 id="top">Commands</h2>
+
+<ul>
+<li><a href="#op" target="_self">Op</a> <a href="#num" target="_self">#</a> <a href="#a" target="_self">A</a> <a href="#b" target="_self">B</a> <a href="#c" target="_self">C</a></li>
+<li><a href="#d" target="_self">D</a> <a href="#e" target="_self">E</a> <a href="#f" target="_self">F</a> <a href="#g" target="_self">G</a> <a href="#h" target="_self">H</a></li>
+<li><a href="#i" target="_self">I</a> <a href="#l" target="_self">L</a> <a href="#m" target="_self">M</a> <a href="#n" target="_self">N</a> <a href="#o" target="_self">O</a></li>
+<li><a href="#p" target="_self">P</a> <a href="#q" target="_self">Q</a> <a href="#r" target="_self">R</a> <a href="#s" target="_self">S</a> <a href="#t" target="_self">T</a></li>
+<li><a href="#u" target="_self">U</a> <a href="#v" target="_self">V</a> <a href="#w" target="_self">W</a> <a href="#x" target="_self">X</a> <a href="#z" target="_self">Z</a></li>
+</ul>
+
+</div>
+
+<div id="command-lists">
+
+<h2 id="op">Op</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/add">+</a> <a href="http://tibasicdev.wikidot.com/subtract">-</a> <a href="http://tibasicdev.wikidot.com/multiply">*</a> <a href="http://tibasicdev.wikidot.com/divide">/</a> <a href="http://tibasicdev.wikidot.com/negative">&#8254;</a> <a href="http://tibasicdev.wikidot.com/power">^</a> <a href="http://tibasicdev.wikidot.com/xroot">&#215;&#8730;</a></li>
+<li><a href="http://tibasicdev.wikidot.com/equal">=</a> <a href="http://tibasicdev.wikidot.com/notequal">&#8800;</a> <a href="http://tibasicdev.wikidot.com/greaterthan">&gt;</a> <a href="http://tibasicdev.wikidot.com/greaterthanequal">&#8805;</a> <a href="http://tibasicdev.wikidot.com/lessthan">&lt;</a> <a href="http://tibasicdev.wikidot.com/lessthanequal">&#8804;</a></li>
+<li><a href="http://tibasicdev.wikidot.com/store">&#8594;</a> <a href="http://tibasicdev.wikidot.com/factorial">!</a> <a href="http://tibasicdev.wikidot.com/pi">&#960;</a> <a href="http://tibasicdev.wikidot.com/percent">%</a> <sup><a href="http://tibasicdev.wikidot.com/radian-symbol">r</a></sup> <a href="http://tibasicdev.wikidot.com/degree-symbol">&#176;</a></li>
+</ul>
+
+<h2 id="num">#</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/inverse">&#8254;&#185;</a> <a href="http://tibasicdev.wikidot.com/2">&#178;</a> <a href="http://tibasicdev.wikidot.com/3">&#179;</a></li>
+<li><a href="http://tibasicdev.wikidot.com/square-root">&#8730;(</a> <a href="http://tibasicdev.wikidot.com/3root">&#179;&#8730;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/1-propzint">1-PropZInt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-propzint">2-PropZInt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/1-propztest">1-PropZTest(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-propztest">2-PropZTest(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-sampftest">2-SampFTest</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-samptint">2-SampTInt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-sampttest">2-SampTTest</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-sampzint">2-SampZInt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-sampztest">2-SampZTest(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/1-var-stats">1-Var Stats</a></li>
+<li><a href="http://tibasicdev.wikidot.com/2-var-stats">2-Var Stats</a></li>
+</ul>
+
+<h2 id="a">A</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/abs">abs(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/and">and</a></li>
+<li><a href="http://tibasicdev.wikidot.com/angle">angle(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/anova">ANOVA(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ans">Ans</a></li>
+<li><a href="http://tibasicdev.wikidot.com/archive">Archive</a></li>
+<li><a href="http://tibasicdev.wikidot.com/asm">Asm(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/asmcomp">AsmComp(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/asmprgm">AsmPrgm</a></li>
+<li><a href="http://tibasicdev.wikidot.com/augment">augment(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/axesoff">AxesOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/axeson">AxesOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/a-bi">a+bi</a></li>
+</ul>
+
+<h2 id="b">B</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/bal">bal(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/binomcdf">binomcdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/binompdf">binompdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn#boxplot">Boxplot</a></li>
+</ul>
+
+<h2 id="c">C</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/chisquarecdf">&#967;&#178;cdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/chisquarepdf">&#967;&#178;pdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/chisquare-test">&#967;&#178;-Test(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/chisquaregof-test">&#967;&#178;GOF-Test(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/checktmr">checkTmr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/circle">Circle(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clear-entries">Clear Entries</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clockoff">ClockOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clockon">ClockOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clralllists">ClrAllLists</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clrdraw">ClrDraw</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clrhome">ClrHome</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clrlist">ClrList</a></li>
+<li><a href="http://tibasicdev.wikidot.com/clrtable">ClrTable</a></li>
+<li><a href="http://tibasicdev.wikidot.com/conj">conj(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/connected">Connected</a></li>
+<li><a href="http://tibasicdev.wikidot.com/coordoff">CoordOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/coordon">CoordOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/cos">cos(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arccos">cos&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/cosh">cosh(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arccosh">cosh&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/cubicreg">CubicReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/cumsum">cumSum(</a></li>
+</ul>
+
+<h2 id="d">D</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/dayofwk">dayOfWk(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dbd">dbd(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dec">&#9658;Dec</a></li>
+<li><a href="http://tibasicdev.wikidot.com/degree-mode">Degree</a></li>
+<li><a href="http://tibasicdev.wikidot.com/delvar">DelVar</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dependask">DependAsk</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dependauto">DependAuto</a></li>
+<li><a href="http://tibasicdev.wikidot.com/det">det(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/diagnosticoff">DiagnosticOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/diagnosticon">DiagnosticOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dim">dim(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/disp">Disp</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dispgraph">DispGraph</a></li>
+<li><a href="http://tibasicdev.wikidot.com/disptable">DispTable</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dms">&#9658;DMS</a></li>
+<li><a href="http://tibasicdev.wikidot.com/dot">Dot</a></li>
+<li><a href="http://tibasicdev.wikidot.com/drawf">DrawF</a></li>
+<li><a href="http://tibasicdev.wikidot.com/drawinv">DrawInv</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ds">DS&lt;(</a></li>
+</ul>
+
+<h2 id="e">E</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/e-value">e</a></li>
+<li><a href="http://tibasicdev.wikidot.com/e-exponent">e^(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/e-ten">E</a></li>
+<li><a href="http://tibasicdev.wikidot.com/eff">&#9658;Eff(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/else">Else</a></li>
+<li><a href="http://tibasicdev.wikidot.com/end">End</a></li>
+<li><a href="http://tibasicdev.wikidot.com/eng">Eng</a></li>
+<li><a href="http://tibasicdev.wikidot.com/equ-string">Equ&#9658;String(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/execlib">ExecLib</a></li>
+<li><a href="http://tibasicdev.wikidot.com/expr">expr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/expreg">ExpReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/exproff">ExprOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/expron">ExprOn</a></li>
+</ul>
+
+<h2 id="f">F</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/fcdf">Fcdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fill">Fill(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fix">Fix</a></li>
+<li><a href="http://tibasicdev.wikidot.com/float">Float</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fmax">fMax(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fmin">fMin(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fnint">fnInt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fnoff">FnOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fnon">FnOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/for">For(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fpart">fPart(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/fpdf">Fpdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/frac">&#9658;Frac</a></li>
+<li><a href="http://tibasicdev.wikidot.com/full">Full</a></li>
+<li><a href="http://tibasicdev.wikidot.com/func">Func</a></li>
+</ul>
+
+<h2 id="g">G</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/garbagecollect">GarbageCollect</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gcd">gcd(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/geometcdf">geometcdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/geometpdf">geometpdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/get">Get(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/getcalc">GetCalc(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/getdate">getDate</a></li>
+<li><a href="http://tibasicdev.wikidot.com/getdtfmt">getDtFmt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/getdtstr">getDtStr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/getkey">getKey</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gettime">getTime</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gettmfmt">getTmFmt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gettmstr">getTmStr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/goto">Goto</a></li>
+<li><a href="http://tibasicdev.wikidot.com/graphstyle">GraphStyle(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gridoff">GridOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/gridon">GridOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/g-t">G-T</a></li>
+</ul>
+
+<h2 id="h">H</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/plotn#histogram">Histogram</a></li>
+<li><a href="http://tibasicdev.wikidot.com/horiz">Horiz</a></li>
+<li><a href="http://tibasicdev.wikidot.com/horizontal">Horizontal</a></li>
+</ul>
+
+<h2 id="i">I</h2>
+
+<ul>
+<li><em><a href="http://tibasicdev.wikidot.com/i">i</a></em></li>
+<li><a href="http://tibasicdev.wikidot.com/identity">identity(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/if">If</a></li>
+<li><a href="http://tibasicdev.wikidot.com/imag">imag(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/indpntask">IndpntAsk</a></li>
+<li><a href="http://tibasicdev.wikidot.com/indpntauto">IndpntAuto</a></li>
+<li><a href="http://tibasicdev.wikidot.com/input">Input</a></li>
+<li><a href="http://tibasicdev.wikidot.com/instring">inString(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/int">int(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sigmaint">&#931;Int(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/invnorm">invNorm(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/invt">invT(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ipart">iPart(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/irr">irr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/is">IS&gt;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/isclockon">IsClockOn</a></li>
+</ul>
+
+<h2 id="l">L</h2>
+
+<ul>
+<li><span style="font-size:80%;"><a href="http://tibasicdev.wikidot.com/l">L</a></span></li>
+<li><a href="http://tibasicdev.wikidot.com/labeloff">LabelOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/labelon">LabelOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/lbl">Lbl</a></li>
+<li><a href="http://tibasicdev.wikidot.com/lcm">lcm(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/length">length(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/line">Line(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/linreg-a-bx">LinReg(a+bx)</a></li>
+<li><a href="http://tibasicdev.wikidot.com/linreg-ax-b">LinReg(ax+b)</a></li>
+<li><a href="http://tibasicdev.wikidot.com/linregtint">LinRegTInt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/linregttest">LinRegTTest</a></li>
+<li><a href="http://tibasicdev.wikidot.com/deltalist">&#8710;List(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/list-matr">List&#9658;matr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ln">ln(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/lnreg">LnReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/log">log(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/logistic">Logistic</a></li>
+</ul>
+
+<h2 id="m">M</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/manual-fit">Manual-Fit</a></li>
+<li><a href="http://tibasicdev.wikidot.com/matr-list">Matr&#9658;list(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/max">max(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/mean">mean(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/median">median(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/med-med">Med-Med</a></li>
+<li><a href="http://tibasicdev.wikidot.com/menu">Menu(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/min">min(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn#modboxplot">ModBoxplot</a></li>
+</ul>
+
+<h2 id="n">N</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/ncr">nCr</a></li>
+<li><a href="http://tibasicdev.wikidot.com/nderiv">nDeriv(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/nom">&#9658;Nom(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/normal">Normal</a></li>
+<li><a href="http://tibasicdev.wikidot.com/normalcdf">normalcdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/normalpdf">normalpdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn#normprobplot">NormProbPlot</a></li>
+<li><a href="http://tibasicdev.wikidot.com/not">not(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/npr">nPr</a></li>
+<li><a href="http://tibasicdev.wikidot.com/npv">npv(</a></li>
+</ul>
+
+<h2 id="o">O</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/openlib">OpenLib(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/or">or</a></li>
+<li><a href="http://tibasicdev.wikidot.com/output">Output(</a></li>
+</ul>
+
+<h2 id="p">P</h2>
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/param">Param</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pause">Pause</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn">Plot1(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn">Plot2(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn">Plot3(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotsoff">PlotsOff</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotson">PlotsOn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pmt-bgn">Pmt_Bgn</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pmt-end">Pmt_End</a></li>
+<li><a href="http://tibasicdev.wikidot.com/poissoncdf">poissoncdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/poissonpdf">poissonpdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/polar-mode">Polar</a></li>
+<li><a href="http://tibasicdev.wikidot.com/polar-display">&#9658;Polar</a></li>
+<li><a href="http://tibasicdev.wikidot.com/polargc">PolarGC</a></li>
+<li><a href="http://tibasicdev.wikidot.com/prgm">prgm</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sigmaprn">&#931;Prn(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/prod">prod(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/prompt">Prompt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pt-change">Pt-Change(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pt-off">Pt-Off(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pt-on">Pt-On(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pwrreg">PwrReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pxl-change">Pxl-Change(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pxl-off">Pxl-Off(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pxl-on">Pxl-On(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/pxl-test">pxl-Test(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/p-rx">P&#9658;Rx(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/p-ry">P&#9658;Ry(</a></li>
+</ul>
+
+<h2 id="q">Q</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/quadreg">QuadReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/quartreg">QuartReg</a></li>
+</ul>
+
+<h2 id="r">R</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/radian-mode">Radian</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rand">rand</a></li>
+<li><a href="http://tibasicdev.wikidot.com/randbin">randBin(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/randint">randInt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/randm">randM(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/randnorm">randNorm(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/re-thetai">re^&#952;i</a></li>
+<li><a href="http://tibasicdev.wikidot.com/real-mode">Real</a></li>
+<li><a href="http://tibasicdev.wikidot.com/real-func">real(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/recallgdb">RecallGDB</a></li>
+<li><a href="http://tibasicdev.wikidot.com/recallpic">RecallPic</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rect">&#9658;Rect</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rectgc">RectGC</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ref">ref(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/repeat">Repeat</a></li>
+<li><a href="http://tibasicdev.wikidot.com/return">Return</a></li>
+<li><a href="http://tibasicdev.wikidot.com/round">round(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/timesrow">*row(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rowplus">row+(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/timesrowplus">*row+(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rowswap">rowSwap(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/rref">rref(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/r-pr">R&#9658;Pr(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/r-ptheta">R&#9658;P&#952;(</a></li>
+</ul>
+
+<h2 id="s">S</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/plotn#scatter">Scatter</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sci">Sci</a></li>
+<li><a href="http://tibasicdev.wikidot.com/select">Select(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/send">Send(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/seq-list">seq(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/seq-mode">Seq</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sequential">Sequential</a></li>
+<li><a href="http://tibasicdev.wikidot.com/setdate">setDate(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/setdtfmt">setDtFmt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/settime">setTime(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/settmfmt">setTmFmt(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/setupeditor">SetUpEditor</a></li>
+<li><a href="http://tibasicdev.wikidot.com/shade">Shade(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/shadechisquare">Shade&#967;&#178;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/shadef">ShadeF(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/shadenorm">ShadeNorm(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/shade-t">Shade_t(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/simul">Simul</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sin">sin(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arcsin">sin&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sinh">sinh(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arcsinh">sinh&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sinreg">SinReg</a></li>
+<li><a href="http://tibasicdev.wikidot.com/solve">solve(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sorta">SortA(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sortd">SortD(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/starttmr">startTmr</a></li>
+<li><a href="http://tibasicdev.wikidot.com/stddev">stdDev(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/stop">Stop</a></li>
+<li><a href="http://tibasicdev.wikidot.com/storegdb">StoreGDB</a></li>
+<li><a href="http://tibasicdev.wikidot.com/storepic">StorePic</a></li>
+<li><a href="http://tibasicdev.wikidot.com/string-equ">String&#9658;Equ(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sub">sub(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/sum">sum(</a></li>
+</ul>
+
+<h2 id="t">T</h2>
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/tan">tan(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arctan">tan&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tangent">Tangent(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tanh">tanh(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/arctanh">tanh&#8254;&#185;(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tcdf">tcdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/text">Text(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/then">Then</a></li>
+<li><a href="http://tibasicdev.wikidot.com/time">Time</a></li>
+<li><a href="http://tibasicdev.wikidot.com/timecnv">timeCnv(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tinterval">TInterval</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tpdf">tpdf(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/trace">Trace</a></li>
+<li><a href="http://tibasicdev.wikidot.com/t-test">T-Test</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tvm">tvm_FV</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tvm">tvm_I%</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tvm">tvm_N</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tvm">tvm_Pmt</a></li>
+<li><a href="http://tibasicdev.wikidot.com/tvm">tvm_PV</a></li>
+</ul>
+
+<h2 id="u">U</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/unarchive">UnArchive</a></li>
+<li><a href="http://tibasicdev.wikidot.com/uvaxes">uvAxes</a></li>
+<li><a href="http://tibasicdev.wikidot.com/uwaxes">uwAxes</a></li>
+</ul>
+
+<h2 id="v">V</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/variance">variance(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/vertical">Vertical</a></li>
+<li><a href="http://tibasicdev.wikidot.com/vwaxes">vwAxes</a></li>
+</ul>
+
+<h2 id="w">W</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/web">Web</a></li>
+<li><a href="http://tibasicdev.wikidot.com/while">While</a></li>
+</ul>
+
+<h2 id="x">X</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/xor">xor</a></li>
+<li><a href="http://tibasicdev.wikidot.com/plotn#xyline">xyLine</a></li>
+</ul>
+
+<h2 id="z">Z</h2>
+
+<ul>
+<li><a href="http://tibasicdev.wikidot.com/zbox">ZBox</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zdecimal">ZDecimal</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zinteger">ZInteger</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zinterval">ZInterval</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoom-in">Zoom In</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoom-out">Zoom Out</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoomfit">ZoomFit</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoomrcl">ZoomRcl</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoomstat">ZoomStat</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zoomsto">ZoomSto</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zprevious">ZPrevious</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zsquare">ZSquare</a></li>
+<li><a href="http://tibasicdev.wikidot.com/zstandard">ZStandard</a></li>
+<li><a href="http://tibasicdev.wikidot.com/z-test">Z-Test(</a></li>
+<li><a href="http://tibasicdev.wikidot.com/ztrig">ZTrig</a></li>
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript" src="http://tibasicdev.wikidot.com/local--files/nav:forum/combine.js"></script>
+<script type="text/javascript">
+Event.observe(window, 'load', loadAccordions, false);
+function loadAccordions() {
+	var horizontalAccordion = new accordion('accordion_container', {
+		classNames: {
+			toggle: 'accordion_toggle',
+			toggleActive: 'accordion_toggle_active',
+			content: 'accordion_content'
+		},
+		direction: 'horizontal'
+	});
+horizontalAccordion.activate($$('#accordion_container .accordion_toggle')[2]);
+}
+</script>
+<style type="text/css">
+#accordion_container {
+  margin: 0;
+  padding: 0;
+  height: 22px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.accordion_toggle {
+	margin: 0;
+	float: right;
+	display: block;
+	height: 22px;
+	width: 22px;
+	color: #000;
+	background: #e7e9dc;
+	border: 1px solid #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.accordion_toggle_active {
+  background: #999;
+  border-left: 0;
+}
+.accordion_content {
+	float: right;
+	height: 22px;
+	overflow: hidden;
+}
+.accordion_content p {
+	margin: 0;
+	padding: 2px 5px;
+	width: 400px;
+	color: #000;
+	height: 22px;
+	font-size: 12px;
+	font-family: 'Lucida Grande',Arial;
+	background: #e7e9dc;
+	border: 1px solid #999;
+}
+</style>
+</head>
+<body>
+<div id="accordion_container">
+<p class="accordion_toggle"><img src="http://tibasicdev.wikidot.com/local--files/nav:forum/raw.png" width="22px" height="22px"/></p>
+<div style="width:0; height: 0; display:none;" class="accordion_content">
+<p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+</div>
+</div>
+</body>
+</html>
