@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH
-1. RIGHT to NUM
-1. ALPHA B
+2. RIGHT to NUM
+3. ALPHA B
 
 Alternatively, access the catalog.
        

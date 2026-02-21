@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. ENTER to select ZBox.
+2. ENTER to select ZBox.
        
 # The ZBox Command
 

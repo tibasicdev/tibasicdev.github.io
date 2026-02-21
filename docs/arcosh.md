@@ -7,8 +7,8 @@
 ### Menu Location
 The coshֿ¹( command can only be found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. C to skip to commands starting with C.
-1. Scroll down and select coshֿ¹(
+2. C to skip to commands starting with C.
+3. Scroll down and select coshֿ¹(
        
 # The coshֿ¹( Command
 

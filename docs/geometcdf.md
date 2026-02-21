@@ -7,23 +7,23 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. ALPHA E to select geometcdf(, or use arrows.
+2. ALPHA E to select geometcdf(, or use arrows.
 Press ALPHA F instead of ALPHA E on a TI-84+/SE with OS 2.30 or higher.
        
 # The geometcdf( Command
 
 This command is used to calculate cumulative geometric probability. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 1. A specific event has only two outcomes, which we will call "success" and "failure"
-1. The event is going to keep happening until a success occurs
-1. Success or failure is determined randomly with the same probability of success each time the event occurs
-1. We're interested in the probability that it takes **at most** a specific amount of trials to get a success.
+2. The event is going to keep happening until a success occurs
+3. Success or failure is determined randomly with the same probability of success each time the event occurs
+4. We're interested in the probability that it takes **at most** a specific amount of trials to get a success.
 
 For example, consider a basketball player that always makes a shot with 1/4 probability. He will keep throwing the ball until he makes a shot. What is the probability that it takes him no more than 4 shots?
 
 1. The event here is throwing the ball. A "success", obviously, is making the shot, and a "failure" is missing.
-1. The event is going to happen until he makes the shot: a success.
-1. The probability of a success - making a shot - is 1/4
-1. We're interested in the probability that it takes at most 4 trials to get a success
+2. The event is going to happen until he makes the shot: a success.
+3. The probability of a success - making a shot - is 1/4
+4. We're interested in the probability that it takes at most 4 trials to get a success
  
 The syntax here is `geometcdf(*probability*, *trials*)`. In this case:
 ```

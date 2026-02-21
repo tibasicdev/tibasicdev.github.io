@@ -7,13 +7,13 @@
 ### Menu Location
 Press:
 1. MATRX (on the 83) or 2nd MATRX (83+ or higher) to access the matrix menu
-1. LEFT to access the MATH submenu
-1. 9 to select List►matr(, or use arrows.
+2. LEFT to access the MATH submenu
+3. 9 to select List►matr(, or use arrows.
 
 Alternatively, press:
 1. 2nd LIST to access the list menu
-1. LEFT to access the OPS submenu
-1. 0 to select List►matr(, or use arrows
+2. LEFT to access the OPS submenu
+3. 0 to select List►matr(, or use arrows
        
 # The List►matr( Command
 

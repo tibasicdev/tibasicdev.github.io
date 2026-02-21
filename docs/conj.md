@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT, RIGHT to access the CPX (complex) submenu
-1. ENTER to select conj(.
+2. RIGHT, RIGHT to access the CPX (complex) submenu
+3. ENTER to select conj(.
        
 # The conj( Command
 

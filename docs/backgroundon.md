@@ -7,8 +7,8 @@
 ### Menu Location
 Press
 1. 2ND DRAW to access the draw menu
-1. Navigate to BACKGROUND submenu
-1. Enter or 1 to select BackgroundOn
+2. Navigate to BACKGROUND submenu
+3. Enter or 1 to select BackgroundOn
        
 # The BackgroundOn Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MATH to open the [math](math.html) menu
-1. ENTER or 1 to select.
+2. ENTER or 1 to select.
        
 # The ►Frac Command
 

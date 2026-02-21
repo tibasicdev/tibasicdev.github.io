@@ -2,9 +2,9 @@
 When contributing a tip or trick, please follow these guidelines:
 
 1. A tip/trick about using a command should only be included if it is undocumented or not well-known.
-1. A tip/trick should have some practical application as part of a program, and not just be something trivial.
-1. A tip/trick about making a program more efficient generally belongs on the [optimization](optimize.html) page.
-1. A tip/trick should be thoroughly explained and tested to make sure others can use it correctly.
+2. A tip/trick should have some practical application as part of a program, and not just be something trivial.
+3. A tip/trick about making a program more efficient generally belongs on the [optimization](optimize.html) page.
+4. A tip/trick should be thoroughly explained and tested to make sure others can use it correctly.
 
 
 ----

@@ -32,7 +32,7 @@ As for speed, the routine is far faster than the [Circle(](circle.html) command.
 
 This routine draws an ellipse given its pixel coordinates in two overall steps:
 1. First, it calculates the window dimensions so that the unit circle (centered at the origin, with radius 1) will be stretched to the required pixel coordinates.
-1. Next, it draws the unit circle.
+2. Next, it draws the unit circle.
 
 If the unit circle is stretched to fit in the rectangle from (A,B) to (C,D) then we know the following: 
 - The vertical distance from A to C (in pixel rows) should be equivalent to the window distance 2 (from -1 to 1). This allows us to solve for ΔY.

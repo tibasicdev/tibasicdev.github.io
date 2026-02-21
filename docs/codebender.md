@@ -39,8 +39,8 @@ Buzz Word:= A handy morsel of information.
 Before we start, I would like to give a few words of advice:
 
 1. Never give up on a program, even if it seems impossible to complete, for you can program pretty much *anything* on a calculator (except color).     ;-)
-1. Remember, there is no "wrong way" to program; there are more efficient and less efficient ways, but feel free to stretch the limits and build your own style to program.
-1. **Bend the Codes!**
+2. Remember, there is no "wrong way" to program; there are more efficient and less efficient ways, but feel free to stretch the limits and build your own style to program.
+3. **Bend the Codes!**
 
 
 So, lets get started!

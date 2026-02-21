@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MODE
-1. DOWN until you reach Mathprint or Classic
-1. ENTER on Mathprint
+2. DOWN until you reach Mathprint or Classic
+3. ENTER on Mathprint
 
 Alternatively, use the catalog.
        

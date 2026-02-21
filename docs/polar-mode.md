@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MODE to access the mode menu.
-1. Use arrows to select Pol.
+2. Use arrows to select Pol.
        
 # The Polar Command
 

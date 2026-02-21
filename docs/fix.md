@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MODE to access the mode menu.
-1. Use arrows to select a number 0-9 from the 2nd line.
+2. Use arrows to select a number 0-9 from the 2nd line.
 This will paste Fix *number*. Outside a program, it will simply put the calculator in the appropriate mode.
        
 # The Fix Command

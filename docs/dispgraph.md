@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to access the program menu.
-1. RIGHT to access the I/O submenu.
-1. 4 to select DispGraph, or use arrows and ENTER.
+2. RIGHT to access the I/O submenu.
+3. 4 to select DispGraph, or use arrows and ENTER.
        
 # The DispGraph Command
 

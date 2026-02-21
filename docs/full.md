@@ -7,8 +7,8 @@
 ### Menu Location
 In the BASIC editor,
 1. Press [MODE]
-1. Press [DOWN] seven times
-1. Press [ENTER] to insert Full
+2. Press [DOWN] seven times
+3. Press [ENTER] to insert Full
        
 # The Full Command
 

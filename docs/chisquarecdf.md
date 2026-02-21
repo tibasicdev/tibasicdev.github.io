@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 7 to select χ²cdf(, or use arrows.
+2. 7 to select χ²cdf(, or use arrows.
 Press 8 instead of 7 on a TI-84+/SE with OS 2.30 or higher.
        
 # The χ²cdf( Command

@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. ENTER to select Z-Test(
+2. LEFT to access the TESTS submenu
+3. ENTER to select Z-Test(
 (outside the program editor, this will select the Z-Test... interactive solver)
        
 # The Z-Test( Command

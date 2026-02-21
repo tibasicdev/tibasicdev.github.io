@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 4 to select tpdf(, or use arrows.
+2. 4 to select tpdf(, or use arrows.
 Press 5 instead of 4 on a TI-84+/SE with OS 2.30 or higher.
        
 # The tpdf( Command

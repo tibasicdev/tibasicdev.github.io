@@ -19,7 +19,7 @@ You can create rows of text spites this way.  You could then stack these rows up
 
 This chart contains the best characters to use for each pixel combination when drawing a text sprite:
 1. Each is at most three pixels wide (not counting the 1-pixel margin to the left of each character).
-1. When possible, they are 1-byte characters, or if not, at least commonly accessible.
+2. When possible, they are 1-byte characters, or if not, at least commonly accessible.
 
 
 | Char. | Binary | Decimal | Char. | Binary | Decimal |

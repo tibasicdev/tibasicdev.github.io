@@ -2,22 +2,22 @@
 ## Review
 
 1. What are the advantages of TI-Basic compared to assembly?
-1. Where do you edit programs on the calculator?
-1. What characters are allowed for a program name?
-1. How do you get an ERR:BREAK error?
-1. How do you get the letter variables A through Z?
-1. How do you store a value to a variable?
-1. Describe what input and output are, and give an example of each.
-1. What is the value of this conditional — A/B and C≥D — when A=52, B=3, C=0, and D=2?
-1. How many options are allowed in a Menu( command?
-1. Describe how a For( loop works, and give an example.
+2. Where do you edit programs on the calculator?
+3. What characters are allowed for a program name?
+4. How do you get an ERR:BREAK error?
+5. How do you get the letter variables A through Z?
+6. How do you store a value to a variable?
+7. Describe what input and output are, and give an example of each.
+8. What is the value of this conditional — A/B and C≥D — when A=52, B=3, C=0, and D=2?
+9. How many options are allowed in a Menu( command?
+10. Describe how a For( loop works, and give an example.
 
 ## Programming
 
 1. Write a program that displays your name and age centered on the screen, underneath one another.
-1. Modify the STATES program below by adding a couple more options for U.S. states.
-1. Write a program that computes the sum of the first N positive integers, for a user-supplied value of N.
-1. Modify the NUMBERS program below to only display odd numbers.
+2. Modify the STATES program below by adding a couple more options for U.S. states.
+3. Write a program that computes the sum of the first N positive integers, for a user-supplied value of N.
+4. Modify the NUMBERS program below to only display odd numbers.
 
 ```
 PROGRAM:STATES

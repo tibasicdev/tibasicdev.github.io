@@ -23,11 +23,11 @@ Use the [Nspire:glossary](nspire:glossary.html) whenever you come across a term 
 
 Of course, the best way to learn these topics is to come up with a project of yourself (check the [Nspire:projects](nspire:projects.html) page if you have no ideas), and go through the steps as you're doing it:
 1. Look at [Nspire:Planning](nspire:planning.html) when you're thinking about how to approach the problem.
-1. Consider [Commenting code](nspire:comments.html) when you're writing it.
-1. If bugs arise (and they most likely will), see the section on [Nspire:Debugging](nspire:debugging.html).
-1. When the program works, add [Nspire:Setup and Cleanup](nspire:setup-and-cleanup.html) to it, and check the section on [Nspire:Usability](nspire:usability.html).
-1. If the program is too slow (and maybe even when it's not), see [Nspire:Optimization](nspire:optimization.html) and [Code Timings](nspire:timings.html) for ways to improve it.
-1. Finally, see [Nspire:Releasing Your Program](nspire:releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
+2. Consider [Commenting code](nspire:comments.html) when you're writing it.
+3. If bugs arise (and they most likely will), see the section on [Nspire:Debugging](nspire:debugging.html).
+4. When the program works, add [Nspire:Setup and Cleanup](nspire:setup-and-cleanup.html) to it, and check the section on [Nspire:Usability](nspire:usability.html).
+5. If the program is too slow (and maybe even when it's not), see [Nspire:Optimization](nspire:optimization.html) and [Code Timings](nspire:timings.html) for ways to improve it.
+6. Finally, see [Nspire:Releasing Your Program](nspire:releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
 
 These are listed in the Writing Programs section of the side navigation menu.
 

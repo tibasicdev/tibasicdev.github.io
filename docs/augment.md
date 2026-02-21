@@ -7,13 +7,13 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the List menu
-1. RIGHT to access the OPS submenu
-1. 9 to select augment(, or use arrows
+2. RIGHT to access the OPS submenu
+3. 9 to select augment(, or use arrows
 
 Alternatively, press:
 1. MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the Matrix menu
-1. RIGHT to access the MATH submenu
-1. 7 to select augment(, or use arrows
+2. RIGHT to access the MATH submenu
+3. 7 to select augment(, or use arrows
        
 # The augment( Command
 

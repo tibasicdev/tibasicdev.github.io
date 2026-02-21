@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd PLOT to access the stat plot menu.
-1. 5 to select PlotsOn, or use arrows and ENTER.
+2. 5 to select PlotsOn, or use arrows and ENTER.
        
 # The PlotsOn Command
 

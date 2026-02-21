@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. RIGHT to enter the I/O menu
-1. 3 to select Disp (or use arrows to select)
+2. RIGHT to enter the I/O menu
+3. 3 to select Disp (or use arrows to select)
        
 # The Disp Command
 

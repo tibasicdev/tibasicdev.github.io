@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. 2nd LIST to enter the LIST menu
-1. RIGHT to enter the OPS submenu
-1. 5 to choose seq(, or use arrows.
+2. RIGHT to enter the OPS submenu
+3. 5 to choose seq(, or use arrows.
        
 # The seq( Command
 

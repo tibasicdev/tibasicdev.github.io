@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd PRGM to access the draw menu.
-1. 5 to select Tangent(, or use arrows and ENTER.
+2. 5 to select Tangent(, or use arrows and ENTER.
        
 # The Tangent( Command
 

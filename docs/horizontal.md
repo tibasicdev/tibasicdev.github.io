@@ -7,7 +7,7 @@
 ### Menu Location
 In the program editor:
 1. 2nd DRAW to enter the draw menu
-1. 3 to insert the Horizontal command, or use arrows and ENTER.
+2. 3 to insert the Horizontal command, or use arrows and ENTER.
        
 # The Horizontal Command
 

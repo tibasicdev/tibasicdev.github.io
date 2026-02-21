@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. g to skip to commands starting with G
-1. Scroll down to getTmFmt( and select it
+2. g to skip to commands starting with G
+3. Scroll down to getTmFmt( and select it
        
 # The getTmFmt Command
 

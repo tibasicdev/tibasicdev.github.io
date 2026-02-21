@@ -7,8 +7,8 @@
 ### Menu Location
 The cosh( command is only found in the Catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. C to skip to commands starting with C.
-1. Scroll down and select cosh(.
+2. C to skip to commands starting with C.
+3. Scroll down and select cosh(.
        
 # The cosh( Command
 

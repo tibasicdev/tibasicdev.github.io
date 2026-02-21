@@ -7,8 +7,8 @@
 ### Menu Location
 When editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. 0 to select 2-SampTInt, or use arrows
+2. LEFT to access the TESTS submenu
+3. 0 to select 2-SampTInt, or use arrows
 (this key sequence will give you the 2-SampTInt... screen outside a program)
        
 # The 2-SampTInt Command

@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. 2nd PRGM to enter the DRAW menu
-1. RIGHT to enter the POINTS menu
-1. 5 to choose Pxl-Off(, or use arrows
+2. RIGHT to enter the POINTS menu
+3. 5 to choose Pxl-Off(, or use arrows
        
 # The Pxl-Off( Command
 

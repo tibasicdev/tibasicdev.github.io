@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND Zoom to access format menu.
-1. Scroll down to BorderColor and use arrows.
+2. Scroll down to BorderColor and use arrows.
 
 It can also be found under the catalog.
        

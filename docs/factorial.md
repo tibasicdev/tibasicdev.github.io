@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. LEFT to access the PRB submenu.
-1. 4 to select !, or use arrows.
+2. LEFT to access the PRB submenu.
+3. 4 to select !, or use arrows.
        
 # The ! Command
 

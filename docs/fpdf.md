@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 8 to select Fpdf(, or use arrows.
+2. 8 to select Fpdf(, or use arrows.
 Press 9 instead of 8 on a TI-84+/SE with OS 2.30 or higher.
        
 # The Fpdf( Command

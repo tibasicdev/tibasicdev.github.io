@@ -7,8 +7,8 @@
 ### Menu Location
 This command is found only in the catalog. Press:
 1. 2nd CATALOG to access the catalog
-1. F to skip to commands starting with F
-1. Scroll up to Equ►String( and select it.
+2. F to skip to commands starting with F
+3. Scroll up to Equ►String( and select it.
        
 # The Equ►String( Command
 
@@ -26,10 +26,10 @@ Apart from cases in which the user has already stored to the equation variable p
 You can use `Equ►String(` (outside a program) to get the [`→`](store.html) or " symbols in a string:
 
 1. Type them on the home screen and press [ENTER]
-1. Select 2:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
-1. Press [Y=] to go to the equation editor.
-1. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
-1. Now, use `Equ►String(`Y<sub>1</sub>,Str1`)` to store the symbols to a string.
+2. Select 2:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
+3. Press [Y=] to go to the equation editor.
+4. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
+5. Now, use `Equ►String(`Y<sub>1</sub>,Str1`)` to store the symbols to a string.
 
 ## Related Commands
 

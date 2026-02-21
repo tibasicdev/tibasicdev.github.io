@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. ALPHA D to select 2-SampFTest, or use arrows
+2. LEFT to access the TESTS submenu
+3. ALPHA D to select 2-SampFTest, or use arrows
 Outside the program editor, this will select the 2-SampFTest... interactive solver.
 
 Change the last keypress to ALPHA E on a TI-84+/SE with OS 2.30 or higher.

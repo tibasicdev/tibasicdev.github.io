@@ -7,8 +7,8 @@
 ### Menu Location
 This command is only found in the catalog menu. Press:
 1. 2nd CATALOG to access the command catalog.
-1. O to skip to commands starting with O.
-1. ENTER to select OpenLib(.
+2. O to skip to commands starting with O.
+3. ENTER to select OpenLib(.
        
 # The OpenLib( Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. 8 to choose Pause, or use arrows
+2. 8 to choose Pause, or use arrows
        
 # The Pause Command
 

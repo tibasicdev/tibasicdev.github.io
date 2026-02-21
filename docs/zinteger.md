@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 8 to select ZInteger, or use arrows and ENTER.
+2. 8 to select ZInteger, or use arrows and ENTER.
        
 # The ZInteger Command
 

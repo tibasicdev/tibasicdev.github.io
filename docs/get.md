@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to access the program menu.
-1. RIGHT to access the I/O menu.
-1. ALPHA A to select Get(.
+2. RIGHT to access the I/O menu.
+3. ALPHA A to select Get(.
        
 # The Get( Command
 

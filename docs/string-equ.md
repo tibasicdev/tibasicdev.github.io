@@ -7,8 +7,8 @@
 ### Menu Location
 This command is found only in the catalog. Press:
 1. 2nd CATALOG to access the catalog
-1. T to skip to commands starting with T
-1. Scroll up to String►Equ( and select it.
+2. T to skip to commands starting with T
+3. Scroll up to String►Equ( and select it.
        
 # The String►Equ( Command
 

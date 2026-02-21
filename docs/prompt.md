@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. PRGM to enter the PRGM menu
-1. RIGHT to enter the I/O menu
-1. 2 to choose Prompt, or use arrows
+2. RIGHT to enter the I/O menu
+3. 2 to choose Prompt, or use arrows
        
 # The Prompt Command
 

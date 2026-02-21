@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd TBLSET to access the table settings menu.
-1. Use arrows and ENTER to select Auto from the Depend: line.
+2. Use arrows and ENTER to select Auto from the Depend: line.
        
 # The DependAuto Command
 

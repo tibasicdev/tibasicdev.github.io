@@ -15,8 +15,8 @@ The RandSeed command seeds the random number generator. The value you use should
 
 To explain what this means, first you have to understand how pseudo-random number generators work. Every time a command like [68k:rand()](68k:rand.html) is called the calculator gives a different number — this means that the calculator must keep some variable around that changes when rand() is called. This variable is called the seed. Generating a random number is done as follows:
 1. To get the number itself, apply some function that takes the seed to a real number between 0 and 1 (for a simple rand() call).
-1. If a different type of random number is needed (e.g. a random integer), the real number 0..1 is adjusted in some way.
-1. The seed itself is updated by some carefully chosen mathematical operation.
+2. If a different type of random number is needed (e.g. a random integer), the real number 0..1 is adjusted in some way.
+3. The seed itself is updated by some carefully chosen mathematical operation.
 
 "Seeding" the random number generator means setting the seed to some specific value. This is done for two reasons:
 - To ensure randomness, you might seed the random generator with the current time — that way, it's guaranteed to be different every second of every day.
@@ -42,8 +42,8 @@ Seed the RNG with the current time by using the following command:
 The random number generator is very popular as an encryption method to implement on calculators. This is done as follows:
 
 1. Use the encryption key as a random number seed.
-1. Do something to the text to be encrypted that involves random numbers (e.g. a randomly generated [One-Time Pad](https://en.wikipedia.org/wiki/one-time_pad))
-1. To decrypt, use the encryption key as a seed, and reverse the operation above.
+2. Do something to the text to be encrypted that involves random numbers (e.g. a randomly generated [One-Time Pad](https://en.wikipedia.org/wiki/one-time_pad))
+3. To decrypt, use the encryption key as a seed, and reverse the operation above.
 
 Most of the security of this method lies in the obscurity of the random number generator. Someone that has read this page (or someone from Texas Instruments) could break the code in a matter of seconds on a computer; and if they knew anything at all about the message, they could probably break the code with just a calculator.
 

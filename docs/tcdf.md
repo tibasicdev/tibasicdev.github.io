@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 5 to select tcdf(, or use arrows.
+2. 5 to select tcdf(, or use arrows.
 Press 6 instead of 5 on a TI-84+/SE with OS 2.30 or higher.
        
 # The tcdf( Command

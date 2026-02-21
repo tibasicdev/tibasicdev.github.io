@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. 8 to select nDeriv(, or use arrows.
+2. 8 to select nDeriv(, or use arrows.
        
 # The nDeriv( Command
 

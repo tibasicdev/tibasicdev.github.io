@@ -29,10 +29,10 @@ It's not easy to put a → symbol into a string, since "→→Str1 would produce
 However, you can use [Equ►String(](equ-string.html) (outside a program) to get the → or " symbols in a string:
 
 1. Type them on the home screen and press [ENTER]
-1. Select 1:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
-1. Press [Y=] to go to the equation editor.
-1. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
-1. Now, use Equ►String(Y<sub>1</sub>,Str1) to store the symbols to a string.
+2. Select 1:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
+3. Press [Y=] to go to the equation editor.
+4. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
+5. Now, use Equ►String(Y<sub>1</sub>,Str1) to store the symbols to a string.
 
 ## Optimization
 

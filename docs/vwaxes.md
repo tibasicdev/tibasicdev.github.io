@@ -7,7 +7,7 @@
 ### Menu Location
 When [Seq](http://tibasicdev.github.io/seq-mode) mode is enabled, press:
 1. 2nd FORMAT to access the format menu.
-1. Use arrows to select vwAxes.
+2. Use arrows to select vwAxes.
        
 # The vwAxes Command
 

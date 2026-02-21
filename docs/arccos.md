@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. [2nd]
-1. [cosֿ¹]
+2. [cosֿ¹]
        
 # The cosֿ¹( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to access the program menu.
-1. RIGHT to access the I/O submenu.
-1. ALPHA B to select Send(.
+2. RIGHT to access the I/O submenu.
+3. ALPHA B to select Send(.
        
 # The Send( Command
 

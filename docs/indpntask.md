@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd TBLSET to access the table settings menu.
-1. Use arrows and ENTER to select Ask in the Indpnt: line.
+2. Use arrows and ENTER to select Ask in the Indpnt: line.
        
 # The IndpntAsk Command
 

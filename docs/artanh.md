@@ -7,8 +7,8 @@
 ### Menu Location
 The tanhֿ¹( command is only found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. T to skip to commands starting with T.
-1. Scroll down and select tanhֿ¹(
+2. T to skip to commands starting with T.
+3. Scroll down and select tanhֿ¹(
        
 # The tanhֿ¹( Command
 

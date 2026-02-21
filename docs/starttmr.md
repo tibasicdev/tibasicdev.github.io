@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. T to skip to command starting with T
-1. Scroll up to startTmr and select it
+2. T to skip to command starting with T
+3. Scroll up to startTmr and select it
        
 # The startTmr Command
 

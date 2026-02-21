@@ -322,6 +322,13 @@ class Converter:
         # Table of contents
         page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)
 
+        # Fix ordered lists
+        for n in range(1, 100):
+            page = re.sub(rf"^(\s*{n}\. .*?\s+)^(\s*)\d+\. ",
+                          lambda match: f"{match[1]}{match[2]}{n + 1}. ",
+                          page,
+                          flags=re.MULTILINE)
+
         # Leftovers
         page = page.replace("@@", "")
         page, n = re.subn(r"(?s)\[\[([a-z]+)\s+.*?\]\]", lambda match: print(f"Found {match[1]} in {filename}") or "", page)

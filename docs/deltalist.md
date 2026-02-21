@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the list menu.
-1. RIGHT to access the OPS submenu.
-1. 7 to select ΔList(, or use arrows.
+2. RIGHT to access the OPS submenu.
+3. 7 to select ΔList(, or use arrows.
        
 # The ΔList( Command
 

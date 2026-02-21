@@ -7,8 +7,8 @@
 ### Menu Location
 The sinh( command is only found in the Catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. S to skip to commands starting with S.
-1. Scroll down and select sinh(.
+2. S to skip to commands starting with S.
+3. Scroll down and select sinh(.
        
 # The sinh( Command
 

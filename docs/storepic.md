@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to access the draw menu.
-1. LEFT to access the STO submenu.
-1. ENTER to select StorePic
+2. LEFT to access the STO submenu.
+3. ENTER to select StorePic
        
 # The StorePic Command
 

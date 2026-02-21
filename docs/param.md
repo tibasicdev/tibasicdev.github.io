@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MODE to access the mode menu.
-1. Use arrows to select Par.
+2. Use arrows to select Par.
        
 # The Param Command
 

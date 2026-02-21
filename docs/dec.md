@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MATH to enter the [MATH](math.html) menu
-1. 2 or use the arrow keys to select
+2. 2 or use the arrow keys to select
        
 # The ►Dec Command
 

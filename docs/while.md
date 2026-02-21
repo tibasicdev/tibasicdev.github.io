@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. PRGM to enter the PRGM menu
-1. 5 to choose While, or use arrows
-1. 7 to choose End, or use arrows
+2. 5 to choose While, or use arrows
+3. 7 to choose End, or use arrows
        
 # The While Command
 
@@ -33,7 +33,7 @@ Each time the program enters an While  block, the calculator uses 35+(size of th
 Because the While and Repeat commands are so similar, either one can be used in the same situation, but using one usually results in simpler code than the other. To decide which to use, answer some simple questions about the purpose of the code.
 
 1. Should the code inside the loop be executed at least once? (Alternatively, does the condition use some variable that we first use inside the loop?) If it should, use a Repeat loop. Otherwise, use a While loop.
-1. (Only if the previous question doesn't help) Think of the condition based on which the loop keeps going. Is this condition best phrased as "run the loop as long as this is true?" If so, use a While loop. Or is it more like "run the loop until this is true?" If so, Repeat is best.
+2. (Only if the previous question doesn't help) Think of the condition based on which the loop keeps going. Is this condition best phrased as "run the loop as long as this is true?" If so, use a While loop. Or is it more like "run the loop until this is true?" If so, Repeat is best.
 
 Example: we want the user to pick a number, but it has to be positive, so we'll keep asking until it is.
 
@@ -47,7 +47,7 @@ Example: we want the user to pick a number, but it has to be positive, so we'll 
 Another example: we want to wait for the user to [press a key](getkey.html).
 
 1. We're not going to have any code in the loop, all that the loop will have is a condition. So the answer to question 1 is irrelevant.
-1. We can phrase the problem as "run the loop until a key is pressed" or as "run the loop while no key is pressed." However, we have a good way of testing for the former (getKey), while the latter can only be checked with not(getKey). Therefore, it's better to use a Repeat command:
+2. We can phrase the problem as "run the loop until a key is pressed" or as "run the loop while no key is pressed." However, we have a good way of testing for the former (getKey), while the latter can only be checked with not(getKey). Therefore, it's better to use a Repeat command:
 ```
 :Repeat getKey
 :End

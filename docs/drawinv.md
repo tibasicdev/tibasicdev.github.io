@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to access the draw menu.
-1. 8 to select DrawInv, or use arrows and ENTER.
+2. 8 to select DrawInv, or use arrows and ENTER.
        
 # The DrawInv Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. RIGHT to select the DRAW submenu
-1. 3 to select Shadeχ²(, or use arrows
+2. RIGHT to select the DRAW submenu
+3. 3 to select Shadeχ²(, or use arrows
        
 # The Shadeχ²( Command
 

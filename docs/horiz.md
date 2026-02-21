@@ -7,9 +7,9 @@
 ### Menu Location
 In the program editor,
 1. Press [MODE]
-1. Press [DOWN] seven times
-1. Press [RIGHT]
-1. Press [ENTER] to insert Horiz
+2. Press [DOWN] seven times
+3. Press [RIGHT]
+4. Press [ENTER] to insert Horiz
        
 # The Horiz Command
 

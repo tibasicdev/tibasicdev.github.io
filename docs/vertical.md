@@ -7,7 +7,7 @@
 ### Menu Location
 In the program editor:
 1. 2nd DRAW to enter the draw menu.
-1. 4 to insert the Vertical command, or use arrows and ENTER.
+2. 4 to insert the Vertical command, or use arrows and ENTER.
        
 # The Vertical Command
 

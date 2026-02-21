@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to access the draw menu.
-1. LEFT to access the STO submenu.
-1. 2 to select RecallPic, or use arrows and ENTER.
+2. LEFT to access the STO submenu.
+3. 2 to select RecallPic, or use arrows and ENTER.
        
 # The RecallPic Command
 
@@ -21,9 +21,9 @@ The number passed to `RecallPic` must be one of 0 through 9. It has to be a numb
 A combination of `StorePic` and `RecallPic` can be used to maintain a background over which another [sprite](glossary.html#s) moves:
 
 1. Draw the background, and save it to a picture file with `StorePic`.
-1. Next, draw the sprite to the screen.
-1. When you want to move the sprite, erase it, then use `RecallPic` to draw the background again.
-1. Then draw the sprite to its new location on the screen again (this can be done before or after using `RecallPic`).
+2. Next, draw the sprite to the screen.
+3. When you want to move the sprite, erase it, then use `RecallPic` to draw the background again.
+4. Then draw the sprite to its new location on the screen again (this can be done before or after using `RecallPic`).
 
 Also, if a screen in your program takes more than a second to draw, and is displayed several times, you might want to consider storing it to a picture the first time it's drawn, and then recalling it every next time you want to draw it.
 

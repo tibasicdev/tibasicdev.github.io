@@ -63,7 +63,7 @@ For specific details on how to use all of the include templates, see the [inc:ov
 There are some pages on the site which can't be edited by ordinary members alone. This is because we believe that some pages just don't need editing, and don't need to risk being tampered with. In such cases that you believe one of these pages can be improved, then you have one of two options:
 
 1. Start a discussion page in the [forums](forum:home.html); or
-1. Send a private message to one of the [administrators](system:members.html#toc2) or [moderators](system:members.html#toc1).
+2. Send a private message to one of the [administrators](system:members.html#toc2) or [moderators](system:members.html#toc1).
 
 Both options are effective, and so the decision is a matter of preference. If you want the community's opinion on the matter, post it in the forums. If you prefer to keep your conversations private, just send a private message: click on the avatar of the person, and click on the link saying "write private message".
 
@@ -76,6 +76,6 @@ When people upload programs to the [archives](archives.html), it is up to us to 
  - Paste the program URL in the **|downloadUrl=** section
  - Copy the program file name in the **|downloadName=** section (for example, type in "Game.zip")
 1. Click on the "save" button;
-1. Remove the "**_pending**" tag — click on the "tag" button at the bottom of the page, and delete **ONLY** the "_pending" tag.
+2. Remove the "**_pending**" tag — click on the "tag" button at the bottom of the page, and delete **ONLY** the "_pending" tag.
 
 You may want to see the full details of the [tablet include](inc:tablet-help.html).

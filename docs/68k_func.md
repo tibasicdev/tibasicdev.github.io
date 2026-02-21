@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu
-1. F to scroll to the F section
-1. Use arrows to navigate to Func
+2. F to scroll to the F section
+3. Use arrows to navigate to Func
 Or type Func using the keyboard
        
 # Func ... EndFunc Block

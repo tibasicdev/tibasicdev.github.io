@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. PRGM to enter the PRGM menu
-1. 4 to choose For(, or use arrows
-1. 7 to choose End, or use arrows
+2. 4 to choose For(, or use arrows
+3. 7 to choose End, or use arrows
        
 # The For( Command
 
@@ -22,9 +22,9 @@ End
 
 What the loop does:
 1. Stores *start* to *variable*.
-1. If *variable* is greater than *end* (or less than, if *step* is negative), then the `For(` loop ends immediately.
-1. Runs the statement(s).
-1. Adds *step* to *variable* and returns to Step 2.
+2. If *variable* is greater than *end* (or less than, if *step* is negative), then the `For(` loop ends immediately.
+3. Runs the statement(s).
+4. Adds *step* to *variable* and returns to Step 2.
 
 If no value for *step* is given, *step* is assumed to be 1.
 

@@ -7,7 +7,7 @@
 ### Menu Location
 This command is only found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. Scroll down to AsmPrgm and press ENTER.
+2. Scroll down to AsmPrgm and press ENTER.
        
 # The AsmPrgm Command
 

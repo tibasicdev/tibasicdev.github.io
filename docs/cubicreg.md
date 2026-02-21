@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. [STAT] to access the statistics menu
-1. [LEFT] to access the CALC submenu
-1. 6 to select CubicReg, or use arrows
+2. [LEFT] to access the CALC submenu
+3. 6 to select CubicReg, or use arrows
        
 # The CubicReg Command
 

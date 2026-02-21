@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. RIGHT to access the MEMORY submenu.
-1. 3 to select ZoomRcl, or use arrows and ENTER.
+2. RIGHT to access the MEMORY submenu.
+3. 3 to select ZoomRcl, or use arrows and ENTER.
        
 # The ZoomRcl Command
 

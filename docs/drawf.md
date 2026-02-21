@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd PRGM to access the draw menu.
-1. 6 to select DrawF, or use arrows and ENTER.
+2. 6 to select DrawF, or use arrows and ENTER.
        
 # The DrawF Command
 

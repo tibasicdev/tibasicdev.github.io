@@ -78,13 +78,13 @@ First, here is a description of how RSA works.
 
 To generate the key:
 1. We find two large primes P and Q, and find N=PQ which will be used as a modulus. Let M=(P-1)(Q-1).
-1. Take a random integer E, 1<E<M, which has no divisors in common with M.
-1. Find E's inverse mod M: an integer D such that DE ≡ 1 mod M.
-1. The pair (E,N) is the public key, and (D,N) is the private key.
+2. Take a random integer E, 1<E<M, which has no divisors in common with M.
+3. Find E's inverse mod M: an integer D such that DE ≡ 1 mod M.
+4. The pair (E,N) is the public key, and (D,N) is the private key.
 
 To encrypt text:
 1. Divide it into blocks which are encoded as integers A, 1<A<N.
-1. Compute A^E mod N for each block, giving the encrypted version of that block.
+2. Compute A^E mod N for each block, giving the encrypted version of that block.
 
 To decrypt text, encrypt it using D instead of E.
 

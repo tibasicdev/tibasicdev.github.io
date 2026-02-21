@@ -31,11 +31,11 @@ You can find even more information, documentation, and tutorials on external sit
 Of course, the best way to learn these topics is to come up with a project of yourself (check the [project-ideas](project-ideas.html) page if you have no ideas), and go through the steps as you're doing it:
 
 1. Look at [Planning](plan.html) when you're thinking about how to approach the problem.
-1. Consider [Commenting Code](comments.html) and [Code Conventions](code-conventions.html) when you're writing it.
-1. If bugs arise (and they most likely will), see the section on [Debugging](debug.html).
-1. When the program works, add [Setup](setup.html) and [Cleanup](cleanup.html) to it, and check the sections on [Usability](usability.html) and [Portability](portability.html).
-1. If the program is too slow (and maybe even when it's not), see [Optimization](optimize.html) and [Code Timings](timings.html) for ways to improve it.
-1. Finally, see [Releasing Your Program](releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
+2. Consider [Commenting Code](comments.html) and [Code Conventions](code-conventions.html) when you're writing it.
+3. If bugs arise (and they most likely will), see the section on [Debugging](debug.html).
+4. When the program works, add [Setup](setup.html) and [Cleanup](cleanup.html) to it, and check the sections on [Usability](usability.html) and [Portability](portability.html).
+5. If the program is too slow (and maybe even when it's not), see [Optimization](optimize.html) and [Code Timings](timings.html) for ways to improve it.
+6. Finally, see [Releasing Your Program](releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
 
 These are listed in the Design section of the side navigation menu.
 

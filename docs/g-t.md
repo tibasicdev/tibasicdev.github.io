@@ -7,9 +7,9 @@
 ### Menu Location
 In the program editor,
 1. Press [MODE] for the mode menu
-1. Press [DOWN] seven times (for the split screen commands) 
-1. Press [RIGHT] twice to select G-T
-1. Press [ENTER] to insert it
+2. Press [DOWN] seven times (for the split screen commands) 
+3. Press [RIGHT] twice to select G-T
+4. Press [ENTER] to insert it
 This command can be used on the home screen, but must be selected from the catalog.
        
 # The G-T Command

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to access the draw menu.
-1. 7 to select Shade(, or use arrows.
+2. 7 to select Shade(, or use arrows.
        
 # The Shade( Command
 

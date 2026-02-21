@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. ALPHA APPS (or 'B') to choose DS<(, or use arrows
+2. ALPHA APPS (or 'B') to choose DS<(, or use arrows
        
 # The DS<( Command
 

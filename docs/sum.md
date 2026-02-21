@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the list menu.
-1. LEFT to access the MATH submenu.
-1. 5 to select sum(, or use arrows and ENTER.
+2. LEFT to access the MATH submenu.
+3. 5 to select sum(, or use arrows and ENTER.
        
 # The sum( Command
 

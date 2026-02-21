@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. PRGM to enter the PRGM menu
-1. RIGHT to enter the I/O menu
-1. 1 to choose Input
+2. RIGHT to enter the I/O menu
+3. 1 to choose Input
        
 # The Input Command
 

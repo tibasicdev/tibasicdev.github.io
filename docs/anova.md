@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. ALPHA F to select ANOVA(, or use arrows
+2. LEFT to access the TESTS submenu
+3. ALPHA F to select ANOVA(, or use arrows
 Change the last keypress to ALPHA H on a TI-84+/SE with OS 2.30 or higher.
        
 # The ANOVA( Command

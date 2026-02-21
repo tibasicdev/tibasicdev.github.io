@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd MEM to access the memory menu
-1. 5 to select Archive, or use arrows
+2. 5 to select Archive, or use arrows
        
 # The Archive Command
 

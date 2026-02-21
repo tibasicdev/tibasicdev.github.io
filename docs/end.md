@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. 7 to choose End, or use arrows
+2. 7 to choose End, or use arrows
        
 # The End Command
 

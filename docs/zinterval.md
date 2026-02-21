@@ -7,8 +7,8 @@
 ### Menu Location
 When editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. 7 to select ZInterval, or use arrows
+2. LEFT to access the TESTS submenu
+3. 7 to select ZInterval, or use arrows
 (this key sequence will give you the ZInterval... screen outside a program)
        
 # The ZInterval Command

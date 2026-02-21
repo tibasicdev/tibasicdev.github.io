@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd MEM to access the Memory menu
-1. 4 to select ClrAllLists, or use arrows
+2. 4 to select ClrAllLists, or use arrows
        
 # The ClrAllLists Command
 

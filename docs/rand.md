@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. LEFT to access the PRB submenu.
-1. ENTER to select rand.
+2. LEFT to access the PRB submenu.
+3. ENTER to select rand.
        
 # The rand Command
 

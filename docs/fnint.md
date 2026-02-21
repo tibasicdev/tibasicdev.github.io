@@ -7,7 +7,7 @@
 ### Menu Location
 Press
 1. Press MATH to access the [math](math.html) menu.
-1. 9 to select fnInt(, or use arrows.
+2. 9 to select fnInt(, or use arrows.
        
 # The fnInt( Command
 

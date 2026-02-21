@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd PRGM to enter the DRAW menu
-1. 1 or ENTER to select ClrDraw
+2. 1 or ENTER to select ClrDraw
        
 # The ClrDraw Command
 

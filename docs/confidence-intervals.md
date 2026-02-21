@@ -16,7 +16,7 @@ All tests can be performed either on actual data, or on statistics such as mean 
 Here's how you decide which test to use:
 
 1. If you have two unrelated samples, use the commands with a 2- in them.
-1. If you're interested in a proportion, use one of the PropZ intervals.
-1. If you know the standard deviation already, use a Z interval.
-1. If you want to approximate the standard deviation from your data, use a T interval.
-1. Use LinRegTInt for calculating an interval for the slope of a regression.
+2. If you're interested in a proportion, use one of the PropZ intervals.
+3. If you know the standard deviation already, use a Z interval.
+4. If you want to approximate the standard deviation from your data, use a T interval.
+5. Use LinRegTInt for calculating an interval for the slope of a regression.

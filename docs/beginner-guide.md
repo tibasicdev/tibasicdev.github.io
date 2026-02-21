@@ -6,5 +6,5 @@
 ### Guides
 
 1. [Basic Programming](beginner-guide1.html)
-1. [Different Paths](beginner-guide2.html)
-1. [Visual Magic](beginner-guide3.html)
+2. [Different Paths](beginner-guide2.html)
+3. [Visual Magic](beginner-guide3.html)

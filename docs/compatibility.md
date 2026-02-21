@@ -63,13 +63,13 @@ When writing TI-Basic programs, it is ideal to have the program universally comp
 [^3]: Or "Asm83CEPrgm" on the TI-83 Premium CE
 [^4]: Even though this command may not work on the TI-84+CE, you can still have access to the command through an assembly program.
 [^5]: And all of the Image tokens
-[^6]: Using a fourth argument will render a [syntax error](18b53e22-44e9-4e1f-939f-56817090f20f)
+[^6]: Using a fourth argument will render a [syntax error](fbf642f2-d42f-4bcd-b3ed-58a3252e54fc)
 [^7]: This command can take five arguments, but cannot use {i} as an optimization.
 [^8]: This command can take five arguments, but cannot use {i} as an optimization.
 [^9]: Requires OS 5.1.5 or later
 [^10]: Requires OS 5.3 or later
 [^11]: Requires OS 5.1.5 or later
-[^12]: Using a single argument will render a [syntax error](0e8c7721-0f44-43ba-824f-a990f1e83d51)
-[^13]: Using a single argument will render a [syntax error](62816e91-335d-4099-bb03-5a504babc937)
-[^14]: Using ‾1 as the first argument will render a [syntax error](f2394e26-9804-42b3-acfe-825e9abbd30d)
+[^12]: Using a single argument will render a [syntax error](dccd3094-b602-4472-a896-abbffd0965c1)
+[^13]: Using a single argument will render a [syntax error](93b515b8-fbff-4974-9042-501c1d636ac3)
+[^14]: Using ‾1 as the first argument will render a [syntax error](739165dd-2b44-4070-bcd8-3809ca3f55ce)
 [^15]: And all of the color tokens

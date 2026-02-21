@@ -6,8 +6,8 @@
        
 ### Menu Location
 1. Press 2nd MATH to enter the MATH popup menu.
-1. Press 6 to enter the Statistics submenu.
-1. Press 1 to select OneVar.
+2. Press 6 to enter the Statistics submenu.
+3. Press 1 to select OneVar.
        
 # The OneVar Command
 

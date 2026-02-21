@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND 0 to access catalog.
-1. TAN to get to the G index
-1. Scroll down to find GraphColor(, then ENTER to paste.
+2. TAN to get to the G index
+3. Scroll down to find GraphColor(, then ENTER to paste.
 
 Graph colors can also be changed under Y=.
        

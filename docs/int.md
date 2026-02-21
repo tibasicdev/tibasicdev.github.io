@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT to access the NUM submenu.
-1. 5 to select int(, or use arrows.
+2. RIGHT to access the NUM submenu.
+3. 5 to select int(, or use arrows.
        
 # The int( Command
 

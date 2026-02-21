@@ -4,12 +4,12 @@
 Using the **window** button you can acces the *window* menu. In this menu you can read the following:
 
 1. Xmin 
-1. Xmax
-1. Xscl
-1. Ymin
-1. Ymax
-1. Yscl
-1. Xres
+2. Xmax
+3. Xscl
+4. Ymin
+5. Ymax
+6. Yscl
+7. Xres
 
 ### Xmin
 

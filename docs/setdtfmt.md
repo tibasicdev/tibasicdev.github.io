@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. s to skip to commands starting with S
-1. Scroll down to setDtFmt( and select it
+2. s to skip to commands starting with S
+3. Scroll down to setDtFmt( and select it
        
 # The setDtFmt( Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 7 to select P►Rx(, or use arrows and ENTER.
+2. 7 to select P►Rx(, or use arrows and ENTER.
        
 # The P►Rx( Command
 

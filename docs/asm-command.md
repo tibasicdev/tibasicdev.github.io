@@ -7,8 +7,8 @@
 ### Menu Location
 This command is only found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. DOWN six times.
-1. ENTER to select Asm(.
+2. DOWN six times.
+3. ENTER to select Asm(.
        
 # The Asm( Command
 

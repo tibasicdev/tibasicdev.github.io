@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATRX (on the TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
-1. RIGHT to access the math menu.
-1. ALPHA B to select rref(, or use arrows and ENTER.
+2. RIGHT to access the math menu.
+3. ALPHA B to select rref(, or use arrows and ENTER.
        
 # The rref( Command
 

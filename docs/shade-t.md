@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. RIGHT to select the DRAW submenu
-1. 2 to select Shade_t(, or use arrows
+2. RIGHT to select the DRAW submenu
+3. 2 to select Shade_t(, or use arrows
        
 # The Shade_t( Command
 

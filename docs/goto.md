@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu.
-1. 0 to choose Goto, or use arrows.
-1. 9 to choose Lbl, or use arrows.
+2. 0 to choose Goto, or use arrows.
+3. 9 to choose Lbl, or use arrows.
        
 # The Goto Command
 

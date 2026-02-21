@@ -7,8 +7,8 @@
 ### Menu Location
 Under Statistics or Catalog
 1. Press STAT
-1. Go to CALC
-1. Press ALPHA D (or scroll to bottom)
+2. Go to CALC
+3. Press ALPHA D (or scroll to bottom)
        
 # The Manual-Fit Command
 

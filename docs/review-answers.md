@@ -18,10 +18,10 @@ instead of merely skimming over it, we have provided review exercises. These exe
 
 **3**. Which of the following uses of the Disp command returns an error?
 1. Disp
-1. Disp ""
-1. Disp "Hello World
-1. Disp "Hello","World
-1. None of the above.
+2. Disp ""
+3. Disp "Hello World
+4. Disp "Hello","World
+5. None of the above.
 
 
 **Answer**: None of above.
@@ -55,9 +55,9 @@ instead of merely skimming over it, we have provided review exercises. These exe
 :Pause "Item 2
 ```
 1. Add a closing quote on the menu title.
-1. Remove the Stop command.
-1. Change Lbl A to Lbl 1.
-1. Add a closing quote on the menu title and change Lbl A to Lbl 1.
+2. Remove the Stop command.
+3. Change Lbl A to Lbl 1.
+4. Add a closing quote on the menu title and change Lbl A to Lbl 1.
 
 
 **Answer**: Add a closing quote on the menu title.
@@ -77,9 +77,9 @@ instead of merely skimming over it, we have provided review exercises. These exe
 
 **10**. The Output( command can display text at any place on the screen, but what happens when the text goes past the end of the line?
 1. Nothing. The text simply does not show up.
-1. An error is returned.
-1. The text will wrap around to the next line.
-1. An ellipsis will be displayed at the end of the line, with the rest of the text not being displayed.
+2. An error is returned.
+3. The text will wrap around to the next line.
+4. An ellipsis will be displayed at the end of the line, with the rest of the text not being displayed.
 
 
 **Answer**: The text will wrap around to the next line.
@@ -93,9 +93,9 @@ instead of merely skimming over it, we have provided review exercises. These exe
 
 **12**. When is using the Menu command appropriate, and even desired? (Choose the best answer.)
 1. If you want a generic menu.
-1. Your program is going to be text-based.
-1. It is the most practical menu available in your situation.
-1. You want your program to stand out, so you need a fancy menu.
+2. Your program is going to be text-based.
+3. It is the most practical menu available in your situation.
+4. You want your program to stand out, so you need a fancy menu.
 
 
 **Answer**: The first three answers are all good, but the best answer is if you want a generic menu.
@@ -122,9 +122,9 @@ instead of merely skimming over it, we have provided review exercises. These exe
 :Output(1,1,"Spaghetti
 ```
 1. An error will be returned when the Menu( command is executed.
-1. The program will execute, but there will not be any text displayed.
-1. The "Test" text will be displayed along with the "Pizza" and "Spaghetti" text.
-1. The "Pizza" and "Spaghetti" text will be displayed, but not the "Test".
+2. The program will execute, but there will not be any text displayed.
+3. The "Test" text will be displayed along with the "Pizza" and "Spaghetti" text.
+4. The "Pizza" and "Spaghetti" text will be displayed, but not the "Test".
 
 
 **Answer**: The "Pizza" and "Spaghetti" text will be displayed, but not the "Test".
@@ -158,9 +158,9 @@ The Ans variable keeps track of the last answer, often being used in place of mo
 **19**. Which of the following cannot be used to test if a variable is any of 1, 2, 3, or 4?
 
 1. If sum(A={1,2,3,4
-1. If (A=int(A))(A>=1)(A<=4)
-1. If A={1,2,3,4}
-1. If A(int(A)=A)(A<5)
+2. If (A=int(A))(A>=1)(A<=4)
+3. If A={1,2,3,4}
+4. If A(int(A)=A)(A<5)
 
 
 **Answer**: If A={1,2,3,4} because the [If](if.html) command does not work with [lists](lists.html). 
@@ -185,9 +185,9 @@ The Ans variable keeps track of the last answer, often being used in place of mo
 **22**. For which of the following would not(B) not equal 0?
 
 1. .01→B
-1. 0→B
-1. π→B
-1. -4→B
+2. 0→B
+3. π→B
+4. -4→B
 
 
 **Answer**: 0→B. Remember that [not(](not.html) negates the value, so 0 becomes 1.
@@ -212,9 +212,9 @@ The Ans variable keeps track of the last answer, often being used in place of mo
 **25**. Which of these user-created list names are actually possible on the calculator?
 
 1. L1234
-1. LBaDd
-1. Lθθθθ
-1. LABCD
+2. LBaDd
+3. Lθθθθ
+4. LABCD
 
 
 **Answer**: Lθθθθ and LABCD. A list can't start with a number, and lowercase letters aren't allowed.
@@ -269,11 +269,11 @@ The Ans variable keeps track of the last answer, often being used in place of mo
 **30**. Which of the following variables is it possible to archive?
 
 1. Y<sub>1</sub>
-1. prgmKEWLGAME
-1. the real variable T
-1. the real variable A
-1. ∟RESID
-1. L<sub>1</sub>
+2. prgmKEWLGAME
+3. the real variable T
+4. the real variable A
+5. ∟RESID
+6. L<sub>1</sub>
 
 
 **Answer**: prgmKEWLGAME, the real variable A, and L<sub>1</sub>. Trying to archive Y<sub>1</sub>T,, and ∟RESID will give you an [ERR:VARIABLE](errors.html#variable) error.
@@ -356,10 +356,10 @@ PROGRAM:A
 **38**. Which of these are logically equivalent?
 
 1. not(P or Q)
-1. P and Q
-1. not(P and Q)
-1. not(P) or not(Q)
-1. not(P) and not(Q)
+2. P and Q
+3. not(P and Q)
+4. not(P) or not(Q)
+5. not(P) and not(Q)
 
 
 **Answer**: "not(P or Q)" and "not(P) and not(Q)" are logically equivalent, while "not(P and Q)" and "not(P) or not(Q)" are logically 

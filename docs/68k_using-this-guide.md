@@ -23,11 +23,11 @@ Use the [68k:glossary](68k:glossary.html) whenever you come across a term you're
 
 Of course, the best way to learn these topics is to come up with a project of yourself (check the [68k:projects](68k:projects.html) page if you have no ideas), and go through the steps as you're doing it:
 1. Look at [68k:Planning](68k:planning.html) when you're thinking about how to approach the problem.
-1. Consider [Commenting code](68k:comments.html) when you're writing it.
-1. If bugs arise (and they most likely will), see the section on [68k:Debugging](68k:debugging.html).
-1. When the program works, add [68k:Setup and Cleanup](68k:setup-and-cleanup.html) to it, and check the section on [68k:Usability](68k:usability.html).
-1. If the program is too slow (and maybe even when it's not), see [68k:Optimization](68k:optimization.html) and [Code Timings](68k:timings.html) for ways to improve it.
-1. Finally, see [68k:Releasing Your Program](68k:releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
+2. Consider [Commenting code](68k:comments.html) when you're writing it.
+3. If bugs arise (and they most likely will), see the section on [68k:Debugging](68k:debugging.html).
+4. When the program works, add [68k:Setup and Cleanup](68k:setup-and-cleanup.html) to it, and check the section on [68k:Usability](68k:usability.html).
+5. If the program is too slow (and maybe even when it's not), see [68k:Optimization](68k:optimization.html) and [Code Timings](68k:timings.html) for ways to improve it.
+6. Finally, see [68k:Releasing Your Program](68k:releasing-your-program.html) for how to earn TI-Basic programming fame by making the program public.
 
 These are listed in the Writing Programs section of the side navigation menu.
 

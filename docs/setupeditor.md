@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. STAT to enter the STAT menu.
-1. 5 to choose SetUpEditor, or use arrows.
+2. 5 to choose SetUpEditor, or use arrows.
        
 # The SetUpEditor Command
 

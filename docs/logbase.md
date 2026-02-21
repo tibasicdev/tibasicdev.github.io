@@ -7,10 +7,10 @@
 ### Menu Location
 Press:
 1. ALPHA, then F2 (which is located over the WINDOW button)
-1. 5 or arrow keys to move down to logBASE(
+2. 5 or arrow keys to move down to logBASE(
 or
 1. MATH
-1. A or arrow keys to move down to logBASE(
+2. A or arrow keys to move down to logBASE(
        
 # The logBASE( Command
 

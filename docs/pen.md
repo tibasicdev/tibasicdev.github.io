@@ -7,7 +7,7 @@
 ### Menu Location
 From the home screen, press:
 1. 2nd PRGM to enter the DRAW menu
-1. Scroll up to select Pen, or use arrows.
+2. Scroll up to select Pen, or use arrows.
        
 # The Pen Tool
 

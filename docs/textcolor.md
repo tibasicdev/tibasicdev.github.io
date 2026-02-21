@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND PRGM to enter the DRAW menu
-1. A to select TextColor(, or use arrows
+2. A to select TextColor(, or use arrows
        
 # The TextColor( Command
 

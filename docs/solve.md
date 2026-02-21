@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MATH to go to the MATH menu.
-1. 0 to choose solve(, or use arrows.
+2. 0 to choose solve(, or use arrows.
 
 (outside the program editor, the interactive Solver will appear instead; use the Catalog to access the function directly)
        

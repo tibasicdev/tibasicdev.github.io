@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. MODE to access the mode menu.
-1. Use the arrow keys and ENTER to select re^θ*i*
+2. Use the arrow keys and ENTER to select re^θ*i*
        
 # The re^θi Command
 

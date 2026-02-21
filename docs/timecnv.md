@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. t to skip to commands starting with T
-1. Scroll down to timeCnv( and select it
+2. t to skip to commands starting with T
+3. Scroll down to timeCnv( and select it
        
 # The timeCnv( Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND PRGM to enter the DRAW menu
-1. 0 to choose Text(, or use arrows
+2. 0 to choose Text(, or use arrows
        
 # The Text( Command
 

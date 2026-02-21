@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd TEST to access the test menu.
-1. RIGHT to access the LOGIC submenu.
-1. 2 to select or, or use arrows and ENTER.
+2. RIGHT to access the LOGIC submenu.
+3. 2 to select or, or use arrows and ENTER.
        
 # The or Command
 

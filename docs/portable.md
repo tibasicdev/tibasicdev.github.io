@@ -1,9 +1,9 @@
 # Portable TI-Basic Developer
 As the TI-Basic Developer is the most complete resource on the TI-Basic, we have decided to take it upon ourselves to construct a portable version of the site. The digital resource will be designed to be printed, and so will be printer-friendly. Compiling a portable version of the site gives the following advantages:
 1. It would supersede the current manuals TI have already released;
-1. It would not be necessary to be connected to the internet to access this information;
-1. A printed version means that even a computer is not necessary to access this information;
-1. Saves internet usage by people not downloading pages all of the time.
+2. It would not be necessary to be connected to the internet to access this information;
+3. A printed version means that even a computer is not necessary to access this information;
+4. Saves internet usage by people not downloading pages all of the time.
 
 Unfortunately, the portable version of the site is not yet complete. But some parts of it have been compiled:
 

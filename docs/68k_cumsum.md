@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd [MATH] to access the [68k:math](68k:math.html) menu.
-1. 3 to access the list submenu, or use arrows.
-1. 7 to select cumSum(), or use arrows.
+2. 3 to access the list submenu, or use arrows.
+3. 7 to select cumSum(), or use arrows.
 
 Alternatively, type cumSum( with the keyboard.
        

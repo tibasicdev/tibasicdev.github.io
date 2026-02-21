@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MODE to access the mode menu.
-1. ENTER to select Normal.
+2. ENTER to select Normal.
        
 # The Normal Command
 

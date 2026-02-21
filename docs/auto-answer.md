@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MODE
-1. DOWN until you see Answers
-1. ENTER on AUTO
+2. DOWN until you see Answers
+3. ENTER on AUTO
 
 Alternatively, access the catalog.
        

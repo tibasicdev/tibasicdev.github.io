@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. RIGHT to select the DRAW submenu
-1. 4 to select ShadeF(, or use arrows
+2. RIGHT to select the DRAW submenu
+3. 4 to select ShadeF(, or use arrows
        
 # The ShadeF( Command
 

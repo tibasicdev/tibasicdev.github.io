@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd FORMAT to access the graph format menu.
-1. Use arrows and ENTER to select GridDot.
+2. Use arrows and ENTER to select GridDot.
        
 # The GridDot Command
 

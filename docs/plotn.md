@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. 2nd PLOT to access the stat plot menu.
-1. 1, 2, or 3 (or use arrows) to select Plot1(, Plot2(, Plot3( respectively.
+2. 1, 2, or 3 (or use arrows) to select Plot1(, Plot2(, Plot3( respectively.
 (outside a program, this brings you to the plot editor screen)
        
 # The Plot#( Commands

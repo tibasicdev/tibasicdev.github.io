@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. RIGHT to access the CALC submenu
-1. 8 to select LinReg(a+bx), or use arrows
+2. RIGHT to access the CALC submenu
+3. 8 to select LinReg(a+bx), or use arrows
        
 # The LinReg(a+bx) Command
 

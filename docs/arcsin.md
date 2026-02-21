@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. [2nd]
-1. [sinֿ¹]
+2. [sinֿ¹]
        
 # The sinֿ¹( Command
 

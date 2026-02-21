@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 0 to select ZoomFit, or use arrows and ENTER.
+2. 0 to select ZoomFit, or use arrows and ENTER.
        
 # The ZoomFit Command
 

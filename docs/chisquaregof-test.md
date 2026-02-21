@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. STAT to access the statistics menu.
-1. LEFT to access the tests submenu.
-1. ALPHA D to select χ²GOF-Test(.
+2. LEFT to access the tests submenu.
+3. ALPHA D to select χ²GOF-Test(.
 (outside the program editor, this will select the χ²GOF-Test… interactive solver)
        
 # The χ²GOF-Test( Command

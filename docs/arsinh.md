@@ -7,8 +7,8 @@
 ### Menu Location
 The sinhֿ¹( command is only found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. S to skip to commands starting with S.
-1. Scroll down and select sinhֿ¹(
+2. S to skip to commands starting with S.
+3. Scroll down and select sinhֿ¹(
        
 # The sinhֿ¹( Command
 

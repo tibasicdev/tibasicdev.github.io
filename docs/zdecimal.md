@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 4 to select ZDecimal, or use arrows and ENTER.
+2. 4 to select ZDecimal, or use arrows and ENTER.
        
 # The ZDecimal Command
 

@@ -7,13 +7,13 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT to access the NUM submenu.
-1. ENTER to select abs(.
+2. RIGHT to access the NUM submenu.
+3. ENTER to select abs(.
 
 Alternatively, press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT twice to access the CPX (complex) submenu.
-1. 5 to select abs(, or use arrows.
+2. RIGHT twice to access the CPX (complex) submenu.
+3. 5 to select abs(, or use arrows.
        
 # The abs( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. C to skip to command starting with C
-1. Scroll down to ClockOn and select it
+2. C to skip to command starting with C
+3. Scroll down to ClockOn and select it
        
 # The ClockOn Command
 

@@ -54,10 +54,10 @@ With these tools, we can touch on one of the key uses of programming: simplifyin
 
 This is our first useful program, so let's go through it line by line: 
 1. Input "FIRST SIDE?",A will display the text FIRST SIDE? and let the user type in a number. This will be stored to A (the variable we use to represent the first side of the rectangle). 
-1. Similarly, Input "SECOND SIDE?",B will display SECOND SIDE? and let the user type in a number to store to B, representing the second side of the rectangle.
-1. 2(A+B)→P stores the result of 2(A+B) to a new variable, P. 2(A+B) is the formula for the perimeter of a rectangle.
-1. Disp "PERIMETER",P displays the text PERIMETER and then the value of P (which will be a number representing the perimeter of the rectangle)
-1. Disp "AREA",AB is similar, but does two things at once. After displaying the text AREA, it computes the value AB (the area), and immediately displays it.
+2. Similarly, Input "SECOND SIDE?",B will display SECOND SIDE? and let the user type in a number to store to B, representing the second side of the rectangle.
+3. 2(A+B)→P stores the result of 2(A+B) to a new variable, P. 2(A+B) is the formula for the perimeter of a rectangle.
+4. Disp "PERIMETER",P displays the text PERIMETER and then the value of P (which will be a number representing the perimeter of the rectangle)
+5. Disp "AREA",AB is similar, but does two things at once. After displaying the text AREA, it computes the value AB (the area), and immediately displays it.
 
 Of course, we could have handled perimeter the same way we handled area, Disp "PERIMETER",2(A+B). This would have let us combine two lines into one. However, the way the program is now, if the value of the perimeter is ever needed again (should we make the program longer), P will save it for the future as well.
 

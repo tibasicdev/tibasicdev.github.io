@@ -31,7 +31,7 @@ The values returned by getConfg() are:
 
 Notes:
 1. The window width and window height depend on calculator model and on the split screen setting. They're also off by varying amounts. It's best to use one of the other settings to determine calculator type (widescreen or standard), and [68k:getMode()](68k:getmode.html) to determine split screen status if necessary.
-1. Even with all variables deleted, Free RAM will be considerably less than RAM Size, due to operating system variables taking up that much of it.
+2. Even with all variables deleted, Free RAM will be considerably less than RAM Size, due to operating system variables taking up that much of it.
 
 There are several interesting applications for getConfg(). One is [compatibility](68k:cross-compatibility.html) with other calculator models:
 - If you want to make graphics compatible, use Screen Width or Screen Height to check if you're on a widescreen calculator.

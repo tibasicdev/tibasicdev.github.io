@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. A to choose IS>(, or use arrows
+2. A to choose IS>(, or use arrows
        
 # The IS>( Command
 

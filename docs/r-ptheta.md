@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 6 to select R►Pθ(, or use arrows and ENTER.
+2. 6 to select R►Pθ(, or use arrows and ENTER.
        
 # The R►Pθ( Command
 

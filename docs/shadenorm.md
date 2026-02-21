@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. RIGHT to select the DRAW submenu
-1. ENTER to select ShadeNorm(
+2. RIGHT to select the DRAW submenu
+3. ENTER to select ShadeNorm(
        
 # The ShadeNorm( Command
 

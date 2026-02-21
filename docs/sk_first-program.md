@@ -16,9 +16,9 @@ To create a program, you have to first go into the Program menu. This can be fou
 Here are some things to remember about naming programs:
 
 1. Each program must have its own unique name.
-1. Program names can only be eight characters or less.
-1. The characters must be A-Z, 0-9, or θ.
-1. The first character must be A-Z or θ.
+2. Program names can only be eight characters or less.
+3. The characters must be A-Z, 0-9, or θ.
+4. The first character must be A-Z or θ.
 
 For our program, we want a name which tells the user that it will display "Hello, World!" on the screen, so we have decided to go with the simple, but adequate "HELLO". As a general rule, you should choose a program name that actually relates to your program (such as its title). And, if your program is insignificant (such as a subprogram for a larger program), start it with θ or Z so that it appears at the bottom of the program list.
 

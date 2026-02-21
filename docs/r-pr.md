@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 5 to select R►Pr(, or use arrows and ENTER.
+2. 5 to select R►Pr(, or use arrows and ENTER.
        
 # The R►Pr( Command
 

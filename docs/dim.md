@@ -7,13 +7,13 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the list menu
-1. RIGHT to access the OPS submenu
-1. 3 to choose dim(, or use arrows
+2. RIGHT to access the OPS submenu
+3. 3 to choose dim(, or use arrows
 
 Alternatively, press:
 1. MATRIX (83) or 2nd MATRIX (83+ or higher) to access the matrix menu
-1. RIGHT to access the MATH submenu
-1. 3 to choose dim(, or use arrows
+2. RIGHT to access the MATH submenu
+3. 3 to choose dim(, or use arrows
        
 # The dim( Command
 

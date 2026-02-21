@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to enter the draw menu
-1. 2 to insert the Line( token, or use arrows and ENTER.
+2. 2 to insert the Line( token, or use arrows and ENTER.
        
 # The Line( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. RIGHT to access the MEMORY submenu.
-1. 2 to select ZoomSto, or use arrows and ENTER.
+2. RIGHT to access the MEMORY submenu.
+3. 2 to select ZoomSto, or use arrows and ENTER.
        
 # The ZoomSto Command
 

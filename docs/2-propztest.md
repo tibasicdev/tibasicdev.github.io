@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. 6 to select 2-PropZTest, or use arrows
+2. LEFT to access the TESTS submenu
+3. 6 to select 2-PropZTest, or use arrows
 (outside the program editor, this will select the 2-PropZTest... interactive solver)
        
 # The 2-PropZTest( Command

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. LEFT to access the CALC submenu
-1. 2 to select 2-Var Stats, or use arrows
+2. LEFT to access the CALC submenu
+3. 2 to select 2-Var Stats, or use arrows
        
 # The 2-Var Stats Command
 

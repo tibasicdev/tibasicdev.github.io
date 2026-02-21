@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND CATALOG to access the command catalog
-1. D to skip to commands starting with D
-1. Scroll down and select DiagnosticOn
+2. D to skip to commands starting with D
+3. Scroll down and select DiagnosticOn
 
 (The DiagnosticOn command can't be found outside the catalog)
        

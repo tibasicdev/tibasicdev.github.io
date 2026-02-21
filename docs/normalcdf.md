@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 2 to select normalcdf(, or use arrows.
+2. 2 to select normalcdf(, or use arrows.
        
 # The normalcdf( Command
 

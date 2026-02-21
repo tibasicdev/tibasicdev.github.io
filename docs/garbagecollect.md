@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog
-1. G to skip to commands starting with G
-1. ENTER to select GarbageCollect
+2. G to skip to commands starting with G
+3. ENTER to select GarbageCollect
        
 # The GarbageCollect Command
 

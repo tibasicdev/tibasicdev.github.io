@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. MODE to access the mode menu.
-1. Use the arrow keys and ENTER to select a+b*i*
+2. Use the arrow keys and ENTER to select a+b*i*
        
 # The a+bi Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. RIGHT to access the TESTS submenu
-1. ALPHA E to select LinRegTTest, or use arrows
+2. RIGHT to access the TESTS submenu
+3. ALPHA E to select LinRegTTest, or use arrows
 Change the last keypress to ALPHA F on a TI-84+/SE with OS 2.30 or higher.
        
 # The LinRegTTest Command

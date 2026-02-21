@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 3 to select <sup>r</sup>, or use arrows and ENTER.
+2. 3 to select <sup>r</sup>, or use arrows and ENTER.
        
 # The r (Radian Symbol) Command
 

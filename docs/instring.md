@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the Catalog. Press:
 1. 2nd CATALOG to access the command catalog
-1. I to skip to command starting with I
-1. scroll down to find inString( and select it
+2. I to skip to command starting with I
+3. scroll down to find inString( and select it
        
 # The inString( Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd FORMAT to access the graph format menu
-1. Use arrows and ENTER to select ExprOn
+2. Use arrows and ENTER to select ExprOn
        
 # The ExprOn Command
 

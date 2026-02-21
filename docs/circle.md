@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. Press [2ND] [PRGM] to enter the DRAW menu
-1. Press [9] to insert Circle(
+2. Press [9] to insert Circle(
        
 # The Circle( Command
 

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 3 to select Zoom Out, or use arrows and ENTER.
+2. 3 to select Zoom Out, or use arrows and ENTER.
        
 # The Zoom Out Command
 

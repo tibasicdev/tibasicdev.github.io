@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to access the command catalog
-1. L to skip to commands starting with L
-1. scroll down to length( and select it
+2. L to skip to commands starting with L
+3. scroll down to length( and select it
        
 # The length( Command
 

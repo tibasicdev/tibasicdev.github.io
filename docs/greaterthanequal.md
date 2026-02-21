@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd TEST to access the test menu.
-1. 4 to select ≥, or use arrows.
+2. 4 to select ≥, or use arrows.
        
 # The ≥ Command
 

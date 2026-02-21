@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT to access the NUM submenu
-1. 3 to select iPart(, or use arrows.
+2. RIGHT to access the NUM submenu
+3. 3 to select iPart(, or use arrows.
        
 # The iPart( Command
 

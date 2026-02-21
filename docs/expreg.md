@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. LEFT to access the CALC submenu
-1. 0 to select ExpReg, or use arrows
+2. LEFT to access the CALC submenu
+3. 0 to select ExpReg, or use arrows
        
 # The ExpReg Command
 

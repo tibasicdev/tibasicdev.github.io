@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to access the programming menu.
-1. ALPHA H to select GraphStyle(, or use arrows.
+2. ALPHA H to select GraphStyle(, or use arrows.
        
 # The GraphStyle( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd FINANCE (on a TI-83) or APPS (TI-83+ or higher) to access the finance menu
-1. On the TI-83+ or higher, select the first option "Finance..." from the APPS menu
-1. 7 or use arrow keys to scroll to it
+2. On the TI-83+ or higher, select the first option "Finance..." from the APPS menu
+3. 7 or use arrow keys to scroll to it
        
 # The npv( Command
 

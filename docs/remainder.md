@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to enter the Math menu
-1. Use arrows to go to the NUM menu
-1. 0 to choose remainder(, or use arrows
+2. Use arrows to go to the NUM menu
+3. 0 to choose remainder(, or use arrows
        
 # The remainder( Command
 

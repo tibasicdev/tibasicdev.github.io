@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. MODE to access the mode menu.
-1. Use arrows to select Dot.
+2. Use arrows to select Dot.
        
 # The Dot Command
 

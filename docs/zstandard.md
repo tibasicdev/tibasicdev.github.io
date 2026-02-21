@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 6 to select ZStandard, or use arrows and ENTER.
+2. 6 to select ZStandard, or use arrows and ENTER.
        
 # The ZStandard Command
 

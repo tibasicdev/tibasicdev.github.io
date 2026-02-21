@@ -12,24 +12,24 @@ Here is a listing of each command affected, along with how it will appear in thi
 - Appears as <sup>r</sup> on a calculator
 - To type, press:
  1. [2nd]
- 1. [Angle]
- 1. [2] or use arrows to select <sup>r</sup>
+ 2. [Angle]
+ 3. [2] or use arrows to select <sup>r</sup>
 
 ## T
 - Transpose
 - Appears as <sup>T</sup> on a calculator
 - To type, press:
  1. [2nd]
- 1. [Matrix]
- 1. [Right] to access MATH submenu
- 1. [2] or use arrow keys to select <sup>T</sup>
+ 2. [Matrix]
+ 3. [Right] to access MATH submenu
+ 4. [2] or use arrow keys to select <sup>T</sup>
 
 ## E
 - Base 10 exponent symbol
 - Appears as E[[/size]] on a calculator
 - To type, press: 
  1. [2nd]
- 1. [EE]
+ 2. [EE]
 
 ## Related Pages
 - [Character Template](template:characters.html)

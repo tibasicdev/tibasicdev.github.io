@@ -12,7 +12,7 @@ The [ClrHome](clrhome.html) command clears the homescreen, giving you an empty s
 
 **Two Notes**
 1. Output( will write over anything on the homescreen
-1. Disp, Input, and Prompt will not recognize Output( commands, so if you have some text printed at 1,1 and then use Input, you will write over the Output(
+2. Disp, Input, and Prompt will not recognize Output( commands, so if you have some text printed at 1,1 and then use Input, you will write over the Output(
 
 
 ### Output

@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to access the program menu
-1. RIGHT to select the I/O submenu
-1. 5 to select DispTable, or use arrows and ENTER
+2. RIGHT to select the I/O submenu
+3. 5 to select DispTable, or use arrows and ENTER
        
 # The DispTable Command
 

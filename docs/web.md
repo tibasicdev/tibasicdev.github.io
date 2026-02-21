@@ -7,7 +7,7 @@
 ### Menu Location
 While in [Seq](http://tibasicdev.github.io/seq-mode) mode, press:
 1. 2nd FORMAT to access the format menu.
-1. Use arrows and ENTER to select Web.
+2. Use arrows and ENTER to select Web.
        
 # The Web Command
 

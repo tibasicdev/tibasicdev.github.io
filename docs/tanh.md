@@ -7,8 +7,8 @@
 ### Menu Location
 The tanh( command is only found in the Catalog. Press:
 1. 2nd CATALOG to access the command catalog.
-1. T to skip to commands starting with T.
-1. Scroll down and select tanh(.
+2. T to skip to commands starting with T.
+3. Scroll down and select tanh(.
        
 # The tanh( Command
 

@@ -40,26 +40,26 @@ All you need to install is the Flash Debugger, so open that file and follow the 
 The instructions for generating the hex are in the BB readme, steps 1~8, but I have the instructions below.
 
 1. Ensure that all needed files (programs, subprograms, and pictures) are available. It is easier if they are in the same directory
-1. Start up the BB executable
-1. There are four fields on the right. Change 'Application name' to the name of your app, and 'Outputfile' to '<app name>.hex'. Leave the other two fields alone for now
-1. Press the upper left button, the one with a sheet of paper and a green '+'
+2. Start up the BB executable
+3. There are four fields on the right. Change 'Application name' to the name of your app, and 'Outputfile' to '<app name>.hex'. Leave the other two fields alone for now
+4. Press the upper left button, the one with a sheet of paper and a green '+'
 
 To understand the next few things, you have to understand what BB actually does. It creates an app, that when started, will normally just execute the main program. However, if you want the user to be able to execute multiple things from the beginning, you can create multiple menu items. These will be shown in the format of the [Menu(](menu.html) command. An example of this is a pack with several games that you want the user to choose from. You have several menu options and the user is free to decide which one.
 
 1. After you pressed that button, you should have seen a field appear in the left. That is the menu entry for the horde of files you will now turn into some hex
-1. Change that field from program name to the text that you want shown for that menu option when BB is started
-1. Click 'Add program' on the right. Find your program. Do this over and over until you have all the necessary programs. Do the same for 'Add picture'
-1. If you want more menu options, click the paper-and-plus button in the upper-left and repeat
-1. Click 'Generate' in the lower-right
+2. Change that field from program name to the text that you want shown for that menu option when BB is started
+3. Click 'Add program' on the right. Find your program. Do this over and over until you have all the necessary programs. Do the same for 'Add picture'
+4. If you want more menu options, click the paper-and-plus button in the upper-left and repeat
+5. Click 'Generate' in the lower-right
 
 You should now have a .hex file in the BB directory.=, along with a small pop-up giving how much space was saved/how much space is left. But you can't do anything with this hex file... Yet.
 
 ### Signing the Hexfile
 
 1. Click on Start -> All programs -> TI-83 Plus Flash Debugger -> Wappsign
-1. You should have a small program running, called Wappsign. There should be four check boxes on the right. Check the upper two and un-check the lower two.
-1. On the right of the 'Application' field, there should be a '...' button. Click it.
-1. Browse for your hexfile.
-1. Click 'Sign'.
+2. You should have a small program running, called Wappsign. There should be four check boxes on the right. Check the upper two and un-check the lower two.
+3. On the right of the 'Application' field, there should be a '...' button. Click it.
+4. Browse for your hexfile.
+5. Click 'Sign'.
 
 Congratz! You should now have an application in the same directory as the hexfile!

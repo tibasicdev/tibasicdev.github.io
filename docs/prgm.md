@@ -7,12 +7,12 @@
 ### Menu Location
 Outside the editor, press:
 1. PRGM to enter the PRGM menu
-1. Use arrows to choose program
+2. Use arrows to choose program
 
 When editing a program, press:
 1. PRGM to enter the PRGM menu
-1. LEFT to enter the EXEC submenu
-1. select a program
+2. LEFT to enter the EXEC submenu
+3. select a program
        
 # The prgm Command
 

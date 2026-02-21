@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program press:
 1. 2nd PRGM to enter the DRAW menu
-1. RIGHT to enter the POINTS menu
-1. 6 to choose Pxl-Change(, or use arrows
+2. RIGHT to enter the POINTS menu
+3. 6 to choose Pxl-Change(, or use arrows
        
 # The Pxl-Change( Command
 

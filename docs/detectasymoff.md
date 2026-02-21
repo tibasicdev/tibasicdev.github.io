@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd FORMAT to access the graph format menu
-1. Use arrows and ENTER to select "Off" under "Detect Asymptotes:"
+2. Use arrows and ENTER to select "Off" under "Detect Asymptotes:"
 
 It can also be found in the catalog.
        

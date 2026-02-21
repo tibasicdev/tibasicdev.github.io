@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd TBLSET to access the table settings.
-1. Use arrows to select Auto in the Indpnt line to select IndpntAuto.
+2. Use arrows to select Auto in the Indpnt line to select IndpntAuto.
        
 # The IndpntAuto Command
 

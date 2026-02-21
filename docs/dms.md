@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 4 to select ►DMS, or use arrows and ENTER.
+2. 4 to select ►DMS, or use arrows and ENTER.
        
 # The ►DMS Command
 

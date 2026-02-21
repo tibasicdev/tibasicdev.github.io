@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. Catalog ([2nd] + 2 on 92/+/v200) to access the catalog menu
-1. P to scroll to the P section
-1. Use arrows to navigate to Prgm
+2. P to scroll to the P section
+3. Use arrows to navigate to Prgm
 Or type Prgm using the keyboard
        
 # The Prgm...EndPrgm Command Block

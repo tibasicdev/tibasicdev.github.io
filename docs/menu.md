@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. Press ALPHA PRGM to choose Menu( or use arrows
+2. Press ALPHA PRGM to choose Menu( or use arrows
        
 # The Menu( Command
 

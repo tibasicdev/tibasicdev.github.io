@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to select the [math](math.html) menu.
-1. RIGHT to select the NUM submenu.
-1. 2 to select round(, or use arrows.
+2. RIGHT to select the NUM submenu.
+3. 2 to select round(, or use arrows.
        
 # The round( Command
 

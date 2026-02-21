@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd FORMAT to access the format menu.
-1. Use arrows and ENTER to select LabelOff.
+2. Use arrows and ENTER to select LabelOff.
        
 # The LabelOff Command
 

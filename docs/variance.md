@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2ND LIST to enter the LIST menu.
-1. LEFT to enter the MATH submenu.
-1. 8 to select variance(, or use arrows.
+2. LEFT to enter the MATH submenu.
+3. 8 to select variance(, or use arrows.
        
 # The variance( Command
 

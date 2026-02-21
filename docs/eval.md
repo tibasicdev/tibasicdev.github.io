@@ -7,8 +7,8 @@
 ### Menu Location
 This command is found only in the Catalog. Press:
 1. 2ND CATALOG to enter the catalog
-1. E to go to commands starting with E
-1. Scroll down to eval(.
+2. E to go to commands starting with E
+3. Scroll down to eval(.
        
 # The eval( Command
 

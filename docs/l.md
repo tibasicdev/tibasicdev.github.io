@@ -7,8 +7,8 @@
 ### Menu Location
 While editing a program, press:
 1. 2nd LIST to access the List menu
-1. RIGHT to access the OPS submenu
-1. 2nd B to select ∟, or use arrows
+2. RIGHT to access the OPS submenu
+3. 2nd B to select ∟, or use arrows
        
 # The ∟ Command
 
@@ -26,7 +26,7 @@ The maximum length of the list name (not including the `∟`) is five letters. `
 There are two ways to insert this character:
 
 1. Press `2nd`, `LIST`, press right arrow to access the `OPS` menu, scroll to the bottom, and press `ENTER` to insert the `∟` character. You can then type the rest of the name of your list.
-1. If your custom list already exists, you can press `2nd`, `LIST`, select the name of your list, and press `ENTER`. The whole name including the `∟` character will be inserted.
+2. If your custom list already exists, you can press `2nd`, `LIST`, select the name of your list, and press `ENTER`. The whole name including the `∟` character will be inserted.
 
 
 ## Optimization

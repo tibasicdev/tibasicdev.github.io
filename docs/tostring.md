@@ -7,8 +7,8 @@
 ### Menu Location
 This command is found only in the Catalog. Press:
 1. 2ND CATALOG to enter the catalog
-1. T to go to commands starting with T
-1. Scroll down to toString(.
+2. T to go to commands starting with T
+3. Scroll down to toString(.
        
 # The toString( Command
 

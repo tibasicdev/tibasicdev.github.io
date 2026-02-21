@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 4 to select invT(, or use arrows.
+2. 4 to select invT(, or use arrows.
        
 # The invT( Command
 

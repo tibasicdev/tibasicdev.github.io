@@ -8,10 +8,10 @@ Let's review the commands you have learned concerning mathematical operations. H
 **2**. Which of the following expressions are equivalent?
 
 1. abs(-5)
-1. -30 / 6
-1. int(-5.5)
-1. 5<sup>1</sup>
-1. 30 / 5
+2. -30 / 6
+3. int(-5.5)
+4. 5<sup>1</sup>
+5. 30 / 5
 
 **Answer**: ##e7e9dc|Choices 1 and 4, which both equal 5.##
 
@@ -28,9 +28,9 @@ $$24 / 4 + 2 * (9 - √9) / 3$$
 **5**. Which of the following commands will calculate the number of possible 3-digit number lock codes? The code can use the numbers 0 - 30 and order *does* matter.
 
 1. 3 nPr 30
-1. 30 nCr 3
-1. 3 nCr 31
-1. 31 nPr 3
+2. 30 nCr 3
+3. 3 nCr 31
+4. 31 nPr 3
 
 **Answer**: ##e7e9dc|Choice 4. Order matters, making the code a *permutation*. The length of the code, or *r*, is 3 digits, and the number of possible digits. or *n*, is 31, because we can use all numbers from 1 to 30 as well as 0.##
 
@@ -41,9 +41,9 @@ $$24 / 4 + 2 * (9 - √9) / 3$$
 **7**. Which of the following trigonometric identities is correct?
 
 1. cos(x) - sin(x) = tan(x)
-1. tan(x) + cos(x) = sin(x)
-1. sin(x) / cos(x) = tan(x)
-1. sin(x) * tan(x) = cos(x)
+2. tan(x) + cos(x) = sin(x)
+3. sin(x) / cos(x) = tan(x)
+4. sin(x) * tan(x) = cos(x)
 
 **Answer**: ##e7e9dc|Choice 3.##
 

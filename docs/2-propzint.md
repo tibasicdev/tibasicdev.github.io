@@ -7,8 +7,8 @@
 ### Menu Location
 When editing a program, press:
 1. STAT to access the statistics menu
-1. LEFT to access the TESTS submenu
-1. ALPHA B to select 2-PropZInt(, or use arrows
+2. LEFT to access the TESTS submenu
+3. ALPHA B to select 2-PropZInt(, or use arrows
 
 (this key sequence will give you the 2-PropZInt... screen outside a program)
        

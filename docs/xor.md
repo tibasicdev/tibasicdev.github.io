@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd TEST to access the test menu.
-1. RIGHT to access the LOGIC submenu.
-1. 3 to select xor, or use arrows and ENTER.
+2. RIGHT to access the LOGIC submenu.
+3. 3 to select xor, or use arrows and ENTER.
        
 # The xor Command
 

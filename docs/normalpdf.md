@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. ENTER to select normalpdf(.
+2. ENTER to select normalpdf(.
        
 # The normalpdf( Command
 

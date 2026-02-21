@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 6 to select χ²pdf(, or use arrows.
+2. 6 to select χ²pdf(, or use arrows.
 Press 7 instead of 6 on a TI-84+/SE with OS 2.30 or higher.
        
 # The χ²pdf( Command

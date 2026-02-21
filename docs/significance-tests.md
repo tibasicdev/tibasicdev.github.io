@@ -22,11 +22,11 @@ Five of the tests are for fairly specific purposes:
  - The χ²-Test( command is for comparing frequencies of two different categorical variables (e.g. weather vs. month).
  - The χ²GOF-Test( is for testing a distribution of a single categorical variable.
 1. If you want to see the effects of many categories on one variable, use ANOVA.
-1. If you're comparing the variance of two variables, use the *F* test.
-1. Use LinRegTTest for testing the hypothesis of a linear relation between two variables.
+2. If you're comparing the variance of two variables, use the *F* test.
+3. Use LinRegTTest for testing the hypothesis of a linear relation between two variables.
 
 For the remaining six tests:
 1. If you're testing for significant difference betwen two data sets, use a command with 2- in it (for obvious reasons).
-1. If your variable is a proportion, use 1-PropZTest or 2-PropZTest: proportion tests ALWAYS use z- rather than t-distributions.
-1. If you already know the standard deviation, use a ZTest.
-1. If you want to determine the standard deviation from the data, use a TTest.
+2. If your variable is a proportion, use 1-PropZTest or 2-PropZTest: proportion tests ALWAYS use z- rather than t-distributions.
+3. If you already know the standard deviation, use a ZTest.
+4. If you want to determine the standard deviation from the data, use a TTest.

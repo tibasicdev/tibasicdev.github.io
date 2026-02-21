@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. LEFT to access the CALC submenu
-1. ALPHA A to select PwrReg, or use arrows
+2. LEFT to access the CALC submenu
+3. ALPHA A to select PwrReg, or use arrows
        
 # The PwrReg Command
 

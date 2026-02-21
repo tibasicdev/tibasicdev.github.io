@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd ANGLE to access the angle menu.
-1. 8 to select P►Ry(, or use arrows and ENTER.
+2. 8 to select P►Ry(, or use arrows and ENTER.
        
 # The P►Ry( Command
 

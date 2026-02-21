@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 9 to select ZoomStat, or use arrows and ENTER.
+2. 9 to select ZoomStat, or use arrows and ENTER.
        
 # The ZoomStat Command
 

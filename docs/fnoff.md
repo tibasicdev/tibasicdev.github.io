@@ -7,9 +7,9 @@
 ### Menu Location
 Press:
 1. VARS to access the variables menu.
-1. RIGHT to access the Y-VARS submenu.
-1. 4 to select On/Off..., or use arrows and ENTER.
-1. 2 to select FnOff, or use arrows and enter.
+2. RIGHT to access the Y-VARS submenu.
+3. 4 to select On/Off..., or use arrows and ENTER.
+4. 2 to select FnOff, or use arrows and enter.
        
 # The FnOff Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 This command is found only in the Catalog. Press:
 1. 2ND CATALOG to enter the catalog
-1. F to go to commands starting with F
-1. Scroll up a bit to expr(.
+2. F to go to commands starting with F
+3. Scroll up a bit to expr(.
        
 # The expr( Command
 

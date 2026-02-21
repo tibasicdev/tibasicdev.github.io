@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 5 to select ZSquare, or use arrows and ENTER.
+2. 5 to select ZSquare, or use arrows and ENTER.
        
 # The ZSquare Command
 

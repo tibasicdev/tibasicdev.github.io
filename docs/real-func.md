@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the [math](math.html) menu.
-1. RIGHT, RIGHT to access the CPX (complex) submenu.
-1. 2 to select real(, or use arrows.
+2. RIGHT, RIGHT to access the CPX (complex) submenu.
+3. 2 to select real(, or use arrows.
        
 # The real( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATRX (TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu
-1. RIGHT to access the MATH submenu.
-1. 6 to select randM(, or use arrows.
+2. RIGHT to access the MATH submenu.
+3. 6 to select randM(, or use arrows.
        
 # The randM( Command
 

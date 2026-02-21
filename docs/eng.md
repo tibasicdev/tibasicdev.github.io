@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MODE to access the mode menu.
-1. Use arrows and ENTER to select Eng.
+2. Use arrows and ENTER to select Eng.
        
 # The Eng Command
 

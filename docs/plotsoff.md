@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd PLOT to access the stat plot menu.
-1. 4 to select PlotsOff, or use arrows and ENTER.
+2. 4 to select PlotsOff, or use arrows and ENTER.
        
 # The PlotsOff Command
 

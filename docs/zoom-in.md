@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 2 to select Zoom In, or use arrows and ENTER.
+2. 2 to select Zoom In, or use arrows and ENTER.
        
 # The Zoom In Command
 

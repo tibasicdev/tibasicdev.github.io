@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the math menu.
-1. RIGHT RIGHT to access the CPX submenu.
-1. 6 to select ►Rect, or use arrows and ENTER.
+2. RIGHT RIGHT to access the CPX submenu.
+3. 6 to select ►Rect, or use arrows and ENTER.
        
 # The ►Rect Command
 

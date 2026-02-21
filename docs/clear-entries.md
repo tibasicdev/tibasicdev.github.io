@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd MEM to access the memory menu.
-1. 3 to select Clear Entries, or use arrows and ENTER.
+2. 3 to select Clear Entries, or use arrows and ENTER.
        
 # The Clear Entries Command
 

@@ -7,23 +7,23 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. ALPHA A to select binomcdf(, or use arrows.
+2. ALPHA A to select binomcdf(, or use arrows.
 Press ALPHA B instead of ALPHA A on a TI-84+/SE with OS 2.30 or higher.
        
 # The binomcdf( Command
 
 This command is used to calculate the binomial cumulative probability function. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 1. A specific event has only two outcomes, which we will call "success" and "failure"
-1. This event is going to repeat a specific number of times, or "trials"
-1. Success or failure is determined randomly with the same probability of success each time the event occurs
-1. We're interested in the probability that there are **at most** N successes
+2. This event is going to repeat a specific number of times, or "trials"
+3. Success or failure is determined randomly with the same probability of success each time the event occurs
+4. We're interested in the probability that there are **at most** N successes
 
 For example, consider a couple that intends to have 4 children. What is the probability that at most 2 are girls?
 
 1. The event here is a child being born. It has two outcomes "boy" or "girl". In this case, since the question is about girls, it's easier to call "girl" a success.
-1. The event is going to repeat 4 times, so we have 4 trials
-1. The probability of a girl being born is 50% or 1/2 each time
-1. We're interested in the probability that there are at most 2 successes (2 girls)
+2. The event is going to repeat 4 times, so we have 4 trials
+3. The probability of a girl being born is 50% or 1/2 each time
+4. We're interested in the probability that there are at most 2 successes (2 girls)
 
 The syntax here is `binomcdf(*trials*, *probability*, *value*)`. In this case:
 ```
@@ -47,8 +47,8 @@ The [`binompdf(`](binompdf.html) and `binomcdf(` commands are the only ones apar
 Here's how to do it:
 
 1. `cumSum(``binomcdf(`N,0 gives the list {1 2 ... N+1}, and `cumSum(``not(``binompdf(`N,0 gives the list {0 1 2 ... N}.
-1. With `seq(`, you normally do math inside the list: `seq(`3I<sup>2</sup>,I,0,5
-1. With these commands, you do the same math outside the list: 3`Ans`<sup>2</sup> where `Ans` is the list {0 1 ... 5}.
+2. With `seq(`, you normally do math inside the list: `seq(`3I<sup>2</sup>,I,0,5
+3. With these commands, you do the same math outside the list: 3`Ans`<sup>2</sup> where `Ans` is the list {0 1 ... 5}.
 
 ```
 :seq(2^I,I,1,5

@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2nd MEM to access the memory menu
-1. 6 to select UnArchive, or use arrows.
+2. 6 to select UnArchive, or use arrows.
        
 # The UnArchive Command
 

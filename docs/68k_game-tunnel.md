@@ -152,8 +152,8 @@ If this game were to be released, some changes would have to be made. Here, we'v
 - Replace all variables with one-letter variables (which are smaller and slightly faster to access)
 - Rather than declaring them as Local, accomplish cleanup as follows:
  1. Create a new folder using [NewFold](68k:newfold.html).
- 1. Use the one-letter variables as they are needed.
- 1. Replace ClrDraw at the end with [NewProb](68k:newprob.html), this will delete all one-letter variables.
- 1. End the program by deleting the new folder.
+ 2. Use the one-letter variables as they are needed.
+ 3. Replace ClrDraw at the end with [NewProb](68k:newprob.html), this will delete all one-letter variables.
+ 4. End the program by deleting the new folder.
 
 However, you might be surprised to find out that the indentations at the beginning of each line don't actually increase program size. The indentation count, for better or for worse, is stored with each new line, no matter if there is an indentation or not.

@@ -14,16 +14,16 @@ Press the right arrow, then scroll to Binomial Cdf (B)
 
 This command is used to calculate the binomial cumulative probability function. In plainer language, it solves a specific type of often-encountered probability problem, that occurs under the following conditions:
 1. A specific event has only two outcomes, which we will call "success" and "failure"
-1. This event is going to repeat a specific number of times, or "trials"
-1. Success or failure is determined randomly with the same probability of success each time the event occurs
-1. We're interested in the probability that there are **at most** N successes
+2. This event is going to repeat a specific number of times, or "trials"
+3. Success or failure is determined randomly with the same probability of success each time the event occurs
+4. We're interested in the probability that there are **at most** N successes
 
 For example, consider a couple that intends to have 4 children. What is the probability that at most 2 are girls?
 
 1. The event here is a child being born. It has two outcomes "boy" or "girl". In this case, since the question is about girls, it's easier to call "girl" a success.
-1. The event is going to repeat 4 times, so we have 4 trials
-1. The probability of a girl being born is 50% or 1/2 each time
-1. We're interested in the probability that there are at most 2 successes (2 girls)
+2. The event is going to repeat 4 times, so we have 4 trials
+3. The probability of a girl being born is 50% or 1/2 each time
+4. We're interested in the probability that there are at most 2 successes (2 girls)
 
 The syntax here is `binomcdf(*trials*, *probability*, *value*)`. In this case:
 ```

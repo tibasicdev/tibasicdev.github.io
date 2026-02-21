@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 9 to select Fcdf(, or use arrows.
+2. 9 to select Fcdf(, or use arrows.
 Press 0 instead of 9 on a TI-84+/SE with OS 2.30 or higher.
        
 # The Fcdf( Command

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MODE
-1. DOWN until you see Answers
-1. ENTER on DEC
+2. DOWN until you see Answers
+3. ENTER on DEC
 
 Alternatively, access the catalog.
        

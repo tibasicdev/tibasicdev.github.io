@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the list menu.
-1. RIGHT to access the OPS submenu.
-1. 2 to select SortD(, or use arrows and ENTER.
+2. RIGHT to access the OPS submenu.
+3. 2 to select SortD(, or use arrows and ENTER.
        
 # The SortD( Command
 

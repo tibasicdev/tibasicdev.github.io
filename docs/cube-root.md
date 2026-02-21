@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MATH to open the [math](math.html) menu
-1. 4 or use the arrow keys to select.
+2. 4 or use the arrow keys to select.
        
 # The ³√( Command
 

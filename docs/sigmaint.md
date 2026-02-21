@@ -7,12 +7,12 @@
 ### Menu Location
 On the TI-83, press:
 1. 2nd FINANCE to access the finance menu.
-1. ALPHA A to select ΣInt(, or use arrows and ENTER.
+2. ALPHA A to select ΣInt(, or use arrows and ENTER.
 
 On the TI-83+ or higher, press:
 1. APPS to access the applications menu.
-1. 1 or ENTER to select Finance...
-1. ALPHA A to select ΣInt(, or use arrows and ENTER.
+2. 1 or ENTER to select Finance...
+3. ALPHA A to select ΣInt(, or use arrows and ENTER.
        
 # The ΣInt( Command
 

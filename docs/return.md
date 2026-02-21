@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. PRGM to enter the PRGM menu
-1. ALPHA SIN to choose Return, or use arrows
+2. ALPHA SIN to choose Return, or use arrows
        
 # The Return Command
 

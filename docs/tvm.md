@@ -7,11 +7,11 @@
 ### Menu Location
 On the TI-83, press:
 1. 2nd FINANCE to access the finance menu.
-1. 2 through 6 to select tvm_Pmt through tvm_FV respectively.
+2. 2 through 6 to select tvm_Pmt through tvm_FV respectively.
 On the TI-83+ and higher, press:
 1. APPS to access the applications menu.
-1. 1 or ENTER to select Finance...
-1. 2 through 6 to select tvm_Pmt through tvm_FV respectively.
+2. 1 or ENTER to select Finance...
+3. 2 through 6 to select tvm_Pmt through tvm_FV respectively.
        
 # The tvm_Pmt, tvm_I%, tvm_PV, tvm_N, and tvm_FV Commands
 

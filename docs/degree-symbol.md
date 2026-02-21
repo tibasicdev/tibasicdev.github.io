@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. [2nd]
-1. [Angle]
-1. [Enter] or [1]
+2. [Angle]
+3. [Enter] or [1]
        
 # The ° (Degree Symbol) Command
 

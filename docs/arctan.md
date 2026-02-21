@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. [2nd]
-1. [tanֿ¹]
+2. [tanֿ¹]
        
 # The tanֿ¹( Command
 

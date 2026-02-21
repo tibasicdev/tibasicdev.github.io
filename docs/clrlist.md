@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. 4 to select ClrList, or use arrows.
+2. 4 to select ClrList, or use arrows.
        
 # The ClrList Command
 

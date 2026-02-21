@@ -7,17 +7,17 @@
 ### Menu Location
 Press:
 1. STAT to access the statistics menu
-1. LEFT to access the CALC submenu
-1. 3 to select Med-Med, or use arrows
+2. LEFT to access the CALC submenu
+3. 3 to select Med-Med, or use arrows
        
 # The Med-Med Command
 
 The Med-Med command is one of several that can calculate a line of best fit through a set of points. However, unlike the [LinReg(ax+b)](linreg(ax-b.html) and [LinReg(a+bx)](linreg(a-bx.html) commands, which generate the same result in different formats, Med-Med produces a different line entirely, known as the 'median fit line' or the 'median-median model'. This model is more resistant to outliers than the best-fit line produced by LinReg(ax+b)-type commands, in much the same way that the median of a set of data is more resistant to outliers than the mean. The process of calculating a median fit line is roughly as follows ([reference](http://www.amstat.org/publications/jse/v14n2/morrell.html)):
 1. Divide the data into three equal groups by their x-values (the smallest third, the middle third, and the largest third)
-1. Find the "median point" for each group by pairing the median x-value in the group with the median y-value (this need not be an actual data point).
-1. These points are stored to (x₁,y₁), (x₂,y₂), and (x₃,y₃) on the calculator.
-1. Find the line passing through the median point for the first and third group.
-1. Shift this line one-third of the way toward the median point of the second group.
+2. Find the "median point" for each group by pairing the median x-value in the group with the median y-value (this need not be an actual data point).
+3. These points are stored to (x₁,y₁), (x₂,y₂), and (x₃,y₃) on the calculator.
+4. Find the line passing through the median point for the first and third group.
+5. Shift this line one-third of the way toward the median point of the second group.
 
 To use the Med-Med command, you must first store the points to two lists: one of the x-coordinates and one of the y-coordinates, ordered so that the nth element of one list matches up with the nth element of the other list. L₁ and L₂ are the default lists to use, and the List Editor (STAT > Edit...) is a useful window for entering the points. As you can see from the steps shown above, Med-Med requires at least three points with different x-values to work with.
 

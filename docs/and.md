@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd TEST to access the test menu.
-1. RIGHT to access the LOGIC submenu.
-1. ENTER to select and.
+2. RIGHT to access the LOGIC submenu.
+3. ENTER to select and.
        
 # The and Command
 

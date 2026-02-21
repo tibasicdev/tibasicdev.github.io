@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. 7 to select ZTrig, or use arrows and ENTER.
+2. 7 to select ZTrig, or use arrows and ENTER.
        
 # The ZTrig Command
 

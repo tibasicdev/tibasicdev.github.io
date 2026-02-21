@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press
 1. PRGM to enter the program menu
-1. ALPHA F to choose Stop, or use arrows
+2. ALPHA F to choose Stop, or use arrows
        
 # The Stop Command
 

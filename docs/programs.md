@@ -2,9 +2,9 @@
 When contributing programs, please follow these guidelines:
 
 1. A program should be self-contained, and relatively short in length.
-1. A program should be thoroughly tested to make sure it works correctly.
-1. Use the [Routine Template](template:routine.html) as the starting point for program pages.
-1. When the program page is finished, link to it from here.
+2. A program should be thoroughly tested to make sure it works correctly.
+3. Use the [Routine Template](template:routine.html) as the starting point for program pages.
+4. When the program page is finished, link to it from here.
 
 ------
 

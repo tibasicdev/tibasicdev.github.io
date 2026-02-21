@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. MODE to access the mode menu.
-1. Use arrows and ENTER to select Float.
+2. Use arrows and ENTER to select Float.
        
 # The Float Command
 

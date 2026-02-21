@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd LIST to access the list menu.
-1. RIGHT to access the OPS submenu.
-1. ENTER to select SortA(.
+2. RIGHT to access the OPS submenu.
+3. ENTER to select SortA(.
        
 # The SortA( Command
 

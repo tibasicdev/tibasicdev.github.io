@@ -7,12 +7,12 @@
 ### Menu Location
 On the TI-83, press:
 1. 2nd FINANCE to access the finance menu.
-1. ALPHA B to select ►Nom(.
+2. ALPHA B to select ►Nom(.
 
 On the TI-83+ or higher, press:
 1. APPS to access the applications menu.
-1. ENTER or 1 to select Finance...
-1. ALPHA B to select ►Nom(.
+2. ENTER or 1 to select Finance...
+3. ALPHA B to select ►Nom(.
        
 # The ►Nom( Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATRX (on a TI-83) or 2nd MATRX (TI-83+ or higher) to access the matrix menu.
-1. RIGHT to access the MATH submenu.
-1. ALPHA F to select *row+(, or use arrows and ENTER.
+2. RIGHT to access the MATH submenu.
+3. ALPHA F to select *row+(, or use arrows and ENTER.
        
 # The *row+( Command
 

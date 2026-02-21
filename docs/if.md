@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. PRGM to enter the PRGM menu
-1. ENTER or 1 to choose If
+2. ENTER or 1 to choose If
        
 # The If Command
 

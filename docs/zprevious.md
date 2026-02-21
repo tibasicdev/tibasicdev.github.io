@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. ZOOM to access the zoom menu.
-1. RIGHT to access the MEMORY submenu.
-1. ENTER or 1 to select ZPrevious.
+2. RIGHT to access the MEMORY submenu.
+3. ENTER or 1 to select ZPrevious.
        
 # The ZPrevious Command
 

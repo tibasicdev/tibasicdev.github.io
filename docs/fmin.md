@@ -7,7 +7,7 @@
 ### Menu Location
 While editing a program, press:
 1. MATH to open the [math](math.html) menu
-1. 6 or use arrow keys to select
+2. 6 or use arrow keys to select
        
 # The fMin( Command
 

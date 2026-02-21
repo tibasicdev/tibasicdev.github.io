@@ -7,8 +7,8 @@
 ### Menu Location
 This command can only be found in the catalog. Press:
 1. 2nd CATALOG to enter the command catalog
-1. i to skip to commands starting with I
-1. Scroll down to isClockOn and select it
+2. i to skip to commands starting with I
+3. Scroll down to isClockOn and select it
        
 # The isClockOn Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. [2ND] + [0] for the CATALOG
-1. [X<sup>-1</sup>] to jump to the letter D
-1. [ENTER] to insert the command
+2. [X<sup>-1</sup>] to jump to the letter D
+3. [ENTER] to insert the command
        
 # The dayOfWk( Command
 

@@ -183,10 +183,10 @@ can be
 Follow these steps to get the [→](store.html) or " symbols in a string:
 
 1. Type them on the home screen and press [ENTER]
-1. Select 2:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
-1. Press [Y=] to go to the equation editor.
-1. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
-1. Now, use [Equ►String(](equ-string.html)Y<sub>1</sub>,Str1) to store the symbols to a string.
+2. Select 2:Quit when the **[ERR:SYNTAX](errors.html#syntax)** comes up.
+3. Press [Y=] to go to the equation editor.
+4. Press [2nd] [ENTRY] to recall the symbols to Y<sub>1</sub>
+5. Now, use [Equ►String(](equ-string.html)Y<sub>1</sub>,Str1) to store the symbols to a string.
 
 **Use the expr( Command**
 

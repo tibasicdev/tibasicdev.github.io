@@ -7,7 +7,7 @@
 ### Menu Location
 Press:
 1. 2ND DISTR to access the distribution menu
-1. 3 to select invNorm(, or use arrows.
+2. 3 to select invNorm(, or use arrows.
        
 # The invNorm( Command
 

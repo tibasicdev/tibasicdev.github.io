@@ -286,7 +286,7 @@ Now we need a routine which restores the statistics to the ∟STATS list and say
 
 There are a couple of things that you need to be aware of for this routine to be work:
 1. When the "SENDING ATTACK" menu pops up, you must wait for a second for the attack to actually send before pressing ENTER;
-1. Variable A must NEVER equal π during the program, (obviously with the except of the multi-calculator code itself). If it does, and a different calculator starts this routine before the other one, then the link process will fail.
+2. Variable A must NEVER equal π during the program, (obviously with the except of the multi-calculator code itself). If it does, and a different calculator starts this routine before the other one, then the link process will fail.
 To prevent the second problem from ever happening, you should reset variable A at the start of your program, and never use this variable throughout the program.
 
 This whole routine is certainly complex, but it does work, and works pretty well too. Here is a side-by-side comparison of how the program runs. For reference, here is a table showing the values:

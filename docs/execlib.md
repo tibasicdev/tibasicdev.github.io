@@ -7,7 +7,7 @@
 ### Menu Location
 This command can be found in the Prgm Editor CTL menu, press:
 1. Press "PRGM" while in the Program Editor.
-1. Go to the last command and press "Enter".
+2. Go to the last command and press "Enter".
        
 # The ExecLib Command
 

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. 2nd DRAW to access the draw menu.
-1. LEFT to access the STO menu.
-1. 3 to select StoreGDB, or use arrows and ENTER.
+2. LEFT to access the STO menu.
+3. 3 to select StoreGDB, or use arrows and ENTER.
        
 # The StoreGDB Command
 

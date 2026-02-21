@@ -209,8 +209,8 @@ Internal subprograms are the most complicated type of subprogram, and involve pu
 There are several different ways that you can make internal subprograms, but the three most common ways are:
 
 1. Append to the beginning of the program
-1. Structured loops or branching
-1. Branching out of broken loops
+2. Structured loops or branching
+3. Branching out of broken loops
 
 ### Append to Program Beginning
 

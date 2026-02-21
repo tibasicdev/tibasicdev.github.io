@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. [2nd] + [MATH] to access the [68k:math](68k:math.html) menu.
-1. [RIGHT] to access the Number submenu.
-1. 5 to select fPart(, or use arrows.
+2. [RIGHT] to access the Number submenu.
+3. 5 to select fPart(, or use arrows.
 Alternativly, type "fPart(" with the keyboard
        
 # The fPart() command

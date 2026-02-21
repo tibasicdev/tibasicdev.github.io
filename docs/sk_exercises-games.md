@@ -1,14 +1,14 @@
 # Games Excersizes
 ## Review
 1. What command will automatically unarchive a list and create it if it doesn't exist?
-1. What data type would you use to save a highscore?
-1. What is the seed and what is it useful for?
-1. What type of loop is appropriate to use for a game like Yahtzee?
-1. What is the code for movement?
-1. How can you modify the movement code in order to make it so that when you go off the screen, you loop to the other side?
-1. Can you use the sub( command to find the element in a matrix?
-1. Make a formula using rand as the only random command to yield the same results as randBin( with a given seed of 0.
-1. What happens when you take the inverse of a matrix with determinant 0?
+2. What data type would you use to save a highscore?
+3. What is the seed and what is it useful for?
+4. What type of loop is appropriate to use for a game like Yahtzee?
+5. What is the code for movement?
+6. How can you modify the movement code in order to make it so that when you go off the screen, you loop to the other side?
+7. Can you use the sub( command to find the element in a matrix?
+8. Make a formula using rand as the only random command to yield the same results as randBin( with a given seed of 0.
+9. What happens when you take the inverse of a matrix with determinant 0?
 
 ## Programming
 Modify the following movement code that is supposed to move two objects simultaneously according to user input.

@@ -7,8 +7,8 @@
 ### Menu Location
 Press:
 1. MATH to access the math menu.
-1. RIGHT RIGHT to access the CPX submenu.
-1. 7 to select ►Polar, or use arrows and ENTER.
+2. RIGHT RIGHT to access the CPX submenu.
+3. 7 to select ►Polar, or use arrows and ENTER.
        
 # The ►Polar Command
 

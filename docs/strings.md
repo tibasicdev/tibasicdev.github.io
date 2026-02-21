@@ -34,10 +34,10 @@ There are also several commands made specifically for strings. They can only be 
 While you can't store " and → into a string through a program, you may do it nonetheless from the home screen using the following trick (note, however, that plugging the actual content of the string into a program will revert it to its "unstable" state, making it prone to [syntax error](errors.html#syntax) again):
 
 1. At the [Y=] editor, type the quotation marks, followed by the store arrow
-1. Return to the home screen, and then select Equ>String( from the CATALOG
-1. Select Y1 from the [VARS] Y-VARS 1:Function menu
-1. Follow it up with a comma and then select Str1 from the [VARS] 7:String menu
-1. Press [ENTER], and you should now have the string ""→" stored to Str1
+2. Return to the home screen, and then select Equ>String( from the CATALOG
+3. Select Y1 from the [VARS] Y-VARS 1:Function menu
+4. Follow it up with a comma and then select Str1 from the [VARS] 7:String menu
+5. Press [ENTER], and you should now have the string ""→" stored to Str1
 
 Note that if you use Str1 in a program, you should include Str1 as an additional variable when distributing it.
 

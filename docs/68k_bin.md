@@ -6,10 +6,10 @@
        
 ### Menu Location
 1. [2nd]
-1. [Math]
-1. [up or E]
-1. [right]
-1. [4]
+2. [Math]
+3. [up or E]
+4. [right]
+5. [4]
        
 # The ▶Bin Command
 `▶Bin` converts an integer from decimal (base 10) or hexadecimal (base 16) into binary (base 2). 
