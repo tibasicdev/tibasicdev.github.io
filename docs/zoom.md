@@ -15,17 +15,20 @@ The commands themselves are only available in programs. Outside it, you can only
 
 The following zoom commands are available:
 
+
 - [ZBox](zbox.html)
 - [Zoom In](zoom-in.html)
 - [Zoom Out](zoom-out.html)
 - [ZDecimal](zdecimal.html)
 - [ZSquare](zsquare.html)
 
+
 - [ZStandard](zstandard.html)
 - [ZTrig](ztrig.html)
 - [ZInteger](zinteger.html)
 - [ZoomStat](zoomstat.html)
 - [ZoomFit](zoomfit.html)
+
 
 - [ZPrevious](zprevious.html)
 - [ZoomSto](zoomsto.html)

@@ -65,14 +65,17 @@ The usual way of graphing is to store to an equation variable such as y1(x), and
 
 These simulate graphing an equation from any graphing mode. Of special note is the [68k:Graph](68k:graph.html) command — unlike the other commands, which can be erased with [68k:ClrDraw](68k:clrdraw.html) or any other way of refreshing the screen, the output of Graph can only be erased by [68k:ClrGraph](68k:clrgraph.html) or by going to the Y= screen to re-enable the normal Y= functions.
 
+
 - [68k:ClrGraph](68k:clrgraph.html)
 - [68k:DrawFunc](68k:drawfunc.html)
 - [68k:DrawInv](68k:drawinv.html)
 - [68k:DrawParm](68k:drawparm.html)
 
+
 - [68k:DrawPol](68k:drawpol.html)
 - [68k:DrawSlp](68k:drawslp.html)
 - [68k:DrwCtour](68k:drwctour.html)
+
 
 - [68k:Graph](68k:graph.html)
 - [68k:LineTan](68k:linetan.html)
@@ -83,16 +86,19 @@ These simulate graphing an equation from any graphing mode. Of special note is t
 
 The zoom commands resize the graphing window determined by xmin, xmax, ymin, and ymax. For the most part, these four variables are all they change. The exception is [68k:ZoomStd](68k:zoomstd.html), which restores certain other values to their defaults, and [68k:ZoomSto](68k:zoomsto.html) and [68k:ZoomRcl](68k:zoomrcl.html), which back up and restore all [window variables](68k:system-variables.html#window).
 
+
 - [68k:ZoomBox](68k:zoombox.html)
 - [68k:ZoomData](68k:zoomdata.html)
 - [68k:ZoomDec](68k:zoomdec.html)
 - [68k:ZoomFit](68k:zoomfit.html)
 - [68k:ZoomIn](68k:zoomin.html)
 
+
 - [68k:ZoomInt](68k:zoomint.html)
 - [68k:ZoomOut](68k:zoomout.html)
 - [68k:ZoomPrev](68k:zoomprev.html)
 - [68k:ZoomRcl](68k:zoomrcl.html)
+
 
 - [68k:ZoomSqr](68k:zoomsqr.html)
 - [68k:ZoomStd](68k:zoomstd.html)

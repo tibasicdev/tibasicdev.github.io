@@ -3,6 +3,7 @@ The byte 0x63 signifies the beginning of a two-byte window or finance variable t
 
 All token values here (and elsewhere in this guide) are in hexadecimal.
 
+
 - **63 00** — ZXscl
 - **63 01** — ZYscl
 - **63 02** — Xscl
@@ -19,6 +20,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **63 0D** — Ymax
 - **63 0E** — Tmin
 - **63 0F** — Tmax
+
 
 - **63 10** — θmin
 - **63 11** — θmax
@@ -37,6 +39,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **63 1E** — Z*n*Max
 - **63 1F** — *n*Min
 
+
 - **63 20** — Z*n*Min
 - **63 21** — ΔTbl
 - **63 22** — Tstep
@@ -53,6 +56,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **63 2D** — PV
 - **63 2E** — PMT
 - **63 2F** — FV
+
 
 - **63 30** — P/Y
 - **63 31** — C/Y

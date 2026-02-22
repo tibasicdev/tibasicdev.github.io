@@ -29,6 +29,7 @@ Some basic arithmetic commands can be used by matrices as well as real numbers. 
 
 There are also, of course, special commands for dealing with matrices. They are:
 
+
 - [augment(](augment.html)
 - [cumSum(](cumsum.html)
 - [det(](det.html)
@@ -36,11 +37,13 @@ There are also, of course, special commands for dealing with matrices. They are:
 - [Fill(](fill.html)
 - [identity(](identity.html)
 
+
 - [randM(](randm.html)
 - [Matr►list(](matr-list.html)
 - [List►matr(](list-matr.html)
 - [ref(](ref.html)
 - [rref(](rref.html)
+
 
 - [rowSwap(](rowswap.html)
 - [row+(](rowplus.html)

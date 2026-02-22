@@ -3,6 +3,7 @@ The byte 0x62 signifies the beginning of a two-byte statistics variable token (a
 
 All token values here (and elsewhere in this guide) are in hexadecimal.
 
+
 - ***62 00*** — internal use only
 - ***62 01*** — RegEq 
 - **62 02** — n
@@ -19,6 +20,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **62 0D** — Σy
 - **62 0E** — Σy²
 - **62 0F** — Sy
+
 
 - **62 10** — σy
 - **62 11** — Σxy
@@ -37,6 +39,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **62 1E** — y<sub>1</sub>
 - **62 1F** — y<sub>2</sub>
 
+
 - **62 20** —y<sub>3</sub>
 - **62 21** — *n*
 - **62 22** — p
@@ -53,6 +56,7 @@ All token values here (and elsewhere in this guide) are in hexadecimal.
 - **62 2D** — n<sub>1</sub>
 - **62 2E** — $\overline{\textrm{x}}_2$
 - **62 2F** — Sx<sub>2</sub>
+
 
 - **62 30** — n<sub>2</sub>
 - **62 31** — Sxp

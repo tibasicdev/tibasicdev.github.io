@@ -134,8 +134,8 @@ class Converter:
         r'`\[(.*?)\]\((.*?)\)`': r'[`\1`](\2)', # monospaced links
 
         # Lists
-        r'^(\s)*\*\s': r'\1- ',  # unordered lists
-        r'^(\s)*#\s': r'\g<1>1. ',  # ordered lists (spec abuse)
+        r'^(\s*)\*\s': r'\1- ',  # unordered lists
+        r'^(\s*)#\s': r'\g<1>1. ',  # ordered lists (spec abuse)
 
         # Headings
         r'^!\+': "#",

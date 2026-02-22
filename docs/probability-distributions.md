@@ -10,6 +10,7 @@ There are also four "shade" commands available: rather than just calculating a v
 
 The following probability distribution commands are available:
 
+
 - [normalpdf(](normalpdf.html) (Normal distribution)
 - [normalcdf(](normalcdf.html)
 - [invNorm(](invnorm.html)
@@ -21,6 +22,7 @@ The following probability distribution commands are available:
 - [χ²pdf(](chisquarepdf.html) (χ² distribution)
 - [χ²cdf(](chisquarecdf.html)
 - [Shadeχ²(](shadechisquare.html)
+
 
 - [Fpdf(](fpdf.html) (*F*-distribution)
 - [Fcdf(](fcdf.html)

@@ -27,6 +27,7 @@ Note that although these are the only tokens that are accessible from menus, add
 
 ## First Byte 0x5E ([Equations](system-variables.html#equation))
 
+
 - **5E 10** — Y<sub>1</sub>
 - **5E 11** — Y<sub>2</sub>
 - **5E 12** — Y<sub>3</sub>
@@ -37,6 +38,7 @@ Note that although these are the only tokens that are accessible from menus, add
 - **5E 17** — Y<sub>8</sub>
 - **5E 18** — Y<sub>9</sub>
 - **5E 19** — Y<sub>0</sub>
+
 
 - **5E 20** — X<sub>1T</sub>
 - **5E 21** — Y<sub>1T</sub>
@@ -51,12 +53,14 @@ Note that although these are the only tokens that are accessible from menus, add
 - **5E 2A** — X<sub>6T</sub>
 - **5E 2B** — Y<sub>6T</sub>
 
+
 - **5E 40** — r<sub>1</sub>
 - **5E 41** — r<sub>2</sub>
 - **5E 42** — r<sub>3</sub>
 - **5E 43** — r<sub>4</sub>
 - **5E 44** — r<sub>5</sub>
 - **5E 45** — r<sub>6</sub>
+
 
 - **5E 80** — u
 - **5E 81** — v

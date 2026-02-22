@@ -32,6 +32,7 @@ A noteworthy special case is the basic math operators ([+](68k:add.html), [-](68
 
 Of course, there are commands specifically designed for use with lists. Several of these, such as [dim()](68k:dim.html) or [rotate()](68k:rotate.html), can be also used with strings. Many of these commands are found in the list menu (Press 2nd MATH to access the popup math menu, then select 3:List).
 
+
 - [augment()](68k:augment.html)
 - [crossP()](68k:crossp.html)
 - [cumSum()](68k:cumsum.html)
@@ -41,6 +42,7 @@ Of course, there are commands specifically designed for use with lists. Several 
 - [Fill](68k:fill.html)
 - [left()](68k:left.html)
 
+
 - [Δlist()](68k:deltalist.html)
 - [list▶mat()](68k:list-mat.html)
 - [mat▶list()](68k:mat-list.html)
@@ -49,6 +51,7 @@ Of course, there are commands specifically designed for use with lists. Several 
 - [min()](68k:min.html)
 - [newList()](68k:newlist.html)
 - [polyEval()](68k:polyeval.html)
+
 
 - [product()](68k:product.html)
 - [right()](68k:right.html)

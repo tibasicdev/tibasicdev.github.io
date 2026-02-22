@@ -20,6 +20,7 @@ Here is the complete list of algebraic commands:
 - [68k:exp▶list()](68k:exp-list.html)
 - [68k:expand()](68k:expand.html)
 
+
 - [68k:factor()](68k:factor.html)
 - [68k:getNum()](68k:getnum.html)
 - [68k:getDenom()](68k:getdenom.html)
@@ -29,6 +30,7 @@ Here is the complete list of algebraic commands:
 - [68k:log()](68k:log.html)
 - [68k:▶logbase()](68k:-logbase.html) <sup>3.10</sup>
 - [68k:nSolve()](68k:nsolve.html)
+
 
 - [68k:part()](68k:part.html)
 - [68k:▶Polar](68k:-polar.html)
@@ -45,6 +47,7 @@ Here is the complete list of algebraic commands:
 
 For basic arithmetic, the 68k calculators' advantage is that it can do exact calculations with integers up to 256<sup>255</sup>-1 (and approximate floating-point decimal calculations up to 10<sup>1000</sup>-1). Here is the complete list of arithmetic commands:
 
+
 - [+](68k:add.html), [-](68k:subtract.html), [*](68k:multiply.html), [/](68k:divide.html), [‾](68k:negative.html), [^](68k:power.html)
 - [√()](68k:square-root.html), [!](68k:factorial.html), [%](68k:percent.html), [▶](68k:convert.html), [0b](68k:0b.html), [0h](68k:0h.html)
 - [68k:abs()](68k:abs.html)
@@ -58,6 +61,7 @@ For basic arithmetic, the 68k calculators' advantage is that it can do exact cal
 - [68k:floor()](68k:floor.html)
 - [68k:fPart()](68k:fpart.html)
 
+
 - [68k:gcd()](68k:gcd.html)
 - [68k:getNum()](68k:getnum.html)
 - [68k:getDenom()](68k:getdenom.html)
@@ -70,6 +74,7 @@ For basic arithmetic, the 68k calculators' advantage is that it can do exact cal
 - [68k:lcm()](68k:lcm.html)
 - [68k:max()](68k:max.html)
 - [68k:min()](68k:min.html)
+
 
 - [68k:mod()](68k:mod.html)
 - [68k:nCr()](68k:ncr.html)
@@ -90,15 +95,18 @@ What with the ability for symbolic calculation, the 68k calculators are much mor
 
 Here is the complete list of calculus commands:
 
+
 - [∫()](68k:integral.html), [∏()](68k:product-pi.html), [∑()](68k:sum-sigma.html)
 - [68k:arcLen()](68k:arclen.html)
 - [68k:avgRC()](68k:avgrc.html)
 - *[d()](68k:d.html)*
 
+
 - [68k:deSolve()](68k:desolve.html)
 - [68k:fMax()](68k:fmax.html)
 - [68k:fMin()](68k:fmin.html)
 - [68k:impDif()](68k:impdif.html) <sup>3.10</sup>
+
 
 - [68k:limit()](68k:limit.html)
 - [68k:nDeriv()](68k:nderiv.html)
@@ -131,6 +139,7 @@ As far as symbolic math is concerned, you can use [68k:tExpand()](68k:texpand.ht
 
 The entire list of trig commands is:
 
+
 - <sup>[r](68k:radian.html)</sup>, [°](68k:degree.html), <sup>[G](68k:gradian.html)</sup> <sup>3.10</sup>
 - [∠](68k:angle-symbol.html)
 - [68k:cos()](68k:cos.html)
@@ -144,6 +153,7 @@ The entire list of trig commands is:
 - [68k:csc()](68k:csc.html) <sup>2.07</sup>
 - [cscֿ¹()](68k:arccsc.html) <sup>2.07</sup>
 
+
 - [68k:csch()](68k:csch.html) <sup>2.07</sup>
 - [cschֿ¹()](68k:arccsch.html) <sup>2.07</sup>
 - [68k:▶DD](68k:-dd.html)
@@ -156,6 +166,7 @@ The entire list of trig commands is:
 - [68k:▶Rad](68k:-rad.html) <sup>3.00?</sup>
 - [68k:sec()](68k:sec.html) <sup>2.07</sup>
 - [secֿ¹()](68k:arcsec.html) <sup>2.07</sup>
+
 
 - [68k:sech()](68k:sech.html) <sup>2.07</sup>
 - [sechֿ¹()](68k:arcsech.html) <sup>2.07</sup>

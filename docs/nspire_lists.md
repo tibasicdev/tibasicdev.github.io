@@ -37,10 +37,12 @@ Before doing any list comparison operations, you should first check that both li
 
 There are some special commands for lists; some can be used for normal commands as well, but have a special meaning when used for a list. These are typically accessed through the [2nd][LIST] menu, and include:
 
+
 - [nspire:augment(](nspire:augment.html)
 - [nspire:cumulativeSum(](nspire:cumulativesum.html)
 - [nspire:deltalist(](nspire:deltalist.html)
 - [nspire:dim(](nspire:dim.html)
+
 
 - [nspire:Fill](nspire:fill.html)
 - [List►mat(](nspire:list-mat.html)
@@ -48,6 +50,7 @@ There are some special commands for lists; some can be used for normal commands 
 - [nspire:max(](nspire:max.html)
 - [nspire:min(](nspire:min.html)
 - [nspire:product(](nspire:product.html)	
+
 
 - [seq(](nspire:seq.html)
 - [nspire:SortA](nspire:sorta.html)

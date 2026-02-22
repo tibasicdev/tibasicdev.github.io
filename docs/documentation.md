@@ -12,11 +12,13 @@ Writing documentation for your program is one of the best ways you can help your
 
 While there are literally an infinite number of things that you can include in program documentation, you should always at least include the basic essentials about your program. (It is your decision whether you decide to include any of the extras, but keep in mind that the more detailed your documentation is the better it will be for the program user.)
 
+
 - Author information
 - Program description
 - Calculator requirements
 - Installation (if necessary)
 - Instructions
+
 
 - Date released or version number
 - Files included in zip

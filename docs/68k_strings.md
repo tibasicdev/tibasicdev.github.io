@@ -21,15 +21,18 @@ The tricky aspect of strings is accessing a character. To do this, you have to u
 
 Of course, there are several commands specifically designed to be used with strings (though not as many as we'd like). All of them except shift() and rotate() are found in the string menu (Press 2nd MATH to access the popup math menu, then select D:String).
 
+
 - [char()](68k:char.html)
 - [dim()](68k:dim.html)
 - [expr()](68k:expr.html)
 - [format()](68k:format.html)
 
+
 - [inString()](68k:instring.html)
 - [left()](68k:left.html)
 - [mid()](68k:mid.html)
 - [ord()](68k:ord.html)
+
 
 - [right()](68k:right.html)
 - [rotate()](68k:rotate.html)

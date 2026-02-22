@@ -12,6 +12,7 @@
 - [VTI Capture](http://tibasicdev.github.io/local--files/downloads/vticapture.zip)
 - [Flash Debugger](http://tibasicdev.github.io/local--files/downloads/flashdebugger.zip)
 
+
 - [Virtual TI (VTI)](http://tibasicdev.github.io/local--files/downloads/vti.zip)
 - [Virtual TI (VTI) Alpha](http://tibasicdev.github.io/local--files/downloads/vtialpha.zip)
 - [PindurTI (PTI)](http://tibasicdev.github.io/local--files/downloads/pindurti.zip)
@@ -91,6 +92,7 @@
 - [Hit and Run Tutorials](http://tibasicdev.github.io/local--files/downloads/hitandruntutorials.zip)
 - [TI-83 Troubleshooting](http://tibasicdev.github.io/local--files/downloads/83troubleshoot.zip)
 - [How 2 Calc Games in 7 Days](http://tibasicdev.github.io/local--files/downloads/how2calcgamesin7days.zip)
+
 
 - [If Tutorial](http://tibasicdev.github.io/local--files/downloads/iftutorial.zip)
 - [InfoBase Tutorials](http://tibasicdev.github.io/local--files/downloads/infobasetutorials.zip)

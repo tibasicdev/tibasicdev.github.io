@@ -102,8 +102,8 @@
 - Mac:
  - Uninstall and reinstall TI Connect
  - Kill the process "TI Connect Manager X".
- - This can be done using Activity Monitor. Start Activity Monitor in /Applications/Utilities, then find "TI Connect Manager X" in the list of processes (if you can't find it, just type "ti" on your keyboard). Select it, then click the X icon in the top left corner of Activity Monitor. Click Force Quit. Then you can restart the device manager, and it should detect your calculator. In some cases, disconnecting your calculator or turning it off will always cause TI Connect Manager X to crash, and you will need to kill it every time you need to connect it to your computer.
- - To make this process easier, there is a script [https://puu.sh/xZw8j/ba420554ab.sh|here](https://puu.sh/xzw8j/ba420554ab.sh-here)(https://puu.sh/xzw8j/ba420554ab.sh-here) that you can use to automate this process.
+  - This can be done using Activity Monitor. Start Activity Monitor in /Applications/Utilities, then find "TI Connect Manager X" in the list of processes (if you can't find it, just type "ti" on your keyboard). Select it, then click the X icon in the top left corner of Activity Monitor. Click Force Quit. Then you can restart the device manager, and it should detect your calculator. In some cases, disconnecting your calculator or turning it off will always cause TI Connect Manager X to crash, and you will need to kill it every time you need to connect it to your computer.
+  - To make this process easier, there is a script [https://puu.sh/xZw8j/ba420554ab.sh|here](https://puu.sh/xzw8j/ba420554ab.sh-here)(https://puu.sh/xzw8j/ba420554ab.sh-here) that you can use to automate this process.
  - Use a different USB port.
 - Windows:
  - Reinstallation should fix most problems.

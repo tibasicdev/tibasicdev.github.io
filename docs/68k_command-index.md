@@ -203,7 +203,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:Item](68k:item.html)
 
 ##L
-
+ 
 - [68k:Lbl](68k:lbl.html)
 - [68k:lcm()](68k:lcm.html)
 - [68k:left()](68k:left.html)
@@ -448,6 +448,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Algebra](68k:algebra.html)
 
+
 - | ([68k:with](68k:with.html))
 - [68k:abs()](68k:abs.html)
 - [68k:angle()](68k:angle.html)
@@ -459,6 +460,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:exp▶list()](68k:exp-list.html)
 - [68k:expand()](68k:expand.html)
 
+
 - [68k:factor()](68k:factor.html)
 - [68k:getNum()](68k:getnum.html)
 - [68k:getDenom()](68k:getdenom.html)
@@ -469,6 +471,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:log()](68k:log.html)
 - [68k:▶logbase()](68k:-logbase.html) <sup>3.10</sup>
 - [68k:nSolve()](68k:nsolve.html)
+
 
 - [68k:part()](68k:part.html)
 - [68k:▶Polar](68k:-polar.html)
@@ -484,6 +487,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Arithmetic](68k:arithmetic.html)
 
+
 - [+](68k:add.html), [-](68k:subtract.html), [*](68k:multiply.html), [/](68k:divide.html), [‾](68k:negative.html), [^](68k:power.html)
 - [√()](68k:square-root.html), [!](68k:factorial.html), [%](68k:percent.html), [▶](68k:convert.html), [0b](68k:0b.html), [0h](68k:0h.html)
 - [68k:abs()](68k:abs.html)
@@ -497,6 +501,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:floor()](68k:floor.html)
 - [68k:fPart()](68k:fpart.html)
 
+
 - [68k:gcd()](68k:gcd.html)
 - [68k:getNum()](68k:getnum.html)
 - [68k:getDenom()](68k:getdenom.html)
@@ -509,6 +514,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:lcm()](68k:lcm.html)
 - [68k:max()](68k:max.html)
 - [68k:min()](68k:min.html)
+
 
 - [68k:mod()](68k:mod.html)
 - [68k:nCr()](68k:ncr.html)
@@ -525,15 +531,18 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Calculus](68k:calculus.html)
 
+
 - [∫()](68k:integral.html), [∏()](68k:product-pi.html), [∑()](68k:sum-sigma.html)
 - [68k:arcLen()](68k:arclen.html)
 - [68k:avgRC()](68k:avgrc.html)
 - [68k:d](68k:d.html)[()](68k:d.html)
 
+
 - [68k:deSolve()](68k:desolve.html)
 - [68k:fMax()](68k:fmax.html)
 - [68k:fMin()](68k:fmin.html)
 - [68k:impDif()](68k:impdif.html) <sup>3.10</sup>
+
 
 - [68k:limit()](68k:limit.html)
 - [68k:nDeriv()](68k:nderiv.html)
@@ -542,6 +551,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 
 ##[Graphing](68k:graphics.html#toc3)
+
 
 - [68k:ClrGraph](68k:clrgraph.html)
 - [68k:ClrTable](68k:clrtable.html)
@@ -557,6 +567,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:FnOn](68k:fnon.html)
 - [68k:Graph](68k:graph.html)
 
+
 - [68k:LineTan](68k:linetan.html)
 - [68k:NewPlot](68k:newplot.html)
 - [68k:PlotsOff](68k:plotsoff.html)
@@ -570,6 +581,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:Table](68k:table.html)
 - [68k:Trace](68k:trace.html)
 - [68k:ZoomBox](68k:zoombox.html)
+
 
 - [68k:ZoomData](68k:zoomdata.html)
 - [68k:ZoomDec](68k:zoomdec.html)
@@ -587,6 +599,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Lists](68k:lists.html)
 
+
 - [+](68k:add.html), [-](68k:subtract.html), [*](68k:multiply.html), [/](68k:divide.html), [‾](68k:negative.html), [^](68k:power.html)
 - [68k:augment()](68k:augment.html)
 - [68k:cumSum()](68k:cumsum.html)
@@ -598,6 +611,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [Δlist()](68k:deltalist.html)
 - [setUnits()](68k:setunits.html)
 
+
 - [68k:max()](68k:max.html)
 - [68k:mean()](68k:mean.html)
 - [68k:median()](68k:median.html)
@@ -606,6 +620,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:newList()](68k:newlist.html)
 - [68k:polyEval()](68k:polyeval.html)
 - [68k:product()](68k:product.html)
+
 
 - [68k:randPoly()](68k:randpoly.html)
 - [68k:right()](68k:right.html)
@@ -618,6 +633,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 
 ##[68k:Matrices](68k:matrices.html)
+
 
 - [+](68k:add.html), [-](68k:subtract.html), [*](68k:multiply.html), [/](68k:divide.html), [‾](68k:negative.html), [^](68k:power.html)
 - [.+](68k:dotadd.html), [.-](68k:dotsubtract.html), [.*](68k:dotmultiply.html), [./](68k:dotdivide.html), [.^](68k:dotpower.html)
@@ -634,6 +650,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:dotP()](68k:dotp.html)
 - [68k:eigVc()](68k:eigvc.html)
 
+
 - [68k:eigVl()](68k:eigvl.html)
 - [68k:Fill](68k:fill.html)
 - [68k:identity()](68k:identity.html)
@@ -648,6 +665,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:norm()](68k:norm.html)
 - [68k:▶Polar](68k:-polar.html)
 - [68k:QR](68k:qr.html)
+
 
 - [68k:randMat()](68k:randmat.html)
 - [68k:▶Rect](68k:-rect.html)
@@ -666,6 +684,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[Pixel Graphics](68k:graphics.html)
 
+
 - [68k:AndPic](68k:andpic.html)
 - [68k:Circle](68k:circle.html)
 - [68k:ClrDraw](68k:clrdraw.html)
@@ -676,6 +695,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:NewPic](68k:newpic.html)
 - [68k:PtChg](68k:ptchg.html)
 
+
 - [68k:PtOff](68k:ptoff.html)
 - [68k:PtOn](68k:pton.html)
 - [68k:ptTest()](68k:pttest.html)
@@ -685,6 +705,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:PxlHorz](68k:pxlhorz.html)
 - [68k:PxlLine](68k:pxlline.html)
 - [68k:PxlOff](68k:pxloff.html)
+
 
 - [68k:PxlOn](68k:pxlon.html)
 - [68k:pxlTest()](68k:pxltest.html)
@@ -697,6 +718,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 
 ##[Programming (Control)](68k:programming.html)
+
 
 - # ([indirection](68k:indirection.html)), [→](68k:store.html), [©](68k:comment.html)
 - [=](68k:equal.html), [≠](68k:not-equal.html), [>](68k:greater-than.html), [≥](68k:greater-than-or-equal.html), [<](68k:less-than.html), [≤](68k:less-than-or-equal.html)
@@ -717,6 +739,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:Exit](68k:exit.html)
 - [68k:For](68k:for.html)..EndFor
 
+
 - [68k:Func](68k:func.html)..EndFunc
 - [68k:getConfg()](68k:getconfg.html)
 - [68k:getFold()](68k:getfold.html)
@@ -735,6 +758,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:NewFold](68k:newfold.html)
 - [68k:NewProb](68k:newprob.html)
 - [68k:not](68k:not.html)
+
 
 - [68k:or](68k:or.html)
 - [68k:PassErr](68k:passerr.html)
@@ -756,6 +780,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[Programming (Input/Output)](68k:programming.html)
 
+
 - [68k:ClrHome](68k:clrhome.html)
 - [68k:ClrIO](68k:clrio.html)
 - [68k:CustmOff](68k:custmoff.html)
@@ -766,6 +791,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:DispHome](68k:disphome.html)
 - [68k:DropDown](68k:dropdown.html)
 
+
 - [68k:Get](68k:get.html)
 - [68k:GetCalc](68k:getcalc.html)
 - [68k:getKey()](68k:getkey.html)
@@ -775,6 +801,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:Output](68k:output.html)
 - [68k:Pause](68k:pause.html)
 - [68k:PopUp](68k:popup.html)
+
 
 - [68k:Prompt](68k:prompt.html)
 - [68k:Request](68k:request.html)
@@ -789,6 +816,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Statistics](68k:statistics.html)
 
+
 - [!](68k:factorial.html), [%](68k:percent.html)
 - [68k:BldData](68k:blddata.html)
 - [68k:CubicReg](68k:cubicreg.html)
@@ -801,6 +829,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:median()](68k:median.html)
 - [68k:MedMed](68k:medmed.html)
 
+
 - [68k:nCr()](68k:ncr.html)
 - [68k:NewData](68k:newdata.html)
 - [68k:NewPlot](68k:newplot.html)
@@ -812,6 +841,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:QuadReg](68k:quadreg.html)
 - [68k:QuartReg](68k:quartreg.html)
 - [68k:rand()](68k:rand.html)
+
 
 - [68k:randNorm()](68k:randnorm.html)
 - [68k:RandSeed](68k:randseed.html)
@@ -827,16 +857,19 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Strings](68k:strings.html)
 
+
 - [&](68k:append.html), # ([indirection](68k:indirection.html))
 - [68k:char()](68k:char.html)
 - [68k:dim()](68k:dim.html)
 - [68k:expr()](68k:expr.html)
 - [68k:format()](68k:format.html)
 
+
 - [68k:inString()](68k:instring.html)
 - [68k:left()](68k:left.html)
 - [68k:mid()](68k:mid.html)
 - [68k:ord()](68k:ord.html)
+
 
 - [68k:right()](68k:right.html)
 - [68k:rotate()](68k:rotate.html)
@@ -846,6 +879,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 ##[68k:Time and Date](68k:time-and-date.html)
 
+
 - [68k:checkTmr()](68k:checktmr.html) <sup>2.07</sup>
 - [68k:ClockOff](68k:clockoff.html) <sup>2.07</sup>
 - [68k:ClockOn](68k:clockon.html) <sup>2.07</sup>
@@ -853,12 +887,14 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:getDate()](68k:getdate.html) <sup>2.07</sup>
 - [68k:getDtFmt()](68k:getdtfmt.html) <sup>2.07</sup>
 
+
 - [68k:getDtStr()](68k:getdtstr.html) <sup>2.07</sup>
 - [68k:getTime()](68k:gettime.html) <sup>2.07</sup>
 - [68k:getTmFmt()](68k:gettmfmt.html) <sup>2.07</sup>
 - [68k:getTmStr()](68k:gettmstr.html) <sup>2.07</sup>
 - [68k:getTmZn()](68k:gettmzn.html) <sup>2.07</sup>
 - [68k:isClkOn()](68k:isclkon.html) <sup>2.07</sup>
+
 
 - [68k:setDate()](68k:setdate.html) <sup>2.07</sup>
 - [68k:setDtFmt()](68k:setdtfmt.html) <sup>2.07</sup>
@@ -869,6 +905,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 
 
 ##[68k:Trigonometry](68k:trigonometry.html)
+
 
 - <sup>[r](68k:radian.html)</sup>, [°](68k:degree.html), <sup>[G](68k:gradian.html)</sup> <sup>3.10</sup>
 - [∠](68k:angle-symbol.html)
@@ -883,6 +920,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:csc()](68k:csc.html) <sup>2.07</sup>
 - [cscֿ¹()](68k:arccsc.html) <sup>2.07</sup>
 
+
 - [68k:csch()](68k:csch.html) <sup>2.07</sup>
 - [cschֿ¹()](68k:arccsch.html) <sup>2.07</sup>
 - [68k:▶DD](68k:-dd.html)
@@ -895,6 +933,7 @@ you can reference the official manual [here](https://www.usna.edu/mathdept/_file
 - [68k:▶Rad](68k:-rad.html) <sup>3.00?</sup>
 - [68k:sec()](68k:sec.html) <sup>2.07</sup>
 - [secֿ¹()](68k:arcsec.html) <sup>2.07</sup>
+
 
 - [68k:sech()](68k:sech.html) <sup>2.07</sup>
 - [sechֿ¹()](68k:arcsech.html) <sup>2.07</sup>

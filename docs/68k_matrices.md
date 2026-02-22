@@ -54,6 +54,7 @@ Most math commands extend to matrices by being applied to each element; [gcd()](
 
 Finally, there are the commands that are meant specifically for matrices. These are found in the Matrix submenu of the MATH popup menu.
 
+
 - [augment()](68k:augment.html)
 - [colDim()](68k:coldim.html)
 - [colNorm()](68k:colnorm.html)
@@ -65,6 +66,7 @@ Finally, there are the commands that are meant specifically for matrices. These 
 - [eigVl()](68k:eigvl.html)
 - [Fill](68k:fill.html)
 
+
 - [identity()](68k:identity.html)
 - [list▶mat()](68k:list-mat.html)
 - [LU](68k:lu.html)
@@ -74,6 +76,7 @@ Finally, there are the commands that are meant specifically for matrices. These 
 - [newMat()](68k:newmat.html)
 - [norm()](68k:norm.html)
 - [QR](68k:qr.html)
+
 
 - [randMat()](68k:randmat.html)
 - [ref()](68k:ref.html)

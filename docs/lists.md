@@ -37,6 +37,7 @@ Before doing any list comparison operations, you should first check that both li
 
 There are some special commands for lists; some can be used for normal commands as well, but have a special meaning when used for a list. These are typically accessed through the [2nd][LIST] menu, and include:
 
+
 - [augment(](augment.html)
 - [ClrAllLists](clralllists.html)
 - [ClrList](clrlist.html)
@@ -44,12 +45,14 @@ There are some special commands for lists; some can be used for normal commands 
 - [ΔList(](deltalist.html)
 - [dim(](dim.html)
 
+
 - [Fill(](fill.html)
 - [List►matr(](list-matr.html)
 - [Matr►list(](matr-list.html)
 - [max(](max.html)
 - [min(](min.html)
 - [prod(](prod.html)	
+
 
 - [Select(](select.html)
 - [SetUpEditor](setupeditor.html)
