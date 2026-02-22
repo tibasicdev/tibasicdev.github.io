@@ -2,7 +2,6 @@
 There is only so much that can be shown with text alone: sooner or later, any kind of program, whether it is a game or a complicated math tool, will have to use graphics. The purpose of this page is to describe the various methods of rendering graphics, along with their advantages and disadvantages. In many cases, you'll find that no one method suits your needs perfectly, and they will need to be combined to produce something that looks good without sacrificing too much speed or memory space.
 
 
-
 ## Picture Variables
 
 The simplest and fastest way to display just about any image is to save it in a [picture variable](pictures.html) beforehand, and then use the [RecallPic](recallpic.html) command to instantly display it to the screen. There is no choice in positioning the picture, or displaying anything smaller than the entire screen, so this method is mostly limited to title screens. 

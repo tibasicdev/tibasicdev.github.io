@@ -33,8 +33,6 @@ The following zoom commands are available:
 - [ZFracX](zfrac.html)[^1]
 
 
-
-
 [[footnoteblock]]
 
 [^1]: Available only for OS 2.53MP+

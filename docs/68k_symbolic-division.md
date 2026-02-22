@@ -4,7 +4,6 @@ This is a function, rather than a program, and can be used in graphs, other func
 Rather than returning a list of factors as a result, we return an expression.
 
 
-
 ## Code
 
 ```

@@ -5,7 +5,6 @@
 At the beginning of a program, you typically setup everything that the program will use while it's running. Of course, there are lots of things that you may decide to include in your individual program setup, but the three main things that you should include are: the home screen, graph screen, and initializing variables. There are also some general, but crucial mode settings that should be taken care of.
 
 
-
 ## General Settings
 
 There are some general mode setting that you'll want to pay attention to. Most of those should be what you want, but there is always a chance that a program forgot to switch back to the standards, or that the user was playing around with the calculator.

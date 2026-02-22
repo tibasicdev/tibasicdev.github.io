@@ -2,7 +2,6 @@
 The final data type is the string.  A string is a form of representing a phrase.  Before, you could only use numbers, but a string will hold numbers, letters, and almost every possible character.  This proves very useful because strings can serve multi-functions very easily.  They can be used as variables, outputs in the form of numbers or words, and converters.  Below, we will discuss how to use strings.
 
 
-
 ## Setting up Strings
 
 There are ten different strings: Str0 to Str9.  Unlike lists or matrices, strings do not use the [dim](dim.html)( command to determine its length.  Also, strings do not have a special [SetUpEditor](setupeditor.html) command.  So, you need to be careful with [archiving](archive.html) or [unarchiving](unarchive.html) strings.  Fortunately, beyond that, there are no special set up requirements.  All you have to be sure of when dealing with strings is whether it is archived or not and whether the string already has something in it.

@@ -2,9 +2,6 @@
 [A](#A) | [B](#B) | [D](#D) | [E](#E) | [I](#I) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [Z](#Z)
 
 
-
-
-
 In the Error Conditions section on a command page, descriptions will be given of the errors that can result when using a command. These do not include errors that can occur with virtually any command, such as **[ERR:ARGUMENT](#argument)** or **[ERR:SYNTAX](#syntax)**. However, if one of these errors is triggered in an unusual way, it will be listed.
 
 Be aware that certain errors don't occur when graphing or using one of the commands [DrawF](drawf.html), [DrawInv](drawinv.html), [Tangent(](tangent.html), or [Shade(](shade.html). Instead, the graph point is skipped and treated as an undefined value. Tangent( is a minor exception, actually: if there's an error at the tangent point, it will be treated normally. The errors that are ignored in graphs are:
@@ -20,7 +17,6 @@ There are are also several error messages that don't actually occur (as far as a
 
 
 ## A {#A}
-
 
 
 ### ARCHIVED {#archived}
@@ -47,7 +43,6 @@ There are are also several error messages that don't actually occur (as far as a
 ## B {#B}
 
 
-
 ### BAD ADDRESS {#badaddress}
 
 - You have attempted to send or receive an application and an error (e.g., electrical interference) has occurred in the transmission.
@@ -66,9 +61,7 @@ There are are also several error messages that don't actually occur (as far as a
 - You pressed the [ON] key to break execution of a program, to halt a DRAW instruction, or to stop evaluation of an expression.
 
 
-
 ## D {#D}
-
 
 
 ### DATA TYPE {#datatype}
@@ -118,9 +111,7 @@ There are are also several error messages that don't actually occur (as far as a
 - Also appears when you unpack a group and a variable in the group is already defined. In both cases, it will give you several options for correcting the error, including Omit, Rename, and Overwrite.
 
 
-
 ## E {#E}
-
 
 
 ### EXPIRED {#expired}
@@ -138,9 +129,7 @@ There are are also several error messages that don't actually occur (as far as a
 - When this error occurs, the option 2:Goto doesn't show up, but will redirect you to the LINK screen instead of the main screen.
 
 
-
 ## I {#I}
-
 
 
 ### ID NOT FOUND {#idnotfound}
@@ -184,9 +173,7 @@ There are are also several error messages that don't actually occur (as far as a
 - When computing I%, the maximum number of iterations was exceeded.
 
 
-
 ## L {#L}
-
 
 
 ### LABEL {#label}
@@ -199,9 +186,7 @@ There are are also several error messages that don't actually occur (as far as a
 - When this error occurs, the option 2:Goto doesn't show up.
 
 
-
 ## M {#M}
-
 
 
 ### MEMORY {#memory}
@@ -222,9 +207,7 @@ There are are also several error messages that don't actually occur (as far as a
 - You attempted to store to a [window variable](system-variables.html#window) in another graphing mode or to perform an instruction while in the wrong mode; for example, [DrawInv](drawinv.html) in a graphing mode other than [Func](func.html).
 
 
-
 ## N {#N}
-
 
 
 ### NO SIGN CHNG {#nosignchng}
@@ -240,9 +223,7 @@ There are are also several error messages that don't actually occur (as far as a
 - This error can appear if you use a negative number for some operations, such as [ln](ln.html)
 
 
-
 ## O {#O}
-
 
 
 ### OVERFLOW {#overflow}
@@ -252,9 +233,7 @@ There are are also several error messages that don't actually occur (as far as a
 - This error is not returned when graphing (see the [note](#note) at the top of the page).
 
 
-
 ## R {#R}
-
 
 
 ### RESERVED {#reserved}
@@ -262,9 +241,7 @@ There are are also several error messages that don't actually occur (as far as a
 - You attempted to use a [system variable](system-variables.html) inappropriately (for example, performing [1-Var Stats](1-var-stats.html) on the reserved list ∟RESID).
 
 
-
 ## S {#S}
-
 
 
 ### SINGULAR MAT {#singularmat}
@@ -298,9 +275,7 @@ There are are also several error messages that don't actually occur (as far as a
 - The command was attempting to get [expr(](expr.html) of a non-value string, i.e., trying to evaluate a space, equals sign, etc.
 
 
-
 ## T {#T}
-
 
 
 ### TOL NOT MET {#tolnotmet}
@@ -308,9 +283,7 @@ There are are also several error messages that don't actually occur (as far as a
 - You requested a tolerance to which the algorithm cannot return an accurate result.
 
 
-
 ## U {#U}
-
 
 
 ### UNDEFINED {#undefined}
@@ -323,7 +296,6 @@ There are are also several error messages that don't actually occur (as far as a
 
 
 ## V {#V}
-
 
 
 ### VALIDATION {#validation}
@@ -345,9 +317,7 @@ There are are also several error messages that don't actually occur (as far as a
 - You have attempted to use or display certain corrupted tokens that the calculator will not allow.
 
 
-
 ## W {#W}
-
 
 
 ### WINDOW RANGE {#windowrange}
@@ -363,7 +333,6 @@ There are are also several error messages that don't actually occur (as far as a
 ## Z {#Z}
 
 
-
 ### ZOOM {#zoom}
 
 - A point or a line, instead of a box, is defined in ZBox.
@@ -372,7 +341,6 @@ There are are also several error messages that don't actually occur (as far as a
 
 
 ## Other
-
 
 
 ### ?

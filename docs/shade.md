@@ -31,7 +31,6 @@ Note that if you don't supply the *resolution* argument, it defaults to 1 and ev
 Shade(Ymin,Ymax) is the smallest (though not the fastest) way to shade the entire screen.
 
 
-
 ## Related Commands
 
 - [DrawF](drawf.html)

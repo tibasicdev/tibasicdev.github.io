@@ -2,9 +2,6 @@
 This sitemap is a list of the pages in the TI-83 section of the site, organized in a hierarchical fashion for easy viewing.  Please note that this does not include all of the pages in the TI-83 section, because some of the pages are part of a larger page, and thus do not make sense by themselves.
 
 
-[[row]]
-
-
 ## General
 
 - [Home](home.html)
@@ -41,8 +38,6 @@ This sitemap is a list of the pages in the TI-83 section of the site, organized 
 - [Time and Date](time-and-date.html)
 - [Command Map](command-map.html)
 - [Command Index](command-index.html)
-
-[[/cell]]
 
 
 ## Development
@@ -91,8 +86,6 @@ This sitemap is a list of the pages in the TI-83 section of the site, organized 
 - [Recursion](recursion.html)
 - [Assembly](assembly.html)
 
-[[/cell]]
-
 
 ## References
 
@@ -131,7 +124,3 @@ This sitemap is a list of the pages in the TI-83 section of the site, organized 
 - [Variable Tips](variable-tips.html)
 - [Productivity Tips](productivity-tips.html)
 - [Site History](history.html)
-
-[[/cell]]
-[[/row]]
-[[/table]]

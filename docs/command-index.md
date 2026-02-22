@@ -14,8 +14,6 @@ Some commands have a superscript next to them that indicates compatibility:
 See [Compatibility](compatibility.html) for a chart of only the commands that require certain calculators or operating systems.
 
 
-
-
 ## Ops {#Ops}
 
 - [+](add.html), [-](subtract.html), [*](multiply.html), [/](divide.html), [‾](negative.html), [^](power.html), [×√](xroot.html)
@@ -158,12 +156,6 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [Func](func.html)
 
 
-
-
-
-
-
-
 ## G {#G}
 
 - [GarbageCollect](garbagecollect.html)
@@ -303,10 +295,6 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 
 - [QuadReg](quadreg.html)
 - [QuartReg](quartreg.html)
-
-
-
-
 
 
 ## R {#R}

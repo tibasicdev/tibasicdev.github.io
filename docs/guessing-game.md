@@ -74,7 +74,6 @@ Disp "HIGHER"
 Goto B2
 
 
-
 Lbl C1
 ClrHome
 Output(5,5,"WARNING")

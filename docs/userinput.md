@@ -4,7 +4,6 @@ Getting user input is a basic part of almost all programs. It provides a way of 
 User input includes getting values for variables on the calculator, getting the keys that the user pressed, and getting a variable off of or sending a variable to another calculator over a link cable.
 
 
-
 ## Getting Input
 
 You can get input in three ways: Input, Prompt, and a graph-screen method. There are certain advantages and disadvantages to each command, and there are also certain situations where each command should be used. The first two are commands on the I/O menu of the prgm button (only while editing a program). The third has no single command. It has to be done manually. Below explains the third method a bit better.

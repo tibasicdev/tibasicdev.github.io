@@ -2,7 +2,6 @@
 Movement is commonly used in programs as a way to add user interaction. It is part of [user input](userinput.html) as it relies exclusively upon the [getKey](getkey.html) command to work. You can use movement in many programs and for many different things, including moving a cursor in a menu or moving a character around the screen. It is the latter case that we are going to explain and show here.
 
 
-
 ## The Code
 
 To achieve the function of movement, we need to use some intense code and combine that with the attribute of getKey.  First of all, the object that is being moved must have an identification.  In two-dimensional space, the object needs two numbers to represent its position: the *x* coordinate, and the *y* coordinate.  Those can be represented by a couple of real variables, for example, A and B.  The next key for movement is to change the object's position.  This can be done by adding or subtracting 1 to A or B, which will inevitably change the object's position.  The next thing is outputting the result.

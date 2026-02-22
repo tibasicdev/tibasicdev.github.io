@@ -1,13 +1,5 @@
 # 68k Basic Starter Kit
-[[row]]
-
 ***Welcome to the TI-Basic Developer (TI|BD) 68k Basic Starter Kit!*** This tutorial is designed to help new 68k programmers get their feet off the ground. The tutorial is divided into chapters that each have their own focus, and is meant to be read in sequential order. If you have questions or get stuck, leave a post on the [forums](http://tibasicdev.github.io/forum/c-32784/68k-programming) and somebody will assist you. ***Happy coding!***
-[[/cell]]
-[[/row]]
-[[/table]]
-
-
-[[row]]
 
 
 **1. Getting Started**
@@ -37,7 +29,3 @@
 1. [Putting It All Together Part 1](68k:sk-piat1.html)
 2. [Putting It All Together Part 2](68k:sk-piat2.html)
 **8. Miscellaneous**
-
-[[/cell]]
-[[/row]]
-[[/table]]

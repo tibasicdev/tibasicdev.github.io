@@ -2,7 +2,6 @@
 If you have ever played any of the snake, mofrog, nibbles, etc. games, then this game should be familiar to you. The basic premise is to go around eating food and the snake grows longer with each piece of food. Like with the other games, try out the game and try to understand and think through the code.
 
 
-
 ### The Code
 
 

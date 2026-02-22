@@ -22,7 +22,6 @@ All of these are locally declared.
 TI-89/92/+/V200
 
 
-
 ```
 :invert()
 :Prgm

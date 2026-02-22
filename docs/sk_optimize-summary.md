@@ -7,7 +7,6 @@ In this chapter, you learned some optimization techniques to make your programs 
 - Understanding logical operators can help you eliminate extra parentheses to save space.
 
 
-
 <center>
 
 |**[<< Graph Screen](sk:graphscreen.html)**|**[Table of Contents](starter-kit.html)**|**[Exercises >>](sk:exercises-optimize.html)**|

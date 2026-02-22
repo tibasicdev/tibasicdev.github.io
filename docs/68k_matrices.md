@@ -86,8 +86,6 @@ Finally, there are the commands that are meant specifically for matrices. These 
 - [subMat()](68k:submat.html)
 
 
-
-
 ## Conditionals With Matrices
 
 Conditional statements, like [If](68k:if.html), [when()](68k:when.html), and [While](68k:while.html), accept matrices of truth values as well as single truth values. The check will be interpreted as true if and only if every element of the matrix is true, effectively combining each element of the matrix with [and](68k:and.html).

@@ -9,27 +9,23 @@ Because sorting through all of these commands is a rather daunting task, especia
 
 There are eleven different command categories that we have come up with:
 
-[[table]]
-[[row]]
 
 - [Home Screen](homescreen.html)
 - [Graph Screen](graphscreen.html)
 - [Math Functions](math.html)
 - [Variables](variables.html)
-[[/cell]]
+
 
 - [User Input](userinput.html)
 - [Operators](operators.html)
 - [Calculator Linking](linking.html)
 - [Controlling Flow](controlflow.html)
-[[/cell]]
+
 
 - [User Settings](settings.html)
 - [Memory Management](memory-management.html)
 - [Time and Date](time-and-date.html)
 - [Text Commands](textcommands.html)
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 We tried to do our best to come up with these categories because we believe they reflect the natural divisions of the commands, although some of the commands have functionality that overlaps more than one category. In this case, we decided to simply go with the primary use of the command.

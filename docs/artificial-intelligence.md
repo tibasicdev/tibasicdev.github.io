@@ -4,7 +4,6 @@
 Artificial intelligence, often abbreviated AI, is a branch of computer science concerning the intelligence of machines. More specifically, artificial intelligence is the ability of inorganic automaton to perceive their environment and make rational decisions based on data acquired. Used in applications with dynamic environments, as opposed to static, AI attempts to provide solutions to problems without the need of human interaction. The entire purpose behind utilizing AI is to allow automata to make decisions as if it were human. In essence, AI is an effort to emulate the human mind in settings where a real human would be impossible or impracticable to use.
 
 
-
 ## Characteristics of AI
 In the game industry, AI allows a CPU to compete against a human player (or another CPU) under the rules governing the game. For example, a chess AI will analyze the game and attempt to make moves which will maximize its success. Other examples of AI include speech recognition used in cell phones, automatic thermostat controls, and the navigation system used in autonomous robotic vacuum cleaners. In each of these applications, AI combines multiple elements together to complete a task based on the data presented. Breaking the AI into individual qualities allows these elements to be characterized.
 

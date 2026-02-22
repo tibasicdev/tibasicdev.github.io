@@ -79,8 +79,6 @@ These simulate graphing an equation from any graphing mode. Of special note is t
 - [68k:Shade](68k:shade.html)
 
 
-
-
 ### Zoom Commands
 
 The zoom commands resize the graphing window determined by xmin, xmax, ymin, and ymax. For the most part, these four variables are all they change. The exception is [68k:ZoomStd](68k:zoomstd.html), which restores certain other values to their defaults, and [68k:ZoomSto](68k:zoomsto.html) and [68k:ZoomRcl](68k:zoomrcl.html), which back up and restore all [window variables](68k:system-variables.html#window).
@@ -100,8 +98,6 @@ The zoom commands resize the graphing window determined by xmin, xmax, ymin, and
 - [68k:ZoomStd](68k:zoomstd.html)
 - [68k:ZoomSto](68k:zoomsto.html)
 - [68k:ZoomTrig](68k:zoomtrig.html)
-
-
 
 
 ### Graph Manipulation

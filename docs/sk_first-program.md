@@ -4,7 +4,6 @@
 A program is an organized, step-by-step set of instructions. When executing a program, the calculator behaves in a predetermined manner, performing the instructions in a sequential order. The amount of free RAM is the only limit on the number and size of programs.
 
 
-
 When making programs, there is a general order that you must follow. You first need to create the program, then you edit the program, and finally you execute the program. Every program will go through this process, with the editing and executing being done numerous times to make changes or fix errors.
 
 In order to help you further understand and visualize the process, we are going to walk you through creating a program. We have chosen to demonstrate how to create the famous "Hello, World!" program, which is a common first program because of its simplicity.

@@ -25,9 +25,6 @@ While there are literally an infinite number of things that you can include in p
 - [Copyright](copyrights.html)
 
 
-
-
-
 Besides the things listed in the list, you might also want to include some technical information. If you have a quality program with some exceptional code, other less knowledgeable users would probably be interested in studying the technical information from your program so they can learn from it. This not only allows them to become better programmers, but they might even be able to add on to your program with more features, functionality, or whatever.
 
 Documentation should be saved as a *.txt file since it is small and can be opened by any computer.  Files in the *.doc, *.docx, *.pdf, or any other format might be problematic for people who lack the respective program to open it.

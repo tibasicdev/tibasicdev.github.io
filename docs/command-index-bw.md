@@ -16,7 +16,6 @@ Some commands have a superscript next to them that indicates compatibility:
 See [Compatibility](compatibility.html) for a chart of only the commands that require certain calculators or operating systems.
 
 
-
 ## Ops {#Ops}
 
 - [+](add.html), [-](subtract.html), [*](multiply.html), [/](divide.html), [‾](negative.html), [^](power.html), [×√](xroot.html)
@@ -149,9 +148,6 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [►Frac](-frac.html)
 - [Full](full.html)
 - [Func](func.html)
-
-
-
 
 
 ## G {#G}
@@ -293,9 +289,6 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [QuartReg](quartreg.html)
 
 
-
-
-
 ## R {#R}
 
 - [Radian](radian-mode.html)
@@ -435,8 +428,6 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [ZStandard](zstandard.html)
 - [Z-Test(](z-test.html)
 - [ZTrig](ztrig.html)
-
-
 
 
 ![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)[[/span]]

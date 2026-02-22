@@ -3,7 +3,6 @@ Whee! You got through the first part of the starter kit! Now, we come to the sec
 We will start off the second part of the kit by discussing more of the homescreen. Let's begin, shall we?
 
 
-
 ## Letting the User See Something
 Back in the first part, you only learned of one command that can display information, the Disp command. We will learn two more commands that deal with output, starting with the ClrHome command.
 

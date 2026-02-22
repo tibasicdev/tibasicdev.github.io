@@ -2,7 +2,6 @@
 Movement is commonly used in programs as a way to add user interaction. It is part of [user input](userinput.html) as it relies exclusively upon the [`getKey`](getkey.html) command to work. You can use movement in many programs and for many different things, including moving a cursor in a menu or moving a character around the screen. It is the latter case that we are going to explain and show here.
 
 
-
 ## The Code
 
 ### Homescreen

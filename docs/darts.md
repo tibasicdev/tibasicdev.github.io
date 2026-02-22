@@ -2,7 +2,6 @@
 Darts is a simple game where you want to hit the target ("]") with your dart (">"), while avoiding the obstacles ("^" or "v") in your way. You get one point for each target you hit, and since there are twenty rounds, the maximum number of points is twenty. Although this game is rather simple at its core, it is extremely compact, and a good example of what you can do in a small number of bytes. Like with the other games, try out the game and try to understand and think through the code.
 
 
-
 ### The Code
 
 ```

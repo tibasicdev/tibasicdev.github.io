@@ -2,7 +2,6 @@
 Now that you know how to utilize both the graph screen and the home screen, the next step to making wonderful programs is learning how to use the math.  That's right: math.  Most programs have to use math in order to run.  Games that include gravity are an example.  The math functions are pretty straightforward; however, their effective use requires some masterful skill.  Understanding the math functions will bring you one step closer to becoming a master programmer!
 
 
-
 ## Basic Operators
 
 The simplest operators include [+](add.html),[-](subtract.html), [*](multiply.html), [/](divide.html). This tutorial will show how these simple arithmetic operators can be very powerful when applied effectively.

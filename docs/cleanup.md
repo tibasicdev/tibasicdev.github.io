@@ -3,7 +3,6 @@
 | --- |
 
 
-
 Imagine you just finished playing a round of Blackjack, and now you're back on the main screen. You enjoyed the game, but something is just not right. Not only is there text on the home screen, but there's graphics on the graph screen, and it appears that there's some leftover [variables](variables.html) taking up a considerable amount of your precious memory. It seems that the Blackjack game forgot to clean up after itself.
 
 Cleaning up after a program is one of the most important parts of any game. A quality game features good gameplay, but more importantly it doesn't leave the calculator in disarray afterwards so the next program that is run isn't affected by it. While program cleanup can involve whatever the game programmer wants, there are a few standard parts to it.

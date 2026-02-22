@@ -2,7 +2,6 @@
 [Matrices](matrices.html) are a step up from lists. [Lists](lists.html) are a string of elements, like {5,4,3,2,1,0}. A matrix, on the other hand, is a list of lists, like [[5,5,5],[4,4,4],[3,3,3],[2,2,2]]. Below, we will start learning how to handle this more complex data type.
 
 
-
 ## Setting up Matrices
 
 Unfortunately, unlike lists, there is no [`SetUpEditor`](setupeditor.html) command to make it easy for matrices. Fortunately, though, matrices [A] through [J] always exist, unless otherwise removed. This gets rid of the need to [`dim(`](dim.html) first. You do need to be careful with [`UnArchive`](unarchive.html). To ask if the user has already run the program, you could use a routine such as the following:

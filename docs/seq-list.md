@@ -104,7 +104,6 @@ can be
 The `seq(` command itself can often be replaced with an unusual use of the `binomcdf(` or `binompdf(` commands, improving speed and sometimes size as well. However, this optimization is fairly advanced; read the pages for those commands to learn about it.
 
 
-
 ## Error Conditions
 
 - **[ERR:ILLEGAL NEST](errors.html#illegalnest)** is thrown if you try to use seq( inside of another seq( command.

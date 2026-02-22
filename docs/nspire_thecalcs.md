@@ -6,15 +6,11 @@
 The standard TI-Nspire calculator is comparable to the TI-84 Plus in features and functionality. It features a TI-84 mode by way of a replaceable snap-in keypad (included) and contains a TI-84 Plus emulator. The likely target of this is secondary schools that make use of the TI-84 Plus currently or have textbooks that cover the TI-83 (Plus) and TI-84 Plus lines, and to allow them to transition to the TI-Nspire line more easily.
 
 
-
-
 ## TI Nspire CX
 
 ![TI-nspire_CX](TI-nspire_CX "")
 
 The TI-Nspire CX is one of the latest updates to the TI-Nspire series. It has a thinner design with a thickness of 1.57 cm (almost half of the TI-89), a 1200 mAh rechargeable battery (wall adapter is included in the American retail package), a 320 by 240 pixel full color backlit display (3.2" diagonal), and OS 3.0 which includes features such as 3D graphing. With the exception of interchangeable TI-84 keypads, the CX series retain all features of the previous TI-Nspire models. The colors of the calculator are still the same as those of the TI-Nspire models; the CX is white and dark blue. In addition, the external connectors have changed slightly. The mini-USB port, located at the center of the top of the TI-Nspire series, has moved to the right on the CX series. Lastly, on the CX series, TI added a second port immediately left of the mini-USB port, for a new wireless module.
-
-
 
 
 ## TI Nspire CAS
@@ -24,15 +20,11 @@ The TI-Nspire CX is one of the latest updates to the TI-Nspire series. It has a 
 The TI-Nspire CAS calculator is capable of displaying and evaluating values symbolically, not just as floating-point numbers. It includes algebraic functions such as a symbolic differential equation solver: deSolve(...), the complex eigenvectors of a matrix: eigVc(...), as well as calculus based functions, including limits, derivatives, and integrals. For this reason, the TI-Nspire CAS is more comparable to the TI-89 Titanium and Voyage 200 than to other calculators. Its likely targets are college students and universities. Unlike the TI-Nspire, it is not compatible with the snap-in TI-84 Plus keypad.
 
 
-
-
 ## TI Nspire CX CAS
 
 ![tinspirecxcas.jpg](tinspirecxcas.jpg "")
 
 The TI-Nspire CX CAS Is the latest update to the TI-Nspire series. It has similar features to the CX, It has a thinner design with a thickness of 1.57 cm (almost half of the TI-89), a 1200 mAh rechargeable battery (wall adapter is included in the American retail package), a 320 by 240 pixel full color backlit display (3.2" diagonal), and OS 3.0 which includes features such as 3D graphing. This calculator can be programmed in two types of programming languages: TI-BASIC and Lua.
-
-
 
 
 ## Bibliography

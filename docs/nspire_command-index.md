@@ -2,8 +2,6 @@
 [Ops](#Ops) | [A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [I](#I) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Z](#Z)
 
 
-
-
 ## Ops {#Ops}
 
 [+](nspire:add.html), [-](nspire:subtract.html), [·](nspire:multiply.html), [/](nspire:divide.html), [^](nspire:power.html), [^ֿ¹](nspire:reciprocal.html), [²](nspire:square.html)
@@ -125,9 +123,6 @@
 [nspire:dotP()](nspire:dotp.html)
 
 
-
-
-
 ## E {#E}
 
 [nspire:e^()](nspire:e-.html)
@@ -235,9 +230,6 @@
 [nspire:LU](nspire:lu.html)
 
 
-
-
-
 ## M {#M}
 
 [nspire:mat▶list()](nspire:mat-list.html)
@@ -343,9 +335,6 @@
 [nspire:rref()](nspire:rref.html)
 
 
-
-
-
 ## S {#S}
 
 [nspire:sec()](nspire:sec.html)
@@ -446,8 +435,6 @@
 [nspire:zTest_1Prop](nspire:ztest_1prop.html)
 [nspire:zTest_2Prop](nspire:ztest_2prop.html)
 [nspire:zTest_2Samp](nspire:ztest_2samp.html)
-
-
 
 
 ![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)[[/span]]

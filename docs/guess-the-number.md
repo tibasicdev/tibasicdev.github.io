@@ -2,7 +2,6 @@
 Guess the Number has been a classic program for most beginner programmers to start out with. This is because it features a rather simple concept and it is fairly easy to program. Because of this, we felt like it made sense to show you how it would translate into TI-Basic.
 
 
-
 ### The Code
 
 This Guess the Number program features a guess tracker that keeps track of how many tries it took you to guess the number. The range for the numbers is 1 to 100. This can easily be altered by you if you want a larger range. In addition, you can have the user input their own desired range. If you go that route, though, you need to do some error checking to make sure that the user actually inputs a valid number within the allotted range.

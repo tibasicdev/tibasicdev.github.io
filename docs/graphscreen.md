@@ -4,7 +4,6 @@ The TI-83/+/SE graphscreen is 64 rows, by 96 columns, the coordinates for the pi
 The graphscreen does not have access to some of the commands that are available on the homescreen (such as the user input). In addition, some of the graphscreen commands have their coordinates reversed, so the row comes before the column. These commands also take longer to draw.
 
 
-
 ## Setting up the Graphscreen
 
 *Note: it is good practice to save the current settings at the beginning of the program with `StoGDB`, and recall it later with `RclGDB`. The syntax for those commands is illustrated below.*

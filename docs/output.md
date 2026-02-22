@@ -31,7 +31,6 @@ If the last text display command of a program is an `Output(` command, then "Don
 This trick does not work on recent "MathPrint" OSes.
 
 
-
 You can also use `Output(` to get rid of the run indicator.  Unfortunately, it only silences it for a moment and needs to be repeated in a loop to make it appear to be gone.  In a game, it should be incorporated into the main loop.  The run indicator is momentarily stopped every time that you output something to the upper right corner, it just needs to be repeated for it to appear to be gone.  If you're on the graph screen, you can accomplish the same thing using the [`Text(`](text.html) command.
 
 ```

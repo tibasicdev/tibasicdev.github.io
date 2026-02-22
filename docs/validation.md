@@ -1,0 +1,184 @@
+# Validation of User Input
+Validation is the process of evaluating [user input](userinput.html) to ensure it satisfies the specified requirements.  Most programs just blindly accept any input that the user enters, assuming that it was entered in correctly and that it is valid. This is a dangerous assumption, because there is a great likelihood that somebody at some point will enter in bad input. When that finally happens, the program will crash when it tries to use the input. In order to ensure this doesn't happen, you should validate user input.
+
+When validating user input, there are three main approaches you can take:
+
+- **Stopping the program** — This validation approach involves asking the user for input, and then checking to see if it is a bad input value; if it is, you then just stop the program with a [Return](return.html) or [Stop](stop.html). The idea is that there is no point continuing on to the rest of the program, since the input would only cause the program to crash or get messed up when the input finally gets used.
+- **Keep asking for input** — This validation approach involves placing your validation inside of a [Repeat](repeat.html) or [While](while.html) loop, and using a variable as a flag to indicate whether the input is valid or not. The idea is that after asking the user for input, you check to make sure it is not a bad input value; if it is, the bad input flag will be set, and input will be asked for again.
+- **Make bad input valid** — This validation approach involves asking the user for input, and then trying to filter out any bad parts of the input that might be present. You can make the filters as in depth as you want, but because there is almost an infinite number of things that a user can enter in, there is no way to cover everything. Ultimately, it comes down to knowing the user, and what they are likely to enter in.
+
+## How to Validate Variables
+
+There are three main variable types that a user will be asked to input values for in a program: [reals](variables.html#toc2), [lists](lists.html), and [strings](strings.html). Each of these variables has their own set of standard validation considerations to check for, along with whatever additional considerations you have in your particular program.
+
+#### Reals
+
+When validating a real variable, the main things to check for are:
+
+- Is it within the appropriate range?
+- Is it not a complex number (i.e., there is no imaginary *[i](i.html)* part)?
+- Is it an integer (i.e., no fraction part)?
+- Is it positive (or zero, if appropriate)?
+
+Testing for these four conditions is relatively easy, considering that there are built-in commands that will take care of it for you: [relational operators](operators.html#relational), the [imag(](imag.html) command, and the [fPart(](fpart.html) command. Generally, you should do the complex number check before the other three checks, because an imaginary part in a number can cause problems.
+
+There's another problem that comes up with using [Input](input.html) specifically. If the input is for a real number A, the user might enter a list, which will be stored to ∟A instead. A simple way of fixing this problem is to store an invalid value to A to begin with, which will be dealt with if the user enters a list and doesn't change A. Many times, this is as simple as using [DelVar](delvar.html).
+
+For a simple example of validating a real number, imagine asking the user to specify how many rounds of a game they want to play. A [For(](for.html) loop is used as the main game loop, with the number of rounds being the upper boundary. Since the lower boundary is zero, we want the user to input a number greater than zero. In addition, a For( loop does not work with complex numbers, and we do not want to allow a fraction part because the number of rounds is used to calculate the scoring.
+
+Here is what the validation code for our game might look like with each of the three different validation approaches:
+
+
+```
+:DelVar AClrHome
+:Input "ROUNDS: ",A
+:If imag(A
+:Return
+:If A<1 or fPart(A
+:Return
+```
+
+
+```
+:0→A
+:Repeat Ans
+:ClrHome
+:Input "ROUNDS: ",A
+:If not(imag(A
+:not(A<1 or fPart(A
+:End
+```
+
+
+```
+:DelVar AClrHome
+:Input "ROUNDS: ",A
+:max(1,iPart(real(A→A
+```
+
+
+There are a couple things you should note. In the stopping the program code, we used the [Return](return.html) command to stop the program, instead of the [Stop](stop.html) command. This is so that the program will work correctly with [subprograms](subprograms.html) and [assembly shells](asmshells.html). We used the opposite commands in the making bad input valid code: [iPart(](ipart.html) instead of fPart( and [real(](real.html) instead of imag(. We are also using the [max(](max.html) command to make one the minimum value for the input.
+
+#### Lists
+
+When validating a list, the main things to check for are:
+
+- Is the list length within the appropriate range?
+- Does each list element pass the real validation?
+
+Testing for the list length condition and each of the list elements involves using the built-in [dim(](dim.html) command. You first check to see that the list length is acceptable, and then use the dim( command as the upper boundary in a [For(](for.html) loop to go over the list elements one at a time. Each element is validated just like a real variable.
+
+For a simple example of validating a list, imagine you have a lottery game and you want the user to specify three numbers. We want the numbers to be between 1-100, as well as not having an imaginary or fraction part. Here is what the validation code for our game might look like with each of the three different validation approaches:
+
+
+```
+:ClrHome
+:Input "NUMBERS: ",L1
+:If 3≠dim(L1:Return
+:For(I,1,3
+:L1(I
+:If imag(Ans:Return
+:If Ans<1 or Ans>E2 or fPart(Ans
+:Return
+:End
+```
+
+
+```
+:Repeat A=3
+:ClrHome
+:Input "NUMBERS: ",L1
+:DelVar A
+:For(I,1,3(3=dim(L1
+:L1(I
+:If not(imag(Ans
+:A+not(Ans<1 or Ans>E2 or fPart(Ans→A
+:End:End
+```
+
+
+```
+:ClrHome
+:Input "NUMBERS: ",L1
+:For(I,1,3-dim(L1
+:randInt(1,E2→L1(1+dim(L1
+:End
+:3→dim(L1
+:max(1,min(E2,iPart(real(L1→L1
+```
+
+
+Like with the example from before, we had to check for the complex number before checking for the number boundaries and fraction part. This is because neither of those commands work with complex numbers; they will actually throw a [ERR:DATA TYPE](errors.html#datatype) error. Also important is the optimization that we used to move the list dimension check into the For( loop's upper boundary. This allowed us to eliminate a conditional that we would have had to add.
+
+#### Strings
+
+When validating a string, the main things to check for are:
+
+- Is the string length within the appropriate range?
+- Does the string only contain the appropriate characters?
+
+Testing for the string length involves using the built-in [length(](length.html) command. This check by itself is not enough, however, because a string treats commands and functions as just one character (i.e., a string of "ABOutput(" is considered to be three characters long). The way you resolve this problem is by making sure the string only contains certain characters. This involves creating a string of acceptable characters, and then checking the user input against it.
+
+For a simple example of validating a string, imagine you have a two-player hangman game and you want the user to enter in an eight letter word, so that the other player can guess it. The only characters that are allowed are the uppercase alphabet (A-Z), and there is no restriction that the word has to actually exist. (Programming in a check for that would involve keeping a dictionary of words, and that could potentially take up a lot of memory.)
+
+Here is what the validation code for our game might look like with each of the three different validation approaches:
+
+
+```
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZ
+:ClrHome
+:Input "WORD: ",Str1
+:If 8≠length(Str1:Return
+:If not(min(seq(inString(Ans,sub(Str1,I,1)),I,1,8
+:Return
+```
+
+
+```
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZ→Str0
+:0:Repeat Ans
+:ClrHome
+:Input "WORD: ",Str1
+:If 8=length(Str1
+:min(seq(inString(Str0,sub(Str1,I,1)),I,1,8
+:End
+```
+
+
+```
+:"ABCDEFGHIJKLMNOPQRSTUVWXYZ→Str0
+:ClrHome
+:Input "WORD: ",Str1
+:For(I,1,8-length(Str1
+:Str1+sub(Str0,randInt(1,26),1→Str1
+:End
+:For(I,1,8
+:If not(inString(Str0,sub(Str1,I,1
+:sub(sub(" "+Str1,1,I)+sub(Str0,randInt(1,26),1)+sub(Str1+" ",I+1,9-I),2,8→Str1
+:End
+```
+
+
+When the user inputs a word, we loop through all of the characters in the word and get their positions in our acceptable characters string. If any of the characters weren't in the string, then their position will be zero, and when we take the minimum of all the positions, the smallest will be zero. With the making bad input valid code, we also concatenate how ever many characters we need to make the word eight characters long.
+
+## Making Validation More Friendly
+
+There are a couple different ways you can make validation more user-friendly: displaying error messages when there is bad input, and storing input as a string and converting it to the appropriate variable type.
+
+Displaying error messages to the user when they enter bad input helps the user correct their mistake, and provides some direction on what input you are expecting them to enter. An error message does not need to be complicated or long — just enough so that you can get the point across. For example, say a program is a number guessing game, and the user is expected to enter in a number between 1-1000. If they enter 5000, you can display the message "Between 1-1000".
+
+Storing input as a string allows you to accept any input that the user may enter, even if it is messed up, entered in in the wrong format, or inappropriate for the variable that you are storing it to. This way instead of the program crashing when it gets bad input, it can actually handle it and do whatever it needs to to make it work. You then just check to see if the string has the appropriate value(s), and convert it to the desired variable using the [expr(](expr.html) command.
+
+The validation for the real variable, for example, did not include a check for whether it is a list or string. This is because you can only really check for those things when you have a string that you can manipulate. If we wanted to add that check, we can search the string for an opening curly brace and commas or any characters besides numbers. If we find those things, we know that the input is bad, and we can reject it and ask for input again.
+
+In the case of the real variable, the other advantage of using a string is that you don't have to worry about whether the calculator is storing the variable to a list. More specifically, if a list is entered for input, the [Input](input.html) and [Prompt](prompt.html) commands will actually store the input to a list with the same name. This is possible because you don't need to include the [∟](l.html) character when referring to a user-defined list. (Entering a string would also work, and the string would become associated with the list.)
+
+Besides checking the list for whether it is a real variable or string, you also can check that it is in the appropriate format. When a list is entered, it needs to start with an opening curly brace, and then have each element separated by a comma. Because most users forget to include the opening curly brace, it is very convenient to place that at the beginning of the list yourself, so that the user never even knows about needing it.
+
+You can take that idea even further, and allow a list to be entered in many different ways: with commas and curly brackets, with commas and no brackets, as a list name (L1 through L6), or as a name starting with ∟, or as a name without the ∟. Instead of requiring one of these, the program might very well be programmed to handle all of them. This all comes down to finding alternate ways of making user input valid.
+
+## Thoughts to Consider
+
+The amount of validation you put in a program depends on how large and/or complicated the program is. If you have an extremely complex game with all sorts of user input, then it would be appropriate to include validation for some or most of those things. The general guideline is that the amount of validation needed correlates to the size of the game — i.e., a short math routine probably wouldn't need validation.
+
+While discussing validation, it is also important to mention that since the [Input](input.html) and [Prompt](prompt.html) commands only work on the home screen, you need to write your own custom input routine using the [getKey](getkey.html) command if you want to get input on the graph screen. If your entire program is already on the graph screen, however, this should not be an issue, because it makes perfect sense to maintain the user's attention on the graph screen.

@@ -10,16 +10,11 @@ Optimization techniques fall naturally into two classes. The first, which we'll 
 
 Read the [basic techniques](optimize-general.html) of line-by-line optimization. Then, consult the following pages to see techniques for specific topics:
 
-[[table]]
-[[row]]
-
 
 - [Displaying Text](optimize-text.html)
 - [Storing Variables](optimize-variables.html)
 - [Deleting Variables](optimize-deleting.html)
 - [User Input](optimize-input.html)
-
-[[/cell]]
 
 
 - [Exiting Programs](optimize-exiting.html)
@@ -27,17 +22,12 @@ Read the [basic techniques](optimize-general.html) of line-by-line optimization.
 - [Conditionals](optimize-conditions.html)
 - [Loops & Branching](optimize-loops.html)
 
-[[/cell]]
-
 
 - [Math Operations](optimize-math.html)
 - [Using the Ans variable](optimize-ans.html)
 - [The Graph Screen](optimize-graph.html)
 - [Using Finance Variables](optimize-finance.html)
 
-[[/cell]]
-[[/row]]
-[[/table]]
 
 Alternatively, you can read the [optimization walkthrough](optimization-walkthrough.html) for a look at applying the optimizations in a real program.
 

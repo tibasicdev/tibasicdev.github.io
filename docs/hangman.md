@@ -4,7 +4,6 @@ Like [Tic-Tac-To](tic-tac-to.html), Hangman is a game that almost everybody has 
 This game features some rather advanced string manipulation, as well as some good compression for storing the different pieces of the hangman character. Again, try out the game and try to understand and think through the code.
 
 
-
 ### The Code
 
 ```

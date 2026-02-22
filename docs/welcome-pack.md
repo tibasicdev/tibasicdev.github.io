@@ -4,7 +4,6 @@ Recent Forum Posts[[/span]]
 Recent Forum Threads[[/span]]
 
 
-
 ## We're glad you came by, but you might find what you're looking for elsewhere.
 
 TI-Basic Developer is not the site it once was. While its information on commands and other calculator features remains almost second-to-none, its forum, archives, and even hosting service, Wikidot, have been decaying for years. The calculator community would love to see what you're working on, or help you in your next coding adventure, but TI-Basic Developer is no longer the place to do it.

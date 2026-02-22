@@ -2,7 +2,6 @@
 Assembly shells are programs that can be loaded onto your calculator and act as an interface for running other programs. They also provide extra functionality like giving access to key-hooks. This page provides you with code you can embed into TI-Basic programs to make them compatible with assembly shells.
 
 
-
 ## MirageOS
 
 [MirageOS](http://detachedsolutions.com/mirageos/) is currently the most common assembly shell. To make a TI-Basic program appear in the MirageOS menu, put a colon (":") as the first line of the program:

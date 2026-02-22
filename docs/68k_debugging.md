@@ -2,7 +2,6 @@
 Going through the process of debugging your programs may seem like a lot of unnecessary work, but it is better that you find and correct the errors then having the user of your program tell you that your program doesn't work. On this page, we've tried to simplify debugging for you by breaking it down into general steps that you can follow. Just remember to always strive for bug-free programs.
 
 
-
 ## Backup & Document
 
 Before debugging, make a backup of your program. This is to ensure that you don't lose your program in its current form. During the debugging process it is easy to mess up your program, overwriting or deleting necessary pieces of code. If you just spent several hours working on your program, you don't want to have all of that work wasted.

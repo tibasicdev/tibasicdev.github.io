@@ -6,7 +6,6 @@ Texas Instruments has included TI-Basic support with each graphing calculator (s
 With the TI-68k family of calculators, TI-Basic was enriched with symbolic calculation capability; the newest calculators (TI-89 Titanium and Voyage 200) take this even further with commands such as [impDif()](68k:impdif.html) for implicit differentiation.
 
 
-
 TI-Basic is the built-in programming language of the TI graphing [calculators](68k:thecalcs.html). You can create TI-Basic programs on the computer using the Graph Link or TI Connect software, or on the calculator itself through the program editor (see [getting started](68k:getstarted.html) for more information). Knowing TI-Basic is important because it is one of the main ways that people use their calculators; if you are unable to program in TI-Basic, you will not be able to effectively communicate with others concerning your calculator.
 
 ## Advantages of TI-Basic

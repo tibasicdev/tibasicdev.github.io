@@ -22,7 +22,6 @@ TI-83/84/+/SE
 [1 byte](tokens.html)
 
 
-
 The `10^(` command raises 10 to a power. Since it's possible to just type out 1, 0, ^, and (, the reason for having a separate function isn't immediately obvious, but the command is occasionally useful.
 
 `10^(` accepts numbers and lists as arguments. It also works for complex numbers.

@@ -6,7 +6,6 @@ The security of RSA relies on factoring large numbers being difficult. Unfortuna
 This program is a good example of a number-theoretic algorithm implemented on 68k calculators.
 
 
-
 ## The Code
 
 ```

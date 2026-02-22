@@ -12,7 +12,6 @@ Here is a handy table that tells which hand gesture wins in each situation:
 | --- | --- | --- | --- |
 
 
-
 ### The Code
 
 ```

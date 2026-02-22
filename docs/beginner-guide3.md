@@ -2,7 +2,6 @@
 > **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
 
 
-
 ### Using the Graph Screen
 
 In this section of the tutorial, you will learn how to use the [Graph Screen](graphscreen.html) to create visual programs.

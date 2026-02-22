@@ -26,7 +26,6 @@ GraphColor(3,17
 ```
 
 
-
 ## Related Commands
 
 - [`GraphStyle(`](graphstyle.html)

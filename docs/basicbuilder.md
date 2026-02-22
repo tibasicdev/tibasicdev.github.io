@@ -1,15 +1,13 @@
 # Basic Builder
 There is a computer application for the purpose of turning a BASIC program(s) into a Flash application. It is known as Basic Builder (BB for short). There are several pros and cons, so in the end, it is just a personal choice, and dependent on how large the programs are.
 
-[[table]]
-[[row]]
 
 **Pros:**
 - Your programs are compressed, allowing more programs in an app than regular archived programs
 - It will be run from the archive
 - People can't edit it (sometimes is a con)
 - Apps look more professional
-[[/cell]]
+
 
 **Cons:**
 - If your program takes up very little space, it is a waste of archive to turn it into an app
@@ -17,9 +15,7 @@ There is a computer application for the purpose of turning a BASIC program(s) in
 - [Picture](pictures.html) files must be separate from the app if they are going to be used by [Omnicalc](omnicalc.html), [xLIB](xlib.html) or Celtic III commands. Else, you will need to create installation code that is only ran the first time you run your program that will copy all pictures from BasicBuilder to the picture slots you want.
 - You can't [GOTO](goto.html) an error (sometimes good)
 - You can't delete variables inside the app, although there is a [workaround](basicbuilder:delvar.html).
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 ## Using Basic Builder
 

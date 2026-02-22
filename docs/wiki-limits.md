@@ -6,7 +6,6 @@ These particular [command](command-index.html) pages are the primary pages that 
 Here is a listing of each command affected, along with how it will appear in this wiki, the command's proper name, and how to access it on a calculator:
 
 
-
 ## ^^r
 - Radian Symbol
 - Appears as <sup>r</sup> on a calculator

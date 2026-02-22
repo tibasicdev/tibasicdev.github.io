@@ -2,7 +2,6 @@
 One of the most prominent features of the calculator is the Numbers Menu.  This menu has many useful commands that can help ensure the cleanness of numbers, and they help with identifying list elements.  Most programs use at least one of the commands in the numbers menu.
 
 
-
 ## abs(
 
 The [abs(](abs.html) command simply finds the absolute value of a number.  That is, it finds how many units away from zero a number is.  So, the `abs(5)` is 5, and the `abs(-5)` is also 5.  For programmers, this command means that any expression within an abs( will always be positive.

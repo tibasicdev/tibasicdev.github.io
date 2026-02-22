@@ -4,7 +4,6 @@ This page documents the speed of certain commands in 68k TI-Basic. Now, obviousl
 Elsewhere in this guide, you might see assertions like "foo() is faster than bar()" without any reason or proof. The information on this page is the reason and proof behind them. 
 
 
-
 ## Testing Format
 
 For each test done on this page, a variation on the following function was used:

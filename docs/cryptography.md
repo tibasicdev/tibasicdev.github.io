@@ -2,7 +2,6 @@
 It is possible to write programs which decode and encode data using ciphers. There are many different kinds of ciphers, some of which are easy to break and some of which are modern and very hard to break. There are two basic kinds of ciphers: substitution ciphers, which substitute some characters for other characters, and transposition ciphers which move characters around. Some ciphers combine those two techniques. Others, such as [DES](http://calccrypto.wikidot.com/algorithms:des) and [AES](http://calccrypto.wikidot.com/algorithms:rijndael), encrypt blocks of data instead of characters.
 
 
-
 ### Substituting characters
 Doing this may seem difficult at first as there are no built-in functions that convert a character to a number or a number to a character. However, it is possible to do that using an "alphabet string" such as:
 :"ABCDEFGHIJKLMNOPQRSTUVWXYZ " -> Str1

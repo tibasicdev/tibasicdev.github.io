@@ -14,7 +14,4 @@ background: url(http://tibasicdev.github.io/local—files/nspire:sandbox/TIBD_BL
 [[/module]]
 
 
-
-
-
 Testing area for the Nspire home header.

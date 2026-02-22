@@ -2,8 +2,6 @@
 This sitemap is a list of the pages in the Nspire section of the site, organized in a hierarchical fashion for easy viewing. Please note that this does not include all of the pages in the Nspire section, for instance, the command pages.
 
 
-[[row]]
-
 ## General
 - [Nspire:home](nspire:home.html)
 - [Nspire:news](nspire:news.html)
@@ -31,7 +29,6 @@ This sitemap is a list of the pages in the Nspire section of the site, organized
 - [Strings](nspire:strings.html)
 - [Time & Date](nspire:time-and-date.html)
 
-[[/cell]]
 
 ## Writing Programs
 - [Planning](nspire:planning.html)
@@ -59,7 +56,7 @@ This sitemap is a list of the pages in the Nspire section of the site, organized
 - [Cross Compatibility](nspire:cross-compatibility.html)
 - [Tokenization](nspire:tokenization.html)
 - [System Variables](nspire:system-variables.html)
-[[/cell]]
+
 
 ## Resources 
 - [Sample Programs](nspire:sample-programs.html)
@@ -78,6 +75,3 @@ This sitemap is a list of the pages in the Nspire section of the site, organized
 - [Order of Operations](nspire:order-of-operations.html)
 - [Glossary](nspire:glossary.html)
 - [Downloads](nspire:downloads.html)
-[[/cell]]
-[[/row]]
-[[/table]]

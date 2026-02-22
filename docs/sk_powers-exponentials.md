@@ -2,7 +2,6 @@
 Another important class of math functions deals with powers, logarithms, and exponents.
 
 
-
 ## [^](power.html) operator
 
 This operator, found on the keyboard, is the exponent operator. It will raise a number to a power.

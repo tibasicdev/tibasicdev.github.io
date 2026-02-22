@@ -5,7 +5,6 @@
 ### A {#A}
 
 
-
 : **Argument** : One of the values that a [command](#command) acts on.
 
 : **Array** : A collection of numeric [variables](#variable) arranged in a [list](#list) or [matrix](#matrix) for processing by the calculator. Each element in an array is referenced by its [index](#index) - position in the array.
@@ -15,9 +14,7 @@
 : **Assembly** : The other programming language built-in to the TI graphing calculators, apart from [TI-Basic](#tibasic). It is much more difficult to learn and program in, but at the same time it is much more powerful, and can be used to create very sophisticated games and [programs](#program). You can also compile [C](#c) into an assembly program.
 
 
-
 ### B {#B}
-
 
 
 : **Binary** : The two-digit ([bit](#bit)) [number system](#number-system) based on 0 and 1, similar to the way the normal [decimal](#decimal) system is based on the numbers 0-9. For example the number 10101 in binary represents 1*2<sup>4</sup>+0*2<sup>3</sup>+1*2<sup>2</sup>+0*2+1, or 21 in decimal. To enter a number in binary on a [TI-68k](#ti-68k) calculator, write 0b followed by the number.
@@ -33,9 +30,7 @@
 : **Byte** : A string of eight [bits](#bit). The calculator uses one byte of information to encode the letter "A", as well as most [tokens](#token). Bytes (or kilobytes - one kilobyte is 1024 bytes) are used to measure the amount of memory a program or variable takes up on the calculator.
 
 
-
 ### C {#C}
-
 
 
 : **C** : A popular programming language on many platforms. Using [TIGCC](http://tigcc.ticalc.org), C programs can be compiled to [assembly](#assembly) for the [TI-68k](#ti-68k) calculators.
@@ -57,9 +52,7 @@
 : **Cursor** : A small, flashing square showing where a typed character will appear. A cursor (in the form of a crosshair) is also used on the graph screen to input a point from the user.
 
 
-
 ### D {#D}
-
 
 
 : **Data** : Information, often numerical in form. When data is used by a calculator program, it can be [hardcoded](#hardcode) or [softcoded](#softcode).
@@ -73,9 +66,7 @@
 : **Dialog** : A message box displayed on the screen for [input](#input) and [output](#output).
 
 
-
 ### E {#E}
-
 
 
 : **Execute** : Another name for running a program or command. 
@@ -83,9 +74,7 @@
 : **Exponent** : A number indicating the power to which a number or expression is to be raised, usually written at the right and above the number. For example, 2<sup>6</sup> = 2x2x2x2x2x2. In scientific notation, the power of ten which the mantissa is multiplied by to calculate the actual number.
 
 
-
 ### F {#F}
-
 
 
 : **Flash** : The ROM/archive memory on the [TI-68k](#ti-68k) calculators where applications are stored.
@@ -97,17 +86,13 @@
 : **Function** : The word Function has several meanings in the context of TI-Basic programming. It can mean a type of [command](#command) that returns a value - such as [68k:gcd()](68k:gcd.html) or [68k:sin()](68k:sin.html). Or it can mean a type of user-defined program that returns a value.
 
 
-
 ### G {#G}
-
 
 
 : **Graphics** : Any sort of visual display on the screen, such as graphs, patters, and drawings, both stationary and animated.
 
 
-
 ### H {#H}
-
 
 
 : **Hardcode** : Hardcoded [data](#data) is information used by the program that results from the logic of its [commands](#command). It is very easy for the program to read, but can be impossible to change.
@@ -117,9 +102,7 @@
 : **Hexadecimal** : A base 16 [number system](#number-system) using 16 symbols, 0-9 and A-F. It is used as a convenient shorthand way to express [binary](#binary) code, because every four bits of binary have a corresponding hexadecimal symbol. To enter a number in hexadecimal on a [TI-68k](#ti-68k) calculator, write 0h followed by the number.
 
 
-
 ### I {#I}
-
 
 
 : **Index** : A position in an [array](#array). In TI-Basic, arrays are indexed starting with 1 (so that the first element in a [list](#list) is numbered 1, the second 2, and so on). In some other languages, they are indexed starting with 0.
@@ -135,17 +118,13 @@
 : **Iteration** : One repetition of a [loop](#loop). For certain [commands](#command), the calculator has an internal loop for which the total number of iterations is relevant, and affects accuracy.
 
 
-
 ### K {#K}
-
 
 
 : **Keypad** : The panel of keys used to enter [programs](#program) and [data](#data) into the calculator.
 
 
-
 ### L {#L}
-
 
 
 : **List** : A sequence of [variables](#variable) which can be accessed and modified by their position. In TI-Basic, lists can have any mix of variable types.
@@ -153,9 +132,7 @@
 : **Loop** : A group of one or more consecutive program lines which are performed repeatedly, either a specific number of times, or until a [condition](#condition) is met.
 
 
-
 ### M {#M}
-
 
 
 : **Mantissa** : The basic numeric portion of a number expressed in scientific notation. In 3.264E + 4, the mantissa is 3.264.
@@ -167,18 +144,13 @@
 : **MHz** : The speed the calculator [CPU](#cpu) runs at. It ranges from 10MHz to 16MHz on the [TI-68k](#ti-68k) calculators. It's measured in millions of [clock cycles](#clock-cycle) per second.
 
 
-
 ### N {#N}
-
 
 
 : **Number system** : A way of writing down a number. Two common systems used by people are the [decimal](#decimal) (Arabic) system, and the Roman numeral system. The calculator uses the [binary](#binary) system internally, but the decimal system is what it usually displays.
 
 
-
-
 ### O {#O}
-
 
 
 : **Operator** : A symbol used in calculations (numeric operators) or in relationship comparisons (related operations). The math operators are +, -, *, /, ^. The relational operators are >, <, =, ≥, ≤, ≠. The logic operators are and, or, xor, not.
@@ -190,9 +162,7 @@
 : **OS (Operating System)** : The internal program that runs the calculator and includes all the functionality needed to use the calculator.
 
 
-
 ### P {#P}
-
 
 
 : **Program** : The list of instructions that tells the calculator what to do to perform a task.
@@ -202,9 +172,7 @@
 : **Programming Language** : Numeric or alphabetic commands which the calculator can understand, and execute.
 
 
-
 ### R {#R}
-
 
 
 : **RAM (Random Access Memory)** : A temporary memory, i.e. one in which data is stored so long as electrical power is applied. Data in RAM can be accessed or changed and is lost if the batteries are removed from the calculator. 
@@ -214,9 +182,7 @@
 : **ROM (Read Only Memory)** : Certain instructions for the calculator are permanently stored in ROM and can be accessed but cannot be changed. [Data](#data) in ROM is not lost if batteries are removed.
 
 
-
 ### S {#S}
-
 
 
 : **Scientific Notation** : A method of expressing very large or very small numbers by using a base number ([mantissa](#mantissa)) times ten raised to some power ([exponent](#exponent)).
@@ -234,9 +200,7 @@
 : **Subprogram** : A program segment which can be used more than once during the execution of a program, such as a complex set of calculations or a print routine. You can make subprograms using the [68k:Define](68k:define.html) command.
 
 
-
 ### T {#T}
-
 
 
 : **TI (Texas Instruments)** : The makers of the TI graphing calculators. In addition to graphing calculators, they also make a large assortment of other electronic devices.
@@ -248,17 +212,13 @@
 : **Token** : A single instruction or symbol in [tokenized](68k:tokenization.html) TI-Basic that takes up 1 to 3 bytes and is used to encode TI-Basic programs.
 
 
-
 ### U {#U}
-
 
 
 : **User** : When talking about the effect of a program or command, it is the person running the program or command on his/her calculator.
 
 
-
 ### V {#V}
-
 
 
 : **Variable** : A name given to a value which may vary during program execution. A variable is a memory location where values can be replaced by new values during program execution.

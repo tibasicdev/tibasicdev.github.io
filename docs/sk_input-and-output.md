@@ -8,16 +8,11 @@ Since these are fairly essential ideas, there are a lot of commands associated w
 A short synopsis of what they do:
 
 
-[[row]]
-
-
 ## Input
 
 :Input *var* (where *var* can be replaced by any of the variables we've learned about) will pause the program to display a question mark, and let the calculator user type in a number. Then, the number will be stored to *var*, and the program will resume.
 
 A note on the Input command — to make things more fancy, you can add some text (in quotes as usual) before the variable name. Then, this text will replace the question mark. Input A just displays a generic ? with no help on what it might mean. Input "A=",A will display A= which gives some indication of what to type.
-
-[[/cell]]
 
 
 ## Disp
@@ -26,9 +21,6 @@ A note on the Input command — to make things more fancy, you can add some text
 
 A note on the Disp command — to display text, put it in quotes (ALPHA and + make a quote symbol). If you were to just type Disp COOL, the calculator will think you mean the product of C, O, O, and L. By putting it in quotes, Disp "COOL", you tell the calculator that something is text. You can display several things at once, by adding commas: Disp "NUMBER",5 will first display the text NUMBER and then the value 5.
 
-[[/cell]]
-[[/row]]
-[[/table]]
 
 ## What can we do with this?
 

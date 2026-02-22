@@ -110,7 +110,7 @@ class Converter:
         r'@@(.*?)@@': Block, # unparsed text
 
         # Discarded tags
-        r'(?s)\[!--.*?--\]': r'',  # comments
+        r'(?s)[<\[]!--.*?--[>\]]': r'',  # comments
         r'_$': r'',  # line continuation
 
         r'(?s)\[\[div .*?\]\](.*?)\[\[/div\]\]': r'\1',  # divs
@@ -155,6 +155,7 @@ class Converter:
         # Tables
         r'\|\|(\|)?': lambda match: "|" + (" |" if match[1] else ""),
         r'^\s*\|~.*?$': lambda match: match[0].replace("~", "") + "\n" + "| --- " * (match[0].count("|") - 1) + "|",
+        r'\[\[/?(table|cell|row).*?\]\]': r'', # just flatten 'em
 
         # Images
         r'\[\[(?:=|<|>|f<|f>)?image\s+(?P<source>.*?)(?P<attributes>(\s+\w+=".*?")+)?\]\]': Image,
@@ -192,7 +193,10 @@ class Converter:
             "**[[[68k:errors#e{$num}|{$num} - {$error}]]]** happens when {$cause}.",
 
         "cid":
-            "This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}",
+            inspect.cleandoc("""
+            |This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}|
+            | --- |
+            """),
 
         "command":
             Header("""![{$title}]({$filename}/{$picture} "{$title}")
@@ -276,7 +280,16 @@ class Converter:
             }),
 
         "stub":
-            "This article is a stub. You can help TI-Basic Developer by expanding it."
+            inspect.cleandoc("""
+            |This article is a stub. You can help TI-Basic Developer by expanding it.|
+            | --- |
+            """),
+
+        "unfinished":
+            inspect.cleandoc("""
+            |This article is under construction and needs to be completed. You can help by expanding it.|
+            | --- |
+            """),
     }
 
     def convert_include(self, filename: str, title: str):
@@ -305,7 +318,7 @@ class Converter:
         FOOTNOTES.clear()
 
         # Convert include boxes
-        page = re.sub(r"(?s)\[\[include inc:(\S+)\s*(?:\|?(.*?))?\n*\]\]\s*?$",
+        page = re.sub(r"(?s)\[\[include inc:([^\s\]]+)\s*(?:\|?(.*?))?\n*\]\]\s*?$",
                       self.convert_include(filename, title),
                       page,
                       flags=re.MULTILINE)
@@ -335,6 +348,8 @@ class Converter:
         # Leftovers
         page = page.replace("@@", "")
         page, n = re.subn(r"(?s)\[\[([a-z]+)\s+.*?\]\]", lambda m: print(f"Found {m[1]} in {filename}") or "", page)
+
+        page = re.sub(r"\n{4,}", r"\n\n\n", page)
 
         if n >= 5:
             raise KeyError("too many tags")
@@ -417,13 +432,10 @@ if __name__ == "__main__":
         if prefix not in INCLUDE_PREFIXES or filename.startswith("_"):
             continue
 
-        if filename.startswith("admin"):
+        if any(filename.startswith(start) for start in ["admin", "member", "sandbox", "test"]):
             continue
 
         if filename.startswith("chat") and filename != "chatbot":
-            continue
-
-        if filename.startswith("member"):
             continue
 
         if filename in EXCLUDE_FILES:

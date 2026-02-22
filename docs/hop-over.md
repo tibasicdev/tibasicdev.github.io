@@ -4,7 +4,6 @@ Hop Over is a simple game designed to test your mental fortitude. There are two 
 (NOTE: This game was created by Weregoose, and originally posted on the UTI forums.)
 
 
-
 ### The Code
 
 ```

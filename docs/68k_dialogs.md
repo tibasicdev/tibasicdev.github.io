@@ -2,7 +2,6 @@
 Although input on the I/O screen (with commands such as [68k:Input](68k:input.html) and [68k:InputStr](68k:inputstr.html)) can be useful for some programs, dialog boxes are usually more effective. A dialog box is a typical message box that is displayed on top of whichever screen you're currently on, but without overwriting anything (so the background is restored when the dialog box is exited).
 
 
-
 ## The Basics
 
 A dialog can be created by inserting a [68k:Dialog](68k:dialog.html)..EndDlog block into a program. The dialog will be displayed when that part of the program runs; after the dialog is exited, the program will resume after the EndDlog.

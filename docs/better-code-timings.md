@@ -23,9 +23,6 @@ checkTmr(θ+1
 ```
 
 
-
-
-
 ### Math Commands
 
 ### Home Screen Commands

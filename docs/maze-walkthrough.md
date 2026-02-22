@@ -2,7 +2,6 @@
 The basic premise behind Maze Walkthrough is you have to make your way through the maze without touching any of the walls. This game is rather simple at its core, but it does feature a randomly generated maze each time, so it can be played indefinitely. It also is extremely compact, a good example of what you can do in a small number of bytes.
 
 
-
 ### The Code
 
 ```

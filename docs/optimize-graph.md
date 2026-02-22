@@ -120,7 +120,6 @@ can be
 ```
 
 
-
 <center>
 
 |**[<< Loops](sk:loops-optimize.html)**|**[Table of Contents](starter-kit.html)**|**[Summary >>](sk:optimize-summary.html)**|

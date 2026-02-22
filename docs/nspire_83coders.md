@@ -2,7 +2,6 @@
 This tutorial is meant to teach new Programmers about the TI-Nspire. This is a simple introduction to Nspire TI-Basic for programmers that are already fairly experienced with TI-83 series Basic programming! Instead of re-teaching many things, this tutorial highlights the differences between the two languages. 
 
 
-
 ## Major Features
 
 A major features of the older Nspire calculators is the simplicity of programming. It has a very strange layout compared to the other TI graphing calculators. First, all the letters get their own buttons, making it a little easier to type than on the 84. Also, it has a [nspire:ctrl](nspire:ctrl.html) key rather than a 2nd key. It has a clicker key, menu key, catalogs, enter, and even a caps key. If you observe it long enough, it begins to resemble a keyboard. This is because the Nspire is designed to be like a computer in a way. It uses documents to store information. These documents hold information about anything you did within it, not just programs. You can choose to save it, or load different documents, a lot like a computer. Also, the Nspire utilizes a mouse type system. It replaces the arrow keys with one round button. It acts as the arrows, and as a way to move a mouse-like pointer across the screen. The Nspire is a transition of a calculator to a computer, yet held back enough to retain calculator status. 

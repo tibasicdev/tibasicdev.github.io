@@ -8,7 +8,6 @@ For example, when we consider a binary system which only uses two symbols, 0 and
 This article will discuss the binary, hexadecimal, and octal number systems in more detail and explain their uses.
 
 
-
 ## How a Number System Works
 
 Number systems are used to describe the quantity of something or represent certain information.  Because of this, I can say that the word "calculator" contains ten letters.  Our number system, the decimal system, uses ten symbols.  Therefore, decimal is said to be **Base Ten**.  By describing systems with bases, we can gain an understanding of how that particular system works.
@@ -167,7 +166,6 @@ $$ (1) \hspace{6pt} Let \hspace{4pt} P = \operatorname{int}(\sqrt[B]{V}) \\
 (v \hspace{4pt} is \hspace{4pt} the \hspace{4pt} next \hspace{4pt} digit \hspace{4pt} to \hspace{4pt} the \hspace{4pt} right) \\
 (3) \hspace{6pt} Make \hspace{4pt} V = V-vB^p \\
 (4) \hspace{6pt} Repeat \hspace{4pt} steps \hspace{4pt} 1 \hspace{4pt} through \hspace{4pt} 3 \hspace{4pt} until \hspace{4pt} p=0 \\ $$
-
 
 
 This algorithm may look confusing at first, but let us go through an example to see how it can be used.  We want to represent 236 in binary, octal, and hexadecimal.  So, let's try getting it to binary first.

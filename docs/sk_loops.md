@@ -9,8 +9,6 @@ In TI-Basic, the first kind of loop is created with the [While](while.html) and 
 The syntax for these two loops is identical:
 
 
-[[row]]
-
 ```
 :While (condition)
 :
@@ -18,7 +16,7 @@ The syntax for these two loops is identical:
 :
 :End
 ```
-[[/cell]]
+
 
 ```
 :Repeat (condition)
@@ -27,9 +25,7 @@ The syntax for these two loops is identical:
 :
 :End
 ```
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 In practice, however, they are different. The code inside a While loop will keep repeating as long as the condition is true ("do this *while* the condition is true"), and exit as soon as the condition is false. The code inside a Repeat loop will keep repeating until the condition becomes true ("*Repeat* this *until* the condition is true"). So a loop with While will have the opposite condition of the same loop with Repeat.
 

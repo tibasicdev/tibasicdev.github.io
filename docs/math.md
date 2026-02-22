@@ -2,7 +2,6 @@
 Calculators are built with one primary purpose: math. Programming, game playing, and everything else is secondary. Thus, you will find a number of powerful math commands. Although it may seem that they are of no use to a programmer, programs sometimes need math functions, and many math functions can be used in clever ways. In this guide we'll group the commands into the following general groups:
 
 
-
 ### Number Operations
 
 These commands deal with different ways you can manipulate the integer and fraction parts of a number, and are mostly found in the MATH-NUM menu.
@@ -36,9 +35,6 @@ These commands allow you to manipulate angles, and are generally affected by [Ra
 - [►DMS](-dms.html) — Formatting command for degrees-minute-second notation.
 
 
-
-
-
 ### Complex Number Operations
 
 These commands are used for dealing with complex numbers, and are found in the MATH-CPX menu. Many other math commands work on complex numbers too, and complex numbers are fairly strongly connected to trigonometry.
@@ -69,9 +65,6 @@ These commands have nothing to do with each other, but don't really belong to ot
 - [π](pi.html), *[e](e-value.html)* — famous (and occasionally, even useful) math constants.
 - [min(](min.html), [max(](max.html) — returns the smaller number(s) or the larger number(s).
 - [lcm(](lcm.html), [gcd(](gcd.html) — returns the least common multiple or the greatest common denominator of two numbers.
-
-
-
 
 
 ## Comments

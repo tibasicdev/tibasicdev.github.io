@@ -1,5 +1,6 @@
 # Easy Map Making
-This article is currently in development. You can help TI-Basic Developer by expanding it. This article seems to lack info.  Needs attending.
+|This article is currently in development. You can help TI-Basic Developer by expanding it. This article seems to lack info.  Needs attending.|
+| --- |
 
 Map making is a key part of making many types of games.
 

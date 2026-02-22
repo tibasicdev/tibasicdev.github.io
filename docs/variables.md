@@ -6,7 +6,6 @@ A variable is a reference to the information that it holds. Variables allow you 
 There are several different kinds of variables available on the calculator, but the four main variables that you will be using are number variables, lists, matrices, and strings. Number variables are used for storing a single number. Lists are used for storing a collection of numbers. Matrices are used for storing numbers in a two-dimensional format. And, strings are used for storing text.
 
 
-
 ## Storing & Deleting Variables
 
 Variables have values stored in them so that the values can be recalled for later use. When storing an expression containing a variable into another variable, the value of the variable at that time is used. The [store](store.html) (→) command is used for storing variables, and it is accessed by pressing the `[STO►]` key. When storing a value in a variable, you have the value on the left side of the store command and the variable that it will be stored to on the right side.

@@ -2,8 +2,6 @@
 This sitemap is a list of the pages in the 68k section of the site, organized in a hierarchical fashion for easy viewing. Please note that this does not include all of the pages in the 68k section, for instance the command pages.
 
 
-[[row]]
-
 ## General
 - [68k:home](68k:home.html)
 - [68k:news](68k:news.html)
@@ -31,7 +29,6 @@ This sitemap is a list of the pages in the 68k section of the site, organized in
 - [68k:strings](68k:strings.html)
 - [68k:time-and-date](68k:time-and-date.html)
 
-[[/cell]]
 
 ## Writing Programs
 - [68k:planning](68k:planning.html)
@@ -59,7 +56,7 @@ This sitemap is a list of the pages in the 68k section of the site, organized in
 - [68k:cross-compatibility](68k:cross-compatibility.html)
 - [68k:tokenization](68k:tokenization.html)
 - [68k:system-variables](68k:system-variables.html)
-[[/cell]]
+
 
 ## Resources 
 - [68k:sample-programs](68k:sample-programs.html)
@@ -77,6 +74,3 @@ This sitemap is a list of the pages in the 68k section of the site, organized in
 - [68k:order-of-operations](68k:order-of-operations.html)
 - [68k:glossary](68k:glossary.html)
 - [68k:downloads](68k:downloads.html)
-[[/cell]]
-[[/row]]
-[[/table]]

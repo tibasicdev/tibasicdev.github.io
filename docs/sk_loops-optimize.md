@@ -2,7 +2,6 @@
 Loops have various uses (we'll see them later), but basically loops are blocks of code that execute themselves a defined number of times. As you know there are 3 types of loops: the [For(](for.html) loop, the [While(](while.html) loop, and the [Repeat(](repeat.html) loop. These are very handy since your program ends when it reaches the end of the code, so if you are developing a game or so you need the code to flow correctly and execute over and over (for example for checking if you pressed a key and making your character walk).
 
 
-
 ## 101 Uses for Loops
 
 While loops may not have exactly 101 uses, they are some of the most spectacular pieces of code that enable iterations to be made so that a game can constantly update itself or so a math program can perform a specific algorithm.  The uses below represent only a few of the ways loops can be utilized.

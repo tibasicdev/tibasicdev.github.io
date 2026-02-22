@@ -49,8 +49,6 @@ There are also, of course, special commands for dealing with matrices. They are:
 - <sup>T</sup> ([transpose](transpose.html))
 
 
-
-
 These can be found in the MATH submenu of the matrix menu.
 
 ## Optimizations

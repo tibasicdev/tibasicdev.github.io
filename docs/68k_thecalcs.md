@@ -2,9 +2,6 @@
 This section of the wiki is concerned with the 68k family of TI graphing calculators (this name is due to the Motorola 68000 processor they use, as opposed to the Zilog Z80 chip on older calculators). The calculators in this family are the TI-89, TI-89 Titanium, TI-92, TI-92 Plus, and Voyage 200. Unlike other TI graphing calculators, the 68k family calculators have symbolic manipulation capabilities — this allows the calculators to manipulate algebraic expressions directly, and to give exact answers rather than decimal approximations.
 
 
-
-
-
 ## The TI-89 Calculator
 
 ![ti89.png](ti89.png "")
@@ -16,8 +13,6 @@ There are two hardware versions of the TI-89, HW1 and HW2. HW2 calculators are s
 With the release of the TI-89 Titanium, the TI-89 calculator has been discontinued by TI.
 
 
-
-
 ## The TI-89 Titanium Calculator
 
 ![ti89titanium.png](ti89titanium.png "")
@@ -27,8 +22,6 @@ The TI-89 Titanium is an upgrade of the TI-89, released in the summer of 2004, t
 Like the TI-89, the TI-89 Titanium has two hardware versions, HW3 and HW4. Both of these are nearly identical to the HW2 version of the TI-89. HW4 calculators have more RAM, and supposedly have a faster, 16MHz processor.
 
 
-
-
 ## The TI-92 Calculator
 
 ![ti92.png](ti92.png "")
@@ -36,7 +29,6 @@ Like the TI-89, the TI-89 Titanium has two hardware versions, HW3 and HW4. Both 
 The oldest 68k calculator, the TI-92 was released in 1995. It is a wide calculator with a QWERTY keyboard and a 240x128 LCD screen. Unlike the other 68k calculators, the TI-92 does not support Flash ROM, and has a mere 70KB RAM. Later, the TI-92 II was released with a RAM upgrade.
 
 The TI-92 hardware is similar to the HW1 version of the TI-89. With the release of newer calculators, the TI-92 has been discontinued, though a "Plus module" was available to upgrade it ot a TI-92 Plus.
-
 
 
 ## The TI-92 Plus Calculator
@@ -50,14 +42,11 @@ A "Plus module" was also available to upgrade a TI-92 calculator to a TI-92 Plus
 With the release of the Voyage 200 and TI-89 Titanium, the TI-92 Plus has been discontinued by TI.
 
 
-
-
 ## The Voyage 200 Calculator
 
 ![voyage200.png](voyage200.png "")
 
 Released in 2002, the Voyage 200 is the most advanced of the 68k calculators. Like the TI-92 Plus, the Voyage 200 has a QWERTY keyboard and 240x128 high-contrast LCD screen. Together with the TI-89 Titanium, it also has the most memory: 190 KB RAM, and 2.7 MB ROM. The Voyage 200, like the other models, has also been discontinued in favor of the TI-89 Titanium.
-
 
 
 ## Calculator Comparison

@@ -1,8 +1,8 @@
 # Operators
-This article is currently in development. You can help TI-Basic Developer by expanding it. Do we need this page?
+|This article is currently in development. You can help TI-Basic Developer by expanding it. Do we need this page?|
+| --- |
 
 There are four main operations on the calculator that are used widely in programs.  They are the simple addition, subtraction, multiplication, and division.  Although these simple operators are used for simple application, they can be very useful when utilized in advanced matters.
-
 
 
 ## Addition

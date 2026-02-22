@@ -60,8 +60,6 @@ Of course, there are commands specifically designed for use with lists. Several 
 - [sum()](68k:sum.html)
 
 
-
-
 Several [statistics](68k:statistics.html) commands can be applied to lists as well.
 
 ## Conditionals With Lists

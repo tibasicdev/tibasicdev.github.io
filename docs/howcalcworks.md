@@ -2,8 +2,6 @@
 This is how the calculator really works. The following is based on my knowledge of how computers work. Since the calculator at this point *is* a computer, I thought this knowledge of mine would come nicely. I will have analogies referring to computers, but that's to be expected in this article
 
 
-
-
 ## On, Sleep, On, Sleep, On, Sleep...
 Yes, it's true. Your computer only turns off when it "crashes". Read on.
 

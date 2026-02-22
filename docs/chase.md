@@ -2,7 +2,6 @@
 Chase is a simple game where the goal is to chase down the randomly moving target. To make the game more difficult, the old locations of the target are not erased, which makes the target harder to find. This game is small in size and just uses a few real variables. Like with the other games, try out the game and try to understand and think through the code.
 
 
-
 ### The Code
 
 ```

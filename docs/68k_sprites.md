@@ -2,7 +2,6 @@
 "Sprite" is a common name for a small image displayed on the screen (usually, this image is moved around as well, or repeated several times, as in a tilemap). In TI-68k Basic, support for sprites is built-in: a picture file can be any size (up to the total size of the screen) and can be displayed at any location using commands such as [RclPic](68k:rclpic.html). Sprites are always rectangular; even if the image itself is a circle, the sprite data will contain blank pixels around the circle to make it a square.
 
 
-
 ## Sprite Logic
 
 There are four basic methods of displaying a black-and-white sprite. The simplest one is to overwrite whatever was at that location before. Alternatively, you can apply [AND](68k:and.html), [OR](68k:or.html), or [XOR](68k:xor.html) logic to each pixel of the background and the sprite to produce the result. 

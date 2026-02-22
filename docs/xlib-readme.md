@@ -8,7 +8,6 @@ To enable xLIB you must run it from the APPS menu and select "1". A message shou
 xLIB uses both SavesScreen and AppBackupScreen, if you have any other libs that use those saferam areas the results could be unpredictable.
 
 
-
 ## 0- ClearScreen
 
 ```

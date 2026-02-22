@@ -1,10 +1,10 @@
 # Multiplayer
-This article is currently in development. You can help TI-Basic Developer by expanding it. I may never get around to finishing this. Feel free to improve it. ~ [/member:govegan GoVegan]
+|This article is currently in development. You can help TI-Basic Developer by expanding it. I may never get around to finishing this. Feel free to improve it. ~ [/member:govegan GoVegan]|
+| --- |
 
 Multiplayer is where two or more people play a game together at the same time. Although you can create AI opponents for a player to play against, AI does not offer as much fun compared to playing against other human opponents — you can have the players work together, compete against each other, and even one player manage the other players.
 
 Multiplayer games are generally divided into two categories: the players share a single calculator, and the players each play on their own calculator connected together with a link cable (either I/O or USB).
-
 
 
 ## Single-Calculator Multiplayer

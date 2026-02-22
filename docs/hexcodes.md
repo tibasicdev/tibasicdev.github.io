@@ -12,7 +12,6 @@ Also note that these programs may not work on the original TI-83, only the 83+ o
 Many of the codes no longer function on the TI-84+CSE or TI-84+CE. The new codes for these calculators can be found [here](84cse:hexcodes.html).
 
 
-
 ## Toggle Program Mode
 
 ```

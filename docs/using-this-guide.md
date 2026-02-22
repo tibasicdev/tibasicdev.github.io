@@ -46,9 +46,6 @@ The Techniques section in the side navigation menu discusses some advanced issue
 Each technique is mostly a stand-alone page. Here are the relative difficulties of the pages:
 
 
-[[row]]
-
-
 #### Easy
 
 - **[Friendly Windows](friendly-window.html)** — makes using the graph screen commands much easier.
@@ -56,8 +53,6 @@ Each technique is mostly a stand-alone page. Here are the relative difficulties 
 - **[Saving Games](saving.html)** — almost as easy as just storing to a variable.
 - **[Highscores](highscores.html)** — an extension of saving, using a string for names and a list for scores.
 - **[Animation](animation.html)** — adds some visual pop or pizazz to your programs.
-
-[[/cell]]
 
 
 #### Intermediate
@@ -68,8 +63,6 @@ Each technique is mostly a stand-alone page. Here are the relative difficulties 
 - **[Custom Text Input](custominput.html)** — useful when you want to get input on the graph screen.
 - **[Custom Menus](custommenus.html)** — allows the user to choose among different options.
 
-[[/cell]]
-
 
 #### Hard
 
@@ -78,7 +71,3 @@ Each technique is mostly a stand-alone page. Here are the relative difficulties 
 - **[Self-Modifying Code](selfmodify.html)** — code that changes itself while it is executing.
 - **[Subprograms](subprograms.html)** — calling one program from another, including external and internal programs.
 - **[Assembly](assembly.html)** — you can make much better programs, but they are larger and more complicated.
-
-[[/cell]]
-[[/row]]
-[[/table]]

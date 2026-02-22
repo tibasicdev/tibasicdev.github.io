@@ -2,7 +2,6 @@
 This tutorial is meant as an introduction to 68k TI-Basic for programmers that already are fairly experienced with TI-83 series Basic programming. Instead of re-teaching many things, this tutorial highlights the differences between the two languages.
 
 
-
 ## Major Features
 
 A major novelty of the 68k calculators is the ability to make symbolic calculations. This has many applications: you can deal with expressions such as x<sup>2</sup>+2*x+1 but treat x as an unknown, or deal with the exact value of √π/3 without approximating it with floating-point values.

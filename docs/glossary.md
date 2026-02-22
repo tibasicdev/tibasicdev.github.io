@@ -5,13 +5,10 @@
 ### # {#Num}
 
 
-
 : **68K** : Motorola 68000 is the microprocessor that the TI-89, TI-92, and Voyage 200 graphing calculators use. Zilog makes the microprocessor for the TI-83 series of  graphing calculators.
 
 
-
 ### A {#A}
-
 
 
 : **[Advanced Basic](advanced-basic.html)** : Quality TI-Basic programming that is not only efficient in terms of size and speed, but is used to make genuinely fun games.
@@ -33,9 +30,7 @@
 : **[Assembly](assembly.html) (*Asm*)** : The other programming language built-in to the TI graphing calculators, apart from [TI-Basic](#tibasic). It is much more difficult to learn and program in, but at the same time it is much more powerful, and can be used to create very sophisticated games and [programs](#program).
 
 
-
 ### B {#B}
-
 
 
 : **Backup** : Copying files from the calculator to a computer, or creating a second copy of the files on the calculator. It is usually done to prevent the person from losing the files through an inadvertent RAM clear.
@@ -57,9 +52,7 @@
 : **Byte** : A string of eight binary bits. The calculator uses one byte of information to encode the letter "A", as well as most [tokens](#token). Bytes (or kilobytes - one kilobyte is 1024 bytes) are used to measure the amount of memory a program or variable takes up on the calculator.
 
 
-
 ### C {#C}
-
 
 
 : **Computer Algebra System (*CAS*)** : A feature available on some of the [Ti-Nspire](nspire:home.html) calculators. It can symbolically solve equations, factor and expand variable expressions, complete the square, find antiderivatives, compute limits and exact solutions in irrational forms, and more.
@@ -93,9 +86,7 @@
 : **Cursor** : A small, flashing square showing where a typed character will appear. A cursor (in the form of a crosshair) is also used on the graph screen to input a point from the user.
 
 
-
 ### D {#D}
-
 
 
 : **Data** : Information, often numerical in form. When data is used by a calculator program, it can be [hardcoded](#hardcode) or [softcoded](#softcode).
@@ -109,9 +100,7 @@
 : **Display** : The home screen or graph screen on the calculator.
 
 
-
 ### E {#E}
-
 
 
 : **Emulator** : A computer program that simulates a calculator's hardware, allowing you to run TI-Basic and assembly programs on your computer.
@@ -134,7 +123,6 @@
 ### F {#F}
 
 
-
 : **Flash** : The ROM/archive memory on the TI-83+/84+/SE calculators where applications are stored. It is also used to describe the technology employed in the calculator enabling increased storage, upgradeability, and expandability.
 
 : **Floating Point** : A method used to represent numbers with non-zero fractional components, where a number is represented as a signed mantissa implicitly multiplied by a signed exponent.
@@ -150,9 +138,7 @@
 : **FX** : Graphical or sound effects used in a game to make it stand out.
 
 
-
 ### G {#G}
-
 
 
 : **Garbage Collection** : A process that the calculator automatically performs to reorganize the contents of Flash ROM. When you delete a file from Flash ROM, it is not deleted at that time, it is just marked as 'not used'. When the Flash ROM is full, the variables marked as deleted are actually erased.
@@ -168,9 +154,7 @@
 : **Graphical User Interface (*GUI*)** : A type of user interface which allows people to interact with the calculator.
 
 
-
 ### H {#H}
-
 
 
 : **Hardcode** : Hardcoded [data](#data) is information used by the program that results from the logic of its [commands](#command). It is very easy for the program to read, but can be impossible to change.
@@ -182,9 +166,7 @@
 : **Home Screen** : The default display screen on which calculations and commands are entered.
 
 
-
 ### I {#I}
-
 
 
 : **Integrated Development Environment (*IDE*)** : An IDE is a software application that provides utilities for program development, usually including an editor and debugger.
@@ -206,17 +188,13 @@
 : **Iteration** : One repetition of a [loop](#loop). For certain [commands](#command), the calculator has an internal loop for which the total number of iterations is relevant, and affects accuracy.
 
 
-
 ### K {#K}
-
 
 
 : **Keypad** : The panel of keys used to enter [programs](#program) and [data](#data) into the calculator.
 
 
-
 ### L {#L}
-
 
 
 : **Library (*Lib*)** : A library is a program (usually made in Assembly) that is designed to be an auxiliary utility for another program. Libraries provide functions that are not supported or not practical in TI-Basic (such as inverting the screen).
@@ -228,9 +206,7 @@
 : **Lua** : A programming language other than Ti-Basic which can be used on the [Ti-Nspire](nspire:home.html) calculators
 
 
-
 ### M {#M}
-
 
 
 : **Mantissa** : The basic numeric portion of a number expressed in scientific notation. In 3.264E + 4, the mantissa is 3.264.
@@ -244,17 +220,13 @@
 : **MHz** : The speed the calculator [CPU](#cpu) runs at. For the TI-83, it is 6MHz, while for the TI-83+ it is 8MHz, and for the TI-83+SE and TI-84+/SE calculators, it is 15MHz. It's measured in millions of [clock cycles](#clock-cycle) per second.
 
 
-
 ### N {#N}
-
 
 
 : **Number system** : A way of writing down a number. Two common systems used by people are the [decimal](#decimal) (Arabic) system, and the Roman numeral system. The calculator uses the [binary](#binary) system internally, but the usual decimal system is all that it shows or accepts as [input](#input).
 
 
-
 ### O {#O}
-
 
 
 : **Operator (*Op*)** : A symbol used in calculations (numeric operators) or in relationship comparisons (related operations). The math operators are +, -, *, /, ^. The relational operators are >, <, =, ≥, ≤, ≠. The logic operators are and, or, xor, not(.
@@ -270,9 +242,7 @@
 : **On-Calculator (*on-calc*)**: This refers to something that is 100% on your calculator; not requiring external tools.
 
 
-
 ### P {#P}
-
 
 
 : **Port** : Convert; Remake, especially onto another device.
@@ -290,9 +260,7 @@
 : **Pxl** : A pixel is a specific 1x1 space on the calculator's graph screen. You can use the [Pxl commands](pxl-on.html) to manipulate a pixel.
 
 
-
 ### R {#R}
-
 
 
 : **Random Access Memory (*RAM*)** : A temporary memory, i.e. one in which data is stored so long as electrical power is applied. Data in RAM can be accessed or changed and is lost if the batteries are removed from the calculator. 
@@ -306,9 +274,7 @@
 : **[Routine](routines.html)** : A small section of code intended to perform a specific function. Typically the most optimized form of the code, and used quite often.
 
 
-
 ### S {#S}
-
 
 
 : **Scientific Notation** : A method of expressing very large or very small numbers by using a base number ([mantissa](#mantissa)) times ten raised to some power ([exponent](#exponent)).
@@ -342,9 +308,7 @@
 : **Syntax** : The rules that the TI calculator follows when typing in a command. You need to type in the command exactly as specified, otherwise, you will get a [ERR:SYNTAX](errors.html#syntax) error.
 
 
-
 ### T {#T}
-
 
 
 : **Texas Instruments (*TI*)** : The makers of the TI graphing calculators. In addition to graphing calculators, they also make a large assortment of other electronic devices.
@@ -358,9 +322,7 @@
 : **Token** : A single instruction or symbol in TI-Basic. Anything you type into a program is made up of tokens. The more common tokens take up one byte each, but others can take up two. Some tokens are not accessible through menus, and require assembly to gain access to, but can then be used in Basic programs.
 
 
-
 ### U {#U}
-
 
 
 : **Unarchive** : Moving a program from Flash ROM (or just ROM) to RAM.
@@ -368,25 +330,19 @@
 : **User** : When talking about the effect of a program or command, it is the person running the program or command on his/her calculator.
 
 
-
 ### V {#V}
-
 
 
 : **Variable (*Var*)** : A name given to a value which may vary during program execution. A variable is a memory location where values can be replaced by new values during program execution.  There are several different variables available in TI-Basic, including reals,  lists, matrices, and strings.
 
 
-
 ### Y {#Y}
-
 
 
 : **Y=** : The built-in editor which is used to enter and edit the Y# functions.
 
 
-
 ### Z {#Z}
-
 
 
 : **Z80** : Zilog Z80 is the microprocessor that the TI-83 series of graphing calculators use. Motorola makes the microprocessor for the TI-89, TI-92, and Voyage 200 graphing calculators.

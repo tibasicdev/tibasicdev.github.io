@@ -55,8 +55,6 @@ There are some special commands for lists; some can be used for normal commands 
 - [nspire:sum(](nspire:sum.html)
 
 
-
-
 Some statistical commands are used with lists as well: see the [Statistics](statistics.html) page for details.
 
 ## Optimization

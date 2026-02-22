@@ -6,7 +6,6 @@ All of these commands except dbd( can be found only through the command catalog 
 Despite its name, the [Time](time.html) command has nothing to do with the clock. It is a mode setting for sequence graphs.
 
 
-
 ### Low-Level Commands
 
 - **[startTmr](starttmr.html)** — This command returns the current value of a timer that is updated every second when the clock is enabled. This value doesn't correspond to any actual time, but can be used with [checkTmr(](checktmr.html) to get a time difference.
@@ -21,9 +20,6 @@ Despite its name, the [Time](time.html) command has nothing to do with the clock
 - **[setTmFmt(](settmfmt.html)** — Sets the time format - 12 hour, or 24 hour.
 - **[getTmFmt](gettmfmt.html)** — Returns this time format setting.
 - **[getTmStr(](gettmstr.html)** — Returns the current time as a string, affected by time format (though you can override it with an optional argument).
-
-
-
 
 
 ### Date Commands 

@@ -1,0 +1,442 @@
+# Code Timings
+|**This article is part of the revising stage of the [development](development.html) cycle.**|
+| --- |
+
+This page documents the speed of certain commands in TI-83 Basic. Although the times given here will vary from model to model and even from calculator to calculator (due to battery levels, free memory, and other factors), one thing that does not change is the relative speed of the commands. So, if you come here to see if a [For(](for.html) loop is faster than a [While](while.html) loop, the information will be useful on any calculator.
+
+Elsewhere on this site, you might see assertions like "foo() is faster than bar()" without any reason or proof. The information on this page is the reason and proof behind them.
+
+
+## Testing Format
+
+In order to be able to compare speed results between commands, there needs to be a common format that is used for all of the tests. However, there are actually two different formats that you can use depending on which TI-83 based calculator you have.
+
+The first format is for those with a TI-83, TI-83+, or TI-83+SE, and it is just a simple [For(](for.html) loop that is executed a set number of times over the command:
+
+```
+:For(n,1,[number]
+: <command(s) to be tested>
+:End
+```
+
+You measure the time by getting out a stopwatch, and trying to estimate the number of times the run indicator moved. The run indicator is the little, one pixel wide bar in the upper right corner of the calculator that moves when you run a program. Each completed run indicator you count as eight, and then any leftover pixels you simply add to the total.
+
+Of course, because the run indicator moves quite fast, this testing format can be plagued by human error. If you have any second guessing or are unsure if a timing was correct, you should run the test again. You can then take the average of the two times as your result.
+
+The second format is for those with a TI-84+ or TI-84+SE, and it involves using the built-in  [startTmr](starttmr.html) and [checkTmr(](checktmr.html) commands. You first store startTmr to a [variable](variables.html) (usually a real variable), and then run your command inside of a For( loop. You then check the time with the checkTmr( command using the variable from before that startTmr was stored to.
+
+Here is a basic template to use:
+
+```
+:startTmr→T
+:For(n,1,[number]
+: <command(s) to be tested>
+:End
+:checkTmr(T)/[number]
+```
+The *n* variable can be found by pressing [2ND][0][LOG]. This variable has a static memory address, so it won't affect the accuracy of the timings.
+
+Making [number] higher increases accuracy, but takes longer. Also, make sure not to modify the variables *n* or T inside of the For( loop.
+
+While this format eliminates human error from counting, it's prone to its own faults. A major one is that startTmr and checkTmr( always return whole numbers, but time is continuous. Depending on how close the start and end of the loop were to a clock tick, the number of seconds may be off by up to one second in either direction. This error is greatly reduced by conducting more trials: an error of ±1 second is reduced to ±0.001s per trial by running 1000 trials.
+
+If there is a need to use one or more variables during a test, you should initialize the variables to a known value before running the test. You can do this either on the home screen or before the format code (in which case, you should also put a [Pause](pause.html) to separate the variable initialization from the code test). If the code being tested contains and If statement on the fist line, it is highly advisable to add the closing parenthesis to the For( loop.
+
+## Contributing your own Tests
+
+Feel free to experiment with code timings, and to put your results up on this page. However, be sure to list the calculator model and the OS version (found in the About menu) that you used! Unless stated otherwise, all tests on this page were done with a TI-83+ and OS version 1.19.
+
+That's it for details and explanations. Now come the actual timings!
+
+## Program Main Code
+
+### If statements
+
+This very first section is a difficult one to approach, because the nature of our testing method affects it. It turns out that the [For(](for.html) command, when it doesn't have a closing parenthesis after it, will slow down If statements with a false condition inside the loop. This doesn't affect the speed of any other commands (except [IS>(](is-.html) and [DS<(](ds-.html) which are rarely used), nor does this effect occur with a true condition, nor with If-Then-End blocks (just with a single If and a command following it). These two pieces of code will be affected, for instance (the second will be much faster):
+
+
+```
+:For(I,1,100
+:If 0:
+:End
+```
+
+
+```
+:For(I,1,100)
+:If 0:
+:End
+```
+
+
+The following table summarizes all of these effects. It would have been too cumbersome to maintain the same format as elsewhere, so the number is simply the total number of pixels.
+
+| Conditional type | For(A,0,2000 | For(A,0,2000) |
+| --- | --- | --- |
+| If 0: | 1520 | 79 |
+| If 1: | 79 | 82 |
+| If 0:Then:End | 80 | 83 |
+| If 1:Then:End | 89 | 91 |
+
+**Conclusion:** The ending parenthesis situation, when it **is** applicable, is a major factor, slowing the statement down nearly 20 times. For this reason, I suggest that if there's any chance at all the condition is false (which is always the case, or else why are you testing for it in the first place?) to leave on the parenthesis on the For( loop. Of course, this doesn't affect If-Then-End commands.
+
+It was long held, because of a misunderstanding of this effect, that If commands were slower than If-Then-End (prior versions of this page were not entirely innocent, either). As you can see, this is not the case, as long as you are aware of the effect shown above. Though there are slight differences in the timings, they are so small that you can ignore them.
+
+### Relational Operators
+
+In all programs, there is a lot of chances that you will see relational operators used to determine what to do. But will each of them take the exact same time to work?
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| = | 10 | 4 | 84 |
+| ≠ | 10 | 5 | 85 |
+| > | 10 | 5 | 85 |
+| ≥ | 10 | 5 | 85 |
+| < | 10 | 5 | 85 |
+| ≤ | 10 | 6 | 86 |
+| and | 10 | 6 | 86 |
+| or | 10 | 6 | 86 |
+| not( | 8 | 6 | 70 |
+| xor | 10 | 5 | 85 |
+
+**Conclusion:** If you can reverse your operations, then do it to save some time.
+
+### int( vs. iPart(
+
+As you may know, [int(](int.html) and [iPart(](ipart.html) have the same use, for positive numbers at least.. In programs where you store more than one variable in 1 number, you normally use int( or iPart(, but which is the best one to use?
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| iPart(1 | 10 | 1 | 81 |
+| iPart(1.643759 | 10 | 1 | 81 |
+| int(1 | 8 | 7 | 71 |
+| int(1.643759 | 10 | 2 | 82 |
+
+**Conclusion:** Unless there are 6 or more decimals, you should consider using int( because of it's speed, but with several decimals, iPart( stays the same so it goes faster.
+
+### The getKey Function
+
+I hope you all know the [getKey](getkey.html) function, it is probably the most used in games and custom menus. It takes time, but we still don't know if it is fast...
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Getkey | 7 | 5 | 61 |
+| Getkey→B | 11 | 0 | 88 |
+
+**Conclusion:** getKey is pretty fast, but storing to the variable takes a lot of time. So, if you don't need to have the value of the key pressed, don't store it and use the special variable [Ans](ans.html) instead.
+
+### For(, Repeat and While Loops
+
+There are many types of loops that you should know already: [For(](for.html), [Repeat](repeat.html) and [While](while.html) loop. But if we have the choice, which one is faster?
+
+```
+:For(A,0,2000
+:While 0 :End
+:End
+```
+12 bars +2 pixels (98 pixels)
+
+Also see that with For(A,B,C loops implementation, you can do an If statement:
+
+If B≤C, then C+1→C (at the end)
+If B>C, store B into A
+```
+:For(A,0,2000
+:For(B,1,0
+:End
+:End
+```
+12 bars (96 pixels)
+
+```
+:For(A,0,2000
+:Repeat 1
+:End
+:End
+```
+13 bars +2 pixels (106 pixels)
+
+**Conclusion:** There is one loop that is best.  Use the right loop for the task you need to do.
+
+```
+:For(A,0,2000
+:End
+```
+4 bars +4 pixels (36 pixels)
+
+```
+:Delvar A
+:While A≤2000
+:A+1→A ;No use of Ans because there should be other code in the loop that would mess up with Ans...
+:End
+```
+23 bars (184 pixels)
+
+```
+:Delvar A
+:Repeat A>2000
+:A+1→A ;No use of Ans because there should be other code in the loop that would mess up with Ans...
+:End
+```
+22 bars +7 pixels (183 pixels)
+
+**Conclusion:** For the same use, please use a For( loop...
+
+## Graphing Code
+
+### The pxl-Test( Function
+
+Many TI-BASIC programmers reported issues of when [pxl-Test(](pxl-test.html) is a conditional, it takes up to 40% more time.
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| pxl-Test(15,15 ;pixel turned off | 12 | 1 | 97 |
+| pxl-Test(15,15 ;pixel turned on | 12 | 1 | 97 |
+| If pxl-Test(15,15: Then: (empty line): End ;pixel turned on | 20 | 0 | 160 |
+| If pxl-Test(15,15: Then: (empty line): End ;pixel turned off | 18 | 6 | 150 |
+| pxl-Test(15,15: Then: (empty line): End ;pixel turned on | 24 | 2 | 194 |
+| pxl-Test(15,15: Then: (empty line): End ;pixel turned off | 22 | 7 | 183 |
+
+**Conclusion:** For my calculator, at least, it didn't give me the errors reported by others. So don't use pxl-Test(:If Ans, but If pxl-Test(, it goes faster and takes a byte less. Also, it doesn't matter whether pixel is on or off.
+
+### Pixel and Point Modifying
+
+The objective in having games on the 83+ is mostly because it has good graphics that are entertaining. This is why we need to open or close pixels in order to draw. I made my test with a window size of: Xmin=0, Ymin=-62, Ymax=0, Xmax=94
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Pt-On(15,-15 | 14 | 0 | 112 |
+| Pt-On(15,-15,2 | 20 | 1 | 161 |
+| Pt-On(15,-15,3 | 18 | 2 | 146 |
+| Pt-Off(15,-15 | 14 | 0 | 112 |
+| Pt-Off(15,-15,2 | 20 | 1 | 161 |
+| Pt-Off(15,-15,3 | 18 | 2 | 146 |
+
+**Conclusion:** So like we see, Pt-On/Off is the same time of execution.
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Pt-Change(15,-15 | 14 | 0 | 112 |
+| Pxl-On(15,15 | 9 | 4 | 76 |
+| Pxl-Off(15,15 | 9 | 4 | 76 |
+| Pxl-Change(15,15 | 9 | 4 | 76 |
+| Line(15,-15,16,-15 | 16 | 2 | 130 |
+| Line(15,-15,30,-15 | 32 | 6 | 262 |
+| Line(15,-15,30,-15,0 | 34 | 6 | 178 |
+| Horizontal -15 | 82 | 5 | 661 |
+| Vertical 15 | 60 | 3 | 483 |
+
+**Conclusion:** Line(, Horizontal and Vertical are all slow, but they can save bytes. If there are under 4 or 5 pixels to turn on, Pxl-On( works much faster than any of them. However, if you have a lot of pixels to turn on/off, it is much better to use them than the Pxl-/Pt- commands. Also, Pt-Change( is the same speed wise as Pt-On/Off.
+
+### Text( vs. Output( vs. Disp(
+
+In all your programs, there is probably something that displays text on the screen. There are many ways to do so, so I will look at them to see which one is faster. The codes will be displaying the same string, "I DIE!", so that I can give you valuable timings.  In order to find the timing of display, ClrHome is after all of the commands.
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Text(-1,16,12,"I DIE! | 54 | 4 | 436 |
+| Text(16,12,"I DIE! | 41 | 1 | 329 |
+| Output(3,2,"I DIE! | 37 | 6 | 302 |
+| Disp "I DIE! | 51 | 2 | 410 |
+
+**Conclusion:** For immobile text, if you need to be big, you should use Output(, but if you need it into graph screen, then think about the time it takes...
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Output(3,2,A | 16 | 6 | 134 |
+| Text(-1,16,12,A | 36 | 7 | 295 |
+| Text(16,12,A | 27 | 0 | 216 |
+
+**Conclusion:** For variables' values, same thing applies.
+
+## Optimizing your Code
+
+### Parentheses and Quotes
+
+Normally, you shouldn't close parentheses and quotation marks to save a byte. I will test if it goes faster.
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| Output(3,2,"I DIE! | 20 | 6 | 166 |
+| Output(3,2,"I DIE!" | 20 | 6 | 166 |
+| (5+6)→B | 13 | 6 | 110 |
+| (5+6→B | 13 | 5 | 109 |
+| 5+6→B | 13 | 2 | 106 |
+
+**Conclusion:** The only reason you need to get out the quotations marks are because you save 1 byte, you don't get faster. Also, taking off closing parenthesis goes faster. However, it is better if you can get rid of the parentheses entirely.
+
+### Multiplication, Division and Addition
+
+Most TI-BASIC programmers tell you not to put the multiplying * sign, but do they know if it goes faster?
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| A*B | 13 | 4 | 108 |
+| AB | 13 | 2 | 106 |
+
+**Conclusion:** If you multiply, don't put the * sign.
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| If AB: Then: (empty line): End ;Condition true | 20 | 5 | 165 |
+| If A and B: Then: (empty line): End ;Condition true | 20 | 5 | 165 |
+| If AB: Then: (empty line): End ;Condition false | 18 | 7 | 151 |
+| If A and B: Then: (empty line): End ;Condition false | 19 | 2 | 154 |
+
+Then you could possibly use the AB format because there is 1 byte less and no speed loss and if the condition is mostly false, AB goes faster...
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| If C+B: Then: (empty line): End ;Condition true | 20 | 6 | 166 |
+| If C or B: Then: (empty line): End ;Condition true | 20 | 6 | 166 |
+| If C+B: Then: (empty line): End ;Condition false | 19 | 3 | 155 |
+| If C or B: Then: (empty line): End ;Condition false | 19 | 7 | 159 |
+
+Same as for the last tests, but you don't save any space.
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| If A(C+B: Then: (empty line): End ;Condition true | 25 | 4 | 204 |
+| If A and (C or B: Then: (empty line): End ;Condition true | 25 | 1 | 201 |
+| If A(C+B: Then: (empty line): End ;Condition false | 23 | 4 | 188 |
+| If A and (C or B: Then: (empty line): End ;Condition false | 23 | 7 | 191 |
+
+**Conclusion:** So as we can see, in multiple conditions, where it should be true a lot of time, you should use the *and* and *or* operators instead of multiplication and addition.
+
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| A/B | 20 | 6 | 166 |
+| AB^-1 | 28 | 2 | 226 |
+
+The following timings were taken on a TI-84+ SE with OS version 2.40
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| 1/B, when B=1 | 15 | 0 | 120 |
+| B^-1, when B=1 | 14 | 1 | 113 |
+| 1/B, when B=pi | 20 | 2 | 162 |
+| B^-1, when B=pi | 19 | 2 | 154 |
+
+**Conclusion:** When dividing two numbers, don't use the ^-1 operation. It goes really slow! But if you're only taking an inverse, use the ^-1 operation instead of dividing from 1.
+
+### Variables
+
+Some variables types are supposedly faster than others. Let's find out!
+
+Format:
+1→
+ClockOn
+startTmr→C
+For(T,1<sub>,E</sub>5
+
+End
+Disp checktmr(C)/<sub>E</sub>5
+
+|Variable|Time|
+|**N**|0.00275|
+|Xmin|0.00275|
+|N|0.0321|
+|Ans|0.0321|
+|[A](1,1|0.00328|
+|L<sub>1</sub>(1|0.00385|
+|Str1|0.00385|
+|Ans(1|0.00482|
+
+**Conclusion:** Use Finance Vars! Although, it is your choice: a 2 byte, really fast variable (i.e., the finance variables) or a 1 byte, slow variable (i.e., the real variables). Also, just because Ans wasn't any faster, doesn't mean you shouldn't use it! It can make your code a lot smaller, and may be faster in some situations.
+
+### Recalling Lists
+
+As you know, lists are arrays of variables, that you can modify specifically, one by one. You can use pre-defined lists, such as ∟1, ∟2, ..., ∟6, and user-defined lists, LXXXXX where X represents any letter or number or nothing at all (except for the first character). It takes time recalling an element, but how much?
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| \L1\ | 13 | 6 | 110 |
+| \L1\(1 | 15 | 0 | 120 |
+| \L\A | 15 | 3 | 123 |
+| \L\A(1 | 16 | 6 | 134 |
+| \L\AA | 15 | 5 | 125 |
+| \L\AAA | 15 | 4 | 124 |
+| \L\AAAA | 16 | 2 | 130 |
+| \L\AAAAA | 16 | 2 | 130 |
+| A | 9 | 6 | 78 |
+
+**Conclusion:** If you can, use pre-defined lists as temporary buffer, but not for long-term storage, it is so easy to get it modified in a math class. And if you can, use real variables instead of lists if you have very few elements and that the data storage is not long-term.
+
+### Imaginary vs. Decimals
+
+If you have looked in some tutorials, they talk about having many different variables held in one variable, by using either imaginary numbers in rectangular form (A+B*i*), or decimal points (XX.YYMMDDNNIIJJ). It saves space for keeping track of saved games, and sometimes time if you use it correctly. But which ways are the fastest?
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| real(4+4i)+imag(4+4i | 23 | 4 | 188 |
+| real(4+4i | 14 | 6 | 112 |
+| imag(4+4i | 14 | 6 | 112 |
+| int(4.4)+10fPart(4.4 | 15 | 2 | 116 |
+| int(4.4 | 8 | 6 | 70 |
+| 10fPart(4.4 | 11 | 1 | 89 |
+
+**Conclusion:** If you can, try not to use imaginary rectangles, they are slower than their int( and fPart( equivalent and they store the exact same amount of data. Besides that, a complex variable is twice as big as a real variable, and if you use one in a list it will make even the real elements twice as big.
+
+### Calculating powers of 10
+
+The calculator has at least three ways to calculate some power of 10: using the small [E](e-ten.html) command (limited to integer powers), using the [10^(](ten-exponent.html) command, and typing out 10^. How do these compare?
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| E1 | 6 | 6 | 54 |
+|10^1 | 9 | 0 | 72 |
+| 10[[/size]]^(1 | 12 | 4 | 100 |
+| E99 | 6 | 7 | 55 |
+| 10^99 | 50 | 6 | 406 |
+| 10[[/size]]^(99 | 12 | 6 | 102 |
+
+**Conclusion:** The [E](e-ten.html) command wins out by far, but it's limited, so you can't always use it. In those cases, typing out 10^ is slightly faster than the [10^(](ten-exponent.html) for small arguments (the breaking-even point seems to be around 10^9), but is a lot slower for large arguments. Of course, there's also the size to consider, so the command seems to be a pretty safe bet.
+
+### IS>( vs. If command
+
+This is what happened when I compared IS>( to If conditionals:
+
+| Format | Bars | Pixels | Total |
+| --- | --- | --- | --- |
+| IS>(B,10):Disp| 24 | 2 | 194 |
+| If B>10:B+1→B:Disp| 34 | 3 | 275 |
+
+**Conclusion:** IS>( works faster, but its flaws might not make it very useful.
+
+## Alternate methods
+
+### getKey routines
+
+These are two different methods of moving an X on the homescreen.
+Darkstone Knight's alternate method. (123 bytes, 12 bars, 7 pixels, 103 pixels total)
+```
+:ClrHome
+:1.01→A
+:For(D,0,200)
+:getKey
+:If Ans
+:Output(iPart(A),(smallcapitalE)2fPart(A)," /one space/
+:A+(Ans=34 and A<8)-(Ans=25 and A≥2)+sub((Ans=26 and fPart(A)<.16)-(Ans=24 and fPart(A)>sub(1→A
+:Output(iPart(A),(smallcapitalE)2fPart(A),"X
+:End
+```
+and the original method using piecewise expressions.  (109 bytes, 13 bars, 104 pixels total)
+```
+:ClrHome
+:1→A
+:1→B
+:For(D,0,200)
+:getKey→C
+:If C
+:Output(A,B," /one space/
+:A+(C=34 and A<8)-(C=25 and A>1→A
+:B+(C=26 and B<16)-(C=24 and B>1→B
+:Output(A,B,"X
+End
+```
+
+So which one you use depends on your value of 1/200th of a pixel per iteration vs. 14 bytes of size.
+
+<center>
+
+|**[<< Optimization](optimize.html)**|**[Overview](development.html)**|**[Writing Program Documentation >>](documentation.html)**|
+| --- | --- | --- |
+
+</center>

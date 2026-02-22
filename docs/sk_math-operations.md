@@ -1,5 +1,6 @@
 # Math Operations
-This article is currently in development. You can help TI-Basic Developer by expanding it. Add more pertaining to division, exponentiation, and negation/subtraction
+|This article is currently in development. You can help TI-Basic Developer by expanding it. Add more pertaining to division, exponentiation, and negation/subtraction|
+| --- |
 
 Optimizing math operations is a great way to make your programs more understandable and faster.
 

@@ -2,7 +2,6 @@
 Now that you have learned about the skeleton of a game, the next part is the meat.  A game can only run if variables are used.  By now, you should know what a variable is, like A and B and X and so on.  However, there are some other specialized variables also available on the calculator.  These special data types can be used for superior game design and are used for effect and output.  In the next three sections of this chapter, you will learn about these three variable types and their functions.
 
 
-
 ## Storing & Deleting Variables
 
 Variables have values stored in them so that the values can be recalled for later use. When storing an expression containing a variable into another variable, the value of the variable at that time is used. The [store](store.html) (→) command is used for storing variables, and it is accessed by pressing the [STO►] key. When storing a value in a variable, you have the value on the left side of the store command and the variable that it will be stored to on the right side.

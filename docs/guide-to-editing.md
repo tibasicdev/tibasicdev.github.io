@@ -2,7 +2,6 @@
 While the [contribute](contribute.html) and [conventions](conventions.html) pages answer the general questions about how to create and edit pages, this page answers the specific questions about editing the homepages and any specialty pages (such as the command pages). If you have any questions that aren't mentioned, please leave a post in the [forum](http://tibasicdev.github.io/forum/t-70841/guide-to-editing) or make a comment at the bottom of the page.
 
 
-
 ## Uploading files
 
 There is now a [tutorial](upload.html) to upload files on the site.
@@ -27,28 +26,22 @@ On the home pages of the 83 and 68k portals, there is an infobox on the right-ha
 
 These things are not actually editable on the home pages themselves, but instead are automatically retrieved from other pages on the site — which is quite useful because it saves us from having to create duplicate copies of the same information. To manipulate these pages, just visit their appropriate links, and follow the instructions on those pages:
 
-[[table]]
-[[row]]
 
 **[TI-83 Infobox:](inc:infobox.html)**
-[[/cell]]
-[[cell]]
+
+
 **[TI-68k Infobox:](inc:68k-infobox.html)**
-[[/cell]]
-[[/row]]
-[[row]]
+
 
 [83 Did You Know](did-you-know.html) for Did you know… items.
 [83 Featured Command](featured-commands.html) for the featured command.
 [83 Featured Article](featured-articles.html) for the featured article.
-[[/cell]]
-[[cell]]
+
+
 [68k Did You Know](68k:did-you-know.html) for Did you know… items.
 [68k Featured Command](68k:featured-commands.html) for the featured command.
 [68k Featured Article](68k:featured-articles.html) for the featured article.
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 ## Include Pages
 

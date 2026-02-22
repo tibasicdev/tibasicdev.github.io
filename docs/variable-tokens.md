@@ -63,9 +63,6 @@ Note that although these are the only tokens that are accessible from menus, add
 - **5E 82** — w
 
 
-
-
-
 ## First Byte 0x60 ([Pictures](pictures.html))
 
 - **60 00** — Pic1

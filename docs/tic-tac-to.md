@@ -2,7 +2,6 @@
 Tic Tac To is a game that almost everybody has played at one point in their life, no matter who they are. The simple premise behind the game is to alternate turns placing pieces on the 3x3 game board until somebody gets 3-in-a-row or all nine spots on the game board are filled. This game best lends itself to a matrix variable, so that is what we decided to use for the game board. Of course, you can also use a list or string. Again, try out the game and try to understand and think through the code.
 
 
-
 ### The Code
 
 ```

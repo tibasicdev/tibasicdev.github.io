@@ -2,7 +2,6 @@
 Simon Says is a simple game where you are given a pattern that must repeat, and the pattern gets longer and longer which subsequently increases the difficulty. This version of the game is played on the home screen, and is quite small (approximately 214 bytes). You use the respective number keys to type the matching number. Like with the other games, try to understand the code and experiment with it.
 
 
-
 ### The Code
 
 ```

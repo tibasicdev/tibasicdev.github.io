@@ -35,47 +35,41 @@ There are two cases in which the following statement will be ignored, so you sho
 When a [For(](for.html) loop doesn't have a closing parentheses after it, it will actually slow down [If](if.html) statements with a false condition inside the loop that immediately follow the For( line. This doesn't affect the speed of any other commands (except [IS>(](is-.html) and [DS<(](ds-.html) which are rarely used), nor does this effect occur with a true condition or If-Then-End blocks (just with a single If and a command following it).
 
 
-[[row]]
-[[cell]]
 ```
 :For(I,1,100
 :If 0:
 :End
 ```
-[[/cell]]
-[[cell]]
+
+
 ```
 :For(I,1,100)
 :If 0:
 :End
 ```
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 These two pieces of code, for instance, are nearly 20 times different in speed, which is a major speed hit in TI-Basic. As a general rule, if there is any chance at all that the condition is false (which is always the case, or else why are you testing for it in the first place?) result, then you should leave on the parentheses on the For( loop.
 
 However, this bug does not occur when there is a line or code between the For( line and the If statement.
 
-[[row]]
-[[cell]]
+
 ```
 :For(I,1,100
 :1
 :If 0:
 :End
 ```
-[[/cell]]
-[[cell]]
+
+
 ```
 :For(I,1,100)
 :1
 :If 0:
 :End
 ```
-[[/cell]]
-[[/row]]
-[[/table]]
+
+
 These two pieces of code execute at the same speed. However, the left example is one byte shorter. As an optimization, omit the closing parenthesis of the For( loop if there is an extra line or code that occurs between the two statements.
 
 

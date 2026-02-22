@@ -41,7 +41,6 @@ Here is the complete list of algebraic commands:
 - [68k:zeros()](68k:zeros.html)
 
 
-
 ##Arithmetic
 
 For basic arithmetic, the 68k calculators' advantage is that it can do exact calculations with integers up to 256<sup>255</sup>-1 (and approximate floating-point decimal calculations up to 10<sup>1000</sup>-1). Here is the complete list of arithmetic commands:
@@ -85,7 +84,6 @@ For basic arithmetic, the 68k calculators' advantage is that it can do exact cal
 - [ΔtmpCnv()](68k:deltatmpcnv.html)
 
 
-
 ##Calculus
 
 What with the ability for symbolic calculation, the 68k calculators are much more useful for calculus than other models; they can do symbolic differentiation and integration, as well as calculate infinite sums and products. There are some numeric functions as well carried over from earlier calculator models.
@@ -106,7 +104,6 @@ Here is the complete list of calculus commands:
 - [68k:nDeriv()](68k:nderiv.html)
 - [68k:nInt()](68k:nint.html)
 - [68k:taylor()](68k:taylor.html)
-
 
 
 ##Statistics

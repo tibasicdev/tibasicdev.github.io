@@ -14,7 +14,6 @@
 | --- | --- |
 
 
-
 There are several different kinds of characters that you can use in TI-Basic, including letters, numbers, symbols, variables, functions, and even other commands. You can [store](store.html) the characters together in groups as [strings](strings.html), and you can then perform operations on the strings or the calculator can display them on the screen.
 
 ```

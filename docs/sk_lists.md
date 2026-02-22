@@ -4,7 +4,6 @@ Lists are one of the most used data types, and they can hold up to *999* element
 Note: To programmers coming from computers, this is the equivalent of a one-dimensional array.
 
 
-
 ## Before You Start
 
 There are two "types" of lists: predefined and custom. Predefined lists are L₁...L₆, and are accessible by pressing 2nd 1-6 respectively. The casual calculator user is probably using these, so don't use these if you don't have to. Custom lists start with a tiny uppercase ∟, and have a maximum of five characters afterward. You can have lists such as ∟LUNCH, or ∟TODO, or ∟GRR. We will be working with custom lists on this page.

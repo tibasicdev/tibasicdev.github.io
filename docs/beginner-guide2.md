@@ -2,7 +2,6 @@
 > **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
 
 
-
 ### Lbl and Menu
 
 An important aspect of every program is allowing the user to feel like they have some control over what goes on in the program. There are a lot of ways to let users chose their own paths. But first, you need those paths to lead somewhere.

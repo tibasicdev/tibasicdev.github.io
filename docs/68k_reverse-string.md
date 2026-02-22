@@ -17,7 +17,6 @@ All are created locally in the program.
 TI-89/92/+/V200
 
 
-
 ```
 :reverse(s)
 :Func

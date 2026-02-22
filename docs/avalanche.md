@@ -2,7 +2,6 @@
 The basic premise behind Avalanche is to avoid the falling spikes ("V") by moving to the left or right, trying to see how long you can hold out for. It is somewhat more complex than [Guess the Number](guess-the-number.html), using nested loops, a list variable, and some fairly advanced optimizations. Try to understand the code, and actually put it in your calculator and try it out.
 
 
-
 ### The Code
 
 ```

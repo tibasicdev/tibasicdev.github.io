@@ -6,6 +6,5 @@ Unfortunately, the rich vocabulary of wiki syntax doesn't allow to properly disp
 Here are the commands and symbols that suffer from this problem:
 
 
-
 ## See Also
 - The [wiki syntax description](http://www.wikidot.com/doc:wiki-syntax) on www.wikidot.com.

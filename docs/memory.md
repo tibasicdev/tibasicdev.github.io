@@ -2,7 +2,6 @@
 Memory is a simple "card" game where you flip over two cards each turn to try to get a matching pair. If they match, then the cards are removed from the playing field. If they don't match, the cards are just flipped back over. You continue playing until all of the cards are removed. The game playing field is a square 4x4 matrix, but you can increase this to a larger size if you like.
 
 
-
 ### The Code
 
 ```

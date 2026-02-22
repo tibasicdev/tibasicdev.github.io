@@ -1,4 +1,5 @@
-This article is a stub. You can help TI-Basic Developer by expanding it.
+|This article is a stub. You can help TI-Basic Developer by expanding it.|
+| --- |
 
 ![ZQuadrant1](zquadrant1/ "ZQuadrant1")
            

@@ -2,7 +2,6 @@
 It's the goal of this site to eventually cover all information on TI-Basic programming for the 68k calculators. However, an excess of information can be overwhelming. So this page gives a suggested reading order (as well as necessary tidbits) so you don't get lost.
 
 
-
 ## For Beginners
 
 There are two alternatives for those who have just ventured into programming for these calculators. While you might want to just jump in, we have two tutorials that explain the basics of TI-Basic.

@@ -5,4 +5,4 @@ Celtic III is a Flash Application for the TI-83 Plus, TI-83 Plus Silver Edition,
 ## How To Use
 Will add more later; but for now, read the read me.
 http://f.eeems.ca/Resources/program%20readmes/Celtic%20III/ReadME%20Celtic%203%20app.txt
-[^1]: This text was taken directly from the [Celtic3 Readme](cf5f31fc-2000-480b-9ef1-2d3afced1f21)
+[^1]: This text was taken directly from the [Celtic3 Readme](d5afd54e-b1d4-4947-8e02-3b1f34e7ed3e)

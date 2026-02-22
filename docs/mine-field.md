@@ -2,7 +2,6 @@
 Like the classic game minesweeper, the goal of Mine Field is to avoid hitting the mines. A new twist has been added, however, and you must maneuver the field around the mines to get to the star (the asterisk) on the other side. The game uses a simple 8x16 matrix to store the field, although you could use a list or string as well. You can play this game indefinitely, since all of the mines are randomly placed.
 
 
-
 ### The Code
 
 ```

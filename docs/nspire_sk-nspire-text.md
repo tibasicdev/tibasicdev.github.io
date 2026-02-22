@@ -9,10 +9,7 @@ Well hello and welcome to your first tutorial! Let's start with the title "How t
 Text "HELLO, WORLD!"
 
 
-
-
 If you want to include more functionality to displaying text, you can use Disp which will display your text as well.
-
 
 
 Disp "HELLO, WORLD!"

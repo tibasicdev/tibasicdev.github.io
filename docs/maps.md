@@ -2,7 +2,6 @@
 For many games, the gameplay consists of going through all of the maps in the game. For example, in a maze game where each map is a different maze, when you get through the first maze you go on to the second maze, and so on until you finish all of the mazes. Another common example is an RPG where the player can move their character around on the screen, and each screen is part of a larger map.
 
 
-
 ## How to Store Maps
 
 In order to keep track of all of the different things in a map, it obviously requires that you store the map to a variable. There are three different variables that you can use to store maps, and they each have their own advantages and disadvantages:
@@ -17,9 +16,7 @@ When storing a map in a variable, you have to assign numbers to represent the di
 
 Here is an example of a simple 8x16 map stored in each of three different variables (note: the respective variable is all on one line, it's just split up to make it easier to read):
 
-[[table]]
-[[row]]
-[[cell]]
+
 ```
 :[[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
  [1,2,1,0,0,0,1,0,0,0,1,0,0,0,1,1]
@@ -30,8 +27,8 @@ Here is an example of a simple 8x16 map stored in each of three different variab
  [1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0]
  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1→[A]
 ```
-[[/cell]]
-[[cell]]
+
+
 ```
 :{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
  ,1,2,1,0,0,0,1,0,0,0,1,0,0,0,1,1,
@@ -42,8 +39,8 @@ Here is an example of a simple 8x16 map stored in each of three different variab
  ,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,
  ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1→L₁
 ```
-[[/cell]]
-[[cell]]
+
+
 ```
 :"1111111111111111
  1210001000100011
@@ -54,9 +51,7 @@ Here is an example of a simple 8x16 map stored in each of three different variab
  1000100010001000
  1111111111111111→Str1
 ```
-[[/cell]]
-[[/row]]
-[[/table]]
+
 
 As you can see, the string map is the smallest of the three variables because you don't have to add all of the additional characters (the braces and the commas) like you do with the matrix and list. (You can actually get around this problem by storing your maps as a string, and then [converting](string-to-list.html) them to a matrix or list when you need to use them.)
 

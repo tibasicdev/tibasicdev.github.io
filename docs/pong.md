@@ -2,7 +2,6 @@
 Pong is a classic program for beginner programs to start out with, so we thought it was important to include it. The basic premise behind pong is you have to keep the ball ("O") in play by bouncing it back and forth against the walls, without letting it get by your paddle ("["). You can play this game indefinitely, but it does get monotonous after a while.
 
 
-
 ## The Code
 
 ```

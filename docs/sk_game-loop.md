@@ -12,7 +12,6 @@ while the player has not won:
 There are four main types of loops used in programs. There are [For](for.html)( loops, [While](while.html) loops, [Repeat](repeat.html) loops, and [Goto](goto.html) loops.  The first three are the most commonly used whereas the Goto not so much. You probably already read about loops in the previous chapter, but this discusses the fundamentals of each loop in detail and displays the application of such things when referring to game building.
 
 
-
 ## While Loops
 
 This loop is the most basic loop. What you do is put a condition after it, and while that condition is true, the loop will continue to run between the While and its End until the condition becomes false. So, when the calculator encounters a While, it tests the condition after it and depending on whether it is true or not, the calculator will either execute the loop or skip it. If it executes the loop, it will continue to do so until the condition after While becomes false. Let us consider this code:
@@ -156,7 +155,6 @@ Pretty much, all you are doing is setting up a turn keeper and using one of the 
 
 ## Conclusion
 This wraps up the Game Loop tutorial. This is just the basics of making a game. In making a game, the loop only represents the backbone of the program. What lies within a loop is the meat, and that is what makes the game function. The next section deals with data types which will introduce to you the various ways we can manipulate numbers to accomplish jobs.
-
 
 
 <center>

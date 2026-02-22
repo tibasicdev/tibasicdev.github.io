@@ -21,7 +21,6 @@ The setDate( command sets the date of the clock on the TI-84+/SE calculators. It
 Once you have set the date, you can display it in three different formats on the [mode screen](settings.html) using the [setDtFmt(](setdtfmt.html) command: Month/Day/Year, Day/Month/Year, or Year/Month/Day. Of course, the date will only show up if the clock is on; if you need to turn the clock on, use the [ClockOn](clockon.html) command or select 'TURN CLOCK ON' , displayed in place of the clock on the mode screen.
 
 
-
 ## Related Commands
 
 - [getDate](getdate.html)

@@ -4,7 +4,6 @@ Fly The Copter is a simple game where you have to navigate a scrolling tunnel fo
 (NOTE: This game was created by Weregoose, and originally posted on the UTI forums.)
 
 
-
 ### The Code
 
 ```

@@ -2,7 +2,6 @@
 > **Note:** This page was originally created by AtionSong on the TI-Basic wiki, and has been added here because TI-Basic wiki is in the process of being merged with this wiki. In addition to this page, only those pages which weren't already duplicated on this wiki were added.
 
 
-
 ### The Basics
 
 #### Creating a New Program
