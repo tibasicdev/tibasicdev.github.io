@@ -1,5 +1,5 @@
 # Review Exercises
-As a way to test your comprehension of the information, and to ensure that you actually read through the information instead of merely skimming over it, we have provided review exercises. These exercises provide a way of helping you apply the information, so that you get a fuller understanding of the concepts.  Highlight the area next to the word answer for the answer.[[/span]]
+As a way to test your comprehension of the information, and to ensure that you actually read through the information instead of merely skimming over it, we have provided review exercises. These exercises provide a way of helping you apply the information, so that you get a fuller understanding of the concepts.  Highlight the area next to the word answer for the answer.
 
 
 **1**. *True* or *False*: The ClrHome command should be used at the end of a program, to ensure that the program does not leave any leftover text on the home screen.

@@ -1069,4 +1069,4 @@ Name: "MathPrint Entry Box"
 Width: 6px |
 
 
-![Character Map](http://www.wikidot.com/common—theme/base/images/editor/table.png "") [Character Map](#toc0)[[/span]]
+![Character Map](http://www.wikidot.com/common—theme/base/images/editor/table.png "") [Character Map](#toc0)

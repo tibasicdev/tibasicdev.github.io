@@ -103,6 +103,8 @@ class Converter:
         rf'\[\*?(?P<interwiki>dictionary|google|wikipedia):(?P<page>.*?)(\s+(?P<text>.*?))?\]': ExternalLink,
         rf'\[\*?(?P<page>{URL})(?:\s+(?P<text>.*?))?\]': ExternalLink,
 
+        r'\[\[user\s+(.*?)\]\]': r'[\1](http://www.wikidot.com/user:info/\1)',
+
         # Blocks
         r'(?s)^\[\[code(?: +type="(?:[\S]+)")?\]\](.*?)\[\[/code\]\]\s*?$': Block,  # block code
         r'(?s)^\[\[math(?: *\w*)\]\](.*?)^\[\[/math\]\]\s*?$': Block,  # block math
@@ -113,7 +115,7 @@ class Converter:
         r'(?s)[<\[]!--.*?--[>\]]': r'',  # comments
         r'_$': r'',  # line continuation
 
-        r'(?s)\[\[div .*?\]\](.*?)\[\[/div\]\]': r'\1',  # divs
+        r'(?s)\[\[div.*?\]\](.*?)\[\[/div\]\]': r'\1',  # divs
 
         # E
         r'\[\[size \d+%\]\](\{\{)?E(\}\})?\[\[size\]\]': r"\1ᴇ\2",
@@ -121,6 +123,7 @@ class Converter:
 
         # Formatting
         r'~~|(?<!-)--(?!-)': r'—',  # em dash ~~ -> —
+        r'\{$br\}': r'\n',  # breaks
         r'(?<=[^:])//(.*?\S.*?)//': r'*\1*',  # italics
         r'__(.*?\w.*?)__': r'<u>\1</u>',  # underlining
         r'(?<!-)--(.*?\w.*?)--(?!-)': r'~~\1~~',  # strikeout
@@ -168,6 +171,10 @@ class Converter:
 
         # Footnotes
         r'\[\[footnote\]\]\s*(.*?)\s*\[\[/footnote\]\]': Footnote,
+
+        # Spans
+        r'\[\[span.*?\]\](\.+)\[\[/span\]\]': lambda match: len(match[1]) * " ",
+        r'\[\[span.*?\]\](.*?)\[\[/span\]\]': r'\1',
     }
 
     includes = {
@@ -413,6 +420,7 @@ EXCLUDE_FILES = [
     "empty-page",
     "live-chat",
     "mstram1",
+    "multiple-menus",
     "nav",
     "noahbaby94",
     "number-of-pages",

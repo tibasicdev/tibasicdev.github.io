@@ -437,4 +437,4 @@
 [nspire:zTest_2Samp](nspire:ztest_2samp.html)
 
 
-![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)[[/span]]
+![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)

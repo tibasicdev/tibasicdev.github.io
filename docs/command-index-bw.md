@@ -430,4 +430,4 @@ See [Compatibility](compatibility.html) for a chart of only the commands that re
 - [ZTrig](ztrig.html)
 
 
-![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)[[/span]]
+![Command Index](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command Index](#top)

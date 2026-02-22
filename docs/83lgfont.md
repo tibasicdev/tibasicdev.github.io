@@ -1090,4 +1090,4 @@ Name: "MathPrint Entry Box"
 BBCode: [img]http://tibasicdev.github.io/local--files/83lgfont/F7h_LMPentryBox.gif[/img] |
 
 
-![Character Map](http://www.wikidot.com/common—theme/base/images/editor/table.png "") [Character Map](#toc0)[[/span]]
+![Character Map](http://www.wikidot.com/common—theme/base/images/editor/table.png "") [Character Map](#toc0)

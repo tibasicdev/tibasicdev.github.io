@@ -50,11 +50,11 @@ It's sometimes beneficial to use the <sup>[r](radian-symbol.html)</sup> command 
 
 ```
 Degree
-..................[[/span]]Done
+                  Done
 sin(π)
-..................[[/span]].0548036651
+                  .0548036651
 sin(π<sup>r</sup>)
-..................[[/span]]0
+                  0
 ```
 
 

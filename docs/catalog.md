@@ -493,4 +493,4 @@ Press 2nd CATALOG to access the catalog
 ? ([interrogatory mark](characters.html))
 
 
-![Character Map](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command List](#top)[[/span]]
+![Character Map](http://www.wikidot.com/common—theme/base/images/editor/bullist.png "") [Command List](#top)

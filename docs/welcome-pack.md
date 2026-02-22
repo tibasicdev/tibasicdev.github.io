@@ -1,7 +1,7 @@
 # Welcome to TI-Basic Developer
-Recent Forum Posts[[/span]]
+Recent Forum Posts
 
-Recent Forum Threads[[/span]]
+Recent Forum Threads
 
 
 ## We're glad you came by, but you might find what you're looking for elsewhere.

@@ -1,5 +1,5 @@
 # TI-Basic Developer History
-This is the history of the site from the beginning as remembered by me. I have decided to write this down for posterity sake for those people interested in knowing about how the site came into being, and what the decision-making process was that has caused the site to exist as it does today. — *, site founder*
+This is the history of the site from the beginning as remembered by me. I have decided to write this down for posterity sake for those people interested in knowing about how the site came into being, and what the decision-making process was that has caused the site to exist as it does today. — *[burr](http://www.wikidot.com/user:info/burr), site founder*
 
 
 **2006**

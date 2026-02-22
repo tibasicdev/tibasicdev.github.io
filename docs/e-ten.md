@@ -18,9 +18,9 @@ Unlike the exponent of `E`, the mantissa (a special term for the A in A*10^B, in
 
 ```
 5E3
-..................[[/span]]5000
+                  5000
 E‾5
-..................[[/span]].00001
+                  .00001
 ```
 
 

@@ -5,7 +5,7 @@
 
 ### Text Adventures
 
-**Needed Commands:** [Goto/Lbl](goto.html), [Menu(](menu.html), [ClrHome](clrhome.html), [Output(](output.html), and [Pause](pause.html) *Some additional commands used in demo for demonstration purposes*[[/span]]
+**Needed Commands:** [Goto/Lbl](goto.html), [Menu(](menu.html), [ClrHome](clrhome.html), [Output(](output.html), and [Pause](pause.html) *Some additional commands used in demo for demonstration purposes*
 
 #### Structure
 

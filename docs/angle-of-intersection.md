@@ -3,7 +3,7 @@ This code finds the angle of intersection of two lines.
 
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|
 |--- |--- |--- |--- |--- |
-|Finds the angle of intersection for any two lines.|Str1 and Str2|Ans|Y1, Y2, I, Ans, X|, |
+|Finds the angle of intersection for any two lines.|Str1 and Str2|Ans|Y1, Y2, I, Ans, X|[kg583](http://www.wikidot.com/user:info/kg583), [Myles_Zadok](http://www.wikidot.com/user:info/Myles_Zadok)|
 
 ```
 :Degree

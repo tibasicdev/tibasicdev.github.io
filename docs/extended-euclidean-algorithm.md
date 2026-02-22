@@ -1,7 +1,7 @@
 # Extended Euclidean Algorithm
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
 |--- |--- |--- |--- |--- |
-|Calculates the GCD of two numbers.|*A,B* - Whole numbers|L₁(I) - Greatest common divisor (gcd) of A and B<br>L₂(I), L₃(I) - Bézout coefficients such that AL₂(I)+BL₃(I) = L₁(I)|I, Q||
+|Calculates the GCD of two numbers.|*A,B* - Whole numbers|L₁(I) - Greatest common divisor (gcd) of A and B<br>L₂(I), L₃(I) - Bézout coefficients such that AL₂(I)+BL₃(I) = L₁(I)|I, Q|[kg583](http://www.wikidot.com/user:info/kg583)|
 
 ```
 :{A,B→L₁
