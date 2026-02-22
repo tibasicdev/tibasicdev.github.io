@@ -239,6 +239,10 @@ class Converter:
             | --- |
             """ % EXT),
 
+        "markup":
+            inspect.cleandoc("""|**NOTE**: Due to the limitations of the wiki markup language, the {$cmd} command on this page does not appear as it would on the calculator. See [[[wiki-limits|Wiki Markup Limitations]]] for more information.|
+            | --- |"""),
+
         "math":
             "$$ {$eqn} $$",
 
@@ -318,7 +322,7 @@ class Converter:
                        for key, *value in map(lambda s: s.split("=", maxsplit=1), (match[2] or "").split("|")) if value}
 
             return self.includes[name].format(default="DEFAULT",
-                                                               **({"$location": "N/A\n"} | entries),
+                                                               **({"$location": "N/A\n", "$extra": ""} | entries),
                                                                **{"$filename": filename, "$title": title})
 
         return inner

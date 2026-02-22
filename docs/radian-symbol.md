@@ -11,9 +11,10 @@ Press:
        
 # The r (Radian Symbol) Command
 
+|**NOTE**: Due to the limitations of the wiki markup language, the <sup>r</sup> command on this page does not appear as it would on the calculator. See [Wiki Markup Limitations](wiki-limits.html) for more information.|
+| --- |
 
-
-Normally, when the calculator is in degree mode, the trigonometric functions only return values calculated in degrees.  With the `<sup>r</sup>` symbol you can have the angle evaluated as if in radian mode because it converts the angle into degrees.
+Normally, when the calculator is in degree mode, the trigonometric functions only return values calculated in degrees.  With the <sup>`r`</sup> symbol you can have the angle evaluated as if in radian mode because it converts the angle into degrees.
 
 One full rotation around a circle is 2π radians, which is equal to 360°.  To convert an angle in radians to degrees you multiply by 180/π, and to convert from degrees to radians multiply by π/180.
 
