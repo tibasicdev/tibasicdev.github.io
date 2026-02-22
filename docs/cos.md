@@ -27,7 +27,7 @@ cos(60)
 
 ## Advanced Uses
 
-You can bypass the mode setting by using the [`°`](degree-symbol.html) (degree) and `<sup>[r](radian-symbol.html)</sup>` (radian) symbols.  These next two commands will return the same values no matter if your calculator is in degrees or radians:
+You can bypass the mode setting by using the [`°`](degree-symbol.html) (degree) and <sup>[`r`](radian-symbol.html)</sup> (radian) symbols.  These next two commands will return the same values no matter if your calculator is in degrees or radians:
 ```
 cos(60°)
     .5

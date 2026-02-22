@@ -28,7 +28,7 @@ The output is differently expressed:
 - [`R►Pθ(`](r-ptheta.html)
 - [`sin‾¹(`](arcsin.html), [`cos‾¹(`](arccos.html), [`tan‾¹(`](arctan.html)
 - [`►Polar`](polar-display.html) (and complex numbers when in [`re^θi`](re-thetai.html) mode)
-- `<sup>[r](radian-symbol.html)</sup>`, [`°`](degree-symbol.html)
+- <sup>[`r`](radian-symbol.html)</sup>, [`°`](degree-symbol.html)
 
 However, some commands are notably unaffected by angle mode, even though they involve angles, and this may cause confusion. This happens with the [`SinReg`](sinreg.html) command, which assumes that the calculator is in `Radian` mode even when it's not. As a result, the regression model it generates will graph incorrectly in `Degree` mode.
 
@@ -62,5 +62,5 @@ This is smaller when only one trig calculation needs to be done. Also, it doesn'
 ## Related Commands
 
 - [`Radian`](radian-mode.html)
-- `<sup>[r](radian-symbol.html)</sup>`
+- <sup>[`r`](radian-symbol.html)</sup>
 - [`°`](degree-symbol.html)

@@ -46,7 +46,7 @@ Just be sure that all lists have at least 1 value to prevent errors.
 
 ## Advanced Uses
 
-Use the `<sup>[T](transpose.html)</sup>` (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
+Use the <sup>[`T`](transpose.html)</sup> (transpose) command if you want to combine two matrices vertically, rather than horizontally. For example:
 
 ```
 augment([[1,2]]T,[[3,4]]T)T
@@ -78,4 +78,4 @@ X→L1(1+dim(L1
 
 - [`dim(`](dim.html) – for retrieving the size of a list
 - [`seq(`](seq-list.html) – for creating a list based on a formula, or to create a subset of an existing list
-- `<sup>[T](transpose.html)</sup>` – to transpose a 2D matrix
+- <sup>[`T`](transpose.html)</sup> – to transpose a 2D matrix

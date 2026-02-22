@@ -51,9 +51,9 @@ Removing the first element would otherwise be a difficult procedure involving th
 
 ------
 
-For a matrix, if you want to sum up the rows instead of the columns, use the `<sup>T</sup>` ([`transpose`](transpose.html)) command.
+For a matrix, if you want to sum up the rows instead of the columns, use the <sup>`T`</sup> ([`transpose`](transpose.html)) command.
 
 ## Related Commands
 
 - [`ΔList(`](deltalist.html)
-- `<sup>T</sup>` ([`transpose`](transpose.html))
+- <sup>`T`</sup> ([`transpose`](transpose.html))

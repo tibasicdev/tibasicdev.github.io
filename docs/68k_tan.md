@@ -10,7 +10,7 @@ Press the TAN button to enter tan(.
 # The tan() Command
 
 
-The `tan()` command returns the [tangent](http://mathworld.wolfram.com/tangent.html) of an angle measure. Naturally, the result depends on the angle [`mode`](68k:setmode.html) the calculator is in: `radian`, `degree`, or (in AMS version 3.10) `gradian`. You can also use one of the `<sup>[r](68k:radian.html)</sup>`, [`°`](68k:degree.html), `<sup>[G](68k:gradian.html)</sup>` marks to specify an angle mode.
+The `tan()` command returns the [tangent](http://mathworld.wolfram.com/tangent.html) of an angle measure. Naturally, the result depends on the angle [`mode`](68k:setmode.html) the calculator is in: `radian`, `degree`, or (in AMS version 3.10) `gradian`. You can also use one of the <sup>[`r`](68k:radian.html)</sup>, [`°`](68k:degree.html), <sup>[`G`](68k:gradian.html)</sup> marks to specify an angle mode.
 
 For many common angles, `tan()` can compute an exact result. Other angles, the calculator will leave alone unless it's in approximate mode (or unless you make it approximate), and then it will give a decimal approximation. As long as the calculator is in `radian` [mode](68k:mode-settings.html), `tan()` can be used with complex numbers as well.
 

@@ -33,7 +33,7 @@ cumSum([[0,1,1][0,1,3][0,1,5][0,1,7]])
 
 ## Advanced Uses
 
-For a matrix, if you want to sum up the rows instead of the columns, use the `<sup>T</sup>` ([`68k:transpose`](68k:transpose.html)) command.
+For a matrix, if you want to sum up the rows instead of the columns, use the <sup>`T`</sup> ([`68k:transpose`](68k:transpose.html)) command.
 ```
 (cumSum([[0,1,1][0,1,3][0,1,5][0,1,7]]ᵀ))ᵀ
 	[[0 1 2]
@@ -44,4 +44,4 @@ For a matrix, if you want to sum up the rows instead of the columns, use the `<s
 
 ## Related Commands
 
-- `<sup>T</sup>` ([`68k:transpose`](68k:transpose.html))
+- <sup>`T`</sup> ([`68k:transpose`](68k:transpose.html))

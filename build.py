@@ -120,10 +120,11 @@ class Converter:
         r'(?<=[^:])//(.*?\S.*?)//': r'*\1*',  # italics
         r'__(.*?\w.*?)__': r'<u>\1</u>',  # underlining
         r'(?<!-)--(.*?\w.*?)--(?!-)': r'~~\1~~',  # strikeout
-        r'{{(.*?\S.*?)}}': r'`\1`',  # monospace
-        rf'`\[(.*?)\]\((.*?)\)`': r'[`\1`](\2)', # monospaced links
         r'\^\^(.*?\S.*?)\^\^': r'<sup>\1</sup>',  # superscript
         r',,(.*?\S.*?),,': r'<sub>\1</sub>',  # subscript
+        r'{{(.*?\S.*?)}}': r'`\1`',  # monospace
+        r'`<(\w+)>(.*?)</\w+>`': r'<\1>`\2`</\1>', # monospaced tags
+        r'`\[(.*?)\]\((.*?)\)`': r'[`\1`](\2)', # monospaced links
 
         # Lists
         r'^(\s)*\*\s': r'\1- ',  # unordered lists

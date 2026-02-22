@@ -11,7 +11,7 @@
        
 # The csc() Command
 
-The `csc()` command returns the cosecant (the reciprocal of the [`sine`](68k:sin.html)) of an angle measure. Naturally, the result depends on the angle [mode](68k:setmode.html) the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the `<sup>[r](68k:radian.html)</sup>`, [`°`](68k:degree.html), `<sup>[G](68k:gradian.html)</sup>` marks to specify an angle mode.
+The `csc()` command returns the cosecant (the reciprocal of the [`sine`](68k:sin.html)) of an angle measure. Naturally, the result depends on the angle [mode](68k:setmode.html) the calculator is in: radian, degree, or (in AMS version 3.10) gradian. You can also use one of the <sup>[`r`](68k:radian.html)</sup>, [`°`](68k:degree.html), <sup>[`G`](68k:gradian.html)</sup> marks to specify an angle mode.
 
 The `csc()` command, along with 11 other trig and hyperbolic functions, was added with AMS version 2.07. It can be easily replaced on earlier versions with 1/sin(x), which is what it simplifies to anyway.
 
