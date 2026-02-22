@@ -32,7 +32,7 @@ Use left() instead of mid() when the substring starts at the beginning of the li
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the argument is not a list, string, or equation, or is an equation that has simplified.
 
 ## Related Commands
 

@@ -65,7 +65,7 @@ can be
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the length is not an integer ≥0.
 
 ## Related Commands
 

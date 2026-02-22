@@ -31,9 +31,9 @@ The sin() of a matrix is not (in general) the same as taking the sine of every e
 
 ## Error Conditions
 
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when taking sin() of a matrix that isn't square.
+**[260 - Domain error](68k:errors.html#e260)** happens when taking sin() of a complex number in degree or gradian mode.
+**[665 - Matrix not diagonalizable](68k:errors.html#e665)** happens when taking sin() of a matrix that isn't diagonalizable.
 
 ## Related Commands
 

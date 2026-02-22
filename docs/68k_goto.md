@@ -26,7 +26,7 @@ The [68k:Cycle](68k:cycle.html) and [68k:Exit](68k:exit.html) commands perform t
 
 ## Error Conditions
 
-
+**[500 - Invalid label](68k:errors.html#e500)** happens when the label doesn't exist (in this program).
 
 ## Related Commands
 

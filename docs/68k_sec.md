@@ -31,7 +31,7 @@ If `sec()` is applied to a list, it will take the secant of every element in the
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when taking sec() of a complex number in degree or gradian mode.
 
 ## Related Commands
 

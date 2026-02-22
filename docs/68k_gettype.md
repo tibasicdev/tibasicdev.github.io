@@ -63,7 +63,7 @@ Since getType() returns a result even for undefined variables, it can be used as
 
 ## Error Conditions
 
-
+**[140 - Argument must be a variable name](68k:errors.html#e140)** happens when the argument is not a variable name.
 
 ## Related Commands
 

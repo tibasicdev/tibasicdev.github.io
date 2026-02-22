@@ -31,7 +31,7 @@ If your calculator is set to float or to fix at 10 or less, the calculator will 
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the number of decimal points to round to is not in the range 0-12.
 
 ## Related Commands
 

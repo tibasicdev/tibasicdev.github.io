@@ -59,7 +59,7 @@ can be
 
 ## Error Conditions
 
-
+**[200 - Constraint expression invalid](68k:errors.html#e200)** happens when the condition doesn't make sense to the calculator.
 
 ## Related Commands
 

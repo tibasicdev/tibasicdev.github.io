@@ -31,7 +31,7 @@ Typically, you'd only use this command in a program if you needed to use getDtSt
 
 ## Error Conditions
 
-
+**[40 - Argument error](68k:errors.html#e40)** happens when the format number is not an integer in the range 1-8.
 
 ## Related Commands
 

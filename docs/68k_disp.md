@@ -22,7 +22,7 @@ EndPrgm
 ```
 
 ## Error Conditions
-
+**[910 - Syntax](68k:errors.html#e910)** happens when there is improper syntax/a variable was not used.
 
 ## Related Commands
 - [68k:DispHome](68k:disphome.html)

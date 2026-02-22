@@ -32,7 +32,7 @@ Use [68k:intDiv()](68k:intdiv.html) and remain() for the quotient and remainder 
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when two list or matrix arguments don't match in size.
 
 ## Related Commands
 

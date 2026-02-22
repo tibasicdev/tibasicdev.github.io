@@ -35,7 +35,7 @@ Using the [68k:RandSeed](68k:randseed.html) command makes the random numbers ent
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the maximum number is 10<sup>14</sup> or greater.
 
 ## Related Commands
 

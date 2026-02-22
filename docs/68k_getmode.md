@@ -52,7 +52,7 @@ See the [Table of Mode Settings](68k:mode-settings.html) to look up these number
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when a mode setting or value doesn't exist, at least not with this spelling.
 
 ## Related Commands
 

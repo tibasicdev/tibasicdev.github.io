@@ -56,8 +56,8 @@ You can often use [68k:newList()](68k:newlist.html) instead of seq() to create a
 
 For the non-generic errors that might occur when using this command (that is, syntax-type errors shouldn't be included). In a format similar to the following:
 
-
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the *step-size* argument is 0.
+**[510 - Invalid list or matrix](68k:errors.html#e510)** happens when the formula of seq() is a matrix, or a list that varies in size.
 
 ## Related Commands
 

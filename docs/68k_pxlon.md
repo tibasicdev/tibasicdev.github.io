@@ -26,7 +26,7 @@ PxlOn can also be used with two lists of the same size. In that case, it will tu
 ## Error Conditions
 
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the pixel coordinates are not in the allowed range.
 
 ## Related Commands
 

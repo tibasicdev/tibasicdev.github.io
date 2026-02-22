@@ -45,7 +45,7 @@ There are alternatives to `→` such as [`68k:Define`](68k:define.html) or [`68k
 
 ## Error Conditions
 
-
+**[190 - Circular definition](68k:errors.html#e190)** happens when an undefined variable is given a value in terms of itself (e.g. x+1→x).
 
 ## Related Commands
 

@@ -29,9 +29,9 @@ The √() of a matrix is not (in general) the same as taking the square root of 
 
 ## Error Conditions
 
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when taking the square root of a non-square matrix.
+**[665 - Matrix not diagonalizable](68k:errors.html#e665)** happens when diagonalization (used to take square roots of matrices) fails.
+**[800 - Non-real result](68k:errors.html#e800)** happens when taking the square root of a negative or complex number, in real number mode.
 
 ## Related Commands
 

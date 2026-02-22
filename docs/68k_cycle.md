@@ -29,7 +29,7 @@ If the `Cycle` instruction is inside multiple loops, one nested in the other, it
 
 ## Error Conditions
 
-
+**[560 - Invalid outside Loop..EndLoop, For..EndFor, or While..EndWhile blocks](68k:errors.html#e560)** happens when `Cycle` is used outside a loop.
 
 ## Related Commands
 

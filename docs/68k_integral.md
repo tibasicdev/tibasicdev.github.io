@@ -48,8 +48,8 @@ If the expression is a list or matrix, ∫() takes the integral of each element.
 
 ## Error Conditions
 
-
-
+**[140 - Argument must be a variable name](68k:errors.html#e140)** happens when the variable of integration isn't a variable.
+**[220 - Dependent limit](68k:errors.html#e220)** happens when the integration limits depend on the variable of integration.
 
 ## Related Commands
 

@@ -29,9 +29,9 @@ If you edit a program and then immediately archive it, it is "protected" from th
 
 ## Error Conditions
 
-
-
-
+**[140 - Argument must be a variable name](68k:errors.html#e140)** happens when archiving a system variable or an invalid variable name.
+**[870 - Reserved name or system variable](68k:errors.html#e870)** happens when archiving a variable starting with _.
+**[960 - Undefined variable](68k:errors.html#e960)** happens when archiving an undefined variable.
 
 ## Related Commands
 

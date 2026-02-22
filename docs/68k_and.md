@@ -43,7 +43,7 @@ X or (Y and Z)
 
 ## Error Conditions
 
-
+**[60 - Argument must be a Boolean expression or integer](68k:errors.html#e60)** happens when the data type is incorrect (or mismatched).
 
 ## Related Commands
 

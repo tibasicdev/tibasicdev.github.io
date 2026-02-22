@@ -33,7 +33,7 @@ In complicated logical expressions (both with conditions and with integers), "an
 
 ## Error Conditions
 
-
+**[60 - Argument must be a Boolean expression or integer](68k:errors.html#e60)** happens when the data type is incorrect (or mismatched).
 
 ## Related Commands
 

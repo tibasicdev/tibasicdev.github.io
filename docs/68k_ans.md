@@ -32,3 +32,7 @@ When entered into a program, the calculator will automatically change the `ans()
 ------
 
 ## Error Conditions
+
+**[260 - Domain error](68k:errors.html#e260)** happens when the argument is not in the range 1-99 or the argument is not an integer.
+**[380 - Invalid ans()](68k:errors.html#e380)** happens when that many answers haven't been stored yet.
+**[620 - Invalid variable or function name](68k:errors.html#e620)** happens when the user attempts to store a value to ans().

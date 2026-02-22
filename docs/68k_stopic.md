@@ -19,7 +19,7 @@ The above code would take a 10 x 10 square of the graphscreen with the top corne
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the *[row][,column]* argument is outside the screen range..
 
 ## Related Commands
 

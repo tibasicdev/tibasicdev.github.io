@@ -20,7 +20,7 @@ The above example has set the calculator's date to October 31<sup>st</sup>, 2001
 
 ## Error Conditions
 
-
+**[40 - Domain error](68k:errors.html#e40)** happens when the year is outside of the range of 1997 to 2132, or the month is above or below 0 to 12, or the date is above or below 0 to 31.
 
 ## Related Commands
 

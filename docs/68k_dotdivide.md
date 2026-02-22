@@ -31,7 +31,7 @@ When dividing a constant number by a matrix with ./, you may need to space it ou
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when dividing a matrix by another matrix of a different size.
 
 ## Related Commands
 

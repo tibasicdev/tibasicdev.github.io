@@ -30,7 +30,7 @@ Generally, using Exit is considered more stylish — and it's easier to read the
 
 ## Error Conditions
 
-
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when the Loop is missing an EndLoop, or vice versa.
 
 ## Related Commands
 

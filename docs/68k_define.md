@@ -30,7 +30,7 @@ Using `Define` to create functions or programs is very useful when inside a prog
 
 ## Error Conditions
 
-
+**[190 - Circular definition](68k:errors.html#e190)** happens when defining a variable (other than a recursive function or program) in terms of itself.
 
 ## Related Commands
 

@@ -28,6 +28,6 @@ Can be used to pre-allocate matrices for programs.
 
 ## Error Conditions
 
-
+**[210 - Data type](68k:errors.html#e210)** happens when the data type specified as a dimension is invalid. See above..
 
 ## Related Commands

@@ -19,7 +19,7 @@ The gcd( command is used, as its name implies, to find the greatest common divis
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when an argument is not real.
 
 ## Related Commands
 

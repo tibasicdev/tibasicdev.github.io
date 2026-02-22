@@ -16,7 +16,7 @@ NewFold Hello
 
 ## Error Conditions
 
-
+**[270 - Duplicate variable name](68k:errors.html#e270)** happens when you attempt to create an already made folder.
 
 
 ## Related Commands

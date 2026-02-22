@@ -51,7 +51,7 @@ Furthermore, if you're always going to start at the beginning of the string, [68
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when *start* isn't positive, or *count* is negative.
 
 ## Related Commands
 

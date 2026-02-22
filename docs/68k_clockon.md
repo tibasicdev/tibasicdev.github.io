@@ -16,7 +16,7 @@ Since it modifies the global status of the calculator, `ClockOn` can't be used i
 
 ## Error Conditions
 
-
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when `ClockOn` is used in a function.
 
 ## Related Commands
 

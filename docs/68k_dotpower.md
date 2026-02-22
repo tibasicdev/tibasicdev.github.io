@@ -33,7 +33,7 @@ Although this doesn't come up often, be aware that .^, like ^, is evaluated from
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when a matrix is raised to the power of another matrix, with different dimensions.
 
 ## Related Commands
 

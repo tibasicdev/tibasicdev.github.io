@@ -25,7 +25,7 @@ A more efficient way is to assign the pictures numbers in a different range, suc
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the character code isn't in the range 0..255.
 
 ## Related Commands
 

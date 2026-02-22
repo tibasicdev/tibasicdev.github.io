@@ -13,8 +13,8 @@ This command replaces whatever is on the screen at a specific spot (*[row][,colu
 
 ## Error Conditions
 
-
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the *[row,column]* argument is outside the screen range..
+**[960 - Undefined variable](68k:errors.html#e960)** happens when the picture variable specified does not exist..
 
 ## Related Commands
 

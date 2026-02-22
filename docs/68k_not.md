@@ -32,7 +32,7 @@ The operator can also be applied to an integer, treating it as a 32-bit signed i
 
 ## Error Conditions
 
-
+**[60 - Argument must be a Boolean expression or integer](68k:errors.html#e60)** happens when the data type is incorrect.
 
 ## Related Commands
 

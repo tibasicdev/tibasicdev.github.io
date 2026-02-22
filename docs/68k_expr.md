@@ -36,7 +36,7 @@ This also causes problems with language localization. Normally, once a command i
 
 ## Error Conditions
 
-
+**[550 - Invalid outside function or program](68k:errors.html#e550)** happens when the string contains commands that need to be inside a function or a program to work.
 
 ## Related Commands
 

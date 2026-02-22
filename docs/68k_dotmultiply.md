@@ -23,7 +23,7 @@ In most cases, .* does the same thing as [*](68k:multiply.html). The difference 
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when the matrices being multiplied don't match in size.
 
 ## Related Commands
 

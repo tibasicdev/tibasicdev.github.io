@@ -21,7 +21,7 @@ The above code will turn off all functions, and then it will turn on only functi
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the optional function argument is not in the range 1-99.
 
 ## Related Commands
 

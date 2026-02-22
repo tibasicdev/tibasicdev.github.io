@@ -35,7 +35,7 @@ Constructions like iPart(a/b) should be replaced with intDiv(a,b): this is small
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when two list or matrix arguments don't match in size.
 
 Division by zero does not throw an error; an undefined value is returned instead.
 

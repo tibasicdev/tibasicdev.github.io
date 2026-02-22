@@ -22,6 +22,6 @@ InputStr hello
 - [68k:Disp](68k:disp.html)
 - [68k:Request](68k:request.html)
 ## Error Conditions
-
+**[980 - Variable is locked, protected, or archived](68k:errors.html#e980)** happens when the user attempted to redefine/modify an already defined variable.
 ## Also See
 - [Programming Commands](http://tibasicdev.github.io/68k:programming)

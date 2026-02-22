@@ -48,7 +48,7 @@ Units are treated just like variables, except that they're universal across fold
 
 ## Error Conditions
 
-
+**[345 - Inconsistent units](68k:errors.html#e345)** happens when converting between two units that measure different types of quantities (for instance, converting length to time).
 
 ## Related Commands
 

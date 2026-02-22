@@ -23,8 +23,8 @@ This command can be used to create a slideshow-style program, or it can be used 
 
 ## Error Conditions
 
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when the filepath listed is not in the main directory.
+**[960 - Undefined variable](68k:errors.html#e960)** happens when the picture variables specified do not exist..
 
 ## Related Commands
 

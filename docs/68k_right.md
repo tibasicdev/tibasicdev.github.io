@@ -29,7 +29,7 @@ When applied to an equation (such as x=5) or an inequality (such as x<3), right(
 ## Error Conditions
 
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the argument is not a list, string, or equation, or is an equation that has simplified.
 
 ## Related Commands
 

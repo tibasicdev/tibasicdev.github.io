@@ -82,8 +82,8 @@ can be
 
 ## Error Conditions
 
-
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the step size is 0.
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when the For is missing an EndFor, or vice versa.
 
 ## Related Commands
 

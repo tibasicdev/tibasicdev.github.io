@@ -29,7 +29,7 @@ Formats 5 and 8 are useful in that if you store dates in either of those format,
 
 ## Error Conditions
 
-
+**[40 - Argument error](68k:errors.html#e40)** happens when the date format given is not an integer 1-8.
 
 ## Related Commands
 

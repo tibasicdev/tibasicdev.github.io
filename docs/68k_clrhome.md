@@ -18,7 +18,7 @@ Finally, `ClrHome` cannot be used inside a function, because functions aren't al
 
 ## Error Conditions
 
-
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when `ClrHome` is used inside a function.
 
 ## Related Commands
 

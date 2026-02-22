@@ -52,10 +52,10 @@ This works with the numerical or the verbose versions of the command; the output
 
 ## Error Conditions
 
-
-
-
-
+**[130 - Argument must be a string](68k:errors.html#e130)** happens when the data type of arguments is incorrect.
+**[260 - Domain error](68k:errors.html#e260)** happens when the string used to identify a setting is incorrect or misspelled.
+**[430 - Invalid for the current mode settings](68k:errors.html#e430)** happens when a setting depends on other settings that are incorrect (e.g. setting "Split 2 App" if "Split Screen" is "FULL").
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when setMode() is used in a function.
 
 ## Related Commands
 

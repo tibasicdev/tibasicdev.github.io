@@ -25,8 +25,8 @@ In many cases, this doesn't matter: for instance, expr("x^2") may not be able to
 
 ## Error Conditions
 
-
-
+**[550 - Invalid outside function or program](68k:errors.html#e550)** happens when Local is used outside a function or program.
+**[610 - Invalid variable name in a Local statement](68k:errors.html#e610)** happens when making a system variable local.
 
 ## Related Commands
 

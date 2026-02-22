@@ -84,10 +84,10 @@ Use If without a Then or EndIf for only one command; use Then and EndIf otherwis
 In addition, the [when()](68k:when.html) command can often replace If.
 
 ## Error Conditions
-
-
-
-
+**[20 - A test did not resolve to TRUE or FALSE](68k:errors.html#e20)** happens when the condition is indeterminate, or the wrong data type.
+**[280 - Else and ElseIf invalid outside If..Then block](68k:errors.html#e280)** happens when Else or ElseIf are used outside If..EndIf.
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when the If-Thens and EndIfs don't match up correctly.
+**[740 - Missing Then in the If..EndIf block](68k:errors.html#e740)** happens when a Then is missing.
 
 ## Related Commands
 

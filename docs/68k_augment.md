@@ -38,7 +38,7 @@ Separate unrelated advanced uses with a horizontal bar.
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when either the rows or columns of the matrix do not align. See above..
 
 
 

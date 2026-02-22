@@ -18,7 +18,7 @@ Since it modifies the global status of the calculator, `ClockOff` can't be used 
 
 ## Error Conditions
 
-
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when `ClockOff` is used inside a function.
 
 ## Related Commands
 

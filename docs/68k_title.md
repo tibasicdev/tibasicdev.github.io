@@ -24,10 +24,10 @@ On the widescreen calculators (the TI-92, TI-92 Plus, and Voyage 200), a [68k:To
 
 ## Error Conditions
 
-
-
-
-
+**[120 - Argument must be a Pic or string](68k:errors.html#e120)** happens when the title text is the wrong data type (in a toolbar).
+**[130 - Argument must be a string](68k:errors.html#e130)** happens when the title text is the wrong data type (in a dialog).
+**[230 - Dimension](68k:errors.html#e230)** happens when the icon (in a toolbar) is the wrong size.
+**[530 - Invalid outside Dialog..EndDlog, Custom..EndCustom, or Toolbar..EndTBar blocks](68k:errors.html#e530)** happens when Title is used by itself, outside a menu declaration.
 
 ## Related Commands
 

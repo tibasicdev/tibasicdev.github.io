@@ -188,6 +188,9 @@ class Converter:
                 f"[Token Size](6k:tokenization{EXT})": {"$size": "{$size}"}
             }),
 
+        "68k-error":
+            "**[[[68k:errors#e{$num}|{$num} - {$error}]]]** happens when {$cause}.",
+
         "cid":
             "This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}",
 
@@ -302,7 +305,7 @@ class Converter:
         FOOTNOTES.clear()
 
         # Convert include boxes
-        page = re.sub(r"(?s)\[\[include inc:(\S+)\s*(?:\|(.*?))?\n*\]\]\s*?$",
+        page = re.sub(r"(?s)\[\[include inc:(\S+)\s*(?:\|?(.*?))?\n*\]\]\s*?$",
                       self.convert_include(filename, title),
                       page,
                       flags=re.MULTILINE)
@@ -315,13 +318,6 @@ class Converter:
         for block_id, block in BLOCKS.items():
             page = page.replace(block_id, block.rstrip().lstrip("\n"))
 
-        # Add footnotes
-        for index, footnote in enumerate(FOOTNOTES):
-            page += f"\n[^{index + 1}]: {footnote.replace('\n', '\n\t')}"
-
-        # Table of contents
-        page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)
-
         # Fix ordered lists
         for n in range(1, 100):
             page = re.sub(rf"^(\s*{n}\. .*?\s+)^(\s*)\d+\. ",
@@ -329,9 +325,16 @@ class Converter:
                           page,
                           flags=re.MULTILINE)
 
+        # Add footnotes
+        for index, footnote in enumerate(FOOTNOTES):
+            page += f"\n[^{index + 1}]: {footnote.replace('\n', '\n\t')}"
+
+        # Table of contents
+        page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)
+
         # Leftovers
         page = page.replace("@@", "")
-        page, n = re.subn(r"(?s)\[\[([a-z]+)\s+.*?\]\]", lambda match: print(f"Found {match[1]} in {filename}") or "", page)
+        page, n = re.subn(r"(?s)\[\[([a-z]+)\s+.*?\]\]", lambda m: print(f"Found {m[1]} in {filename}") or "", page)
 
         if n >= 5:
             raise KeyError("too many tags")

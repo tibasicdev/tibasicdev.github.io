@@ -19,3 +19,5 @@ This explanation still doesn't answer the real question: why such a bizarre appr
 To avoid this, we use commands that deal with all the elements of a list at once. Because their code is written in the calculator's own assembly language, it doesn't have to go through this rigmarole to access a list. As a result, the strange-looking routine is faster, and its advantage becomes greater and greater with long lists. 
 
 ## Error Conditions
+
+**[210 - Data type](68k:errors.html#e210)** happens when the input is not a list.

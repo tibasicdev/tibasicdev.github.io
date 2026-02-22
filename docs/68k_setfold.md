@@ -49,7 +49,7 @@ does the same thing as
 
 ## Error Conditions
 
-
+**[420 - Invalid Folder Name](68k:errors.html#e420)** happens when the folder does not exist.
 
 ## Related Commands
 

@@ -49,7 +49,7 @@ In many cases, both # and [68k:expr()](68k:expr.html) will do the same thing. In
 
 ## Error Conditions
 
-
+**[360 - Indirection string is not a valid variable name](68k:errors.html#e360)** happens when the string used with # isn't allowed as a variable name (e.g. longer than 8 characters).
 
 ## Related Commands
 

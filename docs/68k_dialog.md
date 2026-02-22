@@ -38,10 +38,10 @@ This is particularly important when you're looking for input. If ESC is used, th
 
 ## Error Conditions
 
-
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when the dialog would be too wide or too tall to fit on the screen.
+**[470 - Invalid in Dialog..EndDlog block](68k:errors.html#e470)** happens when instructions other than [`68k:Title`](68k:title.html), [`68k:Text`](68k:text.html), [`68k:Request`](68k:request.html), [`68k:DropDown`](68k:dropdown.html) are used.
+**[590 - Invalid syntax block](68k:errors.html#e590)** happens when something miscellaneous goes wrong, e.g. there is more than one [`68k:Title`](68k:title.html).
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when the `Dialog` is missing its `EndDlog`, or vice versa.
 
 ## Related Commands
 

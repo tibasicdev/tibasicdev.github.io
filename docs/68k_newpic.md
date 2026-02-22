@@ -19,8 +19,8 @@ The above code would form a picture named "picline" which would have pixels at (
 
 ## Error Conditions
 
-
-
+**[260 - Domain error](68k:errors.html#e260)** happens when an element of the matrix is outside the screen range..
+**[230 - Dimension error](68k:errors.html#e230)** happens when The matrix has more or less then 2 columns..
 
 ## Related Commands
 

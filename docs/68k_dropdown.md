@@ -19,7 +19,7 @@ This will create a window with the title as "Do you like food" and the options a
 
 ## Error Conditions
 
-
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when the command isn't put between a Dialogue/EndDlog block.
 
 ## Related Commands
 

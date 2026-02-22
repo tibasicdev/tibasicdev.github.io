@@ -24,8 +24,8 @@ You can add 0 as a third argument for the calculator to turn off alpha lock when
 
 ## Error Conditions
 
-
-
+**[130 - Argument must be a string](68k:errors.html#e130)** happens when Text is used to display other data types without using [`68k:string()`](68k:string.html) first.
+**[230 - Dimension](68k:errors.html#e230)** happens when the line of text is too long to fit in a dialog box.
 
 ## Related Commands
 

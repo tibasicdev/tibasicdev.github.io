@@ -34,8 +34,8 @@ For most errors, Try..EndTry blocks aren't the way to go because you want to pre
 
 ## Error Conditions
 
-
-
+**[290 - EndTry is missing the matching Else statement](68k:errors.html#e290)** happens when the Try..EndTry block doesn't contain an Else.
+**[490 - Invalid in Try..EndTry block](68k:errors.html#e490)** happens when ??.
 
 ## Related Commands
 

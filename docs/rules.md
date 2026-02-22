@@ -30,6 +30,6 @@
 [^1]
 [^2]
 [^3]
-[^1]: These rules are adapted from [[*user burr]]'s original post which can be found [here](78672dc3-cab5-45ff-b1b1-a5bf0314d350).
-[^2]: The code of conduct was originally posted at the wikidot [conduct](592b41c2-a47c-4399-bb7b-7abdfdae771a) page. It has been included here for simplicity
+[^1]: These rules are adapted from [[*user burr]]'s original post which can be found [here](12987e32-b982-4af9-9423-d99a45ee7873).
+[^2]: The code of conduct was originally posted at the wikidot [conduct](ee01494f-0808-41c6-beac-51669b7c2e50) page. It has been included here for simplicity
 [^3]: This site reserves the right for its administrators and moderators to remove, edit, move, or close any post as they deem necessary.

@@ -43,7 +43,7 @@ The `χ²GOF-Test(` command is only on TI-84 Plus and newer calculator models. H
 
 The formula for calculating the test statistic is as follows (O<sub>i</sub> is the observed count of the i<sup>th</sup> category, and E<sub>i</sub> is the expected count):
 
-
+$$ \chi_{n-1}^2 = \sum_{i=1}^n \frac{(O_i-E_i)^2}{E_i} $$
 
 The p-value, then, is the probability that the `χ²` statistic would be this high, using the [`χ²cdf(`](chisquarecdf.html) command with the appropriate value for degrees of freedom.
 

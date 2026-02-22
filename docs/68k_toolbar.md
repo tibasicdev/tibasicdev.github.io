@@ -42,10 +42,10 @@ On the widescreen calculators (the TI-92, TI-92 Plus, and Voyage 200), a tab can
 
 ## Error Conditions
 
-
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when an icon is used of the wrong size.
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when ToolBar..EndTBar is used in a function.
+**[480 - Invalid in ToolBar..EndTBar block](68k:errors.html#e480)** happens when any command other than Title or Item is used inside the block.
+**[590 - Invalid syntax block](68k:errors.html#e590)** happens when the syntax is somehow wrong (e.g. an item has no label).
 
 ## Related Commands
 

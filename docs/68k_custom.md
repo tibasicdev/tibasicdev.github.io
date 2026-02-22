@@ -40,9 +40,9 @@ A related command is [`68k:Toolbar`](68k:toolbar.html)..`EndTBar`. It also displ
 
 ## Error Conditions
 
-
-
-
+**[450 - Invalid in a function or current expression](68k:errors.html#e450)** happens when `Custom`..`EndCustm` is used in a function.
+**[460 - Invalid in `Custom`..`EndCustm` block](68k:errors.html#e460)** happens when anything other than `Title` or `Item` appears in the block.
+**[590 - Invalid syntax block](68k:errors.html#e590)** happens when the syntax is somehow wrong, e.g. if there are more than 8 tabs.
 
 ## Related Commands
 

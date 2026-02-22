@@ -20,8 +20,8 @@ The Rename command can also be used for strings. The below code would store the 
 Rename str1,a
 ```
 ## Error Conditions
-
-
+**[960 - Undefined variable](68k:errors.html#e960)** happens when there is an undefined variable.
+**[270 - Duplicate variable name](68k:errors.html#e270)** happens when there is a duplicate variable name.
 
 ## Related Commands
 - [68k:Store](68k:store.html)

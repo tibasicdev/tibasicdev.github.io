@@ -21,7 +21,7 @@ A final quirk of setTime() is that it affects the output of [68k:startTmr()](68k
 ## Error Conditions
 
 
-
+**[40 - Argument error](68k:errors.html#e40)** happens when an invalid time is given.
 
 ## Related Commands
 

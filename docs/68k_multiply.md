@@ -26,7 +26,7 @@ Multiplying matrices is not the same as multiplying their individual elements (w
 
 ## Error Conditions
 
-
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when the dimensions of two matrices don't match up for multiplication to work.
 
 ## Related Commands
 - [-](68k:subtract.html) (subtract)

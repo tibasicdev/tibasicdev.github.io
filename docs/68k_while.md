@@ -57,8 +57,8 @@ can be
 
 ## Error Conditions
 
-
-
+**[20 - A test did not resolve to TRUE or FALSE](68k:errors.html#e20)** happens when the condition is indeterminate, or the wrong data type.
+**[730 - Missing start or end of block syntax](68k:errors.html#e730)** happens when a While is missing an EndWhile, or vice versa.
 
 ## Related Commands
 

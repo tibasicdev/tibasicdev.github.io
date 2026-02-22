@@ -20,8 +20,8 @@ Inside a ToolBar..EndTBar menu, the correct syntax is Item *text*,*label*. This 
 
 ## Error Conditions
 
-
-
+**[130 - Argument must be a string](68k:errors.html#e130)** happens when the option text isn't a string.
+**[500 - Invalid label](68k:errors.html#e500)** happens when the label doesn't exist (in this program), when the option is selected.
 
 ## Related Commands
 

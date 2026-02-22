@@ -35,9 +35,9 @@ The third and fourth arguments don't actually have an application. Their intenti
 
 ## Error Conditions
 
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when either the data list is {}, or the frequency list only contains 0s.
+**[240 - Dimension mismatch](68k:errors.html#e240)** happens when the frequency list (or the category list) isn't the same length as the data list.
+**[260 - Domain](68k:errors.html#e260)** happens when the frequency list contains negative elements.
 
 ## Related Commands
 

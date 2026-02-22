@@ -39,7 +39,7 @@ However, the Goto command is more versatile, since it can jump anywhere in the p
 
 ## Error Conditions
 
-
+**[560 - Invalid outside Loop..EndLoop, For..EndFor, or While..EndWhile blocks](68k:errors.html#e560)** happens when the Exit command is not inside a loop.
 
 ## Related Commands
 

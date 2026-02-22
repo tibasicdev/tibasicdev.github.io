@@ -20,7 +20,7 @@ Also, the code inside an [68k:expr()](68k:expr.html) string lives in its own pro
 
 ## Error Conditions
 
-
+**[500 - Invalid label](68k:errors.html#e500)** happens when the label name uses an invalid character.
 
 ## Related Commands
 

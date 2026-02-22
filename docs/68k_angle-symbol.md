@@ -23,9 +23,9 @@ For complex numbers, (r∠θ) is equivalent to r*(cos(θ)+***i****sin(θ)). You 
 
 ## Error Conditions
 
-
-
-
+**[260 - Domain error](68k:errors.html#e260)** happens when complex numbers are used in the vector notation.
+**[580 - Invalid polar complex](68k:errors.html#e580)** happens when the values of r and θ in the complex number notation are invalid.
+**[640 - Invalid vector syntax](68k:errors.html#e640)** happens when the ∠ mark is misplaced in the vector notation.
 
 ## Related Commands
 

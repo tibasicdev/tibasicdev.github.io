@@ -185,7 +185,7 @@ So, since V is now 108, p becomes 6.  108 divided by 2<sup>6</sup> is 1.  The 1 
 
 Now you might be asking yourself how to *read* these numbers. Well, that’s not so difficult. First, I’ll give a general mathematical explanation which can be fit into one formula:
 
-
+$$ V=vB^P $$
 
 In human language: the value of the cipher in the number is equal to the value of the cipher on its own multiplied by the base of the number system to the power of the position of the cipher from left to right in the number, starting at 0. Read that a few times and try to understand it.
 

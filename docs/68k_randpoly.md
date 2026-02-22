@@ -25,7 +25,7 @@ Using the [68k:RandSeed](68k:randseed.html) command makes the resulting polynomi
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when the value of *deg* is not between 0 and 99.
 
 ## Related Commands
 
