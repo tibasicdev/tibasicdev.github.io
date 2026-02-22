@@ -53,8 +53,8 @@ Released in 2002, the Voyage 200 is the most advanced of the 68k calculators. Li
 
 | Model| Processor| RAM| ROM| Screen Size| Link port| Clock| Release Date|
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|= TI-89 |= 10-12 MHz |= 190 KB |= 700 KB |= 160x100 |= I/O |= HW2 only |= 1998 |
-|= TI-89 Ti |= 14-16 MHz |= 190 KB |= 2.7 MB |= 160x100 |= I/O+USB |= Yes |= 2004 |
-|= TI-92 |= 10 MHz |= 70 KB |= None |= 240x128 |= I/O |= No |= 1995 |
-|= TI-92 Plus |= 12 MHz |= 190 KB |= 700 KB |= 240x128 |= I/O |= Yes |= 1998 |
-|= V200 |= 12 MHz |= 190 KB |= 2.7 MB |= 240x128 |= I/O |= Yes |= 2002 |
+| TI-89 | 10-12 MHz | 190 KB | 700 KB | 160x100 | I/O | HW2 only | 1998 |
+| TI-89 Ti | 14-16 MHz | 190 KB | 2.7 MB | 160x100 | I/O+USB | Yes | 2004 |
+| TI-92 | 10 MHz | 70 KB | None | 240x128 | I/O | No | 1995 |
+| TI-92 Plus | 12 MHz | 190 KB | 700 KB | 240x128 | I/O | Yes | 1998 |
+| V200 | 12 MHz | 190 KB | 2.7 MB | 240x128 | I/O | Yes | 2002 |

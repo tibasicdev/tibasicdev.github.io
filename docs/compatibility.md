@@ -5,57 +5,57 @@ When writing TI-Basic programs, it is ideal to have the program universally comp
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Command | TI-83 | TI-83+ | TI-83+ OS 1.15 | TI-84+ | TI-84+ OS 2.30 | TI-84+CSE | TI-84+CE/83PCE | TI-Nspire | TI-Nspire CX | TI-Nspire CX/CAS |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [%](percent.html) [^1] |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Archive](archive.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Asm(](asm-command.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [AsmComp(](asmcomp.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Asm84CPrgm](asm84cprgm.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✘[^2] |
-| [Asm84CEPrgm](asm84ceprgm.html)[^3] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
-| [AsmPrgm](asmprgm.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✘ |= ✘ [^4]|
-| [BackgroundOff](backgroundoff.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [BackgroundOn](backgroundon.html) [^5] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [χ²GOF-Test(](chisquaregof-test.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
-| [checkTmr(](checktmr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Circle(](circle.html) |= ✓[^6] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ [^7]|= ✓ [^8]|
-| [ClockOff](clockoff.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [ClockOn](clockon.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [dayOfWk(](dayofwk.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [DetectAsymOff](detectasymoff.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [DetectAsymOn](detectasymon.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [Dot-Thick](dot-thick.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [Dot-Thin](dot-thin.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [eval(](eval.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
-| [ExecLib](execlib.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [GarbageCollect](garbagecollect.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Get(](get.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[^9] |
-| [getDate](getdate.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [getDtFmt](getdtfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [getDtStr(](getdtstr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [getTime](gettime.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [getTmFmt](gettmfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [getTmStr(](gettmstr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [GraphColor(](graphcolor.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [invT(](invt.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
-| [isClockOn](isclockon.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [LinRegTInt](linregtint.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
-| [Manual-Fit](manual-fit.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |
-| [OpenLib(](openlib.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [piecewise(](piecewise.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓[^10] |
-| [Send(](send.html) |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓[^11] |
-| [setDate(](setdate.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [setDtFmt(](setdtfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [setTime(](settime.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [setTmFmt(](settmfmt.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [startTmr](starttmr.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [sub(](sub.html) |= ✓[^12] |= ✓[^13] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Text(](text.html) |= ✓[^14] |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [TextColor(](textcolor.html) [^15] |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [Thick](thick.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [Thin](thin.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |
-| [timeCnv(](timecnv.html) |= ✘ |= ✘ |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [toString(](tostring.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
-| [UnArchive](unarchive.html) |= ✘ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |= ✓ |
-| [Wait](wait.html) |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✘ |= ✓ |
+| [%](percent.html) [^1] | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Archive](archive.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Asm(](asm-command.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [AsmComp(](asmcomp.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Asm84CPrgm](asm84cprgm.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✘[^2] |
+| [Asm84CEPrgm](asm84ceprgm.html)[^3] | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
+| [AsmPrgm](asmprgm.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✘ | ✘ [^4]|
+| [BackgroundOff](backgroundoff.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [BackgroundOn](backgroundon.html) [^5] | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [χ²GOF-Test(](chisquaregof-test.html) | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ |
+| [checkTmr(](checktmr.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [Circle(](circle.html) | ✓[^6] | ✓ | ✓ | ✓ | ✓ | ✓ [^7]| ✓ [^8]|
+| [ClockOff](clockoff.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [ClockOn](clockon.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [dayOfWk(](dayofwk.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [DetectAsymOff](detectasymoff.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [DetectAsymOn](detectasymon.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [Dot-Thick](dot-thick.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [Dot-Thin](dot-thin.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [eval(](eval.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
+| [ExecLib](execlib.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [GarbageCollect](garbagecollect.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Get(](get.html) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓[^9] |
+| [getDate](getdate.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [getDtFmt](getdtfmt.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [getDtStr(](getdtstr.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [getTime](gettime.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [getTmFmt](gettmfmt.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [getTmStr(](gettmstr.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [GraphColor(](graphcolor.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [invT(](invt.html) | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ |
+| [isClockOn](isclockon.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [LinRegTInt](linregtint.html) | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ |
+| [Manual-Fit](manual-fit.html) | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ |
+| [OpenLib(](openlib.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [piecewise(](piecewise.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ | ✓[^10] |
+| [Send(](send.html) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓[^11] |
+| [setDate(](setdate.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [setDtFmt(](setdtfmt.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [setTime(](settime.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [setTmFmt(](settmfmt.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [startTmr](starttmr.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [sub(](sub.html) | ✓[^12] | ✓[^13] | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Text(](text.html) | ✓[^14] | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [TextColor(](textcolor.html) [^15] | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [Thick](thick.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [Thin](thin.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ | ✓ |
+| [timeCnv(](timecnv.html) | ✘ | ✘ | ✘ | ✓ | ✓ | ✓ | ✓ |
+| [toString(](tostring.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
+| [UnArchive](unarchive.html) | ✘ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Wait](wait.html) | ✘ | ✘ | ✘ | ✘ | ✘ | ✘ | ✓ |
 
 
 [^1]: This command is only accessible in a hex editor

@@ -24,11 +24,11 @@ With the temperature value stored in A, we ask the user to select which temperat
 We then use a [For(](for.html) loop to display what the respective temperature value would be in the other temperature formats, based on the respective temperature conversion formulas:
 
 | |~ Fahrenheit |~ Celsius |~ Kelvin |
-| Fahrenheit | |= (9C/5)+32 |= 9(K-273.15)/5+32 | 
+| Fahrenheit | | (9C/5)+32 | 9(K-273.15)/5+32 | 
 | --- | --- | --- | --- |
-| Celsius |= 5(F-32)/9 | |= K-273.15 |
+| Celsius | 5(F-32)/9 | | K-273.15 |
 | --- | --- | --- | --- |
-| Kelvin |= 5(F-32)/9+273.15 |= C+273.15 | |
+| Kelvin | 5(F-32)/9+273.15 | C+273.15 | |
 | --- | --- | --- | --- |
 
 One thing you will probably notice is that the formulas aren't exactly the same in the code. The reason is because the code is designed to be optimized, and rather than displaying each temperature conversion by itself, you can simply add the respective formulas as modifiers and display all of the temperature conversions together.

@@ -95,13 +95,13 @@ In Europe (except France), the 84+CE is replaced by the "TI-84 Plus CE-T", which
 
 | Model| Processor| RAM| ROM| Screen Size| Link Port| Clock | Release Date|
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|= TI-83|= 6 MHz|= 27 KB|= None|= 96x64|= I/O|= No |= 1996|
-|= TI-83+|= 6 MHz|= 24 KB|= 160 KB|= 96x64|= I/O|= No |= 1999|
-|= TI-83+SE|= 15 MHz|= 24 KB (128 KB)|= 1.5 MB|= 96x64|= I/O|= No |= 2001|
-|= TI-84+|= 15 MHz|= 24 KB|= 480 KB|= 96x64|= I/O+USB|= Yes |= 2004|
-|= TI-84+SE|= 15 MHz|= 24 KB (128 KB)|= 1.5 MB|= 96x64|= I/O+USB|= Yes |= 2004|
-|= TI-84+CSE|= 15 MHz|= 21 KB (128 KB)|= 3.5 MB|= 320x240|= I/O+USB|= Yes |= 2013|
-|= TI-84+CE/83PCE|= ~48 MHz|= 154 KB (256 KB)|= 4.0 MB|= 320x240|= USB|= Yes|= 2015|
+| TI-83| 6 MHz| 27 KB| None| 96x64| I/O| No | 1996|
+| TI-83+| 6 MHz| 24 KB| 160 KB| 96x64| I/O| No | 1999|
+| TI-83+SE| 15 MHz| 24 KB (128 KB)| 1.5 MB| 96x64| I/O| No | 2001|
+| TI-84+| 15 MHz| 24 KB| 480 KB| 96x64| I/O+USB| Yes | 2004|
+| TI-84+SE| 15 MHz| 24 KB (128 KB)| 1.5 MB| 96x64| I/O+USB| Yes | 2004|
+| TI-84+CSE| 15 MHz| 21 KB (128 KB)| 3.5 MB| 320x240| I/O+USB| Yes | 2013|
+| TI-84+CE/83PCE| ~48 MHz| 154 KB (256 KB)| 4.0 MB| 320x240| USB| Yes| 2015|
 
 ## Known ROM Versions
 
@@ -109,14 +109,14 @@ TI occasionally releases updates to the ROM version for each calculator, which e
 
 | Model| Known ROM Versions|
 | --- | --- |
-|= TI-83|= 1.02, 1.03, 1.04, 1.06, 1.07, 1.08, 1.10 |
-|= TI-83+|= 1.03, 1.06, 1.08, 1.10, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 |
-|= TI-83+SE|= 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 |
-|= TI-84+|= 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP |
-|= TI-84+SE|= 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP[^1]|
-|= TI-Nspire (84+ Emulation)|= 2.42, 2.46, 2.48, 2.54MP, 2.56 MP |
-|= TI-84+CSE|= 4.0, 4.2|
-|= TI-84+CE/83PCE|= 5.0, 5.0.1, 5.1.0.0110, 5.1.5.0019, 5.2.0.0035, 5.2.1.0042, 5.3.0.0037, 5.3.1.0058, 5.4.0.0034, 5.4.1.0052 (ChromeOS emulator), 5.6.0.0020 |
+| TI-83| 1.02, 1.03, 1.04, 1.06, 1.07, 1.08, 1.10 |
+| TI-83+| 1.03, 1.06, 1.08, 1.10, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 |
+| TI-83+SE| 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 |
+| TI-84+| 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP |
+| TI-84+SE| 2.21, 2.22, 2.30, 2.40, 2.41, 2.43, 2.53MP, 2.55MP[^1]|
+| TI-Nspire (84+ Emulation)| 2.42, 2.46, 2.48, 2.54MP, 2.56 MP |
+| TI-84+CSE| 4.0, 4.2|
+| TI-84+CE/83PCE| 5.0, 5.0.1, 5.1.0.0110, 5.1.5.0019, 5.2.0.0035, 5.2.1.0042, 5.3.0.0037, 5.3.1.0058, 5.4.0.0034, 5.4.1.0052 (ChromeOS emulator), 5.6.0.0020 |
 
 ## Pre-Loaded Applications
 
@@ -124,10 +124,10 @@ Except for the TI-83 which has no Flash ROM, all of the other TI-83 series of ca
 
 | Model| Pre-Loaded Applications|
 | --- | --- |
-|= TI-83+|= Language Localization, Probability Simulation, Science Tools, StudyCards, Vernier EasyData |
-|= TI-83+SE|= CellSheet, GeoMaster, Language Localization, Organizer, Periodic Table, StudyCards |
-|= TI-84+|= Cabri Jr., Conic Graphing, Inequality Graphing, Language Localization, LearningCheck, LogIn, Probability Simulation, Science Tools, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData |
-|= TI-84+SE|= app4math, Area Formulas, Cabri Jr., Catalog Help, CellSheet, Conic Graphing, Fundamental Topics in Science, GeoMaster, Inequality Graphing, Language Localization, LearningCheck, LogIn, NoteFolio, Organizer, Periodic Table, Polynomial Root Finder and Simultaneous Equation Solver, Probability Simulation, Puzzle Pack, Science Tools, Start-Up Customization, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData |
-|= TI-84+CSE|= App4Math, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData, Language Localization, Probability Simulation|
-|= TI-84+CE|= App4Math, Language Localization, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData |
+| TI-83+| Language Localization, Probability Simulation, Science Tools, StudyCards, Vernier EasyData |
+| TI-83+SE| CellSheet, GeoMaster, Language Localization, Organizer, Periodic Table, StudyCards |
+| TI-84+| Cabri Jr., Conic Graphing, Inequality Graphing, Language Localization, LearningCheck, LogIn, Probability Simulation, Science Tools, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData |
+| TI-84+SE| app4math, Area Formulas, Cabri Jr., Catalog Help, CellSheet, Conic Graphing, Fundamental Topics in Science, GeoMaster, Inequality Graphing, Language Localization, LearningCheck, LogIn, NoteFolio, Organizer, Periodic Table, Polynomial Root Finder and Simultaneous Equation Solver, Probability Simulation, Puzzle Pack, Science Tools, Start-Up Customization, StudyCards, TI CBL/CBR, TImeSpan, Topics in Algebra 1, Transformation Graphing, Vernier EasyData |
+| TI-84+CSE| App4Math, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData, Language Localization, Probability Simulation|
+| TI-84+CE| App4Math, Language Localization, Polynomial Root Finder/Simultaneous Equation Solver, Vernier EasyData |
 [^1]: 2011-03-27; in addition to MathPrint (MP; e. g. pretty printing matrices and fractions), it offers the STAT-Wizard to simplify functionality e.g. 1-Var Stats.

@@ -24,22 +24,22 @@ This chart contains the best characters to use for each pixel combination when d
 
 | Char. | Binary | Decimal | Char. | Binary | Decimal |
 | --- | --- | --- | --- | --- | --- |
-|= space | 00000b | 0 |= ? | 10000b | 16 |
-|= . | 00001b | 1 |= ] | 10001b | 17 |
-|= ![83lgfont/0Bh_LcrossIcon.gif](83lgfont/0Bh_LcrossIcon.gif "") mark | 00010b | 2 |= <sup>2</sup> | 10010b | 18 |
-|= J | 00011b | 3 |= 2 | 10011b | 19 |
-|= + | 00100b | 4 |= <sup>x</sup> | 10100b | 20 |
-|=  í | 00101b | 5 |= $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} \overline{\mathrm{x}}$ | 10101b | 21 |
-|= e | 00110b | 6 |= û | 10110b | 22 |
-|= ![83lgfont/0Ah_LboxIcon.gif](83lgfont/0Ah_LboxIcon.gif "") mark | 00111b | 7 |= $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} i$ | 10111b | 23 |
-|= ^ | 01000b | 8 |= Y | 11000b | 24 |
-|= 1 | 01001b | 9 |= Î | 11001b | 25|
-|= : | 01010b | 10 |= $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} \chi$ | 11010b | 26 |
-|= *none* | *01011b* | *11* |= X | 11011b | 27 |
-|= º | 01100b | 12 |= '  | 11100b | 28 |
-|= s | 01101b | 13 |= ! | 11101b | 29 |
-|= ( | 01110b | 14 |= Q | 11110b | 30 |
-|= u | 01111b | 15 |= [ | 11111b | 31 |
+| space | 00000b | 0 | ? | 10000b | 16 |
+| . | 00001b | 1 | ] | 10001b | 17 |
+| ![83lgfont/0Bh_LcrossIcon.gif](83lgfont/0Bh_LcrossIcon.gif "") mark | 00010b | 2 | <sup>2</sup> | 10010b | 18 |
+| J | 00011b | 3 | 2 | 10011b | 19 |
+| + | 00100b | 4 | <sup>x</sup> | 10100b | 20 |
+|  í | 00101b | 5 | $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} \overline{\mathrm{x}}$ | 10101b | 21 |
+| e | 00110b | 6 | û | 10110b | 22 |
+| ![83lgfont/0Ah_LboxIcon.gif](83lgfont/0Ah_LboxIcon.gif "") mark | 00111b | 7 | $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} i$ | 10111b | 23 |
+| ^ | 01000b | 8 | Y | 11000b | 24 |
+| 1 | 01001b | 9 | Î | 11001b | 25|
+| : | 01010b | 10 | $\definecolor{darkgreen}{rgb}{0.90,0.91,0.859}\pagecolor{darkgreen} \chi$ | 11010b | 26 |
+| *none* | *01011b* | *11* | X | 11011b | 27 |
+| º | 01100b | 12 | '  | 11100b | 28 |
+| s | 01101b | 13 | ! | 11101b | 29 |
+| ( | 01110b | 14 | Q | 11110b | 30 |
+| u | 01111b | 15 | [ | 11111b | 31 |
 
 ## Vertical Sprites
 

@@ -155,6 +155,7 @@ class Converter:
         # Tables
         r'\|\|(\|)?': lambda match: "|" + (" |" if match[1] else ""),
         r'^\s*\|~.*?$': lambda match: match[0].replace("~", "") + "\n" + "| --- " * (match[0].count("|") - 1) + "|",
+        r'\|[=<>]': r'|',
         r'\[\[/?(table|cell|row).*?\]\]': r'', # just flatten 'em
 
         # Images

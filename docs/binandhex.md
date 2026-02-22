@@ -55,8 +55,8 @@ We can count further.
 Just like in decimal, we know that the more digits there are, the larger the number.  However, in binary, we use powers of two.  In the binary number 1001101, we can create a chart to find out what this really means.
 | 2<sup>6</sup>| 2<sup>5</sup>| 2<sup>4</sup>| 2<sup>3</sup>| 2<sup>2</sup>| 2<sup>1</sup>| 2<sup>0</sup>|
 | --- | --- | --- | --- | --- | --- | --- |
-|= 1|= 0|= 0|= 1|= 1|= 0|= 1|
-| || || || ||= 64+0+0+8+4+0+1|
+| 1| 0| 0| 1| 1| 0| 1|
+| || || || || 64+0+0+8+4+0+1|
 | || || || ||~ 77|
 
 Since this is base two, however, the numbers don't get quite as large as it does in decimal.  Even still, a binary number with 10 digits would be larger than 1000 in decimal.
@@ -80,8 +80,8 @@ Just like how we used powers of ten in decimal and powers of two in binary, to d
 
 | 8<sup>3</sup>| 8<sup>2</sup>| 8<sup>1</sup>| 8<sup>0</sup>|
 | --- | --- | --- | --- |
-|= 3|= 6|= 2|= 3|
-| || ||= 1536+384+16+3|
+| 3| 6| 2| 3|
+| || || 1536+384+16+3|
 | || ||~ 1939|
 
 Each additional placement to the left has more value than it did in binary.  The third digit from the right in binary only represented 2<sup>3-1</sup>, which is 4.  In octal, that is 8<sup>3-1</sup> which is 64.
@@ -101,8 +101,8 @@ Digits are explained as powers of 16.  Consider the hexadecimal number 2DB7.
 
 | 16<sup>3</sup>| 16<sup>2</sup>| 16<sup>1</sup>| 16<sup>0</sup>|
 | --- | --- | --- | --- |
-|= 2|= D|= B|= 7|
-| || ||= 8192+3328+176+7|
+| 2| D| B| 7|
+| || || 8192+3328+176+7|
 | || ||~ 11703|
 
 As you can see, placements in hexadecimal are worth a whole lot more than in any of the other three number systems.
@@ -144,14 +144,14 @@ We can determine the value of numbers in this way.  For the number 364<sub>8</su
 
 | 8<sup>2</sup>| 8<sup>1</sup>| 8<sup>0</sup>|
 | --- | --- | --- |
-|= 3|= 6|= 4|
+| 3| 6| 4|
 
 Now, 8<sup>2</sup> is 64.  8<sup>1</sup> is 8.  8<sup>0</sup> is 1.  Now what?
 
 Remember what we did with the decimal number 123?  We took the value of the digit *times* the respective power.  So, considering this further...
 
-|= 3*64|= 6*8|= 4*1|
-|= 192|= 48|= 4|
+| 3*64| 6*8| 4*1|
+| 192| 48| 4|
 
 Now, we add the values together to get 244.  Therefore, 364<sub>8</sub> is equal to 244<sub>10</sub>.
 
