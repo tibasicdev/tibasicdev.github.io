@@ -270,6 +270,9 @@ class Converter:
                 f"[Calculator Compatibility](compatibility{EXT})": {"$compatibility": "{$compatibility}"},
             }),
 
+        "nspire-math":
+            "$$ {$eqn} $$",
+
         "prgm-code":
             inspect.cleandoc("""
             ```

@@ -28,11 +28,11 @@ Radian mode
 
 The general formula for the angle of complex number *x+iy* is given by
 
-
+$$ \mathrm{angle}(x+iy) = \dfrac{\pi \times \mathrm{sign}(y)}{2} - \tan^{-1}\bigg(\dfrac{x}{y}\bigg) $$
 
 Often denoted as θ, the angle of a complex number is used in its polar representation
 
-
+$$ x+iy = re^{i\theta} $$
 
 where *r* is the absolute value of the number.
 
