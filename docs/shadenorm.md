@@ -28,7 +28,7 @@ for the normal distribution with mean 10 and std. dev. 2.5
 
 ## Advanced
 
-Often, you want to find a "tail probability" - a special case for which the interval has no lower or no upper bound. For example, "what is the probability x is greater than 2?". The TI-83+ has no special symbol for infinity, but you can use E[[/size]]99 to get a very large number that will work equally well in this case (E[[/size]] is the decimal exponent obtained by pressing [2nd] [EE]). Use E[[/size]]99 for positive infinity, and -E[[/size]]99 for negative infinity.
+Often, you want to find a "tail probability" - a special case for which the interval has no lower or no upper bound. For example, "what is the probability x is greater than 2?". The TI-83+ has no special symbol for infinity, but you can use E99 to get a very large number that will work equally well in this case (E is the decimal exponent obtained by pressing [2nd] [EE]). Use E99 for positive infinity, and -E99 for negative infinity.
 
 It can be hard to find the best window for ShadeNorm( to work in, since it doesn't automatically zoom for you. For the standard curve, the graph doesn't go above y=.5 (a good value for Ymax); Ymin should probably be something small. Xmin and Xmax could be -3 to 3 (3 deviations out); change this around to see more or less of the graph.
 

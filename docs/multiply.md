@@ -38,7 +38,7 @@ should be
 :5cos(Nθ
 ```
 
-There are a few cases in which omitting the multiplication sign doesn't work. For example, 2^4*[E](e-ten.html)[[/size]]3 (which evaluates to 16000) can't be replaced by 2^4E[[/size]]3, since the latter is interpreted as 2^(4000).
+There are a few cases in which omitting the multiplication sign doesn't work. For example, 2^4*[E](e-ten.html)3 (which evaluates to 16000) can't be replaced by 2^4E3, since the latter is interpreted as 2^(4000).
 
 ## Optimization
 

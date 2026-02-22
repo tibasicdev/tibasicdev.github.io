@@ -53,7 +53,7 @@ For basic arithmetic, the 68k calculators' advantage is that it can do exact cal
 - [68k:ceiling()](68k:ceiling.html)
 - [68k:comDenom()](68k:comdenom.html)
 - [68k:▶Dec](68k:-dec.html)
-- [E](68k:e-ten.html)[[/size]]
+- [E](68k:e-ten.html)
 - [68k:exact()](68k:exact.html)
 - [68k:floor()](68k:floor.html)
 - [68k:fPart()](68k:fpart.html)

@@ -382,10 +382,10 @@ The calculator has at least three ways to calculate some power of 10: using the 
 | --- | --- | --- | --- |
 | E1 | 6 | 6 | 54 |
 |10^1 | 9 | 0 | 72 |
-| 10[[/size]]^(1 | 12 | 4 | 100 |
+| 10^(1 | 12 | 4 | 100 |
 | E99 | 6 | 7 | 55 |
 | 10^99 | 50 | 6 | 406 |
-| 10[[/size]]^(99 | 12 | 6 | 102 |
+| 10^(99 | 12 | 6 | 102 |
 
 **Conclusion:** The [E](e-ten.html) command wins out by far, but it's limited, so you can't always use it. In those cases, typing out 10^ is slightly faster than the [10^(](ten-exponent.html) for small arguments (the breaking-even point seems to be around 10^9), but is a lot slower for large arguments. Of course, there's also the size to consider, so the command seems to be a pretty safe bet.
 

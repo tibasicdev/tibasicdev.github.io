@@ -7,7 +7,7 @@
 :round(7fPart(dbd(101.5,DE2+M+fPart(.01Y))/7
 ```
 
-Using the [dbd(](dbd.html) command, we return the number of days between the given date and January 1, 1950, our base date. dbd('s argument, in this case, is of the form DDMM.YY, so we put the date we're given in that form with D[E](e-ten.html)[[/size]]2+M+fPart(.01Y. Once we have the number of days between the two dates, we divide it by seven (as there are seven days in a week) to get the number of weeks.
+Using the [dbd(](dbd.html) command, we return the number of days between the given date and January 1, 1950, our base date. dbd('s argument, in this case, is of the form DDMM.YY, so we put the date we're given in that form with D[E](e-ten.html)2+M+fPart(.01Y. Once we have the number of days between the two dates, we divide it by seven (as there are seven days in a week) to get the number of weeks.
 
 However, we are not interested in the number of weeks between two dates, we are interested in how far into the week we are. That would be the fractional part of the number of weeks. For example, if there was fourteen days between two dates (the first date being a Sunday) and we divide that by seven, we would have the equation 14/7=2.00. The .00 means that the week hasn't yet begun (and so, the day is Sunday).
 

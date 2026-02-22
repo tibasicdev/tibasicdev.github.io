@@ -16,7 +16,7 @@ Here are the commands and symbols that suffer from this problem:
  - Use //[68k:d](68k:d.html)//[()](68k:d.html) to render it in a link.
  - Use [68k:d](68k:d.html)[[/span]][()](68k:d.html) if the above fails to work properly.
  - Replace it with d() in code blocks.
-- The [E](68k:e-ten.html)[[/size]] command
+- The [E](68k:e-ten.html) command
  - Use E[[/size]] to render it correctly where possible.
  - Use [E](68k:e-ten.html)[[/size]] to render it in a link.
  - Replace it with E in code blocks.

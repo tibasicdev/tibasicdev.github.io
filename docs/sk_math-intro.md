@@ -7,7 +7,7 @@ Now that you know how to utilize both the graph screen and the home screen, the 
 The simplest operators include [+](add.html),[-](subtract.html), [*](multiply.html), [/](divide.html). This tutorial will show how these simple arithmetic operators can be very powerful when applied effectively.
 ## Powers and Exponentials
 
-This group includes all the commands that deal with exponentiation, like [^](power.html), [10](ten-exponent.html)[[/size]]^(, [EE](e-ten.html)[[/size]], and [e^(](e-exponent.html).  This also includes the inverses such as [√](square-root.html), [³√(](cube-root.html), [×√](xroot.html), and [log(](log.html) and [ln(](ln.html).  These commands have a plethora of applications, one of them being the emulation of gravity.
+This group includes all the commands that deal with exponentiation, like [^](power.html), [10](ten-exponent.html)^(, [EE](e-ten.html), and [e^(](e-exponent.html).  This also includes the inverses such as [√](square-root.html), [³√(](cube-root.html), [×√](xroot.html), and [log(](log.html) and [ln(](ln.html).  These commands have a plethora of applications, one of them being the emulation of gravity.
 
 ## Probability
 

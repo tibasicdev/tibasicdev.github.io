@@ -1,0 +1,415 @@
+# Optimization Walkthrough
+You've just completed your first major program. It is a TI-83+ TI-Basic rendition of the classic game, Guess-The-Number. You've spent what seems like hours making it. You know that it isn't anything fancy, but you are proud of it, and you want to release it to the public. So, you just write up some quick documentation, and it's ready for release. Or, so you believe... The truth is that there is a lot more to releasing a program than that.
+
+On a calculator with limited memory and speed, people only want to keep something if it is worth it. If your game is original, fun and optimized, then people will want to keep it on their calculators. The more likely scenario, however, is that there are several similar programs already released, and chances are that those programs are just like yours: same graphics, same gameplay, and same slow load-up time. You have to ask yourself then — What makes my program different from the competition? If you are honest with yourself, you will have to say there is nothing different between the two!
+
+## Making it Stand Out
+
+If you want your program to stand out from the other duplicate programs, you will need to make it apparent to the user. Users often see several different variants to the same program, and it becomes extremely hard to separate the good ones from the bad ones. Making your program stand out not only includes making your program original and fun, but also optimized.
+
+The goal of this guide is not to show you how to make your program original and fun. Just let your creativity run wild, and you can come up with an endless supply of ideas. After that, you just start programming those ideas into your program. If you have trouble coming up with ideas on your own, the other thing you can do is look at programs on the Internet. There are countless online programs just waiting to be ported to the TI-83+ calculator. Of course, you will have to adapt them to the smaller screen.
+
+What I am going to discuss in this guide is how you can take your program and transform it into its extreme form. What I mean by extreme is making your program as optimized as possible. You can define an optimized program as a program that is both small and fast, efficient as possible. Ideally, all of the programs you make should be optimized; it should be the standard.
+
+For demonstration purposes, we are going to use the game that I mentioned above: guess-the-number. We will go through all of the optimization steps, changing the game accordingly. The final result will be an extreme version of guess-the-number.
+
+## The Original Code
+
+Below is the code of the original version of the guess-the-number game. It is a 1-Player game, with the person having to guess the number until they finally get it. The game is played on the home screen. It features a high score that keeps track of the lowest amount of guesses it takes the person to get the number. It also features a counter that tracks how many of your guesses are high and how many of them are low. It will even tell you which one won. The game is programmed the way a beginner would program it. It is your standard TI-Basic guess-the-number game found on [ticalc.org](http://www.ticalc.org).
+
+(**NOTE:** This game has no optimizations done to it in any way.)
+
+```
+:ClrHome
+:0→T:0→A:0→C
+:randInt(1,10000)→B
+:1→dim(∟HIGH)
+:If ∟HIGH(1)=0
+:20→∟HIGH(1)
+:Disp "Guess The Number"
+:Disp "Range Is 1-10000"
+:Lbl AA
+:Input "Guess: ",A
+:T+1→T
+:If A>B or A<B
+:Then
+:If A>B
+:Then
+:Disp "Too High!"
+:C+1→C
+:End
+:If A<B
+:Then
+:Disp "Too Low!"
+:C-1→C
+:End
+:Else
+:Disp "","Good Guess!"
+:If ∟HIGH(1)>T
+:Then
+:T→∟HIGH(1)
+:Disp "New Record!"
+:End
+:If C>0
+:Then
+:Disp "High Wins!"
+:End
+:If C<0
+:Then
+:Disp "Low Wins!"
+:End
+:Disp "It Took You",T
+:Disp "Tries!"
+:Pause
+:ClrHome
+:Stop
+:End
+:Goto AA
+```
+
+## Basic optimizations
+
+When you are starting the process of optimizing your programs, you want to begin with the basic optimizations. One of the first things that you can do is remove closing parentheses, braces, and quotation marks. These things are unnecessary in most cases. The one rare instance where you would want to keep the closing parentheses is when you are dealing with order of operations. For example, when the command is in a list of arguments for an expression or a function.
+
+In our guess-the-number game, there exists several places where we can remove the closing parentheses, braces, and quotation marks. You can remove the closing parentheses on the randInt(1,10000). The [store](store.html) (→) statement closes it, so no closing parentheses is needed. You can also remove the closing parentheses on the dim(∟HIGH) statement and the two ∟HIGH(1) statements.
+
+If you look at the statement If ∟HIGH(1)=0, you can see that it contains the potential to have its closing parentheses removed. You need to first rearrange the statement, switching the ∟HIGH(1) with the 0. The closing parentheses can now be removed, and the result is 0=∟HIGH(1. You can do the same thing with the If ∟HIGH(1)<T statement.
+
+The last thing that you can remove is all of the closing quotation marks on the [Disp](disp.html) commands. If you reached the fifth and second to last Disp commands you probably noticed that they have a different syntax than the other Disp commands.
+
+One of the unique attributes of the Disp command is that you can link them together. You just put a comma after the quotation marks for every Disp command that you want to link. You can link both text and variables. In our case, we are linking a variable to text. Just remember that the Disp commands inside the chain need both of their quotation marks. Linking Disp statements won't save you any space, though. In fact, if you hook all of your Disp commands together it can become hard to read the code. It is only recommended when it doesn't hinder readability.
+
+One other thing that you can remove is multiplication signs (*). The calculator does implicit multiplication, so they are never needed. Our program doesn't have any multiplication in it, so this optimization isn't applicable.
+
+Besides removing closing parentheses, braces and quotation marks, and multiplication signs, you can also change all of your text to uppercase letters. Making your text look nice comes with a price. Lowercase letters are two bytes each instead of one byte like uppercase letters. This can really be costly if your program has a lot of text in it. You can't even store to lowercase letters, either. Whether you use them or not is your choice.  We aren't going to use them in our guess-the-number game, though.
+
+You also want to make sure to keep your label and list names as short as possible. Ideally, you only want to make them one character in length.  This is not always the case, however. When you are first programming your program it helps to know what data your lists hold, and you can do that by using longer list names. When you release your program, though, you want to make sure to shorten them. Applying this optimization to our game, we can change ∟HIGH to ∟H and Lbl AA to Lbl A.  It is now 4 bytes smaller for each occurance.
+
+```
+:ClrHome
+:0→T:0→A:0→C
+:randInt(1,10000→B
+:1→dim(∟H
+:If 0=∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Lbl A
+:Input "GUESS: ",A
+:T+1→T
+:If A>B or A<B
+:Then
+:If A>B
+:Then
+:Disp "TOO HIGH!
+:C+1→C
+:End
+:If A<B
+:Then
+:Disp "TOO LOW!
+:C-1→C
+:End
+:Else
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:If C>0
+:Then
+:Disp "HIGH WINS!
+:End
+:If C<0
+:Then
+:Disp "LOW WINS!
+:End
+:Disp "IT TOOK YOU",T
+:Disp "TRIES!
+:Pause
+:ClrHome
+:Stop
+:End
+:Goto A
+```
+
+The next optimization that we will employ is using the calculator's built-in keys, characters and functions. Whether you know it or not, the calculator contains several useful keys, characters and functions just waiting to be used. For example, you can use the [e^(](e-exponent.html) key rather than typing out e^. This is the same for the squared-sign ( <sup>[2](2.html)</sup> ) key, the cubed-sign ( <sup>[3](3.html)</sup> ) character, the [10](ten-exponent.html)[^(](ten-exponent.html) key, the inverse-sign ( <sup>[-1](inverse.html)</sup> ) key, and the [E](e-ten.html) exponent.
+
+The E character is used mainly for scientific notation. It is the only character that our game can use. In our code there exists one instance where we have the number 10000. Using the E, we can replace 10000 with E4.
+
+In addition to learning the calculator's built-in keys, characters and functions, it is also to your benefit to learn the syntax of the commands and their arguments. Several commands have optional arguments that you will only learn about if you read the manual. One such command is [Pause](pause.html). The Pause command can take either a variable or text for its optional argument. What it allows you to do is take text or a variable from the last Disp command and put it as the optional argument. This allows you to delete the last Disp command. Doing this shrinks our program by one byte.
+
+If you start using the [manual](command-index.html) when you are programming, it will really benefit you. You can use it for whenever you have a question about some command or function. In fact, you should use it as much as you possibly can. Read it until it's in your brain.
+
+When dealing with variables, there's a shortcut to setting the variable to zero. Instead of 0→X, you can use [DelVar](delvar.html) X. The calculator automatically sets the variable to zero the next time that it is used. In addition, the DelVar command doesn't need a newline/colon following the variable name. This allows you to make chains of variables, with the last variable having the statement from the next line coming immediately after it. In terms of our game, we can use this optimization at the beginning. We have three variables that we set to zero at the game's start. We can use DelVar with each of them, and we can attach the randInt(1,E4→B statement to the end. This eliminates the line that randInt(1,E4→B is on.
+
+```
+:ClrHome
+:DelVar TDelVar ADelVar CrandInt(1,E4→B
+:1→dim(∟H
+:If 0=∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Lbl A
+:Input "GUESS: ",A
+:T+1→T
+:If A>B or A<B
+:Then
+:If A>B
+:Then
+:Disp "TOO HIGH!
+:C+1→C
+:End
+:If A<B
+:Then
+:Disp "TOO LOW!
+:C-1→C
+:End
+:Else
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:If C>0
+:Then
+:Disp "HIGH WINS!
+:End
+:If C<0
+:Then
+:Disp "LOW WINS!
+:End
+:Disp "IT TOOK YOU",T
+:Pause "TRIES!
+:ClrHome
+:Stop
+:End
+:Goto A
+```
+
+Using the calculator's built-in keys, characters and functions only saved us two bytes. If you add in using the Pause command's optional argument and deleting the last Disp command, as well as changing the variable storages to DelVar and moving the randInt( to the end, we saved 7 bytes total. The memory saved may not seem like much, but it is still good practice to always incorporate as many optimizations in your programs as possible.
+
+We now move on to the reorganization and elimination optimizations. You want to try to reorganize your code to eliminate redundant or unnecessary commands or text. If you notice in our game, it doesn't matter what the A variable's initial value is. The user's input will change the A variable's value before any of the conditionals, so we can get rid of the DelVar A command without the game being affected.
+
+One of the first places to look for reorganizations is conditionals. When your conditionals are in the form [If](if.html) X≠0 or If X=0, they can be replaced with If X and If [not(](not.html)X, respectively. They mean the same thing because the calculator checks if X isn't zero in both of the first conditionals and if X is zero in both of the second conditionals. Our game has an If 0=∟H(1 conditional, which can become If not(∟H(1.
+
+Conditionals that have a [Then](then.html) and an [End](end.html) statement can also be optimized. If the conditional only has one nested line, you don't need to include the Then and the End. This optimization is applicable in our game for two of our conditionals. We can apply it to the If C>0 conditional and the If C<0 one.
+
+If the conditionals are opposites and they have two or more nested lines you would not want to remove both of the Then and End statements. Instead, you can remove the first End statement, the second conditional, and the second Then statement, and replace them with an [Else](else.html) statement placed after the nested lines of content of the first conditional. The reason is that only one of those conditionals can be true at any time, so we don't need to do two checks. We can do this with the If A>B conditional and the If A<B conditional. This makes the conditionals five bytes smaller.
+
+The last conditional that we can optimize is If A>B or If A<B. This is a compound conditional, where multiple conditions have to be met in order for it to be true. The goal of the game is to have A=B.  The opposite of this condition is A≠B. Looking at our compound conditional, we can see that it really means when A isn't equal to B. It can therefore be replaced with the If A≠B conditional.
+
+The last elimination optimization is not really noticeable unless you are looking for it. Notice how I mentioned above about eliminating redundant or unnecessary commands or text? Well, if you look at the two text phrases "Too High!" and "Too Low!", you can see that they can be replaced with the shorter text phrases "Lower!" and "Higher!". Whenever you are writing text, you should always look for ways to reword or shorten it.
+
+```
+:ClrHome
+:DelVar TDelVar CrandInt(1,E4→B
+:1→dim(∟H
+:If not(∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Lbl A
+:Input "GUESS: ",A
+:T+1→T
+:If A≠B
+:Then
+:If A>B
+:Then
+:Disp "LOWER!
+:C+1→C
+:Else
+:Disp "HIGHER!
+:C-1→C
+:End
+:Else
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:If C>0
+:Disp "HIGH WINS!
+:If C<0
+:Disp "LOW WINS!
+:Disp "IT TOOK YOU",T
+:Pause "TRIES!
+:ClrHome
+:Stop
+:End
+:Goto A
+```
+
+We can further optimize our conditionals by making use of the [Ans](ans.html) variable. The Ans variable is a temporary variable that changes every time you store something. It can hold any variable or any text. It is the fastest variable on the calculator. It is mostly useful when you are just manipulating one variable.
+
+In our case, we will use it for holding text. Looking at both text phrases, High Wins! and Low Wins!, we see that they share two common elements: the word "Wins" and an exclamation point. The only thing that changes is the High and Low text. We can take advantage of this, and put the text in the Ans variable.  If you noticed, the text phrases Lower! and Higher! also share two common elements: the letters "er" and an exclamation point.  The Ans variable won't work here, though, because they are each contained within their respective conditionals. We will come back to them later.
+
+To store anything in the Ans variable you just have to put it on a line by itself. We will put "High on the first line, the If C<0 conditional on the second line, and "Low on the third line. How this works is the Ans variable will contain the text "High, but if the If C<0 conditional is true the text "Low will be in the Ans variable instead. In order to complete the optimization, we will have to get rid of the first Disp statement and change the second one. Our Disp statement will now look like this: Disp Ans+" Wins!. The Wins and the ! are constant, while the Ans variable will change depending on the value of the If C<0 conditional. We will also have to get rid of the End after the Disp statement.  Try to use the Ans variable as much as possible.
+
+Using the Ans variable has an unexpected consequence on our If C<0 conditional. What if C is neither greater than zero or less than zero? High Wins! will be displayed on the screen because it is the text that we first stored into Ans. To fix this problem, we need to put an If C≠0 conditional on the line before the Disp statement. This can further be optimized to If C because of the optimization mentioned 8 paragraphs above.
+
+Another way that you can optimize your program is aesthetically. If you run our game, you will notice that Done is displayed on the screen after you exit. This doesn't look very good. To get rid of the Done, you need to have an [Output(](output.html) statement as the last displaying command; there can be no Disp or ClrHome command after it. The Output command does not need to be the last line of code, though. You can do the same thing with erasing the run indicator on the graph screen by using Text(90,0," . This makes your program look very professional.
+
+```
+:ClrHome
+:DelVar TDelVar CrandInt(1,E4→B
+:1→dim(∟H
+:If not(∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Lbl A
+:Input "GUESS: ",A
+:T+1→T
+:If A≠B
+:Then
+:If A>B
+:Then
+:Disp "LOWER!
+:C+1→C
+:Else
+:Disp "HIGHER!
+:C-1→C
+:End
+:Else
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:"HIGH
+:If C<0
+:"LOW
+:If C
+:Disp Ans+" WINS!
+:Disp "IT TOOK YOU",T
+:Pause "TRIES!
+:ClrHome
+:Output(1,1,"
+:Stop
+:End
+:Goto A
+```
+
+Our program now has all of the basic optimizations done to it. This is where most people would stop with optimizations, and just release their program as is. The truth is that there are more optimizations to be done. Granted, these optimizations require more work than we put into the basic optimizations.  It's worth the work, though.
+
+## Advanced optimizations
+
+Advanced optimizations involve changing your program in radical ways: changing conditionals into their Boolean form, rearranging and restructuring loops, and even completely redoing your program, if necessary. They can change the whole design and complexity of your code.
+
+Changing conditionals into their Boolean form requires knowledge of equality tests. Putting X=3 into your calculator returns either 1 or 0 depending on the value of X. We can use this same principle in our conditionals. Say we have If X=3:Y+1→Y. We can get rid of the If statement and put parentheses around the X=3 statement and then put it in the place of the 1 — Y+(X=3)→Y. The reason that this works is that when the X=3 statement is evaluated, and it is true it will return 1 and then add that value to Y. You can also keep the 1 and put it in front of the X=3 statement. Or, if you want to, you can change the 1 into another number. It will just add that number to Y instead.
+
+We can use this optimization in our game. It may not seem apparent, but every time the calculator goes through the loop and checks if A>B, it adds 1 to C if the conditional is true. It does the exact opposite when it checks if A<B: it subtracts 1 from C if the conditional is true. Noticing this, we can combine the two C conditionals into one by using their Boolean form.  When A>B is true C is incremented by 1, so we should have that as one of the conditions. In similar fashion, when A<B is true C is decremented by 1, so we should have that as one of the conditions. Our conditional now looks like C+(A>B)-(A<B→C. This is as optimized as it can get. You will have to move it outside next to the T+1→T statement now because it gets updated every time through the loop.
+
+Changing the conditional into its Boolean form has now allowed us to optimize the two conditionals that we couldn't optimize before. We can repeat the same process that we did with the High/Low Wins! conditions. Our Disp statement will be Disp Ans+"er!.
+
+In addition to changing your conditionals into their Boolean form, you also want to make your loops as compact as possible. You only want your loops to contain things that are dynamic, things that change within the loop. If something only happens once, then you should put it outside the loop. In addition to things that don't change, you want to cut down on the number of storages you make inside your loops, keeping in mind how often certain variables are used and what they are used for. Compacting your loops may take some ingenuity on your part. Ultimately your goal is to make your loops only have the necessary commands inside of them, and nothing more.
+
+If you look at our guess-the-number game, you can see that the loop in it could indeed be made more compact. Every time through the loop, the calculator has to pass through the end game text. This text is only displayed once, when you guess the number. It, therefore, should be placed outside the loop.
+
+After moving the end game text to the end of the code, we now need a way to get to it. We will have to make a respective label (Lbl B) for the text, and put in a conditional (If A=B) that checks to see if the number is guessed, sending the calculator to that label if it is. In addition, we need to remove the If A≠B conditional because it no longer applies. We also need to add a conditional before the Disp Ans+"er! statement, to check if the user hasn't guessed the number yet. Doing this doesn't make the code any smaller, but it does increase the speed of the loop.
+
+Now that the end game text is at the end of the code, we no longer need the Stop command. If possible, it is always preferred to have your programs exit naturally. If you can't make your programs exit naturally, use the Return command instead of the Stop command. The Return command returns the user to the program that they called their current program from, while the Stop command exits the program and returns the user to the home screen. This is usually not want is desired by those that use your program.
+
+```
+:ClrHome
+:DelVar TDelVar CrandInt(1,E4→B
+:1→dim(∟H
+:If not(∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Lbl A
+:Input "GUESS: ",A
+:T+1→T
+:C+(A>B)-(A<B→C
+:"LOW
+:If A<B
+:"HIGH
+:If A≠B
+:Disp Ans+"ER!
+:If A=B
+:Goto B
+:Goto A
+:Lbl B
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:"HIGH
+:If C<0
+:"LOW
+:If C
+:Disp Ans+" WINS!
+:Disp "IT TOOK YOU",T
+:Pause "TRIES!
+:ClrHome
+:Output(1,1,"
+```
+
+In addition to making your loops compact, you also want to make sure that you are using the right looping structure. Using Goto/Lbls is not an efficient looping structure because when the calculator sees a Goto it notes the label and proceeds to search for it from top to bottom in your code. This can really be slow if the label is deep within the program. Using Goto/Lbls also has the tendency to make your code harder to follow when you are debugging or when you want to change something. It can make your code a real mess.
+
+The other major reason why you want to avoid using Goto/Lbls is because, if used incorrectly, it can lead to memory leaks. A memory leak is where you don't properly exit a loop. For example, if you have a While loop that you exit out of by using Goto, the calculator still has the respective End for that While loop in its stack. If you do this enough times, the calculator will run out of memory — ERROR:MEMORY.
+
+The recommended loops that you should use instead are Repeat, While, and For. These three looping structures should cover all of the looping that you will need to do. Repeat and While loops are best used when you don't know how many times the loop will be gone through, whereas For loops are best used when you know the specific amount.
+
+You can use Repeat or While loops, but Repeat loops are the recommended loops. The main advantage of using a Repeat loop is that you don't have to set the initial value of the variable in the conditional. The reason is that Repeat loops are gone through at least once whereas While loops will not be gone through at all if the variable in the conditional is the desired value before the first run through. There is no speed difference between Repeat loops and While loops, though.
+
+The way that this applies to our program is that we currently use two Goto/Lbls. We can optimize our program by eliminating the Goto/Lbls and replacing them with a Repeat loop. The loop in our game repeats until the user finally guesses the number. This tells us that A=B should be the conditional next to the Repeat loop. Doing this makes the game smaller and also considerably faster.
+
+```
+:ClrHome
+:DelVar TDelVar CrandInt(1,E4→B
+:1→dim(∟H
+:If not(∟H(1
+:20→∟H(1
+:Disp "GUESS THE NUMBER
+:Disp "RANGE IS 1-10000
+:Repeat A=B
+:Input "GUESS: ",A
+:T+1→T
+:C+(A>B)-(A<B→C
+:"LOW
+:If A<B
+:"HIGH
+:If A≠B
+:Disp Ans+"ER!
+:End
+:Disp "","GOOD GUESS!
+:If T<∟H(1
+:Then
+:T→∟H(1
+:Disp "NEW RECORD!
+:End
+:"HIGH
+:If C<0
+:"LOW
+:If C
+:Disp Ans+" WINS!
+:Disp "IT TOOK YOU",T
+:Pause "TRIES!
+:ClrHome
+:Output(1,1,"
+```
+
+Our guess-the-number program is now optimized as much as possible. We have gone through the basic optimizations as well as the advanced optimizations. Sometimes even doing all of these optimizations is not enough, though.
+
+## The final optimization
+
+If you are still not satisfied with your program, the final thing that you can do is completely rewrite it. This is usually the last resort because it takes the most amount of work to do. In addition, rewriting your program means that you will have to repeat both of the optimization steps over again.
+
+What you should do during the rewriting process is break down your program into its basic parts, and think about different ways that you can restructure them. One of the most typical problems is a faulty algorithm. The algorithm was not fully thought out or it doesn't work together with the other parts of the program the way it should. You need to go back to the design phase then and rework the algorithm.
+
+## Conclusion
+
+Once you have gone through your program and optimized it to the point where you feel confident releasing it to the public, you can then do so. Make sure to create good documentation for it, though.
+
+Documentation is just as important as the program itself. The user wants to know how the program works, the stats of the program, and any other things about the program that might be valuable to know. Why go through all the work of creating a good, optimized program, and then not bother creating good documentation to go with it? Optimizing your program does not guarantee that your program will be successful. Good documentation along with an optimized program does increase the chances, though.
+
+Well, I hope that this guide has helped you with your current program or a program that you have planned for the future. Remember that these are just suggestions on ways to optimize your program; it is your choice whether you follow them. Just know that the person that uses your program will be looking for a professional quality program, so you want to make sure to deliver it!

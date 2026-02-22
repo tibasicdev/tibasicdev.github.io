@@ -11,7 +11,7 @@ Press:
        
 # The invNorm( Command
 
-`invNorm(` is the inverse of the cumulative normal distribution function: given a probability, it will give you a z-score with that tail probability. The probability argument of `invNorm(` is between 0 and 1; 0 will give `-1E[[/size]]99` instead of negative infinity, and 1 will give `1E[[/size]]99` instead of positive infinity
+`invNorm(` is the inverse of the cumulative normal distribution function: given a probability, it will give you a z-score with that tail probability. The probability argument of `invNorm(` is between 0 and 1; 0 will give `-1E99` instead of negative infinity, and 1 will give `1E99` instead of positive infinity
 
 There are two ways to use `invNorm(`. With three arguments, the inverse of the cumulative normal distribution for a probability with specified mean and standard deviation is calculated. With one argument, the standard normal distribution is assumed (zero mean and unit standard deviation). For example:
 

@@ -1,5 +1,5 @@
 # Programs
-[Program Archives](archives.html)[[/size]]
+[Program Archives](archives.html)
 
 The program archives is a stash of the various programs and games that can be downloaded from the computer onto your calculator.
 

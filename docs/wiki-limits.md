@@ -25,7 +25,7 @@ Here is a listing of each command affected, along with how it will appear in thi
 
 ## E
 - Base 10 exponent symbol
-- Appears as E[[/size]] on a calculator
+- Appears as E on a calculator
 - To type, press: 
  1. [2nd]
  2. [EE]

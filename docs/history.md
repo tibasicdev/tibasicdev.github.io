@@ -38,4 +38,4 @@ We then began taking the command info on each command category page, and placing
 
 While work on the command pages was going on, I and other people continued to create new pages on the site. However, there wasn't many new users, so to get some more user involvement, I started a topic on Cemetech advertising the site and requesting help. The response was mostly favorable, with a few people joining as a result, and it also started off a separate discussion about creating a TI-Basic book.
 
-To be continued…[[/size]]
+To be continued…

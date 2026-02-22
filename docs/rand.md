@@ -39,7 +39,7 @@ Seeding the random number generator can also be used to create fairly secure (un
 When seeding the random number generator, as above, you make every random number generated afterwards predictable. This may be problematic even if your program doesn't need random numbers, because other programs might. To prevent this, use the following code to save and restore "randomness":
 
 ```
-:randInt(1,E[[/size]]9)→N
+:randInt(1,E9)→N
 
 (code that involves seeding the RNG here)
 

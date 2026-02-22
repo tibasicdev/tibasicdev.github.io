@@ -27,7 +27,7 @@ Tables are also given for the [setGraph()](68k:setgraph.html) and [setTable()](6
 | "Exponential Format" | "4" | How large floating-point numbers are displayed |
 | --- | --- | --- |
 | "NORMAL" | "1" | Most numbers are displayed in the normal way; large numbers use scientific notation. |
-| "SCIENTIFIC" | "2" | All numbers are displayed as *mantissa**10^*exponent* ([E](68k:e-ten.html)[[/size]] stands in place of *10^). |
+| "SCIENTIFIC" | "2" | All numbers are displayed as *mantissa**10^*exponent* ([E](68k:e-ten.html) stands in place of *10^). |
 | "ENGINEERING" | "3" | Similar to scientific notation, except *exponent* must be a multiple of 3. |
 | "Complex Format" | "5" | How complex numbers are handled |
 | --- | --- | --- |

@@ -473,7 +473,7 @@ Press 2nd CATALOG to access the catalog
 ² ([square](2.html))
 ^ ([power](power.html))
 ‾ ([negative](negative.html))
-10[[/size]]^( ([ten-exponent](ten-exponent.html))
+10^( ([ten-exponent](ten-exponent.html))
 √( ([square-root](square-root.html))
 * ([multiply](multiply.html))
 / ([divide](divide.html))

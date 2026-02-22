@@ -18,7 +18,7 @@ It's somewhat higher in priority than regular division, so you don't need parent
 ## Related Commands
 
 - [/](68k:divide.html) (divide)
-- [E](68k:e-ten.html)[[/size]]
+- [E](68k:e-ten.html)
 
 ## See Also
 

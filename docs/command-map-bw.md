@@ -81,7 +81,7 @@ This is a command map as it would appear on the various menus on a monochrome TI
 | | 9: [augment(](augment.html) | |
 | | 0: [List►matr(](list-matr.html) | |
 | | A: [Matr►list(](matr-list.html) | |
-| | B: [L](l.html)[[/size]] | |
+| | B: [L](l.html) | |
 
 
 **[Zoom Menu](zoom.html)** (ZOOM)

@@ -4,7 +4,7 @@ A thorough understanding of math commands is essential to the mastery of TI-Basi
 ## Commands Introduced
 
 - [+](add.html),[-](subtract.html), [*](multiply.html), [/](divide.html)
-- [^](power.html), [10](ten-exponent.html)[[/size]]^(, [EE](e-ten.html)[[/size]], [e^(](e-exponent.html)
+- [^](power.html), [10](ten-exponent.html)^(, [EE](e-ten.html), [e^(](e-exponent.html)
 - [√](square-root.html), [³√(](cube-root.html), [×√](xroot.html), [log(](log.html), [ln(](ln.html)
 - [nPr](npr.html), [nCr](ncr.html), [!](factorial.html)
 

@@ -11,6 +11,6 @@ Unfortunately, the portable version of the site is not yet complete. But some pa
 - %%linked_title%% — [printer-friendly](http://tibasicdev.github.io/printer--friendly/-page_unix_name-)
 [[/module]]
 
-Although not all parts of the site have been compiled, we are still able to present the [Portable Site](http://tibasicdev.github.io/printer--friendly/portable:site)[[/size]] at its current stage of development. There is also a [PDF](http://tibasicdev.github.io/local--files/portable/ti-7cbd_portable_guide.pdf) version (4.05mb).
+Although not all parts of the site have been compiled, we are still able to present the [Portable Site](http://tibasicdev.github.io/printer--friendly/portable:site) at its current stage of development. There is also a [PDF](http://tibasicdev.github.io/local--files/portable/ti-7cbd_portable_guide.pdf) version (4.05mb).
 
 You may also like to view the discussion of the portable wiki — http://tibasicdev.github.io/forum/t-69216/snap-an-idea-for-a-big-project

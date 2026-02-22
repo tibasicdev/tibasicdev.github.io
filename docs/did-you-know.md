@@ -4,7 +4,7 @@
 - …that [Finance](finance.html) under the Applications menu is really not an application at all?
 - …that the arrow and DEL keys can actually be held down, which will cause the key to keep being repeated until it is released?
 - …that a [`Repeat`](repeat.html) loop will always loop at least once, regardless of whether the condition is true or false before entering the loop?
-- …that you can use -E[[/size]]99 and E[[/size]]99 to represent -∞ and +∞ in many calculations?
+- …that you can use -E99 and E99 to represent -∞ and +∞ in many calculations?
 - …that TI added several new TI-Basic commands to the newer TI-84+/SE calculators?
 - …that pressing [2nd] [RIGHT] in the program editor will take you to the end of your current line, and [2nd] [LEFT] will take you to the beginning of that line?
 - …that pressing alpha in the program editor followed by up or down, you will scroll a whole page of program code?
@@ -41,7 +41,7 @@
 - …that you can use [`rand`](rand.html)(` to create a time delay similar to the `[Wait](wait.html) command on the [http://tibasicdev.github.io/thecalcs#toc6|TI-84+CE](http://tibasicdev.github.io/thecalcs#toc6-ti-84-ce)(http://tibasicdev.github.io/thecalcs#toc6-ti-84-ce)?
 - …that you can replace the "Done" message that appears after a program is finished running by placing an expression, some text, or just a quote on the last line of your program?
 - …that [`Line(`](line.html) has an optional fifth argument that, if zero, will *erase* the pixels on a line, and, on [color calculators](http://tibasicdev.github.io/thecalcs#toc5), will change the color of the line?
-- …that you can use `[tanh(](tanh.html)E[[/size]]9X` to compute the sign of X?
+- …that you can use `[tanh(](tanh.html)E9X` to compute the sign of X?
 - …that while using [`seq(`](seq-list.html), the calculator can still interpret keypresses and store them to [`getKey`](getkey.html)?
 - …that you can omit the closing parentheses, quote, square bracket, curly brace, etc. at the end of a command or function?
 - …that a memory leak is caused when you use a [`Goto/Lbl`](goto.html) within a [loop](controlflow.html) or [`If`](if.html) conditional (anything that has an [`End`](end.html) command) to jump out of that control structure before the `End` command is reached?
