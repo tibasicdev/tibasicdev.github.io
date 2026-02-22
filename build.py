@@ -327,6 +327,10 @@ class Converter:
         for pattern, repl in self.conversions.items():
             page = re.sub(re.compile(pattern, flags=re.MULTILINE), repl, page)
 
+        # Add footnotes
+        for index, footnote in enumerate(FOOTNOTES):
+            page += f"\n[^{index + 1}]: {footnote.replace('\n', '\n\t')}"
+
         # Replace blocks
         for block_id, block in BLOCKS.items():
             page = page.replace(block_id, block.rstrip().lstrip("\n"))
@@ -337,10 +341,6 @@ class Converter:
                           lambda match: f"{match[1]}{match[2]}{n + 1}. ",
                           page,
                           flags=re.MULTILINE)
-
-        # Add footnotes
-        for index, footnote in enumerate(FOOTNOTES):
-            page += f"\n[^{index + 1}]: {footnote.replace('\n', '\n\t')}"
 
         # Table of contents
         page = re.sub(r"\[\[toc\]\]", self.table_of_contents(page), page)
