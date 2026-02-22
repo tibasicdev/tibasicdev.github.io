@@ -33,11 +33,11 @@ If `coth()` is applied to a list, it will take the hyperbolic cotangent of every
 
 The definition of hyperbolic cotangent is, by analogy with [`68k:cot()`](68k:cot.html), the ratio of [`68k:cosh()`](68k:cosh.html) and [`68k:sinh()`](68k:sinh.html):
 
-
+$$ \coth{x}=\frac{\cosh{x}}{\sinh{x}} = \frac{e^x+e^{-x}}{e^x-e^{-x}} $$
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when taking `coth()` of a complex number in degree or gradian mode.
 
 ## Related Commands
 

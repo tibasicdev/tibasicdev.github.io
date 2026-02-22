@@ -37,13 +37,13 @@ The `cosh()` of a matrix is not (in general) the same as taking the hyperbolic c
 
 The definition of hyperbolic cosine is given in terms of exponents:
 
-
+$$ \cosh{x} = \frac{e^x+e^{-x}}{2} $$
 
 ## Error Conditions
 
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when taking `cosh()` of a matrix that isn't square.
+**[260 - Domain error](68k:errors.html#e260)** happens when taking `cosh()` of a complex number in degree or gradian mode.
+**[665 - Matrix not diagonalizable](68k:errors.html#e665)** happens when taking `cosh()` of a matrix that isn't diagonalizable.
 
 ## Related Commands
 

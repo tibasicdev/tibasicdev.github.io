@@ -33,11 +33,11 @@ If `csch()` is applied to a list, it will take the hyperbolic cosecant of every 
 
 The definition of hyperbolic cosecant is, by analogy with [`68k:csc()`](68k:csc.html), the reciprocal of [`68k:sinh()`](68k:sinh.html):
 
-
+$$ \operatorname{csch}{x}=\frac{1}{\sinh{x}} = \frac{2}{e^x-e^{-x}} $$
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when taking `csch()` of a complex number in degree or gradian mode.
 
 ## Related Commands
 

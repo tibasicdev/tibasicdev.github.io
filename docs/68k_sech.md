@@ -33,11 +33,11 @@ If `sech()` is applied to a list, it will take the hyperbolic secant of every el
 
 The definition of hyperbolic secant is, by analogy with [`68k:sec()`](68k:sec.html), the reciprocal of [`68k:cosh()`](68k:cosh.html):
 
-
+$$ \operatorname{sech}{x}=\frac{1}{\cosh{x}} = \frac{2}{e^x+e^{-x}} $$
 
 ## Error Conditions
 
-
+**[260 - Domain error](68k:errors.html#e260)** happens when taking sech() of a complex number in degree or gradian mode.
 
 ## Related Commands
 

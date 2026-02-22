@@ -16,7 +16,7 @@ This performs the operation "n choose r" where *expr1* is n and *expr2* is r.
 ## Formulas
 
 The formula used to obtain the result is:
-
+$$ \frac{n!}{r!(n-r)!} $$
 This is often referenced with Pascal's Triangle and binomial expansion as well as many areas of mathematics.
  
 ## Related Commands

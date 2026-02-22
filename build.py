@@ -205,6 +205,9 @@ class Converter:
         "68k-error":
             "**[[[68k:errors#e{$num}|{$num} - {$error}]]]** happens when {$cause}.",
 
+        "68k-math":
+            "$$ {$eqn} $$",
+
         "cid":
             inspect.cleandoc("""
             |This article is currently in development. You can help TI-Basic Developer by expanding it. {$extra}|

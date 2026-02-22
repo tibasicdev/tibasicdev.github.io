@@ -37,13 +37,13 @@ The tanh() of a matrix is not (in general) the same as taking the hyperbolic tan
 
 The definition of hyperbolic cotangent is, by analogy with [68k:tan()](68k:tan.html), the ratio of [68k:sinh()](68k:sinh.html) and [68k:cosh()](68k:cosh.html):
 
-
+$$ \tanh{x}=\frac{\sinh{x}}{\cosh{x}} = \frac{e^x-e^{-x}}{e^x+e^{-x}} = \frac{e^{2x}-1}{e^{2x}+1} $$
 
 ## Error Conditions
 
-
-
-
+**[230 - Dimension](68k:errors.html#e230)** happens when taking tanh() of a matrix that isn't square.
+**[260 - Domain error](68k:errors.html#e260)** happens when taking tanh() of a complex number in degree or gradian mode.
+**[665 - Matrix not diagonalizable](68k:errors.html#e665)** happens when taking tanh() of a matrix that isn't diagonalizable.
 
 ## Related Commands
 
