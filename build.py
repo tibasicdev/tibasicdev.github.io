@@ -19,7 +19,7 @@ EXT = ".html"
 
 
 ANCHOR = r"\[\[# +(.*?)\]\]"
-URL    = r"\b((?:https?://|www\d{0,3}\.|[\w.\-]+\.[a-z]{2,4}/)[^\s()<>]+[^\s`!()\[\]{};:'\".,<>?])(#\w+)?"
+URL    = r"\b(?:(?:https?://|www\d{0,3}\.|[\w.\-]+\.[a-z]{2,4}/)[^\s()<>]+[^\s`!()\[\]{};:'\".,<>?])(?:#\w+)?"
 UUID   = r"[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}"
 
 
@@ -91,8 +91,10 @@ class Header:
 class Converter:
     conversions = {
         # Modules
-        rf'\[\[module Redirect destination="{URL}".*?\]\]':
+        rf'\[\[module Redirect destination="({URL})".*?\]\]':
         r'<!DOCTYPE html>\n<meta http-equiv="refresh" content="0; URL=\1">\n<link rel="canonical" href="\1">',
+        rf'\[\[module Redirect destination="/?(.*)?".*?\]\]':
+        rf'<!DOCTYPE html>\n<meta http-equiv="refresh" content="0; URL={NEW_DOMAIN}/\1{EXT}">\n<link rel="canonical" href="{NEW_DOMAIN}/\1{EXT}">',
 
         # Links
         rf'\[\[\[\*?(?P<page>{URL})(?:\s*\|\s*(?P<text>.*?))?\]\]\]': ExternalLink,
@@ -442,6 +444,7 @@ EXCLUDE_FILES = [
     "add-news",
     "all-did-you-know",
     "archives",
+    "both-did-you-know",
     "dyk",
     "empty-page",
     "live-chat",
