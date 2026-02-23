@@ -1,7 +1,7 @@
 ![The Disp Command](disp/DISP_ANIMATED.GIF "The Disp Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays an expression, a string, or several expressions and strings on the home screen.|Disp [argument1,argument2,...]|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

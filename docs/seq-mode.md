@@ -1,7 +1,7 @@
 ![The Seq Command](seq-mode/SEQ-MODE.GIF "The Seq Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables sequence graphing mode.|Seq|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The invT( Command](invt/invT.png "The invT( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the inverse of the cumulative [Student's t-distribution](https://en.wikipedia.org/wiki/student-27s_t-distribution) function with degrees of freedom ν.|invT(*probability*, *ν*)|TI-84+/SE (OS 2.30 or greater)|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The dim() Command](68k_dim/dim.png "The dim() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the size of a list, matrix, or string.|dim(*list-matrix-or-string*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Zoom In Command](zoom-in/ZOOMIN.GIF width="192" height="128" style="border: 1px solid black;" "The Zoom In Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a smaller graphing window with the same centre.|Zoom In|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The 2-SampZTest( Command](2-sampztest/2-SAMPZTEST.GIF "The 2-SampZTest( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *z* significance test to compare the means of two populations.|2-SampZTest(*σ<sub>1</sub>*, *σ<sub>2</sub>* [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*, *draw?*]<br>(data list input)<br><br>2-SampZTest(*σ<sub>1</sub>*, *σ<sub>2</sub>* *x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

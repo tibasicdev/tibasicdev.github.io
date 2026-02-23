@@ -1,7 +1,7 @@
 ![The ShowStat Command](68k_showstat/showstat.png "The ShowStat Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays the results of an earlier statistics command.|ShowStat|This command works on all calculators.|2 bytes|
        
 ### Menu Location

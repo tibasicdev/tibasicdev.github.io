@@ -1,6 +1,6 @@
 # Easter Calculation
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Calculates the day that Easter Sunday falls on any given year.|*Y* - The year (any year at all)|*Ans* - The day in March of Easter Sunday (plus 31 if the month is April)|Y, Ans|John Horton Conway|[file eastercalculation.zip]|
 
 ```

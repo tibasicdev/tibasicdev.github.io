@@ -1,7 +1,7 @@
 ![The Radian Command](radian-mode/RADIAN.GIF "The Radian Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator in Radian mode.|Radian|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

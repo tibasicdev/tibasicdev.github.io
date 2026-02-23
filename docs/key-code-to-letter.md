@@ -1,6 +1,6 @@
 # Key Code To Letter
 |Routine Summary|Inputs|Outputs|Authors|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Outputs a letter corresponding to a keypress.|*None*|*Ans* - the letter as a string|Weregoose|*https://www.dropbox.com/s/iqpl210jax3bo3n/Routines.8xg?dl=0 Routines.8xg|
 
 ```

@@ -1,7 +1,7 @@
 ![The sec() Command](68k_sec/sec.png "The sec() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the secant of a number (usually, an angle).|sec(*angle*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location

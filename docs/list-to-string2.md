@@ -1,6 +1,6 @@
 # List To String2
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a List into a String|L₁|Str1|A, B, C, Str0, Str1, L1|Toothless the Dragon|
 
 ```

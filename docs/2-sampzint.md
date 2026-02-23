@@ -1,7 +1,7 @@
 ![The 2-SampZInt( Command](2-sampzint/2-SAMPZINT.GIF "The 2-SampZInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Using either already-calculated statistics, or two data sets, computes a Z confidence interval for the difference between two sample means.|2-SampZInt(*σ<sub>1</sub>*, *σ<sub>2</sub>*, [*list1*, *list2*, [*frequency1*], [*frequency2*], [*confidence level*]<br>(data list input)<br><br>2-SampZInt(*σ<sub>1</sub>*, *σ<sub>2</sub>*, *x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*confidence level*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

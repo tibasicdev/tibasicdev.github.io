@@ -1,6 +1,6 @@
 # Sum of Matrix Elements
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns the sum of the elements of a matrix.|*[A]* - the matrix whose elements you want to sum|*Ans* - the sum of the matrix elements|[A], L₁, Ans|zada|[file sumofmatrix.zip]|
 
 ```

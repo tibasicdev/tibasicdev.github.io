@@ -1,7 +1,7 @@
 ![The right() Command](68k_right/right.png "The right() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a subsection from the right of a list or string, or the right hand side of an equation.|right(*equation*)<br>right(*list-or-string*,*length*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

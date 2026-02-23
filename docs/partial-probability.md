@@ -1,6 +1,6 @@
 # Partial Probability
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Authors|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |This routine randomly selects a number given a list of partial probabilities|*L₁* - The bin sizes of the partial probabilities|*C* - Which bin is selected|The variables used in the routine.<br><br>L₁, L₂, X, U, S, L, T, C,E|[Trenly](http://www.wikidot.com/user:info/trenly)| Only include this if you aren't the author of the routine.|
 
 ```

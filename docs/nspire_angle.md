@@ -1,7 +1,7 @@
 ![Angle](nspire_angle/ "Angle")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Computes the angle of a complex number or a set of complex numbers.|**angle(***Expr1***)** → *expression*<br>**angle(***List1***)** → *list*<br>**angle(***Matrix1***)** → *matrix*|If this is only available on certain versions of the nspire|
 
 ### Menu Location

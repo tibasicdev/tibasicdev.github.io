@@ -1,7 +1,7 @@
 ![The Pt-Change( Command](pt-change/PT-CHANGE.gif "The Pt-Change( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Toggles a point on the graph screen.|Pt-Change(X,Y)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

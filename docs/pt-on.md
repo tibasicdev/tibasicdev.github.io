@@ -1,7 +1,7 @@
 ![The Pt-On( Command](pt-on/PT-ON.gif "The Pt-On( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on a point on the graph screen.|Pt-On(X,Y[,*mark*])|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

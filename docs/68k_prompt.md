@@ -1,7 +1,7 @@
 ![The Prompt Command](68k_prompt/Prompt68k.gif "The Prompt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Prompts the user to assign a value to a variable|Prompt *var1,var2...*|TI 89(T)/92|2 bytes|
 
 ### Menu Location

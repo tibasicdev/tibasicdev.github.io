@@ -1,6 +1,6 @@
 # Draw Ellipse
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Draws an ellipse with specified coordinates.|(A,B) - upper left corner, in pixels<br>(C,D) - lower right corner, in pixels|Ellipse inscribed in the rectangle from (A,B) to (C,D)|A,B,C,D for input<br>∟X and ∟Y store a sin/cos look-up table<br>Plot1 to store the unit circle<br>Pic1 to preserve background|Mikhail Lavrov (DarkerLine)|http://mpl.unitedti.org/?p=13 http://mpl.unitedti.org/?p=13|
 
 **Setup:**

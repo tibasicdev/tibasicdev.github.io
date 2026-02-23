@@ -1,7 +1,7 @@
 ![The - Command](subtract/SUBTRACT.GIF "The - Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the difference between two numbers.|*value1* - *value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

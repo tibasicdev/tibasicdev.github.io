@@ -1,7 +1,7 @@
 ![The startTmr Command](starttmr/STARTTMR.GIF "The startTmr Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the value of the clock timer on the TI-84+/SE.|startTmr→*Variable*|TI-84+/SE|2 bytes|
 
 ### Menu Location

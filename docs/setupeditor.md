@@ -1,7 +1,7 @@
 ![The SetUpEditor Command](setupeditor/SETUPEDITOR.GIF "The SetUpEditor Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets which lists are shown in the List Editor. As a side effect, unarchives the lists, and creates them if they don't exist.<br><br>By default, works with L1-L6.|SetUpEditor [*list*, *list*,...]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

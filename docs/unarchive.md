@@ -1,7 +1,7 @@
 ![The UnArchive Command](unarchive/UNARCHIVE.GIF "The UnArchive Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Moves a variable from the archive to RAM.|UnArchive *variable*|TI-83+/84+/SE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location

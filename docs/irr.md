@@ -1,7 +1,7 @@
 ![The irr( Command](irr/IRR.GIF "The irr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the [Internal Rate of Return](https://en.wikipedia.org/wiki/internal_rate_of_return) of an investment.|irr(*CF0*,*CFList*,[*freq*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

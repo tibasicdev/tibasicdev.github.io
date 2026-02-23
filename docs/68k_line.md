@@ -1,7 +1,7 @@
 ![The Line Command](68k_line/line.png "The Line Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a line between a set of two coordinates.|Line xStart, yStart, xEnd, yEnd, drawmode|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The getKey Command](getkey/GETKEY_ANIMATED.gif "The getKey Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the numerical code of the last key pressed, or 0 if no key is pressed.|getKey[→*Variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

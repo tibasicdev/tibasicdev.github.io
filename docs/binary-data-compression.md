@@ -1,6 +1,6 @@
 # Binary Data Compression
 |Routine Summary|Inputs|Outputs|Variables Used|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Bitwise operations on a decimal representation of binary data|*D* —  the Decimal that represents the binary data<br>*I* — the Index of the bit you will check/change|*Ans* the checked bit or the changed decimal representation|*D*, *I*, *Ans*|
 
 When you have a program with lots of bivalent information — for example, a RPG with open/closed doors, defeated/undefeated bosses, completed/uncompleted quests, etc. — you could store all of this data in a list. However, lists tend to become rather large, so compression is vital.

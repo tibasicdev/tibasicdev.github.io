@@ -1,6 +1,6 @@
 # Estimated Time Remaining
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Authors|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |A program to calculate the ETA in seconds in a For loop.|None|None|T, Z, E, I|Bio_Hazard1282| Only include this if you aren't the author of the routine.|
 
 ```

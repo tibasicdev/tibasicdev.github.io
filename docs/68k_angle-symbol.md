@@ -1,7 +1,7 @@
 ![The ∠ Command](68k_angle-symbol/angle-symbol.png "The ∠ Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Used in entering a vector in polar, cylindrical, or spherical format, or a complex number in polar form.|[*r*,∠*θ*]<br>[*r*,∠*θ*,*z*]<br>[*r*,∠*θ*,∠*φ*]<br>(*r*∠*θ*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

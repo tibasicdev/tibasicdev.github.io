@@ -1,7 +1,7 @@
 ![The angle() Command](68k_angle/angle.png "The angle() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the angle of *expression*, interpreting *expression* as a complex number.|angle(*expression*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

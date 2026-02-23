@@ -1,7 +1,7 @@
 ![The InputStr Command](68k_inputstr/http://tibasicdev.github.io/local—files/68k:inputstr/InputStr68K.gif "The InputStr Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores a string to a variable|InputStr *variable*|TI 89(T)/92|1 byte or 2 bytes|
 
 ### Menu Location

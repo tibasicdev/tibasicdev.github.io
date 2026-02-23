@@ -1,6 +1,6 @@
 # Eulers Method
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Authors|Download|
-|--- |--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- | --- |
 |Approximates a future value of a given function.|*X* - Initial X-Value<br>*Y* - Initial Y-Value<br>*Str1* - The equation<br>*D* - X-value at which the Y-value is approximated|*U* - X-value approximation<br>*V* - Y -value approximation|E, C, H, X, U, Y, Y1, V|Xeda Elnara, who optimized Myles_Zadok's optimization of the routine linked to below:|The Mathematics Department at the University of Arizona|http://tibasicdev.github.io/local—files/routine-page/routine.zip routine.zip|
 Please note that there may be a graphical bug that displays the token <sup>-1</sup> as <sup>1</sup>.
 ```

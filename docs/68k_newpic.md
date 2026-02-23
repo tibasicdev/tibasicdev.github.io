@@ -1,7 +1,7 @@
 ![The NewPic command](68k_newpic/newpic.png "The NewPic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Forms a new picture out of a n x 2 matrix.|NewPic *matrix, picVar[, maxRow][, maxColumn]*|This command works on all calculators.|
        
 ### Menu Location

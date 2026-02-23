@@ -1,7 +1,7 @@
 ![The Unlock Command](68k_unlock/unlock.png "The Unlock Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Locks a given variable|Unlock *variable1*|This command works on all calculators.|2 byte(s)|
        
 ### Menu Location

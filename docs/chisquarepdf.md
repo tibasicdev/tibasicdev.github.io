@@ -1,7 +1,7 @@
 ![The χ²pdf( Command](chisquarepdf/CHISQUAREPDF.GIF "The χ²pdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Evaluates the χ² probability density function at a point.|χ²pdf(*x*, *df*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

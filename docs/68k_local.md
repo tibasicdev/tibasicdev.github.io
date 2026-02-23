@@ -1,7 +1,7 @@
 ![The Local Command](68k_local/local.png "The Local Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Declares variables to be local to the current function or program.|Local *var1*[,*var2*,...]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

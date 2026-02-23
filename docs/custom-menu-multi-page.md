@@ -1,6 +1,6 @@
 # Custom Menu Multi Page
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |A custom menu with up to 9 switchable pages.|*Str1-Str9* - one string per page<br>*A* - Number of pages the menu includes|*B* - the page they're on<br>*X* - the # choice they made|Ans, B, C, D, X, Str#|Mr Dino|[file MENUZ.zip]|
 
 ```

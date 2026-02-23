@@ -1,7 +1,7 @@
 ![The e^( Command](e-exponent/EPOWER.GIF "The e^( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Raises the constant *e* to the *value* power.|*e*^(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

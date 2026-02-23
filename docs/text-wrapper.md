@@ -1,6 +1,6 @@
 # Text Wrapper
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Wraps text on the screen whenever you want. (Preserves space functionality.)|*Str1**/Ans* — String to wrap|*Text on screen*|R, C, I, Str1, Ans|BlakPilar|
 ## Code (Graph Screen)
 ```

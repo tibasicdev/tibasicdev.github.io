@@ -1,7 +1,7 @@
 ![The ord() Command](68k_ord/ord.png "The ord() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gives the ASCII code of a character.|ord(*string*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

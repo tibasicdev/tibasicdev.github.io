@@ -1,6 +1,6 @@
 # Simplify Radicals
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Simplifies a square root radical.|*X* - the radical to simplify|*A* - the square factors of the radicand<br>*B* - the remaining radicand|X, A, B, I|DarkerLine|[file simplifyradicals.zip]|
 
 ```

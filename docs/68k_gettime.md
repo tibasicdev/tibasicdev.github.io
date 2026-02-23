@@ -1,7 +1,7 @@
 ![Gettime](68k_gettime/gettime.png "Gettime")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |returns a list formatted as {hours, minutes, seconds}|getTime()<br>getTime()|This command works on all calculators.|~8 byte(s)|
        
 ### Menu Location

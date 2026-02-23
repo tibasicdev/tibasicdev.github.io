@@ -1,7 +1,7 @@
 ![The = Command](68k_equal/equal.png "The = Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Tests if two values are equal.|*value1*=*value 2*|This command works on all calculators.|1 byte|
        
 ### Menu Location

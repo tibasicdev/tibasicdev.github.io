@@ -1,6 +1,6 @@
 # Sierpinski Triangle
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Displays the Sierpinski Triangle.|None|None|L₁, L₂, A, B, C|Weregoose|[file sierpinski.zip]|
 
 ```

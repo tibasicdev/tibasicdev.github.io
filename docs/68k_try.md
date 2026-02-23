@@ -1,7 +1,7 @@
 ![The Try Command](68k_try/try.png "The Try Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Catches errors that occur in a block of code.|:Try<br> *(block of code)*<br>:Else<br> *(error-catching code)*<br>:EndTry|This command works on all calculators.|2 bytes for Try;<br>2 bytes for Else;<br>2 bytes for EndTry.|
        
 ### Menu Location

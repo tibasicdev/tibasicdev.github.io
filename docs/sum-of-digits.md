@@ -1,6 +1,6 @@
 # Sum of Digits
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns the sum of digits of a number.|*X* - the number you want|*Ans* - the sum of X's digits|X, Ans|DarkerLine|http://www.unitedti.org/forum/index.php?showtopic=4479&view=findpost&p=70233 United TI|
 
 ```

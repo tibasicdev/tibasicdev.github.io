@@ -1,7 +1,7 @@
 ![The i Command](i/I.PNG "The i Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The mathematical symbol *i*, short for √(-1).|*i*<br><br>To enter a complex number:<br><br>*real-part*+*imag-part i*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

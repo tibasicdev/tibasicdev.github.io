@@ -1,6 +1,6 @@
 # Pad a String
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Pad a string with spaces on the left and right.|*Ans* - The string you want to pad<br>*N* - How many spaces you want|*Str1* - The padded string|X, N, Ans, Str1|[file padstring.zip]|
 
 ```

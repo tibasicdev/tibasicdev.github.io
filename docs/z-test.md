@@ -1,7 +1,7 @@
 ![The Z-Test( Command](z-test/ZTEST.GIF "The Z-Test( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *z* significance test.|Z-Test(*μ<sub>0</sub>*, *σ*, [*list*, *frequency*, *alternative*, *draw?*]<br>(data list input)<br><br>Z-Test(*μ<sub>0</sub>*, *σ*, *sample mean*, *sample size*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

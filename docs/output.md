@@ -1,7 +1,7 @@
 ![The Output( Command](output/OUTPUT_ANIMATED.gif "The Output( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays an expression on the home screen starting at a specified row and column. Wraps around if necessary.|Output(*row*, *column*, *expression*)|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Simul Command](simul/SIMUL.GIF "The Simul Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator into simultaneous graphing mode.|Simul|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

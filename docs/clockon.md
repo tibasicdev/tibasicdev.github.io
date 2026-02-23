@@ -1,7 +1,7 @@
 ![The ClockOn Command](clockon/CLOCKON.GIF "The ClockOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on the clock display in the mode screen.|ClockOn|TI-84+/SE|2 bytes|
 
 ### Menu Location

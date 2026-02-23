@@ -1,7 +1,7 @@
 ![The tanֿ¹( Command](arctan/TANINVERSE.GIF "The tanֿ¹( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the inverse tangent (also called arctangent)|tanֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

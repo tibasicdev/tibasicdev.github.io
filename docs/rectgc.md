@@ -1,7 +1,7 @@
 ![The RectGC Command](rectgc/RECTGC.GIF "The RectGC Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the calculator to display point coordinates using rectangular (Cartesian) coordinates.|RectGC|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

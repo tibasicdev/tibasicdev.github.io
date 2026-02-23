@@ -1,7 +1,7 @@
 ![The ▶Hex Command](68k_hex/hex.png "The ▶Hex Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts a number to a base-16 number.|*integer*▶Hex|This command works on all calculators.|2 bytex|
        
 ### Menu Location

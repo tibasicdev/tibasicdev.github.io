@@ -1,7 +1,7 @@
 ![The Stop Command](68k_stop/stop.png "The Stop Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stops the program at the given point of the program|No special syntax|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

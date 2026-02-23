@@ -1,7 +1,7 @@
 ![The Pause Command](pause/PAUSE_ANIMATED.gif "The Pause Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Pauses the program until the user presses ENTER.|Pause [*value-or-text*]|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The imag( Command](imag/IMAG.GIF "The imag( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the imaginary part of a complex number.|imag(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

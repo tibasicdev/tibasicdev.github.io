@@ -1,7 +1,7 @@
 ![The Return Command](return/RETURN_ANIMATED.GIF "The Return Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stops the program and returns the user to the home screen. If the program is a subprogram, however, it just stops the subprogram and returns program execution to the parent program.|Return|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

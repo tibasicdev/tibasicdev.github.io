@@ -1,7 +1,7 @@
 ![The getMode() Command](68k_getmode/getmode.png "The getMode() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Checks the current mode settings.|getMode(*setting*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

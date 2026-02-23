@@ -1,7 +1,7 @@
 ![The PxlChg Command](68k_pxlchg/pxlchg.png "The PxlChg Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes a pixel on the graph screen.|PxlChg *row*, *column*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

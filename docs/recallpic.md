@@ -1,7 +1,7 @@
 ![The RecallPic Command](recallpic/RECALLPIC.GIF "The RecallPic Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Recalls a saved picture (one of Pic1, Pic2, ..., Pic0) to the graph screen.|RecallPic *number*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

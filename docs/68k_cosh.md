@@ -1,7 +1,7 @@
 ![The cosh() Command](68k_cosh/cosh.png "The cosh() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the hyperbolic cosine of a number.|cosh(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

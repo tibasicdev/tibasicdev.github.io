@@ -1,7 +1,7 @@
 ![The SinReg Command](sinreg/SINREG.GIF "The SinReg Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the least-squares best fit sinusoidal curve through a set of points.|SinReg [*iterations*, *x-list*, *y-list*, *period*, *equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

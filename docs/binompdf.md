@@ -1,7 +1,7 @@
 ![The binompdf( Command](binompdf/BINOMPDF.GIF "The binompdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the binomial probability, either at a single value or for all values|for a single value:<br>binompdf(*trials*, *probability*, *value*<br><br>for a list of all values (0 to *trials*)<br>binompdf(*trials*, *probability*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

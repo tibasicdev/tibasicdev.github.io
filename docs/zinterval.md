@@ -1,7 +1,7 @@
 ![The ZInterval Command](zinterval/ZINTERVAL.GIF "The ZInterval Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Using either already-calculated statistics, or a data set, computes a Z confidence interval.|ZInterval *std. deviation*, [*list*, [*frequency*]] [,*confidence level*]<br>(data list input)<br><br>ZInterval *std. deviation*, *mean*, *sample size*, [*confidence level*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

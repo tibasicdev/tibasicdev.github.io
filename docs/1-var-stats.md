@@ -1,7 +1,7 @@
 ![The 1-Var Stats Command](1-var-stats/1-VARSTATS.GIF "The 1-Var Stats Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates some statistics for a single list of data, and stores them to statistical variables. They're also displayed in a scrollable list, if done outside a program.|1-Var Stats [*list*, [*freqlist*]]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ClockOff Command](clockoff/CLOCKOFF.GIF "The ClockOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off the clock display in the mode screen.|ClockOff|TI-84+/SE|2 bytes|
 
 ### Menu Location

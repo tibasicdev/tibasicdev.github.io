@@ -1,7 +1,7 @@
 ![The rand() Command](68k_rand/rand.png "The rand() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random number.|rand() or rand(*n*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The randM( Command](randm/RANDM.GIF "The randM( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a matrix of specified size with the entries random integers from -9 to 9.|randM(*# rows*, *# columns*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

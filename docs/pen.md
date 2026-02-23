@@ -1,7 +1,7 @@
 ![The Pen Tool](pen/PEN.GIF style="border: 1px solid black;" "The Pen Tool")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Allows the user to draw on the graph screen.|Pen isn't a command, it's a menu option.|TI-83/84/+/SE|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ∫() Command](68k_integral/integral.png "The ∫() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the integral of an expression.|∫(*expression*,*variable*)<br>∫(*expression*,*variable*,*constant*)<br>∫(*expression*,*variable*,*lower*,*upper*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

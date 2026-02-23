@@ -1,7 +1,7 @@
 ![The Degree Command](degree-mode/DEGREE.GIF "The Degree Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator in Degree mode.|Degree|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

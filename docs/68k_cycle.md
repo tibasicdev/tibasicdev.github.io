@@ -1,7 +1,7 @@
 ![The Cycle Command](68k_cycle/cycle.png "The Cycle Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Prematurely ends a cycle of a loop.|:Cycle|This command works on all calculators.|4 bytes|
        
 ### Menu Location

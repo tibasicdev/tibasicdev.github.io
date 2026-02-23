@@ -1,7 +1,7 @@
 ![The Request Command](68k_request/request.png "The Request Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Asks for a string in a dialog box.|Request *promptString*, *var*|This command works on all calculators.|? bytes|
        
 ### Menu Location

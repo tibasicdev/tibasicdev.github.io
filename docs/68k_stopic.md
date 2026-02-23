@@ -1,7 +1,7 @@
 ![The StoPic command](68k_stopic/stopic.png "The StoPic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Stores a picture variable at *[PxlRow, PxlColumn]* with *[width, height]*|StoPic *picVar*,*[PxlRow, PxlColumn][,width, height]*|This command works on all calculators.|
        
 ### Menu Location

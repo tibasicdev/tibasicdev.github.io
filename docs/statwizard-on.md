@@ -1,7 +1,7 @@
 ![Statwizard On](statwizard-on/ "Statwizard On")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns the stat wizard on.|STATWIZARD ON|TI-84/+/SE 2.55 MP|2 bytes|
 
 ### Menu Location

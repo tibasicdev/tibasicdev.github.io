@@ -1,7 +1,7 @@
 ![The sub( Command](sub/SUB.GIF "The sub( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a specific part of a given string, or divides by 100.|sub(*string*, *start*, *length*)<br><br>sub(*value*)|TI-83/84/+/SE<br><br>On TI83, the command is named soushc|2 bytes|
 
 ### Menu Location

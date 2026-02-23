@@ -1,7 +1,7 @@
 ![The ►Eff( Command](eff/EFF.GIF "The ►Eff( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts a nominal interest rate to an effective interest rate.|►Eff(*interest rate*,*compounding periods*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

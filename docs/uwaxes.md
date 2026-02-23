@@ -1,7 +1,7 @@
 ![The uwAxes Command](uwaxes/UWAXES.GIF "The uwAxes Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the u and w sequence equations to be graphed against each other.|uwAxes|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

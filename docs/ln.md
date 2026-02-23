@@ -1,7 +1,7 @@
 ![The ln( Command](ln/LN.GIF "The ln( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Computes the (principal branch of the) natural logarithm.|ln(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

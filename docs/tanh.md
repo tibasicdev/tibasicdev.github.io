@@ -1,7 +1,7 @@
 ![The tanh( Command](tanh/TANH.GIF "The tanh( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the hyperbolic tangent of a value.|tanh(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

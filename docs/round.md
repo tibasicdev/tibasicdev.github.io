@@ -1,7 +1,7 @@
 ![The round( Command](round/ROUND.GIF "The round( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Truncates a number to a specified number of decimal places.|round(*value*[,*#decimals*])|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ‾ Command](68k_negative/negative.png "The ‾ Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Negates an expression.|‾*expression*|This command works on all calculators.|1 byte|
        
 ### Menu Location

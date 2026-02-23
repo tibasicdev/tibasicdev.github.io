@@ -1,7 +1,7 @@
 ![The Func Command](func/FUNC.GIF "The Func Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables function graphing mode.|Func|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

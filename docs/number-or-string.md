@@ -1,6 +1,6 @@
 # Number Or String
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Determines whether an input is a number or string.|*Ans* - the number or string to examine|*Ans* - 1 if the input is a number, 0 if it is a string|A, B [,∟A, ∟B if input is a string]|bfr|http://tibasicdev.github.io/local—files/routine-page/routine.zip routine.zip|
 
 ```

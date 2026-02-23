@@ -1,6 +1,6 @@
 # Marquee
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Scrolls a string across one line, in marquee fashion, on the home screen.|*Str1* - the text to be scrolled<br>*A,B* - the [Output(](output.html) coordinates for the text<br>*N* - the number of characters to display at a time|None|Str1, A, B, N, Ans|Weregoose|[file marquee.zip]|
 
 ```

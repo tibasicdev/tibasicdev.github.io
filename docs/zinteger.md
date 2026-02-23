@@ -1,7 +1,7 @@
 ![The ZInteger Command](zinteger/http://tibasicdev.wdfiles.com/local—files/zinteger/zoominteger_movie.gif width="200" "The ZInteger Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a square window with all-integer coordinates.|ZInteger|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The getConfg() Command](68k_getconfg/getconfg.png "The getConfg() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a list of calculator configuration info.|getConfg()|This command works on all calculators.|3 bytes|
        
 ### Menu Location

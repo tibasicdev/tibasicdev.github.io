@@ -1,7 +1,7 @@
 ![The GetCalc( Command](getcalc/GETCALC.GIF "The GetCalc( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gets a variable from another calculator.|GetCalc(*variable*)<br><br>(84+ and 84+SE only)<br>GetCalc(*variable*,*portflag*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

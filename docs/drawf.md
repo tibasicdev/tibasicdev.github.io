@@ -1,7 +1,7 @@
 ![The DrawF Command](drawf/DRAWF.GIF "The DrawF Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws an expression in terms of X.|DrawF *expression*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

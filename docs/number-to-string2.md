@@ -1,6 +1,6 @@
 # Number to String (Alternate)
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a positive integer to a string.|*N* - the number you want to convert|*Str1* - the number N in string form|X, N, Ans, Str1|http://tibasicdev.github.io/local—files/number-to-string2/numbertostring2.zip numbertostring2.zip|
 
 ```

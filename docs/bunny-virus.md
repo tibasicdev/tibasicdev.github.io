@@ -1,6 +1,6 @@
 # Bunny Virus
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Creates a virus-like effect which locks up the calculator.|None|None|None|[file bunny_virus.zip]|
 
 

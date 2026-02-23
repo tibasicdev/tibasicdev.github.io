@@ -1,7 +1,7 @@
 ![The String►Equ( Command](string-equ/STRINGEQU.GIF "The String►Equ( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores the contents of a string to an equation variable.|String►Equ(*string*, *equation*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

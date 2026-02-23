@@ -1,7 +1,7 @@
 ![The DelVar Command](68k_delvar/delvar.png "The DelVar Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Deletes a variable or variables.|DelVar *var1*[,*var2*,...]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

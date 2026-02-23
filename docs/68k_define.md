@@ -1,7 +1,7 @@
 ![The Define Command](68k_define/define.png "The Define Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores a value in a variable.|Define *variable*=*value*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

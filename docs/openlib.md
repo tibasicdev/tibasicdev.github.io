@@ -1,7 +1,7 @@
 ![The OpenLib( Command](openlib/http://tibasicdev.wdfiles.com/local—files/openlib/OPENLIB.png "The OpenLib( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets up a compatible Flash application library for use with [ExecLib](http://tibasicdev.github.io/execlib)|OpenLib(*library*)|TI-84+/SE|2 bytes|
 
 ### Menu Location

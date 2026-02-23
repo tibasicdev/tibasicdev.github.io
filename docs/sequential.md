@@ -1,7 +1,7 @@
 ![The Sequential Command](sequential/SEQUENTIAL.GIF "The Sequential Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator into sequential graphing mode.|Sequential|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

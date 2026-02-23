@@ -1,6 +1,6 @@
 # Typewriter Routine
 |Routine Summary|Inputs|Variables Used|
-|--- |--- |--- |
+| --- | --- | --- |
 |Makes text appear letter by letter|*Str1* - Text to be displayed.<br>*A,B* - Row and colum to display text.|*A, B, T, Str1*|
 
 ```

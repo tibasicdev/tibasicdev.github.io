@@ -1,7 +1,7 @@
 ![The LnReg Command](lnreg/LNREG.GIF "The LnReg Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit logarithmic curve through a set of points.|LnReg [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

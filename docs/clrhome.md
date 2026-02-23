@@ -1,7 +1,7 @@
 ![The ClrHome Command](clrhome/CLRHOME_ANIMATED.GIF "The ClrHome Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the home screen of any text or numbers.|ClrHome|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

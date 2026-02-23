@@ -1,7 +1,7 @@
 ![The toString( Command](tostring/toString.png "The toString( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the string representation of the value of the input.|toString(*value*)|TI-84+ CE OS 5.2|2 bytes|
 
 ### Menu Location

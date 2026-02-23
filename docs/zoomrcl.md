@@ -1,7 +1,7 @@
 ![The ZoomRcl Command](zoomrcl/http://i66.tinypic.com/2evw0hi.gif "The ZoomRcl Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Recalls window settings previously saved with [ZoomSto](http://tibasicdev.github.io/zoomsto).|ZoomRcl|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

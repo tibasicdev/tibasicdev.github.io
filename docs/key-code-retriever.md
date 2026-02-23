@@ -1,6 +1,6 @@
 # Key Code Retriever
 |Routine Summary|
-|--- |
+| --- |
 |Retrieves the key code of any key pressed|
 
 ```

@@ -1,6 +1,6 @@
 # Reverse a String
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Reverses the characters in a string.|*Str1* - The string you want to reverse|*Str1* - The reversed string|Str1, I, Ans|[file reversestring.zip]|
 
 ```

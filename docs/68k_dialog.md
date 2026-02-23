@@ -1,7 +1,7 @@
 ![The Dialog Command](68k_dialog/dialog.png "The Dialog Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays a dialog box for input or output.|:Dialog<br>*(dialog elements)*<br>:EndDlog|This command works on all calculators.|2 bytes for Dialog;<br>2 bytes for EndDlog.|
        
 ### Menu Location

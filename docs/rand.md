@@ -1,7 +1,7 @@
 ![The rand Command](rand/RAND.GIF "The rand Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random number between 0 and 1, or a list of such numbers. Can also be used to set the random number seed.|rand<br><br>rand(*# of numbers*)<br><br>*seed*→rand|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

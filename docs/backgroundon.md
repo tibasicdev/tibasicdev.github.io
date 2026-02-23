@@ -1,7 +1,7 @@
 ![The BackgroundOn Command](backgroundon/BackgroundOn.png "The BackgroundOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Used to display a background image on the graphscreen|BackgroundOn *Image#*<br>Background *color*<br>Background *# (0-24)*|TI-84+CSE and TI-84+CE|2 bytes|
 
 ### Menu Location

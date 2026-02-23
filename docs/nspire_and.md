@@ -1,7 +1,7 @@
 ![And](nspire_and/ "And")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Boolean AND comparison of expressions or groupings of expressions.|*BooleanExpr1* **and** *BooleanExpr2*<br>*BooleanList1* **and** *BooleanList2*<br>*BooleanMatrix1* **and** *BooleanMatrix2*<br>*Integer1* **and** *Integer2*|If this is only available on certain versions of the nspire|
 
 ### Menu Location

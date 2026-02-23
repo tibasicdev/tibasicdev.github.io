@@ -1,7 +1,7 @@
 ![The 1-PropZInt( Command](1-propzint/1-PROPZINT.GIF "The 1-PropZInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Computes a Z confidence interval of a proportion.|1-PropZInt(*x*, *n*[, *confidence level*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The stdDev( Command](stddev/STDDEV.GIF "The stdDev( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the sample standard deviation of a list.|stdDev(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

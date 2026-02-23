@@ -1,7 +1,7 @@
 ![The PrintScreen Command](printscreen/PRINTSCREEN.GIF width="192" height="128" style="border: 1px solid black;" "The PrintScreen Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |This command doesn't exist. A [token](http://tibasicdev.github.io/tokens) for it does, though.|PrintScreen|TI-82|1 byte|
 
 ### Menu Location

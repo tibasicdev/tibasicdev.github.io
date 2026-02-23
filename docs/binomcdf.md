@@ -1,7 +1,7 @@
 ![The binomcdf( Command](binomcdf/BINOMCDF.GIF "The binomcdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the binomial cumulative probability, either at a single value or for all values|for a single value:<br>binomcdf(*trials*, *probability*, *value*<br><br>for a list of all values (0 to *trials*)<br>binomcdf(*trials*, *probability*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

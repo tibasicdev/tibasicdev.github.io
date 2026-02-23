@@ -1,7 +1,7 @@
 ![The .^ Command](68k_dotpower/dotpower.png "The .^ Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Raises a value to a power, doing this element-by-element for matrices.|*base* .^ *exponent*|This command works on all calculators.|1 byte|
        
 ### Menu Location

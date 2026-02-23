@@ -1,6 +1,6 @@
 # Newtons Method
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Newton's Method - calculates the value of an equation|Variant 1: Str1, A<br>Variant 2: Str1, Str2<br><br>*Str1 and Str2* - The equation(s) are stored to the string variables.<br>*Y1 and Y2* - The equation(s) are stored to the Y-variables from the string variables, then used for operations.<br>*A* - To store the seed value, and then the final value of the equation.|*A* - The answer is stored to A|A, Y1, Y2|Variant 1:Myles_Zadok<br>Variant 2: Xeda Elnara|http://tibasicdev.github.io/local—files/newtons-method/NEWTON.zip newton.zip|
 
 Newton's Method is a routine for math that calculates the value of the zeroes of an equation, or the intersection point of two equations.

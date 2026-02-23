@@ -1,7 +1,7 @@
 ![The Lbl Command](lbl/goto/GOTO_ANIMATED.gif "The Lbl Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Defines a label for a particular [Goto](goto.html) or [Menu(](menu.html) to jump to.|Lbl *name*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

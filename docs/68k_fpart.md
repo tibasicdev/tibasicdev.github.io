@@ -1,7 +1,7 @@
 ![The fPart() command](68k_fpart/fpart.png "The fPart() command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the fractional part of a value.|fPart(*value*)|TI-89/92/+/V200|6 bytes|
 
 ### Menu Location

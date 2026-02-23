@@ -1,6 +1,6 @@
 # Petals Around the Rose
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |A simple version of the game.|None|None|Ans|DarkerLine|[file petals.zip]|
 
 ```

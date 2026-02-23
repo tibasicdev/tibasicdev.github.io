@@ -1,6 +1,6 @@
 # Decimal to Base B
 |Routine Summary|Inputs|Outputs|Author|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts a decimal (base 10) number to a number in any other integer base B.|*A* - The decimal number that you want to convert. <br>*B*/ - The base you want to convert A into.|*Ans* - The base B representation of the decimal number, in list form.|imcoraline|
 
 ```

@@ -1,7 +1,7 @@
 ![The Shadeχ²( Command](shadechisquare/SHADECHISQUARE.GIF "The Shadeχ²( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the probability of an interval of the χ² distribution, and graphs this distribution with the interval's area shaded.|Shadeχ²(*lower*, *upper*, *df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

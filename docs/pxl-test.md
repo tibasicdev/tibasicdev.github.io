@@ -1,7 +1,7 @@
 ![The pxl-Test( Command](pxl-test/PXL-TEST.GIF "The pxl-Test( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Tests a pixel on the graph screen to see if it is on or off.|pxl-Test(Y,X)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

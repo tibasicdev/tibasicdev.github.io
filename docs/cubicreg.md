@@ -1,7 +1,7 @@
 ![The CubicReg Command](cubicreg/CUBICREG.GIF "The CubicReg Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit cubic function through a set of points.|CubicReg [*x-list*, *y-list*, [*frequency list*], [*equation variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

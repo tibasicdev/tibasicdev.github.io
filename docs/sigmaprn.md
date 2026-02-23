@@ -1,7 +1,7 @@
 ![The ΣPrn( Command](sigmaprn/SIGMAPRN.GIF "The ΣPrn( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |For an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule), calculates the principal amount paid over a range of payments.|ΣPrn(*paymentt1*, *payment2*, [*roundvalue*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

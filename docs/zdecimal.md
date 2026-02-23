@@ -1,7 +1,7 @@
 ![The ZDecimal Command](zdecimal/ZDECIMAL.GIF "The ZDecimal Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a [friendly window](friendly-window.html) where all pixels have simple coordinates.|ZDecimal|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

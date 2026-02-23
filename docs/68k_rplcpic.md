@@ -1,7 +1,7 @@
 ![The RplcPic command](68k_rplcpic/rplcpic.png "The RplcPic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Replaces whatever is on the graphscreen with a picture variable  at *[row][, column]*|RplcPic *picVar*,*[row][, column]*|This command works on all calculators.|
        
 ### Menu Location

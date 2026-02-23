@@ -1,7 +1,7 @@
 ![The ∑() Command](68k_sum-sigma/sum-sigma.png "The ∑() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Adds together the evaluations of an expression with one variable taking on a range of values.|∑(*expression*, *variable*, *start*, *end*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

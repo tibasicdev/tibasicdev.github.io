@@ -1,7 +1,7 @@
 ![The checkTmr() Command](68k_checktmr/checktmr.png "The checkTmr() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Checks the value of the system clock.|checkTmr(*time*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|2 bytes|
        
 ### Menu Location

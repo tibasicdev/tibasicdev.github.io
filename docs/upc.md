@@ -1,6 +1,6 @@
 # UPC
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns the check digit for a UPC.|None|None|N|DarkerLine|[file upc.zip]|
 
 ```

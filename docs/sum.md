@@ -1,7 +1,7 @@
 ![The sum( Command](sum/SUM.GIF "The sum( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the sum of all or part of a list.|sum(*list*[,*start*,[*end*]])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

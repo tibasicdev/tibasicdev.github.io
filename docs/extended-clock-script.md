@@ -1,6 +1,6 @@
 # Day, Date & Time
 |Routine Summary|Author|
-|--- |--- |
+| --- | --- |
 |Shows the time, date, and day of week.|2Tie|
 
 ```

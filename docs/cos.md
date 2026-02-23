@@ -1,7 +1,7 @@
 ![The cos( Command](cos/COS.GIF "The cos( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the cosine of a real number.|cos(*angle*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The getTmFmt Command](gettmfmt/GETTMFMT.PNG "The getTmFmt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the time format of the clock on the TI-84+/SE/CE.|getTmFmt→*Variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ZoomStat Command](zoomstat/http://tibasicdev.github.io/local—files/zoomstat/zoomstat.gif width="200" "The ZoomStat Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a graphing window which works for all currently selected [plots](http://tibasicdev.github.io/plotn).|ZoomStat|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

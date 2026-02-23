@@ -1,7 +1,7 @@
 ![The ToolBar Command](68k_toolbar/toolbar.png "The ToolBar Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a toolbar menu and waits for input.|:ToolBar<br> (list of titles and items)<br>:EndTBar|This command works on all calculators.|2 bytes for ToolBar;<br>2 bytes for EndTBar.|
        
 ### Menu Location

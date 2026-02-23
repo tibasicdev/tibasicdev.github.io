@@ -1,7 +1,7 @@
 ![The StoreGDB Command](storegdb/STOREGDB.GIF "The StoreGDB Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores graph setting to a GDB (Graph DataBase) to be recalled later with RecallGDB.|StoreGDB *GDB#*<br>StoreGDB *number*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

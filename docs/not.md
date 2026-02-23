@@ -1,7 +1,7 @@
 ![The not( Command](not/NOT.GIF "The not( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Flips the truth value of its argument.|not(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

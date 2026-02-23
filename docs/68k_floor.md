@@ -1,7 +1,7 @@
 ![The floor() Command](68k_floor/floor.png "The floor() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the floor of a number.|floor(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

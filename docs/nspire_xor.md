@@ -1,7 +1,7 @@
 ![Xor](nspire_xor/sample.png "Xor")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Exclusive or statement. Returns the truth value of value1 or value2, but not both, being true.|value1 xor value2|If this is only available on certain versions of the nspire|
 
 ### Menu Location

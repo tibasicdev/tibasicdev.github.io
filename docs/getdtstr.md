@@ -1,7 +1,7 @@
 ![The getDtStr( Command](getdtstr/GETDTSTR.PNG "The getDtStr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the current date of the clock on the TI-84+/SE/CE as a string.|getDtStr(*value*)→*variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location

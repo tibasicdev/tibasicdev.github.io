@@ -1,7 +1,7 @@
 ![The PlotsOff Command](plotsoff/PLOTSOFF.GIF "The PlotsOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns stat plots (all of them, or only those specified) off.|PlotsOff [*plot numbers*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

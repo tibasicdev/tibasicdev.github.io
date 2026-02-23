@@ -1,7 +1,7 @@
 ![The ref( Command](ref/REF.GIF "The ref( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts a matrix into row-echelon form.|ref(*matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

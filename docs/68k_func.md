@@ -1,7 +1,7 @@
 ![Func ... EndFunc Block](68k_func/func.png "Func ... EndFunc Block")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Defines a set of lines as executable program code.|Func<br>*function code*<br>EndFunc|This command works on all calculators.|4 bytes|
        
 ### Menu Location

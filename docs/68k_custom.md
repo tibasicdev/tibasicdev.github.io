@@ -1,7 +1,7 @@
 ![The Custom Command](68k_custom/custom.png "The Custom Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a custom toolbar menu.|:Custom<br>*(list of titles and items)*<br>:EndCustm|This command works on all calculators.|2 bytes for Custom;<br>2 bytes for EndCustm.|
        
 ### Menu Location

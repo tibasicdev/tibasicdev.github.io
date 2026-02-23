@@ -1,7 +1,7 @@
 ![The ΣInt( Command](sigmaint/SIGMAINT.GIF "The ΣInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |For an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule), calculates the interest amount paid over a range of payments.|ΣInt(*paymentt1*, *payment2*, [*roundvalue*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

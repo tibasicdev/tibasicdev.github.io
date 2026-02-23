@@ -1,7 +1,7 @@
 ![The setMode() Command](68k_setmode/setmode.png "The setMode() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes one or more mode settings.|* setMode(*setting*,*value*)<br>* setMode({*set1*,*val1*,...})|This command works on all calculators.|3 bytes|
        
 ### Menu Location

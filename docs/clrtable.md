@@ -1,7 +1,7 @@
 ![The ClrTable Command](clrtable/CLRTABLE.GIF "The ClrTable Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears saved calculations for the table screen.|ClrTable|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,6 +1,6 @@
 # Strip a String
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Strip a string of its spaces on the left and right.|*Ans* - The string you want to strip|*Str1* - The stripped string|Ans, Str1|[file stripstring.zip]|
 
 ```

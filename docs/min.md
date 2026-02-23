@@ -1,7 +1,7 @@
 ![The min( Command](min/MIN.GIF "The min( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the minimum of two elements or of a list.|* for two numbers: min(*x*,*y*)<br>* for a list: min(*list*)<br>* comparing a number to each element of a list: min(*x*,*list*) or min(*list*,*x*)<br>* pairwise comparing two lists: min(*list1*,*list2*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

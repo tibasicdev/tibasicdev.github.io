@@ -1,7 +1,7 @@
 ![The xorPic command](68k_xorpic/xorpic.png "The xorPic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Logically "xors" a picture variable and the graph screen at *[row][, column]*|AndPic *picVar*,*[row][, column]*|This command works on all calculators.|
        
 ### Menu Location

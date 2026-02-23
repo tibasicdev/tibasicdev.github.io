@@ -1,7 +1,7 @@
 ![The Polar Command](polar-mode/POLAR-MODE.GIF "The Polar Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables polar graphing mode.|Polar|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

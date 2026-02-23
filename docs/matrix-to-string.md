@@ -1,6 +1,6 @@
 # Matrix to String
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a matrix to a string.|*[A]* - The matrix you want to convert|*Str1* - The string that the text is stored to|[A], L₁, A, B, Ans, Str1|[file matrixtostring.zip]|
 
 **Note:** If you have a TI-84+ CE with OS 5.2 or higher, you can ignore this entire routine and just use the [toString(](tostring.html) command.

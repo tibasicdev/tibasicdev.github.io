@@ -1,7 +1,7 @@
 ![The ans() Command](68k_ans/ans.png "The ans() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a previous answer from the Home screen.|ans([*integer*]).|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

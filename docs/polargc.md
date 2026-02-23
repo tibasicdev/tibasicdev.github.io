@@ -1,7 +1,7 @@
 ![The PolarGC Command](polargc/POLARGC.GIF "The PolarGC Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the calculator to display point coordinates using polar coordinates.|PolarGC|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

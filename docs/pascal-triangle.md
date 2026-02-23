@@ -1,6 +1,6 @@
 # Pascal's Triangle
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Returns the *R*<sup>th</sup> row of Pascal's triangle|*R* - The requested row of Pascal's triangle|*Ans* - Contains the row, as a list|R, Ans|[file pascaltriangle.zip]|
 
 ```

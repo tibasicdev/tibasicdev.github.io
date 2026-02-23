@@ -1,7 +1,7 @@
 ![The ClrHome Command](68k_clrhome/clrhome.png "The ClrHome Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the home screen.|ClrHome|This command works on all calculators.|2 bytes|
        
 ### Menu Location

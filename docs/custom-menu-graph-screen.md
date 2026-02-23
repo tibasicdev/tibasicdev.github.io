@@ -1,6 +1,6 @@
 # Custom Menu - Graph Screen
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |This routine is used for creating complex graphical menus. It can have hundreds of sub-menus, and works quite similarly to a menu on the home screen.|*Str1* - A list of menu options, each being of length L<br>*L* - The length of the sub-strings for the current menu<br>*N* - The number of options in the current menu<br>*O* - The menu identifier<br>*S* - The current item/row selected|The variable(s) that the routine stores to at the end.<br>*O* - The menu identifier<br>*S* - The current item/row selected|*Str1* - A list of menu options, each being of length L<br>*L* - The length of the sub-strings for the current menu<br>*N* - The number of options in the current menu<br>*O* - The menu identifier<br>*S* - The current item/row selected<br>*K* - A keystroke identifier<br>*Xmin* - Graph Settings<br>*Xmax* - Graph Settings<br>*Ymin* - Graph Settings<br>*Ymax* - Graph Settings<br>*Theta* - For Loop Counter<br>*Z* - For Loop Counter<br>*GDB1* - Cleanup Variable|Trenly|
 
 ```

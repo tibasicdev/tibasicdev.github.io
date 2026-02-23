@@ -1,7 +1,7 @@
 ![The ΔList( Command](deltalist/DELTALIST.GIF "The ΔList( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the differences between consecutive terms of a list.|ΔList(*list*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

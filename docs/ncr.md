@@ -1,7 +1,7 @@
 ![The nCr Command](ncr/NCR.GIF "The nCr Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the combinatorial number of combinations.|*a* nCr *b*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

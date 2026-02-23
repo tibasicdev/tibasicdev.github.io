@@ -1,7 +1,7 @@
 ![The randNorm() Command](68k_randnorm/randnorm.png "The randNorm() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random normally-distributed number.|randNorm(*mean*,*std-dev*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

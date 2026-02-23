@@ -1,7 +1,7 @@
 ![The iPart( Command](ipart/IPART.GIF "The iPart( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the integer part of a value.|iPart(*value*)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

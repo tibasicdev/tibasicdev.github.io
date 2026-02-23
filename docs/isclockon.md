@@ -1,7 +1,7 @@
 ![The isClockOn Command](isclockon/ISCLOCKON.GIF "The isClockOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns whether the clock on the TI-84+/SE is on or off.|isClockOn|TI-84+/SE|2 bytes|
 
 ### Menu Location

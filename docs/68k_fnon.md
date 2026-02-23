@@ -1,7 +1,7 @@
 ![The FnOn Command](68k_fnon/fnon.png "The FnOn Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |This command turns on all or a group of functions.|FnOn *[optional function numbers]*|This command works on all calculators.|
        
 ### Menu Location

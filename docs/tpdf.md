@@ -1,7 +1,7 @@
 ![The tpdf( Command](tpdf/TPDF.GIF "The tpdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Evaluates the Student's *t* probability density function with degrees of freedom ν.|tpdf(*t*, *ν*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

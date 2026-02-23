@@ -1,7 +1,7 @@
 ![The ZFracX Command](zfrac/ "The ZFracX Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Scales window settings relative to pixel length and height|ZFrac*X*|OS 2.53MP+|2 bytes|
 
 ### Menu Location

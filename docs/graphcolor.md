@@ -1,7 +1,7 @@
 ![The GraphColor( Command](graphcolor/@ "The GraphColor( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes the color of a certain function.|GraphColor(function#,color#)|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

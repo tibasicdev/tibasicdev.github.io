@@ -1,7 +1,7 @@
 ![The intDiv() Command](68k_intdiv/intdiv.png "The intDiv() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the whole number part of a division.|intDiv(*dividend*,*divisor*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

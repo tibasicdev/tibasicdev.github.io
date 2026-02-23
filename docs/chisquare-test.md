@@ -1,7 +1,7 @@
 ![The χ²-Test( Command](chisquare-test/CHISQUARETEST.GIF "The χ²-Test( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a χ² test of independence.|χ²-Test(*observed matrix*, *expected matrix*, *draw?*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

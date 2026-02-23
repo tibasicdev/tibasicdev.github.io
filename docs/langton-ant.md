@@ -1,6 +1,6 @@
 # Langton's Ant
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Simulates Langton's ant on the screen.|None|None|A, B, C|Arcane Wizard|[file langtonant.zip]|
 
 ```

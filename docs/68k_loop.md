@@ -1,7 +1,7 @@
 ![The Loop Command](68k_loop/loop.png "The Loop Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Repeats a block of code forever.|:Loop<br>*(block of code)*<br>:EndLoop|This command works on all calculators.|2 bytes for Loop;<br>4 bytes for EndLoop.|
        
 ### Menu Location

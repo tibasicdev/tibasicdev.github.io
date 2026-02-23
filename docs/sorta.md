@@ -1,7 +1,7 @@
 ![The SortA( Command](sorta/SORTA.GIF "The SortA( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sorts a list in ascending order.<br><br>For more than one list, sorts the first, and reorders other lists accordingly.|SortA(*list1* [,*list2*, ...])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

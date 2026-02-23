@@ -1,7 +1,7 @@
 ![The For Command](68k_for/for.png "The For Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Repeats a block of code some number of times.|:For *counter*, *start*, *end*, *step*<br>*(block of code)*<br>:EndFor|This command works on all calculators.|3 bytes for the For command;<br>4 bytes for EndFor.|
        
 ### Menu Location

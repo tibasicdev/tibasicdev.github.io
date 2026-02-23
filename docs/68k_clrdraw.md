@@ -1,7 +1,7 @@
 ![The ClrDraw Command](68k_clrdraw/clrdraw.png "The ClrDraw Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the graph screen, redrawing any functions, plots, or axes/grid/labels.|ClrDraw|This command works on all calculators.|2 bytes|
        
 ### Menu Location

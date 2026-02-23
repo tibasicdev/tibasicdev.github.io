@@ -1,7 +1,7 @@
 ![The ▶Bin Command](68k_bin/bin.png "The ▶Bin Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The ▶Bin command converts numbers into binary.|*int*▶Bin|This command works on all calculators.|4 bytes|
        
 ### Menu Location

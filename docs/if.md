@@ -1,7 +1,7 @@
 ![The If Command](if/IF_ANIMATED.gif "The If Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Executes a line or block of code when an expression is nonzero.|If *condition*<br>*statement*<br><br>If *condition*<br>Then<br>*one or more statements*<br>End<br><br>If *condition*<br>Then<br>*statement(s) to run if condition is true*<br>Else<br>*statement(s) to run otherwise*<br>End|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

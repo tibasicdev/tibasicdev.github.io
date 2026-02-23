@@ -1,7 +1,7 @@
 ![The setTmFmt( Command](settmfmt/SETTMFMT.PNG "The setTmFmt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the time format of the clock on the TI-84+/SE.|setTmFmt(*value*)|TI-84+/SE|2 bytes|
 
 ### Menu Location

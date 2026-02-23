@@ -1,7 +1,7 @@
 ![The Plot#( Commands](plotn/PLOTN.GIF "The Plot#( Commands")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays a statistical plot of one of six types.|Plot#(*type*,...<br><br>The syntax varies based on the type of plot:<br><br>Plot#(Scatter, *x-list*, *y-list*, *mark*, *[color#]*)<br><br>Plot#(xyLine, *x-list*, *y-list*, *mark*, *[color#]*)<br><br>Plot#(Histogram, *x-list*, *freq list*, *[color#]*)<br><br>Plot#(Boxplot, *x-list*, *freq list*, *[color#]*)<br><br>Plot#(ModBoxplot, *x-list*, *freq list*, *mark*, *[color#]*)<br><br>Plot#(NormProbPlot, *data list*, *data axis*, *mark*, *[color#]*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

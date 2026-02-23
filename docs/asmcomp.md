@@ -1,7 +1,7 @@
 ![The AsmComp( Command](asmcomp/ASMCOMP.GIF "The AsmComp( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Compresses an assembly program in hexadecimal form into [binary](http://tibasicdev.github.io/binandhex) form.|Asm(prgm*ORIGINAL*,prgm*RESULT*)|TI-83+/84+/SE/CSE/CE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location

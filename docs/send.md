@@ -1,7 +1,7 @@
 ![The Send( Command](send/SEND.GIF "The Send( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sends data or a variable to a connected CBL device.|Send(*variable*)|TI-83/84/+/SE/CSE/CE(5.1.5+)|1 byte|
 
 ### Menu Location

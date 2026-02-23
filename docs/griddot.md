@@ -1,7 +1,7 @@
 ![The GridDot Command](griddot/GridDot.png "The GridDot Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables a grid of colored dots on the graph screen|GridDot [*color#*]|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

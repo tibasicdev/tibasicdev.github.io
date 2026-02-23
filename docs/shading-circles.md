@@ -1,6 +1,6 @@
 # Shading Circles
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Shades in a circle.|*R* - the radius of the circle<br>*A* - the X coordinate of the circle's center<br>*B* - the Y coordinate of the circle's center|None|N, R, A, B|Jutt|[file shadecircles.zip]|
 
 ```

@@ -1,7 +1,7 @@
 ![The Dot-Thick Command](dot-thick/Dot-Thick.png "The Dot-Thick Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets all lines to be drawn using a series of thick points|This command is executed with no additional arguments|TI-84+CSE/CE|2 bytes|
 
 ### Menu Location

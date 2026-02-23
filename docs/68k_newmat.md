@@ -1,7 +1,7 @@
 ![newMat](68k_newmat/newmat.png "newMat")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |returns a new matrix filled with 0s given the dimensions provided|newMat(rows,cols)<br>newMat(rows,cols)|This command works on all calculators.|~8 byte(s)|
        
 ### Menu Location

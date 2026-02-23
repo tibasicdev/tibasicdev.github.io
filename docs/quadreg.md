@@ -1,7 +1,7 @@
 ![The QuadReg Command](quadreg/QUADREG.GIF "The QuadReg Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit quadratic through a set of points.|QuadReg [*x-list*, *y-list*, [*frequency list*], [*equation variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Exec Command](68k_exec/exec.png "The Exec Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Executes a string of assembly opcodes.|:Exec *string [, expression1] [,expression2]...*|This command works on all calculators.|? bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![Clrerr](68k_clrerr/sample.png "Clrerr")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the error status.<br>and clears the internal error context variables.|ClrErr|This command works on all calculators.|? byte(s)|
        
 ### Menu Location

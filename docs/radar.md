@@ -1,6 +1,6 @@
 # Radar Animation
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Displays a radar animation.|None|None|X, Y, S, T|X1011|[file radar.zip]|
 
 ```

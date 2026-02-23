@@ -1,6 +1,6 @@
 # Random Lines
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Displays random lines.|None|None|A, B, C|[file randomlines.zip]|
 
 ```

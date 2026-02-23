@@ -1,7 +1,7 @@
 ![The © Command](68k_comment/comment.png "The © Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Marks the rest of the line (in a program) as a comment.|://line of code* © *comment//|This command works on all calculators.|4 bytes (+ length of comment)|
        
 ### Menu Location

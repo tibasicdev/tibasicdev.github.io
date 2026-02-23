@@ -1,7 +1,7 @@
 ![GetFold](68k_getfold/getfold.png "GetFold")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns the name of the current folder.|getFold()|This command works on all calculators.|
        
 ### Menu Location

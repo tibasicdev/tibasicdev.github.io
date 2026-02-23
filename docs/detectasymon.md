@@ -1,7 +1,7 @@
 ![The DetectAsymOn Command](detectasymon/@ "The DetectAsymOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns asymptote detection on.|DetectAsymOn|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

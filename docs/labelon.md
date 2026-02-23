@@ -1,7 +1,7 @@
 ![The LabelOn Command](labelon/LABELON.GIF "The LabelOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts labels on the X and Y coordinate axes.|LabelOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

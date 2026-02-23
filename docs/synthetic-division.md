@@ -1,6 +1,6 @@
 # Synthetic Division
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |This is useful for factoring large nth degree polynomials (and finding their roots, of course), as well as finding an upper and lower limit for the roots of an nth degree polynomial, as per the remainder and factor theorems and some others.<br>It uses L₁ for input of the coefficients of the starting polynomial, uses X for r in (x-r) (what you're dividing by), so have those variables predefined (or put :Input L₁:Input X at the the beginning of the program), and it outputs L₂ as the answer with the last list entry as the remainder.|*R* - the value of r in (x-r)|*L₂* - the coefficients of the answer and the remainder is stored as the last list entry|L₁, L₂, A, R, Ans|TI-GBR, optimized by earthnite|http://tibasicdev.github.io/forum/t-1109444|
 
 ```

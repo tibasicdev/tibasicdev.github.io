@@ -1,7 +1,7 @@
 ![The prod( Command](prod/PROD.GIF "The prod( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the product of all or part of a list.|prod(*list*[,*start*,[*end*]])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

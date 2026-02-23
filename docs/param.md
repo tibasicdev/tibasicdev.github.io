@@ -1,7 +1,7 @@
 ![The Param Command](param/PARAM.GIF "The Param Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables parametric graphing mode.|Param|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

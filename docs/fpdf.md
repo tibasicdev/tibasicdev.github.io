@@ -1,7 +1,7 @@
 ![The Fpdf( Command](fpdf/FPDF.GIF "The Fpdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Evaluates the F-distribution probability density function at a point.|Fpdf(*x*, *numerator df*, *denominator df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Input Command](68k_input/input.png "The Input Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Asks for a value to be typed in on the I/O screen.|Input [*prompt*,]*variable*<br>Input|This command works on all calculators.|3 bytes|
        
 ### Menu Location

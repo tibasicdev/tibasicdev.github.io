@@ -1,6 +1,6 @@
 # Mode
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Calculates the mode(s) of a list of numbers.|L₁ - To store the user-inputted list of numbers|L₃ - The mode(s) of the original list of numbers<br>Ans - The mode(s) of the original list of numbers (alternates)|L₂ - Intermediate calculation storage<br>X - [Weregoose](http://www.wikidot.com/user:info/Weregoose)'s version only|[kg583](http://www.wikidot.com/user:info/kg583), [Trenly](http://www.wikidot.com/user:info/Trenly), [Weregoose](http://www.wikidot.com/user:info/Weregoose)|
 
 ```

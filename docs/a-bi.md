@@ -1,7 +1,7 @@
 ![The a+bi Command](a-bi/APLUSBI.GIF "The a+bi Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator into a+b*i* mode.|a+b*i*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

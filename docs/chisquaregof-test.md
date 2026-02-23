@@ -1,7 +1,7 @@
 ![The χ²GOF-Test( Command](chisquaregof-test/CHISQUAREGOFTEST.GIF "The χ²GOF-Test( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a χ² goodness-of-fit test.|χ²GOF-Test(*observed*,*expected*,*df*)|TI-84+/SE, OS 2.30 or higher|2 bytes|
 
 ### Menu Location

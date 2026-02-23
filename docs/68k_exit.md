@@ -1,7 +1,7 @@
 ![The Exit Command](68k_exit/exit.png "The Exit Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Exits a loop.|:Exit|This command works on all calculators.|4 bytes|
        
 ### Menu Location

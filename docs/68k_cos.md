@@ -1,7 +1,7 @@
 ![The cos() Command](68k_cos/cos.png "The cos() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the cosine of a number (usually, an angle).|cos(*angle*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

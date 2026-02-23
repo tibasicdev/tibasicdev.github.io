@@ -1,7 +1,7 @@
 ![The Input Command](input/INPUT_ANIMATED.gif "The Input Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Prompts the user to enter a value and then stores the value to the variable.<br><br>Displays the graph screen and then the user can move around the cursor.|Input<br><br>Input [*"Text"*,]*variable*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

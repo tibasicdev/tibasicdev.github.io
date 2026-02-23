@@ -1,7 +1,7 @@
 ![The PlotsOn Command](plotson/PLOTSON.GIF "The PlotsOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns stat plots (all of them, or only those specified) on.|PlotsOn [*plot numbers*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

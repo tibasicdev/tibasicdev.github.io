@@ -1,7 +1,7 @@
 ![The DS<( Command](ds/DS_ANIMATED.gif "The DS<( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Decrements a variable by 1 and skips the next command if the variable is less than the value.|DS<(*variable*,*value*)<br>*command*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Full Command](full/FULL.GIF "The Full Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the screen mode to FULL.|Full|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

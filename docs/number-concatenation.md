@@ -1,6 +1,6 @@
 # Number Concatenation
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Concatenates two whole numbers together.|*M* - the first number<br>*N* - the second number|*O* - the concatenated number|M, N, O|DarkerLine|[file numberconcatenation.zip]|
 
 ```

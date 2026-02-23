@@ -1,7 +1,7 @@
 ![The abs() Command](68k_abs/abs.png "The abs() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns the absolute value of an argument.|abs(*expression*)|This command works on all calculators.|
        
 ### Menu Location

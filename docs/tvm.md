@@ -1,7 +1,7 @@
 ![The tvm_Pmt, tvm_I%, tvm_PV, tvm_N, and tvm_FV Commands](tvm/TVM.GIF "The tvm_Pmt, tvm_I%, tvm_PV, tvm_N, and tvm_FV Commands")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Solves for the specified finance variable.|tvm_Pmt(**N**,I%,PV,FV,P/Y,C/Y)<br><br>tvm_I%(**N**,PV,PMT,FV,P/Y,C/Y)<br><br>tvm_PV(**N**,I%,PMT,FV,P/Y,C/Y)<br><br>tvm_**N**(I%,PV,PMT,FV,P/Y,C/Y)<br><br>tvm_FV(**N**,I%,PV,PMT,P/Y,C/Y)<br><br>All arguments are optional.|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

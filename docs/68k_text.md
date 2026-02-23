@@ -1,7 +1,7 @@
 ![The Text Command](68k_text/text.png "The Text Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays a line of text in a dialog box.|Text *string of text*|This command works on all calculators.|3 bytes|
        
 ### Menu Location

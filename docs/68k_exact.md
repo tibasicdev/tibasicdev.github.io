@@ -1,7 +1,7 @@
 ![The exact() Command](68k_exact/exact.png "The exact() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gives the exact value of an expression.|exact(*expression*)|This command works on all calculators.|6 bytes|
        
 ### Menu Location

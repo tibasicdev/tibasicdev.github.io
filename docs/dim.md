@@ -1,7 +1,7 @@
 ![The dim( Command](dim/DIM.GIF "The dim( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the size of a list or matrix. Can also be used to change the size.|dim(*list*<br><br>dim(*matrix*<br><br>*length*→dim(*list*<br><br>{*rows*,*columns*→dim(*matrix*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

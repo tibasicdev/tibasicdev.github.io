@@ -1,7 +1,7 @@
 ![The det( Command](det/DET.GIF "The det( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the determinant of a square matrix.|det(*matrix*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

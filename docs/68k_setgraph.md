@@ -1,7 +1,7 @@
 ![The setGraph() Command](68k_setgraph/setgraph.png "The setGraph() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes any of the graph settings.|setGraph(*setting*,*value*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

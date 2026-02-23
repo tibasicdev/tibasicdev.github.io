@@ -1,7 +1,7 @@
 ![The 1-PropZTest( Command](1-propztest/1-PROPZTEST.GIF "The 1-PropZTest( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *z*-test on a proportion.|1-PropZTest(*p<sub>0</sub>*, *x*, *n*[, *alternative*, *draw?*] )|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

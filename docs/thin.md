@@ -1,7 +1,7 @@
 ![The Thin Command](thin/Thin.png "The Thin Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets all graphing lines to be 1 pixel wide.|This command is executed by itself with no additional arguments|TI-84+CSE/CE|2 bytes|
 
 ### Menu Location

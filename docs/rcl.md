@@ -1,7 +1,7 @@
 ![Rcl](rcl/rcl.gif "Rcl")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Pastes the content of a variable|Rcl *variable*|TI-83+/84+/C/SE|N/A|
 
 ### Menu Location

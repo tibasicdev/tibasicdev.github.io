@@ -1,7 +1,7 @@
 ![The ClockOn Command](68k_clockon/clockon.png "The ClockOn Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on the hardware clock.|ClockOn|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|2 bytes|
        
 ### Menu Location

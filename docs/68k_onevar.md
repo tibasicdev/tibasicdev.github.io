@@ -1,7 +1,7 @@
 ![The OneVar Command](68k_onevar/onevar.png "The OneVar Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates several summary statistics for a list.|OneVar *list*[,*freq*,*arg3*,*arg4*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

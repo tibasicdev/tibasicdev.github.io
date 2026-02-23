@@ -1,7 +1,7 @@
 ![The round() command](68k_round/Round.png "The round() command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Truncates a number to a specified number of decimal places.|round(*value*[,*number of decimal places to round to*])|This command works on all calculators.|1 byte|
        
 ### Menu Location

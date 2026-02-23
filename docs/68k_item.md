@@ -1,7 +1,7 @@
 ![The Item Command](68k_item/item.png "The Item Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Adds an item to a [68k:Custom](68k:custom.html) or [68k:ToolBar](68k:toolbar.html) menu.|Item *text* (with Custom)<br>Item *text*,*label* (with ToolBar)|This command works on all calculators.|3 bytes|
        
 ### Menu Location

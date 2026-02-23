@@ -1,7 +1,7 @@
 ![The sinֿ¹( Command](arcsin/SININVERSE.GIF "The sinֿ¹( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the inverse sine (also called arcsine)|sinֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

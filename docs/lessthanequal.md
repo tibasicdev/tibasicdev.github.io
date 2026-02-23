@@ -1,7 +1,7 @@
 ![The ≤ Command](lessthanequal/LESSTHANEQUAL.PNG "The ≤ Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns true if value1 is less than or equal to value2.|*value1*≤*value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The max( Command](max/MAX.GIF "The max( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the maximum of two elements or of a list.|* for two numbers: max(*x*,*y*)<br>* for a list: max(*list*)<br>* comparing a number to each element of a list: max(*x*,*list*) or max(*list*,*x*)<br>* pairwise comparing two lists: max(*list1*,*list2*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

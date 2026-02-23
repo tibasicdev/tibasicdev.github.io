@@ -1,7 +1,7 @@
 ![The ZoomStd Command](68k_zoomstd/zoomstd.png "The ZoomStd Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the window variables to their default settings.|ZoomStd|This command works on all calculators.|2 bytes|
        
 ### Menu Location

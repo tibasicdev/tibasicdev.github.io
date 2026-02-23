@@ -1,7 +1,7 @@
 ![The χ²cdf( Command](chisquarecdf/CHISQUARECDF.GIF "The χ²cdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the probability for an interval of the χ² distribution.|χ²(*lower*, *upper*, *df*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

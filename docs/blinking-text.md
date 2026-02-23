@@ -1,6 +1,6 @@
 # Blinking Text
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Creates a blinking effect on the home screen.|*Str1* - the text to blink on the screen<br>*A,B* - the [Output(](output.html) coordinates for the text<br>*N* - the length of the text to be displayed|None|Str1, N, A, B, Ans|[file blink.zip]|
 
 ```

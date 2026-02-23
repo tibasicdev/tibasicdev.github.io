@@ -1,7 +1,7 @@
 ![The 2-SampTTest Command](2-sampttest/2-SAMPTTEST.GIF "The 2-SampTTest Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *t* significance test to compare the means of two populations.|2-SampTTest [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*, *pooled?* *draw?*]<br>(data list input)<br><br>2-SampTTest *x<sub>1</sub>*, *s<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *pooled?*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

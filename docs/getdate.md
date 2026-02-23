@@ -1,7 +1,7 @@
 ![The getDate Command](getdate/GETDATE.PNG "The getDate Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a list with the current date that the clock has on the TI-84+/SE/CE.|getDate→*Variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![Min](nspire_min/sample.png "Min")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns the minimum of two elements or of a list.|* for two numbers: min(*x*,*y*)<br>* for a list: min(*list*)<br>* comparing a number to each element of a list: min(*x*,*list*) or min(*list*,*x*)<br>* pairwise comparing two lists: min(*list1*,*list2*)|If this is only available on certain versions of the nspire|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ►F◄►D Command](f-d/FD2.gif "The ►F◄►D Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts a number between fraction form and decimal form.|*number*►F◄►D|TI-84 2.53MP only|2 bytes|
 
 ### Menu Location

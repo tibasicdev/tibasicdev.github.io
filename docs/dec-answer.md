@@ -1,7 +1,7 @@
 ![The DEC Answer Command](dec-answer/DECPIC.gif "The DEC Answer Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Mode command that sets Answers to DEC.|DEC Answer|TI-84 2.53MP only|2 bytes|
 
 ### Menu Location

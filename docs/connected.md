@@ -1,7 +1,7 @@
 ![The Connected Command](connected/CONNECTED.GIF "The Connected Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets all equations to use the connected graphing style, and makes it the default setting.|Connected|TI-83/84/+/SE (Not available on TI-84+CE calculators)|2 bytes|
 
 ### Menu Location

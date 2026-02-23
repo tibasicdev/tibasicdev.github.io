@@ -1,7 +1,7 @@
 ![The inString() Command](68k_instring/instring.png "The inString() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds a search string in another string.|inString(*string*, *search-string*,[)|This command works on all calculators.|3 bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The getDtFmt Command](getdtfmt/GETDTFMT.PNG "The getDtFmt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the date format of the clock on the TI-84+/SE/CE.|getDtFmt→*Variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location

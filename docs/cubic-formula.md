@@ -1,6 +1,6 @@
 # Cubic Formula
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Solves for the complex roots of a cubic equation.|*A, B, C, D* - the constants in Ax<sup>3</sup>+Bx<sup>2</sup>+Cx+D=0|The three roots (or repeated roots)|A, B, C, D, M, N, O, P, Q, R, U, V, W|theFlyingDutchman|[file cubicformula.zip]|
 
 ```

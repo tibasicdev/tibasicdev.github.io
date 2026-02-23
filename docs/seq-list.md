@@ -1,7 +1,7 @@
 ![The seq( Command](seq-list/SEQ-LIST.GIF "The seq( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a list by evaluating a formula with one variable taking on a range of values, optionally skipping by a specified step.|seq(*formula*, *variable*, *start-value*, *end-value* [, *step*])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

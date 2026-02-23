@@ -1,7 +1,7 @@
 ![The Tangent( Command](tangent/TANGENT.GIF "The Tangent( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a line tangent to an expression at the specified value.|Tangent(*expression*,*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

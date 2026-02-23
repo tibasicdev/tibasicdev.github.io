@@ -1,7 +1,7 @@
 ![The Output Command](68k_output/output.png "The Output Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Output is used to display text to pixel coordinates on the Program I/O screen.|Output *row*,*col*,*text*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

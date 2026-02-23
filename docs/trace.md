@@ -1,7 +1,7 @@
 ![The Trace Command](trace/TRACE.GIF "The Trace Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays the graph screen and allows the user to trace the currently-graphed equations and plots.|Trace|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

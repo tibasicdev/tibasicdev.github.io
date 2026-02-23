@@ -1,7 +1,7 @@
 ![The cumSum( Command](cumsum/CUMSUM.GIF "The cumSum( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates cumulative sums of a list or of the columns of a matrix.|cumSum(*list or matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

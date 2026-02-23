@@ -1,7 +1,7 @@
 ![The fMin( Command](fmin/FMIN.GIF "The fMin( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the local minimum of a function.|fMin(*f*(*var*),*var*,*lo*,*hi*[,*tol*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

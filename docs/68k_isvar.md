@@ -1,7 +1,7 @@
 ![The isVar() command](68k_isvar/isvar.png "The isVar() command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns true if the variable is defined|isVar(*varname*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

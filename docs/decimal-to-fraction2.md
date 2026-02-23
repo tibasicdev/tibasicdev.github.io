@@ -2,7 +2,7 @@
 ------
 
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a decimal into a fraction|*Ans* - Decimal input|*Ans* - Numerator (1), Denominator (2)|A, B, Ans|12Me21|
 
 ```

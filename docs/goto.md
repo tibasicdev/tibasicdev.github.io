@@ -1,7 +1,7 @@
 ![The Goto Command](goto/GOTO_ANIMATED.gif "The Goto Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Jumps to the Lbl instruction with the specified name, and continues running the program from there.|Goto *name*<br>…<br>Lbl *name*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

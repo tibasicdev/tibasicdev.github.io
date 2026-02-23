@@ -1,7 +1,7 @@
 ![The PtOn Command](68k_pton/pton.png "The PtOn Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a point on the graph screen.|PtOn *x*, *y* <br>*or* <br>PtOn {*x1, x2, x3*}, {*y1, y2, y3*}|This command works on all calculators.|2 bytes|
        
 ### Menu Location

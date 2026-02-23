@@ -1,7 +1,7 @@
 ![The Dot-Thin Command](dot-thin/Dot-Thin.png "The Dot-Thin Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets all lines to be drawn using a series of individual pixels.|This command is executed with no additional arguments|TI-84+CSE/CE|2 bytes|
 
 ### Menu Location

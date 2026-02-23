@@ -1,6 +1,6 @@
 # Find Sublist
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Authors|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Finds a sublist within a list, with different degrees of specificity.|L₁ - List to search<br>L₂ - Sublist|*Ans* - Initial index of sublist in L₁*<br>L₃ - Indices of L₁ which match the sublist*<br><br>*See individual routines for details|*L*, *X**<br><br>*Only used for gapped sublist searching|kg583| Only include this if you aren't the author of the routine.|
 
 ## Find Exact Sublist (Permutation)

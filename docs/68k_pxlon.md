@@ -1,7 +1,7 @@
 ![The PxlOn Command](68k_pxlon/pxlon.png "The PxlOn Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on a pixel on the graph screen.|PxlOn *row*, *column*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

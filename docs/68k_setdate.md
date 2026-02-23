@@ -1,7 +1,7 @@
 ![The SetDate command](68k_setdate/setdate.png "The SetDate command")
        
 |Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |
+| --- | --- |
 |setDate(*year, month, day*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|
        
 ### Menu Location

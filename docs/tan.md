@@ -1,7 +1,7 @@
 ![The tan( Command](tan/TAN.GIF "The tan( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the tangent of a real number.|tan(*angle*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

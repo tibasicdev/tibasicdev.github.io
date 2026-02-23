@@ -1,7 +1,7 @@
 ![The Shade_t( Command](shade-t/SHADE_T.GIF "The Shade_t( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the probability of an interval of the Student's *t* distribution, and graphs the distribution with the interval's area shaded.|Shade_t(*lower*, *upper*, *df*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Stop Command](stop/STOP_ANIMATED.GIF "The Stop Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Completely stops the current program and any parent programs.|Stop|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

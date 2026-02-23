@@ -1,7 +1,7 @@
 ![The logBASE( Command](logbase/logBASE.gif "The logBASE( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Allows you to find the log of a number using any base you want|logBASE(*value*,*base*)|TI-84+SE with TI-OS 2.53 MP|2 byte|
 
 ### Menu Location

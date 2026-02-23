@@ -1,7 +1,7 @@
 ![The NewFold Command](68k_newfold/http://tibasicdev.github.io/local—files/template:command/samplescreenshot.gif "The NewFold Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a folder with a specified name|NewFold *folder name*|89/92/T/+/V200|1 byte or 2 bytes|
 
 ### Menu Location

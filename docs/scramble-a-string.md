@@ -1,6 +1,6 @@
 # Scramble a String
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Scrambles a string|*Str1* - The string you want to scramble|*Ans* - The scrambled string|Ans, Str1, L, N, L₁, L₂|seb83, Edward H, Timothy Foster|[file scramble_prgm.zip]|
 
 This routine takes a string stored in Str1 and scramble it. The results is contained in Ans. For example, "ABCDE12345" could be scrambled to "B34AC1DE25".

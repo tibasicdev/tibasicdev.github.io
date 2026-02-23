@@ -1,7 +1,7 @@
 ![The ZBox Command](zbox/ZBOX.GIF "The ZBox Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms in to a smaller graphing window defined by a box drawn by the user.|ZBox|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

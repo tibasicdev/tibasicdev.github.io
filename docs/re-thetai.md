@@ -1,7 +1,7 @@
 ![The re^θi Command](re-thetai/RETHETAI.GIF "The re^θi Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator into re^θ*i* mode.|re^θ*i*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

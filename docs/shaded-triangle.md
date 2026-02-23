@@ -1,6 +1,6 @@
 # Shaded Triangle
 |Routine Summary|Inputs|Variables Used|
-|--- |--- |--- |
+| --- | --- | --- |
 |Draws a triangle on the graph screen.|L1 - X-coordinates of 3 vertices<br>L2 - Y-coordinates of 3 vertices<br>S - Whether it is shaded<br>D - draw if 1, erase if 0|L1, L2, S, D, M, N, B, C|
 
 ```

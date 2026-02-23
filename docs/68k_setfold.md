@@ -1,7 +1,7 @@
 ![The setFold() Command](68k_setfold/setfold.png "The setFold() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |A short description of what the command does.|setFold(*foldername*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

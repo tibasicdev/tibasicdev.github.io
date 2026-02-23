@@ -1,7 +1,7 @@
 ![The ֿ¹ Command](inverse/INVERSE.GIF "The ֿ¹ Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the reciprocal of a number (1 divided by the number). For matrices, finds the matrix inverse.|*value*ֿ¹|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The invNorm( Command](invnorm/INVNORM.GIF "The invNorm( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the inverse of the cumulative normal distribution function.|invNorm(*probability*[,*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

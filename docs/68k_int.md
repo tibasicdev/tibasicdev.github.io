@@ -1,7 +1,7 @@
 ![The int() Command](68k_int/int.png "The int() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the floor of a number.|int(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Med-Med Command](med-med/MED-MED.GIF "The Med-Med Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the median fit line through a set of points.|Med-Med [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

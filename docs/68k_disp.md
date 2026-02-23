@@ -1,7 +1,7 @@
 ![The Disp Command](68k_disp/disp.png "The Disp Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays an output on the Home or I/O screen|Disp //[text],var|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Repeat Command](repeat/REPEAT_ANIMATED.GIF "The Repeat Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Loops through a block of code until the condition is true. Always loops at least once.|Repeat *condition*<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

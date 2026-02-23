@@ -1,7 +1,7 @@
 ![The GridOn Command](gridon/GRIDON.GIF "The GridOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables the grid on the graph screen.|GridOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

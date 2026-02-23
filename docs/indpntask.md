@@ -1,7 +1,7 @@
 ![The IndpntAsk Command](indpntask/INDPNTASK.GIF width="192" height="128" style="border: 1px solid black;" "The IndpntAsk Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Doesn't automatically fill in table values for the independent variable.|IndpntAsk|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

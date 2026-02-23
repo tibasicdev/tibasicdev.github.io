@@ -1,7 +1,7 @@
 ![The getNum() Command](68k_getnum/getnum.png "The getNum() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the numerator of a fraction or given expression|getNum(*expression1*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

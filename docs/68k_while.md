@@ -1,7 +1,7 @@
 ![The While Command](68k_while/while.png "The While Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Repeats a block of code as long as a condition is met|:While *condition*<br>*(block of code)*<br>:EndWhile|This command works on all calculators.|2 bytes for While;<br>4 bytes for EndWhile.|
        
 ### Menu Location

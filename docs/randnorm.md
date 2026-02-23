@@ -1,7 +1,7 @@
 ![The randNorm( Command](randnorm/RANDNORM.GIF "The randNorm( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random normally-distributed number with specified mean and standard deviation.|randNorm(*µ*,*σ*,[*n*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

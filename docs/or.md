@@ -1,7 +1,7 @@
 ![The or Command](or/OR.GIF "The or Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the truth value of *value1* or *value2* being true.|*value1* or *value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

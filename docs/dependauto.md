@@ -1,7 +1,7 @@
 ![The DependAuto Command](dependauto/DEPENDAUTO.GIF width="192" height="128" style="border: 1px solid black;" "The DependAuto Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables automatic calculations in the table.|DependAuto|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

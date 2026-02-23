@@ -1,7 +1,7 @@
 ![The getTime Command](gettime/GETTIME.PNG "The getTime Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a list with the current time that the clock has on the TI-84+/SE/CE.|getTime→*Variable*|TI-84+/SE/CE|2 bytes|
 
 ### Menu Location

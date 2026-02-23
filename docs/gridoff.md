@@ -1,7 +1,7 @@
 ![The GridOff Command](gridoff/GRIDOFF.GIF "The GridOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Disables the grid on the graph screen.|GridOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

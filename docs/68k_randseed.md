@@ -1,7 +1,7 @@
 ![The RandSeed Command](68k_randseed/randseed.png "The RandSeed Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Seeds the random number generator.|RandSeed *value*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The solve( Command](solve/SOLVE.GIF "The solve( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Attempts to return a real solution to the equation *expression*=0 for a specified single variable (other variables will be treated as constants), given a guess, and optionally bounds on the values of the variable.|solve(*expression*, *variable*, *guess*, [{*lower*, *upper*}])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

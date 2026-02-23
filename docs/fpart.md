@@ -1,7 +1,7 @@
 ![The fPart( Command](fpart/FPART.GIF "The fPart( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the fractional part of a value.|fPart(*value*)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

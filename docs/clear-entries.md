@@ -1,7 +1,7 @@
 ![The Clear Entries Command](clear-entries/CLEARENTRIES.GIF "The Clear Entries Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the history of commands previously entered on the homescreen.|Clear Entries|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

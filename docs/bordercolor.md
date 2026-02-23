@@ -1,7 +1,7 @@
 ![The BorderColor Command](bordercolor/@ "The BorderColor Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes the color of the graph border.|BorderColor <color#>|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

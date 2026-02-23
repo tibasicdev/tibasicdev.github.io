@@ -1,7 +1,7 @@
 ![The 2-PropZTest( Command](2-propztest/2-PROPZTEST.GIF "The 2-PropZTest( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *z*-test to compare two proportions.|2-PropZTest(*x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*, *draw?*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

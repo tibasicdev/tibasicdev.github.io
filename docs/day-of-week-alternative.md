@@ -1,6 +1,6 @@
 # Day Of Week (Alternative)
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Calculates the day of week of a date, without using [dayOfWk(](dayofwk.html) (because it's only available on the 84+ and 84+SE)|*D* - The day<br>*M* - The month<br>*Y* - The year (Any year at all)|*Ans* - 0-6 = the day of week (Sunday - Saturday)|D, M, Y, Ans|Michael Keith|[file weekday2.zip]|
 
 ```

@@ -1,6 +1,6 @@
 # Binary/Decimal Conversion
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |These two routines convert binary to decimal and vice versa.|D / Str1|Ans / D|Str1, D, I|Michael2_3B / BlackPilar|
 Bin▶Dec
 ```

@@ -1,7 +1,7 @@
 ![The getKey() Command](68k_getkey/getkey.png "The getKey() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the last keypress.|getKey()|This command works on all calculators.|3 bytes|
        
 ### Menu Location

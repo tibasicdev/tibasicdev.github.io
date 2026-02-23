@@ -1,7 +1,7 @@
 ![The tan() Command](68k_tan/tan.png "The tan() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the tangent of a number (usually, an angle).|tan(*angle*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

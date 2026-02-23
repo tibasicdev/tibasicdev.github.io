@@ -1,6 +1,6 @@
 # String to List
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a string to a list of numbers.|*Str1* - The string you want to convert|*L₁* - The list that the numbers are stored to|L₁, A, Str1|[file stringtolist.zip]|
 
 ```

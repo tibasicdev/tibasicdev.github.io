@@ -1,6 +1,6 @@
 # Change Case of a String
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Converts a string to lower/upper case.|*Str1* - The string to convert<br>*A* - The case to convert to: 0 for lower, 1 for upper|*Ans* or *Str1*- The converted string|Str1, Str2, A, B, N|Electromagnet8|http://www.cemetech.net/forum/viewtopic.php?p=235430#235430 Cemetech|
 
 ```

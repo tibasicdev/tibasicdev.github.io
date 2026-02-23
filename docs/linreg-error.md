@@ -1,6 +1,6 @@
 # Linear Regression Standard Error
 |Routine Summary|Inputs|Outputs|Variables Used|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the standard error associated with linear regression coefficients.|*L₁* - values of the independent variable<br>*L₂* - values of the dependent variable|*Ans* - a 2-element list containing the standard errors|L₁, L₂,|
 
 ```

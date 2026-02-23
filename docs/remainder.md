@@ -1,7 +1,7 @@
 ![The remainder( Command](remainder/remainder.gif "The remainder( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Same as modulus - divides a number, but returns the remainder.|remainder(*dividend*,*divisor*)|TI-84+/SE with TI-OS 2.53 MP|2 byte|
 
 ### Menu Location

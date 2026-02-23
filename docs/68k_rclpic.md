@@ -1,7 +1,7 @@
 ![The RclPic command](68k_rclpic/rclpic.png "The RclPic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Recalls a picture variable and the graph screen at *[row][, column]*|RclPic *picVar*,*[row][, column]*|This command works on all calculators.|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The getTmStr( Command](gettmstr/GETTMSTR.PNG "The getTmStr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the current time of the clock on the TI-84+/SE as a string.|getTmStr(*value*)→*variable*|TI-84+/SE|2 bytes|
 
 ### Menu Location

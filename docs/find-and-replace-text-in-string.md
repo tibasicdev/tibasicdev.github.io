@@ -1,6 +1,6 @@
 # Find And Replace Text In String
 |Routine Summary|Inputs|Outputs|Variables Used|Authors|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Finds specific text in a string and replaces all occurrences with replacement text.|*Str1* - The main string to modify<br>*Str2* - What to search for<br>*Str3* - What to replace with|*Str1* - the modified string|Str1, Str2, Str3, I, J|Michael2_3B|https://www.cemetech.net/forum/viewtopic.php?p=271251#271251 Cemetech|
 
 ```

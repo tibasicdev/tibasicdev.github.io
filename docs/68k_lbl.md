@@ -1,7 +1,7 @@
 ![The Lbl Command](68k_lbl/lbl.png "The Lbl Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Marks a point in the program for use with [68k:Goto](68k:goto.html) and [68k:Toolbar](68k:toolbar.html)..EndTBar.|:Lbl *label-name*|This command works on all calculators.|2 bytes (plus 1-10 bytes for label name)|
        
 ### Menu Location

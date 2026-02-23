@@ -1,7 +1,7 @@
 ![The string() Command](68k_string/string.png "The string() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts any expression to a string.|string(*expression*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

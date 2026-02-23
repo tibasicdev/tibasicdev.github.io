@@ -1,7 +1,7 @@
 ![The normalcdf( Command](normalcdf/NORMALCDF.GIF "The normalcdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the probability for an interval of the normal curve.|normalcdf(*lower*, *upper* [, *μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

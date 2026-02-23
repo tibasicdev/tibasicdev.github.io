@@ -1,7 +1,7 @@
 ![The nCr() Command](68k_ncr/ncr.png "The nCr() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Performs the operation "n choose r" using n and r.|nCr(*expr1,expr2*)|This command works on all calculators.|
        
 ### Menu Location

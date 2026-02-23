@@ -1,7 +1,7 @@
 ![The xor Command](xor/XOR.GIF "The xor Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the truth value of *value1* or *value2*, but not both, being true.|*value1* xor *value2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Matr►list( Command](matr-list/MATRTOLIST.GIF "The Matr►list( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores one or more columns of a given matrix to list variables|Matr►list(*matrix*, *list-var1*, [*list-var2*, ...])<br>Matr►list(*matrix*, *column#*, *list-var*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

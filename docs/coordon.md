@@ -1,7 +1,7 @@
 ![The CoordOn Command](coordon/COORDON.GIF "The CoordOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on the cursor coordinate display on the graph screen.|CoordOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

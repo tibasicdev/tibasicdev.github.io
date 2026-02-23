@@ -1,7 +1,7 @@
 ![The Rename Command](68k_rename/rename.png "The Rename Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Renames a variable into another one|Rename *var1,undefinedvar2*|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

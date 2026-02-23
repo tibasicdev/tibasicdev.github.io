@@ -1,7 +1,7 @@
 ![The GraphStyle( Command](graphstyle/GRAPHSTYLE.GIF "The GraphStyle( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the graphing style of a graphing equation in the current mode.|GraphStyle(*equation #*, *style #*)|TI-83/84/+/SE/CE|2 bytes|
 
 ### Menu Location

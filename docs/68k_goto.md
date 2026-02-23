@@ -1,7 +1,7 @@
 ![The Goto Command](68k_goto/goto.png "The Goto Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Jumps to a label somewhere else in the program.|:Goto *label-name*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

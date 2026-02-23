@@ -1,7 +1,7 @@
 ![The Unarchiv Command](68k_unarchiv/unarchiv.png "The Unarchiv Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Unarchives a given variable|Unarchiv *variable*|This command works on all calculators.|
        
 ### Menu Location

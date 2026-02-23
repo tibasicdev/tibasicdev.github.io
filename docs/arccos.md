@@ -1,7 +1,7 @@
 ![The cosֿ¹( Command](arccos/COSINVERSE.GIF "The cosֿ¹( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the inverse cosine (also called arccosine)|cosֿ¹(*number*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

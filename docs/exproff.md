@@ -1,7 +1,7 @@
 ![The ExprOff Command](exproff/EXPROFF.GIF "The ExprOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The number of the equation or plot being traced is displayed in the top right corner.|ExprOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

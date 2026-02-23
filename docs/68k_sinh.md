@@ -1,7 +1,7 @@
 ![The sinh() Command](68k_sinh/sinh.png "The sinh() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the hyperbolic sine of a number.|sinh(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

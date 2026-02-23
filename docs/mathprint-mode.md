@@ -1,7 +1,7 @@
 ![The MATHPRINT Command](mathprint-mode/ "The MATHPRINT Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Mode command that puts the calculator into Classic mode.|MATHPRINT|TI-84 2.53MP or later|2 bytes|
 
 ### Menu Location

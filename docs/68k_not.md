@@ -1,7 +1,7 @@
 ![The not (~) Command](68k_not/not.png "The not (~) Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Reverses a condition.<br>Can also be used as a bitwise "not" on integers.|not *condition*<br>not *integer*|This command works on all calculators.|1 byte|
        
 ### Menu Location

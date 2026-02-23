@@ -1,6 +1,6 @@
 # Quadratic Formula
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Solves for the complex roots of a quadratic equation.|*A, B, C* - the constants in Ax<sup>2</sup>+Bx+C=0|*Ans* - a 2-element list of the two roots (or the one repeated root)|A, B, C|thornahawk|[file Quad_Routines.zip]|
 
 ```

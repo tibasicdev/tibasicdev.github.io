@@ -1,7 +1,7 @@
 ![Ans](nspire_ans/sample.png "Ans")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |A short description of what the command does.|The generic syntax of calling the command, with arguments.|If this is only available on certain versions of the nspire|
 
 ### Menu Location

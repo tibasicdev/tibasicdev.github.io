@@ -1,7 +1,7 @@
 ![The or Command](68k_or/or.png "The or Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Tests if either of two conditions is true. <br>Can also be used as a bitwise "or" on integers.|*condition1* or *condition2*<br>*integer1* or *integer2*|This command works on all calculators.|1 byte|
        
 ### Menu Location

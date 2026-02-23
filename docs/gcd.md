@@ -1,7 +1,7 @@
 ![The gcd( Command](gcd/GCD.GIF "The gcd( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the greatest common divisor of two values.|gcd(*value1*, *value2*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

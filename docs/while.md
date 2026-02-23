@@ -1,7 +1,7 @@
 ![The While Command](while/WHILE_ANIMATED.GIF "The While Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Loops through a block of code while the condition is true.|While *condition*<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

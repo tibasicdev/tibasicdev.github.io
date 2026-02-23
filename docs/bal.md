@@ -1,7 +1,7 @@
 ![The bal( Command](bal/BAL.GIF "The bal( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the remaining balance after *n* payments in an [amortization schedule](https://en.wikipedia.org/wiki/amortization_schedule).|bal(*n*,[*roundvalue*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

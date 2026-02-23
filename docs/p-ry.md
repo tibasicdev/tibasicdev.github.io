@@ -1,7 +1,7 @@
 ![The P►Ry( Command](p-ry/PTORY.GIF "The P►Ry( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |P►Ry( calculates the y-value (in Cartesian coordinates) given Polar coordinates.|P►Ry(r,θ)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

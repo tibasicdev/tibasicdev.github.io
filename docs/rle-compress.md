@@ -1,6 +1,6 @@
 # Run-Length Encoding (RLE) Compression
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Compresses a list of numbers using RLE compression.|*L₁* - The list of numbers you want to compress|*L₁* - The list of compressed numbers|L₁, I, J|[file rlecompress.zip]|
 
 ```

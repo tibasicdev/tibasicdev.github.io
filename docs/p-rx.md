@@ -1,7 +1,7 @@
 ![The P►Rx( Command](p-rx/PTORX.GIF "The P►Rx( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |P►Rx( calculates the x-value (in Cartesian coordinates) given Polar coordinates.|P►Rx(r,θ)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The root() Command](68k_root/root.png "The root() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the *n*<sup>th</sup> root of a value.|root(*value*,*n*)|This command requires a TI-89 Titanium or Voyage 200 calculator with AMS version 3.10 or higher.|2 bytes|
        
 ### Menu Location

@@ -1,6 +1,6 @@
 # Modular Arithmetic Solver
 |Routine Summary|Inputs|Variables Used|
-|--- |--- |--- |
+| --- | --- | --- |
 |Finds the remainder of a division between two numbers.|A,M|A,M|
 
 ```

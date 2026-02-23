@@ -1,7 +1,7 @@
 ![The checkTmr( Command](checktmr/CHECKTMR.GIF "The checkTmr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the number of seconds since the timer was started.|checkTmr(*Variable*)|TI-84+/SE/CSE|2 bytes|
 
 ### Menu Location

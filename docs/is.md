@@ -1,7 +1,7 @@
 ![The IS>( Command](is/IS_ANIMATED.gif "The IS>( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Increments a variable by 1 and skips the next command if the variable is greater than the value.|IS>(*variable*,*value*)<br>*command*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

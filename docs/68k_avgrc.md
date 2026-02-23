@@ -1,7 +1,7 @@
 ![Avgrc](68k_avgrc/sample.png "Avgrc")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the forward-difference quotient (average<br>rate of change).|avgRC(expression1, var [,h])|This command works on all calculators.|? byte(s)|
        
 ### Menu Location

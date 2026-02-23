@@ -81,7 +81,7 @@ class Header:
             for name, string in names.items():
                 if (value := kwargs.get(name, "").replace("@@", "")):
                     header += f"{heading}|"
-                    sep += "--- |"
+                    sep += " --- |"
                     row += f"{string.format(**{name: value})}|".replace("\n", "<br>")
                     break    
 
@@ -277,6 +277,22 @@ class Converter:
         "nspire-math":
             "$$ {$eqn} $$",
 
+        "program":
+            Header("""![{$title}]({$filename}/{$picture} "{$title}")
+            
+            {$header}
+            {$sep}
+            {$row}
+            """,
+            {
+                "Program Summary": {"$summary": "{$summary}"},
+                "Program Size": {"$size": "{$size}"},
+                "Uses Libraries?": {"$libraries": "{$libraries}"},
+                "Calculator Compatibility": {"$compatibility": "{$compatibility}"},
+                "Author": {"$author": "{$author}"},
+                "Download": {"$download": "{$download}"}
+            }),
+
         "prgm-code":
             inspect.cleandoc("""
             ```
@@ -438,6 +454,7 @@ EXCLUDE_FILES = [
     "pages-3",
     "pages-not-command-tag",
     "to-do",
+    "tr",
     "upload",
     "uploading-help"
 ]

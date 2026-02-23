@@ -1,7 +1,7 @@
 ![The CyclePic command](68k_cyclepic/cyclepic.png "The CyclePic command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Displays picture variables in a cycle for a given amount of time per picture.|CyclePic *picNameString*, *number of pictures* *[[,wait][,cycles][,direction]]*|This command works on all calculators.|
        
 ### Menu Location

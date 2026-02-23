@@ -1,7 +1,7 @@
 ![The dbd( Command](dbd/DBD.GIF "The dbd( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the number of days between two days.|dbd(*date1*, *date2*)<br><br>Date format — one of:<br>* DDMM.YY<br>* MM.DDYY|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

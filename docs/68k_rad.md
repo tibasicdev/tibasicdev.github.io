@@ -1,7 +1,7 @@
 ![The ▶Rad Command](68k_rad/rad.png "The ▶Rad Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Converts an angle measure to radians, if necessary.|*angle*▶Rad|This command requires a TI-89 Titanium or Voyage 200 calculator with AMS version 3.00 or higher.|
        
 ### Menu Location

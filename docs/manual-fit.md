@@ -1,7 +1,7 @@
 ![The Manual-Fit Command](manual-fit/SCREEN02.BMP "The Manual-Fit Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Allows user to create a line of best fit and modify it|Manual-Fit {*Function*}|TI-84+/SE (OS 2.30 or greater)|2 bytes|
 
 ### Menu Location

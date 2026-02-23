@@ -1,7 +1,7 @@
 ![The TextColor( Command](textcolor/TextColor(-2.png "The TextColor( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Defines the color of the text|TextColor(*color*<br>TextColor(*number*|TI-84+CSE and TI-84+CE|2 bytes|
 
 ### Menu Location

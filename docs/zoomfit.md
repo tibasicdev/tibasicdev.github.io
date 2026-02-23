@@ -1,7 +1,7 @@
 ![The ZoomFit Command](zoomfit/http://tibasicdev.github.io/local—files/zoomfit/ZoomFit_Example.gif "The ZoomFit Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a graphing window that works for the currently graphed equations.|ZoomFit|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

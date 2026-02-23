@@ -1,7 +1,7 @@
 ![The Horizontal Command](horizontal/HORIZONTAL.GIF "The Horizontal Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a horizontal line on the graph screen.|Horizontal *Y*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

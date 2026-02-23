@@ -1,7 +1,7 @@
 ![The remain() Command](68k_remain/remain.png "The remain() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the remainder of a division.|remain(*dividend*,*divisor*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

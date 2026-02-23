@@ -1,7 +1,7 @@
 ![The IndpntAuto Command](indpntauto/INDPNTAUTO.GIF width="192" height="128" style="border: 1px solid black;" "The IndpntAuto Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Automatically fills in the table values for the independent variable.|IndpntAuto|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

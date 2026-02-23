@@ -1,6 +1,6 @@
 # Key Code to Number (Number Pad Reader)
 |Routine Summary|Inputs|Outputs|Authors|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Outputs the number corresponding to a keypress.|*None*|*Ans* - The number pressed.|Unknown, Toothless the Night Fury|
 
 ```

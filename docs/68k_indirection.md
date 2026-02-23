@@ -1,7 +1,7 @@
 ![The # Command](68k_indirection/indirection.png "The # Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gets a variable given its name as a string.|#*var-name*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

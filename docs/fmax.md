@@ -1,7 +1,7 @@
 ![The fMax( Command](fmax/FMAX.GIF "The fMax( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the local maximum of a function.|fMax(*f*(*var*),*var*,*lo*,*hi*[,*tol*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The AsmPrgm Command](asmprgm/ASMPRGM.GIF "The AsmPrgm Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |This command must be the beginning of an assembly program.|AsmPrgm|TI-83+/84+/SE/CSE/CE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location

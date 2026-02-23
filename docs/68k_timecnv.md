@@ -1,7 +1,7 @@
 ![The TimeCnv command](68k_timecnv/timecnv.png "The TimeCnv command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Converts seconds into a list containing days, hours, minutes, and seconds.|dayOfWk(*seconds*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|
        
 ### Menu Location

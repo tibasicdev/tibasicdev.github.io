@@ -1,7 +1,7 @@
 ![The conj( Command](conj/CONJ.GIF "The conj( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the complex conjugate of a complex number.|conj(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

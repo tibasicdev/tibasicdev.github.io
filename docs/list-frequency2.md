@@ -1,6 +1,6 @@
 # List Frequency Fast
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns a list of the frequency of values in another list sorted.|*L₁* - the list you want to find the frequency of|*L₂* - the values of L₁ without repetition sorted<br>*L₃* - the frequencies of the values in the list L₂ sorted|L₁, L₂, L₃, θ|Galandros|[file listfrequency2]|
 
 ```

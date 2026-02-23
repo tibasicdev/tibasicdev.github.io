@@ -1,7 +1,7 @@
 ![The Pmt_Bgn Command](pmt-bgn/PMT_BGN.GIF "The Pmt_Bgn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the TVM solver to use payments at the beginning of a period.|Pmt_Bgn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

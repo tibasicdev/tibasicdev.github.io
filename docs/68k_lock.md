@@ -1,7 +1,7 @@
 ![The Lock Command](68k_lock/lock.png "The Lock Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Locks the specified variables|Lock *var1, var2, etc*|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

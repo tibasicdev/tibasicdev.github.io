@@ -1,7 +1,7 @@
 ![The Web Command](web/WEB.GIF "The Web Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets sequence equations to be graphed as web diagrams.|Web|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

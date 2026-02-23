@@ -1,7 +1,7 @@
 ![The Menu( Command](menu/MENU_ANIMATED.gif "The Menu( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays a generic menu on the home screen, with up to seven (or nine on color calculators) options for the user to select.|Menu("*Title*","*Option 1*",Label 1[,...,"*Option 7*",Label 7])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

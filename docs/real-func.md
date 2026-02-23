@@ -1,7 +1,7 @@
 ![The real( Command](real-func/REAL.GIF "The real( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the real part of a complex value.|real(*value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

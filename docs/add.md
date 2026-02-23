@@ -1,7 +1,7 @@
 ![The + Command](add/ADD.GIF "The + Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the sum of two numbers, or joins two strings together.|*value1* + *value2*<br><br>*string1* + *string2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

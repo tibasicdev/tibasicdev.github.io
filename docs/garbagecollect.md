@@ -1,7 +1,7 @@
 ![The GarbageCollect Command](garbagecollect/GARBAGECOLLECT.GIF "The GarbageCollect Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears up 'garbage' that comes from unarchiving or deleting archived files.|GarbageCollect|TI-83+/84+/SE<br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location

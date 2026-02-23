@@ -1,7 +1,7 @@
 ![The seq() Command](68k_seq/seq.png "The seq() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates a list by evaluating a formula over a range of values.|seq(*formula*,*variable*,*start*,*end*[,*step-size*]|This command works on all calculators.|2 bytes|
        
 ### Menu Location

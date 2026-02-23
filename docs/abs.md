@@ -1,7 +1,7 @@
 ![The abs( Command](abs/ABS.GIF "The abs( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the absolute value of a real number, and the complex absolute value of a complex number.|abs(*value*)|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

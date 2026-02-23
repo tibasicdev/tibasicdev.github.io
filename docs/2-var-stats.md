@@ -1,7 +1,7 @@
 ![The 2-Var Stats Command](2-var-stats/2-VARSTATS.GIF "The 2-Var Stats Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates some common statistics for two lists of data, and stores them to statistical variables. They're also displayed in a scrollable list, if done outside a program.|2-Var Stats [*list1*, *list2*, [*freqlist*]]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

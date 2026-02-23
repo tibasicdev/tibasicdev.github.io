@@ -1,7 +1,7 @@
 ![The coshֿ¹( Command](arcosh/COSHINVERSE.GIF "The coshֿ¹( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the inverse hyperbolic cosine of a value.|coshֿ¹(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

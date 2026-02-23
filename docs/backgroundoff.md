@@ -1,7 +1,7 @@
 ![The BackgroundOff Command](backgroundoff/backgroundOff.png "The BackgroundOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off the graph Background, setting it back to the default white color.|BackgroundOff|TI-84+CE/CSE|2 bytes|
 
 ### Menu Location

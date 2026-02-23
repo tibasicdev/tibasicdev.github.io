@@ -1,7 +1,7 @@
 ![The Pmt_End Command](pmt-end/PMT_END.GIF "The Pmt_End Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the TVM solver to use payments at the end of a period.|Pmt_End|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

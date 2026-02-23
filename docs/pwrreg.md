@@ -1,7 +1,7 @@
 ![The PwrReg Command](pwrreg/PWRREG.GIF "The PwrReg Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit power curve through a set of points.|PwrReg [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The r (Radian Symbol) Command](radian-symbol/RADIAN.GIF "The r (Radian Symbol) Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |If the calculator is in degree mode, the <sup>r</sup> (radian) symbol converts a radian angle to degrees.|*angle*<sup>r</sup>|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

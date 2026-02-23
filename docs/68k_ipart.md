@@ -1,7 +1,7 @@
 ![The iPart() Command](68k_ipart/ipart.png "The iPart() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the integer part of a number.|iPart(*value*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

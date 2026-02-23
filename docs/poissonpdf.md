@@ -1,7 +1,7 @@
 ![The poissonpdf( Command](poissonpdf/POISSONPDF.GIF "The poissonpdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the Poisson probability for a single value|poissonpdf(*mean*, *value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

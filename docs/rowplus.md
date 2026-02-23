@@ -1,7 +1,7 @@
 ![The row+( Command](rowplus/ROWPLUS.GIF "The row+( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Adds one row of a matrix to another.|row+(*matrix*,*row1*,*row2*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

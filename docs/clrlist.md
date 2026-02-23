@@ -1,7 +1,7 @@
 ![The ClrList Command](clrlist/CLRLIST.GIF "The ClrList Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the dimension of a list or lists to 0.|ClrList *list1*, [*list2*, *list3*, ...]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

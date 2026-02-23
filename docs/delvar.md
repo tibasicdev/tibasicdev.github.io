@@ -1,7 +1,7 @@
 ![The DelVar Command](delvar/DELVAR.GIF "The DelVar Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Deletes a variable from memory.|DelVar *variable*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

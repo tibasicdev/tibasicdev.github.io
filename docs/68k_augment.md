@@ -1,7 +1,7 @@
 ![Augment](68k_augment/sample.png "Augment")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |returns a new list or matrix that is list2/matrix2 appended to list1/matrix1|augment(list1,list2)<br>augment(matrix1, matrix2)<br>augment(matrix1; matrix2)|This command works on all calculators.|? byte(s)|
        
 ### Menu Location

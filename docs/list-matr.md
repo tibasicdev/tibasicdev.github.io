@@ -1,7 +1,7 @@
 ![The List►matr( Command](list-matr/LISTTOMATR.GIF "The List►matr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Builds a matrix from one or more lists.|List►matr(*list1*, [*list2*, ...], *matrix*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

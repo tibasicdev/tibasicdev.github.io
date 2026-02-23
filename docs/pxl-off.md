@@ -1,7 +1,7 @@
 ![The Pxl-Off( Command](pxl-off/PXL-OFF.GIF "The Pxl-Off( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off a pixel on the graph screen.|Pxl-Off(*row*,*column*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

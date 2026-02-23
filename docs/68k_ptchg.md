@@ -1,7 +1,7 @@
 ![The PtChg Command](68k_ptchg/ptchg.png "The PtChg Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Inverts a point on the graph screen.|PtChg *x*, *y*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

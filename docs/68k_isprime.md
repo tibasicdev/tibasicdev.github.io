@@ -1,7 +1,7 @@
 ![The isPrime() Command](68k_isprime/isprime.png "The isPrime() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns true for prime arguments and false for composite arguments.|isPrime(*expression*)|This command works on all calculators.|
        
 ### Menu Location

@@ -1,6 +1,6 @@
 # Fake Home Screen
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Fakes the home screen.|Str1,A,(B)|none|Str1,A|Adm. Wiggin|[file fakehomescreen.zip]|
 
 ```

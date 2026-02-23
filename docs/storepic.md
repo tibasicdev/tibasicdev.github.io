@@ -1,7 +1,7 @@
 ![The StorePic Command](storepic/STOREPIC.GIF "The StorePic Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Stores the graph screen to a picture (one of Pic1, Pic2, ..., Pic0)|StorePic *number*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

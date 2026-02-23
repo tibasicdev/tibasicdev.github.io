@@ -1,7 +1,7 @@
 ![The mid() Command](68k_mid/mid.png "The mid() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Selects a substring from a string, or a sublist from a list.|mid(*string-or-list*,*start*[,*count*])|This command works on all calculators.|2 bytes|
        
 ### Menu Location

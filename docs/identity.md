@@ -1,7 +1,7 @@
 ![The identity( Command](identity/IDENTITY.GIF "The identity( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates an *n* by *n* identity matrix.|identity(*n*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

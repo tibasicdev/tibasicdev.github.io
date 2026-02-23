@@ -1,7 +1,7 @@
 ![The DispGraph Command](dispgraph/DISPGRAPH.GIF "The DispGraph Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays the graph screen.|DispGraph|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

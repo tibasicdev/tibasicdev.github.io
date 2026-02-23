@@ -1,7 +1,7 @@
 ![The Asm( Command](asm-command/ASM.GIF "The Asm( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Runs an assembly program.|Asm(prgm*NAME*)|TI-83+/84+/SE<br><br>(not available on the regular TI-83)|2 bytes|
 
 ### Menu Location

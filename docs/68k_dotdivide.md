@@ -1,7 +1,7 @@
 ![The ./ Command](68k_dotdivide/dotdivide.png "The ./ Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Divides two values, doing so element-by-element for two matrices.|*value* ./ *value*|This command works on all calculators.|1 byte|
        
 ### Menu Location

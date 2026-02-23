@@ -1,7 +1,7 @@
 ![The Arccos (cos^-1) command](68k_arccos/arccos.png "The Arccos (cos^-1) command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the inverse cosine of a number (usually, an integer or fraction).|cos<sup>-1</sup>(*angle*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

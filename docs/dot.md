@@ -1,7 +1,7 @@
 ![The Dot Command](dot/DOT.GIF "The Dot Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets all equations to use the dotted-line graphing style, and makes it the default setting.|Dot|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

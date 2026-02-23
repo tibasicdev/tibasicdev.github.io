@@ -1,7 +1,7 @@
 ![The randMat() Command](68k_randmat/randmat.png "The randMat() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random matrix.|randMat(*rows*,*columns*|This command works on all calculators.|1 byte|
        
 ### Menu Location

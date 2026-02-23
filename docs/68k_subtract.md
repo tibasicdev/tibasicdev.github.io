@@ -1,7 +1,7 @@
 ![The - Command](68k_subtract/subtract.png "The - Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the difference of two numbers.|*value1* - *value2*|This command works on all calculators.|1 byte|
        
 ### Menu Location

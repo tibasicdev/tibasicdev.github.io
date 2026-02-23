@@ -4,7 +4,7 @@
 ![ZQuadrant1](zquadrant1/ "ZQuadrant1")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts Quadrant 1 in the viewing window.|none|OS 2.53MP and above|2 bytes|
 
 ### Menu Location

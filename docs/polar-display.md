@@ -1,7 +1,7 @@
 ![The ►Polar Command](polar-display/POLAR.GIF "The ►Polar Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Formats a complex value in polar form when displaying it.|*value*►Polar|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

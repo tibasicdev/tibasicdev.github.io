@@ -1,7 +1,7 @@
 ![The R►Pθ( Command](r-ptheta/RTOPTHETA.GIF "The R►Pθ( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |R►Pθ( calculates the angle coordinate (in polar coordinates) given the Cartesian coordinates.|R►Pθ(*x*,*y*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The DropDown Command](68k_dropdown/dropdown.png "The DropDown Command")
        
 |Command Summary|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Creates a custom menu|This command works on all calculators.|2 bytes|
        
 ### Menu Location

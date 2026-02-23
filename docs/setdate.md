@@ -1,7 +1,7 @@
 ![The setDate( Command](setdate/SETDATE.PNG "The setDate( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the date of the clock on the TI-84+/SE.|setDate(*year*,*month*,*day*)|TI-84+/SE|2 bytes|
 
 ### Menu Location

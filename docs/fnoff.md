@@ -1,7 +1,7 @@
 ![The FnOff Command](fnoff/FNOFF.GIF "The FnOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off equations in the Y= editor (all of them, or only the ones specified)|FnOff [*integer*] [,*integer*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

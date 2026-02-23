@@ -1,7 +1,7 @@
 ![The fnInt( Command](fnint/FNINT.GIF "The fnInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Approximately computes a definite integral.|fnInt(*f*(*var*),*var*,*a*,*b*[,*tol*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

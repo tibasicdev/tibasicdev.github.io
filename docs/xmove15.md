@@ -1,0 +1,10 @@
+# Xmove15
+![Xmove15](xmove15/xmove15.gif style="width:200px; height:135px;" "Xmove15")
+
+|Program Summary|Program Size|Uses Libraries?|Calculator Compatibility|Author|Download|
+| --- | --- | --- | --- | --- | --- |
+|A quality version of the classic number slider game.|1,574 bytes|No, it's pure TI-Basic|TI-83/84/+/SE|[XprO](http://www.ticalc.org/archives/files/authors/35/3560.html)|[xmove15.zip](http://tibasicdev.github.io/local--files/xmove15/xmove15.zip)|
+
+Xmove15 is a small, but fun puzzle game that involves moving numbers around a 4x4 board until you get them in the order 1 to 15 (with the numbers wrapping from the right edge to the left edge on the next row). You control a cursor that you use to move the numbers: put the cursor over a number next to the empty spot, and the number and the empty spot will be swapped when you press 2nd.
+
+Just like with XprO's other quality game, [Xsnake](xsnake.html), Xmove15 features great TI-Basic code. The game makes ample use of control structures, with a very easy to follow organization and setup, as well as showcasing several optimizations for speed and size. Simply put, it is a lot of fun to look at the underlying code, and to see what is possible in a small number of bytes.

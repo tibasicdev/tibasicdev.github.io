@@ -1,7 +1,7 @@
 ![The newList() Command](68k_newlist/newlist.png "The newList() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a list filled with zeroes.|newList(*length*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

@@ -1,6 +1,6 @@
 # Run-Length Encoding (RLE) Decompression
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Decompresses a run length-encoded list.|*L₁* - The compressed list|*L₁* - The decompressed list|L₁, I, J|http://tibasicdev.github.io/local—files/rle-decompress/rledecompress.zip rledecompress.zip|
 
 ```

@@ -1,7 +1,7 @@
 ![The Pause Command](68k_pause/pause.png "The Pause Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Pauses the program until ENTER is pressed, optionally displaying text on the I/O screen.|:Pause [*expression*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

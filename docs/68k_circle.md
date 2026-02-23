@@ -1,7 +1,7 @@
 ![The Circle Command](68k_circle/Circle68K.gif "The Circle Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a circle on the graphscreen|*Circle X,Y,radius,drawing mode*|TI-89(T)/92|1 byte or 2 bytes|
 
 ### Menu Location

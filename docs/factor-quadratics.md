@@ -1,6 +1,6 @@
 # Factoring Quadratics
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |A program that factors a quadratic using the inspection method.|A,B,C|L<sub>1</sub>|A,B,C,P,F,L,N,M,J,O,I,L<sub>1</sub>|b2jammer|[file quadfact.zip]|
 
 ```

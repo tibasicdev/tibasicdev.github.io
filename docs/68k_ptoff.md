@@ -1,7 +1,7 @@
 ![The PtOff Command](68k_ptoff/ptoff.png "The PtOff Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Erases a point on the graph screen.|PtOff *x*, *y*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The poissoncdf( Command](poissoncdf/POISSONCDF.GIF "The poissoncdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the Poisson cumulative probability for a single value|poissoncdf(*mean*, *value*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

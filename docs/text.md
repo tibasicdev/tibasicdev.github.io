@@ -1,7 +1,7 @@
 ![The Text( Command](text/TEXT.GIF "The Text( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays a number, a string, or several numbers and strings (you may mix and match) at (row, column) on the graph screen, using the small font.<br><br>The alternative syntax allows using the large font on the graph screen (TI-83+ and higher only)|Text(*row*, *column*, *value1* [,*value2*, ...])<br><br>(83+ and higher only)<br>Text(*-1*, *row*, *column*, *value1* [,*value2*, ...])|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

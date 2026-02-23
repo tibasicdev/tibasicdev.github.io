@@ -1,7 +1,7 @@
 ![The ZSquare Command](zsquare/Zsquare_example.gif "The ZSquare Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a square window.|ZSquare|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

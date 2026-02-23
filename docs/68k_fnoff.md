@@ -1,7 +1,7 @@
 ![The FnOff Command](68k_fnoff/fnoff.png "The FnOff Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |This command turns off all or a group of functions.|FnOff *[optional function numbers]*|This command works on all calculators.|
        
 ### Menu Location

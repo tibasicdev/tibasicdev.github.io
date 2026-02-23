@@ -1,7 +1,7 @@
 ![The dayOfWk( Command](dayofwk/DAYOFWK.PNG "The dayOfWk( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns an integer from 1 to 7, each representing a day of the week, given a date.|dayOfWk(*year*,*month*,*day*)|TI-84+/SE|2 bytes|
 
 ### Menu Location

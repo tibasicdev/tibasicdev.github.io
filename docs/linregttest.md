@@ -1,7 +1,7 @@
 ![The LinRegTTest Command](linregttest/LINREGTTEST.GIF "The LinRegTTest Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit line through a set of points, then uses a significance test on the slope of the line.|LinRegTTest [*x-list*, *y-list*, [*frequency*], [*alternative*], [*equation*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

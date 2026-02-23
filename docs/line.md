@@ -1,7 +1,7 @@
 ![The Line( Command](line/LINE.GIF "The Line( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a line at any angle.|Line(X<sub>1</sub>,Y<sub>1</sub>,X<sub>2</sub>,Y<sub>2</sub>*[,erase,color,style]*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

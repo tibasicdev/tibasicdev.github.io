@@ -1,7 +1,7 @@
 ![The ExprOn Command](expron/EXPRON.GIF "The ExprOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The equation or plot being traced is displayed in long form at the top of the screen.|ExprOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

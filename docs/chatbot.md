@@ -1,6 +1,6 @@
 # Chatbot
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Simulates a simple AI chatbot.|None|None|Str1, A|alexrudd|[file chatbot.zip]|
 
 ```

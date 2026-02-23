@@ -1,7 +1,7 @@
 ![The randInt( Command](randint/RANDINT.GIF "The randInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random integer between *min* and *max*, inclusive, or a list of such numbers.|randInt(*min*,*max*[,*# of numbers*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

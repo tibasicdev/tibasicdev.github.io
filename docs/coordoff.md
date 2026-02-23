@@ -1,7 +1,7 @@
 ![The CoordOff Command](coordoff/COORDOFF.GIF "The CoordOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off the cursor coordinate display on the graph screen.|CoordOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

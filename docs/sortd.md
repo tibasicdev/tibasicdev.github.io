@@ -1,7 +1,7 @@
 ![The SortD( Command](sortd/SORTD.GIF "The SortD( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sorts a list in descending order.<br><br>For more than one list, sorts the first, and reorders other lists accordingly.|SortD(*list1* [,*list2*, ...])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

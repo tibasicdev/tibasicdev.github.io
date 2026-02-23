@@ -1,7 +1,7 @@
 ![The Thick Command](thick/Thick.png "The Thick Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts all lines to Thick (2-3 pixel wide) lines|The command is called by itself with no additional arguments|TI-84+CSE/CE|2 bytes|
 
 ### Menu Location

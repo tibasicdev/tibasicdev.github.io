@@ -1,7 +1,7 @@
 ![The G-T Command](g-t/G-T.GIF "The G-T Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the screen mode to G-T.|G-T|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

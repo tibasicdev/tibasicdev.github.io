@@ -1,7 +1,7 @@
 ![The ZoomSto Command](zoomsto/http://i66.tinypic.com/2evw0hi.gif "The ZoomSto Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Saves the current window settings.|ZoomSto|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

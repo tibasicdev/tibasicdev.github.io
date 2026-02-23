@@ -1,7 +1,7 @@
 ![The ►Frac Command](frac/FRAC.GIF "The ►Frac Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays the fractional value of a number|*Decimal*►Frac|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

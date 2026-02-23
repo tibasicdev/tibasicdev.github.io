@@ -1,7 +1,7 @@
 ![The shift() Command](68k_shift/shift.png "The shift() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Shifts the elements of a list, string, or binary integer.|shift(*object*[,*places*])|This command works on all calculators.|2 bytes.|
        
 ### Menu Location

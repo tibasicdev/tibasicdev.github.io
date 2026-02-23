@@ -1,7 +1,7 @@
 ![The Pxl-On( Command](pxl-on/PXL-ON.GIF "The Pxl-On( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on a pixel on the graph screen.|Pxl-On(*row*,*column*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

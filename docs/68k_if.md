@@ -1,7 +1,7 @@
 ![The If Command](68k_if/if.png "The If Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets a condition for a line or several lines to be executed.|If *condition*<br>://statement*<br>------<br>:If *condition// Then<br>…<br>:EndIf|This command works on all calculators.|2 bytes for If or If..Then;<br>2 bytes for Else;<br>2 bytes for ElseIf..Then;<br>2 bytes for EndIf.|
        
 ### Menu Location

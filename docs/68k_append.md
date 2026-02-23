@@ -1,7 +1,7 @@
 ![The & Command](68k_append/concatenate.png "The & Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Joins two strings together.|*string*&*string*|This command works on all calculators.|2 bytes|
        
 ### Menu Location

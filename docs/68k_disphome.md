@@ -1,7 +1,7 @@
 ![The DispHome Command](68k_disphome/DispHome.gif "The DispHome Command")
            
 |Command Summary|Command Syntax|[Token Size](tokens.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns the user to the homescreen|Main command, no special syntax|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The randPoly() Command](68k_randpoly/randpoly.png "The randPoly() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random polynomial.|randPoly(*var*,*deg*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

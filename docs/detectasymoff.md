@@ -1,7 +1,7 @@
 ![The DetectAsymOff Command](detectasymoff/@ "The DetectAsymOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns asymptote detection off.|DetectAsymOff|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

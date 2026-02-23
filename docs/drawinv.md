@@ -1,7 +1,7 @@
 ![The DrawInv Command](drawinv/DRAWINV.GIF "The DrawInv Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws the inverse of a curve in terms of X.|DrawInv *curve*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

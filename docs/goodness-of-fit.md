@@ -1,6 +1,6 @@
 # χ² Goodness-of-fit Test
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Performs a chi-square goodness-of-fit test, to determine if an observation fits a distribution.<br><br>The TI-84+ and TI-84+ SE have a command, [χ²GOF-Test(](http://tibasicdev.github.io/chisquaregof-test), that does the same thing.|*L₁* - observed counts of the outcomes<br>*L₂* - expected counts of their outcomes, or their distribution|*X* - the χ² statistic for the data.<br>*F* - the df (degrees of freedom) statistic.<br>*P* - the probability value of the test.|L₁, L₂, X, F, P|[file gof-test.zip]|
 
 ```

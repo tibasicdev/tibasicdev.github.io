@@ -1,6 +1,6 @@
 # Wordwrapping Text on the Graphscreen
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Displays text on several lines on the graph screen.|*Str1* - text to display<br>*A* - starting row<br>*B* - starting column|None|Str1, A, B, C, Ans|[file wordwrap.zip]|
 
 ```

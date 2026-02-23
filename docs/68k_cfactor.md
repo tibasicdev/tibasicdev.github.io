@@ -1,7 +1,7 @@
 ![Cfactor](68k_cfactor/sample.png "Cfactor")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |factors the first argument for all its variables or for var.|cFactor(expression1[,var])<br>cFactor(list1[,var])<br>cFactor(matrix1[,var])|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

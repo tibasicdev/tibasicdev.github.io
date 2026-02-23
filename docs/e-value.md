@@ -1,7 +1,7 @@
 ![The e Command](e-value/E.PNG "The e Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The mathematical constant *[e](http://mathworld.wolfram.com/e.html)*.|*e*|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location

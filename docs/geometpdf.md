@@ -1,7 +1,7 @@
 ![The geometpdf( Command](geometpdf/GEOMETPDF.GIF "The geometpdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the geometric probability for a single value|geometpdf(*probability*, *trials*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location

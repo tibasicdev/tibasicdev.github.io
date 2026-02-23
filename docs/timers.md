@@ -1,6 +1,6 @@
 # Timers
 |Routine Summary|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates amount of time that passes.|Ans|H, M, S, T| TI-BD Community|
 
 ```
@@ -27,7 +27,7 @@ First, the clock makes sure you are ready to start the timer; it awaits you to p
 This program is a basic example of how startTmr and checkTmr( can be used to count time.  Unfortunately, this only works for the TI-84 series that have time compatibility.
 ----
 |Routine Summary|Inputs|Variables Used|Author|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Counts down from a given time.|M, S|T, M, S,—A—| TI-BD Community|
 ```
 :Input "Minutes:",M

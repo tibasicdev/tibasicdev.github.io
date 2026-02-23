@@ -1,7 +1,7 @@
 ![The Title Command](68k_title/title.png "The Title Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Supplies the title text in one of several types of menus.|Title *text*<br><br>or (with [68k:ToolBar](68k:toolbar.html) only)<br><br>Title *text-or-icon*[,*label*]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

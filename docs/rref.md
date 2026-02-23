@@ -1,7 +1,7 @@
 ![The rref( Command](rref/RREF.GIF "The rref( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts a matrix into reduced row-echelon form.|rref(*matrix*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

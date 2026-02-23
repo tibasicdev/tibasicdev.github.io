@@ -1,6 +1,6 @@
 # Pythagorean Triples
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Displays the Pythagorean triples.|*C* - how many triples you want to display|None|A, B, C|Weregoose|[file pythagoreantriples.zip]|
 
 ```

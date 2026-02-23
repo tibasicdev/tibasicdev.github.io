@@ -1,7 +1,7 @@
 ![The LinReg(ax+b) Command](linreg-ax-b/ "The LinReg(ax+b) Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit line through a set of points.|LinReg(ax+b) [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

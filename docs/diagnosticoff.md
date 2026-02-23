@@ -1,7 +1,7 @@
 ![The DiagnosticOff Command](diagnosticoff/DIAGNOSTICOFF.GIF "The DiagnosticOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes settings so that the correlation variables, r and r<sup>2</sup>, are not displayed when calculating a regression|DiagnosticOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

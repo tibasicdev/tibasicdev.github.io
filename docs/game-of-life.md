@@ -1,6 +1,6 @@
 # Conway's Game of Life
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Displays Conway's Game of Life on the screen.|*∟X* - the list of X coordinates<br>*∟Y* - the list of Y coordinates|None|∟X, ∟Y, ∟P, ∟Q, S, X, Y|DarkerLine|[file gameoflife.zip]|
 
 ```

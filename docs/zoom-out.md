@@ -1,7 +1,7 @@
 ![The Zoom Out Command](zoom-out/ZOOMOUT.GIF width="192" height="128" style="border: 1px solid black;" "The Zoom Out Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Zooms to a larger graphing window with the same center.|Zoom Out|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

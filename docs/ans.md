@@ -1,7 +1,7 @@
 ![The Ans Variable](ans/ANS.GIF "The Ans Variable")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the last answer.|Ans[*→Variable*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

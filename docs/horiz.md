@@ -1,7 +1,7 @@
 ![The Horiz Command](horiz/HORIZ.gif "The Horiz Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the screen mode to Horiz.|Horiz|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

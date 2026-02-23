@@ -1,7 +1,7 @@
 ![The AUTO Answer Command](auto-answer/ "The AUTO Answer Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Mode command that sets Answers to AUTO.|AUTO Answer|TI-84 2.53MP only|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The ShadeNorm( Command](shadenorm/SHADENORM.GIF "The ShadeNorm( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the probability of an interval of the normal curve, and graphs the normal curve with the interval's area shaded.|ShadeNorm(*lower*, *upper*, [*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

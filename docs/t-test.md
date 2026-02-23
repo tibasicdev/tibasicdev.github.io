@@ -1,7 +1,7 @@
 ![The T-Test Command](t-test/TTEST.GIF "The T-Test Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a Student's *t* significance test.|T-Test *μ<sub>0</sub>*, [*list*, *frequency*, *alternative*, *draw?*]<br>(data list input)<br><br>T-Test *μ<sub>0</sub>*, *sample mean*, *sample std. dev.*, *sample size*, [*alternative*, *draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

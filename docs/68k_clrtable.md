@@ -3,7 +3,7 @@
 ![Clrtable](68k_clrtable/sample.png "Clrtable")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears table values|This command takes no arguments|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

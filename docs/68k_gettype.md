@@ -1,7 +1,7 @@
 ![The getType() Command](68k_gettype/gettype.png "The getType() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the variable type of a variable|getType(*variable*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

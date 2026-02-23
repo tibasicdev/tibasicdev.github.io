@@ -1,7 +1,7 @@
 ![The Fcdf( Command](fcdf/FCDF.GIF "The Fcdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the *F*-distribution probability betwen *lower* and *upper* for specified numerator and denominator degrees of freedom.|Fcdf(*lower*, *upper*, *numerator df*, *denominator df*|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

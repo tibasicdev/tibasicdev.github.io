@@ -1,7 +1,7 @@
 ![The Prgm...EndPrgm Command Block](68k_prgm/prgm.png "The Prgm...EndPrgm Command Block")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Defines a set of lines as executable program code.|Prgm<br>*program code*<br>EndPrgm|This command works on all calculators.|4 bytes|
        
 ### Menu Location

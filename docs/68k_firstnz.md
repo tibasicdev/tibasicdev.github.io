@@ -1,6 +1,6 @@
 # First Non-Zero Element
 |Routine Summary|Inputs|Outputs|Variables Used|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Looks through a list to find the first non-zero element.|*list* - The list or list variable to look through.|The index of the first non-zero element in the list.<br><br>If all the elements are zero, the result is one greater than the size of the list.|None erased.|
 
 ```

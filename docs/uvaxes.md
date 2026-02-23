@@ -1,7 +1,7 @@
 ![The uvAxes Command](uvaxes/UVAXES.GIF "The uvAxes Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the u and v sequence equations to be graphed against each other.|uvAxes|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,6 +1,6 @@
 # Deck of Cards
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Simulates a standard 52-card deck of cards.|None|*∟DECK* - the cards, in the format:<br><br>Value.Suit<br><br>Value is 1..13<br>Suit is 0, .25, .5, .75|L₁, ∟DECK|[file deckofcards.zip]|
 
 **Creating the deck**

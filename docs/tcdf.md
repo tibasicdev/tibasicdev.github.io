@@ -1,7 +1,7 @@
 ![The tcdf( Command](tcdf/TCDF.GIF "The tcdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the Student's *t* probability betwen *lower* and *upper* for degrees of freedom ν.|tcdf(*lower*, *upper*, *ν*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

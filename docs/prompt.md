@@ -1,7 +1,7 @@
 ![The Prompt Command](prompt/PROMPT_ANIMATED.gif "The Prompt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Prompts the user to enter values for variables and then stores those values to the variables.|Prompt *variableA*[,*variableB*,...]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

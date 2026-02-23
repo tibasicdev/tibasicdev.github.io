@@ -1,7 +1,7 @@
 ![The LinRegTInt Command](linregtint/ "The LinRegTInt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the linear regression of two sets of data with a confidence interval for the slope coefficient.|LinRegTInt [*x-list*, *y-list*, [*frequency*], [*confidence level*], [*equation*]]|TI-84+(SE) OS 2.30 or greater|2 bytes|
 
 ### Menu Location

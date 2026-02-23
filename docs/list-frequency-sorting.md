@@ -1,6 +1,6 @@
 # List Frequency Sorting
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Sorts a list based on frequency, then by value|*L₁* - A list to be sorted|*L₁* - The original list, sorted by frequency of elements|L₁, L₂, L₃|Trenly|
 
 ```

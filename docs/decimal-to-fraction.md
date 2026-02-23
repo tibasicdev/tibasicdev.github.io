@@ -1,6 +1,6 @@
 # Decimal to Fraction
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Converts a decimal number to a fraction.|*Ans* - the number you want to convert to a fraction|*Ans* - the fraction in list format|Ans, X|Weregoose|[file decimaltofraction.zip]|
 
 ```

@@ -1,7 +1,7 @@
 ![The ClrIO Command](68k_clrio/clrio.png "The ClrIO Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Clears the program IO screen|Use on the homescreen or in a program. Invalid in a function.|This command works on all calculators.|2 bytes|
        
 ### Menu Location

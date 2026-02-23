@@ -1,7 +1,7 @@
 ![The augment( Command](augment/AUGMENT.GIF "The augment( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Combines two lists or matrices into one. In the case of matrices, this is done horizontally rather than vertically.|augment(*list1*,*list2*<br><br>augment(*matrix1*,*matrix2*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

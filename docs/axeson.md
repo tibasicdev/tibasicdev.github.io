@@ -1,7 +1,7 @@
 ![The AxesOn Command](axeson/AXESON.GIF "The AxesOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables the X- and Y- axes on the graph screen.|AxesOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

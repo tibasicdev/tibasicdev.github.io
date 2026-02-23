@@ -1,6 +1,6 @@
 # Index Finder
 |Routine Summary|Inputs|Outputs|Author|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the index number of an element searched for within a list|*X* - Element that it's finding<br>*L₁* - List that's being searched<br>*N* - The occurrence to search for|*Ans* - Index number of element searched.|RogueBantha, CubeBag|
 
 ```

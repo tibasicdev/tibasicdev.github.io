@@ -1,7 +1,7 @@
 ![The End Command](end/for/FOR_ANIMATED.gif "The End Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Indicates the end of a block of statements.|If *condition*<br>Then<br>*statement(s)*<br>End<br><br>While *condition*<br>*statement(s)*<br>End<br><br>Repeat *condition*<br>*statement(s)*<br>End<br><br>For(*variable*,*start*,*end*[,*step*])<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

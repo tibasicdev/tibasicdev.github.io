@@ -1,7 +1,7 @@
 ![The piecewise( Command](piecewise/piecewise(.png "The piecewise( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Graphs up to 5 piecewise expressions.|(expression, condition [,expression, condition]) <br><br>Up to 5 (expression,condition) pieces are allowed.|TI-84+CE OS 5.3|2 bytes|
 
 ### Menu Location

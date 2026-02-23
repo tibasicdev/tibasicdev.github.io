@@ -1,7 +1,7 @@
 ![The char() Command](68k_char/char.png "The char() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a character given its ASCII code.|char(*code*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

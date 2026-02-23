@@ -1,7 +1,7 @@
 ![The AndPic Command](68k_andpic/andpic.png "The AndPic Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Logically "ands" a picture variable and the graph screen at *[row, column]*|AndPic *picVar*,*[row, column]*|This command works on all calculators.|
        
 ### Menu Location

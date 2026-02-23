@@ -1,7 +1,7 @@
 ![The Select( Command](select/SELECT.GIF "The Select( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Allows the user to select a subinterval of any enabled Scatter or xyLine plots.|Select(*x-list name*, *y-list name*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

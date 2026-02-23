@@ -1,6 +1,6 @@
 # Number to String
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a real number to a string.|*N* - the number you want to convert|*Str1* - the number N in string form|L₁, L₂, Y₁, Str1, N|[file numbertostring.zip]|
 
 **Note:** If you have a TI-84+ CE with OS 5.2 or higher, you can ignore this entire routine and just use the [`toString(`](tostring.html) command.

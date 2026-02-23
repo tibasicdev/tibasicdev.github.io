@@ -1,7 +1,7 @@
 ![The Circle( Command](circle/CIRCLE.GIF "The Circle( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a circle.|Circle(*X*,*Y*,*r*)<br><br>(83+ and higher only)<br>Circle(*X*,*Y*,*r*,{*i*})<br><br>(84+ CSE only)<br>Circle(*X*,*Y*,*r*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

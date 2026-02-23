@@ -1,7 +1,7 @@
 ![The variance( Command](variance/VARIANCE.GIF "The variance( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the sample variance of a list.|variance(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

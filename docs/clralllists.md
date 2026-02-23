@@ -1,7 +1,7 @@
 ![The ClrAllLists Command](clralllists/CLRALLLISTS.GIF "The ClrAllLists Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the size of all defined lists to 0 (equivalent to applying the [ClrList](clrlist.html) command to all defined lists).|ClrAllLists|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Real Command](real-mode/REAL.GIF "The Real Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables real number only mode.|Real|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

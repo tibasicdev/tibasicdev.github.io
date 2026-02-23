@@ -1,7 +1,7 @@
 ![The npv( Command](npv/NPV.GIF "The npv( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Computes the net present value of money over a specified time period.|npv(*interest rate*,*CF0*,*CFList*[,*CFFreq*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

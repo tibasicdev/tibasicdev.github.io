@@ -10,7 +10,7 @@ Some commands have a superscript next to them that indicates compatibility:
 ![Catalog](catalog/ "Catalog")
            
 |Command Summary|
-|--- |
+| --- |
 |Displays a list of most available commands in alphabetical order.|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The % Command](percent/PERCENT.GIF "The % Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Short for dividing by 100.|*value*%|TI-83/84+/SE, OS v1.15+|2 bytes|
 
 ### Menu Location

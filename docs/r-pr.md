@@ -1,7 +1,7 @@
 ![The R►Pr( Command](r-pr/RTOPR.GIF "The R►Pr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |R►Pr( calculates the radius component (in polar coordinates) given the Cartesian coordinates.|R►Pr(*x*,*y*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

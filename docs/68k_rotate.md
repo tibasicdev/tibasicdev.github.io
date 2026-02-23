@@ -1,7 +1,7 @@
 ![The rotate() Command](68k_rotate/rotate.png "The rotate() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Rotates a string, list, or binary integer.|rotate(*object*,*places*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The xor Command](68k_xor/xor.png "The xor Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Tests if exactly one of two conditions is true.<br>Can also be used as a bitwise "xor" on integers.|*condition1* xor *condition2*<br>*integer1* xor *integer2*|This command works on all calculators.|1 byte|
        
 ### Menu Location

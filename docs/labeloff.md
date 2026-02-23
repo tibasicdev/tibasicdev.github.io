@@ -1,7 +1,7 @@
 ![The LabelOff Command](labeloff/LABELOFF.GIF "The LabelOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Disables labels on the X and Y coordinate axes.|LabelOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The Fix Command](fix/FIX.GIF "The Fix Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Puts the calculator in fixed-point display mode, displaying *value* digits after the decimal.|Fix *value*|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The approx() Command](68k_approx/approx.png "The approx() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gives a decimal approximation of an expression.|approx(*expression*)|This command works on all calculators.|7 bytes|
        
 ### Menu Location

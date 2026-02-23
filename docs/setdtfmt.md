@@ -1,7 +1,7 @@
 ![The setDtFmt( Command](setdtfmt/SETDTFMT.PNG "The setDtFmt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the date format of the clock on the TI-84+/SE.|setDtFmt(*value*)|TI-84+/SE|2 bytes|
 
 ### Menu Location

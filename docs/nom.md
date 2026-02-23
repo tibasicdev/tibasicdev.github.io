@@ -1,7 +1,7 @@
 ![The ►Nom( Command](nom/NOM.GIF "The ►Nom( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts an effective interest rate to a nominal interest rate.|►Nom(*interest rate*,*compounding periods*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

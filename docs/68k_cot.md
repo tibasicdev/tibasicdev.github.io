@@ -1,7 +1,7 @@
 ![The cot() Command](68k_cot/cot.png "The cot() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the cotangent of a number (usually, an angle).|cot(*angle*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location

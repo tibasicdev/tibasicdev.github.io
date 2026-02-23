@@ -1,6 +1,6 @@
 # Highlighting Text
 |Routine Summary|Inputs|Outputs|Variables Used|Download|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Highlights text, displaying it in white on a black background.|*Str1* - text to be displayed<br>*A* - row coordinate of the text<br>*B* - column coordinate of the text<br>*W* - pixel width of the text|None|Str1, A, B, C, W|[file highlighttext.zip]|
 
 ```

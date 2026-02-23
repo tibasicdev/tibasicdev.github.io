@@ -1,7 +1,7 @@
 ![The DiagnosticOn Command](diagnosticon/DIAGNOSTICON.GIF "The DiagnosticOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Changes settings so that the correlation variables, r and r² (or R²), are displayed when calculating a regression|DiagnosticOn|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

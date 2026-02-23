@@ -1,7 +1,7 @@
 ![The geometcdf( Command](geometcdf/GEOMETCDF.GIF "The geometcdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the cumulative geometric probability for a single value|geometcdf(*probability*, *trials*)|TI-83/84/+/SE/CSE/+CE|2 bytes|
 
 ### Menu Location

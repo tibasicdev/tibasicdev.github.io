@@ -1,7 +1,7 @@
 ![The Get( Command](get/GET.GIF "The Get( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Gets a variable's value from a connected calculator or CBL device.|Get(*variable*)|TI-83/84/+/SE/CSE/CE*|1 byte<br><br><br><sub>*OS 5.1.5 or later</sub>|
 
 ### Menu Location

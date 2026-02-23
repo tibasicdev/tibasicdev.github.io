@@ -1,7 +1,7 @@
 ![The ExecLib Command](execlib/http://tibasicdev.wdfiles.com/local—files/openlib/OPENLIB.png "The ExecLib Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calls a library routine from an application opened with [http://tibasicdev.github.io/OpenLib( OpenLib(]|ExecLib|TI-84+/SE|2 bytes|
 
 ### Menu Location

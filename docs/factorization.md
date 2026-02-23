@@ -1,6 +1,6 @@
 # Number Factorization
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns the factors of a number.|*X* - the number you want to factor|*L₁* - the factors of the number|X, L₁, Ans|Weregoose|[file numberfactors.zip]|
 
 ```

@@ -1,7 +1,7 @@
 ![The ° Command](68k_degree/degree.png "The ° Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Converts an angle to degrees, if necessary.|*angle*°|This command works on all calculators.|2 bytes|
        
 ### Menu Location

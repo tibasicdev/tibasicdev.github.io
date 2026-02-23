@@ -1,7 +1,7 @@
 ![Sin](nspire_sin/nspire-sin "Sin")
            
 |Command Summary|
-|--- |
+| --- |
 |Given an angle or list of angles θ, returns their sines. For matrix inputs, see [[[[nspire:scalar-on-mat|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The setTime() Command](68k_settime/settime.png "The setTime() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the current time on the calculator's clock, returning the previous time setting.|setTime(*hours*,*minutes*,*seconds*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|3 bytes|
        
 ### Menu Location

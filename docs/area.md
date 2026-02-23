@@ -1,6 +1,6 @@
 # Area
 |Routine Summary|Inputs|Outputs|Variables Used|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the area of any regular polygon.|N,S|F|A,B,F,N,P,S,V|
 
 ```

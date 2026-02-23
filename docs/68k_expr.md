@@ -1,7 +1,7 @@
 ![The expr() Command](68k_expr/expr.png "The expr() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Runs code stored inside a string.|expr(*string*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

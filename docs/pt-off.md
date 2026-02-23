@@ -1,7 +1,7 @@
 ![The Pt-Off( Command](pt-off/PT-OFF.gif "The Pt-Off( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns off a point on the graph screen.|Pt-Off(X,Y[,*mark*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

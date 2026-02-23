@@ -1,7 +1,7 @@
 ![Blddata](68k_blddata/sample.png "Blddata")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Creates data variable dataVar based on the information used to plot the current graph.|BldData [*dataVar*]|This command works on all calculators.|? byte(s)|
        
 ### Menu Location

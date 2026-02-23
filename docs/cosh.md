@@ -1,7 +1,7 @@
 ![The cosh( Command](cosh/COSH.GIF "The cosh( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the hyperbolic cosine of a value.|cosh(*value*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

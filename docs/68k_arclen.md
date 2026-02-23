@@ -1,7 +1,7 @@
 ![The arcLen() Command](68k_arclen/arclen.png "The arcLen() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the arc length of *expression1* from *start* to *end* with respect to variable *var*.|arcLen(*expression1*,*var*,*start*,*end*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

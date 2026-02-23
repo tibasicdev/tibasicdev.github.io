@@ -1,7 +1,7 @@
 ![The LinReg(a+bx) Command](linreg-a-bx/ "The LinReg(a+bx) Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Calculates the best fit line through a set of points.|LinReg(a+bx) [*x-list*, *y-list*, [*frequency*], [*equation*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

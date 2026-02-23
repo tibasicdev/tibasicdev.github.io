@@ -1,7 +1,7 @@
 ![The 2-SampFTest Command](2-sampftest/2-SAMPFTEST.GIF "The 2-SampFTest Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a *F*-test to compare the standard deviations of two populations.|2-SampFTest [*list1*, *list2*, *frequency1*, *frequency2*, *alternative*,*draw?*]<br>(data list input)<br><br>2-SampFTest *s<sub>1</sub>*, *n<sub>1</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*alternative*,*draw?*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

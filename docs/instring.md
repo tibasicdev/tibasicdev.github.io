@@ -1,7 +1,7 @@
 ![The inString( Command](instring/INSTRING.GIF "The inString( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the first occurrence of a search string in a larger string.|inString(*haystack*, *needle*, *starting point*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location

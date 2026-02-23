@@ -1,7 +1,7 @@
 ![The and Command](and/AND.GIF "The and Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the logical value of *value1* and *value2* being true.|*value1* and *value2*|TI-83/84/+/SE/CSE/CE|1 byte|
 
 ### Menu Location

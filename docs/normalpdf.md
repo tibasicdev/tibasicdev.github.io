@@ -1,7 +1,7 @@
 ![The normalpdf( Command](normalpdf/NORMALPDF.GIF "The normalpdf( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Evaluates the normal probability density function at a point.|normalpdf(*x*[,*μ*, *σ*])|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

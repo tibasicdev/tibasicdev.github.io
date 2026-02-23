@@ -1,7 +1,7 @@
 ![The median( Command](median/MEDIAN.GIF "The median( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the median of a list.|median(*list*,[*freqlist*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

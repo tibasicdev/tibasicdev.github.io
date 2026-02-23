@@ -1,6 +1,6 @@
 # Instant Messenger
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |A simple instant messaging program.|Str3|None|A, Str1, Str2, Str3|James Kanjo|[file im.zip]|
 
 ```

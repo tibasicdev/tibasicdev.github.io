@@ -1,7 +1,7 @@
 ![The randIntNoRep( Command](randintnorep/randIntNoRep.gif "The randIntNoRep( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Used to create random lists|randIntNoRep(start,end)|OS 2.53MP and TI-84+/SE|2 bytes (EF35h)|
 
 ### Menu Location

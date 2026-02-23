@@ -1,7 +1,7 @@
 ![The ANOVA( Command](anova/ANOVA.GIF "The ANOVA( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Performs a one way ANOVA (analysis of variance) test to compare the means of multiple populations (up to 20).|ANOVA(*list*, *list*, …|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location

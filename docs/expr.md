@@ -1,7 +1,7 @@
 ![The expr( Command](expr/EXPR.GIF "The expr( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the value of a string that contains an expression.|expr(*string*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

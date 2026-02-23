@@ -1,7 +1,7 @@
 ![The csch() Command](68k_csch/csch.png "The csch() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the hyperbolic cosecant of a number.|csch(*value*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|1 byte|
        
 ### Menu Location

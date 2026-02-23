@@ -1,7 +1,7 @@
 ![The Archive Command](68k_archive/archive.png "The Archive Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Moves a variable from RAM to the archive.|Archive *variable*, [*another*, ...]|This command works on all calculators.|3 bytes|
        
 ### Menu Location

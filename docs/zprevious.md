@@ -1,7 +1,7 @@
 ![The ZPrevious Command](zprevious/Zprevious_example.gif "The ZPrevious Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Restores the basic window settings as they were before the last zoom command.|ZPrevious|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

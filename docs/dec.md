@@ -1,7 +1,7 @@
 ![The ►Dec Command](dec/DEC.GIF "The ►Dec Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Displays the decimal form of a fraction.|*<fraction>*►Dec|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location

@@ -1,6 +1,6 @@
 # Binary To Decimal
 |Routine Summary|Inputs|Outputs|Variables Used|Author|
-|--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- |
 |Converts a binary (base 2) number to a decimal (base 10) number.|*Ans* - The binary number that you want to convert expressed as a list, stored in Ans.|*Ans* - The decimal representation of the binary number.|Ans, A|imcoraline|
 
 ```

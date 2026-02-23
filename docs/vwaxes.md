@@ -1,7 +1,7 @@
 ![The vwAxes Command](vwaxes/VWAXES.GIF "The vwAxes Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the v and w sequence equations to be graphed against each other.|vwAxes|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

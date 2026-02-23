@@ -1,7 +1,7 @@
 ![The Shade( Command](shade/SHADE.GIF "The Shade( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Graphs two functions and shades the area between them.|Shade(*lower func*, *upper func*, [*xmin*, *xmax*, *pattern #*, *resolution*])|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

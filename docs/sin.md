@@ -1,7 +1,7 @@
 ![The sin( Command](sin/SIN.GIF "The sin( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the sine of a real number.|sin(*angle*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

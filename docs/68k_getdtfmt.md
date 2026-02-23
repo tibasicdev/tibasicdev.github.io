@@ -1,7 +1,7 @@
 ![The getDtFmt() Command](68k_getdtfmt/getdtfmt.png "The getDtFmt() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the current default date format.|getDtFmt()|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|3 bytes|
        
 ### Menu Location

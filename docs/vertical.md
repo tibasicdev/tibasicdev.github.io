@@ -1,7 +1,7 @@
 ![The Vertical Command](vertical/VERTICAL.GIF "The Vertical Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Draws a vertical line on the graph screen.|Vertical *X*|TI-83/84/+/SE/C/CSE|1 byte|
 
 ### Menu Location

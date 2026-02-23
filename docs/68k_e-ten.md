@@ -1,7 +1,7 @@
 ![The EE Command](68k_e-ten/E.png "The EE Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The E symbol is used for entering numbers in scientific notation.|*mantissa* E *exponent*|This command works on all calculators.|1 byte|
        
 ### Menu Location

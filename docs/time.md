@@ -1,7 +1,7 @@
 ![The Time Command](time/TIME.GIF "The Time Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Sets the way sequence equations are graphed to value vs. time.|Time|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

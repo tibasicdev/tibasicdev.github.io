@@ -1,7 +1,7 @@
 ![Statwizard Off](statwizard-off/ "Statwizard Off")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns the stat wizard off.|STATWIZARD OFF|TI-84/+/SE 2.55 MP|2 bytes|
 
 ### Menu Location

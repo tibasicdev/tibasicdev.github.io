@@ -1,7 +1,7 @@
 ![The dayOfWk command](68k_dayofwk/dayofwk.png "The dayOfWk command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns an integer from 1-7 that shows what day of week it is for a specific date.|dayOfWk(*year, month, day*)|This command requires a calculator with AMS version 2.07 or higher (it will also work on any TI-89 Titanium or Voyage 200 calculator)|
        
 ### Menu Location

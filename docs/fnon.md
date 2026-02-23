@@ -1,7 +1,7 @@
 ![The FnOn Command](fnon/FNON.GIF "The FnOn Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Turns on equations in the Y= editor (all of them, or only the ones specified)|FnOn [*equation numbers*]|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

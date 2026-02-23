@@ -1,7 +1,7 @@
 ![The ³√( Command](cube-root/CUBEROOT.GIF "The ³√( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Take the cube root of a number.|³√(*input*)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

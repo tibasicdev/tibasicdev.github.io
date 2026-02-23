@@ -1,6 +1,6 @@
 # Numerically Index Words
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Authors|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Retrieves a word from an indexed string of words with an index number.|*A* - The word's index number<br>*Str0* - The index of words|*Str1* - The word|A, Str0, Str1|ADeadBody|ADeadBody|
 
 ```

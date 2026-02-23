@@ -1,7 +1,7 @@
 ![The 2-SampTInt Command](2-samptint/2-SAMPTINT.GIF "The 2-SampTInt Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Using either already-calculated statistics, or two data sets, computes a T confidence interval for the difference between two sample means.|2-SampTInt *list1*, *list2*, [*frequency1*], [*frequency2*], [*confidence level*, *pooled*]<br>(data list input)<br><br>2-SampTInt *x<sub>1</sub>*, *s<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *s<sub>2</sub>*, *n<sub>2</sub>*, [*confidence level*, *pooled*]<br>(summary stats input)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

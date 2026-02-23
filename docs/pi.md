@@ -1,7 +1,7 @@
 ![The π Command](pi/PI.PNG "The π Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |The mathematical constant [π](http://mathworld.wolfram.com/pi.html)|π|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

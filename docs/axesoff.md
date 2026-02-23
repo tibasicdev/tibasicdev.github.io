@@ -1,7 +1,7 @@
 ![The AxesOff Command](axesoff/AXESOFF.GIF "The AxesOff Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Disables the X- and Y- axes on the graph screen.|AxesOff|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

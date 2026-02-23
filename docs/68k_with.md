@@ -1,7 +1,7 @@
 ![The | Command](68k_with/with.png "The | Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Substitutes a value for a variable temporarily.|*expression*|This command works on all calculators.|1 byte|
        
 ### Menu Location

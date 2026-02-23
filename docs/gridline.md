@@ -1,7 +1,7 @@
 ![The GridLine Command](gridline/GridLine.png "The GridLine Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Enables a grid of colored lines on the graph screen.|GridLine [*color#*]|TI-84+ CSE/CE|2 bytes|
 
 ### Menu Location

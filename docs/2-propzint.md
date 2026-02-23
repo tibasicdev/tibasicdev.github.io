@@ -1,7 +1,7 @@
 ![The 2-PropZInt( Command](2-propzint/2-PROPZINT.GIF "The 2-PropZInt( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Computes a Z confidence interval of the difference between two proportions.|2-PropZInt(*x<sub>1</sub>*, *n<sub>1</sub>*, *x<sub>2</sub>*, *n<sub>2</sub>*, [*confidence level*]|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

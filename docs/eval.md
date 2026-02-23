@@ -1,7 +1,7 @@
 ![The eval( Command](eval/eval.png "The eval( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the string representation of the value of a real expression.|eval(*expression*)|TI-84+ CE OS 5.2|2 bytes|
 
 ### Menu Location

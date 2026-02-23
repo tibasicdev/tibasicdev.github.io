@@ -1,7 +1,7 @@
 ![The randBin( Command](randbin/RANDBIN.GIF "The randBin( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Generates a random number with the binomial distribution.|randBin(*n*,*p*,*# simulations*)|TI-83/84/+/SE|2 bytes|
 
 ### Menu Location

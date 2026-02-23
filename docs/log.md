@@ -1,7 +1,7 @@
 ![The log( Command](log/LOG.GIF "The log( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Computes the (principal branch of the) base 10 logarithm.|log(*value*)<br>log(*value*,*base*) (OS 2.53MP)|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

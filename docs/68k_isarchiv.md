@@ -1,7 +1,7 @@
 ![The isArchiv() Command](68k_isarchiv/isarchiv.png "The isArchiv() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Checks to see if a variable is archived|isArchiv(*variable*)|This command works on all calculators.|X byte(s)|
        
 ### Menu Location

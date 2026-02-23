@@ -1,6 +1,6 @@
 # Number Subset
 |Routine Summary|Inputs|Outputs|Variables Used|Author|Download|
-|--- |--- |--- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 |Returns a subset of a number.|*A* - the number to get the subset from<br>*B* - the starting position of the subset<br>*C* - the length of the subset|*Ans* - the subset of the number|A, B, C, Ans|Weregoose|[file numbersubset.zip]|
 
 ```

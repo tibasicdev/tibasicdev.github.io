@@ -1,7 +1,7 @@
 ![The .+ Command](68k_dotadd/dotadd.png "The .+ Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Adds two values, using element-by-element addition when adding a matrix and a number.|*value1* .+ *value2*|This command works on all calculators.|1 byte|
        
 ### Menu Location

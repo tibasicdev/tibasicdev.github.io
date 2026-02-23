@@ -1,7 +1,7 @@
 ![The min() Command](68k_min/min.png "The min() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Finds the lowest numerical value from arguements|min(arg1,[arg2])|This command works on all calculators.|X|
        
 ### Menu Location

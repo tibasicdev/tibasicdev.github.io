@@ -1,7 +1,7 @@
 ![The Wait Command](wait/http://tibasicdev.github.io/local—files/wait/waitexample.gif "The Wait Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Suspends execution for a specified amount of time|Wait [seconds]|TI-84+ CE OS 5.2 or higher|2 bytes|
 
 ### Menu Location

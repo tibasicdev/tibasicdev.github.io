@@ -1,7 +1,7 @@
 ![The sin() Command](68k_sin/sin.png "The sin() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Takes the sine of a number (usually, an angle).|sin(*angle*)|This command works on all calculators.|1 byte|
        
 ### Menu Location

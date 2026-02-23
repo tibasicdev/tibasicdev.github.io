@@ -1,7 +1,7 @@
 ![The For( Command](for/FOR_ANIMATED.gif "The For( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Executes some commands many times, with a variable increasing from *start* to *end* by *step*, with the default value *step*=1.|For(*variable*,*start*,*end*[,*step*])<br>*statement(s)*<br>End|TI-83/84/+/SE|1 byte|
 
 ### Menu Location

@@ -1,7 +1,7 @@
 ![The angle( Command](angle/ANGLE.GIF "The angle( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns the complex argument of a complex number.|angle(*z*)|TI-83/84/+/SE/CSE/CE|2 bytes|
 
 ### Menu Location

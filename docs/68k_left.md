@@ -1,7 +1,7 @@
 ![The left() Command](68k_left/left.png "The left() Command")
        
 |Command Summary|Command Syntax|[Calculator Compatibility](68k:cross-compatibility.html)|[Token Size](6k:tokenization.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Returns a subsection from the left of a list or string, or the left hand side of an equation.|left(*equation*)<br>left(*list-or-string*,*length*)|This command works on all calculators.|2 bytes|
        
 ### Menu Location

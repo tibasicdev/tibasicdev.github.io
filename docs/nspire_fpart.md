@@ -1,7 +1,7 @@
 ![Fpart](nspire_fpart/sample.png "Fpart")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|
-|--- |--- |--- |
+| --- | --- | --- |
 |Returns the fractional part of a value.|fPart(*value*)|If this is only available on certain versions of the nspire|
 
 ### Menu Location

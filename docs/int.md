@@ -1,7 +1,7 @@
 ![The int( Command](int/INT.GIF "The int( Command")
            
 |Command Summary|Command Syntax|[Calculator Compatibility](compatibility.html)|[Token Size](tokens.html)|
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |Rounds a value down to the nearest integer.|int(*value*)|TI-83/84/+/SE/CE|1 byte|
 
 ### Menu Location
